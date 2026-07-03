@@ -36,19 +36,24 @@ const wrote = (v) =>
 const facts = [
   ["Citation", [c.citation?.us, c.citation?.sct].filter(Boolean).join(" · ") || null],
   ["Docket", c.docket],
+  ["Sources", c.provisional ? (c.sources ?? []).join(", ") : null],
+  ["Cert granted", fmtDate(c.dates?.granted)],
   ["Argued", fmtDate(c.dates?.argued)],
   ["Reargued", fmtDate(c.dates?.reargued)],
   ["Decided", fmtDate(c.dates?.decided)],
   ["Decision type", label(d.type)],
   ["Disposition", label(d.disposition)],
-  ["Winning party", label(d.winning_party)],
+  ["Winning party", label(d.winning_party) ?? d.winning_party_name],
   ["Issue area", label(c.issue?.area)],
   ["Issue code", c.issue?.code],
   ["Legal provision", [label(c.law?.type), c.law?.minor].filter(Boolean).join(" · ") || null],
   ["Jurisdiction", c.jurisdiction?.label ?? (c.jurisdiction ? `code ${c.jurisdiction.code}` : null)],
   ["Cert reason", label(c.cert_reason)],
+  ["Lower court", c.lower_court?.name],
   ["Lower court disposition", label(c.lower_court?.disposition)],
   ["Lower court direction", label(c.lower_court?.direction)],
+  ["Petitioner", c.parties?.petitioner_name],
+  ["Respondent", c.parties?.respondent_name],
   ["Unconstitutional", d.unconstitutional && d.unconstitutional !== "none" ? label(d.unconstitutional) : null],
 ].filter(([, v]) => v != null && v !== "");
 
@@ -70,7 +75,15 @@ function voteRow(v) {
     {[c.citation?.us, fmtDate(c.dates?.decided)].filter(Boolean).join(" · ")}
   </p>
 
+  {c.provisional && (
+    <p class="notice">
+      Provisional record ({(c.sources ?? []).join(" + ")}) — vote typology is coarse and
+      SCDB coding (issue area, direction, disposition) arrives with the annual release.
+    </p>
+  )}
+
   <div class="chips" style="margin-bottom: 16px">
+    {c.provisional && <span class="chip"><b>provisional</b></span>}
     {d.majority_votes != null && d.minority_votes != null && (
       <span class="chip"><b>{d.majority_votes}–{d.minority_votes}</b></span>
     )}

@@ -1,0 +1,68 @@
+id: 2025-d24-820
+name: Rutherford v. United States
+term: 2025
+provisional: true
+sources:
+- oyez
+- courtlistener
+docket: 24-820
+dates:
+  granted: '2025-06-06'
+  argued: '2025-11-12'
+  decided: '2026-05-28'
+decision:
+  type: opinion-of-the-court
+  winning_party: respondent
+  majority_votes: 6
+  minority_votes: 3
+lower_court:
+  name: United States Court of Appeals for the Third Circuit
+parties:
+  petitioner_name: Daniel Rutherford
+  respondent_name: United States of America
+opinions:
+  majority_author: ACBarrett
+votes:
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+  opinion: wrote
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: CThomas
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: SSotomayor
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+- justice: EKagan
+  vote: dissent
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: KBJackson
+  vote: dissent
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett

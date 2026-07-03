@@ -1,0 +1,69 @@
+id: 2025-d24-5438
+name: Bowe v. United States
+term: 2025
+provisional: true
+sources:
+- oyez
+- courtlistener
+docket: 24-5438
+dates:
+  granted: '2025-01-17'
+  argued: '2025-10-14'
+  decided: '2026-01-09'
+decision:
+  type: opinion-of-the-court
+  winning_party: petitioner
+  majority_votes: 5
+  minority_votes: 4
+lower_court:
+  name: United States Court of Appeals for the Eleventh Circuit
+parties:
+  petitioner_name: Michael Bowe
+  respondent_name: United States of America
+opinions:
+  majority_author: SSotomayor
+votes:
+- justice: SSotomayor
+  vote: majority
+  in_majority: true
+  opinion: wrote
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: EKagan
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: KBJackson
+  vote: regular-concurrence
+  in_majority: true
+  opinion: wrote
+  joined:
+  - SSotomayor
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: NMGorsuch
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+- justice: CThomas
+  vote: dissent
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: SAAlito
+  vote: dissent
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: ACBarrett
+  vote: dissent
+  in_majority: false
+  joined:
+  - NMGorsuch

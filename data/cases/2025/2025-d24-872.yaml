@@ -1,0 +1,51 @@
+id: 2025-d24-872
+name: Hamm v. Smith
+term: 2025
+provisional: true
+sources:
+- oyez
+- courtlistener
+docket: 24-872
+dates:
+  granted: '2025-06-06'
+  argued: '2025-12-10'
+  decided: '2026-05-21'
+decision:
+  winning_party_name: dismissal
+  majority_votes: 2
+  minority_votes: 4
+lower_court:
+  name: United States Court of Appeals for the Eleventh Circuit
+parties:
+  petitioner_name: John Q. Hamm, Commissioner, Alabama Department of Corrections
+  respondent_name: Joseph Clifton Smith
+votes:
+- justice: SSotomayor
+  vote: special-concurrence
+  in_majority: true
+  opinion: wrote
+- justice: KBJackson
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: CThomas
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+  joined:
+  - SAAlito
+- justice: SAAlito
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+- justice: JGRoberts
+  vote: dissent
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: NMGorsuch
+  vote: dissent
+  in_majority: false
+  joined:
+  - SAAlito

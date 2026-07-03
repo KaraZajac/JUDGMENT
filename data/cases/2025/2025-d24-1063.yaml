@@ -1,0 +1,74 @@
+id: 2025-d24-1063
+name: Hunter v. United States
+term: 2025
+provisional: true
+sources:
+- oyez
+- courtlistener
+docket: 24-1063
+dates:
+  granted: '2025-10-10'
+  argued: '2026-03-03'
+  decided: '2026-06-18'
+decision:
+  type: opinion-of-the-court
+  winning_party: petitioner
+  majority_votes: 8
+  minority_votes: 1
+lower_court:
+  name: United States Court of Appeals for the Fifth Circuit
+parties:
+  petitioner_name: Munson P. Hunter
+  respondent_name: United States of America
+opinions:
+  majority_author: EKagan
+votes:
+- justice: EKagan
+  vote: majority
+  in_majority: true
+  opinion: wrote
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - EKagan
+- justice: CThomas
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+  - EKagan
+- justice: SSotomayor
+  vote: majority
+  in_majority: true
+  joined:
+  - NMGorsuch
+  - EKagan
+- justice: NMGorsuch
+  vote: regular-concurrence
+  in_majority: true
+  opinion: wrote
+  joined:
+  - EKagan
+- justice: BMKavanaugh
+  vote: regular-concurrence
+  in_majority: true
+  opinion: wrote
+  joined:
+  - EKagan
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+  joined:
+  - EKagan
+  - BMKavanaugh
+- justice: KBJackson
+  vote: majority
+  in_majority: true
+  joined:
+  - EKagan
+  - NMGorsuch

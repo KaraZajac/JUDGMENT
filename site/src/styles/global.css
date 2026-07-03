@@ -165,6 +165,18 @@ table.data tbody tr:hover td { background: color-mix(in srgb, var(--surface) 55%
 .dbar .fill.lib { left: 50%; background: var(--lib); border-radius: 0 4px 4px 0; }
 .dbar .fill.con { right: 50%; background: var(--con); border-radius: 4px 0 0 4px; }
 
+/* provisional-data notice */
+.notice {
+  border-left: 3px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 7%, var(--surface));
+  border-radius: 0 8px 8px 0;
+  padding: 10px 14px;
+  font-size: 13.5px;
+  color: var(--ink-2);
+  margin: 0 0 18px;
+  max-width: 76ch;
+}
+
 /* chips & badges */
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {

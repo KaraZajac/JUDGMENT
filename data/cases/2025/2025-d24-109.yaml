@@ -1,0 +1,71 @@
+id: 2025-d24-109
+name: Louisiana v. Callais
+term: 2025
+provisional: true
+sources:
+- oyez
+- courtlistener
+docket: 24-109
+dates:
+  granted: '2024-11-04'
+  argued: '2025-03-24'
+  reargued: '2025-10-15'
+  decided: '2026-04-29'
+decision:
+  type: opinion-of-the-court
+  winning_party: petitioner
+  majority_votes: 6
+  minority_votes: 3
+lower_court:
+  name: Federal district court
+parties:
+  petitioner_name: Louisiana
+  respondent_name: Phillip Callais, et al.
+opinions:
+  majority_author: SAAlito
+votes:
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+  opinion: wrote
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: CThomas
+  vote: regular-concurrence
+  in_majority: true
+  opinion: wrote
+  joined:
+  - SAAlito
+- justice: EKagan
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+- justice: SSotomayor
+  vote: dissent
+  in_majority: false
+  joined:
+  - EKagan
+- justice: KBJackson
+  vote: dissent
+  in_majority: false
+  joined:
+  - EKagan
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+  joined:
+  - SAAlito
+  - CThomas
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+  joined:
+  - SAAlito

@@ -2,7 +2,7 @@
 import Base from "../layouts/Base.astro";
 import StatTile from "../components/StatTile.astro";
 import DivergingColumns from "../components/DivergingColumns.astro";
-import { meta, termsAgg, justiceIndex } from "../lib/data.js";
+import { meta, termsAgg, justiceIndex, termList } from "../lib/data.js";
 import { num } from "../lib/format.js";
 
 const m = meta();
@@ -12,6 +12,7 @@ const points = agg
   .map((t) => ({ x: t.term, value: t.liberal_share, n: t.liberal + t.conservative }));
 
 const lastTerm = m.counts.last_term;
+const latestTerm = termList().at(-1); // may exceed SCDB coverage (provisional ingest)
 const sitting = justiceIndex().filter((j) => j.last_term === lastTerm);
 ---
 
@@ -62,10 +63,12 @@ const sitting = justiceIndex().filter((j) => j.last_term === lastTerm);
       <div class="stat-value">Trajectories</div>
       <div class="stat-sub">Ideology over time, records, biographies</div>
     </a>
-    <a class="card" href={`/terms/${lastTerm}`} style="text-decoration:none">
+    <a class="card" href={`/terms/${latestTerm}`} style="text-decoration:none">
       <div class="stat-label">Latest term</div>
-      <div class="stat-value">{lastTerm}</div>
-      <div class="stat-sub">Dockets, splits, and outcomes</div>
+      <div class="stat-value">{latestTerm}</div>
+      <div class="stat-sub">
+        {latestTerm > lastTerm ? "Provisional — live from Oyez/CourtListener" : "Dockets, splits, and outcomes"}
+      </div>
     </a>
     <a class="card" href="/courts" style="text-decoration:none">
       <div class="stat-label">Natural courts</div>

@@ -34,4 +34,6 @@ baseline. Light/dark are both first-class (`prefers-color-scheme`). Every chart 
 hover/focus tooltips and a collapsible data table; identity is never color-alone.
 
 Term aggregates come from `python3 -m pipeline.aggregates` (→ `data/aggregates/`);
-re-run it after rebuilding the dataset.
+re-run it after rebuilding the dataset. Provisional current-term cases (from
+`pipeline.interim`) render with a notice banner and honest "—" wherever SCDB coding
+doesn't exist yet.

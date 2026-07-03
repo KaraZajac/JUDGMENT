@@ -1,0 +1,74 @@
+id: 2025-d24-1287
+name: Learning Resources, Inc. v. Trump
+term: 2025
+provisional: true
+sources:
+- oyez
+- courtlistener
+docket: 24-1287
+dates:
+  granted: '2025-09-09'
+  argued: '2025-11-05'
+  decided: '2026-02-20'
+decision:
+  type: opinion-of-the-court
+  winning_party: petitioner
+  majority_votes: 6
+  minority_votes: 3
+lower_court:
+  name: United States Court of Appeals for the District of Columbia Circuit
+parties:
+  petitioner_name: Learning Resources, Inc., et al.
+  respondent_name: Donald J. Trump, President of the United States, et al.
+opinions:
+  majority_author: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  opinion: wrote
+- justice: SSotomayor
+  vote: majority
+  in_majority: true
+  joined:
+  - JGRoberts
+  - EKagan
+- justice: EKagan
+  vote: regular-concurrence
+  in_majority: true
+  opinion: wrote
+  joined:
+  - JGRoberts
+- justice: NMGorsuch
+  vote: regular-concurrence
+  in_majority: true
+  opinion: wrote
+  joined:
+  - JGRoberts
+- justice: ACBarrett
+  vote: regular-concurrence
+  in_majority: true
+  opinion: wrote
+  joined:
+  - JGRoberts
+- justice: KBJackson
+  vote: regular-concurrence
+  in_majority: true
+  opinion: wrote
+  joined:
+  - JGRoberts
+- justice: CThomas
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+  joined:
+  - BMKavanaugh
+- justice: BMKavanaugh
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+- justice: SAAlito
+  vote: dissent
+  in_majority: false
+  joined:
+  - BMKavanaugh

@@ -30,7 +30,10 @@ const terms = [...termsAgg()].sort((a, b) => b.term - a.term);
         const total = t.liberal + t.conservative + t.unspecifiable || 1;
         return (
           <tr>
-            <td><a href={`/terms/${t.term}`}>{t.term}</a></td>
+            <td>
+              <a href={`/terms/${t.term}`}>{t.term}</a>
+              {t.provisional && <span class="badge" style="margin-left:8px">provisional</span>}
+            </td>
             <td class="n">{num(t.cases)}</td>
             <td style="min-width: 140px">
               <div

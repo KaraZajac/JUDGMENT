@@ -85,8 +85,15 @@ Requires Python ≥ 3.11 and PyYAML. From the repo root:
 ```sh
 python3 -m pipeline.download   # fetch newest SCDB releases (~96 MB CSV into sources/)
 python3 -m pipeline.build      # regenerate data/ (~29k YAML files, ~2 minutes)
+python3 -m pipeline.interim    # provisional current-term cases (Oyez + CourtListener)
+python3 -m pipeline.aggregates # per-term rollups for the site
 python3 -m pipeline.validate   # structural + consistency checks
 ```
+
+SCDB lands annually, so `interim` bridges the gap: the term in progress (and the one
+just ended) is ingested from Oyez and CourtListener as `provisional: true` records —
+votes and outcomes only, no SCDB coding — and replaced wholesale when the next SCDB
+release covers it.
 
 The build is deterministic: same sources + same curated inputs ⇒ identical YAML.
 Hand-maintained facts (appointments, confirmation votes, bios) live in
@@ -101,8 +108,10 @@ Hand-maintained facts (appointments, confirmation votes, bios) live in
   (http://scdb.wustl.edu / https://scdb.la.psu.edu).
 - **Curated justice background** — maintained in this repo for all 40 modern-era
   justices (see docs/sources.md for conventions).
+- **Oyez + CourtListener** — interim ingest of the current term (per-justice votes,
+  outcomes, dates) until SCDB's annual release catches up.
 - Planned: Martin–Quinn ideal points, Segal–Cover nominee scores, opinion texts
-  (supremecourt.gov U.S. Reports, CourtListener), oral-argument data (Oyez).
+  (supremecourt.gov U.S. Reports, CourtListener), oral-argument transcripts (Oyez).
   Details and status: [docs/sources.md](docs/sources.md).
 
 ## The goal

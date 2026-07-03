@@ -73,6 +73,33 @@ def main():
             entry["reversal_share"] = round(t["reversed"] / t["dispositions"], 3)
         out.append(entry)
 
+    # provisional terms ingested by pipeline.interim (beyond SCDB coverage):
+    # only vote-count facts are computable — no direction/reversal coding.
+    csv_max = max(terms) if terms else 0
+    for tdir in sorted((DATA / "cases").iterdir()):
+        if not tdir.name.isdigit() or int(tdir.name) <= csv_max:
+            continue
+        t = {"cases": 0, "unanimous": 0, "splits": defaultdict(int)}
+        for f in sorted(tdir.glob("*.yaml")):
+            c = yaml.safe_load(f.read_text(encoding="utf-8"))
+            t["cases"] += 1
+            dec = c.get("decision") or {}
+            maj, mnr = dec.get("majority_votes"), dec.get("minority_votes")
+            if isinstance(maj, int) and isinstance(mnr, int):
+                t["splits"][f"{maj}-{mnr}"] += 1
+                if mnr == 0:
+                    t["unanimous"] += 1
+        if t["cases"]:
+            out.append({
+                "term": int(tdir.name),
+                "provisional": True,
+                "cases": t["cases"],
+                "liberal": 0, "conservative": 0, "unspecifiable": 0,
+                "unanimous": t["unanimous"],
+                "splits": dict(sorted(t["splits"].items(),
+                                      key=lambda kv: -int(kv[0].split("-")[0]))),
+            })
+
     dest = DATA / "aggregates"
     dest.mkdir(exist_ok=True)
     payload = {

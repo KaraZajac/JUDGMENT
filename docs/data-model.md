@@ -105,6 +105,28 @@ votes:                         # from the justice-centered release; docket order
 | `jurisdictional-dissent` | 7 | jurisdictional dissent |
 | `equally-divided` | 8 | participation in an equally divided vote |
 
+### Provisional cases (current-term interim ingest)
+
+SCDB is annual, so the just-ended term is filled by `pipeline.interim` from Oyez +
+CourtListener until the next SCDB release. Provisional files live in the same
+`data/cases/<term>/` layout but differ deliberately:
+
+- `provisional: true` and `sources: [oyez, courtlistener]` are always present;
+  ids are docket-derived (`2025-d24-539`), **not** SCDB caseIds.
+- Only source-verifiable fields: name, docket, dates (including a
+  provisional-only `dates.granted`), vote counts, per-justice votes, majority
+  author, party **names** (`parties.petitioner_name`), lower court **name**.
+- No SCDB coding: no issue/direction/disposition, no party/court codes. Vote
+  typology is coarse — `majority` / `dissent`, plus concurrences split
+  regular/special by whether the justice also joined the majority author
+  (SCDB's definition, derived from Oyez `joining` data).
+- `decision.winning_party_name` holds Oyez's winner string when it isn't
+  matchable to petitioner/respondent (e.g. `dismissal` for a DIG).
+- Lifecycle: `pipeline.build` wipes `data/cases/`; re-run `pipeline.interim`
+  after every build. Once an SCDB release covers the term, interim skips it and
+  the canonical records take over. Provisional votes never feed justice
+  records/ideology — those stay SCDB-only.
+
 ## Justice files — `data/justices/<slug>.yaml`
 
 One file per justice who has ever cast a recorded vote (legacy + modern eras merged).

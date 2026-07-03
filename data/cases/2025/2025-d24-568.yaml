@@ -1,0 +1,67 @@
+id: 2025-d24-568
+name: Bost v. Illinois State Board of Elections
+term: 2025
+provisional: true
+sources:
+- oyez
+- courtlistener
+docket: 24-568
+dates:
+  granted: '2025-06-02'
+  argued: '2025-10-08'
+  decided: '2026-01-14'
+decision:
+  type: opinion-of-the-court
+  winning_party: petitioner
+  majority_votes: 7
+  minority_votes: 2
+lower_court:
+  name: United States Court of Appeals for the Seventh Circuit
+parties:
+  petitioner_name: Michael J. Bost
+  respondent_name: Illinois State Board of Elections
+opinions:
+  majority_author: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  opinion: wrote
+- justice: CThomas
+  vote: majority
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: KBJackson
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+- justice: SSotomayor
+  vote: dissent
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: EKagan
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+  opinion: wrote
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+  joined:
+  - JGRoberts

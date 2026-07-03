@@ -32,6 +32,10 @@ const next = i >= 0 && i < terms.length - 1 ? terms[i + 1] : null;
 
 const dirWord = (d) =>
   d === "conservative" ? "conservative" : d === "liberal" ? "liberal" : null;
+
+const directionTotal =
+  (agg.liberal ?? 0) + (agg.conservative ?? 0) + (agg.unspecifiable ?? 0);
+const isProvisional = agg.provisional || cases.some((c) => c.provisional);
 ---
 
 <Base title={`${term} Term`} description={`Supreme Court decisions of the ${term} term.`}>
@@ -44,6 +48,14 @@ const dirWord = (d) =>
   <p class="lede">
     {num(cases.length)} decided cases{cases[0]?.chief ? ` · ${cases[0].chief} Court` : ""}.
   </p>
+  {isProvisional && (
+    <p class="notice">
+      Provisional records from Oyez and CourtListener, refreshed by
+      <code> pipeline.interim</code>. SCDB coding — issue areas, ideological direction,
+      dispositions, formal citations — arrives with the annual SCDB release, which
+      replaces these files wholesale.
+    </p>
+  )}
 
   <div class="kpis">
     <StatTile label="Cases" value={num(agg.cases ?? cases.length)} />
@@ -53,18 +65,20 @@ const dirWord = (d) =>
   </div>
 
   <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px">
-    <section class="card viz">
-      <h3>Decision direction</h3>
-      <p class="viz-sub">SCDB direction coding across the term's decisions.</p>
-      <StackBar
-        caption={`Direction mix of the ${term} term`}
-        segments={[
-          { key: "lib", label: "liberal", value: agg.liberal ?? 0 },
-          { key: "con", label: "conservative", value: agg.conservative ?? 0 },
-          { key: "mid", label: "unspecifiable", value: agg.unspecifiable ?? 0 },
-        ]}
-      />
-    </section>
+    {directionTotal > 0 && (
+      <section class="card viz">
+        <h3>Decision direction</h3>
+        <p class="viz-sub">SCDB direction coding across the term's decisions.</p>
+        <StackBar
+          caption={`Direction mix of the ${term} term`}
+          segments={[
+            { key: "lib", label: "liberal", value: agg.liberal ?? 0 },
+            { key: "con", label: "conservative", value: agg.conservative ?? 0 },
+            { key: "mid", label: "unspecifiable", value: agg.unspecifiable ?? 0 },
+          ]}
+        />
+      </section>
+    )}
     {splitRows.length > 0 && (
       <section class="card viz">
         <h3>Vote splits</h3>

@@ -1,0 +1,68 @@
+id: 2025-d23-1197
+name: Landor v. Louisiana Department of Corrections
+term: 2025
+provisional: true
+sources:
+- oyez
+- courtlistener
+docket: 23-1197
+dates:
+  granted: '2025-06-23'
+  argued: '2025-11-10'
+  decided: '2026-06-23'
+decision:
+  type: opinion-of-the-court
+  winning_party_name: Louisiana DoC
+  majority_votes: 6
+  minority_votes: 3
+lower_court:
+  name: United States Court of Appeals for the Fifth Circuit
+parties:
+  petitioner_name: Damon Landor
+  respondent_name: Louisiana Department of Corrections and Public Safety
+opinions:
+  majority_author: NMGorsuch
+votes:
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+  opinion: wrote
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - NMGorsuch
+- justice: CThomas
+  vote: majority
+  in_majority: true
+  joined:
+  - NMGorsuch
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+  joined:
+  - NMGorsuch
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+  joined:
+  - NMGorsuch
+- justice: KBJackson
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+- justice: SSotomayor
+  vote: dissent
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: EKagan
+  vote: dissent
+  in_majority: false
+  joined:
+  - KBJackson

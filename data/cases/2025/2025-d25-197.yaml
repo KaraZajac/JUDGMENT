@@ -1,0 +1,69 @@
+id: 2025-d25-197
+name: T. M. v. University of Maryland Medical System Corporation
+term: 2025
+provisional: true
+sources:
+- oyez
+- courtlistener
+docket: 25-197
+dates:
+  granted: '2025-12-05'
+  argued: '2026-04-20'
+  decided: '2026-06-18'
+decision:
+  type: opinion-of-the-court
+  winning_party_name: University of Maryland Medical System Corp.
+  majority_votes: 5
+  minority_votes: 4
+lower_court:
+  name: United States Court of Appeals for the Fourth Circuit
+parties:
+  petitioner_name: T. M.
+  respondent_name: University of Maryland Medical System Corporation
+opinions:
+  majority_author: SSotomayor
+votes:
+- justice: SSotomayor
+  vote: majority
+  in_majority: true
+  opinion: wrote
+- justice: CThomas
+  vote: regular-concurrence
+  in_majority: true
+  opinion: wrote
+  joined:
+  - SSotomayor
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: KBJackson
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: ACBarrett
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+- justice: JGRoberts
+  vote: dissent
+  in_majority: false
+  joined:
+  - ACBarrett
+- justice: EKagan
+  vote: dissent
+  in_majority: false
+  joined:
+  - ACBarrett
+- justice: NMGorsuch
+  vote: dissent
+  in_majority: false
+  joined:
+  - ACBarrett
