@@ -127,6 +127,16 @@ CourtListener until the next SCDB release. Provisional files live in the same
   the canonical records take over. Provisional votes never feed justice
   records/ideology — those stay SCDB-only.
 
+### Pending docket — `data/docket/<term>/<id>.yaml`
+
+Granted or argued cases awaiting decision (the forecasting targets), from Oyez,
+for the current term and the next. Same id scheme as provisional cases, marked
+`pending: true`, carrying name, docket, `dates.granted`/`dates.argued`, party
+names, lower court, the **question presented** (`question`, plain text), and an
+`oyez_url`. The directory is wiped and rewritten on every `pipeline.interim`
+run; a case that gets decided moves to `data/cases/` automatically (a decided
+record for the same docket always wins over a pending one).
+
 ## Justice files — `data/justices/<slug>.yaml`
 
 One file per justice who has ever cast a recorded vote (legacy + modern eras merged).

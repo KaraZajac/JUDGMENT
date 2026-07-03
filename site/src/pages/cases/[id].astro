@@ -99,6 +99,12 @@ function voteRow(v) {
     )}
   </div>
 
+  {c.question && (
+    <p class="lede" style="max-width:76ch; margin-bottom:14px">
+      <strong>Question presented:</strong> {c.question}
+    </p>
+  )}
+
   <div class="card">
     <div class="facts">
       {facts.map(([k, v]) => (
@@ -109,6 +115,12 @@ function voteRow(v) {
       ))}
     </div>
   </div>
+
+  {c.oyez_url && (
+    <p style="font-size:13px; margin-top:10px">
+      <a href={c.oyez_url} target="_blank" rel="noopener">Case page on Oyez ↗</a>
+    </p>
+  )}
 
   <h2>The vote</h2>
   {c.opinions?.majority_author && (

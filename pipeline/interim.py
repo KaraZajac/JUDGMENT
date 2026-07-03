@@ -26,9 +26,11 @@ Set COURTLISTENER_TOKEN for authenticated CL rates (optional).
 """
 
 import datetime
+import html
 import json
 import os
 import re
+import shutil
 import sys
 import time
 import urllib.parse
@@ -79,23 +81,28 @@ def fetch_json(url, cache_name, refresh=False, headers=None):
     return payload
 
 
-def oyez_decided_cases(term, refresh):
-    """Oyez term list filtered to cases with a Decided event, with full details."""
+def oyez_term_stubs(term, refresh):
     listing = fetch_json(
         f"https://api.oyez.org/cases?filter=term:{term}&per_page=300",
         f"oyez-term-{term}.json", refresh)
-    out = []
-    for stub in listing:
-        timeline = stub.get("timeline") or []
-        if not any(t and t.get("event") == "Decided" for t in timeline):
-            continue
-        docket = (stub.get("docket_number") or "").strip()
-        if not docket or not stub.get("href"):
-            continue
-        detail = fetch_json(stub["href"], f"oyez-case-{term}-{docket_slug(docket)}.json",
-                            refresh)
-        out.append(detail)
-    return out
+    return [s for s in listing
+            if (s.get("docket_number") or "").strip() and s.get("href")]
+
+
+def _is_decided(stub):
+    return any(t and t.get("event") == "Decided" for t in (stub.get("timeline") or []))
+
+
+def oyez_detail(term, stub, refresh):
+    docket = stub["docket_number"].strip()
+    return fetch_json(stub["href"], f"oyez-case-{term}-{docket_slug(docket)}.json",
+                      refresh)
+
+
+def oyez_decided_cases(term, refresh):
+    """Oyez term list filtered to cases with a Decided event, with full details."""
+    return [oyez_detail(term, s, refresh)
+            for s in oyez_term_stubs(term, refresh) if _is_decided(s)]
 
 
 def cl_search(term, refresh):
@@ -329,28 +336,73 @@ def build_from_oyez(term, detail, cl_by_docket):
     if isinstance(lower, dict) and lower.get("name"):
         case["lower_court"] = {"name": lower["name"]}
     put(case, "parties", parties)
+    put(case, "question", strip_html(detail.get("question")))
+    href = detail.get("href") or ""
+    put(case, "oyez_url", href.replace("api.oyez.org", "www.oyez.org") or None)
     if majority_author:
         case["opinions"] = {"majority_author": majority_author}
     put(case, "votes", votes)
     return case
 
 
-def build_from_cl(term, row):
+def strip_html(s):
+    if not s:
+        return None
+    text = html.unescape(re.sub(r"<[^>]+>", " ", s))
+    return re.sub(r"\s+", " ", text).strip() or None
+
+
+def build_pending(term, detail):
+    """Granted/argued-but-undecided case -> data/docket/ record (a forecasting target)."""
+    docket = (detail.get("docket_number") or "").strip()
+    case = {
+        "id": case_id(term, docket),
+        "name": detail.get("name"),
+        "term": term,
+        "pending": True,
+        "sources": ["oyez"],
+    }
+    put(case, "docket", docket)
+    put(case, "dates", timeline_dates(detail))
+    lower = detail.get("lower_court") or {}
+    if isinstance(lower, dict) and lower.get("name"):
+        case["lower_court"] = {"name": lower["name"]}
+    put(case, "parties", party_fields(detail))
+    put(case, "question", strip_html(detail.get("question")))
+    href = detail.get("href") or ""
+    put(case, "oyez_url", href.replace("api.oyez.org", "www.oyez.org") or None)
+    return case
+
+
+def build_from_cl(term, row, oyez=None):
+    """Thin decided record from CourtListener search, enriched with Oyez case
+    metadata (question, parties, grant date) when Oyez lists the case but has
+    not yet coded the decision."""
     docket = (row.get("docketNumber") or "").strip()
     case = {
         "id": case_id(term, docket),
         "name": row.get("caseName"),
         "term": term,
         "provisional": True,
-        "sources": ["courtlistener"],
+        "sources": ["courtlistener"] + (["oyez"] if oyez else []),
     }
     put(case, "docket", docket)
     put(case, "citation", cl_citations(row))
     dates = {}
+    if oyez:
+        put(dates, "granted", timeline_dates(oyez).get("granted"))
     put(dates, "argued", row.get("dateArgued"))
     put(dates, "reargued", row.get("dateReargued"))
     put(dates, "decided", row.get("dateFiled"))
     put(case, "dates", dates)
+    if oyez:
+        lower = oyez.get("lower_court") or {}
+        if isinstance(lower, dict) and lower.get("name"):
+            case["lower_court"] = {"name": lower["name"]}
+        put(case, "parties", party_fields(oyez))
+        put(case, "question", strip_html(oyez.get("question")))
+        href = oyez.get("href") or ""
+        put(case, "oyez_url", href.replace("api.oyez.org", "www.oyez.org") or None)
     return case
 
 
@@ -366,43 +418,92 @@ def target_terms():
     return list(range(last_scdb + 1, current_ot + 1))
 
 
+def ingest_decided(term, refresh):
+    print(f"term {term}: fetching Oyez + CourtListener (cache: sources/interim/)")
+    stubs = oyez_term_stubs(term, refresh)
+    oyez_cases = [oyez_detail(term, s, refresh) for s in stubs if _is_decided(s)]
+    # Oyez records not yet marked decided still enrich CL-only records
+    oyez_undecided = {docket_slug(s["docket_number"].strip()): s
+                      for s in stubs if not _is_decided(s)}
+    cl_by_docket = cl_search(term, refresh)
+    print(f"  {len(oyez_cases)} decided Oyez cases, "
+          f"{len(cl_by_docket)} CL clusters in window")
+
+    tdir = DATA / "cases" / str(term)
+    tdir.mkdir(parents=True, exist_ok=True)
+    written = skipped = 0
+
+    records = [build_from_oyez(term, d, cl_by_docket) for d in oyez_cases]
+    for row in cl_by_docket.values():
+        stub = oyez_undecided.get(docket_slug((row.get("docketNumber") or "").strip()))
+        oyez = oyez_detail(term, stub, refresh) if stub else None
+        records.append(build_from_cl(term, row, oyez))
+
+    for case in records:
+        if not case.get("docket"):
+            continue
+        path = tdir / f"{case['id']}.yaml"
+        if path.exists():
+            existing = yaml.safe_load(path.read_text(encoding="utf-8"))
+            if not existing.get("provisional"):
+                skipped += 1  # canonical SCDB record wins, always
+                continue
+        dump_yaml(case, path)
+        written += 1
+
+    with_votes = sum(1 for r in records if r.get("votes"))
+    print(f"  wrote {written} provisional case files "
+          f"({with_votes} with per-justice votes); skipped {skipped} canonical")
+
+
+def ingest_pending(term, refresh):
+    """Granted/argued cases awaiting decision -> data/docket/<term>/ (wiped each run,
+    so cases that get decided migrate to data/cases/ automatically)."""
+    stubs = [s for s in oyez_term_stubs(term, refresh) if not _is_decided(s)]
+    tdir = DATA / "docket" / str(term)
+    shutil.rmtree(tdir, ignore_errors=True)
+    if not stubs:
+        print(f"term {term}: no pending cases on the Oyez docket")
+        return
+    tdir.mkdir(parents=True, exist_ok=True)
+    written = argued = already_decided = 0
+    for stub in stubs:
+        case = build_pending(term, oyez_detail(term, stub, refresh))
+        if not case.get("docket"):
+            continue
+        # Oyez timelines lag decision days; if a decided record for this docket
+        # already exists (e.g. from CourtListener), the decision wins.
+        if (DATA / "cases" / str(term) / f"{case['id']}.yaml").exists():
+            already_decided += 1
+            continue
+        dump_yaml(case, tdir / f"{case['id']}.yaml")
+        written += 1
+        if case.get("dates", {}).get("argued"):
+            argued += 1
+    if written == 0:
+        shutil.rmtree(tdir, ignore_errors=True)
+    print(f"term {term}: {written} pending docket cases "
+          f"({argued} argued, awaiting decision; {already_decided} already decided "
+          f"per CourtListener) -> data/docket/{term}/")
+
+
 def main():
     refresh = "--refresh" in sys.argv
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    terms = [int(a) for a in args] if args else target_terms()
-    if not terms:
-        print("SCDB already covers the current term — nothing to ingest.")
-        return
+    decided_terms = [int(a) for a in args] if args else target_terms()
 
-    for term in terms:
-        print(f"term {term}: fetching Oyez + CourtListener (cache: sources/interim/)")
-        oyez_cases = oyez_decided_cases(term, refresh)
-        cl_by_docket = cl_search(term, refresh)
-        print(f"  {len(oyez_cases)} decided Oyez cases, "
-              f"{len(cl_by_docket)} CL clusters in window")
+    for term in decided_terms:
+        ingest_decided(term, refresh)
 
-        tdir = DATA / "cases" / str(term)
-        tdir.mkdir(parents=True, exist_ok=True)
-        written = skipped = 0
+    # pending docket: the current OT plus grants already stacked for the next one
+    today = datetime.date.today()
+    current_ot = today.year if today.month >= 10 else today.year - 1
+    for term in (current_ot, current_ot + 1):
+        # skip a duplicate refetch when the decided pass just refreshed this term
+        ingest_pending(term, refresh and term not in decided_terms)
 
-        records = [build_from_oyez(term, d, cl_by_docket) for d in oyez_cases]
-        records += [build_from_cl(term, row) for row in cl_by_docket.values()]
-
-        for case in records:
-            if not case.get("docket"):
-                continue
-            path = tdir / f"{case['id']}.yaml"
-            if path.exists():
-                existing = yaml.safe_load(path.read_text(encoding="utf-8"))
-                if not existing.get("provisional"):
-                    skipped += 1  # canonical SCDB record wins, always
-                    continue
-            dump_yaml(case, path)
-            written += 1
-
-        with_votes = sum(1 for r in records if r.get("votes"))
-        print(f"  wrote {written} provisional case files "
-              f"({with_votes} with per-justice votes); skipped {skipped} canonical")
+    if not decided_terms:
+        print("note: SCDB already covers all completed terms; only the docket was refreshed.")
 
     if unknown_members:
         print(f"  WARNING: unmapped Oyez members kept as raw names: {sorted(unknown_members)}")

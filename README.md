@@ -22,6 +22,7 @@ outcomes, per-justice votes, and ideology trajectories over time.
 data/
 ├── cases/<term>/<caseId>.yaml   # one file per case: outcome, issue, lower court,
 │                                #   parties, opinions, and all 9 justice votes
+├── docket/<term>/<id>.yaml      # pending cases (granted/argued, awaiting decision)
 ├── justices/<slug>.yaml         # bio + appointment + computed voting record and
 │                                #   term-by-term ideological trajectory
 ├── justices/index.yaml          # roster with SCDB ids and mnemonics

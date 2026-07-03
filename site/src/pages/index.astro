@@ -2,8 +2,8 @@
 import Base from "../layouts/Base.astro";
 import StatTile from "../components/StatTile.astro";
 import DivergingColumns from "../components/DivergingColumns.astro";
-import { meta, termsAgg, justiceIndex, termList } from "../lib/data.js";
-import { num } from "../lib/format.js";
+import { meta, termsAgg, justiceIndex, termList, casesForTerm, pendingCases, byMnemonic } from "../lib/data.js";
+import { num, caseTitle } from "../lib/format.js";
 
 const m = meta();
 const agg = termsAgg();
@@ -14,6 +14,26 @@ const points = agg
 const lastTerm = m.counts.last_term;
 const latestTerm = termList().at(-1); // may exceed SCDB coverage (provisional ingest)
 const sitting = justiceIndex().filter((j) => j.last_term === lastTerm);
+const justiceOf = byMnemonic();
+
+const latestCases = casesForTerm(latestTerm)
+  .filter((c) => c.dates?.decided)
+  .sort((a, b) => String(b.dates.decided).localeCompare(String(a.dates.decided)))
+  .slice(0, 8);
+
+const pending = pendingCases();
+const arguedPending = pending
+  .filter((p) => p.dates?.argued)
+  .sort((a, b) => String(a.dates.argued).localeCompare(String(b.dates.argued)));
+const grantedPending = pending
+  .filter((p) => !p.dates?.argued)
+  .sort((a, b) => String(b.dates?.granted ?? "").localeCompare(String(a.dates?.granted ?? "")));
+
+const authorLink = (mnemonic) => {
+  const j = typeof mnemonic === "string" ? justiceOf.get(mnemonic) : null;
+  return j ? { href: `/justices/${j.slug}`, name: j.name } : null;
+};
+const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s);
 ---
 
 <Base title="Home" description="Every U.S. Supreme Court judgement, every justice, every vote — 1791 to today.">
@@ -45,6 +65,75 @@ const sitting = justiceIndex().filter((j) => j.last_term === lastTerm);
       caption="Share of liberal decisions by Supreme Court term"
     />
   </section>
+
+  {latestCases.length > 0 && (
+    <>
+      <h2>Latest decisions</h2>
+      <p class="lede" style="margin-bottom:10px">
+        The newest rulings in the dataset{latestTerm > lastTerm ? " — provisional records until the next SCDB release" : ""}.
+      </p>
+      <table class="data">
+        <thead>
+          <tr><th>Decided</th><th>Case</th><th class="n">Vote</th><th>Majority opinion</th></tr>
+        </thead>
+        <tbody>
+          {latestCases.map((c) => {
+            const d = c.decision ?? {};
+            const author = authorLink(c.opinions?.majority_author);
+            return (
+              <tr>
+                <td class="n">{c.dates.decided}</td>
+                <td>
+                  <a href={`/cases/${c.id}`}>{caseTitle(c.name)}</a>
+                  {c.question && <div class="stat-sub" style="max-width:62ch">{clip(c.question, 150)}</div>}
+                </td>
+                <td class="n">
+                  {d.majority_votes != null && d.minority_votes != null
+                    ? `${d.majority_votes}–${d.minority_votes}`
+                    : "—"}
+                </td>
+                <td>{author ? <a href={author.href}>{author.name}</a> : "—"}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+      <p style="font-size:13px; margin-top:8px">
+        <a href={`/terms/${latestTerm}`}>All {latestTerm} term cases →</a>
+      </p>
+    </>
+  )}
+
+  {pending.length > 0 && (
+    <>
+      <h2>Awaiting decision</h2>
+      <p class="lede" style="margin-bottom:10px">
+        The live docket from Oyez: {arguedPending.length} argued, {grantedPending.length} granted
+        and awaiting argument. These are the cases a forecasting model will be scored on.
+      </p>
+      <table class="data">
+        <thead>
+          <tr><th>Case</th><th class="n">Status</th></tr>
+        </thead>
+        <tbody>
+          {[...arguedPending, ...grantedPending].map((p) => (
+            <tr>
+              <td>
+                {p.oyez_url
+                  ? <a href={p.oyez_url} target="_blank" rel="noopener">{caseTitle(p.name)}</a>
+                  : caseTitle(p.name)}
+                <span class="stat-sub" style="margin-left:8px">{p.docket} · {p.term} term</span>
+                {p.question && <div class="stat-sub" style="max-width:66ch">{clip(p.question, 170)}</div>}
+              </td>
+              <td class="n" style="white-space:nowrap">
+                {p.dates?.argued ? `argued ${p.dates.argued}` : p.dates?.granted ? `granted ${p.dates.granted}` : "granted"}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )}
 
   <h2>The current court</h2>
   <div class="chips">

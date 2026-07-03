@@ -58,3 +58,19 @@ export function caseById(id) {
 export function casesForTerm(term) {
   return caseIdsForTerm(term).map(caseById);
 }
+
+/** Granted/argued cases awaiting decision (data/docket/, written by pipeline.interim). */
+export function pendingCases() {
+  const root = path.join(DATA, "docket");
+  if (!fs.existsSync(root)) return [];
+  const out = [];
+  for (const t of fs.readdirSync(root).filter((d) => /^\d{4}$/.test(d)).sort()) {
+    for (const f of fs
+      .readdirSync(path.join(root, t))
+      .filter((f) => f.endsWith(".yaml"))
+      .sort()) {
+      out.push(loadFresh(`docket/${t}/${f}`));
+    }
+  }
+  return out;
+}
