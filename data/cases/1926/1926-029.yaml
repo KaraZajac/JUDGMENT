@@ -1,0 +1,85 @@
+id: 1926-029
+name: MYERS, ADMINISTRATRIX, v. UNITED STATES
+term: 1926
+chief: Taft
+natural_court: 1005
+docket: '2'
+citation:
+  us: 272 U.S. 52
+  sct: 47 S. Ct. 21
+  led: 71 L. Ed. 160
+  lexis: 1926 U.S. LEXIS 35
+dates:
+  argued: '1923-12-05'
+  reargued: '1925-04-13'
+  decided: '1926-10-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 27}
+admin_action: {agency: 112}
+opinions:
+  majority_author: WHTaft
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true

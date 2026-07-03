@@ -1,0 +1,79 @@
+id: 1951-024
+name: UNITED STATES v. HAYMAN
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '23'
+citation:
+  us: 342 U.S. 205
+  sct: 72 S. Ct. 263
+  led: 96 L. Ed. 2d 232
+  lexis: 1952 U.S. LEXIS 2560
+dates:
+  argued: '1951-10-15'
+  decided: '1952-01-07'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 341
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 51, state: 6}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 215}
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  participated: false
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

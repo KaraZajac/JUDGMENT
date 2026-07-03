@@ -1,0 +1,85 @@
+id: 2017-058
+name: WESTERNGECO LLC v. ION GEOPHYSICAL CORP.
+term: 2017
+chief: Roberts
+natural_court: 1706
+docket: 16-1011
+citation:
+  sct: 138 S. Ct. 2129
+  led: 201 L. Ed. 2d 584
+  lexis: 2018 U.S. LEXIS 3842
+dates:
+  argued: '2018-04-16'
+  decided: '2018-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80180, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Patent Act, 35 USCS 284
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 121}
+  source: {code: 8}
+  disposition: affirmed-and-reversed-in-part
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 122}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

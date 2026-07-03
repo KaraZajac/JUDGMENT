@@ -1,0 +1,91 @@
+id: 2004-031
+name: CITY OF RANCHO PALOS VERDES, CALIFORNIA, et al. v. MARK J. ABRAMS
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 03-1601
+citation:
+  us: 544 U.S. 113
+  sct: 125 S. Ct. 1453
+  led: 161 L. Ed. 2d 316
+  lexis: 2005 U.S. LEXIS 2754
+dates:
+  argued: '2005-01-19'
+  decided: '2005-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20400, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 314
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 6}
+  respondent: {code: 195}
+admin_action: {agency: 117, state: 6}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

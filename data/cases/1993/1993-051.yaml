@@ -1,0 +1,87 @@
+id: 1993-051
+name: DARREN J. CUSTIS v. UNITED STATES
+term: 1993
+chief: Rehnquist
+natural_court: 1606
+docket: 93-5209
+citation:
+  us: 511 U.S. 485
+  sct: 114 S. Ct. 1732
+  led: 128 L. Ed. 2d 517
+  lexis: 1994 U.S. LEXIS 3927
+dates:
+  argued: '1994-02-28'
+  decided: '1994-05-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10570, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U.S.C. § 924
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 79}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true

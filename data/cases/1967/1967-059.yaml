@@ -1,0 +1,91 @@
+id: 1967-059
+name: SCHNEIDER v. SMITH, COMMANDANT, UNITED STATES COAST GUARD
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '196'
+citation:
+  us: 390 U.S. 17
+  sct: 88 S. Ct. 682
+  led: 19 L. Ed. 2d 799
+  lexis: 1968 U.S. LEXIS 2713
+dates:
+  argued: '1967-12-12'
+  decided: '1968-01-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 30060, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 201
+authority:
+- statutory-construction
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 129}
+  source: {code: 129}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 177}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+admin_action: {agency: 77}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AFortas
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,87 @@
+id: 1949-088
+name: SKELLY OIL CO. ET AL. v. PHILLIPS PETROLEUM CO.
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '221'
+citation:
+  us: 339 U.S. 667
+  sct: 70 S. Ct. 876
+  led: 94 L. Ed. 2d 1194
+  lexis: 1950 U.S. LEXIS 1813
+dates:
+  argued: '1949-12-09'
+  decided: '1950-06-05'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90320, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 2201
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 106, state: 42}
+  source: {code: 30}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 198}
+  respondent: {code: 198}
+admin_action: {agency: 52}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: SFReed
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMVinson
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

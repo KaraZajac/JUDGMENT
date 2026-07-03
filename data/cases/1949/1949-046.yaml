@@ -1,0 +1,83 @@
+id: 1949-046
+name: DISTRICT OF COLUMBIA v. LITTLE
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '302'
+citation:
+  us: 339 U.S. 1
+  sct: 70 S. Ct. 468
+  led: 94 L. Ed. 2d 599
+  lexis: 1950 U.S. LEXIS 2295
+dates:
+  argued: '1950-01-11'
+  decided: '1950-02-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 320
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 10}
+  source: {code: 32}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 10}
+  respondent: {code: 126}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HHBurton
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

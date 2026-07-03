@@ -1,0 +1,80 @@
+id: 1968-084
+name: WATTS v. UNITED STATES
+term: 1968
+chief: Warren
+natural_court: 1410
+docket: 1107 M
+citation:
+  us: 394 U.S. 705
+  sct: 89 S. Ct. 1399
+  led: 22 L. Ed. 2d 664
+  lexis: 1969 U.S. LEXIS 1871
+dates:
+  decided: '1969-04-21'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30010, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U.S.C. § 871
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 218}
+  respondent: {code: 27}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JHarlan2
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - AFortas
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: AFortas
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true

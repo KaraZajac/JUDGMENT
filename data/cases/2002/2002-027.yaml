@@ -1,0 +1,88 @@
+id: 2002-027
+name: CONNECTICUT DEPARTMENT OF PUBLIC SAFETY, et al. v. JOHN DOE, INDIVIDUALLY AND ON BEHALF OF ALL OTHERS SIMILARLY
+  SITUATED
+term: 2002
+chief: Rehnquist
+natural_court: 1607
+docket: 01-1231
+citation:
+  us: 538 U.S. 1
+  sct: 123 S. Ct. 1160
+  led: 155 L. Ed. 2d 98
+  lexis: 2003 U.S. LEXIS 1951
+dates:
+  argued: '2002-11-13'
+  decided: '2003-03-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10180, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 53}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 7}
+  petitioner_state: {code: 8}
+  respondent: {code: 126}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true

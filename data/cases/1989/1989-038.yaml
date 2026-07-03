@@ -1,0 +1,89 @@
+id: 1989-038
+name: WASHINGTON, et al. v. WALTER HARPER
+term: 1989
+chief: Rehnquist
+natural_court: 1603
+docket: 88-599
+citation:
+  us: 494 U.S. 210
+  sct: 110 S. Ct. 1028
+  led: 108 L. Ed. 2d 178
+  lexis: 1990 U.S. LEXIS 1174
+dates:
+  argued: '1989-10-11'
+  decided: '1990-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 40040, area: due-process}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 56}
+  respondent: {code: 215}
+admin_action: {agency: 117, state: 56}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

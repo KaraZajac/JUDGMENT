@@ -1,0 +1,84 @@
+id: 1947-100
+name: UNITED STATES v. ZAZOVE
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '432'
+citation:
+  us: 334 U.S. 602
+  sct: 68 S. Ct. 1284
+  led: 92 L. Ed. 2d 1601
+  lexis: 1948 U.S. LEXIS 1983
+dates:
+  argued: '1948-04-19'
+  decided: '1948-06-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20250, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 38 U.S.C. § 801
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 66, state: 17}
+  source: {code: 27}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 166}
+admin_action: {agency: 114}
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

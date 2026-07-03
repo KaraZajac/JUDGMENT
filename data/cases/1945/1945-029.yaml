@@ -1,0 +1,78 @@
+id: 1945-029
+name: KOTTEAKOS et al. v. UNITED STATES
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '457'
+citation:
+  us: 328 U.S. 750
+  sct: 66 S. Ct. 1239
+  led: 90 L. Ed. 1557
+  lexis: 1946 U.S. LEXIS 2184
+dates:
+  argued: '1946-02-28'
+  decided: '1946-06-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 10290, area: criminal-procedure}
+law:
+  type: other
+  supp: 505
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: WBRutledge
+  majority_assigner: HLBlack
+votes:
+- justice: HLBlack
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

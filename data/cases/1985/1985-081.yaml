@@ -1,0 +1,87 @@
+id: 1985-081
+name: LOCKHART, DIRECTOR, ARKANSAS DEPARTMENT OF CORRECTIONS v. MCCREE
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 84-1865
+citation:
+  us: 476 U.S. 162
+  sct: 106 S. Ct. 1758
+  led: 90 L. Ed. 2d 137
+  lexis: 1986 U.S. LEXIS 153
+dates:
+  argued: '1986-01-13'
+  decided: '1986-05-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10250, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 217
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 46}
+  source: {code: 28}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 5}
+  respondent: {code: 126}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,87 @@
+id: 1972-093
+name: DAVIS v. UNITED STATES
+term: 1972
+chief: Burger
+natural_court: 1504
+docket: 71-6481
+citation:
+  us: 411 U.S. 233
+  sct: 93 S. Ct. 1577
+  led: 36 L. Ed. 2d 216
+  lexis: 1973 U.S. LEXIS 8
+dates:
+  argued: '1973-02-20'
+  decided: '1973-04-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10370, area: criminal-procedure}
+law:
+  type: court-rules
+  supp: 401
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 84}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

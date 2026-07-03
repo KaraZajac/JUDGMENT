@@ -1,0 +1,85 @@
+id: 1978-076
+name: HERBERT v. LANDO et al.
+term: 1978
+chief: Burger
+natural_court: 1506
+docket: 77-1105
+citation:
+  us: 441 U.S. 153
+  sct: 99 S. Ct. 1635
+  led: 60 L. Ed. 2d 115
+  lexis: 1979 U.S. LEXIS 88
+dates:
+  argued: '1978-10-31'
+  decided: '1979-04-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30030, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 191}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

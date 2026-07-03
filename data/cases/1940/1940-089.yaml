@@ -1,0 +1,81 @@
+id: 1940-089
+name: MILK WAGON DRIVERS UNION OF CHICAGO, LOCAL 753, et al. v. MEADOWMOOR DAIRIES, INC.
+term: 1940
+chief: Hughes
+natural_court: 1108
+docket: '1'
+citation:
+  us: 312 U.S. 287
+  sct: 61 S. Ct. 552
+  led: 85 L. Ed. 836
+  lexis: 1941 U.S. LEXIS 1217
+dates:
+  argued: '1940-12-13'
+  decided: '1941-02-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 70140, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 158}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true

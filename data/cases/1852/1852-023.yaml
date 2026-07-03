@@ -1,0 +1,83 @@
+id: 1852-023
+name: in re THOMAS KAINE, AN ALLEGED FUGITIVE FROM GREAT BRITAIN
+term: 1852
+chief: Taney
+natural_court: 509
+citation:
+  us: 55 U.S. 103
+  led: 14 L. Ed. 345
+  lexis: 1852 U.S. LEXIS 431
+dates:
+  argued: '1852-12-07'
+  reargued: '1853-01-03'
+  decided: '1853-01-31'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: other
+  supp: 509
+authority:
+- statutory-construction
+jurisdiction: {code: 14}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: JCatron
+  majority_assigner: JMcLean
+votes:
+- justice: RBTaney
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SNelson
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - SNelson
+- justice: SNelson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRCurtis
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

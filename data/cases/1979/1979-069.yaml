@@ -1,0 +1,86 @@
+id: 1979-069
+name: WHALEN v. UNITED STATES
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 78-5471
+citation:
+  us: 445 U.S. 684
+  sct: 100 S. Ct. 1432
+  led: 63 L. Ed. 2d 715
+  lexis: 1980 U.S. LEXIS 15
+dates:
+  argued: '1979-11-27'
+  decided: '1980-04-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10170, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 206
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 10}
+  source: {code: 300, state: 10}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

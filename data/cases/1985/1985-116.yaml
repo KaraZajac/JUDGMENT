@@ -1,0 +1,86 @@
+id: 1985-116
+name: SCHIAVONE et al. v. FORTUNE, AKA TIME, INC.
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 84-1839
+citation:
+  us: 477 U.S. 21
+  sct: 106 S. Ct. 2379
+  led: 91 L. Ed. 2d 18
+  lexis: 1986 U.S. LEXIS 106
+dates:
+  argued: '1986-02-26'
+  decided: '1986-06-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: putative-conflict
+lower_court:
+  origin: {code: 92}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 220}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

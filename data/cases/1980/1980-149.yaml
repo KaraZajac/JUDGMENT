@@ -1,0 +1,88 @@
+id: 1980-149
+name: METROMEDIA, INC., et al. v. CITY OF SAN DIEGO, et al.
+term: 1980
+chief: Burger
+natural_court: 1506
+docket: 80-195
+citation:
+  us: 453 U.S. 490
+  sct: 101 S. Ct. 2882
+  led: 69 L. Ed. 2d 800
+  lexis: 1981 U.S. LEXIS 50
+dates:
+  argued: '1981-02-25'
+  decided: '1981-07-02'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30020, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 101}
+  respondent: {code: 3}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

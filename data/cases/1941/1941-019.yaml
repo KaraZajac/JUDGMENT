@@ -1,0 +1,79 @@
+id: 1941-019
+name: PIERCE v. UNITED STATES
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '36'
+citation:
+  us: 314 U.S. 306
+  sct: 62 S. Ct. 237
+  led: 86 L. Ed. 226
+  lexis: 1941 U.S. LEXIS 1142
+dates:
+  argued: '1941-11-14'
+  decided: '1941-12-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 10420, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: false statements
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 118}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: SFReed
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  participated: false
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JFByrnes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false

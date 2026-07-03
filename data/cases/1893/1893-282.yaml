@@ -1,0 +1,72 @@
+id: 1893-282
+name: RIGGLES v. ERNEY
+term: 1893
+chief: Fuller
+natural_court: 806
+docket: '335'
+citation:
+  us: 154 U.S. 244
+  sct: 14 S. Ct. 1083
+  led: 38 L. Ed. 976
+  lexis: 1894 U.S. LEXIS 2232
+dates:
+  argued: '1894-04-02'
+  decided: '1894-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 140040, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 19}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 166}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: SJField
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  in_majority: true
+- justice: HGray
+  vote: majority
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  in_majority: false
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  in_majority: true
+- justice: HEJackson
+  vote: majority
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  in_majority: false

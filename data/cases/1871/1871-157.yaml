@@ -1,0 +1,76 @@
+id: 1871-157
+name: WHITE v. HART
+term: 1871
+chief: Chase
+natural_court: 602
+citation:
+  us: 80 U.S. 646
+  led: 20 L. Ed. 685
+  lexis: 1871 U.S. LEXIS 1379
+dates:
+  decided: '1872-04-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 20075, area: civil-rights}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 13}
+  source: {code: 300, state: 13}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 138}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: NClifford
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true

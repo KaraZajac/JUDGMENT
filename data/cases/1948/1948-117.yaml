@@ -1,0 +1,88 @@
+id: 1948-117
+name: HARRIS v. SOUTH CAROLINA
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '76'
+citation:
+  us: 338 U.S. 68
+  sct: 69 S. Ct. 1354
+  led: 93 L. Ed. 2d 1815
+  lexis: 1949 U.S. LEXIS 2082
+dates:
+  argued: '1948-11-16'
+  decided: '1949-06-27'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10010, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 48}
+  source: {code: 300, state: 48}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 48}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false

@@ -1,0 +1,88 @@
+id: 1935-137
+name: ASHTON et al. v. CAMERON COUNTY WATER IMPROVEMENT DISTRICT NO. ONE
+term: 1935
+chief: Hughes
+natural_court: 1103
+docket: '859'
+citation:
+  us: 298 U.S. 513
+  sct: 56 S. Ct. 892
+  led: 80 L. Ed. 1309
+  lexis: 1936 U.S. LEXIS 951
+dates:
+  argued: '1936-04-29'
+  decided: '1936-05-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100120, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 121}
+  source: {code: 25}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 114}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: WVanDevanter
+votes:
+- justice: CEHughes2
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BNCardozo
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BNCardozo
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BNCardozo
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,85 @@
+id: 1863-030
+name: THE BRIDGE PROPRIETORS v. THE HOBOKEN COMPANY
+term: 1863
+chief: Taney
+natural_court: 515
+citation:
+  us: 68 U.S. 116
+  led: 17 L. Ed. 571
+  lexis: 1863 U.S. LEXIS 450
+dates:
+  argued: '1864-01-07'
+  decided: '1864-02-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 35}
+  source: {code: 300, state: 35}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 120}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

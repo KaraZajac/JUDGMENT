@@ -1,0 +1,84 @@
+id: 1945-004
+name: GANGE LUMBER CO. v. ROWLEY AND DEPARTMENT OF LABOR & INDUSTRIES OF THE STATE OF WASHINGTON
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '53'
+citation:
+  us: 326 U.S. 295
+  sct: 66 S. Ct. 125
+  led: 90 L. Ed. 85
+  lexis: 1945 U.S. LEXIS 1498
+dates:
+  argued: '1945-10-16'
+  decided: '1945-11-13'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90240, area: judicial-power}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 7}
+  respondent_state: {code: 56}
+admin_action: {agency: 117, state: 56}
+opinions:
+  majority_author: WBRutledge
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true

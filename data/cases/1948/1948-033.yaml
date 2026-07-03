@@ -1,0 +1,85 @@
+id: 1948-033
+name: CALLAWAY, TRUSTEE, ET AL. v. BENTON ET AL.
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '21'
+citation:
+  us: 336 U.S. 132
+  sct: 69 S. Ct. 435
+  led: 93 L. Ed. 2d 553
+  lexis: 1949 U.S. LEXIS 2962
+dates:
+  argued: '1948-10-19'
+  decided: '1949-02-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100030, area: federalism}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 61, state: 13}
+  source: {code: 25}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 237}
+admin_action: {agency: 66}
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

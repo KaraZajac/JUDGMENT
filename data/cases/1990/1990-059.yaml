@@ -1,0 +1,88 @@
+id: 1990-059
+name: MCCLESKEY v. ZANT, SUPERINTENDENT, GEORGIA DIAGNOSTIC AND CLASSIFICATION CENTER
+term: 1990
+chief: Rehnquist
+natural_court: 1604
+docket: 89-7024
+citation:
+  us: 499 U.S. 467
+  sct: 111 S. Ct. 1454
+  led: 113 L. Ed. 2d 517
+  lexis: 1991 U.S. LEXIS 2218
+dates:
+  argued: '1990-10-31'
+  decided: '1991-04-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 341
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 60}
+  source: {code: 31}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 13}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: conservative
+  in_majority: true

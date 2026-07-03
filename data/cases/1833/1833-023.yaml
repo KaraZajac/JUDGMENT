@@ -1,0 +1,72 @@
+id: 1833-023
+name: ex parte TOBIAS WATKINS
+term: 1833
+chief: Marshall
+natural_court: 409
+citation:
+  us: 32 U.S. 568
+  led: 8 L. Ed. 786
+  lexis: 1833 U.S. LEXIS 361
+dates:
+  argued: '1833-01-21'
+  reargued: '1833-02-09'
+  decided: '1833-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 10140, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 220
+authority:
+- judicial-review-national
+jurisdiction: {code: 14}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 440}
+  source: {code: 440}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 60}
+  respondent: {code: 27}
+opinions:
+  majority_author: JStory
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HBaldwin
+  participated: false

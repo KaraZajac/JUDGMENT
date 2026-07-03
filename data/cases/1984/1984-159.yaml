@@ -1,0 +1,89 @@
+id: 1984-159
+name: SEDIMA, S.P.R.L. v. IMREX CO., INC., et al.
+term: 1984
+chief: Burger
+natural_court: 1507
+docket: 84-648
+citation:
+  us: 473 U.S. 479
+  sct: 105 S. Ct. 3275
+  led: 87 L. Ed. 2d 346
+  lexis: 1985 U.S. LEXIS 119
+dates:
+  argued: '1985-04-17'
+  decided: '1985-07-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10450, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 362
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 94}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 159}
+  respondent: {code: 184}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

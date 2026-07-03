@@ -1,0 +1,82 @@
+id: 1980-056
+name: DOE et al. v. DELAWARE
+term: 1980
+chief: Burger
+natural_court: 1506
+docket: 79-5932
+citation:
+  us: 450 U.S. 382
+  sct: 101 S. Ct. 1495
+  led: 67 L. Ed. 2d 312
+  lexis: 1981 U.S. LEXIS 84
+dates:
+  argued: '1981-01-12'
+  decided: '1981-03-09'
+decision:
+  type: per-curiam-argued
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90390, area: judicial-power}
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 9}
+  source: {code: 300, state: 9}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 202}
+  respondent: {code: 28}
+  respondent_state: {code: 9}
+admin_action: {agency: 117, state: 9}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

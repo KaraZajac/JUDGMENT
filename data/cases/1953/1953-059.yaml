@@ -1,0 +1,90 @@
+id: 1953-059
+name: RAILWAY EXPRESS AGENCY, INC. v. VIRGINIA
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '163'
+citation:
+  us: 347 U.S. 359
+  sct: 74 S. Ct. 558
+  led: 98 L. Ed. 2d 757
+  lexis: 1954 U.S. LEXIS 2278
+dates:
+  argued: '1954-01-05'
+  decided: '1954-04-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 55}
+  source: {code: 300, state: 55}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 234}
+  respondent: {code: 28}
+  respondent_state: {code: 55}
+admin_action: {agency: 117, state: 55}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: SFReed
+votes:
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TCClark
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TCClark
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TCClark
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

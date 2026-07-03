@@ -1,0 +1,93 @@
+id: 1957-094
+name: PUBLIC SERVICE COMMISSION OF UTAH et al. v. UNITED STATES et al.
+term: 1957
+chief: Warren
+natural_court: 1405
+docket: '15'
+citation:
+  us: 356 U.S. 421
+  sct: 78 S. Ct. 796
+  led: 2 L. Ed. 2d 886
+  lexis: 1958 U.S. LEXIS 1784
+dates:
+  argued: '1957-12-09'
+  decided: '1958-05-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80240, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 123}
+  source: {code: 123}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 52}
+  respondent: {code: 27}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: TCClark
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CEWhittaker
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter

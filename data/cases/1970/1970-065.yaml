@@ -1,0 +1,84 @@
+id: 1970-065
+name: UNITED STATES v. DISTRICT COURT IN AND FOR THE COUNTY OF EAGLE et al.
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '87'
+citation:
+  us: 401 U.S. 520
+  sct: 91 S. Ct. 998
+  led: 28 L. Ed. 2d 278
+  lexis: 1971 U.S. LEXIS 66
+dates:
+  argued: '1971-03-02'
+  decided: '1971-03-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80130, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 43 U.S.C. § 666
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 7}
+  source: {code: 300, state: 7}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 6}
+  respondent_state: {code: 7}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true

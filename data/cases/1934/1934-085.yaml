@@ -1,0 +1,84 @@
+id: 1934-085
+name: FOX v. STANDARD OIL COMPANY OF NEW JERSEY
+term: 1934
+chief: Hughes
+natural_court: 1103
+docket: '69'
+citation:
+  us: 294 U.S. 87
+  sct: 55 S. Ct. 333
+  led: 79 L. Ed. 780
+  lexis: 1935 U.S. LEXIS 263
+dates:
+  argued: '1934-11-09'
+  decided: '1935-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 131}
+  source: {code: 131}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 57}
+  respondent: {code: 198}
+admin_action: {agency: 117, state: 57}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: BNCardozo
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: PButler
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

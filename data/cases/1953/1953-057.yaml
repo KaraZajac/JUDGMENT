@@ -1,0 +1,87 @@
+id: 1953-057
+name: THOMPSON v. LAWSON, DEPUTY COMMISSIONER OF THE UNITED STATES BUREAU OF EMPLOYEES COMPENSATION, et al.
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '352'
+citation:
+  us: 347 U.S. 334
+  sct: 74 S. Ct. 555
+  led: 98 L. Ed. 2d 733
+  lexis: 1954 U.S. LEXIS 2617
+dates:
+  argued: '1954-03-09'
+  decided: '1954-04-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80040, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 349
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 58}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 236}
+  respondent: {code: 331}
+admin_action: {agency: 31}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: EWarren
+votes:
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,80 @@
+id: 1873-117
+name: CASE OF THE SEWING MACHINE COMPANIES
+term: 1873
+chief: Chase
+natural_court: 603
+citation:
+  us: 85 U.S. 553
+  led: 21 L. Ed. 914
+  lexis: 1873 U.S. LEXIS 1330
+dates:
+  argued: '1874-01-21'
+  decided: '1874-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90330, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 26}
+  source: {code: 300, state: 26}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 122}
+opinions:
+  majority_author: NClifford
+  majority_assigner: NClifford
+votes:
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true

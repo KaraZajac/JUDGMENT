@@ -1,0 +1,76 @@
+id: 1886-255
+name: EAMES v. ANDREWS
+term: 1886
+chief: Waite
+natural_court: 706
+docket: '120'
+citation:
+  us: 122 U.S. 40
+  sct: 7 S. Ct. 1073
+  led: 30 L. Ed. 1064
+  lexis: 1887 U.S. LEXIS 2087
+dates:
+  argued: '1887-01-06'
+  decided: '1887-05-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80180, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 406}
+  source: {code: 406}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 172}
+opinions:
+  majority_author: SMatthews
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JPBradley
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

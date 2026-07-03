@@ -1,0 +1,90 @@
+id: 1982-061
+name: BOWSHER, COMPTROLLER GENERAL OF THE UNITED STATES, et al. v. MERCK & CO., INC.
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 81-1273
+citation:
+  us: 460 U.S. 824
+  sct: 103 S. Ct. 1587
+  led: 75 L. Ed. 2d 580
+  lexis: 1983 U.S. LEXIS 22
+dates:
+  argued: '1982-12-01'
+  decided: '1983-04-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90120, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 10 U.S.C. § 2313
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 360}
+  respondent: {code: 176}
+admin_action: {agency: 60}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HABlackmun
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

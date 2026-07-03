@@ -1,0 +1,72 @@
+id: 1845-044
+name: LESSEE OF PHILIP HICKEY et al., PLAINTIFF IN ERROR, v. JAMES A. STEWART et al.
+term: 1845
+chief: Taney
+natural_court: 505
+citation:
+  us: 44 U.S. 750
+  led: 11 L. Ed. 814
+  lexis: 1845 U.S. LEXIS 461
+dates:
+  argued: '1845-01-24'
+  reargued: '1845-01-27'
+  decided: '1845-02-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 100020, area: federalism}
+law:
+  type: other
+  supp: 509
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 421}
+  source: {code: 421}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: JMcKinley
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true

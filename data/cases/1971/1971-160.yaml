@@ -1,0 +1,90 @@
+id: 1971-160
+name: GELBARD et al. v. UNITED STATES
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 71-110
+citation:
+  us: 408 U.S. 41
+  sct: 92 S. Ct. 2357
+  led: 33 L. Ed. 2d 179
+  lexis: 1972 U.S. LEXIS 103
+dates:
+  argued: '1972-03-27'
+  decided: '1972-06-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10070, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 339
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 254}
+  respondent: {code: 27}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: LFPowell
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

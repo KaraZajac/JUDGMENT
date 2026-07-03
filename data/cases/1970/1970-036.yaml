@@ -1,0 +1,94 @@
+id: 1970-036
+name: SAMUELS et al. v. MACKELL, DISTRICT ATTORNEY OF QUEENS COUNTY, et al.
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '7'
+citation:
+  us: 401 U.S. 66
+  sct: 91 S. Ct. 764
+  led: 27 L. Ed. 2d 688
+  lexis: 1971 U.S. LEXIS 83
+dates:
+  argued: '1969-04-01'
+  reargued: '1969-04-29'
+  decided: '1971-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 90030, area: judicial-power}
+law:
+  type: other
+  supp: 500
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 218}
+  respondent: {code: 28}
+  respondent_state: {code: 37}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HLBlack
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan2
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - PStewart
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: TMarshall
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true

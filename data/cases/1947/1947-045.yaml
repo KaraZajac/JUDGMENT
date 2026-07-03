@@ -1,0 +1,87 @@
+id: 1947-045
+name: DONALDSON, POSTMASTER GENERAL, v. READ MAGAZINE, INC. ET AL.
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '50'
+citation:
+  us: 333 U.S. 178
+  sct: 68 S. Ct. 591
+  led: 92 L. Ed. 2d 628
+  lexis: 1948 U.S. LEXIS 2450
+dates:
+  argued: '1947-10-24'
+  reargued: '1948-01-05'
+  decided: '1948-03-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 30020, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- administrative-interpretation
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 32}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 412}
+  respondent: {code: 178}
+admin_action: {agency: 112}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HHBurton
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,87 @@
+id: 1941-055
+name: HOWARD HALL CO., INC. v. UNITED STATES et al.
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '210'
+citation:
+  us: 315 U.S. 495
+  sct: 62 S. Ct. 732
+  led: 86 L. Ed. 986
+  lexis: 1942 U.S. LEXIS 1084
+dates:
+  argued: '1942-01-16'
+  decided: '1942-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80240, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 352
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 42}
+  source: {code: 42}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 177}
+  respondent: {code: 366}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JFByrnes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

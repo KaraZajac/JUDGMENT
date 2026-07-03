@@ -1,0 +1,79 @@
+id: 1887-194
+name: SPENCER v. MERCHANT
+term: 1887
+chief: Waite
+natural_court: 707
+docket: '872'
+citation:
+  us: 125 U.S. 345
+  sct: 8 S. Ct. 921
+  led: 31 L. Ed. 763
+  lexis: 1888 U.S. LEXIS 1937
+dates:
+  decided: '1888-04-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 40070, area: due-process}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 225}
+  respondent: {code: 123}
+opinions:
+  majority_author: HGray
+  majority_assigner: SFMiller
+votes:
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SMatthews
+- justice: SMatthews
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HGray
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: liberal
+  in_majority: true

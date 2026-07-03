@@ -1,0 +1,88 @@
+id: 2022-052
+name: PUGIN v. GARLAND
+term: 2022
+chief: Roberts
+natural_court: 1710
+docket: 22-23
+citation:
+  us: 599 U.S. 600
+  sct: 143 S. Ct. 1833
+  led: 216 L. Ed. 2d 572
+  lexis: 2023 U.S. LEXIS 2634
+dates:
+  argued: '2023-04-17'
+  decided: '2023-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20310, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 24}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 1}
+admin_action: {agency: 7}
+opinions:
+  majority_author: BMKavanaugh
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: NMGorsuch
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: BMKavanaugh
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: KBJackson
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

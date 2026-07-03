@@ -1,0 +1,82 @@
+id: 1894-174
+name: KEELER v. STANDARD FOLDING BED COMPANY
+term: 1894
+chief: Fuller
+natural_court: 806
+docket: '52'
+citation:
+  us: 157 U.S. 659
+  sct: 15 S. Ct. 738
+  led: 39 L. Ed. 848
+  lexis: 1895 U.S. LEXIS 2218
+dates:
+  decided: '1895-04-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80180, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 137}
+  respondent: {code: 172}
+opinions:
+  majority_author: GShiras
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HBBrown
+- justice: SJField
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HBBrown
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: GShiras
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HEJackson
+  participated: false
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true

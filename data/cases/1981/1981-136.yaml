@@ -1,0 +1,91 @@
+id: 1981-136
+name: EDGAR v. MITE CORP. et al.
+term: 1981
+chief: Burger
+natural_court: 1507
+docket: 80-1188
+citation:
+  us: 457 U.S. 624
+  sct: 102 S. Ct. 2629
+  led: 73 L. Ed. 2d 269
+  lexis: 1982 U.S. LEXIS 21
+dates:
+  argued: '1981-11-30'
+  decided: '1982-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 17}
+  respondent: {code: 197}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

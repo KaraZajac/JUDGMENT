@@ -1,0 +1,89 @@
+id: 2002-083
+name: JOHN GEDDES LAWRENCE AND TYRON GARNER v. TEXAS
+term: 2002
+chief: Rehnquist
+natural_court: 1607
+docket: 02-102
+citation:
+  us: 539 U.S. 558
+  sct: 123 S. Ct. 2472
+  led: 156 L. Ed. 2d 508
+  lexis: 2003 U.S. LEXIS 5013
+dates:
+  argued: '2003-03-26'
+  decided: '2003-06-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 50010, area: privacy}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 301, state: 51}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 162}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

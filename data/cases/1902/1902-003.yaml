@@ -1,0 +1,86 @@
+id: 1902-003
+name: PAM-TO-PEE v. UNITED STATES
+term: 1902
+chief: Fuller
+natural_court: 809
+docket: '211'
+citation:
+  us: 187 U.S. 371
+  sct: 23 S. Ct. 142
+  led: 47 L. Ed. 221
+  lexis: 1902 U.S. LEXIS 777
+dates:
+  argued: '1902-10-22'
+  decided: '1902-12-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20150, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 26 SAL 24, chap 39
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 170}
+  respondent: {code: 27}
+admin_action: {agency: 26}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true

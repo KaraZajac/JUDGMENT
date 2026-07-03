@@ -1,0 +1,80 @@
+id: 1875-201
+name: NEWHALL v. SANGER
+term: 1875
+chief: Waite
+natural_court: 701
+docket: '503'
+citation:
+  us: 92 U.S. 761
+  led: 23 L. Ed. 769
+  lexis: 1875 U.S. LEXIS 1814
+dates:
+  decided: '1876-05-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 12 SAL 492
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 405}
+  source: {code: 405}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: DDavis
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WStrong
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true

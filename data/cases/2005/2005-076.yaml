@@ -1,0 +1,89 @@
+id: 2005-076
+name: JEANNE S. WOODFORD, et al. v. VIET MIKE NGO
+term: 2005
+chief: Roberts
+natural_court: 1702
+docket: 05-416
+citation:
+  us: 548 U.S. 81
+  sct: 126 S. Ct. 2378
+  led: 165 L. Ed. 2d 368
+  lexis: 2006 U.S. LEXIS 4891
+dates:
+  argued: '2006-03-22'
+  decided: '2006-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90480, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 42 U.S.C. § 1997
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 50}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 6}
+  respondent: {code: 215}
+opinions:
+  majority_author: SAAlito
+  majority_assigner: JGRoberts
+votes:
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: SGBreyer
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,69 @@
+id: 1832-030
+name: THE UNITED STATES v. JOHN D. QUINCY
+term: 1832
+chief: Marshall
+natural_court: 409
+citation:
+  us: 31 U.S. 445
+  led: 8 L. Ed. 458
+  lexis: 1832 U.S. LEXIS 486
+dates:
+  argued: '1831-03-14'
+  reargued: '1832-02-06'
+  decided: '1832-02-13'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 10220, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, April 20, 1818, sec. 3
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 417}
+  source: {code: 417}
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 137}
+opinions:
+  majority_author: SThompson
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  direction: conservative
+  in_majority: true

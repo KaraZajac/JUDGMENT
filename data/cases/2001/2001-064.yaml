@@ -1,0 +1,90 @@
+id: 2001-064
+name: KAY BARNES, ETC., et al. v. JEFFREY GORMAN
+term: 2001
+chief: Rehnquist
+natural_court: 1607
+docket: 01-682
+citation:
+  us: 536 U.S. 181
+  sct: 122 S. Ct. 2097
+  led: 153 L. Ed. 2d 230
+  lexis: 2002 U.S. LEXIS 4421
+dates:
+  argued: '2002-04-23'
+  decided: '2002-06-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80080, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 300
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 87}
+  source: {code: 28}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 30}
+  respondent: {code: 140}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - DHSouter
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: SGBreyer
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPStevens

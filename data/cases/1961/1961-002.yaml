@@ -1,0 +1,81 @@
+id: 1961-002
+name: MARTIN v. WALTON, PROBATE JUDGE OF JOHNSON COUNTY, KANSAS
+term: 1961
+chief: Warren
+natural_court: 1406
+docket: '30'
+citation:
+  us: 368 U.S. 25
+  sct: 82 S. Ct. 1
+  led: 7 L. Ed. 2d 5
+  lexis: 1961 U.S. LEXIS 194
+dates:
+  argued: '1961-10-17'
+  decided: '1961-11-06'
+decision:
+  type: per-curiam-argued
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 20}
+  source: {code: 300, state: 20}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 111}
+  respondent: {code: 16}
+  respondent_state: {code: 20}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  participated: false

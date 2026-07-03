@@ -1,0 +1,87 @@
+id: 1850-094
+name: THOMAS HENDERSON AND THOMAS CALLOWAY, PLAINTIFFS IN ERROR, v. THE STATE OF TENNESSEE
+term: 1850
+chief: Taney
+natural_court: 508
+citation:
+  us: 51 U.S. 311
+  led: 13 L. Ed. 434
+  lexis: 1850 U.S. LEXIS 1468
+dates:
+  argued: '1850-12-23'
+  decided: '1851-01-07'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90170, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 241}
+  respondent: {code: 28}
+  respondent_state: {code: 50}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LWoodbury
+- justice: JMWayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LWoodbury
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKinley
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LWoodbury
+- justice: PVDaniel
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LWoodbury
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true

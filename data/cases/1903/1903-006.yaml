@@ -1,0 +1,89 @@
+id: 1903-006
+name: DEPOSIT BANK v. FRANKFORT
+term: 1903
+chief: Fuller
+natural_court: 810
+docket: '33'
+citation:
+  us: 191 U.S. 499
+  sct: 24 S. Ct. 154
+  led: 48 L. Ed. 276
+  lexis: 1903 U.S. LEXIS 1420
+dates:
+  argued: '1903-10-20'
+  decided: '1903-12-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100030, area: federalism}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 21}
+  source: {code: 300, state: 21}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 3}
+  respondent_state: {code: 21}
+opinions:
+  majority_author: WRDay
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HBBrown
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

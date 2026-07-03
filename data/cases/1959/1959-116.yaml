@@ -1,0 +1,89 @@
+id: 1959-116
+name: SCHILLING v. ROGERS, ATTORNEY GENERAL
+term: 1959
+chief: Warren
+natural_court: 1406
+docket: '319'
+citation:
+  us: 363 U.S. 666
+  sct: 80 S. Ct. 1288
+  led: 4 L. Ed. 2d 1478
+  lexis: 1960 U.S. LEXIS 1869
+dates:
+  argued: '1960-02-29'
+  decided: '1960-06-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80050, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 50 U.S.C. § 32
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 159}
+  respondent: {code: 1}
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: FFrankfurter
+votes:
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true

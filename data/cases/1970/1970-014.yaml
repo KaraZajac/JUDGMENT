@@ -1,0 +1,89 @@
+id: 1970-014
+name: OREGON v. MITCHELL, ATTORNEY GENERAL
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: 43 ORIG
+citation:
+  us: 400 U.S. 112
+  sct: 91 S. Ct. 260
+  led: 27 L. Ed. 2d 272
+  lexis: 1970 U.S. LEXIS 1
+dates:
+  argued: '1970-10-19'
+  decided: '1970-12-21'
+decision:
+  type: judgment-of-the-court
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20010, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-national
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 43}
+  respondent: {code: 1}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TMarshall
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart

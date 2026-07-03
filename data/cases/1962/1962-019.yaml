@@ -1,0 +1,83 @@
+id: 1962-019
+name: SMITH v. EVENING NEWS ASSOCIATION
+term: 1962
+chief: Warren
+natural_court: 1408
+docket: '13'
+citation:
+  us: 371 U.S. 195
+  sct: 83 S. Ct. 267
+  led: 9 L. Ed. 2d 246
+  lexis: 1962 U.S. LEXIS 2174
+dates:
+  argued: '1962-10-10'
+  decided: '1962-12-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 100020, area: federalism}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 27}
+  source: {code: 300, state: 27}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 151}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  direction: conservative
+  in_majority: true

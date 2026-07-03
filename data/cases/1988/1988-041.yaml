@@ -1,0 +1,85 @@
+id: 1988-041
+name: TEAGUE v. LANE, DIRECTOR, ILLINOIS DEPARTMENT OF CORRECTIONS, et al.
+term: 1988
+chief: Rehnquist
+natural_court: 1603
+docket: 87-5259
+citation:
+  us: 489 U.S. 288
+  sct: 109 S. Ct. 1060
+  led: 103 L. Ed. 2d 334
+  lexis: 1989 U.S. LEXIS 1043
+dates:
+  argued: '1988-10-04'
+  decided: '1989-02-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10020, area: criminal-procedure}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 17}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true

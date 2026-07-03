@@ -1,0 +1,81 @@
+id: 1949-058
+name: UNITED STATES et al. v. UNITED STATES SMELTING REFINING & MINING CO. et al.
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '173'
+citation:
+  us: 339 U.S. 186
+  sct: 70 S. Ct. 537
+  led: 94 L. Ed. 2d 750
+  lexis: 1950 U.S. LEXIS 2474
+dates:
+  argued: '1950-02-13'
+  decided: '1950-03-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 123, state: 52}
+  source: {code: 123, state: 52}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 231}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: SMinton
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  participated: false

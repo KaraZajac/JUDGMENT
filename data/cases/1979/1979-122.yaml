@@ -1,0 +1,89 @@
+id: 1979-122
+name: ILLINOIS v. VITALE
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 78-1845
+citation:
+  us: 447 U.S. 410
+  sct: 100 S. Ct. 2260
+  led: 65 L. Ed. 2d 228
+  lexis: 1980 U.S. LEXIS 117
+dates:
+  argued: '1980-01-08'
+  decided: '1980-06-19'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10170, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 206
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 17}
+  respondent: {code: 126}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

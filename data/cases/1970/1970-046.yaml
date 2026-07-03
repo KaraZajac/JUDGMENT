@@ -1,0 +1,85 @@
+id: 1970-046
+name: UNITED STATES v. WELLER
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '77'
+citation:
+  us: 401 U.S. 254
+  sct: 91 S. Ct. 602
+  led: 28 L. Ed. 2d 26
+  lexis: 1971 U.S. LEXIS 76
+dates:
+  argued: '1970-12-10'
+  decided: '1971-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 30130, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 366
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 50}
+  source: {code: 29}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 142}
+admin_action: {agency: 107}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true

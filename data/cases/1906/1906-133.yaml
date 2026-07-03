@@ -1,0 +1,72 @@
+id: 1906-133
+name: MOORE v. MCGUIRE
+term: 1906
+chief: Fuller
+natural_court: 811
+docket: '222'
+citation:
+  us: 205 U.S. 214
+  sct: 27 S. Ct. 483
+  led: 51 L. Ed. 776
+  lexis: 1907 U.S. LEXIS 1420
+dates:
+  argued: '1907-03-04'
+  decided: '1907-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 140040, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 404}
+  source: {code: 404}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  in_majority: true
+- justice: WHMoody
+  vote: majority
+  in_majority: true

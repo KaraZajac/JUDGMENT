@@ -1,0 +1,87 @@
+id: 1924-047
+name: PANAMA RAILROAD COMPANY v. ROCK
+term: 1924
+chief: Taft
+natural_court: 1004
+docket: '4'
+citation:
+  us: 266 U.S. 209
+  sct: 45 S. Ct. 58
+  led: 69 L. Ed. 250
+  lexis: 1924 U.S. LEXIS 2916
+dates:
+  decided: '1924-11-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 163}
+  source: {code: 25}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 208}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: WVanDevanter
+votes:
+- justice: WHTaft
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true

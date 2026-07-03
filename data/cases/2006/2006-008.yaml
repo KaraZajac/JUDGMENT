@@ -1,0 +1,82 @@
+id: 2006-008
+name: MEDIMMUNE, INC. v. GENENTECH, INC., et al.
+term: 2006
+chief: Roberts
+natural_court: 1702
+docket: 05-608
+citation:
+  us: 549 U.S. 118
+  sct: 127 S. Ct. 764
+  led: 166 L. Ed. 2d 604
+  lexis: 2007 U.S. LEXIS 1003
+dates:
+  argued: '2006-10-04'
+  decided: '2007-01-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 90230, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 48}
+  source: {code: 8}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 173}
+  respondent: {code: 177}
+opinions:
+  majority_author: AScalia
+  majority_assigner: JGRoberts
+votes:
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true

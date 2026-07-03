@@ -1,0 +1,81 @@
+id: 1888-015
+name: ASHER v. TEXAS
+term: 1888
+chief: Fuller
+natural_court: 801
+docket: '781'
+citation:
+  us: 128 U.S. 129
+  sct: 9 S. Ct. 1
+  led: 32 L. Ed. 368
+  lexis: 1888 U.S. LEXIS 2201
+dates:
+  argued: '1888-10-11'
+  decided: '1888-10-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 301, state: 51}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  participated: false
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: conservative
+  in_majority: true

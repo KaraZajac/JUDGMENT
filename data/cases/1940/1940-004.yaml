@@ -1,0 +1,84 @@
+id: 1940-004
+name: UNITED STATES v. APPALACHIAN ELECTRIC POWER CO.
+term: 1940
+chief: Hughes
+natural_court: 1108
+docket: '12'
+citation:
+  us: 311 U.S. 377
+  sct: 61 S. Ct. 291
+  led: 85 L. Ed. 243
+  lexis: 1940 U.S. LEXIS 1067
+dates:
+  argued: '1940-10-14'
+  decided: '1940-12-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80270, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 336
+authority:
+- statutory-construction
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 127}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 148}
+admin_action: {agency: 52}
+opinions:
+  majority_author: SFReed
+  majority_assigner: HFStone
+votes:
+- justice: CEHughes2
+  participated: false
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true

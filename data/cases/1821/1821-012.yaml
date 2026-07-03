@@ -1,0 +1,70 @@
+id: 1821-012
+name: THE BELLO CORRUNES.  THE SPANISH CONSUL, CLAIMANT
+term: 1821
+chief: Marshall
+natural_court: 406
+citation:
+  us: 19 U.S. 152
+  led: 5 L. Ed. 229
+  lexis: 1821 U.S. LEXIS 353
+dates:
+  argued: '1821-02-08'
+  decided: '1821-02-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: other
+  supp: 509
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 113}
+  source: {code: 431}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 60}
+  respondent: {code: 600}
+opinions:
+  majority_author: WJohnson
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  participated: false
+- justice: WJohnson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true

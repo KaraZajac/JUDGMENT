@@ -1,0 +1,88 @@
+id: 2009-044
+name: KAREN L. JERMAN v. CARLISLE, MCNELLIE, RINI, KRAMER & ULRICH LPA, et al.
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 08-1200
+citation:
+  us: 559 U.S. 573
+  sct: 130 S. Ct. 1605
+  led: 176 L. Ed. 2d 519
+  lexis: 2010 U.S. LEXIS 3480
+dates:
+  argued: '2010-01-13'
+  decided: '2010-04-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20100, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 15-1692
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 103}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 111}
+opinions:
+  majority_author: SSotomayor
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: SSotomayor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

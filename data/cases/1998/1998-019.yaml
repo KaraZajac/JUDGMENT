@@ -1,0 +1,83 @@
+id: 1998-019
+name: DEPARTMENT OF COMMERCE, et al. v. UNITED STATES HOUSE OF REPRESENTATIVES et al.
+term: 1998
+chief: Rehnquist
+natural_court: 1607
+docket: 98-404
+citation:
+  us: 525 U.S. 316
+  sct: 119 S. Ct. 765
+  led: 142 L. Ed. 2d 797
+  lexis: 1999 U.S. LEXIS 902
+dates:
+  argued: '1998-11-30'
+  decided: '1999-01-25'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 130020, area: miscellaneous}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 13 U.S.C. § 1
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 316}
+  respondent: {code: 14}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  in_majority: false
+  joined:
+  - JPStevens
+  - RBGinsburg
+- justice: CThomas
+  vote: regular-concurrence
+  in_majority: true
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  in_majority: false

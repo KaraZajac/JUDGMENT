@@ -1,0 +1,96 @@
+id: 1978-093
+name: CHAPMAN, COMMISSIONER, DEPARTMENT OF HUMAN RESOURCES OF TEXAS, et al. v. HOUSTON WELFARE RIGHTS ORGANIZATION
+  et al.
+term: 1978
+chief: Burger
+natural_court: 1506
+docket: 77-719
+citation:
+  us: 441 U.S. 600
+  sct: 99 S. Ct. 1905
+  led: 60 L. Ed. 2d 508
+  lexis: 1979 U.S. LEXIS 101
+dates:
+  argued: '1978-10-02'
+  decided: '1979-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90320, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 1343
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 121}
+  source: {code: 25}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 51}
+  respondent: {code: 202}
+admin_action: {agency: 117, state: 51}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - LFPowell
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - LFPowell
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,89 @@
+id: 1958-084
+name: FRANK v. MARYLAND
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '278'
+citation:
+  us: 359 U.S. 360
+  sct: 79 S. Ct. 804
+  led: 3 L. Ed. 2d 877
+  lexis: 1959 U.S. LEXIS 1085
+dates:
+  argued: '1959-03-05'
+  decided: '1959-05-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 302, state: 25}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 25}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FFrankfurter
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,87 @@
+id: 1946-127
+name: BARTELS ET AL., DOING BUSINESS AS CRYSTAL BALLROOM, v. BIRMINGHAM, COLLECTOR OF INTERNAL REVENUE, ET AL.
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '731'
+citation:
+  us: 332 U.S. 126
+  sct: 67 S. Ct. 1547
+  led: 91 L. Ed. 1947
+  lexis: 1947 U.S. LEXIS 2987
+dates:
+  argued: '1947-04-03'
+  decided: '1947-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 370
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 71, state: 19}
+  source: {code: 28}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 369}
+admin_action: {agency: 69}
+opinions:
+  majority_author: SFReed
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,86 @@
+id: 1907-003
+name: RAYMOND, COUNTY TREASURER, v. CHICAGO EDISON COMPANY
+term: 1907
+chief: Fuller
+natural_court: 811
+docket: '116'
+citation:
+  us: 207 U.S. 42
+  sct: 28 S. Ct. 14
+  led: 52 L. Ed. 90
+  lexis: 1907 U.S. LEXIS 1198
+dates:
+  argued: '1907-08-07'
+  decided: '1907-10-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 240
+authority:
+- administrative-interpretation
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 410}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 17}
+  respondent: {code: 501}
+admin_action: {agency: 117, state: 17}
+opinions:
+  majority_author: RWPeckham
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes

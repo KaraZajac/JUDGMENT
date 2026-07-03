@@ -1,0 +1,85 @@
+id: 1972-008
+name: WARD v. VILLAGE OF MONROEVILLE
+term: 1972
+chief: Burger
+natural_court: 1504
+docket: 71-496
+citation:
+  us: 409 U.S. 57
+  sct: 93 S. Ct. 80
+  led: 34 L. Ed. 2d 267
+  lexis: 1972 U.S. LEXIS 11
+dates:
+  argued: '1972-10-17'
+  decided: '1972-11-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 40050, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 3}
+  respondent_state: {code: 41}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite

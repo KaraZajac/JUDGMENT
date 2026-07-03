@@ -1,0 +1,81 @@
+id: 1900-184
+name: THE BARNSTABLE
+term: 1900
+chief: Fuller
+natural_court: 808
+docket: '178'
+citation:
+  us: 181 U.S. 464
+  sct: 21 S. Ct. 684
+  led: 45 L. Ed. 954
+  lexis: 1901 U.S. LEXIS 1381
+dates:
+  argued: '1901-03-08'
+  decided: '1901-05-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 80}
+  source: {code: 21}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 122}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true

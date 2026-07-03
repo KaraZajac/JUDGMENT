@@ -1,0 +1,69 @@
+id: 1845-008
+name: ex parte DORR
+term: 1845
+chief: Taney
+natural_court: 505
+citation:
+  us: 44 U.S. 103
+  led: 11 L. Ed. 514
+  lexis: 1845 U.S. LEXIS 423
+dates:
+  argued: '1844-12-20'
+  decided: '1844-12-27'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+authority:
+- federal-common-law
+jurisdiction: {code: 14}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 47}
+  source: {code: 300, state: 47}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 28}
+  respondent_state: {code: 47}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: JStory
+votes:
+- justice: RBTaney
+  participated: false
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: conservative
+  in_majority: true

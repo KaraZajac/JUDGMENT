@@ -1,0 +1,87 @@
+id: 1925-074
+name: SCHLESINGER et al., EXECUTORS, ETC., v. WISCONSIN et al.
+term: 1925
+chief: Taft
+natural_court: 1005
+docket: '146'
+citation:
+  us: 270 U.S. 230
+  sct: 46 S. Ct. 260
+  led: 70 L. Ed. 557
+  lexis: 1926 U.S. LEXIS 409
+dates:
+  argued: '1926-01-18'
+  decided: '1926-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 58}
+  source: {code: 300, state: 58}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 28}
+  respondent_state: {code: 58}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes

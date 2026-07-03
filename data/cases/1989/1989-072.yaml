@@ -1,0 +1,89 @@
+id: 1989-072
+name: UNITED STATES v. OJEDA RIOS et al.
+term: 1989
+chief: Rehnquist
+natural_court: 1603
+docket: 89-61
+citation:
+  us: 495 U.S. 257
+  sct: 110 S. Ct. 1845
+  led: 109 L. Ed. 2d 224
+  lexis: 1990 U.S. LEXIS 2313
+dates:
+  argued: '1990-02-28'
+  decided: '1990-04-30'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10070, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 339
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 53}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true

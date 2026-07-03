@@ -1,0 +1,80 @@
+id: 1952-016
+name: DIXON v. DUFFY, WARDEN
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '4'
+citation:
+  us: 344 U.S. 143
+  sct: 73 S. Ct. 193
+  led: 97 L. Ed. 2d 153
+  lexis: 1952 U.S. LEXIS 1454
+dates:
+  argued: '1951-10-16'
+  decided: '1952-12-08'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 90180, area: judicial-power}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

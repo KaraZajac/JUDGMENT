@@ -1,0 +1,87 @@
+id: 1950-082
+name: SCHWEGMANN BROTHERS et al. v. CALVERT DISTILLERS CORP.
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '442'
+citation:
+  us: 341 U.S. 384
+  sct: 71 S. Ct. 745
+  led: 95 L. Ed. 2d 1035
+  lexis: 1951 U.S. LEXIS 2491
+dates:
+  argued: '1951-04-09'
+  decided: '1951-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80010, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 15 U.S.C. § 1
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 75, state: 22}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 115}
+  respondent: {code: 105}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true

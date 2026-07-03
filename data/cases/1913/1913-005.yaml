@@ -1,0 +1,81 @@
+id: 1913-005
+name: PRUDENTIAL INSURANCE COMPANY OF AMERICA v. MOORE, ADMINISTRATOR OF SALGUE
+term: 1913
+chief: White
+natural_court: 902
+docket: '47'
+citation:
+  us: 231 U.S. 560
+  sct: 34 S. Ct. 191
+  led: 58 L. Ed. 367
+  lexis: 1913 U.S. LEXIS 2518
+dates:
+  argued: '1913-11-06'
+  decided: '1913-12-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80070, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  source: {code: 25}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 102}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  direction: liberal
+  in_majority: false

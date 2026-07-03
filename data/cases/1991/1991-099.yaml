@@ -1,0 +1,88 @@
+id: 1991-099
+name: NEW YORK v. UNITED STATES et al.
+term: 1991
+chief: Rehnquist
+natural_court: 1605
+docket: 91-543
+citation:
+  us: 505 U.S. 144
+  sct: 112 S. Ct. 2408
+  led: 120 L. Ed. 2d 120
+  lexis: 1992 U.S. LEXIS 3693
+dates:
+  argued: '1992-03-30'
+  decided: '1992-06-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 100090, area: federalism}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 95}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 37}
+  respondent: {code: 27}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WHRehnquist
+votes:
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,85 @@
+id: 1974-078
+name: MTM, INC., et al. v. BAXLEY, ATTORNEY GENERAL OF ALABAMA, et al.
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-1119
+citation:
+  us: 420 U.S. 799
+  sct: 95 S. Ct. 1278
+  led: 43 L. Ed. 2d 636
+  lexis: 1975 U.S. LEXIS 53
+dates:
+  argued: '1974-12-10'
+  decided: '1975-03-25'
+decision:
+  type: per-curiam-argued
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 90340, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 1253
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 42}
+  source: {code: 42}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 242}
+  respondent: {code: 28}
+  respondent_state: {code: 1}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

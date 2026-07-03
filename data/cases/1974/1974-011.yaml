@@ -1,0 +1,89 @@
+id: 1974-011
+name: AMERICAN RADIO ASSN., AFL-CIO, et al. v. MOBILE STEAMSHIP ASSN., INC., et al.
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-748
+citation:
+  us: 419 U.S. 215
+  sct: 95 S. Ct. 409
+  led: 42 L. Ed. 2d 399
+  lexis: 1974 U.S. LEXIS 48
+dates:
+  argued: '1974-10-21'
+  decided: '1974-12-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100020, area: federalism}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 234}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

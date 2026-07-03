@@ -1,0 +1,85 @@
+id: 1956-067
+name: UNITED STATES v. UNION PACIFIC RAILROAD CO.
+term: 1956
+chief: Warren
+natural_court: 1405
+docket: '97'
+citation:
+  us: 353 U.S. 112
+  sct: 77 S. Ct. 685
+  led: 1 L. Ed. 2d 693
+  lexis: 1957 U.S. LEXIS 1575
+dates:
+  argued: '1957-01-23'
+  decided: '1957-04-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80130, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 12 Stat. 489
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 134}
+  source: {code: 30}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 231}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CEWhittaker
+  participated: false
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter

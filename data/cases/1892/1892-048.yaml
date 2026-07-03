@@ -1,0 +1,82 @@
+id: 1892-048
+name: UNITED STATES v. SOUTHERN PACIFIC RAILROAD COMPANY
+term: 1892
+chief: Fuller
+natural_court: 804
+docket: '921'
+citation:
+  us: 146 U.S. 570
+  sct: 13 S. Ct. 152
+  led: 36 L. Ed. 1091
+  lexis: 1892 U.S. LEXIS 2218
+dates:
+  argued: '1892-04-06'
+  reargued: '1892-11-09'
+  decided: '1892-12-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80105, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 405}
+  source: {code: 405}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 231}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - HGray
+- justice: JHarlan1
+  participated: false
+- justice: HGray
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true

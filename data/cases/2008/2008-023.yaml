@@ -1,0 +1,88 @@
+id: 2008-023
+name: DONALD L. CARCIERI, GOVERNOR OF RHODE ISLAND, et al. v. KEN L. SALAZAR, SECRETARY OF THE INTERIOR, et al.
+term: 2008
+chief: Roberts
+natural_court: 1702
+docket: 07-526
+citation:
+  us: 555 U.S. 379
+  sct: 129 S. Ct. 1058
+  led: 172 L. Ed. 2d 791
+  lexis: 2009 U.S. LEXIS 1633
+dates:
+  argued: '2008-11-03'
+  decided: '2009-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20160, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 25-461
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 113}
+  source: {code: 21}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 326}
+admin_action: {agency: 8}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true

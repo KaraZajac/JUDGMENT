@@ -1,0 +1,85 @@
+id: 1977-013
+name: NEW YORK v. CATHEDRAL ACADEMY
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 76-616
+citation:
+  us: 434 U.S. 125
+  sct: 98 S. Ct. 340
+  led: 54 L. Ed. 2d 346
+  lexis: 1977 U.S. LEXIS 158
+dates:
+  argued: '1977-10-03'
+  decided: '1977-12-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30180, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 203
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 37}
+  respondent: {code: 232}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

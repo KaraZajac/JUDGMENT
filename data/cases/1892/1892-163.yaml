@@ -1,0 +1,80 @@
+id: 1892-163
+name: SMITH v. TOWNSEND
+term: 1892
+chief: Fuller
+natural_court: 805
+docket: '1173'
+citation:
+  us: 148 U.S. 490
+  sct: 13 S. Ct. 634
+  led: 37 L. Ed. 533
+  lexis: 1893 U.S. LEXIS 2246
+dates:
+  decided: '1893-04-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 3/1/1889
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 17, state: 42}
+  source: {code: 15, state: 42}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+admin_action: {agency: 123}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  participated: false
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HEJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

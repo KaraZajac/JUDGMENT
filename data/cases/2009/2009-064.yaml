@@ -1,0 +1,87 @@
+id: 2009-064
+name: MICHAEL GARY BARBER, et al. v. J. E. THOMAS, WARDEN
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 09-5201
+citation:
+  us: 560 U.S. 474
+  sct: 130 S. Ct. 2499
+  led: 177 L. Ed. 2d 1
+  lexis: 2010 U.S. LEXIS 4717
+dates:
+  argued: '2010-03-30'
+  decided: '2010-06-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10560, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18-3624
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 108}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 27}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true

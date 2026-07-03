@@ -1,0 +1,95 @@
+id: 1900-200
+name: DOWNES v. BIDWELL
+term: 1900
+chief: Fuller
+natural_court: 808
+docket: '507'
+citation:
+  us: 182 U.S. 244
+  sct: 21 S. Ct. 770
+  led: 45 L. Ed. 1088
+  lexis: 1901 U.S. LEXIS 286
+dates:
+  argued: '1901-01-08'
+  decided: '1901-05-27'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 234}
+  respondent: {code: 19}
+  respondent_state: {code: 37}
+admin_action: {agency: 21}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: HGray
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HGray
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HBBrown
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - EDEWhite
+- justice: EDEWhite
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: JMcKenna
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - EDEWhite

@@ -1,0 +1,70 @@
+id: 1861-067
+name: UNITED STATES VS. JACKALOW
+term: 1861
+chief: Taney
+natural_court: 512
+citation:
+  us: 66 U.S. 484
+  led: 17 L. Ed. 225
+  lexis: 1861 U.S. LEXIS 502
+dates:
+  argued: '1862-03-18'
+  decided: '1862-03-24'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 10370, area: criminal-procedure}
+law:
+  type: constitution
+  supp: 138
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 425}
+  source: {code: 425}
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 137}
+opinions:
+  majority_author: SNelson
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true

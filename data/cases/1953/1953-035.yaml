@@ -1,0 +1,91 @@
+id: 1953-035
+name: RADIO OFFICERS' UNION OF THE COMMERCIAL TELEGRAPHERS UNION, AFL, v. NATIONAL LABOR RELATIONS BOARD
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '5'
+citation:
+  us: 347 U.S. 17
+  sct: 74 S. Ct. 323
+  led: 98 L. Ed. 2d 455
+  lexis: 1954 U.S. LEXIS 2690
+dates:
+  argued: '1953-01-08'
+  reargued: '1953-11-09'
+  decided: '1954-02-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 70060, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  disposition: granted
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 382}
+admin_action: {agency: 82}
+opinions:
+  majority_author: SFReed
+  majority_assigner: EWarren
+votes:
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

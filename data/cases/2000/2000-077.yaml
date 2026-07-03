@@ -1,0 +1,90 @@
+id: 2000-077
+name: IDAHO v. UNITED STATES et al.
+term: 2000
+chief: Rehnquist
+natural_court: 1607
+docket: 00-189
+citation:
+  us: 533 U.S. 262
+  sct: 121 S. Ct. 2135
+  led: 150 L. Ed. 2d 326
+  lexis: 2001 U.S. LEXIS 4665
+dates:
+  argued: '2001-04-23'
+  decided: '2001-06-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20160, area: civil-rights}
+law:
+  type: other
+  supp: 511
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 64}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 16}
+  respondent: {code: 27}
+opinions:
+  majority_author: DHSouter
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: DHSouter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

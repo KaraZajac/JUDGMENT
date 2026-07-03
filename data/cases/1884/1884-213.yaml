@@ -1,0 +1,88 @@
+id: 1884-213
+name: WHITE v. GREENHOW, TREASURER
+term: 1884
+chief: Waite
+natural_court: 706
+citation:
+  us: 114 U.S. 307
+  sct: 5 S. Ct. 923
+  led: 29 L. Ed. 199
+  lexis: 1885 U.S. LEXIS 1760
+dates:
+  argued: '1885-03-25'
+  decided: '1885-04-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 436}
+  source: {code: 436}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 55}
+  respondent: {code: 8}
+  respondent_state: {code: 55}
+opinions:
+  majority_author: SMatthews
+  majority_assigner: SJField
+votes:
+- justice: MRWaite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

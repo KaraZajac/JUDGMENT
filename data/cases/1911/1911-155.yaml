@@ -1,0 +1,75 @@
+id: 1911-155
+name: THE SAN PEDRO
+term: 1911
+chief: White
+natural_court: 901
+docket: '155'
+citation:
+  us: 223 U.S. 365
+  sct: 32 S. Ct. 275
+  led: 56 L. Ed. 473
+  lexis: 1912 U.S. LEXIS 2240
+dates:
+  decided: '1912-02-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 50}
+  source: {code: 50}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 116}
+opinions:
+  majority_author: HHLurton
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: conservative
+  in_majority: true

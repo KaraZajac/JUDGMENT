@@ -1,0 +1,88 @@
+id: 1938-081
+name: H. P. HOOD & SONS, INC. et al. v. UNITED STATES et al.
+term: 1938
+chief: Hughes
+natural_court: 1107
+docket: '772'
+citation:
+  us: 307 U.S. 588
+  sct: 59 S. Ct. 1019
+  led: 83 L. Ed. 1478
+  lexis: 1939 U.S. LEXIS 462
+dates:
+  argued: '1939-04-25'
+  decided: '1939-06-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80170, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 207
+authority:
+- administrative-interpretation
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 80}
+  source: {code: 21}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 158}
+  respondent: {code: 304}
+admin_action: {agency: 4}
+opinions:
+  majority_author: SFReed
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: PButler
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true

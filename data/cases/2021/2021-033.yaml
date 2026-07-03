@@ -1,0 +1,91 @@
+id: 2021-033
+name: WHOLE WOMAN'S HEALTH v. JACKSON
+term: 2021
+chief: Roberts
+natural_court: 1709
+docket: 21-463
+citation:
+  sct: 142 S. Ct. 522
+  led: 211 L. Ed. 2d 316
+  lexis: 2021 U.S. LEXIS 6144
+dates:
+  argued: '2021-11-01'
+  decided: '2021-12-10'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90320, area: judicial-power}
+law:
+  type: constitutional-amendment
+  supp: 224
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 122}
+  source: {code: 25}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 165}
+  respondent: {code: 16}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: NMGorsuch
+  majority_assigner: CThomas
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+  - SSotomayor
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+  - SSotomayor
+- justice: NMGorsuch
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: conservative
+  in_majority: true

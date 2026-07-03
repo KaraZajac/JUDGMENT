@@ -1,0 +1,86 @@
+id: 1990-096
+name: CONNECTICUT AND JOHN F. DIGIOVANNI v. BRIAN K. DOEHR
+term: 1990
+chief: Rehnquist
+natural_court: 1604
+docket: 90-143
+citation:
+  us: 501 U.S. 1
+  sct: 111 S. Ct. 2105
+  led: 115 L. Ed. 2d 1
+  lexis: 1991 U.S. LEXIS 3317
+dates:
+  argued: '1991-01-07'
+  decided: '1991-06-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20100, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 53}
+  source: {code: 22}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 8}
+  respondent: {code: 195}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WHRehnquist
+- justice: WHRehnquist
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true

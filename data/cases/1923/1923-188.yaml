@@ -1,0 +1,84 @@
+id: 1923-188
+name: UNITED STATES AND INTERSTATE COMMERCE COMMISSION v. NEW RIVER COMPANY et al.
+term: 1923
+chief: Taft
+natural_court: 1004
+docket: '627'
+citation:
+  us: 265 U.S. 533
+  sct: 44 S. Ct. 610
+  led: 68 L. Ed. 1165
+  lexis: 1924 U.S. LEXIS 2634
+dates:
+  argued: '1924-04-24'
+  decided: '1924-06-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 90120, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 131}
+  source: {code: 131}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 132}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: PButler
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true

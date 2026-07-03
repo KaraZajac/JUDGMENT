@@ -1,0 +1,84 @@
+id: 1865-075
+name: ex parte MILLIGAN
+term: 1865
+chief: Chase
+natural_court: 601
+citation:
+  us: 71 U.S. 2
+  led: 18 L. Ed. 281
+  lexis: 1866 U.S. LEXIS 861
+dates:
+  argued: '1866-03-05'
+  decided: '1866-04-03'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10580, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 215
+authority:
+- judicial-review-national
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 411}
+  source: {code: 411}
+  disagreement: true
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 27}
+opinions:
+  majority_author: DDavis
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SPChase
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SPChase
+- justice: SFMiller
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SPChase
+- justice: DDavis
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

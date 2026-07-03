@@ -1,0 +1,87 @@
+id: 1979-008
+name: UNITED STATES v. KUBRICK
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 78-1014
+citation:
+  us: 444 U.S. 111
+  sct: 100 S. Ct. 352
+  led: 62 L. Ed. 2d 259
+  lexis: 1979 U.S. LEXIS 152
+dates:
+  argued: '1979-10-03'
+  decided: '1979-11-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80060, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 374
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 109}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 250}
+admin_action: {agency: 114}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

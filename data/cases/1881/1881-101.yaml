@@ -1,0 +1,73 @@
+id: 1881-101
+name: ST. LOUIS v. KNAPP COMPANY
+term: 1881
+chief: Waite
+natural_court: 705
+docket: '813'
+citation:
+  us: 104 U.S. 658
+  led: 26 L. Ed. 883
+  lexis: 1881 U.S. LEXIS 2060
+dates:
+  decided: '1882-03-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 422}
+  source: {code: 422}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 30}
+  respondent: {code: 122}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  participated: false

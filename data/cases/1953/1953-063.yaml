@@ -1,0 +1,81 @@
+id: 1953-063
+name: ALASKA STEAMSHIP CO., INC. v. PETTERSON
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '287'
+citation:
+  us: 347 U.S. 396
+  sct: 74 S. Ct. 601
+  led: 98 L. Ed. 2d 798
+  lexis: 1954 U.S. LEXIS 2618
+dates:
+  argued: '1954-03-08'
+  decided: '1954-04-05'
+decision:
+  type: per-curiam-argued
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 129}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 208}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HHBurton
+- justice: HHBurton
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HHBurton

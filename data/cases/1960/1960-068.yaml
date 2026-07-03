@@ -1,0 +1,87 @@
+id: 1960-068
+name: LOCAL 357, INTERNATIONAL BROTHERHOOD OF TEAMSTERS, CHAUFFEURS, WAREHOUSEMEN AND HELPERS OF AMERICA, v. NATIONAL
+  LABOR RELATIONS BOARD
+term: 1960
+chief: Warren
+natural_court: 1406
+docket: '64'
+citation:
+  us: 365 U.S. 667
+  sct: 81 S. Ct. 835
+  led: 6 L. Ed. 2d 11
+  lexis: 1961 U.S. LEXIS 2030
+dates:
+  argued: '1961-02-28'
+  decided: '1961-04-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 70030, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: affirmed-and-reversed-in-part
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 382}
+admin_action: {agency: 82}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JHarlan2
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  participated: false
+- justice: CEWhittaker
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

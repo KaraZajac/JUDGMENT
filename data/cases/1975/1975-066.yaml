@@ -1,0 +1,86 @@
+id: 1975-066
+name: BEER et al. v. UNITED STATES et al.
+term: 1975
+chief: Burger
+natural_court: 1506
+docket: 73-1869
+citation:
+  us: 425 U.S. 130
+  sct: 96 S. Ct. 1357
+  led: 47 L. Ed. 2d 629
+  lexis: 1976 U.S. LEXIS 33
+dates:
+  argued: '1975-03-26'
+  reargued: '1975-11-12'
+  decided: '1976-03-30'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 20020, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 378
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 22}
+  respondent: {code: 27}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  participated: false

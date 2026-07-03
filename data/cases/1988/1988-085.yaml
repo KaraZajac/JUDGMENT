@@ -1,0 +1,87 @@
+id: 1988-085
+name: THORNBURGH, ATTORNEY GENERAL OF THE UNITED STATES, et al. v. ABBOTT et al.
+term: 1988
+chief: Rehnquist
+natural_court: 1603
+docket: 87-1344
+citation:
+  us: 490 U.S. 401
+  sct: 109 S. Ct. 1874
+  led: 104 L. Ed. 2d 459
+  lexis: 1989 U.S. LEXIS 2437
+dates:
+  argued: '1988-11-08'
+  decided: '1989-05-15'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 215}
+admin_action: {agency: 36}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 1892-256
+name: FONG YUE TING v. UNITED STATES.
+term: 1892
+chief: Fuller
+natural_court: 805
+docket: '1345'
+citation:
+  us: 149 U.S. 698
+  sct: 13 S. Ct. 1016
+  led: 37 L. Ed. 905
+  lexis: 1893 U.S. LEXIS 2340
+dates:
+  argued: '1893-05-10'
+  decided: '1893-05-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 20260, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Chinese Exclusion Cases
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 27}
+opinions:
+  majority_author: HGray
+  majority_assigner: HGray
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  participated: false
+- justice: HGray
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HEJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,81 @@
+id: 1920-054
+name: WEEDS, INC., et al. v. UNITED STATES
+term: 1920
+chief: White
+natural_court: 905
+docket: '558'
+citation:
+  us: 255 U.S. 109
+  sct: 41 S. Ct. 306
+  led: 65 L. Ed. 537
+  lexis: 1921 U.S. LEXIS 1275
+dates:
+  argued: '1920-10-18'
+  decided: '1921-02-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 40010, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 95}
+  source: {code: 95}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - MPitney
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

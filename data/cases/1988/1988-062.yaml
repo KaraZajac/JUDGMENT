@@ -1,0 +1,85 @@
+id: 1988-062
+name: DAVIS v. MICHIGAN DEPARTMENT OF THE TREASURY
+term: 1988
+chief: Rehnquist
+natural_court: 1603
+docket: 87-1020
+citation:
+  us: 489 U.S. 803
+  sct: 109 S. Ct. 1500
+  led: 103 L. Ed. 2d 891
+  lexis: 1989 U.S. LEXIS 1667
+dates:
+  argued: '1989-01-09'
+  decided: '1989-03-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 100110, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 4 U.S.C. § 111
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 27}
+  source: {code: 301, state: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 13}
+  petitioner_state: {code: 60}
+  respondent: {code: 7}
+  respondent_state: {code: 27}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

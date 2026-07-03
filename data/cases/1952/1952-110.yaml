@@ -1,0 +1,82 @@
+id: 1952-110
+name: UNITED STATES v. GRAINGER
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '634'
+citation:
+  us: 346 U.S. 235
+  sct: 73 S. Ct. 1069
+  led: 97 L. Ed. 2d 1575
+  lexis: 1953 U.S. LEXIS 2535
+dates:
+  argued: '1953-05-04'
+  decided: '1953-06-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10420, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U.S.C. § 3287
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 50, state: 6}
+  source: {code: 50, state: 6}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

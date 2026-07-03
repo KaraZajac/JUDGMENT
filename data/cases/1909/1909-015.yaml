@@ -1,0 +1,73 @@
+id: 1909-015
+name: THE STEAMSHIP JEFFERSON
+term: 1909
+chief: Fuller
+natural_court: 811
+docket: '243'
+citation:
+  us: 215 U.S. 130
+  sct: 30 S. Ct. 54
+  led: 54 L. Ed. 125
+  lexis: 1909 U.S. LEXIS 1740
+dates:
+  decided: '1909-11-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90340, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 126}
+  source: {code: 126}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 195}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHMoody
+  participated: false

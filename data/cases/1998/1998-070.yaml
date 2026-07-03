@@ -1,0 +1,90 @@
+id: 1998-070
+name: BENJAMIN LEE LILLY v. VIRGINIA
+term: 1998
+chief: Rehnquist
+natural_court: 1607
+docket: 98-5881
+citation:
+  us: 527 U.S. 116
+  sct: 119 S. Ct. 1887
+  led: 144 L. Ed. 2d 117
+  lexis: 1999 U.S. LEXIS 4006
+dates:
+  argued: '1999-03-29'
+  decided: '1999-06-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10270, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 213
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 55}
+  source: {code: 300, state: 55}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 55}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WHRehnquist
+- justice: AScalia
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WHRehnquist
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

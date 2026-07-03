@@ -1,0 +1,80 @@
+id: 1871-141
+name: BRADLEY v. FISHER
+term: 1871
+chief: Chase
+natural_court: 602
+citation:
+  us: 80 U.S. 335
+  led: 20 L. Ed. 646
+  lexis: 1871 U.S. LEXIS 1345
+dates:
+  argued: '1872-02-26'
+  decided: '1872-04-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 60030, area: attorneys}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 19}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 111}
+  respondent: {code: 16}
+  respondent_state: {code: 10}
+opinions:
+  majority_author: SJField
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - DDavis
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true

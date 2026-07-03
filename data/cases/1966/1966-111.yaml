@@ -1,0 +1,89 @@
+id: 1966-111
+name: REITMAN et al. v. MULKEY et al.
+term: 1966
+chief: Warren
+natural_court: 1409
+docket: '483'
+citation:
+  us: 387 U.S. 369
+  sct: 87 S. Ct. 1627
+  led: 18 L. Ed. 2d 830
+  lexis: 1967 U.S. LEXIS 1324
+dates:
+  argued: '1967-03-20'
+  decided: '1967-05-29'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20040, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed-and-reversed-in-part
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 241}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

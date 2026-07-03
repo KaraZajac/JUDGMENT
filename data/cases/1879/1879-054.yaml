@@ -1,0 +1,86 @@
+id: 1879-054
+name: STEWART v. PLATT
+term: 1879
+chief: Waite
+natural_court: 702
+citation:
+  us: 101 U.S. 731
+  led: 25 L. Ed. 816
+  lexis: 1879 U.S. LEXIS 1981
+dates:
+  argued: '1879-11-21'
+  decided: '1879-12-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80030, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 426}
+  disposition: affirmed-and-reversed-in-part
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 114}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SJField
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SJField
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - SJField

@@ -1,0 +1,84 @@
+id: 2012-061
+name: FEDERAL TRADE COMMISSION, PETITIONER v. ACTAVIS, INC., et al.
+term: 2012
+chief: Roberts
+natural_court: 1704
+docket: 12-416
+citation:
+  us: 570 U.S. 136
+  sct: 133 S. Ct. 2223
+  led: 185 L. Ed. 2d 175
+  lexis: 2013 U.S. LEXIS 4545
+dates:
+  argued: '2013-03-25'
+  decided: '2013-06-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10430, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-and-state-confusion
+lower_court:
+  origin: {code: 60}
+  source: {code: 31}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 357}
+  respondent: {code: 143}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: AMKennedy
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  participated: false
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

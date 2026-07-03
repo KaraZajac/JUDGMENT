@@ -1,0 +1,79 @@
+id: 1906-019
+name: PETTIBONE v. NICHOLS
+term: 1906
+chief: Fuller
+natural_court: 810
+docket: '249'
+citation:
+  us: 203 U.S. 192
+  sct: 27 S. Ct. 111
+  led: 51 L. Ed. 148
+  lexis: 1906 U.S. LEXIS 1582
+dates:
+  argued: '1906-10-10'
+  decided: '1906-12-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 10320, area: criminal-procedure}
+law:
+  type: constitution
+  supp: 145
+authority:
+- judicial-review-state
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 444}
+  source: {code: 444}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 19}
+  respondent_state: {code: 16}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true

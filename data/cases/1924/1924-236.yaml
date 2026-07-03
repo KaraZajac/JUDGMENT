@@ -1,0 +1,84 @@
+id: 1924-236
+name: FRICK et al. v. PENNSYLVANIA
+term: 1924
+chief: Taft
+natural_court: 1005
+docket: '122'
+citation:
+  us: 268 U.S. 473
+  sct: 45 S. Ct. 603
+  led: 69 L. Ed. 1058
+  lexis: 1925 U.S. LEXIS 841
+dates:
+  argued: '1923-12-07'
+  decided: '1925-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed-and-reversed-in-part
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 45}
+  respondent: {code: 28}
+  respondent_state: {code: 45}
+admin_action: {agency: 117, state: 45}
+opinions:
+  majority_author: WVanDevanter
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

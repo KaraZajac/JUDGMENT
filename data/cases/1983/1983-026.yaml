@@ -1,0 +1,86 @@
+id: 1983-026
+name: SOUTHLAND CORP. et al. v. KEATING et al.
+term: 1983
+chief: Burger
+natural_court: 1507
+docket: 82-500
+citation:
+  us: 465 U.S. 1
+  sct: 104 S. Ct. 852
+  led: 79 L. Ed. 2d 1
+  lexis: 1984 U.S. LEXIS 2
+dates:
+  argued: '1983-10-04'
+  decided: '1984-01-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80160, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 9 U.S.C. § 2
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 160}
+  respondent: {code: 161}
+opinions:
+  majority_author: WEBurger
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

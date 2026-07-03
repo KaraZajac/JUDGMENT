@@ -1,0 +1,89 @@
+id: 1950-044
+name: NORTON COMPANY v. DEPARTMENT OF REVENUE OF ILLINOIS
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '133'
+citation:
+  us: 340 U.S. 534
+  sct: 71 S. Ct. 377
+  led: 95 L. Ed. 2d 517
+  lexis: 1951 U.S. LEXIS 2157
+dates:
+  argued: '1950-12-06'
+  decided: '1951-02-26'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 17}
+  respondent: {code: 7}
+  respondent_state: {code: 17}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TCClark
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TCClark
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

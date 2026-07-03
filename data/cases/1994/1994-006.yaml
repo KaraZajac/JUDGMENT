@@ -1,0 +1,85 @@
+id: 1994-006
+name: UNITED STATES v. X-CITEMENT VIDEO, INC., et al.
+term: 1994
+chief: Rehnquist
+natural_court: 1607
+docket: 93-723
+citation:
+  us: 513 U.S. 64
+  sct: 115 S. Ct. 464
+  led: 130 L. Ed. 2d 372
+  lexis: 1994 U.S. LEXIS 8601
+dates:
+  argued: '1994-10-05'
+  decided: '1994-11-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 30200, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U.S.C. § 2252
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 109}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

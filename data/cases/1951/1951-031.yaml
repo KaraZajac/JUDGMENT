@@ -1,0 +1,83 @@
+id: 1951-031
+name: UNITED STATES v. SHANNON ET AL.
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '47'
+citation:
+  us: 342 U.S. 288
+  sct: 72 S. Ct. 281
+  led: 96 L. Ed. 2d 321
+  lexis: 1952 U.S. LEXIS 2537
+dates:
+  argued: '1951-11-27'
+  decided: '1952-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 31 U.S.C. § 203
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 155, state: 48}
+  source: {code: 24}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 195}
+opinions:
+  majority_author: TCClark
+  majority_assigner: FMVinson
+votes:
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true

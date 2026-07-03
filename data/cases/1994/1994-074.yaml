@@ -1,0 +1,87 @@
+id: 1994-074
+name: COMMISSIONER OF INTERNAL REVENUE v. ERICH E. SCHLEIER AND HELEN B. SCHLEIER
+term: 1994
+chief: Rehnquist
+natural_court: 1607
+docket: 94-500
+citation:
+  us: 515 U.S. 323
+  sct: 115 S. Ct. 2159
+  led: 132 L. Ed. 2d 294
+  lexis: 1995 U.S. LEXIS 4044
+dates:
+  argued: '1995-03-27'
+  decided: '1995-06-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 9}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 240}
+admin_action: {agency: 69}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AScalia
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

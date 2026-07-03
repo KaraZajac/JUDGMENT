@@ -1,0 +1,83 @@
+id: 1840-032
+name: SUSAN DECATUR, PLAINTIFF IN ERROR, VS. JAMES K. PAULDING, SECRETARY OF THE NAVY, DEFENDANT IN ERROR
+term: 1840
+chief: Taney
+natural_court: 504
+citation:
+  us: 39 U.S. 497
+  led: 10 L. Ed. 559
+  lexis: 1840 U.S. LEXIS 384
+dates:
+  argued: '1840-02-18'
+  decided: '1840-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90120, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, March 3, 1837
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 440}
+  source: {code: 440}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 186}
+  respondent: {code: 377}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMcLean
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HBaldwin
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PPBarbour
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMcKinley
+  participated: false

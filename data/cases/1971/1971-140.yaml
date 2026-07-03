@@ -1,0 +1,81 @@
+id: 1971-140
+name: TAYLOR ET AL v. MCKEITHEN, GOVERNOR OF LOUISIANA, et al.
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 71-784
+citation:
+  us: 407 U.S. 191
+  sct: 92 S. Ct. 1980
+  led: 32 L. Ed. 2d 648
+  lexis: 1972 U.S. LEXIS 45
+dates:
+  decided: '1972-06-12'
+decision:
+  type: per-curiam-no-argument
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20090, area: civil-rights}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 75}
+  source: {code: 25}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 251}
+  respondent: {code: 28}
+  respondent_state: {code: 22}
+opinions:
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

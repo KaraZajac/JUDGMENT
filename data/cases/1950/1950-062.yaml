@@ -1,0 +1,80 @@
+id: 1950-062
+name: UNITED STATES v. WILLIAMS ET AL.
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '134'
+citation:
+  us: 341 U.S. 58
+  sct: 71 S. Ct. 595
+  led: 95 L. Ed. 2d 747
+  lexis: 1951 U.S. LEXIS 1955
+dates:
+  argued: '1951-01-08'
+  decided: '1951-04-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10170, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 206
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 58, state: 12}
+  source: {code: 58, state: 12}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 126}
+opinions:
+  majority_author: SFReed
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

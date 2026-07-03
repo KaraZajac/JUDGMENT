@@ -1,0 +1,65 @@
+id: 1800-004
+name: COOPER VERSUS TELFAIR
+term: 1800
+chief: Ellsworth
+natural_court: 302
+citation:
+  us: 4 U.S. 14
+  led: 1 L. Ed. 721
+  lexis: 1800 U.S. LEXIS 299
+dates:
+  argued: '1800-02-07'
+  decided: '1800-02-13'
+decision:
+  type: seriatim
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 211
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 409}
+  source: {code: 409}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 8}
+  respondent_state: {code: 13}
+opinions:
+  majority_assigner: OEllsworth
+votes:
+- justice: OEllsworth
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WPaterson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,89 @@
+id: 1963-036
+name: HARDY v. UNITED STATES
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '112'
+citation:
+  us: 375 U.S. 277
+  sct: 84 S. Ct. 424
+  led: 11 L. Ed. 2d 331
+  lexis: 1964 U.S. LEXIS 2031
+dates:
+  argued: '1963-11-21'
+  decided: '1964-01-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 20370, area: civil-rights}
+law:
+  type: court-rules
+  supp: 401
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 213}
+  respondent: {code: 27}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AJGoldberg
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AJGoldberg
+- justice: TCClark
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

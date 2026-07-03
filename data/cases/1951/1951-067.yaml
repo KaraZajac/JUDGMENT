@@ -1,0 +1,86 @@
+id: 1951-067
+name: STROBLE v. CALIFORNIA
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '373'
+citation:
+  us: 343 U.S. 181
+  sct: 72 S. Ct. 599
+  led: 96 L. Ed. 2d 872
+  lexis: 1952 U.S. LEXIS 2232
+dates:
+  argued: '1952-03-06'
+  decided: '1952-04-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10010, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 210
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: TCClark
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

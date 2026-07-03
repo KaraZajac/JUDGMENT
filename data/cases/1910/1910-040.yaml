@@ -1,0 +1,79 @@
+id: 1910-040
+name: CITY OF MEMPHIS v. CUMBERLAND TELEPHONE AND TELEGRAPH COMPANY
+term: 1910
+chief: Fuller
+natural_court: 813
+docket: '42'
+citation:
+  us: 218 U.S. 624
+  sct: 31 S. Ct. 115
+  led: 54 L. Ed. 1185
+  lexis: 1910 U.S. LEXIS 2056
+dates:
+  argued: '1910-11-08'
+  decided: '1910-12-12'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 90170, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 3/3/91
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 433}
+  source: {code: 433}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 50}
+  respondent: {code: 205}
+opinions:
+  majority_author: WRDay
+  majority_assigner: JHarlan1
+votes:
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite

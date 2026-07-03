@@ -1,0 +1,87 @@
+id: 1934-051
+name: RAILROAD RETIREMENT BOARD et al. v. ALTON RAILROAD CO. et al.
+term: 1934
+chief: Hughes
+natural_court: 1103
+docket: '566'
+citation:
+  us: 295 U.S. 330
+  sct: 55 S. Ct. 758
+  led: 79 L. Ed. 1468
+  lexis: 1935 U.S. LEXIS 1087
+dates:
+  argued: '1935-03-13'
+  decided: '1935-05-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90420, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 19}
+  source: {code: 32}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 402}
+  respondent: {code: 231}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: WVanDevanter
+votes:
+- justice: CEHughes2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEHughes2
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEHughes2
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEHughes2

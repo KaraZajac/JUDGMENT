@@ -1,0 +1,88 @@
+id: 1986-077
+name: BROCK, SECRETARY OF LABOR, et al. v. ROADWAY EXPRESS, INC.
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-1530
+citation:
+  us: 481 U.S. 252
+  sct: 107 S. Ct. 1740
+  led: 95 L. Ed. 2d 239
+  lexis: 1987 U.S. LEXIS 1814
+dates:
+  argued: '1986-12-03'
+  decided: '1987-04-22'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 40020, area: due-process}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 60}
+  source: {code: 60}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 371}
+  respondent: {code: 151}
+admin_action: {agency: 71}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WJBrennan
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TMarshall
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite

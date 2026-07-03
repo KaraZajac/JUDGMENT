@@ -1,0 +1,78 @@
+id: 1952-111
+name: BARROWS ET AL. v. JACKSON
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '517'
+citation:
+  us: 346 U.S. 249
+  sct: 73 S. Ct. 1031
+  led: 97 L. Ed. 2d 1586
+  lexis: 1953 U.S. LEXIS 1902
+dates:
+  argued: '1953-04-28'
+  decided: '1953-06-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 20040, area: civil-rights}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: state-court-conflict
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 301, state: 6}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: SMinton
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  participated: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

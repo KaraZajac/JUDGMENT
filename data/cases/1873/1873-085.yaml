@@ -1,0 +1,74 @@
+id: 1873-085
+name: GRANT v. STRONG
+term: 1873
+chief: Chase
+natural_court: 603
+citation:
+  us: 85 U.S. 623
+  led: 21 L. Ed. 859
+  lexis: 1873 U.S. LEXIS 1335
+dates:
+  argued: '1873-12-24'
+  decided: '1874-01-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80050, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 19}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 174}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: NClifford
+votes:
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,90 @@
+id: 1981-025
+name: CABELL, ACTING CHIEF PROBATION OFFICER OF LOS ANGELES COUNTY, et al. v. CHAVEZ-SALIDO et al.
+term: 1981
+chief: Burger
+natural_court: 1507
+docket: 80-990
+citation:
+  us: 454 U.S. 432
+  sct: 102 S. Ct. 735
+  led: 70 L. Ed. 2d 677
+  lexis: 1982 U.S. LEXIS 61
+dates:
+  argued: '1981-11-03'
+  decided: '1982-01-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20120, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 48}
+  source: {code: 48}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 6}
+  respondent: {code: 106}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

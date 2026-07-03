@@ -1,0 +1,90 @@
+id: 2004-045
+name: JENNIFER M. GRANHOLM, GOVERNOR OF MICHIGAN, et al. v. ELEANOR HEALD, et al.
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 03-1116
+citation:
+  us: 544 U.S. 460
+  sct: 125 S. Ct. 1885
+  led: 161 L. Ed. 2d 796
+  lexis: 2005 U.S. LEXIS 4174
+dates:
+  argued: '2004-12-07'
+  decided: '2005-05-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 81}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 134}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: AScalia
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+  - JPStevens
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

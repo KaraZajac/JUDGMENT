@@ -1,0 +1,91 @@
+id: 1972-034
+name: UNITED STATES v. KRAS
+term: 1972
+chief: Burger
+natural_court: 1504
+docket: 71-749
+citation:
+  us: 409 U.S. 434
+  sct: 93 S. Ct. 631
+  led: 34 L. Ed. 2d 626
+  lexis: 1973 U.S. LEXIS 162
+dates:
+  argued: '1972-10-18'
+  decided: '1973-01-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20350, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 212
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 94}
+  source: {code: 94}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 114}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WJBrennan
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

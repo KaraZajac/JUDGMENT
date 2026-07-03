@@ -1,0 +1,83 @@
+id: 1873-130
+name: BARTEMEYER v. IOWA
+term: 1873
+chief: Waite
+natural_court: 701
+citation:
+  us: 85 U.S. 129
+  led: 21 L. Ed. 929
+  lexis: 1873 U.S. LEXIS 1297
+dates:
+  decided: '1874-03-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90130, area: judicial-power}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 19}
+  source: {code: 300, state: 19}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 105}
+  respondent: {code: 28}
+  respondent_state: {code: 19}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  participated: false
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPBradley
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPBradley
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true

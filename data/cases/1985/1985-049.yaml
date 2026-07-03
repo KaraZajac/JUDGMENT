@@ -1,0 +1,83 @@
+id: 1985-049
+name: EXXON CORP. et al. v. HUNT, ADMINISTRATOR OF NEW JERSEY SPILL COMPENSATION FUND, et al.
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 84-978
+citation:
+  us: 475 U.S. 355
+  sct: 106 S. Ct. 1103
+  led: 89 L. Ed. 2d 364
+  lexis: 1986 U.S. LEXIS 30
+dates:
+  argued: '1985-12-09'
+  decided: '1986-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 100030, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 42 U.S.C. § 9614
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 35}
+  source: {code: 300, state: 35}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 35}
+  respondent: {code: 19}
+  respondent_state: {code: 35}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

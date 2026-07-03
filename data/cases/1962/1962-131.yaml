@@ -1,0 +1,82 @@
+id: 1962-131
+name: LOCAL 100, UNITED ASSOCIATION OF JOURNEYMEN & APPRENTICES, v. BORDEN
+term: 1962
+chief: Warren
+natural_court: 1408
+docket: '541'
+citation:
+  us: 373 U.S. 690
+  sct: 83 S. Ct. 1423
+  led: 10 L. Ed. 2d 638
+  lexis: 1963 U.S. LEXIS 2480
+dates:
+  argued: '1963-04-24'
+  decided: '1963-06-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 100020, area: federalism}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 301, state: 51}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 247}
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: AJGoldberg
+  participated: false

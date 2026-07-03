@@ -1,0 +1,82 @@
+id: 1941-095
+name: MISHAWAKA RUBBER & WOOLEN MANUFACTURING CO. v. S. S. KRESGE CO.
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '649'
+citation:
+  us: 316 U.S. 203
+  sct: 62 S. Ct. 1022
+  led: 86 L. Ed. 1381
+  lexis: 1942 U.S. LEXIS 1224
+dates:
+  argued: '1942-04-01'
+  decided: '1942-05-04'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80200, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 81}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 233}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: SFReed
+votes:
+- justice: HFStone
+  participated: false
+- justice: OJRoberts
+  participated: false
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: JFByrnes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

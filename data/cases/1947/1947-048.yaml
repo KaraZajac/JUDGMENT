@@ -1,0 +1,87 @@
+id: 1947-048
+name: IN RE OLIVER
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '215'
+citation:
+  us: 333 U.S. 257
+  sct: 68 S. Ct. 499
+  led: 92 L. Ed. 2d 682
+  lexis: 1948 U.S. LEXIS 2452
+dates:
+  argued: '1947-12-16'
+  decided: '1948-03-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10080, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 27}
+  source: {code: 300, state: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 16}
+  respondent_state: {code: 27}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

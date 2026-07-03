@@ -1,0 +1,73 @@
+id: 1845-023
+name: LESSEE OF WILLIAM L. BROWN AND WIFE, PLAINTIFF IN ERROR, v. JOSEPH CLEMENTS AND JONATHAN HUNT, DEFENDANTS
+  IN ERROR
+term: 1845
+chief: Taney
+natural_court: 505
+citation:
+  us: 44 U.S. 650
+  led: 11 L. Ed. 767
+  lexis: 1845 U.S. LEXIS 454
+dates:
+  argued: '1844-12-18'
+  decided: '1845-01-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 140010, area: private-action}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, April 24, 1820
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+admin_action: {agency: 108}
+opinions:
+  majority_author: JMcKinley
+  majority_assigner: JStory
+votes:
+- justice: RBTaney
+  vote: dissent
+  in_majority: false
+  joined:
+  - JCatron
+- justice: JStory
+  vote: majority
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: JMcKinley
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  in_majority: false
+  joined:
+  - JCatron
+  - RBTaney

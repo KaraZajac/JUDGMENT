@@ -1,0 +1,80 @@
+id: 1977-078
+name: UNITED STATES v. CALIFORNIA
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 5 ORIG
+citation:
+  us: 436 U.S. 32
+  sct: 98 S. Ct. 1662
+  led: 56 L. Ed. 2d 94
+  lexis: 1978 U.S. LEXIS 7
+dates:
+  argued: '1978-02-27'
+  decided: '1978-05-15'
+decision:
+  type: opinion-of-the-court
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 100040, area: federalism}
+law:
+  type: federal-statute
+  supp: 368
+authority:
+- statutory-construction
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 28}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WEBurger
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

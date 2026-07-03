@@ -1,0 +1,77 @@
+id: 1949-074
+name: UNITED STATES v. NATIONAL ASSOCIATION OF REAL ESTATE BOARDS ET AL.
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '428'
+citation:
+  us: 339 U.S. 485
+  sct: 70 S. Ct. 711
+  led: 94 L. Ed. 2d 1007
+  lexis: 1950 U.S. LEXIS 2533
+dates:
+  argued: '1950-03-31'
+  decided: '1950-05-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80010, area: economic-activity}
+law:
+  type: constitution
+  supp: 119
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 55, state: 10}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 225}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  participated: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

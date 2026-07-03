@@ -1,0 +1,81 @@
+id: 1933-135
+name: REYNOLDS v. UNITED STATES
+term: 1933
+chief: Hughes
+natural_court: 1103
+docket: '734'
+citation:
+  us: 292 U.S. 443
+  sct: 54 S. Ct. 800
+  led: 78 L. Ed. 1353
+  lexis: 1934 U.S. LEXIS 722
+dates:
+  argued: '1934-05-03'
+  decided: '1934-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20250, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 377
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 250}
+  respondent: {code: 27}
+admin_action: {agency: 114}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  direction: conservative
+  in_majority: false

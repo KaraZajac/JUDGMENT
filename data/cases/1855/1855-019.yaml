@@ -1,0 +1,83 @@
+id: 1855-019
+name: THE UNITED STATES, APPELLANTS, v. PEARSON B. READING
+term: 1855
+chief: Taney
+natural_court: 510
+citation:
+  us: 59 U.S. 1
+  led: 15 L. Ed. 291
+  lexis: 1855 U.S. LEXIS 651
+dates:
+  argued: '1855-12-04'
+  decided: '1856-01-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, March 3, 1851
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 50}
+  source: {code: 50}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 195}
+admin_action: {agency: 123}
+opinions:
+  majority_author: JMWayne
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRCurtis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JACampbell
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,80 @@
+id: 1876-199
+name: ALLORE v. JEWELL
+term: 1876
+chief: Waite
+natural_court: 701
+docket: '220'
+citation:
+  us: 94 U.S. 506
+  led: 24 L. Ed. 260
+  lexis: 1876 U.S. LEXIS 1898
+dates:
+  argued: '1877-04-11'
+  decided: '1877-04-30'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 20210, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 419}
+  source: {code: 419}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 195}
+opinions:
+  majority_author: SJField
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WStrong
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WStrong
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true

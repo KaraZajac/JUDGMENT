@@ -1,0 +1,84 @@
+id: 1969-140
+name: HOYT et al. v. MINNESOTA
+term: 1969
+chief: Burger
+natural_court: 1502
+docket: '1544'
+citation:
+  us: 399 U.S. 524
+  sct: 90 S. Ct. 2241
+  led: 26 L. Ed. 2d 782
+  lexis: 1970 U.S. LEXIS 13
+dates:
+  decided: '1970-06-29'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30190, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 28}
+  source: {code: 300, state: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 117}
+  respondent: {code: 28}
+  respondent_state: {code: 28}
+opinions:
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

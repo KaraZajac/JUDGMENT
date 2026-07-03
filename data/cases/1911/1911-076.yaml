@@ -1,0 +1,90 @@
+id: 1911-076
+name: HYDE AND SCHNEIDER v. UNITED STATES
+term: 1911
+chief: White
+natural_court: 902
+docket: '447'
+citation:
+  us: 225 U.S. 347
+  sct: 32 S. Ct. 793
+  led: 56 L. Ed. 1114
+  lexis: 1912 U.S. LEXIS 2091
+dates:
+  argued: '1911-10-23'
+  reargued: '1912-05-03'
+  decided: '1912-06-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10400, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: conspiracy to defraud the US
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 19}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: CEHughes1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true

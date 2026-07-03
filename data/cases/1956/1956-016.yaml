@@ -1,0 +1,85 @@
+id: 1956-016
+name: UNITED STATES v. INTERSTATE COMMERCE COMMISSION et al.
+term: 1956
+chief: Warren
+natural_court: 1404
+docket: '12'
+citation:
+  us: 352 U.S. 158
+  sct: 77 S. Ct. 241
+  led: 1 L. Ed. 2d 211
+  lexis: 1956 U.S. LEXIS 1634
+dates:
+  argued: '1956-10-11'
+  decided: '1956-12-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80220, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 366}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: SFReed
+  majority_assigner: SFReed
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  participated: false
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

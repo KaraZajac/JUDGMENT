@@ -1,0 +1,69 @@
+id: 1861-038
+name: ex parte GORDON
+term: 1861
+chief: Taney
+natural_court: 512
+citation:
+  us: 66 U.S. 503
+  led: 17 L. Ed. 134
+  lexis: 1861 U.S. LEXIS 507
+dates:
+  argued: '1862-02-14'
+  decided: '1862-02-17'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 90340, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 10}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 137}
+  respondent: {code: 16}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  participated: false
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true

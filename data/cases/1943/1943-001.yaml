@@ -1,0 +1,88 @@
+id: 1943-001
+name: UNITED STATES v. DOTTERWEICH
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '5'
+citation:
+  us: 320 U.S. 277
+  sct: 64 S. Ct. 134
+  led: 88 L. Ed. 48
+  lexis: 1943 U.S. LEXIS 1100
+dates:
+  argued: '1943-10-12'
+  decided: '1943-11-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80170, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 332
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 97}
+  source: {code: 22}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 126}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMurphy

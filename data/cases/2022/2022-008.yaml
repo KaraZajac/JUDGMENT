@@ -1,0 +1,85 @@
+id: 2022-008
+name: HELIX ENERGY SOLUTIONS GROUP v. HEWITT
+term: 2022
+chief: Roberts
+natural_court: 1710
+docket: 21-984
+citation:
+  us: 598 U.S. 39
+  sct: 143 S. Ct. 677
+  led: 214 L. Ed. 2d 409
+  lexis: 2023 U.S. LEXIS 944
+dates:
+  argued: '2022-10-12'
+  decided: '2023-02-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 70040, area: unions}
+law:
+  type: federal-statute
+  supp: 334
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 121}
+  source: {code: 25}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 145}
+opinions:
+  majority_author: EKagan
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BMKavanaugh
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: ACBarrett
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: KBJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 1938-053
+name: NATIONAL LABOR RELATIONS BOARD v. FAINBLATT et al.
+term: 1938
+chief: Hughes
+natural_court: 1107
+docket: '514'
+citation:
+  us: 306 U.S. 601
+  sct: 59 S. Ct. 668
+  led: 83 L. Ed. 1014
+  lexis: 1939 U.S. LEXIS 1083
+dates:
+  argued: '1939-03-08'
+  decided: '1939-04-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 70130, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 23}
+  source: {code: 23}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 122}
+admin_action: {agency: 82}
+opinions:
+  majority_author: HFStone
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: PButler
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JCMcReynolds
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  participated: false

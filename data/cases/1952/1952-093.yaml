@@ -1,0 +1,81 @@
+id: 1952-093
+name: LAURITZEN v. LARSEN
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '226'
+citation:
+  us: 345 U.S. 571
+  sct: 73 S. Ct. 921
+  led: 97 L. Ed. 2d 1254
+  lexis: 1953 U.S. LEXIS 2533
+dates:
+  argued: '1953-01-06'
+  decided: '1953-05-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80050, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 348
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 96, state: 37}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 145}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

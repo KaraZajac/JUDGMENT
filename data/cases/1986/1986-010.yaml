@@ -1,0 +1,82 @@
+id: 1986-010
+name: CARGILL, INC., et al. v. MONFORT OF COLORADO, INC.
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-473
+citation:
+  us: 479 U.S. 104
+  sct: 107 S. Ct. 484
+  led: 93 L. Ed. 2d 427
+  lexis: 1986 U.S. LEXIS 21
+dates:
+  argued: '1986-10-06'
+  decided: '1986-12-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80020, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 310
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 52}
+  source: {code: 30}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 158}
+  respondent: {code: 158}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: HABlackmun
+  participated: false
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true

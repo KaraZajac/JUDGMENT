@@ -1,0 +1,81 @@
+id: 1937-064
+name: UNITED STATES v. BEKINS et al., TRUSTEES, et al.
+term: 1937
+chief: Hughes
+natural_court: 1105
+docket: '757'
+citation:
+  us: 304 U.S. 27
+  sct: 58 S. Ct. 811
+  led: 82 L. Ed. 1137
+  lexis: 1938 U.S. LEXIS 1094
+dates:
+  argued: '1938-04-07'
+  decided: '1938-04-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 40070, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 51}
+  source: {code: 51}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 135}
+admin_action: {agency: 117, state: 6}
+opinions:
+  majority_author: CEHughes2
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  participated: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true

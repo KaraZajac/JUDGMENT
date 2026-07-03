@@ -1,0 +1,90 @@
+id: 2002-052
+name: PHARMACEUTICAL RESEARCH AND MANUFACTURERS OF AMERICA v. PETER E. WALSH, ACTING COMMISSIONER, MAINE DEPARTMENT
+  OF HUMAN SERVICES, et al.
+term: 2002
+chief: Rehnquist
+natural_court: 1607
+docket: 01-188
+citation:
+  us: 538 U.S. 644
+  sct: 123 S. Ct. 1855
+  led: 155 L. Ed. 2d 889
+  lexis: 2003 U.S. LEXIS 4056
+dates:
+  argued: '2003-01-22'
+  decided: '2003-05-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 78}
+  source: {code: 21}
+  disposition: vacated
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 143}
+  respondent: {code: 7}
+  respondent_state: {code: 23}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

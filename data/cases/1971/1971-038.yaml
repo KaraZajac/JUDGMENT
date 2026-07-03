@@ -1,0 +1,79 @@
+id: 1971-038
+name: FEDERAL POWER COMMISSION v. FLORIDA POWER & LIGHT CO.
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 70-38
+citation:
+  us: 404 U.S. 453
+  sct: 92 S. Ct. 637
+  led: 30 L. Ed. 2d 600
+  lexis: 1972 U.S. LEXIS 119
+dates:
+  argued: '1971-11-15'
+  decided: '1972-01-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 80270, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 336
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 25}
+  source: {code: 25}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 352}
+  respondent: {code: 148}
+admin_action: {agency: 52}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WJBrennan
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PStewart
+  participated: false
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  participated: false

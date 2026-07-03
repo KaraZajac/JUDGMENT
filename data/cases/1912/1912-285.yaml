@@ -1,0 +1,84 @@
+id: 1912-285
+name: PENNSYLVANIA RAILROAD COMPANY v. INTERNATIONAL COAL MINING COMPANY
+term: 1912
+chief: White
+natural_court: 902
+docket: '14'
+citation:
+  us: 230 U.S. 184
+  sct: 33 S. Ct. 893
+  led: 57 L. Ed. 1446
+  lexis: 1913 U.S. LEXIS 2709
+dates:
+  argued: '1912-02-27'
+  reargued: '1912-11-04'
+  decided: '1913-06-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80070, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 430}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 132}
+opinions:
+  majority_author: JRLamar
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

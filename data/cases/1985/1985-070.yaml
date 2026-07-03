@@ -1,0 +1,85 @@
+id: 1985-070
+name: UNITED STATES v. AMERICAN COLLEGE OF PHYSICIANS
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 84-1737
+citation:
+  us: 475 U.S. 834
+  sct: 106 S. Ct. 1591
+  led: 89 L. Ed. 2d 841
+  lexis: 1986 U.S. LEXIS 102
+dates:
+  argued: '1986-01-21'
+  decided: '1986-04-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 3}
+  source: {code: 8}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 206}
+admin_action: {agency: 69}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WEBurger
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

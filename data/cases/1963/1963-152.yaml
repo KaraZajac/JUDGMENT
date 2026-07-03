@@ -1,0 +1,90 @@
+id: 1963-152
+name: GRIFFIN et al. v. MARYLAND
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '6'
+citation:
+  us: 378 U.S. 130
+  sct: 84 S. Ct. 1770
+  led: 12 L. Ed. 2d 754
+  lexis: 1964 U.S. LEXIS 818
+dates:
+  argued: '1962-11-05'
+  reargued: '1963-10-14'
+  decided: '1964-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20080, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 300, state: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 223}
+  respondent: {code: 28}
+  respondent_state: {code: 25}
+opinions:
+  majority_author: EWarren
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: EWarren
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,81 @@
+id: 1898-092
+name: UNITED STATES v. JOHNSON
+term: 1898
+chief: Fuller
+natural_court: 808
+docket: '59'
+citation:
+  us: 173 U.S. 363
+  sct: 19 S. Ct. 427
+  led: 43 L. Ed. 731
+  lexis: 1899 U.S. LEXIS 1441
+dates:
+  decided: '1899-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 60010, area: attorneys}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: RS para 771 & 824
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 22}
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 19}
+  respondent_state: {code: 37}
+admin_action: {agency: 27}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true

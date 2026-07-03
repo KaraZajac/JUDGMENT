@@ -1,0 +1,89 @@
+id: 1977-155
+name: CALIFORNIA et al. v. UNITED STATES
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 77-285
+citation:
+  us: 438 U.S. 645
+  sct: 98 S. Ct. 2985
+  led: 57 L. Ed. 2d 1018
+  lexis: 1978 U.S. LEXIS 42
+dates:
+  argued: '1978-03-28'
+  decided: '1978-07-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80130, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 43 U.S.C. § 371
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 49}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 6}
+  respondent: {code: 27}
+admin_action: {agency: 117, state: 6}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

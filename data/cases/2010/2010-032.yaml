@@ -1,0 +1,80 @@
+id: 2010-032
+name: ASTRA USA, INC., et al., PETITIONERS v. SANTA CLARA COUNTY, CALIFORNIA
+term: 2010
+chief: Roberts
+natural_court: 1704
+docket: 09-1273
+citation:
+  us: 563 U.S. 110
+  sct: 131 S. Ct. 1342
+  led: 179 L. Ed. 2d 457
+  lexis: 2011 U.S. LEXIS 2592
+dates:
+  argued: '2011-01-19'
+  decided: '2011-03-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 308
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 51}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 143}
+  respondent: {code: 5}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  participated: false

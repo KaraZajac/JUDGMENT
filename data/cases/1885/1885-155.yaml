@@ -1,0 +1,87 @@
+id: 1885-155
+name: GRAFFAM & ANOTHER v. BURGESS
+term: 1885
+chief: Waite
+natural_court: 706
+docket: '79'
+citation:
+  us: 117 U.S. 180
+  sct: 6 S. Ct. 686
+  led: 29 L. Ed. 839
+  lexis: 1886 U.S. LEXIS 1823
+dates:
+  argued: '1885-12-03'
+  decided: '1886-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20130, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBWoods
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: SMatthews
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: HGray
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true

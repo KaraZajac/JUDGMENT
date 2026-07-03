@@ -1,0 +1,80 @@
+id: 1967-120
+name: AMERICAN FEDERATION OF MUSICIANS OF THE UNITED STATES AND CANADA et al. v. CARROLL et al.
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '309'
+citation:
+  us: 391 U.S. 99
+  sct: 88 S. Ct. 1562
+  led: 20 L. Ed. 2d 460
+  lexis: 1968 U.S. LEXIS 2992
+dates:
+  argued: '1968-03-04'
+  decided: '1968-05-20'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 70020, area: unions}
+law:
+  type: federal-statute
+  supp: 357
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 247}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WODouglas
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EWarren
+  participated: false
+- justice: AFortas
+  vote: majority
+  direction: conservative
+  in_majority: true

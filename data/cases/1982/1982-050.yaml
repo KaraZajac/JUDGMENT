@@ -1,0 +1,84 @@
+id: 1982-050
+name: MINNEAPOLIS STAR & TRIBUNE CO. v. MINNESOTA COMMISSIONER OF REVENUE
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 81-1839
+citation:
+  us: 460 U.S. 575
+  sct: 103 S. Ct. 1365
+  led: 75 L. Ed. 2d 295
+  lexis: 1983 U.S. LEXIS 6
+dates:
+  argued: '1983-01-12'
+  decided: '1983-03-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 28}
+  source: {code: 300, state: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 190}
+  respondent: {code: 28}
+  respondent_state: {code: 28}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

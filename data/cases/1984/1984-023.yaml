@@ -1,0 +1,86 @@
+id: 1984-023
+name: EVITTS, SUPERINTENDENT, BLACKBURN CORRECTIONAL COMPLEX, et al. v. LUCEY
+term: 1984
+chief: Burger
+natural_court: 1507
+docket: 83-1378
+citation:
+  us: 469 U.S. 387
+  sct: 105 S. Ct. 830
+  led: 83 L. Ed. 2d 821
+  lexis: 1985 U.S. LEXIS 42
+dates:
+  argued: '1984-10-10'
+  decided: '1985-01-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10120, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 214
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 73}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 21}
+  respondent: {code: 100}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

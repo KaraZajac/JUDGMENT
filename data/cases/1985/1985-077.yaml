@@ -1,0 +1,86 @@
+id: 1985-077
+name: DIAMOND et al. v. CHARLES et al.
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 84-1379
+citation:
+  us: 476 U.S. 54
+  sct: 106 S. Ct. 1697
+  led: 90 L. Ed. 2d 48
+  lexis: 1986 U.S. LEXIS 149
+dates:
+  argued: '1985-11-05'
+  decided: '1986-04-30'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 90240, area: judicial-power}
+law:
+  type: constitution
+  supp: 138
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 206}
+  respondent: {code: 206}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

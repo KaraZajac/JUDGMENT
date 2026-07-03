@@ -1,0 +1,87 @@
+id: 1975-062
+name: MIDDENDORF, SECRETARY OF THE NAVY, et al. v. HENRY et al.
+term: 1975
+chief: Burger
+natural_court: 1506
+docket: 74-175
+citation:
+  us: 425 U.S. 25
+  sct: 96 S. Ct. 1281
+  led: 47 L. Ed. 2d 556
+  lexis: 1976 U.S. LEXIS 29
+dates:
+  argued: '1975-01-22'
+  reargued: '1975-11-05'
+  decided: '1976-03-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10120, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 214
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 377}
+  respondent: {code: 186}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - LFPowell
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  participated: false

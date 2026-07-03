@@ -1,0 +1,75 @@
+id: 1877-089
+name: CLARK v. UNITED STATES
+term: 1877
+chief: Waite
+natural_court: 702
+docket: '76'
+citation:
+  us: 95 U.S. 539
+  led: 24 L. Ed. 518
+  lexis: 1877 U.S. LEXIS 2201
+dates:
+  argued: '1877-11-07'
+  decided: '1877-12-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 140040, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 176}
+  respondent: {code: 27}
+admin_action: {agency: 6}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: special-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: SJField
+  vote: special-concurrence
+  in_majority: true
+  joined:
+  - SFMiller
+- justice: WStrong
+  vote: majority
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: WHunt
+  vote: special-concurrence
+  in_majority: true
+  joined:
+  - SFMiller
+- justice: JHarlan1
+  participated: false

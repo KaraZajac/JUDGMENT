@@ -1,0 +1,68 @@
+id: 1835-008
+name: UNITED STATES, PLAINTIFF IN ERROR v. JOSEPH NOURSE
+term: 1835
+chief: Marshall
+natural_court: 410
+citation:
+  us: 34 U.S. 8
+  led: 9 L. Ed. 31
+  lexis: 1835 U.S. LEXIS 331
+dates:
+  argued: '1835-01-23'
+  decided: '1835-01-31'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 90380, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of c ongress, May 15,1820, sec. 4
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 440}
+  source: {code: 440}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 8}
+  respondent_state: {code: 10}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true

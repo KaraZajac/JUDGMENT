@@ -1,0 +1,80 @@
+id: 1876-128
+name: FULLER v. YENTZER
+term: 1876
+chief: Waite
+natural_court: 701
+docket: '161'
+citation:
+  us: 94 U.S. 299
+  led: 24 L. Ed. 107
+  lexis: 1876 U.S. LEXIS 1864
+dates:
+  argued: '1877-01-12'
+  decided: '1877-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80180, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 410}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 137}
+admin_action: {agency: 94}
+opinions:
+  majority_author: NClifford
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true

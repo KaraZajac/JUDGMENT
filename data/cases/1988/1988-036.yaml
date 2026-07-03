@@ -1,0 +1,84 @@
+id: 1988-036
+name: In re MCDONALD
+term: 1988
+chief: Rehnquist
+natural_court: 1603
+docket: 88-5890
+citation:
+  us: 489 U.S. 180
+  sct: 109 S. Ct. 993
+  led: 103 L. Ed. 2d 158
+  lexis: 1989 U.S. LEXIS 597
+dates:
+  decided: '1989-02-21'
+decision:
+  type: per-curiam-no-argument
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20390, area: civil-rights}
+law:
+  type: court-rules
+  supp: 403
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 5}
+cert_reason: not-cert
+lower_court:
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 213}
+  respondent: {code: 20}
+  respondent_state: {code: 60}
+opinions:
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true

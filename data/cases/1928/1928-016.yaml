@@ -1,0 +1,87 @@
+id: 1928-016
+name: LOUIS K. LIGGETT COMPANY v. BALDRIDGE, ATTORNEY GENERAL OF PENNSYLVANIA, et al.
+term: 1928
+chief: Taft
+natural_court: 1005
+docket: '34'
+citation:
+  us: 278 U.S. 105
+  sct: 49 S. Ct. 57
+  led: 73 L. Ed. 204
+  lexis: 1928 U.S. LEXIS 6
+dates:
+  argued: '1928-10-08'
+  decided: '1928-11-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 109}
+  source: {code: 109}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 144}
+  respondent: {code: 19}
+  respondent_state: {code: 45}
+admin_action: {agency: 117, state: 45}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: GSutherland
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

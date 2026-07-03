@@ -1,0 +1,72 @@
+id: 1818-038
+name: THE UNITED STATES v. PALMER et al.
+term: 1818
+chief: Marshall
+natural_court: 406
+citation:
+  us: 16 U.S. 610
+  led: 4 L. Ed. 471
+  lexis: 1818 U.S. LEXIS 380
+dates:
+  argued: '1818-03-12'
+  decided: '1818-03-14'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 90250, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress 1796, sec. 8, ch. 36
+authority:
+- diversity-jurisdiction
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true

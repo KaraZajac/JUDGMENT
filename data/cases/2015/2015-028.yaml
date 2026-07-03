@@ -1,0 +1,83 @@
+id: 2015-028
+name: EVENWEL v. ABBOTT
+term: 2015
+chief: Roberts
+natural_court: 1705
+docket: 14-940
+citation:
+  us: 578 U.S. 54
+  sct: 136 S. Ct. 1120
+  led: 194 L. Ed. 2d 291
+  lexis: 2016 U.S. LEXIS 2278
+dates:
+  argued: '2015-12-08'
+  decided: '2016-04-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 20010, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 122}
+  source: {code: 122}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 251}
+  respondent: {code: 19}
+  respondent_state: {code: 51}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

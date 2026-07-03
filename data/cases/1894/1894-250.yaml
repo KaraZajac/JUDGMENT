@@ -1,0 +1,88 @@
+id: 1894-250
+name: HILTON v. GUYOT.
+term: 1894
+chief: Fuller
+natural_court: 806
+docket: '130'
+citation:
+  us: 159 U.S. 113
+  sct: 16 S. Ct. 139
+  led: 40 L. Ed. 95
+  lexis: 1895 U.S. LEXIS 2294
+dates:
+  argued: '1894-01-19'
+  reargued: '1894-04-10'
+  decided: '1895-06-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90490, area: judicial-power}
+law:
+  type: other
+  supp: 513
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 159}
+opinions:
+  majority_author: HGray
+  majority_assigner: SJField
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HGray
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HEJackson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true

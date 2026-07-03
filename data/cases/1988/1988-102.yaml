@@ -1,0 +1,90 @@
+id: 1988-102
+name: MARTIN et al. v. WILKS et al.
+term: 1988
+chief: Rehnquist
+natural_court: 1603
+docket: 87-1614
+citation:
+  us: 490 U.S. 755
+  sct: 109 S. Ct. 2180
+  led: 104 L. Ed. 2d 835
+  lexis: 1989 U.S. LEXIS 2849
+dates:
+  argued: '1989-01-18'
+  decided: '1989-06-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20070, area: civil-rights}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 42}
+  source: {code: 31}
+  disposition: vacated-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 10}
+  petitioner_state: {code: 1}
+  respondent: {code: 8}
+  respondent_state: {code: 1}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 1913-012
+name: NEW YORK LIFE INSURANCE COMPANY v. DEER LODGE COUNTY
+term: 1913
+chief: White
+natural_court: 902
+docket: '56'
+citation:
+  us: 231 U.S. 495
+  sct: 34 S. Ct. 167
+  led: 58 L. Ed. 332
+  lexis: 1913 U.S. LEXIS 2527
+dates:
+  argued: '1913-11-11'
+  decided: '1913-12-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 31}
+  source: {code: 300, state: 31}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 5}
+  respondent_state: {code: 31}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHLurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JRLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true

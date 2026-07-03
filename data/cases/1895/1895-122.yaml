@@ -1,0 +1,81 @@
+id: 1895-122
+name: SHELBY COUNTY v. UNION AND PLANTERS' BANK
+term: 1895
+chief: Fuller
+natural_court: 807
+docket: '766'
+citation:
+  us: 161 U.S. 149
+  sct: 16 S. Ct. 558
+  led: 40 L. Ed. 650
+  lexis: 1896 U.S. LEXIS 2148
+dates:
+  argued: '1896-01-20'
+  decided: '1896-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 433}
+  source: {code: 433}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 50}
+  respondent: {code: 113}
+opinions:
+  majority_author: RWPeckham
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

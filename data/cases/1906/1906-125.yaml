@@ -1,0 +1,82 @@
+id: 1906-125
+name: PETERSON v. CHICAGO, ROCK ISLAND AND PACIFIC RAILWAY COMPANY
+term: 1906
+chief: Fuller
+natural_court: 811
+docket: '225'
+citation:
+  us: 205 U.S. 364
+  sct: 27 S. Ct. 513
+  led: 51 L. Ed. 841
+  lexis: 1907 U.S. LEXIS 1404
+dates:
+  argued: '1907-03-06'
+  decided: '1907-04-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 40020, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 434}
+  source: {code: 434}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 231}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: WRDay
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  vote: dissent
+  direction: liberal
+  in_majority: false

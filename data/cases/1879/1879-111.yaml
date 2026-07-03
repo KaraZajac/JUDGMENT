@@ -1,0 +1,86 @@
+id: 1879-111
+name: MOUNT PLEASANT v. BECKWITH
+term: 1879
+chief: Waite
+natural_court: 702
+docket: '39'
+citation:
+  us: 100 U.S. 514
+  led: 25 L. Ed. 699
+  lexis: 1879 U.S. LEXIS 1845
+dates:
+  argued: '1879-04-23'
+  decided: '1880-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80060, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 438}
+  source: {code: 438}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 3}
+  respondent_state: {code: 58}
+admin_action: {agency: 117, state: 58}
+opinions:
+  majority_author: NClifford
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true

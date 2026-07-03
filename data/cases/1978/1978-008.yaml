@@ -1,0 +1,89 @@
+id: 1978-008
+name: HOLT CIVIC CLUB et al. v. CITY OF TUSCALOOSA et al.
+term: 1978
+chief: Burger
+natural_court: 1506
+docket: 77-515
+citation:
+  us: 439 U.S. 60
+  sct: 99 S. Ct. 383
+  led: 58 L. Ed. 2d 292
+  lexis: 1978 U.S. LEXIS 141
+dates:
+  argued: '1978-10-11'
+  decided: '1978-11-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20010, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 42}
+  source: {code: 42}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 193}
+  respondent: {code: 3}
+  respondent_state: {code: 1}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

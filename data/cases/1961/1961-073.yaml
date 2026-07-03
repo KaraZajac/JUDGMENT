@@ -1,0 +1,81 @@
+id: 1961-073
+name: In re GREEN
+term: 1961
+chief: Warren
+natural_court: 1407
+docket: '312'
+citation:
+  us: 369 U.S. 689
+  sct: 82 S. Ct. 1114
+  led: 8 L. Ed. 2d 198
+  lexis: 1962 U.S. LEXIS 2141
+dates:
+  argued: '1962-04-09'
+  decided: '1962-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 40020, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 111}
+  respondent: {code: 28}
+  respondent_state: {code: 41}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  participated: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JHarlan2
+- justice: FFrankfurter
+  participated: false

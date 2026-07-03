@@ -1,0 +1,84 @@
+id: 1931-083
+name: CROWELL, DEPUTY COMMISSIONER, v. BENSON
+term: 1931
+chief: Hughes
+natural_court: 1102
+docket: '19'
+citation:
+  us: 285 U.S. 22
+  sct: 52 S. Ct. 285
+  led: 76 L. Ed. 598
+  lexis: 1932 U.S. LEXIS 773
+dates:
+  argued: '1931-10-20'
+  decided: '1932-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 43}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 60}
+  respondent: {code: 116}
+admin_action: {agency: 31}
+opinions:
+  majority_author: CEHughes2
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: OJRoberts
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LDBrandeis

@@ -1,0 +1,84 @@
+id: 1970-077
+name: HILL v. CALIFORNIA
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '51'
+citation:
+  us: 401 U.S. 797
+  sct: 91 S. Ct. 1106
+  led: 28 L. Ed. 2d 484
+  lexis: 1971 U.S. LEXIS 59
+dates:
+  argued: '1970-01-19'
+  reargued: '1970-10-21'
+  decided: '1971-04-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10040, area: criminal-procedure}
+law:
+  type: other
+  supp: 501
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HLBlack
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true

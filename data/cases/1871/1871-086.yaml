@@ -1,0 +1,82 @@
+id: 1871-086
+name: DOOLEY v. SMITH
+term: 1871
+chief: Chase
+natural_court: 602
+citation:
+  us: 80 U.S. 604
+  led: 20 L. Ed. 547
+  lexis: 1871 U.S. LEXIS 1373
+dates:
+  argued: '1872-01-08'
+  decided: '1872-02-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80350, area: economic-activity}
+law:
+  type: constitution
+  supp: 120
+authority:
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 21}
+  source: {code: 300, state: 21}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 135}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: NHSwayne
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SJField
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SJField
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true

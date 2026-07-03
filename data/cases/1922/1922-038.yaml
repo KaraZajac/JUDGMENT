@@ -1,0 +1,81 @@
+id: 1922-038
+name: UNITED STATES v. OREGON LUMBER COMPANY et al.
+term: 1922
+chief: Taft
+natural_court: 1002
+docket: '40'
+citation:
+  us: 260 U.S. 290
+  sct: 43 S. Ct. 100
+  led: 67 L. Ed. 261
+  lexis: 1922 U.S. LEXIS 2367
+dates:
+  argued: '1922-10-09'
+  decided: '1922-11-27'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80050, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 108}
+  source: {code: 29}
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 243}
+admin_action: {agency: 123}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: JMcKenna
+votes:
+- justice: WHTaft
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

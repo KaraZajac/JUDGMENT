@@ -1,0 +1,74 @@
+id: 1880-188
+name: WEBBER v. VIRGINIA
+term: 1880
+chief: Waite
+natural_court: 703
+docket: '1136'
+citation:
+  us: 103 U.S. 344
+  led: 26 L. Ed. 565
+  lexis: 1880 U.S. LEXIS 2126
+dates:
+  argued: '1881-03-11'
+  decided: '1881-05-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 55}
+  source: {code: 300, state: 55}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 55}
+opinions:
+  majority_author: SJField
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  participated: false
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  direction: conservative
+  in_majority: true

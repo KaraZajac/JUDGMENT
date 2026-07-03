@@ -1,0 +1,90 @@
+id: 1987-132
+name: FRANKLIN v. LYNAUGH, DIRECTOR, TEXAS DEPARTMENT OF CORRECTIONS
+term: 1987
+chief: Rehnquist
+natural_court: 1603
+docket: 87-5546
+citation:
+  us: 487 U.S. 164
+  sct: 108 S. Ct. 2320
+  led: 101 L. Ed. 2d 155
+  lexis: 1988 U.S. LEXIS 2868
+dates:
+  argued: '1988-03-01'
+  decided: '1988-06-22'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10130, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 221
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 122}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,87 @@
+id: 1988-091
+name: GREEN v. BOCK LAUNDRY MACHINE CO.
+term: 1988
+chief: Rehnquist
+natural_court: 1603
+docket: 87-1816
+citation:
+  us: 490 U.S. 504
+  sct: 109 S. Ct. 1981
+  led: 104 L. Ed. 2d 557
+  lexis: 1989 U.S. LEXIS 2567
+dates:
+  argued: '1989-01-18'
+  decided: '1989-05-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 402
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 110}
+  source: {code: 23}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 151}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true

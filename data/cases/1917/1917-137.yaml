@@ -1,0 +1,87 @@
+id: 1917-137
+name: HAMMER, UNITED STATES ATTORNEY FOR THE WESTERN DISTRICT OF NORTH CAROLINA, v. DAGENHART et al.
+term: 1917
+chief: White
+natural_court: 905
+docket: '704'
+citation:
+  us: 247 U.S. 251
+  sct: 38 S. Ct. 529
+  led: 62 L. Ed. 1101
+  lexis: 1918 U.S. LEXIS 1907
+dates:
+  argued: '1918-04-15'
+  decided: '1918-06-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20170, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 223
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 100}
+  source: {code: 100}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 327}
+  respondent: {code: 153}
+opinions:
+  majority_author: WRDay
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes

@@ -1,0 +1,75 @@
+id: 1872-056
+name: PIERCE et al. v. CARSKADON
+term: 1872
+chief: Chase
+natural_court: 602
+citation:
+  us: 83 U.S. 234
+  led: 21 L. Ed. 276
+  lexis: 1872 U.S. LEXIS 1152
+dates:
+  decided: '1873-01-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 30070, area: first-amendment}
+law:
+  type: constitution
+  supp: 122
+authority:
+- supervisory
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 57}
+  source: {code: 300, state: 57}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 137}
+  respondent: {code: 174}
+opinions:
+  majority_author: SJField
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

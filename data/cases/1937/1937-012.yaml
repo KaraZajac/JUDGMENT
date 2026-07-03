@@ -1,0 +1,86 @@
+id: 1937-012
+name: CHICAGO TITLE AND TRUST CO. v. FORTY-ONE THIRTY-SIX WILCOX BLDG. CORP.
+term: 1937
+chief: Hughes
+natural_court: 1104
+docket: '23'
+citation:
+  us: 302 U.S. 120
+  sct: 58 S. Ct. 125
+  led: 82 L. Ed. 147
+  lexis: 1937 U.S. LEXIS 1216
+dates:
+  argued: '1937-10-21'
+  decided: '1937-11-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 114}
+  respondent: {code: 114}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BNCardozo
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BNCardozo

@@ -1,0 +1,84 @@
+id: 1936-071
+name: THOMAS, COLLECTOR, v. PERKINS et al.
+term: 1936
+chief: Hughes
+natural_court: 1103
+docket: '824'
+citation:
+  us: 301 U.S. 655
+  sct: 57 S. Ct. 911
+  led: 81 L. Ed. 1324
+  lexis: 1937 U.S. LEXIS 1150
+dates:
+  argued: '1937-05-04'
+  decided: '1937-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 120}
+  source: {code: 25}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 240}
+opinions:
+  majority_author: PButler
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false

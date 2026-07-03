@@ -1,0 +1,83 @@
+id: 1969-033
+name: BREEN v. SELECTIVE SERVICE LOCAL BOARD NO. 16 et al.
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '65'
+citation:
+  us: 396 U.S. 460
+  sct: 90 S. Ct. 661
+  led: 24 L. Ed. 2d 653
+  lexis: 1970 U.S. LEXIS 3134
+dates:
+  argued: '1969-11-19'
+  decided: '1970-01-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 20230, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 366
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 53}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 142}
+  respondent: {code: 407}
+admin_action: {agency: 107}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - PStewart

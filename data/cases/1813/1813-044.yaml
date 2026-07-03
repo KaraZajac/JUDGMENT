@@ -1,0 +1,70 @@
+id: 1813-044
+name: OTIS v. BACON
+term: 1813
+chief: Marshall
+natural_court: 406
+citation:
+  us: 11 U.S. 589
+  led: 3 L. Ed. 448
+  lexis: 1813 U.S. LEXIS 457
+dates:
+  decided: '1813-03-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80230, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress April 25, 1808, vol. 9, p. 150
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 26}
+  source: {code: 300, state: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 26}
+  respondent: {code: 234}
+opinions:
+  majority_author: BWashington
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true

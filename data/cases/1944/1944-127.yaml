@@ -1,0 +1,89 @@
+id: 1944-127
+name: WESTERN UNION TELEGRAPH CO. v. LENROOT, CHIEF OF CHILDREN'S BUREAU, UNITED STATES DEPARTMENT OF LABOR
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '49'
+citation:
+  us: 323 U.S. 490
+  sct: 65 S. Ct. 335
+  led: 89 L. Ed. 414
+  lexis: 1945 U.S. LEXIS 2715
+dates:
+  argued: '1944-11-08'
+  decided: '1945-01-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70040, area: unions}
+law:
+  type: federal-statute
+  supp: 334
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 205}
+  respondent: {code: 371}
+admin_action: {agency: 71}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMurphy

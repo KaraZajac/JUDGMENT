@@ -1,0 +1,84 @@
+id: 1946-088
+name: TRAILMOBILE COMPANY ET AL. v. WHIRLS
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '85'
+citation:
+  us: 331 U.S. 40
+  sct: 67 S. Ct. 982
+  led: 91 L. Ed. 1328
+  lexis: 1947 U.S. LEXIS 2942
+dates:
+  argued: '1946-12-19'
+  decided: '1947-04-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20250, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 366
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 104, state: 41}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 250}
+opinions:
+  majority_author: WBRutledge
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

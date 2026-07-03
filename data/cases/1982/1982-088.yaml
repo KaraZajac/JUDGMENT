@@ -1,0 +1,89 @@
+id: 1982-088
+name: UNITED STATES v. RODGERS et al.
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 81-1476
+citation:
+  us: 461 U.S. 677
+  sct: 103 S. Ct. 2132
+  led: 76 L. Ed. 2d 236
+  lexis: 1983 U.S. LEXIS 40
+dates:
+  argued: '1982-12-06'
+  decided: '1983-05-31'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 120030, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 120}
+  source: {code: 25}
+  disposition: unusual-disposition
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 240}
+admin_action: {agency: 69}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: JPStevens
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HABlackmun

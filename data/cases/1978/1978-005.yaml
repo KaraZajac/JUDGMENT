@@ -1,0 +1,88 @@
+id: 1978-005
+name: BOARD OF TRUSTEES OF KEENE STATE COLLEGE et al. v. SWEENEY
+term: 1978
+chief: Burger
+natural_court: 1506
+docket: 77-1792
+citation:
+  us: 439 U.S. 24
+  sct: 99 S. Ct. 295
+  led: 58 L. Ed. 2d 216
+  lexis: 1978 U.S. LEXIS 140
+dates:
+  decided: '1978-11-13'
+decision:
+  type: per-curiam-no-argument
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20060, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 384
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 91}
+  source: {code: 21}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 26}
+  petitioner_state: {code: 34}
+  respondent: {code: 9}
+  respondent_state: {code: 34}
+admin_action: {agency: 117, state: 34}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

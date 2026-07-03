@@ -1,0 +1,76 @@
+id: 1880-161
+name: COUNTY OF MORGAN v. ALLEN
+term: 1880
+chief: Waite
+natural_court: 703
+docket: '78'
+citation:
+  us: 103 U.S. 498
+  led: 26 L. Ed. 498
+  lexis: 1880 U.S. LEXIS 2145
+dates:
+  argued: '1880-11-22'
+  decided: '1881-04-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80060, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 410}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 17}
+  respondent: {code: 237}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  participated: false
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

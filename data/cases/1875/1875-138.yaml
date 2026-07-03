@@ -1,0 +1,82 @@
+id: 1875-138
+name: UNITED STATES v. REESE et al.
+term: 1875
+chief: Waite
+natural_court: 701
+docket: '634'
+citation:
+  us: 92 U.S. 214
+  led: 23 L. Ed. 563
+  lexis: 1875 U.S. LEXIS 1751
+dates:
+  argued: '1875-01-13'
+  decided: '1876-03-27'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20010, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 233
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 414}
+  source: {code: 414}
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 3}
+  respondent_state: {code: 21}
+opinions:
+  majority_author: MRWaite
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

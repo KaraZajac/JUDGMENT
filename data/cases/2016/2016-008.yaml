@@ -1,0 +1,79 @@
+id: 2016-008
+name: CZYZEWSKI v. JEVIC HOLDING CORP.
+term: 2016
+chief: Roberts
+natural_court: 1705
+docket: 15-649
+citation:
+  sct: 137 S. Ct. 973
+  led: 197 L. Ed. 2d 398
+  lexis: 2017 U.S. LEXIS 2024
+dates:
+  argued: '2016-12-07'
+  decided: '2017-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 54}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 114}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true

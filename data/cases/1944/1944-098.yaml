@@ -1,0 +1,82 @@
+id: 1944-098
+name: TILLER, EXECUTOR, v. ATLANTIC COAST LINE RAILROAD CO.
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '335'
+citation:
+  us: 323 U.S. 574
+  sct: 65 S. Ct. 421
+  led: 89 L. Ed. 465
+  lexis: 1945 U.S. LEXIS 2644
+dates:
+  argued: '1945-01-05'
+  decided: '1945-01-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80070, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 329
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 126}
+  source: {code: 24}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 231}
+admin_action: {agency: 66}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

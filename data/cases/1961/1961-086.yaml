@@ -1,0 +1,83 @@
+id: 1961-086
+name: GALLEGOS v. COLORADO
+term: 1961
+chief: Warren
+natural_court: 1407
+docket: '475'
+citation:
+  us: 370 U.S. 49
+  sct: 82 S. Ct. 1209
+  led: 8 L. Ed. 2d 325
+  lexis: 1962 U.S. LEXIS 1156
+dates:
+  argued: '1962-04-09'
+  decided: '1962-06-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 10010, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 7}
+  source: {code: 300, state: 7}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 175}
+  respondent: {code: 28}
+  respondent_state: {code: 7}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  participated: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  participated: false

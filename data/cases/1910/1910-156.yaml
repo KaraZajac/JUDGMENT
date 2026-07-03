@@ -1,0 +1,85 @@
+id: 1910-156
+name: UNITED STATES v. JOHNSON
+term: 1910
+chief: White
+natural_court: 901
+docket: '433'
+citation:
+  us: 221 U.S. 488
+  sct: 31 S. Ct. 627
+  led: 55 L. Ed. 823
+  lexis: 1911 U.S. LEXIS 1750
+dates:
+  argued: '1911-04-13'
+  decided: '1911-05-29'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80170, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 332
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 87}
+  source: {code: 87}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CEHughes1
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CEHughes1
+- justice: HHLurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: conservative
+  in_majority: true

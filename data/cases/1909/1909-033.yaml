@@ -1,0 +1,75 @@
+id: 1909-033
+name: UNITED STATES v. SUTTON
+term: 1909
+chief: Fuller
+natural_court: 811
+docket: '312'
+citation:
+  us: 215 U.S. 291
+  sct: 30 S. Ct. 116
+  led: 54 L. Ed. 200
+  lexis: 1909 U.S. LEXIS 1758
+dates:
+  decided: '1909-12-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90320, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: several federal laws
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 128}
+  source: {code: 128}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHMoody
+  participated: false

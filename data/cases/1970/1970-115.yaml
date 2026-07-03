@@ -1,0 +1,90 @@
+id: 1970-115
+name: PEREZ ET UX. v. CAMPBELL, SUPERINTENDENT, MOTOR VEHICLE DIVISION, ARIZONA HIGHWAY DEPARTMENT, et al.
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '5175'
+citation:
+  us: 402 U.S. 637
+  sct: 91 S. Ct. 1704
+  led: 29 L. Ed. 2d 233
+  lexis: 1971 U.S. LEXIS 127
+dates:
+  argued: '1971-01-19'
+  decided: '1971-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 45}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 177}
+  respondent: {code: 28}
+  respondent_state: {code: 4}
+admin_action: {agency: 117, state: 4}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

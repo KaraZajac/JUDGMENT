@@ -1,0 +1,80 @@
+id: 1886-152
+name: HOPT v. UTAH
+term: 1886
+chief: Waite
+natural_court: 706
+docket: '1099'
+citation:
+  us: 120 U.S. 430
+  sct: 7 S. Ct. 614
+  led: 30 L. Ed. 708
+  lexis: 1887 U.S. LEXIS 1988
+dates:
+  argued: '1887-01-21'
+  decided: '1887-03-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 10200, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 17, state: 52}
+  source: {code: 15, state: 52}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 52}
+opinions:
+  majority_author: SJField
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  participated: false
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

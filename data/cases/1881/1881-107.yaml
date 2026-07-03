@@ -1,0 +1,80 @@
+id: 1881-107
+name: MERRITT v. WELSH
+term: 1881
+chief: Waite
+natural_court: 705
+docket: '1066'
+citation:
+  us: 104 U.S. 694
+  led: 26 L. Ed. 896
+  lexis: 1881 U.S. LEXIS 2066
+dates:
+  argued: '1882-01-19'
+  decided: '1882-03-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 321}
+  respondent: {code: 234}
+admin_action: {agency: 21}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SMatthews
+- justice: WBWoods
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true

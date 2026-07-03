@@ -1,0 +1,88 @@
+id: 1936-101
+name: CARMICHAEL, ATTORNEY GENERAL OF ALABAMA, et al. v. SOUTHERN COAL & COKE CO.
+term: 1936
+chief: Hughes
+natural_court: 1103
+docket: '724'
+citation:
+  us: 301 U.S. 495
+  sct: 57 S. Ct. 868
+  led: 81 L. Ed. 1245
+  lexis: 1937 U.S. LEXIS 1198
+dates:
+  argued: '1937-04-07'
+  decided: '1937-05-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 70180, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 41}
+  source: {code: 41}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 1}
+  respondent: {code: 122}
+admin_action: {agency: 117, state: 1}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HFStone
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - GSutherland
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PButler
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - GSutherland
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  direction: liberal
+  in_majority: true

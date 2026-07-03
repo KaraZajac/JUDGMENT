@@ -1,0 +1,88 @@
+id: 2000-046
+name: LACKAWANNA COUNTY DISTRICT ATTORNEY, et al. v. EDWARD R. COSS, JR.
+term: 2000
+chief: Rehnquist
+natural_court: 1607
+docket: 99-1884
+citation:
+  us: 532 U.S. 394
+  sct: 121 S. Ct. 1567
+  led: 149 L. Ed. 2d 608
+  lexis: 2001 U.S. LEXIS 3369
+dates:
+  argued: '2001-02-20'
+  decided: '2001-04-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10570, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 341
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 110}
+  source: {code: 23}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 45}
+  respondent: {code: 126}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,83 @@
+id: 1944-059
+name: WILLIAMS v. KAISER, WARDEN
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '102'
+citation:
+  us: 323 U.S. 471
+  sct: 65 S. Ct. 363
+  led: 89 L. Ed. 398
+  lexis: 1945 U.S. LEXIS 2540
+dates:
+  argued: '1944-12-12'
+  decided: '1945-01-08'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90350, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 19}
+  respondent_state: {code: 30}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

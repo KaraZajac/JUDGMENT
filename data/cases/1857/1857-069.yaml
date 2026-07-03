@@ -1,0 +1,88 @@
+id: 1857-069
+name: JAMES L. AND SAMUEL L. TAYLOR, ADMINISTRATORS OF ROBERT TAYLOR, DECEASED, PLAINTIFFS IN ERROR, v. NATHAN T.
+  CARRYL, WHO SURVIVED WILLIAM J. WARD
+term: 1857
+chief: Taney
+natural_court: 511
+citation:
+  us: 61 U.S. 583
+  led: 15 L. Ed. 1028
+  lexis: 1857 U.S. LEXIS 490
+dates:
+  argued: '1857-02-05'
+  reargued: '1858-04-12'
+  decided: '1858-05-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100020, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: JACampbell
+  majority_assigner: JMcLean
+votes:
+- justice: RBTaney
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBTaney
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBTaney
+- justice: JACampbell
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBTaney

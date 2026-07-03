@@ -1,0 +1,81 @@
+id: 1872-073
+name: TAYLOR v. TAINTOR, TREASURER
+term: 1872
+chief: Chase
+natural_court: 603
+citation:
+  us: 83 U.S. 366
+  led: 21 L. Ed. 287
+  lexis: 1872 U.S. LEXIS 1168
+dates:
+  argued: '1873-01-06'
+  decided: '1873-01-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 10360, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 8}
+  source: {code: 300, state: 8}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 7}
+  respondent_state: {code: 8}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SJField
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SJField
+- justice: DDavis
+  participated: false
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  participated: false

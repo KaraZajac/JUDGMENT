@@ -1,0 +1,83 @@
+id: 1872-152
+name: CRAPO v. KELLY
+term: 1872
+chief: Chase
+natural_court: 603
+citation:
+  us: 83 U.S. 610
+  led: 21 L. Ed. 430
+  lexis: 1872 U.S. LEXIS 1190
+dates:
+  argued: '1873-03-10'
+  decided: '1873-04-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90350, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 302, state: 37}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 114}
+  respondent: {code: 4}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: WHunt
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHunt
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

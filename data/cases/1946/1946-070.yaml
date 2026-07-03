@@ -1,0 +1,84 @@
+id: 1946-070
+name: UNITED STATES DEPARTMENT OF AGRICULTURE, EMERGENCY CROP AND FEED LOANS v. REMUND, ADMINISTRATOR
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '417'
+citation:
+  us: 330 U.S. 539
+  sct: 67 S. Ct. 891
+  led: 91 L. Ed. 1082
+  lexis: 1947 U.S. LEXIS 2526
+dates:
+  argued: '1947-02-05'
+  decided: '1947-03-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 120030, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 31 U.S.C. § 191
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 49}
+  source: {code: 300, state: 49}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 304}
+  respondent: {code: 102}
+admin_action: {agency: 37}
+opinions:
+  majority_author: FMurphy
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,77 @@
+id: 1909-168
+name: DOZIER v. STATE OF ALABAMA
+term: 1909
+chief: Fuller
+natural_court: 812
+docket: '105'
+citation:
+  us: 218 U.S. 124
+  sct: 30 S. Ct. 649
+  led: 54 L. Ed. 965
+  lexis: 1910 U.S. LEXIS 2009
+dates:
+  decided: '1910-05-31'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 28}
+  respondent_state: {code: 1}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  participated: false
+- justice: HHLurton
+  vote: majority
+  direction: conservative
+  in_majority: true

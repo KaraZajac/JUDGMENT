@@ -1,0 +1,91 @@
+id: 1990-117
+name: MICHAEL BARNES, PROSECUTING ATTORNEY OF ST. JOSEPH COUNTY, INDIANA, et al. v. GLEN THEATRE, INC., et al.
+term: 1990
+chief: Rehnquist
+natural_court: 1604
+docket: 90-26
+citation:
+  us: 501 U.S. 560
+  sct: 111 S. Ct. 2456
+  led: 115 L. Ed. 2d 504
+  lexis: 1991 U.S. LEXIS 3633
+dates:
+  argued: '1991-01-08'
+  decided: '1991-06-21'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30190, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 68}
+  source: {code: 27}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 18}
+  respondent: {code: 109}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WHRehnquist
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

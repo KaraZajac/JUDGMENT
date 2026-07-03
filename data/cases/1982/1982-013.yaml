@@ -1,0 +1,88 @@
+id: 1982-013
+name: CITY OF PORT ARTHUR, TEXAS v. UNITED STATES et al.
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 81-708
+citation:
+  us: 459 U.S. 159
+  sct: 103 S. Ct. 530
+  led: 74 L. Ed. 2d 334
+  lexis: 1982 U.S. LEXIS 171
+dates:
+  argued: '1982-10-06'
+  decided: '1982-12-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20020, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 378
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 51}
+  respondent: {code: 27}
+admin_action: {agency: 27}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell

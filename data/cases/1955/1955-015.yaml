@@ -1,0 +1,89 @@
+id: 1955-015
+name: RYAN STEVEDORING CO., INC. v. PAN-ATLANTIC STEAMSHIP CORP.
+term: 1955
+chief: Warren
+natural_court: 1403
+docket: '4'
+citation:
+  us: 350 U.S. 124
+  sct: 76 S. Ct. 232
+  led: 100 L. Ed. 2d 133
+  lexis: 1956 U.S. LEXIS 1645
+dates:
+  argued: '1955-03-03'
+  reargued: '1955-10-11'
+  decided: '1956-01-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80070, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 349
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 94}
+  source: {code: 22}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 116}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: SFReed
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true

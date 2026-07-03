@@ -1,0 +1,83 @@
+id: 1957-118
+name: FLORA v. UNITED STATES
+term: 1957
+chief: Warren
+natural_court: 1405
+docket: '492'
+citation:
+  us: 357 U.S. 63
+  sct: 78 S. Ct. 1079
+  led: 2 L. Ed. 2d 1165
+  lexis: 1958 U.S. LEXIS 1806
+dates:
+  argued: '1958-05-20'
+  decided: '1958-06-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 1346
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 134}
+  source: {code: 30}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 27}
+opinions:
+  majority_author: EWarren
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

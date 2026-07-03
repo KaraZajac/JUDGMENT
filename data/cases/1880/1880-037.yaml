@@ -1,0 +1,75 @@
+id: 1880-037
+name: ROGERS v. PALMER
+term: 1880
+chief: Waite
+natural_court: 702
+citation:
+  us: 102 U.S. 263
+  led: 26 L. Ed. 164
+  lexis: 1880 U.S. LEXIS 2034
+dates:
+  argued: '1880-11-18'
+  decided: '1880-12-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80030, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: bankruptcy law
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 420}
+  source: {code: 420}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 114}
+  respondent: {code: 153}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  participated: false
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true

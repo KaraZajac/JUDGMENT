@@ -1,0 +1,89 @@
+id: 2010-077
+name: SORRELL, ATTORNEY GENERAL OF VERMONT, et al. v. IMS HEALTH INC. ET AL
+term: 2010
+chief: Roberts
+natural_court: 1704
+docket: 10-779
+citation:
+  us: 564 U.S. 552
+  sct: 131 S. Ct. 2653
+  led: 180 L. Ed. 2d 544
+  lexis: 2011 U.S. LEXIS 4794
+dates:
+  argued: '2011-04-26'
+  decided: '2011-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30020, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 124}
+  source: {code: 22}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 53}
+  respondent: {code: 143}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SGBreyer

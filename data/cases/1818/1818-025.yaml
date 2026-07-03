@@ -1,0 +1,68 @@
+id: 1818-025
+name: HOUSTON v. MOOR
+term: 1818
+chief: Marshall
+natural_court: 406
+citation:
+  us: 16 U.S. 433
+  led: 4 L. Ed. 428
+  lexis: 1818 U.S. LEXIS 367
+dates:
+  argued: '1818-02-28'
+  decided: '1818-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 90170, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Judiciary Act of 1789 sec. 25, ch. 20
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 501}
+  respondent: {code: 501}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  participated: false
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true

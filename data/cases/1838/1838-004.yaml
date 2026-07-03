@@ -1,0 +1,85 @@
+id: 1838-004
+name: HENRY TOLAND, PLAINTIFF IN ERROR v. HORATIO SPRAGUE
+term: 1838
+chief: Taney
+natural_court: 504
+citation:
+  us: 37 U.S. 300
+  led: 9 L. Ed. 1093
+  lexis: 1838 U.S. LEXIS 359
+dates:
+  argued: '1838-01-26'
+  decided: '1838-02-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 40060, area: due-process}
+law:
+  type: federal-statute
+  supp: 389
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 430}
+  source: {code: 430}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 234}
+  respondent: {code: 116}
+opinions:
+  majority_author: PPBarbour
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - JMWayne
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBaldwin
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - RBTaney
+- justice: JMWayne
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - RBTaney
+- justice: PPBarbour
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  participated: false
+- justice: JMcKinley
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,76 @@
+id: 1844-022
+name: THE BANK OF THE UNITED STATES, PLAINTIFF IN ERROR, v. THE UNITED STATES
+term: 1844
+chief: Taney
+natural_court: 505
+citation:
+  us: 43 U.S. 711
+  led: 11 L. Ed. 439
+  lexis: 1844 U.S. LEXIS 351
+dates:
+  argued: '1844-02-24'
+  decided: '1844-03-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80060, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 430}
+  source: {code: 430}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 258}
+  petitioner_state: {code: 60}
+  respondent: {code: 27}
+admin_action: {agency: 108}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: JStory
+votes:
+- justice: RBTaney
+  participated: false
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMcKinley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: conservative
+  in_majority: true

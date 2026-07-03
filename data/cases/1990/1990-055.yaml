@@ -1,0 +1,87 @@
+id: 1990-055
+name: CITY OF COLUMBIA et al. v. OMNI OUTDOOR ADVERTISING, INC.
+term: 1990
+chief: Rehnquist
+natural_court: 1604
+docket: 89-1671
+citation:
+  us: 499 U.S. 365
+  sct: 111 S. Ct. 1344
+  led: 113 L. Ed. 2d 382
+  lexis: 1991 U.S. LEXIS 1858
+dates:
+  argued: '1990-11-28'
+  decided: '1991-04-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 114}
+  source: {code: 24}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 48}
+  respondent: {code: 101}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: conservative
+  in_majority: true

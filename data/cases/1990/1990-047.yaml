@@ -1,0 +1,82 @@
+id: 1990-047
+name: UNITED STATES et al. v. MARCUS S. SMITH et al.
+term: 1990
+chief: Rehnquist
+natural_court: 1604
+docket: 89-1646
+citation:
+  us: 499 U.S. 160
+  sct: 111 S. Ct. 1180
+  led: 113 L. Ed. 2d 134
+  lexis: 1991 U.S. LEXIS 1717
+dates:
+  argued: '1990-11-07'
+  decided: '1991-03-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80060, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 329
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 208}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true

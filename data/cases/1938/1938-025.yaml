@@ -1,0 +1,81 @@
+id: 1938-025
+name: COLORADO NATIONAL BANK et al., EXECUTORS, v. COMMISSIONER OF INTERNAL REVENUE
+term: 1938
+chief: Hughes
+natural_court: 1105
+docket: '30'
+citation:
+  us: 305 U.S. 23
+  sct: 59 S. Ct. 48
+  led: 83 L. Ed. 20
+  lexis: 1938 U.S. LEXIS 533
+dates:
+  argued: '1938-10-21'
+  decided: '1938-11-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 30}
+  source: {code: 30}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 369}
+admin_action: {agency: 122}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

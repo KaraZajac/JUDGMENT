@@ -1,0 +1,88 @@
+id: 1964-057
+name: SWAIN v. ALABAMA
+term: 1964
+chief: Warren
+natural_court: 1408
+docket: '64'
+citation:
+  us: 380 U.S. 202
+  sct: 85 S. Ct. 824
+  led: 13 L. Ed. 2d 759
+  lexis: 1965 U.S. LEXIS 1668
+dates:
+  argued: '1964-12-08'
+  decided: '1965-03-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20040, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 1}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: HLBlack
+votes:
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AJGoldberg
+- justice: HLBlack
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AJGoldberg
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AJGoldberg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

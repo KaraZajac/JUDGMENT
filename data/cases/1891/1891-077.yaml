@@ -1,0 +1,83 @@
+id: 1891-077
+name: FISK v. HENARIE
+term: 1891
+chief: Fuller
+natural_court: 803
+docket: '118'
+citation:
+  us: 142 U.S. 459
+  sct: 12 S. Ct. 207
+  led: 35 L. Ed. 1080
+  lexis: 1892 U.S. LEXIS 1984
+dates:
+  argued: '1891-12-03'
+  decided: '1892-01-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90090, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 429}
+  source: {code: 429}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 119}
+  respondent: {code: 195}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan1
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true

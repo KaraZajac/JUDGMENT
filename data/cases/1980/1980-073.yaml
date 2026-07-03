@@ -1,0 +1,89 @@
+id: 1980-073
+name: SCINDIA STEAM NAVIGATION CO., LTD. v. DE LOS SANTOS et al.
+term: 1980
+chief: Burger
+natural_court: 1506
+docket: 79-512
+citation:
+  us: 451 U.S. 156
+  sct: 101 S. Ct. 1614
+  led: 68 L. Ed. 2d 1
+  lexis: 1981 U.S. LEXIS 20
+dates:
+  argued: '1980-12-01'
+  decided: '1981-04-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80070, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 349
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 129}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 145}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  participated: false
+- justice: HABlackmun
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - LFPowell
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

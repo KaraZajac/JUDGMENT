@@ -1,0 +1,94 @@
+id: 1903-174
+name: NORTHERN SECURITIES COMPANY v. UNITED STATES
+term: 1903
+chief: Fuller
+natural_court: 810
+docket: '277'
+citation:
+  us: 193 U.S. 197
+  sct: 24 S. Ct. 436
+  led: 48 L. Ed. 679
+  lexis: 1904 U.S. LEXIS 933
+dates:
+  argued: '1903-12-14'
+  decided: '1904-03-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 420}
+  source: {code: 420}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 119}
+  respondent: {code: 27}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite
+  - OWHolmes
+- justice: JHarlan1
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: RWPeckham
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite
+  - OWHolmes
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true

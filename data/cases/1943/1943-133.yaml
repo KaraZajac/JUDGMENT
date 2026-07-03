@@ -1,0 +1,84 @@
+id: 1943-133
+name: SMITH v. ALLWRIGHT, ELECTION JUDGE, et al.
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '51'
+citation:
+  us: 321 U.S. 649
+  sct: 64 S. Ct. 757
+  led: 88 L. Ed. 987
+  lexis: 1944 U.S. LEXIS 875
+dates:
+  argued: '1943-11-10'
+  reargued: '1944-01-12'
+  decided: '1944-04-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 20010, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 233
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 121}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 251}
+  respondent: {code: 16}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: SFReed
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 1899-054
+name: TARPEY v. MADSEN
+term: 1899
+chief: Fuller
+natural_court: 808
+docket: '119'
+citation:
+  us: 178 U.S. 215
+  sct: 20 S. Ct. 849
+  led: 44 L. Ed. 1042
+  lexis: 1900 U.S. LEXIS 1669
+dates:
+  argued: '1900-01-25'
+  decided: '1900-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80105, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 52}
+  source: {code: 300, state: 52}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+admin_action: {agency: 26}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: HGray
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true

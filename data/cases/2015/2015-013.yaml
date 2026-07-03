@@ -1,0 +1,84 @@
+id: 2015-013
+name: LUNA TORRES v. LYNCH
+term: 2015
+chief: Roberts
+natural_court: 1705
+docket: 14-1096
+citation:
+  us: 578 U.S. 452
+  sct: 136 S. Ct. 1619
+  led: 194 L. Ed. 2d 737
+  lexis: 2016 U.S. LEXIS 3351
+dates:
+  argued: '2015-11-03'
+  decided: '2016-05-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10480, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 368}
+admin_action: {agency: 68}
+opinions:
+  majority_author: EKagan
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

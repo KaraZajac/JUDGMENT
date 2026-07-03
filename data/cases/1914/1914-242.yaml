@@ -1,0 +1,86 @@
+id: 1914-242
+name: COPPAGE v. STATE OF KANSAS
+term: 1914
+chief: White
+natural_court: 903
+docket: '48'
+citation:
+  us: 236 U.S. 1
+  sct: 35 S. Ct. 240
+  led: 59 L. Ed. 441
+  lexis: 1915 U.S. LEXIS 1798
+dates:
+  decided: '1915-01-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 70130, area: unions}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 20}
+  source: {code: 300, state: 20}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 20}
+opinions:
+  majority_author: MPitney
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CEHughes1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WRDay
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,77 @@
+id: 1946-039
+name: MORRIS v. JONES, DIRECTOR OF INSURANCE
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '62'
+citation:
+  us: 329 U.S. 545
+  sct: 67 S. Ct. 451
+  led: 91 L. Ed. 488
+  lexis: 1947 U.S. LEXIS 2962
+dates:
+  argued: '1946-12-09'
+  decided: '1947-01-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 110030, area: interstate-relations}
+law:
+  type: constitution
+  supp: 143
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 171}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: WBRutledge
+  vote: dissent
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FMurphy
+  vote: majority
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  in_majority: true

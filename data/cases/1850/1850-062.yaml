@@ -1,0 +1,69 @@
+id: 1850-062
+name: ROBERT M. WITHERS, PLAINTIFF IN ERROR, v. WILLIAM B. GREENE, ADMINISTRATOR OF RICHARD MAY, DECEASED
+term: 1850
+chief: Taney
+natural_court: 508
+citation:
+  us: 50 U.S. 213
+  led: 13 L. Ed. 109
+  lexis: 1850 U.S. LEXIS 1419
+dates:
+  argued: '1850-04-09'
+  decided: '1850-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 140030, area: private-action}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 41}
+  source: {code: 41}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 137}
+  respondent: {code: 174}
+opinions:
+  majority_author: PVDaniel
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  in_majority: true
+- justice: JMcKinley
+  participated: false
+- justice: PVDaniel
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: SNelson
+  vote: dissent
+  in_majority: false
+- justice: LWoodbury
+  vote: majority
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  in_majority: true

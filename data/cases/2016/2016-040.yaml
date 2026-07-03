@@ -1,0 +1,87 @@
+id: 2016-040
+name: MATAL v. TAM
+term: 2016
+chief: Roberts
+natural_court: 1706
+docket: 15-1293
+citation:
+  sct: 137 S. Ct. 1744
+  led: 198 L. Ed. 2d 366
+  lexis: 2017 U.S. LEXIS 3872
+dates:
+  argued: '2017-01-18'
+  decided: '2017-06-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 8}
+  source: {code: 8}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 394}
+  respondent: {code: 172}
+admin_action: {agency: 94}
+opinions:
+  majority_author: SAAlito
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AMKennedy
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AMKennedy
+- justice: EKagan
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AMKennedy
+- justice: NMGorsuch
+  participated: false

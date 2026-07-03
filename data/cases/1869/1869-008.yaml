@@ -1,0 +1,75 @@
+id: 1869-008
+name: THE EAGLE
+term: 1869
+chief: Chase
+natural_court: 601
+citation:
+  us: 75 U.S. 15
+  led: 19 L. Ed. 365
+  lexis: 1868 U.S. LEXIS 1078
+dates:
+  decided: '1869-11-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90320, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 389
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 81}
+  source: {code: 419}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 116}
+opinions:
+  majority_author: SNelson
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

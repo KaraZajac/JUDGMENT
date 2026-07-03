@@ -1,0 +1,93 @@
+id: 1963-158
+name: JACOBELLIS v. OHIO
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '11'
+citation:
+  us: 378 U.S. 184
+  sct: 84 S. Ct. 1676
+  led: 12 L. Ed. 2d 793
+  lexis: 1964 U.S. LEXIS 822
+dates:
+  argued: '1963-03-26'
+  reargued: '1964-04-01'
+  decided: '1964-06-22'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30190, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 156}
+  respondent: {code: 28}
+  respondent_state: {code: 41}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: PStewart
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TCClark
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - EWarren
+- justice: AJGoldberg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

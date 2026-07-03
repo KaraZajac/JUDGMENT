@@ -1,0 +1,87 @@
+id: 1997-090
+name: GERALD R. CARON v. UNITED STATES
+term: 1997
+chief: Rehnquist
+natural_court: 1607
+docket: 97-6270
+citation:
+  us: 524 U.S. 308
+  sct: 118 S. Ct. 2007
+  led: 141 L. Ed. 2d 303
+  lexis: 1998 U.S. LEXIS 4028
+dates:
+  argued: '1998-04-21'
+  decided: '1998-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10440, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U.S.C. § 922
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 80}
+  source: {code: 21}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CThomas
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true

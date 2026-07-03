@@ -1,0 +1,87 @@
+id: 1967-045
+name: CASE-SWAYNE CO., INC. v. SUNKIST GROWERS, INC.
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '66'
+citation:
+  us: 389 U.S. 384
+  sct: 88 S. Ct. 528
+  led: 19 L. Ed. 2d 621
+  lexis: 1967 U.S. LEXIS 2943
+dates:
+  argued: '1967-10-18'
+  decided: '1967-12-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80010, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 7 U.S.C. § 291
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 51}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 158}
+  respondent: {code: 152}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

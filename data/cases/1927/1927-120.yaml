@@ -1,0 +1,89 @@
+id: 1927-120
+name: QUAKER CITY CAB COMPANY v. COMMONWEALTH OF PENNSYLVANIA
+term: 1927
+chief: Taft
+natural_court: 1005
+docket: '139'
+citation:
+  us: 277 U.S. 389
+  sct: 48 S. Ct. 553
+  led: 72 L. Ed. 927
+  lexis: 1928 U.S. LEXIS 691
+dates:
+  argued: '1927-04-20'
+  decided: '1928-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 45}
+  respondent: {code: 28}
+  respondent_state: {code: 45}
+admin_action: {agency: 117, state: 45}
+opinions:
+  majority_author: PButler
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

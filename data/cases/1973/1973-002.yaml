@@ -1,0 +1,84 @@
+id: 1973-002
+name: PLUMMER v. CITY OF COLUMBUS
+term: 1973
+chief: Burger
+natural_court: 1504
+docket: 72-6897
+citation:
+  us: 414 U.S. 2
+  sct: 94 S. Ct. 17
+  led: 38 L. Ed. 2d 3
+  lexis: 1973 U.S. LEXIS 164
+dates:
+  decided: '1973-10-15'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 177}
+  respondent: {code: 3}
+  respondent_state: {code: 41}
+opinions:
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell

@@ -1,0 +1,84 @@
+id: 1942-099
+name: ILLINOIS COMMERCE COMMISSION et al. v. THOMSON, TRUSTEE
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '178'
+citation:
+  us: 318 U.S. 675
+  sct: 63 S. Ct. 834
+  led: 87 L. Ed. 1079
+  lexis: 1943 U.S. LEXIS 1287
+dates:
+  argued: '1943-01-12'
+  decided: '1943-04-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 90080, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 66}
+  disposition: unusual-disposition
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 17}
+  respondent: {code: 114}
+admin_action: {agency: 117, state: 17}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HFStone
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  participated: false

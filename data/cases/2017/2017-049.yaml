@@ -1,0 +1,82 @@
+id: 2017-049
+name: LOZMAN v. CITY OF RIVIERA BEACH, FLORIDA
+term: 2017
+chief: Roberts
+natural_court: 1706
+docket: 17-21
+citation:
+  sct: 138 S. Ct. 1945
+  led: 201 L. Ed. 2d 342
+  lexis: 2018 U.S. LEXIS 3691
+dates:
+  argued: '2018-02-27'
+  decided: '2018-06-18'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 58}
+  source: {code: 31}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 218}
+  respondent: {code: 3}
+  respondent_state: {code: 12}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: liberal
+  in_majority: true

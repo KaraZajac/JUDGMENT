@@ -1,0 +1,84 @@
+id: 1950-016
+name: McGRATH, ATTORNEY GENERAL, ET AL. v. KRISTENSEN
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '34'
+citation:
+  us: 340 U.S. 162
+  sct: 71 S. Ct. 224
+  led: 95 L. Ed. 2d 173
+  lexis: 1950 U.S. LEXIS 1314
+dates:
+  argued: '1950-10-19'
+  decided: '1950-12-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90250, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 32}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 106}
+admin_action: {agency: 27}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: SFReed
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

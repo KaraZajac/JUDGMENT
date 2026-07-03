@@ -1,0 +1,88 @@
+id: 2014-064
+name: KIMBLE v. MARVEL ENTERPRISES, INC.
+term: 2014
+chief: Roberts
+natural_court: 1704
+docket: 13-720
+citation:
+  us: 576 U.S. 466
+  sct: 135 S. Ct. 2401
+  led: 192 L. Ed. 2d 463
+  lexis: 2015 U.S. LEXIS 4067
+dates:
+  argued: '2015-03-31'
+  decided: '2015-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80180, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 35 USC 154
+authority:
+- supervisory
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 45}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 184}
+opinions:
+  majority_author: EKagan
+  majority_assigner: AScalia
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

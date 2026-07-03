@@ -1,0 +1,76 @@
+id: 1878-077
+name: REED v. MCINTYRE
+term: 1878
+chief: Waite
+natural_court: 702
+docket: '99'
+citation:
+  us: 98 U.S. 507
+  led: 25 L. Ed. 171
+  lexis: 1878 U.S. LEXIS 1412
+dates:
+  decided: '1879-01-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 20100, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 420}
+  source: {code: 420}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 114}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

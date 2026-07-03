@@ -1,0 +1,86 @@
+id: 1943-055
+name: DAVIES WAREHOUSE CO. v. BOWLES, PRICE ADMINISTRATOR
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '112'
+citation:
+  us: 321 U.S. 144
+  sct: 64 S. Ct. 474
+  led: 88 L. Ed. 635
+  lexis: 1944 U.S. LEXIS 1220
+dates:
+  argued: '1943-11-18'
+  decided: '1944-01-31'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 100020, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 18}
+  source: {code: 18}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 389}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true

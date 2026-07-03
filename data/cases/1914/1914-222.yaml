@@ -1,0 +1,83 @@
+id: 1914-222
+name: PENNSYLVANIA COMPANY v. UNITED STATES
+term: 1914
+chief: White
+natural_court: 903
+docket: '591'
+citation:
+  us: 236 U.S. 351
+  sct: 35 S. Ct. 370
+  led: 59 L. Ed. 616
+  lexis: 1915 U.S. LEXIS 1766
+dates:
+  argued: '1914-12-14'
+  decided: '1915-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80220, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 111}
+  source: {code: 111}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 27}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WRDay
+  majority_assigner: JMcKenna
+votes:
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  participated: false

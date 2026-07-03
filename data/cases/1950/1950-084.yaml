@@ -1,0 +1,88 @@
+id: 1950-084
+name: STANDARD OIL CO. v. NEW JERSEY
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '384'
+citation:
+  us: 341 U.S. 428
+  sct: 71 S. Ct. 822
+  led: 95 L. Ed. 2d 1078
+  lexis: 1951 U.S. LEXIS 2347
+dates:
+  argued: '1951-03-06'
+  decided: '1951-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 35}
+  source: {code: 300, state: 35}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 127}
+  respondent: {code: 28}
+  respondent_state: {code: 35}
+opinions:
+  majority_author: SFReed
+  majority_assigner: SFReed
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

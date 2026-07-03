@@ -1,0 +1,93 @@
+id: 1982-124
+name: KARCHER, SPEAKER, NEW JERSEY ASSEMBLY, et al. v. DAGGETT et al.
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 81-2057
+citation:
+  us: 462 U.S. 725
+  sct: 103 S. Ct. 2653
+  led: 77 L. Ed. 2d 133
+  lexis: 1983 U.S. LEXIS 75
+dates:
+  argued: '1983-03-02'
+  decided: '1983-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20090, area: civil-rights}
+law:
+  type: constitution
+  supp: 102
+authority:
+- judicial-review-state
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 92}
+  source: {code: 92}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 28}
+  respondent_state: {code: 35}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

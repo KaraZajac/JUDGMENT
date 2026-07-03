@@ -1,0 +1,84 @@
+id: 1879-070
+name: SAVINGS BANK v. WARD
+term: 1879
+chief: Waite
+natural_court: 702
+docket: '142'
+citation:
+  us: 100 U.S. 195
+  led: 25 L. Ed. 621
+  lexis: 1879 U.S. LEXIS 1822
+dates:
+  argued: '1880-01-08'
+  decided: '1880-01-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 19}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 111}
+opinions:
+  majority_author: NClifford
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true

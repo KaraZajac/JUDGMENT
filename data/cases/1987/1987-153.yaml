@@ -1,0 +1,86 @@
+id: 1987-153
+name: THOMPSON v. OKLAHOMA
+term: 1987
+chief: Rehnquist
+natural_court: 1603
+docket: 86-6169
+citation:
+  us: 487 U.S. 815
+  sct: 108 S. Ct. 2687
+  led: 101 L. Ed. 2d 702
+  lexis: 1988 U.S. LEXIS 3028
+dates:
+  argued: '1987-11-09'
+  decided: '1988-06-29'
+decision:
+  type: judgment-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10130, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 221
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 42}
+  source: {code: 300, state: 42}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 175}
+  respondent: {code: 28}
+  respondent_state: {code: 42}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: JPStevens
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  participated: false

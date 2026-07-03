@@ -1,0 +1,89 @@
+id: 1900-043
+name: TYLER v. JUDGES OF THE COURT OF REGISTRATION
+term: 1900
+chief: Fuller
+natural_court: 808
+docket: '213'
+citation:
+  us: 179 U.S. 405
+  sct: 21 S. Ct. 206
+  led: 45 L. Ed. 252
+  lexis: 1900 U.S. LEXIS 1881
+dates:
+  argued: '1900-10-25'
+  decided: '1900-12-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40020, area: due-process}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 26}
+  source: {code: 300, state: 26}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 6}
+  respondent_state: {code: 26}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: HGray
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true

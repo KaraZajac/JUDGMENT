@@ -1,0 +1,89 @@
+id: 2008-081
+name: THOMAS C. HORNE, SUPERINTENDENT, ARIZONA PUBLIC INSTRUCTION v. MIRIAM FLORES et al.
+term: 2008
+chief: Roberts
+natural_court: 1702
+docket: 08-289
+citation:
+  us: 557 U.S. 433
+  sct: 129 S. Ct. 2579
+  led: 174 L. Ed. 2d 406
+  lexis: 2009 U.S. LEXIS 4733
+dates:
+  argued: '2009-04-20'
+  decided: '2009-06-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20050, area: civil-rights}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 45}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 4}
+  respondent: {code: 239}
+opinions:
+  majority_author: SAAlito
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SAAlito
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

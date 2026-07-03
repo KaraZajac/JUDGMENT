@@ -1,0 +1,74 @@
+id: 1893-063
+name: LATTA v. KILBOURN
+term: 1893
+chief: Fuller
+natural_court: 805
+docket: '97'
+citation:
+  us: 150 U.S. 524
+  sct: 14 S. Ct. 201
+  led: 37 L. Ed. 1169
+  lexis: 1893 U.S. LEXIS 2403
+dates:
+  argued: '1893-11-21'
+  decided: '1893-12-11'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90380, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 19}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 122}
+opinions:
+  majority_author: HEJackson
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  participated: false
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HEJackson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

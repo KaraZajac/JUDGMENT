@@ -1,0 +1,92 @@
+id: 1986-040
+name: UNITED STATES v. PARADISE et al.
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-999
+citation:
+  us: 480 U.S. 149
+  sct: 107 S. Ct. 1053
+  led: 94 L. Ed. 2d 203
+  lexis: 1987 U.S. LEXIS 934
+dates:
+  argued: '1986-11-12'
+  decided: '1987-02-25'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20070, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- supervisory
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 41}
+  source: {code: 31}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 10}
+  respondent_state: {code: 1}
+admin_action: {agency: 117, state: 1}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor

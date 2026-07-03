@@ -1,0 +1,82 @@
+id: 1949-034
+name: BRYAN v. UNITED STATES
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '178'
+citation:
+  us: 338 U.S. 552
+  sct: 70 S. Ct. 317
+  led: 94 L. Ed. 2d 335
+  lexis: 1950 U.S. LEXIS 2601
+dates:
+  argued: '1949-12-13'
+  decided: '1950-01-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 10370, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 2106
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 58, state: 12}
+  source: {code: 25}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: SMinton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

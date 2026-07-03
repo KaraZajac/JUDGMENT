@@ -1,0 +1,85 @@
+id: 1986-013
+name: MUNRO, SECRETARY OF STATE OF WASHINGTON v. SOCIALIST WORKERS PARTY et al.
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-656
+citation:
+  us: 479 U.S. 189
+  sct: 107 S. Ct. 533
+  led: 93 L. Ed. 2d 499
+  lexis: 1986 U.S. LEXIS 24
+dates:
+  argued: '1986-10-07'
+  decided: '1986-12-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20030, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 201
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 129}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 56}
+  respondent: {code: 211}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,72 @@
+id: 1812-015
+name: THE STATE OF NEW JERSEY v. WILSON
+term: 1812
+chief: Marshall
+natural_court: 406
+citation:
+  us: 11 U.S. 164
+  led: 3 L. Ed. 303
+  lexis: 1812 U.S. LEXIS 382
+dates:
+  decided: '1812-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 35}
+  source: {code: 300, state: 35}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 123}
+  respondent: {code: 28}
+  respondent_state: {code: 35}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true

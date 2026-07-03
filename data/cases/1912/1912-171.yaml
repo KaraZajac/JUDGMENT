@@ -1,0 +1,88 @@
+id: 1912-171
+name: SLOCUM v. NEW YORK LIFE INSURANCE CO
+term: 1912
+chief: White
+natural_court: 902
+docket: '20'
+citation:
+  us: 228 U.S. 364
+  sct: 33 S. Ct. 523
+  led: 57 L. Ed. 879
+  lexis: 1913 U.S. LEXIS 2380
+dates:
+  argued: '1912-04-26'
+  decided: '1913-04-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 430}
+  source: {code: 23}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 171}
+opinions:
+  majority_author: WVanDevanter
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEHughes1
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHLurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEHughes1
+- justice: CEHughes1
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEHughes1

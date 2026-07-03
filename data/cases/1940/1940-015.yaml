@@ -1,0 +1,82 @@
+id: 1940-015
+name: REPUBLIC STEEL CORPORATION v. NATIONAL LABOR RELATIONS BOARD et al.
+term: 1940
+chief: Hughes
+natural_court: 1108
+docket: '14'
+citation:
+  us: 311 U.S. 7
+  sct: 61 S. Ct. 77
+  led: 85 L. Ed. 6
+  lexis: 1940 U.S. LEXIS 1110
+dates:
+  argued: '1940-10-17'
+  decided: '1940-11-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 70080, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 23}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 382}
+admin_action: {agency: 82}
+opinions:
+  majority_author: CEHughes2
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  participated: false
+- justice: HLBlack
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true

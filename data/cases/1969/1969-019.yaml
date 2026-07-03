@@ -1,0 +1,82 @@
+id: 1969-019
+name: SULLIVAN et al. v. LITTLE HUNTING PARK, INC., et al.
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '33'
+citation:
+  us: 396 U.S. 229
+  sct: 90 S. Ct. 400
+  led: 24 L. Ed. 2d 386
+  lexis: 1969 U.S. LEXIS 8
+dates:
+  argued: '1969-10-13'
+  decided: '1969-12-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 20040, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 342
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 55}
+  source: {code: 300, state: 55}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 109}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2

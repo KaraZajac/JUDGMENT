@@ -1,0 +1,76 @@
+id: 1867-086
+name: UNITED STATES v. ECKFORD
+term: 1867
+chief: Chase
+natural_court: 601
+citation:
+  us: 73 U.S. 484
+  led: 18 L. Ed. 920
+  lexis: 1867 U.S. LEXIS 993
+dates:
+  argued: '1868-03-24'
+  decided: '1868-04-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90250, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 389
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 3}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 102}
+admin_action: {agency: 21}
+opinions:
+  majority_author: NClifford
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true

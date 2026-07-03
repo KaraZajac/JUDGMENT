@@ -1,0 +1,90 @@
+id: 1981-141
+name: HARLOW et al. v. FITZGERALD
+term: 1981
+chief: Burger
+natural_court: 1507
+docket: 80-945
+citation:
+  us: 457 U.S. 800
+  sct: 102 S. Ct. 2727
+  led: 73 L. Ed. 2d 396
+  lexis: 1982 U.S. LEXIS 139
+dates:
+  argued: '1981-11-30'
+  decided: '1982-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80060, area: economic-activity}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 60}
+  respondent: {code: 8}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: LFPowell
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

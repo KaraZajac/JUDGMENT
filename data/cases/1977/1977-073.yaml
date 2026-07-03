@@ -1,0 +1,88 @@
+id: 1977-073
+name: FIRST NATIONAL BANK OF BOSTON et al. v. BELLOTTI, ATTORNEY GENERAL OF MASSACHUSETTS
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 76-1172
+citation:
+  us: 435 U.S. 765
+  sct: 98 S. Ct. 1407
+  led: 55 L. Ed. 2d 707
+  lexis: 1978 U.S. LEXIS 83
+dates:
+  argued: '1977-11-09'
+  decided: '1978-04-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30140, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 26}
+  source: {code: 300, state: 26}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 28}
+  respondent_state: {code: 26}
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

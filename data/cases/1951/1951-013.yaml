@@ -1,0 +1,78 @@
+id: 1951-013
+name: STEFANELLI et al. v. MINARD et al.
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '2'
+citation:
+  us: 342 U.S. 117
+  sct: 72 S. Ct. 118
+  led: 96 L. Ed. 2d 138
+  lexis: 1951 U.S. LEXIS 2357
+dates:
+  argued: '1951-10-16'
+  decided: '1951-12-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 90020, area: judicial-power}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 92, state: 35}
+  source: {code: 23}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 19}
+  respondent_state: {code: 35}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  participated: false
+- justice: TCClark
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

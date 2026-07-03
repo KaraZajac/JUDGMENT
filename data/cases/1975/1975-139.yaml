@@ -1,0 +1,85 @@
+id: 1975-139
+name: SERBIAN EASTERN ORTHODOX DIOCESE FOR THE UNITED STATES OF AMERICA AND CANADA et al. v. MILIVOJEVICH et al.
+term: 1975
+chief: Burger
+natural_court: 1506
+docket: 75-292
+citation:
+  us: 426 U.S. 696
+  sct: 96 S. Ct. 2372
+  led: 49 L. Ed. 2d 151
+  lexis: 1976 U.S. LEXIS 69
+dates:
+  argued: '1976-03-22'
+  decided: '1976-06-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 30160, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 202
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  disposition: affirmed-and-reversed-in-part
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 130}
+  respondent: {code: 130}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist

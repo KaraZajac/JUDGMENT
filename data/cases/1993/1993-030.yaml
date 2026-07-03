@@ -1,0 +1,87 @@
+id: 1993-030
+name: CLARENCE VICTOR v. NEBRASKA
+term: 1993
+chief: Rehnquist
+natural_court: 1606
+docket: 92-8894
+citation:
+  us: 511 U.S. 1
+  sct: 114 S. Ct. 1239
+  led: 127 L. Ed. 2d 583
+  lexis: 1994 U.S. LEXIS 2490
+dates:
+  argued: '1994-01-18'
+  decided: '1994-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10220, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 32}
+  source: {code: 300, state: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 32}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WHRehnquist
+votes:
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

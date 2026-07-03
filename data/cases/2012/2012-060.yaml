@@ -1,0 +1,90 @@
+id: 2012-060
+name: GENOVEVO SALINAS, PETITIONER v. TEXAS
+term: 2012
+chief: Roberts
+natural_court: 1704
+docket: 12-246
+citation:
+  us: 570 U.S. 178
+  sct: 133 S. Ct. 2174
+  led: 186 L. Ed. 2d 376
+  lexis: 2013 U.S. LEXIS 4697
+dates:
+  argued: '2013-04-17'
+  decided: '2013-06-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10090, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 210
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: state-court-confusion
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 300, state: 51}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: SAAlito
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SAAlito
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false

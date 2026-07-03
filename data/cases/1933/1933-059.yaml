@@ -1,0 +1,83 @@
+id: 1933-059
+name: BURROUGHS AND CANNON v. UNITED STATES
+term: 1933
+chief: Hughes
+natural_court: 1103
+docket: '434'
+citation:
+  us: 290 U.S. 534
+  sct: 54 S. Ct. 287
+  led: 78 L. Ed. 484
+  lexis: 1934 U.S. LEXIS 454
+dates:
+  argued: '1933-12-05'
+  decided: '1934-01-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 30140, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: campaign spending
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 19}
+  source: {code: 32}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 27}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  direction: liberal
+  in_majority: true

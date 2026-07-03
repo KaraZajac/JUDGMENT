@@ -1,0 +1,87 @@
+id: 1937-153
+name: UNITED STATES v. RAYNOR
+term: 1937
+chief: Hughes
+natural_court: 1104
+docket: '146'
+citation:
+  us: 302 U.S. 540
+  sct: 58 S. Ct. 353
+  led: 82 L. Ed. 413
+  lexis: 1938 U.S. LEXIS 7
+dates:
+  argued: '1937-11-12'
+  decided: '1938-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10430, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: criminal law, financial
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 69}
+  source: {code: 27}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 126}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - GSutherland
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PButler
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - GSutherland
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

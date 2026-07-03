@@ -1,0 +1,79 @@
+id: 1926-192
+name: UNITED STATES v. TRENTON POTTERIES COMPANY et al.
+term: 1926
+chief: Taft
+natural_court: 1005
+docket: '27'
+citation:
+  us: 273 U.S. 392
+  sct: 47 S. Ct. 377
+  led: 71 L. Ed. 700
+  lexis: 1927 U.S. LEXIS 975
+dates:
+  argued: '1926-11-30'
+  decided: '1927-02-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 122}
+opinions:
+  majority_author: HFStone
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  participated: false
+- justice: GSutherland
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: PButler
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: ETSanford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,70 @@
+id: 1827-025
+name: MASON v. HAILE
+term: 1827
+chief: Marshall
+natural_court: 408
+citation:
+  us: 25 U.S. 370
+  led: 6 L. Ed. 660
+  lexis: 1827 U.S. LEXIS 395
+dates:
+  argued: '1827-02-09'
+  decided: '1827-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 20100, area: civil-rights}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 431}
+  source: {code: 431}
+  disagreement: true
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 138}
+opinions:
+  majority_author: SThompson
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WJohnson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RTrimble
+  vote: majority
+  direction: liberal
+  in_majority: true

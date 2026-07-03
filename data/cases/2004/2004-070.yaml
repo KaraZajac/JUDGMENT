@@ -1,0 +1,86 @@
+id: 2004-070
+name: GONZALEZ v. CROSBY
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 04-6432
+citation:
+  us: 545 U.S. 524
+  sct: 125 S. Ct. 2641
+  led: 162 L. Ed. 2d 480
+  lexis: 2005 U.S. LEXIS 5014
+dates:
+  argued: '2005-04-25'
+  decided: '2005-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 58}
+  source: {code: 31}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 28}
+  respondent_state: {code: 12}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

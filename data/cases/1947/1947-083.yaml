@@ -1,0 +1,80 @@
+id: 1947-083
+name: UNITED STATES v. UNITED STATES DISTRICT COURT FOR THE SOUTHERN DISTRICT OF NEW YORK ET AL.
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '527'
+citation:
+  us: 334 U.S. 258
+  sct: 68 S. Ct. 1035
+  led: 92 L. Ed. 2d 1351
+  lexis: 1948 U.S. LEXIS 2849
+dates:
+  argued: '1948-04-19'
+  decided: '1948-05-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90330, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 15 U.S.C. § 29
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 96, state: 37}
+  source: {code: 22}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 6}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  participated: false
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,85 @@
+id: 1895-211
+name: CRAIN v. UNITED STATES
+term: 1895
+chief: Fuller
+natural_court: 807
+docket: '557'
+citation:
+  us: 162 U.S. 625
+  sct: 16 S. Ct. 952
+  led: 40 L. Ed. 1097
+  lexis: 1896 U.S. LEXIS 2237
+dates:
+  decided: '1896-04-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10420, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: YS spara 5421
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 47}
+  source: {code: 47}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RWPeckham
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RWPeckham
+- justice: RWPeckham
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

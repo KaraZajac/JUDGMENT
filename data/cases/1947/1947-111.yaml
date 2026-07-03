@@ -1,0 +1,84 @@
+id: 1947-111
+name: UNITED STATES v. HOFFMAN
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '97'
+citation:
+  us: 335 U.S. 77
+  sct: 68 S. Ct. 1413
+  led: 92 L. Ed. 2d 1830
+  lexis: 1948 U.S. LEXIS 1934
+dates:
+  argued: '1947-10-23'
+  decided: '1948-06-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10110, area: criminal-procedure}
+law:
+  type: court-rules
+  supp: 401
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 55, state: 10}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 125}
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FFrankfurter
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

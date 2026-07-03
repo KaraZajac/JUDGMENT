@@ -1,0 +1,89 @@
+id: 1919-079
+name: KNICKERBOCKER ICE COMPANY v. STEWART
+term: 1919
+chief: White
+natural_court: 905
+docket: '543'
+citation:
+  us: 253 U.S. 149
+  sct: 40 S. Ct. 438
+  led: 64 L. Ed. 834
+  lexis: 1920 U.S. LEXIS 1457
+dates:
+  argued: '1919-12-16'
+  decided: '1920-05-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100120, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 301, state: 37}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 145}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: JHClarke
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OWHolmes

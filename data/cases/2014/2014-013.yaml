@@ -1,0 +1,86 @@
+id: 2014-013
+name: DEP'T OF HOMELAND SEC. v. MACLEAN
+term: 2014
+chief: Roberts
+natural_court: 1704
+docket: 13-894
+citation:
+  us: 574 U.S. 383
+  sct: 135 S. Ct. 913
+  led: 190 L. Ed. 2d 771
+  lexis: 2015 U.S. LEXIS 755
+dates:
+  argued: '2014-11-04'
+  decided: '2015-01-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 30120, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Homeland Security Act
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 8}
+  source: {code: 8}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 418}
+  respondent: {code: 260}
+admin_action: {agency: 74}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

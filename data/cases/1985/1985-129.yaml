@@ -1,0 +1,92 @@
+id: 1985-129
+name: MACDONALD, SOMMER & FRATES v. COUNTY OF YOLO et al.
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 84-2015
+citation:
+  us: 477 U.S. 340
+  sct: 106 S. Ct. 2561
+  led: 91 L. Ed. 2d 285
+  lexis: 1986 U.S. LEXIS 119
+dates:
+  argued: '1986-03-26'
+  decided: '1986-06-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 211
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 301, state: 6}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 5}
+  respondent_state: {code: 6}
+admin_action: {agency: 117, state: 6}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+  - WHRehnquist
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

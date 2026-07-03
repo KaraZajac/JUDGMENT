@@ -1,0 +1,90 @@
+id: 1914-260
+name: AMERICAN WATER SOFTENER COMPANY v. LANKFORD AND OTHERS, COMPOSING THE STATE BANKING BOARD OF THE STATE OF
+  OKLAHOMA
+term: 1914
+chief: White
+natural_court: 903
+docket: '418'
+citation:
+  us: 235 U.S. 496
+  sct: 35 S. Ct. 184
+  led: 59 L. Ed. 329
+  lexis: 1915 U.S. LEXIS 1836
+dates:
+  argued: '1914-10-14'
+  decided: '1915-01-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 105}
+  source: {code: 105}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 4}
+  respondent_state: {code: 42}
+admin_action: {agency: 117, state: 42}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MPitney
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MPitney
+- justice: JRLamar
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MPitney
+- justice: MPitney
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true

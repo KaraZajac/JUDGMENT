@@ -1,0 +1,90 @@
+id: 2017-021
+name: CARPENTER v. UNITED STATES
+term: 2017
+chief: Roberts
+natural_court: 1706
+docket: 16-402
+citation:
+  sct: 138 S. Ct. 2206
+  led: 201 L. Ed. 2d 507
+  lexis: 2018 U.S. LEXIS 3844
+dates:
+  argued: '2017-11-29'
+  decided: '2018-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-national
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 81}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+  - SAAlito
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

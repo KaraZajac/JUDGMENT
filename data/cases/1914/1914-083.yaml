@@ -1,0 +1,81 @@
+id: 1914-083
+name: GREENLEAF JOHNSON LUMBER COMPANY v. GARRISON, SECRETARY OF WAR
+term: 1914
+chief: White
+natural_court: 903
+docket: '678'
+citation:
+  us: 237 U.S. 251
+  sct: 35 S. Ct. 551
+  led: 59 L. Ed. 939
+  lexis: 1915 U.S. LEXIS 1333
+dates:
+  argued: '1915-02-24'
+  decided: '1915-04-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 40070, area: due-process}
+law:
+  type: constitution
+  supp: 111
+authority:
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 126}
+  source: {code: 24}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 324}
+admin_action: {agency: 24}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  participated: false

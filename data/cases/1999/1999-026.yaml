@@ -1,0 +1,91 @@
+id: 1999-026
+name: JEREMIAH W. (JAY) NIXON, ATTORNEY GENERAL OF MISSOURI, et al. v. SHRINK MISSOURI GOVERNMENT PAC et al.
+term: 1999
+chief: Rehnquist
+natural_court: 1607
+docket: 98-963
+citation:
+  us: 528 U.S. 377
+  sct: 120 S. Ct. 897
+  led: 145 L. Ed. 2d 886
+  lexis: 2000 U.S. LEXIS 826
+dates:
+  argued: '1999-10-05'
+  decided: '2000-01-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30140, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- federal-common-law
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 86}
+  source: {code: 28}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 30}
+  respondent: {code: 211}
+opinions:
+  majority_author: DHSouter
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: DHSouter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

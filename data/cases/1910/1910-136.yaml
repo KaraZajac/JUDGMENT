@@ -1,0 +1,81 @@
+id: 1910-136
+name: WEST, ATTORNEY GENERAL OF THE STATE OF OKLAHOMA, v. KANSAS NATURAL GAS COMPANY
+term: 1910
+chief: White
+natural_court: 901
+docket: '916'
+citation:
+  us: 221 U.S. 229
+  sct: 31 S. Ct. 564
+  led: 55 L. Ed. 716
+  lexis: 1911 U.S. LEXIS 1730
+dates:
+  argued: '1911-04-04'
+  decided: '1911-05-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 449}
+  source: {code: 449}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 42}
+  respondent: {code: 198}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: CEHughes1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: conservative
+  in_majority: true

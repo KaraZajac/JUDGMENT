@@ -1,0 +1,80 @@
+id: 1946-034
+name: ANDERSON, RECEIVER, v. YUNGKAU, EXECUTOR, ET AL.
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '87'
+citation:
+  us: 329 U.S. 482
+  sct: 67 S. Ct. 428
+  led: 91 L. Ed. 436
+  lexis: 1947 U.S. LEXIS 2965
+dates:
+  argued: '1946-12-19'
+  decided: '1947-01-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 73, state: 21}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 237}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  participated: false
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  participated: false

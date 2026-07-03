@@ -1,0 +1,85 @@
+id: 1958-079
+name: KOLLER et al. v. UNITED STATES
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '362'
+citation:
+  us: 359 U.S. 309
+  sct: 79 S. Ct. 755
+  led: 3 L. Ed. 2d 828
+  lexis: 1959 U.S. LEXIS 1139
+dates:
+  argued: '1959-03-30'
+  decided: '1959-04-20'
+decision:
+  type: per-curiam-argued
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10170, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 40 U.S.C. § 489
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 109}
+  source: {code: 23}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 123}
+  respondent: {code: 27}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart

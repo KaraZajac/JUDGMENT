@@ -1,0 +1,90 @@
+id: 1986-119
+name: O'LONE, ADMINISTRATOR, LEESBURG PRISON COMPLEX, et al. v. ESTATE OF SHABAZZ et al.
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-1722
+citation:
+  us: 482 U.S. 342
+  sct: 107 S. Ct. 2400
+  led: 96 L. Ed. 2d 282
+  lexis: 1987 U.S. LEXIS 2604
+dates:
+  argued: '1987-03-24'
+  decided: '1987-06-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30160, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 202
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 92}
+  source: {code: 23}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 35}
+  respondent: {code: 215}
+admin_action: {agency: 117, state: 35}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true

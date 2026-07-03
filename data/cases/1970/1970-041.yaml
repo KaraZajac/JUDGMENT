@@ -1,0 +1,90 @@
+id: 1970-041
+name: LAW STUDENTS CIVIL RIGHTS RESEARCH COUNCIL, INC., et al. v. WADMOND et al.
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '49'
+citation:
+  us: 401 U.S. 154
+  sct: 91 S. Ct. 720
+  led: 27 L. Ed. 2d 749
+  lexis: 1971 U.S. LEXIS 85
+dates:
+  argued: '1970-10-15'
+  decided: '1971-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30080, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 111}
+  respondent: {code: 28}
+  respondent_state: {code: 37}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true

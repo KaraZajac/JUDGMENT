@@ -1,0 +1,88 @@
+id: 1999-077
+name: SANTA FE INDEPENDENT SCHOOL DISTRICT v. JANE DOE, INDIVIDUALLY AND AS NEXT FRIEND FOR HER MINOR CHILDREN,
+  JANE AND JOHN DOE, et al.
+term: 1999
+chief: Rehnquist
+natural_court: 1607
+docket: 99-62
+citation:
+  us: 530 U.S. 290
+  sct: 120 S. Ct. 2266
+  led: 147 L. Ed. 2d 295
+  lexis: 2000 U.S. LEXIS 4154
+dates:
+  argued: '2000-03-29'
+  decided: '2000-06-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30170, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 203
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 121}
+  source: {code: 25}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 21}
+  petitioner_state: {code: 51}
+  respondent: {code: 239}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

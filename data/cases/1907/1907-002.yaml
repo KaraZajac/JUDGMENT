@@ -1,0 +1,86 @@
+id: 1907-002
+name: RAYMOND, TREASURER OF COOK COUNTY, ILLINOIS, v. CHICAGO UNION TRACTION COMPANY
+term: 1907
+chief: Fuller
+natural_court: 811
+docket: '115'
+citation:
+  us: 207 U.S. 20
+  sct: 28 S. Ct. 7
+  led: 52 L. Ed. 78
+  lexis: 1907 U.S. LEXIS 1197
+dates:
+  argued: '1907-08-07'
+  decided: '1907-10-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 410}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 17}
+  respondent: {code: 122}
+admin_action: {agency: 117, state: 17}
+opinions:
+  majority_author: RWPeckham
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes

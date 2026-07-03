@@ -1,0 +1,95 @@
+id: 1973-087
+name: ARNETT, DIRECTOR, OFFICE OF ECONOMIC OPPORTUNITY, et al. v. KENNEDY et al.
+term: 1973
+chief: Burger
+natural_court: 1504
+docket: 72-1118
+citation:
+  us: 416 U.S. 134
+  sct: 94 S. Ct. 1633
+  led: 40 L. Ed. 2d 15
+  lexis: 1974 U.S. LEXIS 125
+dates:
+  argued: '1973-11-07'
+  decided: '1974-04-16'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40030, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 207
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 66}
+  disposition: granted
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 8}
+  respondent_state: {code: 60}
+admin_action: {agency: 87}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - LFPowell
+- justice: LFPowell
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true

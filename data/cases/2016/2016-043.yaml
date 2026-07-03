@@ -1,0 +1,80 @@
+id: 2016-043
+name: HERNANDEZ v. MESA
+term: 2016
+chief: Roberts
+natural_court: 1706
+docket: 15-118
+citation:
+  sct: 137 S. Ct. 2003
+  led: 198 L. Ed. 2d 625
+  lexis: 2017 U.S. LEXIS 4059
+dates:
+  argued: '2017-02-21'
+  decided: '2017-06-26'
+decision:
+  type: per-curiam-argued
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 122}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 159}
+  respondent: {code: 260}
+opinions:
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  participated: false

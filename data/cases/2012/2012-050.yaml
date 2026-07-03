@@ -1,0 +1,89 @@
+id: 2012-050
+name: MARYLAND, PETITIONER v. ALONZO JAY KING, JR.
+term: 2012
+chief: Roberts
+natural_court: 1704
+docket: 12-207
+citation:
+  us: 569 U.S. 435
+  sct: 133 S. Ct. 1958
+  led: 186 L. Ed. 2d 1
+  lexis: 2013 U.S. LEXIS 4165
+dates:
+  argued: '2013-02-26'
+  decided: '2013-06-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: state-court-conflict
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 300, state: 25}
+  disposition: granted
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 25}
+  respondent: {code: 126}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AScalia
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AScalia

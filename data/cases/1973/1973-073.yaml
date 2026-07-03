@@ -1,0 +1,88 @@
+id: 1973-073
+name: UNITED STATES v. GENERAL DYNAMICS CORP. et al.
+term: 1973
+chief: Burger
+natural_court: 1504
+docket: 72-402
+citation:
+  us: 415 U.S. 486
+  sct: 94 S. Ct. 1186
+  led: 39 L. Ed. 2d 530
+  lexis: 1974 U.S. LEXIS 32
+dates:
+  argued: '1973-12-05'
+  decided: '1974-03-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80020, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 310
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 66}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 132}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

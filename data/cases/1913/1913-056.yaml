@@ -1,0 +1,83 @@
+id: 1913-056
+name: BALTIC MINING COMPANY v. COMMONWEALTH OF MASSACHUSETTS
+term: 1913
+chief: White
+natural_court: 902
+docket: '30'
+citation:
+  us: 231 U.S. 68
+  sct: 34 S. Ct. 15
+  led: 58 L. Ed. 127
+  lexis: 1913 U.S. LEXIS 2614
+dates:
+  argued: '1913-04-29'
+  decided: '1913-11-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: interstate commerce; 14th Amendment, due process & equal protection clauses
+authority:
+- statutory-construction
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 26}
+  source: {code: 302, state: 26}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 187}
+  respondent: {code: 28}
+  respondent_state: {code: 26}
+opinions:
+  majority_author: WRDay
+  majority_assigner: JMcKenna
+votes:
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHLurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JRLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  direction: conservative
+  in_majority: false

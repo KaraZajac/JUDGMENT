@@ -1,0 +1,87 @@
+id: 1957-050
+name: UNITED STATES et al. v. CITY OF DETROIT
+term: 1957
+chief: Warren
+natural_court: 1405
+docket: '26'
+citation:
+  us: 355 U.S. 466
+  sct: 78 S. Ct. 474
+  led: 2 L. Ed. 2d 424
+  lexis: 1958 U.S. LEXIS 1420
+dates:
+  argued: '1957-11-14'
+  decided: '1958-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 27}
+  source: {code: 300, state: 27}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 241}
+  respondent: {code: 3}
+  respondent_state: {code: 27}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEWhittaker

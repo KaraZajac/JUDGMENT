@@ -1,0 +1,91 @@
+id: 2003-088
+name: UNITED STATES v. SAMUEL FRANCIS PATANE
+term: 2003
+chief: Rehnquist
+natural_court: 1607
+docket: 02-1183
+citation:
+  us: 542 U.S. 630
+  sct: 124 S. Ct. 2620
+  led: 159 L. Ed. 2d 667
+  lexis: 2004 U.S. LEXIS 4577
+dates:
+  argued: '2003-12-09'
+  decided: '2004-06-28'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10100, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 209
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 52}
+  source: {code: 30}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: CThomas
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SDOConnor
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AMKennedy
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

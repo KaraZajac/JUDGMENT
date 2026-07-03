@@ -1,0 +1,86 @@
+id: 1948-026
+name: LEIMAN ET AL. v. GUTTMAN ET AL.
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '88'
+citation:
+  us: 336 U.S. 1
+  sct: 69 S. Ct. 371
+  led: 93 L. Ed. 2d 453
+  lexis: 1949 U.S. LEXIS 3017
+dates:
+  argued: '1948-12-13'
+  decided: '1949-01-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: unusual-disposition
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 111}
+  respondent: {code: 135}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson

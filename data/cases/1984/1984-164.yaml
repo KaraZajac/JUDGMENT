@@ -1,0 +1,85 @@
+id: 1984-164
+name: MITSUBISHI MOTORS CORP. v. SOLER CHRYSLER-PLYMOUTH, INC.
+term: 1984
+chief: Burger
+natural_court: 1507
+docket: 83-1569
+citation:
+  us: 473 U.S. 614
+  sct: 105 S. Ct. 3346
+  led: 87 L. Ed. 2d 444
+  lexis: 1985 U.S. LEXIS 129
+dates:
+  argued: '1985-03-18'
+  decided: '1985-07-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80160, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 9 U.S.C. § 1
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 112}
+  source: {code: 21}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 159}
+  respondent: {code: 125}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

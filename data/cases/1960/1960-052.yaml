@@ -1,0 +1,92 @@
+id: 1960-052
+name: BRADEN v. UNITED STATES
+term: 1960
+chief: Warren
+natural_court: 1406
+docket: '54'
+citation:
+  us: 365 U.S. 431
+  sct: 81 S. Ct. 584
+  led: 5 L. Ed. 2d 653
+  lexis: 1961 U.S. LEXIS 1649
+dates:
+  argued: '1960-11-17'
+  decided: '1961-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30050, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 201
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 60}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 254}
+  respondent: {code: 27}
+opinions:
+  majority_author: PStewart
+  majority_assigner: FFrankfurter
+votes:
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+  - WODouglas
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

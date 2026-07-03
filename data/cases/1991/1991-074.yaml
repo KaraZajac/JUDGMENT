@@ -1,0 +1,87 @@
+id: 1991-074
+name: CHARLES W. BURSON, ATTORNEY GENERAL AND REPORTER FOR TENNESSEE v. MARY REBECCA FREEMAN
+term: 1991
+chief: Rehnquist
+natural_court: 1605
+docket: 90-1056
+citation:
+  us: 504 U.S. 191
+  sct: 112 S. Ct. 1846
+  led: 119 L. Ed. 2d 5
+  lexis: 1992 U.S. LEXIS 3125
+dates:
+  argued: '1991-10-08'
+  decided: '1992-05-26'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 50}
+  respondent: {code: 211}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WHRehnquist
+votes:
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  participated: false

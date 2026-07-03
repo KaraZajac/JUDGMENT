@@ -1,0 +1,82 @@
+id: 2009-017
+name: ERIC PRESLEY v. GEORGIA
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 09-5270
+citation:
+  us: 558 U.S. 209
+  sct: 130 S. Ct. 721
+  led: 175 L. Ed. 2d 675
+  lexis: 2010 U.S. LEXIS 761
+dates:
+  decided: '2010-01-19'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10230, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 217
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 13}
+  source: {code: 300, state: 13}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 137}
+  respondent: {code: 28}
+  respondent_state: {code: 13}
+opinions:
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true

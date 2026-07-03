@@ -1,0 +1,81 @@
+id: 1945-131
+name: COMMISSIONER OF INTERNAL REVENUE v. ESTATE OF HOLMES
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '203'
+citation:
+  us: 326 U.S. 480
+  sct: 66 S. Ct. 257
+  led: 90 L. Ed. 228
+  lexis: 1946 U.S. LEXIS 3144
+dates:
+  argued: '1945-12-12'
+  decided: '1946-01-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: putative-conflict
+lower_court:
+  origin: {code: 9}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 240}
+admin_action: {agency: 69}
+opinions:
+  majority_author: WBRutledge
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

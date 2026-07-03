@@ -1,0 +1,89 @@
+id: 2012-079
+name: UNITED STATES v. WINDSOR
+term: 2012
+chief: Roberts
+natural_court: 1704
+docket: 12-307
+citation:
+  us: 570 U.S. 744
+  sct: 133 S. Ct. 2675
+  led: 186 L. Ed. 2d 808
+  lexis: 2013 U.S. LEXIS 4921
+dates:
+  argued: '2013-03-27'
+  decided: '2013-06-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40010, area: due-process}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: DOMA
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 14}
+  respondent: {code: 162}
+admin_action: {agency: 69}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: AMKennedy
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+  - SAAlito
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

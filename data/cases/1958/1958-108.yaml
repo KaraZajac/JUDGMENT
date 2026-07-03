@@ -1,0 +1,83 @@
+id: 1958-108
+name: OHIO ex rel. EATON v. PRICE, CHIEF OF POLICE
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '699'
+citation:
+  us: 360 U.S. 246
+  sct: 79 S. Ct. 978
+  led: 3 L. Ed. 2d 1200
+  lexis: 1959 U.S. LEXIS 858
+dates:
+  decided: '1959-06-08'
+decision:
+  type: per-curiam-no-argument
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 4
+issue: {code: 10050, area: criminal-procedure}
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 3}
+  respondent_state: {code: 41}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  participated: false
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CEWhittaker
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter

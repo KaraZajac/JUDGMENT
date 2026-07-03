@@ -1,0 +1,93 @@
+id: 2014-037
+name: REED v. TOWN OF GILBERT
+term: 2014
+chief: Roberts
+natural_court: 1704
+docket: 13-502
+citation:
+  us: 576 U.S. 155
+  sct: 135 S. Ct. 2218
+  led: 192 L. Ed. 2d 236
+  lexis: 2015 U.S. LEXIS 4061
+dates:
+  argued: '2015-01-12'
+  decided: '2015-06-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 45}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 130}
+  respondent: {code: 3}
+  respondent_state: {code: 4}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - EKagan
+- justice: SGBreyer
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - EKagan
+- justice: SAAlito
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: EKagan
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,84 @@
+id: 1946-035
+name: HICKMAN, ADMINISTRATOR, v. TAYLOR ET AL., TRADING AS TAYLOR & ANDERSON TOWING & LIGHTERAGE CO., ET AL.
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '47'
+citation:
+  us: 329 U.S. 495
+  sct: 67 S. Ct. 385
+  led: 91 L. Ed. 451
+  lexis: 1947 U.S. LEXIS 2966
+dates:
+  argued: '1946-11-13'
+  decided: '1947-01-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 50040, area: privacy}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 109, state: 45}
+  source: {code: 23}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 116}
+opinions:
+  majority_author: FMurphy
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RHJackson
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

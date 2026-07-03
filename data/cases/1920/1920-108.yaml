@@ -1,0 +1,87 @@
+id: 1920-108
+name: NEWBERRY et al. v. UNITED STATES
+term: 1920
+chief: White
+natural_court: 905
+docket: '559'
+citation:
+  us: 256 U.S. 232
+  sct: 41 S. Ct. 469
+  led: 65 L. Ed. 913
+  lexis: 1921 U.S. LEXIS 1632
+dates:
+  argued: '1921-01-07'
+  decided: '1921-05-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 30140, area: first-amendment}
+law:
+  type: constitution
+  supp: 104
+authority:
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 82}
+  source: {code: 82}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 27}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - MPitney
+- justice: JHClarke
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - MPitney

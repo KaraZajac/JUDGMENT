@@ -1,0 +1,84 @@
+id: 1979-074
+name: WENGLER v. DRUGGISTS MUTUAL INSURANCE CO. et al.
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 79-381
+citation:
+  us: 446 U.S. 142
+  sct: 100 S. Ct. 1540
+  led: 64 L. Ed. 2d 107
+  lexis: 1980 U.S. LEXIS 122
+dates:
+  argued: '1980-02-25'
+  decided: '1980-04-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 20130, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 168}
+  respondent: {code: 171}
+admin_action: {agency: 117, state: 30}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

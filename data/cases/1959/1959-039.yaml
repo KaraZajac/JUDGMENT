@@ -1,0 +1,87 @@
+id: 1959-039
+name: NELSON et al. v. COUNTY OF LOS ANGELES et al.
+term: 1959
+chief: Warren
+natural_court: 1406
+docket: '152'
+citation:
+  us: 362 U.S. 1
+  sct: 80 S. Ct. 527
+  led: 4 L. Ed. 2d 494
+  lexis: 1960 U.S. LEXIS 1564
+dates:
+  argued: '1960-01-13'
+  decided: '1960-02-29'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 30120, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 6}
+  respondent: {code: 5}
+  respondent_state: {code: 6}
+admin_action: {agency: 117, state: 6}
+opinions:
+  majority_author: TCClark
+  majority_assigner: FFrankfurter
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+  - WJBrennan
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EWarren
+  participated: false
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true

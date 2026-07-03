@@ -1,0 +1,85 @@
+id: 1951-041
+name: STANDARD OIL CO. v. PECK, TAX COMMISSIONER, et al.
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '184'
+citation:
+  us: 342 U.S. 382
+  sct: 72 S. Ct. 309
+  led: 96 L. Ed. 2d 427
+  lexis: 1952 U.S. LEXIS 2463
+dates:
+  argued: '1952-01-03'
+  decided: '1952-02-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 41}
+  respondent: {code: 19}
+  respondent_state: {code: 41}
+admin_action: {agency: 117, state: 41}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

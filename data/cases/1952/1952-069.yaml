@@ -1,0 +1,78 @@
+id: 1952-069
+name: ALBERTSON ET AL. v. MILLARD, ATTORNEY GENERAL OF MICHIGAN, ET AL.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '384'
+citation:
+  us: 345 U.S. 242
+  sct: 73 S. Ct. 600
+  led: 97 L. Ed. 2d 983
+  lexis: 1953 U.S. LEXIS 2302
+dates:
+  argued: '1953-02-02'
+  decided: '1953-03-16'
+decision:
+  type: per-curiam-argued
+  disposition: vacated-and-remanded
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90030, area: judicial-power}
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 81, state: 27}
+  source: {code: 81, state: 27}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 19}
+  respondent_state: {code: 27}
+flags:
+  three_judge_district_court: true
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

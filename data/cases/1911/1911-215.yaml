@@ -1,0 +1,87 @@
+id: 1911-215
+name: GROMER, TREASURER OF PORTO RICO, v. STANDARD DREDGING COMPANY
+term: 1911
+chief: White
+natural_court: 902
+docket: '174'
+citation:
+  us: 224 U.S. 362
+  sct: 32 S. Ct. 499
+  led: 56 L. Ed. 801
+  lexis: 1912 U.S. LEXIS 2309
+dates:
+  decided: '1912-04-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 112}
+  source: {code: 112}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 7}
+  petitioner_state: {code: 46}
+  respondent: {code: 25}
+  respondent_state: {code: 46}
+admin_action: {agency: 117, state: 46}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HHLurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WRDay
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WRDay
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 2016-015
+name: SESSIONS, ATT'Y GEN. v. MORALES-SANTANA
+term: 2016
+chief: Roberts
+natural_court: 1706
+docket: 15-1191
+citation:
+  sct: 137 S. Ct. 1678
+  led: 198 L. Ed. 2d 150
+  lexis: 2017 U.S. LEXIS 3724
+dates:
+  argued: '2016-11-09'
+  decided: '2017-06-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 20270, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 212
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 327}
+  respondent: {code: 106}
+admin_action: {agency: 7}
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - CThomas
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  participated: false

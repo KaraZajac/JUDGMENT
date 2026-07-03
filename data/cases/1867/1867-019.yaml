@@ -1,0 +1,74 @@
+id: 1867-019
+name: THE WATCHFUL
+term: 1867
+chief: Chase
+natural_court: 601
+citation:
+  us: 73 U.S. 91
+  led: 18 L. Ed. 763
+  lexis: 1867 U.S. LEXIS 941
+dates:
+  argued: '1867-12-24'
+  decided: '1868-01-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 75}
+  source: {code: 75}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 116}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

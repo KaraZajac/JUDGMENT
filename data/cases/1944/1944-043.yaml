@@ -1,0 +1,87 @@
+id: 1944-043
+name: RICE v. OLSON, WARDEN
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '391'
+citation:
+  us: 324 U.S. 786
+  sct: 65 S. Ct. 989
+  led: 89 L. Ed. 1367
+  lexis: 1945 U.S. LEXIS 2160
+dates:
+  argued: '1945-02-01'
+  decided: '1945-04-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10120, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 32}
+  source: {code: 300, state: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 19}
+  respondent_state: {code: 32}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

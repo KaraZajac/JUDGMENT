@@ -1,0 +1,82 @@
+id: 1963-024
+name: CHICAGO & EASTERN ILLINOIS RAILROAD CO. et al. v. UNITED STATES et al.
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '275'
+citation:
+  us: 375 U.S. 150
+  sct: 84 S. Ct. 224
+  led: 11 L. Ed. 2d 217
+  lexis: 1963 U.S. LEXIS 2435
+dates:
+  decided: '1963-12-02'
+decision:
+  type: per-curiam-no-argument
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 66}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 27}
+admin_action: {agency: 66}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  direction: conservative
+  in_majority: true

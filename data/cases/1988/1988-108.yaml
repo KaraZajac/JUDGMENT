@@ -1,0 +1,91 @@
+id: 1988-108
+name: SULLIVAN, SECRETARY OF HEALTH AND HUMAN SERVICES v. HUDSON
+term: 1988
+chief: Rehnquist
+natural_court: 1603
+docket: 88-616
+citation:
+  us: 490 U.S. 877
+  sct: 109 S. Ct. 2248
+  led: 104 L. Ed. 2d 941
+  lexis: 1989 U.S. LEXIS 2866
+dates:
+  argued: '1989-04-17'
+  decided: '1989-06-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 60010, area: attorneys}
+law:
+  type: federal-statute
+  supp: 321
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 42}
+  source: {code: 31}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 363}
+  respondent: {code: 140}
+admin_action: {agency: 63}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite

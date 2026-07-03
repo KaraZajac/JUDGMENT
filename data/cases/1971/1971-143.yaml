@@ -1,0 +1,71 @@
+id: 1971-143
+name: PENNSYLVANIA v. NEW YORK et al.
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 40 ORIG
+citation:
+  us: 407 U.S. 206
+  sct: 92 S. Ct. 2075
+  led: 32 L. Ed. 2d 693
+  lexis: 1972 U.S. LEXIS 35
+dates:
+  argued: '1972-03-29'
+  decided: '1972-06-19'
+decision:
+  type: opinion-of-the-court
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 110020, area: interstate-relations}
+authority:
+- federal-common-law
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 45}
+  respondent: {code: 28}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: majority
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  in_majority: false
+  joined:
+  - LFPowell

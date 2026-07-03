@@ -1,0 +1,85 @@
+id: 1943-077
+name: POLISH NATIONAL ALLIANCE OF THE UNITED STATES OF NORTH AMERICA v. NATIONAL LABOR RELATIONS BOARD
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '226'
+citation:
+  us: 322 U.S. 643
+  sct: 64 S. Ct. 1196
+  led: 88 L. Ed. 1509
+  lexis: 1944 U.S. LEXIS 1284
+dates:
+  argued: '1944-01-11'
+  decided: '1944-06-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 70070, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 27}
+  source: {code: 27}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 382}
+admin_action: {agency: 82}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  participated: false
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: FMurphy
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

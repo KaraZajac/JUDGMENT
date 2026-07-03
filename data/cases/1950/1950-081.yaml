@@ -1,0 +1,85 @@
+id: 1950-081
+name: TENNEY ET AL. v. BRANDHOVE
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '338'
+citation:
+  us: 341 U.S. 367
+  sct: 71 S. Ct. 783
+  led: 95 L. Ed. 2d 1019
+  lexis: 1951 U.S. LEXIS 1836
+dates:
+  argued: '1951-03-01'
+  decided: '1951-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 20400, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 8 U.S.C. § 43
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 50, state: 6}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 17}
+  petitioner_state: {code: 6}
+  respondent: {code: 254}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

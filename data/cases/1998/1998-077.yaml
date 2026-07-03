@@ -1,0 +1,85 @@
+id: 1998-077
+name: GRUPO MEXICANO DE DESARROLLO, S. A., et al. v. ALLIANCE BOND FUND, INC., et al.
+term: 1998
+chief: Rehnquist
+natural_court: 1607
+docket: 98-231
+citation:
+  us: 527 U.S. 308
+  sct: 119 S. Ct. 1961
+  led: 144 L. Ed. 2d 319
+  lexis: 1999 U.S. LEXIS 4189
+dates:
+  argued: '1999-03-31'
+  decided: '1999-06-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90320, area: judicial-power}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 135}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg

@@ -1,0 +1,91 @@
+id: 1947-049
+name: UNITED STATES v. LINE MATERIAL CO. ET AL.
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '8'
+citation:
+  us: 333 U.S. 287
+  sct: 68 S. Ct. 550
+  led: 92 L. Ed. 2d 701
+  lexis: 1948 U.S. LEXIS 2732
+dates:
+  argued: '1947-04-29'
+  reargued: '1947-11-12'
+  decided: '1948-03-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 132, state: 58}
+  source: {code: 132, state: 58}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 184}
+opinions:
+  majority_author: SFReed
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HHBurton
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: WBRutledge
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: FMurphy
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: FMVinson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HHBurton

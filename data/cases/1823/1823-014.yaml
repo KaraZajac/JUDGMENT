@@ -1,0 +1,68 @@
+id: 1823-014
+name: THE PITT.  M'NUTT, CLAIMANT
+term: 1823
+chief: Marshall
+natural_court: 406
+citation:
+  us: 21 U.S. 371
+  led: 5 L. Ed. 639
+  lexis: 1823 U.S. LEXIS 285
+dates:
+  argued: '1823-02-26'
+  decided: '1823-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 80230, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Non-Intercourse Act of April 18, 1818,  ch. 65
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 54}
+  source: {code: 407}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: WJohnson
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  participated: false
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true

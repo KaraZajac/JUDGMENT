@@ -1,0 +1,83 @@
+id: 1951-082
+name: PUBLIC UTILITIES COMMISSION OF THE DISTRICT OF COLUMBIA ET AL. v. POLLAK ET AL.
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '224'
+citation:
+  us: 343 U.S. 451
+  sct: 72 S. Ct. 813
+  led: 96 L. Ed. 2d 1068
+  lexis: 1952 U.S. LEXIS 2061
+dates:
+  argued: '1952-03-03'
+  decided: '1952-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 50010, area: privacy}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 32}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 10}
+  respondent: {code: 134}
+admin_action: {agency: 117, state: 10}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  participated: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

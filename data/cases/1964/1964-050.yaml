@@ -1,0 +1,82 @@
+id: 1964-050
+name: HUGHES et al. v. WMCA, INC., et al.
+term: 1964
+chief: Warren
+natural_court: 1408
+docket: '623'
+citation:
+  us: 379 U.S. 694
+  sct: 85 S. Ct. 713
+  led: 13 L. Ed. 2d 698
+  lexis: 1965 U.S. LEXIS 1899
+dates:
+  decided: '1965-02-01'
+decision:
+  type: per-curiam-no-argument
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20090, area: civil-rights}
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 37}
+  respondent: {code: 251}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true

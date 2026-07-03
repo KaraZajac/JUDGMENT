@@ -1,0 +1,83 @@
+id: 1944-009
+name: WALLACE CORPORATION v. NATIONAL LABOR RELATIONS BOARD
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '66'
+citation:
+  us: 323 U.S. 248
+  sct: 65 S. Ct. 238
+  led: 89 L. Ed. 216
+  lexis: 1944 U.S. LEXIS 1245
+dates:
+  argued: '1944-11-15'
+  decided: '1944-12-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 70030, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 24}
+  source: {code: 24}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 382}
+admin_action: {agency: 82}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

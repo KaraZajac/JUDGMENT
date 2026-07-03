@@ -1,0 +1,81 @@
+id: 1942-028
+name: WILLIAMS et al. v. NORTH CAROLINA
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '29'
+citation:
+  us: 317 U.S. 287
+  sct: 63 S. Ct. 207
+  led: 87 L. Ed. 279
+  lexis: 1942 U.S. LEXIS 2
+dates:
+  argued: '1942-10-20'
+  decided: '1942-12-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 40060, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 38}
+  source: {code: 300, state: 38}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 38}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

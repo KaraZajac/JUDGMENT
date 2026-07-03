@@ -1,0 +1,90 @@
+id: 1969-129
+name: UNITED STATES v. SISSON
+term: 1969
+chief: Burger
+natural_court: 1502
+docket: '305'
+citation:
+  us: 399 U.S. 267
+  sct: 90 S. Ct. 2117
+  led: 26 L. Ed. 2d 608
+  lexis: 1970 U.S. LEXIS 9
+dates:
+  argued: '1970-01-20'
+  decided: '1970-06-29'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 30130, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U.S.C. § 3731
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 80}
+  source: {code: 80}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 142}
+admin_action: {agency: 107}
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+  - WEBurger
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WEBurger
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: HABlackmun
+  participated: false

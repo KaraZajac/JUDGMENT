@@ -1,0 +1,82 @@
+id: 1927-110
+name: SPROUT v. CITY OF SOUTH BEND
+term: 1927
+chief: Taft
+natural_court: 1005
+docket: '208'
+citation:
+  us: 277 U.S. 163
+  sct: 48 S. Ct. 502
+  led: 72 L. Ed. 833
+  lexis: 1928 U.S. LEXIS 682
+dates:
+  decided: '1928-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 18}
+  source: {code: 300, state: 18}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 121}
+  respondent: {code: 3}
+  respondent_state: {code: 18}
+opinions:
+  majority_author: LDBrandeis
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

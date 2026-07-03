@@ -1,0 +1,87 @@
+id: 1959-005
+name: COMMISSIONER OF INTERNAL REVENUE v. ACKER
+term: 1959
+chief: Warren
+natural_court: 1406
+docket: '13'
+citation:
+  us: 361 U.S. 87
+  sct: 80 S. Ct. 144
+  led: 4 L. Ed. 2d 127
+  lexis: 1959 U.S. LEXIS 1891
+dates:
+  argued: '1959-10-19'
+  decided: '1959-11-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 9}
+  source: {code: 26}
+  disposition: affirmed-and-reversed-in-part
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 240}
+admin_action: {agency: 69}
+opinions:
+  majority_author: CEWhittaker
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CEWhittaker
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

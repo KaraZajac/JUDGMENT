@@ -1,0 +1,85 @@
+id: 1952-025
+name: FEDERAL TRADE COMMISSION v. MINNEAPOLIS-HONEYWELL REGULATOR CO.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '11'
+citation:
+  us: 344 U.S. 206
+  sct: 73 S. Ct. 245
+  led: 97 L. Ed. 2d 245
+  lexis: 1952 U.S. LEXIS 2639
+dates:
+  argued: '1952-10-15'
+  decided: '1952-12-22'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90480, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 2101
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 27}
+  source: {code: 27}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 357}
+  respondent: {code: 184}
+admin_action: {agency: 57}
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

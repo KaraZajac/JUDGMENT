@@ -1,0 +1,83 @@
+id: 1922-220
+name: GEORGIA RAILWAY & POWER COMPANY et al. v. RAILROAD COMMISSION OF THE STATE OF GEORGIA et al.
+term: 1922
+chief: Taft
+natural_court: 1004
+docket: '298'
+citation:
+  us: 262 U.S. 625
+  sct: 43 S. Ct. 680
+  led: 67 L. Ed. 1144
+  lexis: 1923 U.S. LEXIS 2672
+dates:
+  argued: '1922-11-29'
+  decided: '1923-06-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80310, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 359
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 60}
+  source: {code: 60}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 148}
+  respondent: {code: 4}
+  respondent_state: {code: 13}
+admin_action: {agency: 117, state: 13}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: LDBrandeis
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  participated: false

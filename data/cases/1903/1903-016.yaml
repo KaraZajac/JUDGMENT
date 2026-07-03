@@ -1,0 +1,84 @@
+id: 1903-016
+name: ATKIN v. KANSAS
+term: 1903
+chief: Fuller
+natural_court: 810
+docket: '30'
+citation:
+  us: 191 U.S. 207
+  sct: 24 S. Ct. 124
+  led: 48 L. Ed. 148
+  lexis: 1903 U.S. LEXIS 1445
+dates:
+  decided: '1903-11-30'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: freedom of contract & 14th  Amendment equal protection
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 20}
+  source: {code: 300, state: 20}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 176}
+  respondent: {code: 28}
+  respondent_state: {code: 20}
+admin_action: {agency: 117, state: 20}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true

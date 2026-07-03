@@ -1,0 +1,87 @@
+id: 1947-084
+name: PRICE v. JOHNSTON, WARDEN
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '111'
+citation:
+  us: 334 U.S. 266
+  sct: 68 S. Ct. 1049
+  led: 92 L. Ed. 2d 1356
+  lexis: 1948 U.S. LEXIS 2141
+dates:
+  argued: '1947-12-16'
+  decided: '1948-05-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 341
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 50, state: 6}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: FMurphy
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter

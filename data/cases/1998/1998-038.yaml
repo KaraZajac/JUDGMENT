@@ -1,0 +1,91 @@
+id: 1998-038
+name: MINNESOTA, et al. v. MILLE LACS BAND OF CHIPPEWA INDIANS et al.
+term: 1998
+chief: Rehnquist
+natural_court: 1607
+docket: 97-1337
+citation:
+  us: 526 U.S. 172
+  sct: 119 S. Ct. 1187
+  led: 143 L. Ed. 2d 270
+  lexis: 1999 U.S. LEXIS 2190
+dates:
+  argued: '1998-12-02'
+  decided: '1999-03-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20150, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 7 Stat. 536
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 83}
+  source: {code: 28}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 28}
+  respondent: {code: 170}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

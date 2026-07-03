@@ -1,0 +1,76 @@
+id: 1945-136
+name: UNITED STATES et al. v. NEW YORK TELEPHONE CO.
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '55'
+citation:
+  us: 326 U.S. 638
+  sct: 66 S. Ct. 393
+  led: 90 L. Ed. 371
+  lexis: 1946 U.S. LEXIS 3163
+dates:
+  argued: '1945-11-13'
+  decided: '1946-01-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 80340, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 326
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 205}
+opinions:
+  majority_author: WBRutledge
+  majority_assigner: FFrankfurter
+votes:
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  participated: false
+- justice: SFReed
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

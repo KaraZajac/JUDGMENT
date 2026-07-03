@@ -1,0 +1,88 @@
+id: 1948-115
+name: WATTS v. INDIANA
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '610'
+citation:
+  us: 338 U.S. 49
+  sct: 69 S. Ct. 1347
+  led: 93 L. Ed. 2d 1801
+  lexis: 1949 U.S. LEXIS 2080
+dates:
+  argued: '1949-04-25'
+  decided: '1949-06-27'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10010, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 18}
+  source: {code: 300, state: 18}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 18}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: RHJackson
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false

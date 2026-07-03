@@ -1,0 +1,81 @@
+id: 1848-023
+name: THE PLANTERS' BANK OF MISSISSIPPI, PLAINTIFFS IN ERROR, v. THOMAS L. SHARP, EDWARD ENGLEHARD, AND HENRY HAMPTON
+  BRIDGES, DEFENDANTS IN ERROR. MATTHIAS W. BALDWIN, GEORGE VAIL, AND GEORGE HUFTY, MERCHANTS AND PERSONS IN TRADE
+  UNDER THEM NAME, S
+term: 1848
+chief: Taney
+natural_court: 508
+citation:
+  us: 47 U.S. 301
+  led: 12 L. Ed. 447
+  lexis: 1848 U.S. LEXIS 318
+dates:
+  argued: '1848-01-31'
+  decided: '1848-03-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 29}
+  source: {code: 300, state: 29}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 138}
+opinions:
+  majority_author: LWoodbury
+  majority_assigner: JMcLean
+votes:
+- justice: RBTaney
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JMcLean
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  participated: false
+- justice: PVDaniel
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LWoodbury
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true

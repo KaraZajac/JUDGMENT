@@ -1,0 +1,84 @@
+id: 1924-208
+name: UNITED STATES et al. v. VILLAGE OF HUBBARD, OHIO
+term: 1924
+chief: Taft
+natural_court: 1004
+docket: '25'
+citation:
+  us: 266 U.S. 474
+  sct: 45 S. Ct. 160
+  led: 69 L. Ed. 389
+  lexis: 1925 U.S. LEXIS 788
+dates:
+  argued: '1924-04-22'
+  reargued: '1924-12-03'
+  decided: '1925-01-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80220, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 103}
+  source: {code: 103}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 3}
+  respondent_state: {code: 41}
+admin_action: {agency: 66}
+opinions:
+  majority_author: LDBrandeis
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: liberal
+  in_majority: true

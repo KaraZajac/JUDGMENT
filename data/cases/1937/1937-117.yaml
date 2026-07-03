@@ -1,0 +1,74 @@
+id: 1937-117
+name: DEITRICK, RECEIVER, et al. v. STANDARD SURETY & CASUALTY CO.
+term: 1937
+chief: Hughes
+natural_court: 1105
+docket: '455'
+citation:
+  us: 303 U.S. 471
+  sct: 58 S. Ct. 696
+  led: 82 L. Ed. 962
+  lexis: 1938 U.S. LEXIS 351
+dates:
+  argued: '1938-03-07'
+  decided: '1938-03-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 140080, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 80}
+  source: {code: 21}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 171}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  in_majority: true
+- justice: PButler
+  vote: majority
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  in_majority: true
+- justice: BNCardozo
+  participated: false
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: SFReed
+  vote: dissent
+  in_majority: false
+  joined:
+  - HLBlack

@@ -1,0 +1,87 @@
+id: 2013-017
+name: AIR WISCONSIN AIRLINES CORP. v. HOEPER
+term: 2013
+chief: Roberts
+natural_court: 1704
+docket: 12-315
+citation:
+  us: 571 U.S. 237
+  sct: 134 S. Ct. 852
+  led: 187 L. Ed. 2d 744
+  lexis: 2014 U.S. LEXIS 798
+dates:
+  argued: '2013-12-09'
+  decided: '2014-01-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30030, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 49-44941
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 7}
+  source: {code: 300, state: 7}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 104}
+  respondent: {code: 145}
+opinions:
+  majority_author: SSotomayor
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia

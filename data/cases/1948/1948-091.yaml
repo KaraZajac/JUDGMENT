@@ -1,0 +1,86 @@
+id: 1948-091
+name: STANDARD OIL COMPANY OF CALIFORNIA ET AL. v. UNITED STATES
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '279'
+citation:
+  us: 337 U.S. 293
+  sct: 69 S. Ct. 1051
+  led: 93 L. Ed. 2d 1371
+  lexis: 1949 U.S. LEXIS 2963
+dates:
+  argued: '1949-03-30'
+  decided: '1949-06-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 310
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 51, state: 6}
+  source: {code: 51, state: 6}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 198}
+  respondent: {code: 27}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson

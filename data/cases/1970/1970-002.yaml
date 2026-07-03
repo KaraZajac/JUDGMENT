@@ -1,0 +1,84 @@
+id: 1970-002
+name: UNITED STATES et al. v. CITY OF CHICAGO et al.
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '386'
+citation:
+  us: 400 U.S. 8
+  sct: 91 S. Ct. 18
+  led: 27 L. Ed. 2d 9
+  lexis: 1970 U.S. LEXIS 95
+dates:
+  decided: '1970-10-19'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 66}
+  disposition: remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 366}
+  respondent: {code: 3}
+  respondent_state: {code: 17}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan2
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true

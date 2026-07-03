@@ -1,0 +1,93 @@
+id: 1942-073
+name: MARTIN v. CITY OF STRUTHERS
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '238'
+citation:
+  us: 319 U.S. 141
+  sct: 63 S. Ct. 862
+  led: 87 L. Ed. 1313
+  lexis: 1943 U.S. LEXIS 1188
+dates:
+  argued: '1943-03-11'
+  decided: '1943-05-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 130}
+  respondent: {code: 3}
+  respondent_state: {code: 41}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - FMurphy
+- justice: FMurphy
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: WBRutledge
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - FMurphy

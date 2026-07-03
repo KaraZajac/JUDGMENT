@@ -1,0 +1,84 @@
+id: 1937-010
+name: NARDONE et al. v. UNITED STATES
+term: 1937
+chief: Hughes
+natural_court: 1104
+docket: '190'
+citation:
+  us: 302 U.S. 379
+  sct: 58 S. Ct. 275
+  led: 82 L. Ed. 314
+  lexis: 1937 U.S. LEXIS 1152
+dates:
+  argued: '1937-11-15'
+  decided: '1937-12-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 326
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - GSutherland
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true

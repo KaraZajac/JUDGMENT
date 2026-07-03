@@ -1,0 +1,86 @@
+id: 1973-062
+name: DAVIS v. ALASKA
+term: 1973
+chief: Burger
+natural_court: 1504
+docket: 72-5794
+citation:
+  us: 415 U.S. 308
+  sct: 94 S. Ct. 1105
+  led: 39 L. Ed. 2d 347
+  lexis: 1974 U.S. LEXIS 104
+dates:
+  argued: '1973-12-12'
+  decided: '1974-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10270, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 213
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 2}
+  source: {code: 300, state: 2}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 2}
+opinions:
+  majority_author: WEBurger
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite

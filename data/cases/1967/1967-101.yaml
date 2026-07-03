@@ -1,0 +1,82 @@
+id: 1967-101
+name: UNITED STATES v. JACKSON et al.
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '85'
+citation:
+  us: 390 U.S. 570
+  sct: 88 S. Ct. 1209
+  led: 20 L. Ed. 2d 138
+  lexis: 1968 U.S. LEXIS 2002
+dates:
+  argued: '1967-12-07'
+  decided: '1968-04-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10130, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U.S.C. § 1201
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 53}
+  source: {code: 53}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: PStewart
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

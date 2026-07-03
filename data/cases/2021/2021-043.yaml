@@ -1,0 +1,87 @@
+id: 2021-043
+name: YSLETA DEL SUR PUEBLO v. TEXAS
+term: 2021
+chief: Roberts
+natural_court: 1709
+docket: 20-493
+citation:
+  lexis: 2022 U.S. LEXIS 2941
+dates:
+  argued: '2022-02-22'
+  decided: '2022-06-15'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20160, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Ysleta del Sur and Alabama and Coushatta Indian Tribes of Texas Restoration Act. 101 Stat. 666
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 122}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 170}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: NMGorsuch
+  majority_assigner: SGBreyer
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: ACBarrett
+  vote: majority
+  direction: liberal
+  in_majority: true

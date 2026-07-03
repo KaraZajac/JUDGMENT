@@ -1,0 +1,86 @@
+id: 1952-100
+name: UNITED STATES v. NUGENT
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '540'
+citation:
+  us: 346 U.S. 1
+  sct: 73 S. Ct. 991
+  led: 97 L. Ed. 2d 1417
+  lexis: 1953 U.S. LEXIS 2000
+dates:
+  argued: '1953-05-01'
+  decided: '1953-06-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 30130, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 366
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 96, state: 37}
+  source: {code: 22}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 142}
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+  - FFrankfurter
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

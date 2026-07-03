@@ -1,0 +1,86 @@
+id: 1963-041
+name: THOMPSON v. IMMIGRATION AND NATURALIZATION SERVICE
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '496'
+citation:
+  us: 375 U.S. 384
+  sct: 84 S. Ct. 397
+  led: 11 L. Ed. 2d 404
+  lexis: 1964 U.S. LEXIS 2033
+dates:
+  decided: '1964-01-06'
+decision:
+  type: per-curiam-no-argument
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10350, area: criminal-procedure}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 368}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AJGoldberg
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,85 @@
+id: 1975-025
+name: UNITED STATES v. BORNSTEIN et al.
+term: 1975
+chief: Burger
+natural_court: 1506
+docket: 74-712
+citation:
+  us: 423 U.S. 303
+  sct: 96 S. Ct. 523
+  led: 46 L. Ed. 2d 514
+  lexis: 1976 U.S. LEXIS 96
+dates:
+  argued: '1975-10-08'
+  decided: '1976-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80140, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 31 U.S.C. § 231
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 92}
+  source: {code: 23}
+  disposition: affirmed-and-reversed-in-part
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 176}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: WEBurger
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JPStevens
+  participated: false

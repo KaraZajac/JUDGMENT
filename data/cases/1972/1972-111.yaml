@@ -1,0 +1,90 @@
+id: 1972-111
+name: CITY OF BURBANK et al. v. LOCKHEED AIR TERMINAL, INC., et al.
+term: 1972
+chief: Burger
+natural_court: 1504
+docket: 71-1637
+citation:
+  us: 411 U.S. 624
+  sct: 93 S. Ct. 1854
+  led: 36 L. Ed. 2d 547
+  lexis: 1973 U.S. LEXIS 123
+dates:
+  argued: '1973-02-20'
+  decided: '1973-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100030, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 86 Stat. 1234
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 6}
+  respondent: {code: 195}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: TMarshall
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

@@ -1,0 +1,91 @@
+id: 1974-051
+name: WOOD et al. v. STRICKLAND et al.
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-1285
+citation:
+  us: 420 U.S. 308
+  sct: 95 S. Ct. 992
+  led: 43 L. Ed. 2d 214
+  lexis: 1975 U.S. LEXIS 37
+dates:
+  argued: '1974-10-16'
+  decided: '1975-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20400, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 314
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 47}
+  source: {code: 28}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 21}
+  petitioner_state: {code: 5}
+  respondent: {code: 239}
+admin_action: {agency: 117, state: 5}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell

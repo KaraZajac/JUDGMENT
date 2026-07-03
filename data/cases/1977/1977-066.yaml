@@ -1,0 +1,88 @@
+id: 1977-066
+name: NIXON v. WARNER COMMUNICATIONS, INC., et al.
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 76-944
+citation:
+  us: 435 U.S. 589
+  sct: 98 S. Ct. 1306
+  led: 55 L. Ed. 2d 570
+  lexis: 1978 U.S. LEXIS 80
+dates:
+  argued: '1977-11-08'
+  decided: '1978-04-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 50010, area: privacy}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 44 U.S.C. § 2107
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 191}
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

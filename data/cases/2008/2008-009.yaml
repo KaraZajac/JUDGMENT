@@ -1,0 +1,90 @@
+id: 2008-009
+name: BENNIE DEAN HERRING v. UNITED STATES
+term: 2008
+chief: Roberts
+natural_court: 1702
+docket: 07-513
+citation:
+  us: 555 U.S. 135
+  sct: 129 S. Ct. 695
+  led: 172 L. Ed. 2d 496
+  lexis: 2009 U.S. LEXIS 581
+dates:
+  argued: '2008-10-07'
+  decided: '2009-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: other
+  supp: 502
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 41}
+  source: {code: 31}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+  - SGBreyer
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true

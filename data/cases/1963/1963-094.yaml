@@ -1,0 +1,87 @@
+id: 1963-094
+name: UNITED STATES v. FIRST NATIONAL BANK & TRUST CO. OF LEXINGTON et al.
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '36'
+citation:
+  us: 376 U.S. 665
+  sct: 84 S. Ct. 1033
+  led: 12 L. Ed. 2d 1
+  lexis: 1964 U.S. LEXIS 2172
+dates:
+  argued: '1964-03-04'
+  decided: '1964-04-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80020, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 73}
+  source: {code: 73}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 113}
+admin_action: {agency: 17}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  direction: liberal
+  in_majority: true

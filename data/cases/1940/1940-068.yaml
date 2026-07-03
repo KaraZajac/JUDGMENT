@@ -1,0 +1,80 @@
+id: 1940-068
+name: UNION PACIFIC RAILROAD CO. et al. v. UNITED STATES et al.
+term: 1940
+chief: Hughes
+natural_court: 1108
+docket: '594'
+citation:
+  us: 313 U.S. 450
+  sct: 61 S. Ct. 1064
+  led: 85 L. Ed. 1453
+  lexis: 1941 U.S. LEXIS 1123
+dates:
+  argued: '1941-04-09'
+  decided: '1941-06-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80220, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 87}
+  source: {code: 87}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 27}
+admin_action: {agency: 66}
+opinions:
+  majority_author: SFReed
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: FMurphy
+  participated: false

@@ -1,0 +1,66 @@
+id: 1795-003
+name: BINGHAM, PLAINTIFF IN ERR. VERSUS CABBOT et al.
+term: 1795
+chief: Jay
+natural_court: 104
+citation:
+  us: 3 U.S. 19
+  led: 1 L. Ed. 491
+  lexis: 1795 U.S. LEXIS 327
+dates:
+  argued: '1795-02-21'
+  decided: '1795-03-02'
+decision:
+  type: seriatim
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 2
+  minority_votes: 2
+issue: {code: 90320, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 600}
+  respondent: {code: 174}
+opinions:
+  majority_assigner: JWilson
+votes:
+- justice: JJay
+  participated: false
+- justice: WCushing
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JIredell
+- justice: JWilson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JBlair
+  participated: false
+- justice: JIredell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WPaterson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

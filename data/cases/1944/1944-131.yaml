@@ -1,0 +1,81 @@
+id: 1944-131
+name: HARTFORD-EMPIRE CO. et al. v. UNITED STATES
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '2'
+citation:
+  us: 323 U.S. 386
+  sct: 65 S. Ct. 373
+  led: 89 L. Ed. 322
+  lexis: 1945 U.S. LEXIS 2728
+dates:
+  argued: '1943-11-15'
+  reargued: '1944-10-09'
+  decided: '1945-01-08'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 103}
+  source: {code: 103}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 27}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: FMurphy
+  participated: false
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack

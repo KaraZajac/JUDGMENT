@@ -1,0 +1,82 @@
+id: 1960-063
+name: NEWSOM v. SMYTH, SUPERINTENDENT, VIRGINIA STATE PENITENTIARY
+term: 1960
+chief: Warren
+natural_court: 1406
+docket: '116'
+citation:
+  us: 365 U.S. 604
+  sct: 81 S. Ct. 774
+  led: 5 L. Ed. 2d 803
+  lexis: 1961 U.S. LEXIS 1445
+dates:
+  argued: '1961-01-16'
+  decided: '1961-03-27'
+decision:
+  type: per-curiam-argued
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90160, area: judicial-power}
+law:
+  type: other
+  supp: 508
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 55}
+  source: {code: 300, state: 55}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 213}
+  respondent: {code: 28}
+  respondent_state: {code: 55}
+opinions:
+  majority_assigner: FFrankfurter
+votes:
+- justice: EWarren
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: HLBlack
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true

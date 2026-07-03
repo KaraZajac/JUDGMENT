@@ -1,0 +1,78 @@
+id: 1919-168
+name: 'THE MAIL DIVISOR CASES: NORTHERN PACIFIC RAILWAY COMPANY v. UNITED STATES'
+term: 1919
+chief: White
+natural_court: 905
+docket: '109'
+citation:
+  us: 251 U.S. 326
+  sct: 40 S. Ct. 162
+  led: 64 L. Ed. 290
+  lexis: 1920 U.S. LEXIS 1710
+dates:
+  argued: '1919-12-17'
+  decided: '1920-01-12'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 90120, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 27}
+admin_action: {agency: 112}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MPitney
+- justice: OWHolmes
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: WVanDevanter
+  participated: false
+- justice: MPitney
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JCMcReynolds
+  participated: false
+- justice: LDBrandeis
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true

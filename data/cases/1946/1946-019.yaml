@@ -1,0 +1,84 @@
+id: 1946-019
+name: ROTHENSIES, COLLECTOR OF INTERNAL REVENUE, v. ELECTRIC STORAGE BATTERY CO.
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '48'
+citation:
+  us: 329 U.S. 296
+  sct: 67 S. Ct. 271
+  led: 91 L. Ed. 296
+  lexis: 1946 U.S. LEXIS 3145
+dates:
+  argued: '1946-11-15'
+  decided: '1946-12-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 120010, area: federal-taxation}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 109, state: 45}
+  source: {code: 23}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 240}
+admin_action: {agency: 69}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: WBRutledge
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

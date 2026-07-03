@@ -1,0 +1,88 @@
+id: 2010-073
+name: MICHAEL D. TURNER, PETITIONER v. REBECCA L. ROGERS et al.
+term: 2010
+chief: Roberts
+natural_court: 1704
+docket: 10-10
+citation:
+  us: 564 U.S. 431
+  sct: 131 S. Ct. 2507
+  led: 180 L. Ed. 2d 452
+  lexis: 2011 U.S. LEXIS 4566
+dates:
+  argued: '2011-03-23'
+  decided: '2011-06-20'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10080, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 302, state: 48}
+  source: {code: 300, state: 48}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 153}
+  respondent: {code: 188}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: AMKennedy
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+  joined:
+  - AMKennedy
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

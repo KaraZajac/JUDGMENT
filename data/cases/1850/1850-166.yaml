@@ -1,0 +1,87 @@
+id: 1850-166
+name: JAMES TRIGG, RICHARD PRYOR, AND JOHN W. PAUP, PLAINTIFFS IN ERROR, v. THOMAS S. DREW, AS GOVERNOR OF THE STATE
+  OF ARKANSAS, AND SUCCESSOR OF ARCHIBALD YELL, DECEASED
+term: 1850
+chief: Taney
+natural_court: 508
+citation:
+  us: 51 U.S. 224
+  led: 13 L. Ed. 397
+  lexis: 1850 U.S. LEXIS -99
+dates:
+  argued: '1851-01-24'
+  decided: '1851-02-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 5}
+  source: {code: 300, state: 5}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 123}
+  respondent: {code: 7}
+  respondent_state: {code: 5}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - PVDaniel
+- justice: JMcKinley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LWoodbury
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SNelson

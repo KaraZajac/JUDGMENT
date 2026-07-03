@@ -1,0 +1,83 @@
+id: 1906-049
+name: NEW JERSEY v. ANDERSON
+term: 1906
+chief: Fuller
+natural_court: 810
+docket: '49'
+citation:
+  us: 203 U.S. 483
+  sct: 27 S. Ct. 137
+  led: 51 L. Ed. 284
+  lexis: 1906 U.S. LEXIS 1612
+dates:
+  argued: '1906-10-19'
+  decided: '1906-12-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: modified
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 35}
+  respondent: {code: 114}
+opinions:
+  majority_author: WRDay
+  majority_assigner: DJBrewer
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHarlan1
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHarlan1
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

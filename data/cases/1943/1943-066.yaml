@@ -1,0 +1,92 @@
+id: 1943-066
+name: NORTHWEST AIRLINES, INC. v. MINNESOTA
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '33'
+citation:
+  us: 322 U.S. 292
+  sct: 64 S. Ct. 950
+  led: 88 L. Ed. 1283
+  lexis: 1944 U.S. LEXIS 1234
+dates:
+  argued: '1943-10-19'
+  decided: '1944-05-15'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 28}
+  source: {code: 300, state: 28}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 28}
+  respondent: {code: 28}
+  respondent_state: {code: 28}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone

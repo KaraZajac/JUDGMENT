@@ -1,0 +1,79 @@
+id: 1887-048
+name: in re AYERS
+term: 1887
+chief: Waite
+natural_court: 706
+citation:
+  us: 123 U.S. 443
+  sct: 8 S. Ct. 164
+  led: 31 L. Ed. 216
+  lexis: 1887 U.S. LEXIS 2187
+dates:
+  argued: '1887-11-14'
+  decided: '1887-12-05'
+decision:
+  type: opinion-of-the-court
+  disposition: granted
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 90520, area: judicial-power}
+law:
+  type: constitutional-amendment
+  supp: 224
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 14}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 436}
+  source: {code: 436}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: SMatthews
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SMatthews
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

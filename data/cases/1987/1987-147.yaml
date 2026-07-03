@@ -1,0 +1,88 @@
+id: 1987-147
+name: PIERCE, SECRETARY OF HOUSING AND URBAN DEVELOPMENT v. UNDERWOOD et al.
+term: 1987
+chief: Rehnquist
+natural_court: 1603
+docket: 86-1512
+citation:
+  us: 487 U.S. 552
+  sct: 108 S. Ct. 2541
+  led: 101 L. Ed. 2d 490
+  lexis: 1988 U.S. LEXIS 2882
+dates:
+  argued: '1987-12-01'
+  decided: '1988-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 60010, area: attorneys}
+law:
+  type: federal-statute
+  supp: 321
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: affirmed-and-reversed-in-part
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 364}
+  respondent: {code: 241}
+admin_action: {agency: 64}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  participated: false

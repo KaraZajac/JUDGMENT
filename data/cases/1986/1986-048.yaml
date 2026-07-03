@@ -1,0 +1,90 @@
+id: 1986-048
+name: ILLINOIS v. KRULL et al.
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-608
+citation:
+  us: 480 U.S. 340
+  sct: 107 S. Ct. 1160
+  led: 94 L. Ed. 2d 364
+  lexis: 1987 U.S. LEXIS 1061
+dates:
+  argued: '1986-11-05'
+  decided: '1987-03-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: other
+  supp: 502
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 17}
+  respondent: {code: 100}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true

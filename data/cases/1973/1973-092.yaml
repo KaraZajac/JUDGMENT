@@ -1,0 +1,89 @@
+id: 1973-092
+name: DEFUNIS et al. v. ODEGAARD et al.
+term: 1973
+chief: Burger
+natural_court: 1504
+docket: 73-235
+citation:
+  us: 416 U.S. 312
+  sct: 94 S. Ct. 1704
+  led: 40 L. Ed. 2d 164
+  lexis: 1974 U.S. LEXIS 128
+dates:
+  argued: '1974-02-26'
+  decided: '1974-04-23'
+decision:
+  type: per-curiam-argued
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20070, area: civil-rights}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 239}
+  respondent: {code: 26}
+  respondent_state: {code: 56}
+admin_action: {agency: 117, state: 56}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,88 @@
+id: 2008-039
+name: EDWARD JEROME HARBISON v. RICKY BELL, WARDEN
+term: 2008
+chief: Roberts
+natural_court: 1702
+docket: 07-8521
+citation:
+  us: 556 U.S. 180
+  sct: 129 S. Ct. 1481
+  led: 173 L. Ed. 2d 347
+  lexis: 2009 U.S. LEXIS 2496
+dates:
+  argued: '2009-01-12'
+  decided: '2009-04-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100030, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18-3599
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 116}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 50}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia

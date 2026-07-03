@@ -1,0 +1,74 @@
+id: 1975-121
+name: NEW HAMPSHIRE v. MAINE
+term: 1975
+chief: Burger
+natural_court: 1506
+docket: 64 ORIG
+citation:
+  us: 426 U.S. 363
+  sct: 96 S. Ct. 2113
+  led: 48 L. Ed. 2d 701
+  lexis: 1976 U.S. LEXIS 60
+dates:
+  argued: '1976-04-19'
+  decided: '1976-06-14'
+decision:
+  type: opinion-of-the-court
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 110010, area: interstate-relations}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 34}
+  respondent: {code: 28}
+  respondent_state: {code: 23}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: LFPowell
+  vote: majority
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  in_majority: false
+  joined:
+  - BRWhite

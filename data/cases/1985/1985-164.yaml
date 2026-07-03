@@ -1,0 +1,89 @@
+id: 1985-164
+name: MERRELL DOW PHARMACEUTICALS INC. v. THOMPSON et al., AS NEXT FRIENDS AND GUARDIANS OF THOMPSON et al.
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 85-619
+citation:
+  us: 478 U.S. 804
+  sct: 106 S. Ct. 3229
+  led: 92 L. Ed. 2d 650
+  lexis: 1986 U.S. LEXIS 143
+dates:
+  argued: '1986-04-28'
+  decided: '1986-07-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90400, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 1331
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 104}
+  source: {code: 26}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 143}
+  respondent: {code: 208}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,89 @@
+id: 1984-065
+name: TENNESSEE v. GARNER et al.
+term: 1984
+chief: Burger
+natural_court: 1507
+docket: 83-1035
+citation:
+  us: 471 U.S. 1
+  sct: 105 S. Ct. 1694
+  led: 85 L. Ed. 2d 1
+  lexis: 1985 U.S. LEXIS 195
+dates:
+  argued: '1984-10-30'
+  decided: '1985-03-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 118}
+  source: {code: 26}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 50}
+  respondent: {code: 100}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

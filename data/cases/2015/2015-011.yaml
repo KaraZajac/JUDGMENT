@@ -1,0 +1,80 @@
+id: 2015-011
+name: FOSTER v. CHATMAN
+term: 2015
+chief: Roberts
+natural_court: 1705
+docket: 14-8349
+citation:
+  us: 578 U.S. 488
+  sct: 136 S. Ct. 1737
+  led: 195 L. Ed. 2d 1
+  lexis: 2016 U.S. LEXIS 3486
+dates:
+  argued: '2015-11-02'
+  decided: '2016-05-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 10250, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 13}
+  source: {code: 300, state: 13}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 19}
+  respondent_state: {code: 13}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

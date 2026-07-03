@@ -1,0 +1,93 @@
+id: 1995-095
+name: UNITED STATES v. WINSTAR CORPORATION, et al.
+term: 1995
+chief: Rehnquist
+natural_court: 1607
+docket: 95-865
+citation:
+  us: 518 U.S. 839
+  sct: 116 S. Ct. 2432
+  led: 135 L. Ed. 2d 964
+  lexis: 1996 U.S. LEXIS 4266
+dates:
+  argued: '1996-04-24'
+  decided: '1996-07-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 12 U.S.C. § 1464
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 3}
+  source: {code: 8}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 113}
+admin_action: {agency: 46}
+opinions:
+  majority_author: DHSouter
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AScalia
+- justice: DHSouter
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

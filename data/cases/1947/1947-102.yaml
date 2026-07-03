@@ -1,0 +1,88 @@
+id: 1947-102
+name: CENTRAL GREYHOUND LINES, INC. v. MEALEY et al.
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '14'
+citation:
+  us: 334 U.S. 653
+  sct: 68 S. Ct. 1260
+  led: 92 L. Ed. 2d 1633
+  lexis: 1948 U.S. LEXIS 1984
+dates:
+  argued: '1947-10-13'
+  decided: '1948-06-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 301, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 121}
+  respondent: {code: 4}
+  respondent_state: {code: 37}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: WBRutledge
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,75 @@
+id: 1939-048
+name: INLAND WATERWAYS CORP. et al. v. YOUNG, RECEIVER
+term: 1939
+chief: Hughes
+natural_court: 1108
+docket: '6'
+citation:
+  us: 309 U.S. 517
+  sct: 60 S. Ct. 646
+  led: 84 L. Ed. 901
+  lexis: 1940 U.S. LEXIS 1055
+dates:
+  argued: '1939-10-11'
+  decided: '1940-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 140080, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 114}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HFStone
+votes:
+- justice: CEHughes2
+  vote: dissent
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: JCMcReynolds
+  vote: dissent
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: HFStone
+  vote: majority
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  in_majority: true
+- justice: SFReed
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  in_majority: true
+- justice: FMurphy
+  participated: false

@@ -1,0 +1,86 @@
+id: 1970-031
+name: PICCIRILLO v. NEW YORK
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '97'
+citation:
+  us: 400 U.S. 548
+  sct: 91 S. Ct. 520
+  led: 27 L. Ed. 2d 596
+  lexis: 1971 U.S. LEXIS 141
+dates:
+  argued: '1970-11-09'
+  decided: '1971-01-25'
+decision:
+  type: per-curiam-argued
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10110, area: criminal-procedure}
+law:
+  type: other
+  supp: 508
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 37}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true

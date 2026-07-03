@@ -1,0 +1,86 @@
+id: 2001-004
+name: CORRECTIONAL SERVICES CORPORATION v. JOHN E. MALESKO
+term: 2001
+chief: Rehnquist
+natural_court: 1607
+docket: 00-860
+citation:
+  us: 534 U.S. 61
+  sct: 122 S. Ct. 515
+  led: 151 L. Ed. 2d 456
+  lexis: 2001 U.S. LEXIS 10812
+dates:
+  argued: '2001-10-01'
+  decided: '2001-11-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20400, area: civil-rights}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 176}
+  respondent: {code: 215}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens

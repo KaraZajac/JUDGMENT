@@ -1,0 +1,82 @@
+id: 1898-032
+name: WINSTON v. UNITED STATES.
+term: 1898
+chief: Fuller
+natural_court: 808
+docket: '431'
+citation:
+  us: 172 U.S. 303
+  sct: 19 S. Ct. 212
+  led: 43 L. Ed. 456
+  lexis: 1899 U.S. LEXIS 1372
+dates:
+  argued: '1898-11-28'
+  decided: '1899-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10220, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 1/15/97, chap 29
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 19}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: HGray
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: conservative
+  in_majority: false

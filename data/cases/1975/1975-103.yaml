@@ -1,0 +1,84 @@
+id: 1975-103
+name: BROWN v. GENERAL SERVICES ADMINISTRATION et al.
+term: 1975
+chief: Burger
+natural_court: 1506
+docket: 74-768
+citation:
+  us: 425 U.S. 820
+  sct: 96 S. Ct. 1961
+  led: 48 L. Ed. 2d 402
+  lexis: 1976 U.S. LEXIS 101
+dates:
+  argued: '1976-03-01'
+  decided: '1976-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 20060, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 384
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 10}
+  petitioner_state: {code: 60}
+  respondent: {code: 361}
+admin_action: {agency: 61}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

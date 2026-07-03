@@ -1,0 +1,90 @@
+id: 1983-016
+name: SILKWOOD, ADMINISTRATOR OF THE ESTATE OF SILKWOOD v. KERR-MCGEE CORP. et al.
+term: 1983
+chief: Burger
+natural_court: 1507
+docket: 81-2159
+citation:
+  us: 464 U.S. 238
+  sct: 104 S. Ct. 615
+  led: 78 L. Ed. 2d 443
+  lexis: 1984 U.S. LEXIS 13
+dates:
+  argued: '1983-10-04'
+  decided: '1984-01-11'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90340, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 1254
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 107}
+  source: {code: 30}
+  disposition: affirmed-and-reversed-in-part
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 194}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

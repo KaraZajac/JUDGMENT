@@ -1,0 +1,82 @@
+id: 1973-066
+name: FEDERAL POWER COMMISSION v. NEW ENGLAND POWER CO. et al.
+term: 1973
+chief: Burger
+natural_court: 1504
+docket: 72-1162
+citation:
+  us: 415 U.S. 345
+  sct: 94 S. Ct. 1151
+  led: 39 L. Ed. 2d 383
+  lexis: 1974 U.S. LEXIS 30
+dates:
+  argued: '1973-12-03'
+  decided: '1974-03-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80270, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 31 U.S.C. § 483
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 352}
+  respondent: {code: 148}
+admin_action: {agency: 52}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  participated: false
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,83 @@
+id: 1890-202
+name: SHELTON v. PLATT
+term: 1890
+chief: Fuller
+natural_court: 803
+docket: '1155'
+citation:
+  us: 139 U.S. 591
+  sct: 11 S. Ct. 646
+  led: 35 L. Ed. 273
+  lexis: 1891 U.S. LEXIS 2411
+dates:
+  argued: '1891-03-13'
+  decided: '1891-04-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 433}
+  source: {code: 433}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 50}
+  respondent: {code: 25}
+  respondent_state: {code: 50}
+admin_action: {agency: 117, state: 50}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true

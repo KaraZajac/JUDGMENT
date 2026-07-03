@@ -1,0 +1,90 @@
+id: 1941-004
+name: BRIDGES v. CALIFORNIA
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '1'
+citation:
+  us: 314 U.S. 252
+  sct: 62 S. Ct. 190
+  led: 86 L. Ed. 192
+  lexis: 1941 U.S. LEXIS 1084
+dates:
+  argued: '1940-10-18'
+  reargued: '1941-10-13'
+  decided: '1941-12-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JFByrnes
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

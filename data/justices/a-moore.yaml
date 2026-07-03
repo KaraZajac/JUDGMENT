@@ -1,0 +1,23 @@
+slug: a-moore
+name: A. Moore
+scdb: {name: AMoore, id: 13}
+record:
+  first_decision: '1800-08-01'
+  last_decision: '1803-03-02'
+  first_term: 1800
+  last_term: 1803
+  terms: 3
+  cases: 29
+  majority_share: 1.0
+  dissents: 0
+  opinions_written: 1
+ideology:
+  career_liberal_share: 0.316
+  by_term:
+    1800: {liberal_share: 0.667, n: 3}
+    1801: {liberal_share: 0.333, n: 3}
+    1803: {liberal_share: 0.231, n: 13}
+  by_issue_area:
+    civil-rights: {liberal_share: 1.0, n: 1}
+    economic-activity: {liberal_share: 0.667, n: 6}
+    judicial-power: {liberal_share: 0.083, n: 12}

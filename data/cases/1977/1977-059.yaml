@@ -1,0 +1,92 @@
+id: 1977-059
+name: CITY OF LAFAYETTE, LOUISIANA, et al. v. LOUISIANA POWER & LIGHT CO.
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 76-864
+citation:
+  us: 435 U.S. 389
+  sct: 98 S. Ct. 1123
+  led: 55 L. Ed. 2d 364
+  lexis: 1978 U.S. LEXIS 19
+dates:
+  argued: '1977-10-04'
+  decided: '1978-03-29'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 75}
+  source: {code: 25}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 22}
+  respondent: {code: 148}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TMarshall
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WEBurger
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

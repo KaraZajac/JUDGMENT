@@ -1,0 +1,80 @@
+id: 1949-019
+name: UNITED STATES v. AETNA CASUALTY & SURETY CO.
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '35'
+citation:
+  us: 338 U.S. 366
+  sct: 70 S. Ct. 207
+  led: 94 L. Ed. 2d 171
+  lexis: 1949 U.S. LEXIS 2919
+dates:
+  argued: '1949-10-19'
+  decided: '1949-12-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80060, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 374
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 94, state: 37}
+  source: {code: 22}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 171}
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FMVinson
+votes:
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true

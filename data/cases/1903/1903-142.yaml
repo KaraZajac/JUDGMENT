@@ -1,0 +1,86 @@
+id: 1903-142
+name: SMITH v. PAYNE
+term: 1903
+chief: Fuller
+natural_court: 810
+docket: '481'
+citation:
+  us: 194 U.S. 104
+  sct: 24 S. Ct. 595
+  led: 48 L. Ed. 893
+  lexis: 1904 U.S. LEXIS 876
+dates:
+  argued: '1903-10-04'
+  decided: '1904-04-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80350, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 32}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 220}
+  respondent: {code: 412}
+admin_action: {agency: 112}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: DJBrewer
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true

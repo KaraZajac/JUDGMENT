@@ -1,0 +1,85 @@
+id: 1970-088
+name: UNITED STATES v. VUITCH
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '84'
+citation:
+  us: 402 U.S. 62
+  sct: 91 S. Ct. 1294
+  led: 28 L. Ed. 2d 601
+  lexis: 1971 U.S. LEXIS 50
+dates:
+  argued: '1971-01-12'
+  decided: '1971-04-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 50020, area: privacy}
+law:
+  type: constitutional-amendment
+  supp: 207
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 206}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: HABlackmun
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - JHarlan2

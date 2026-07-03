@@ -1,0 +1,95 @@
+id: 1948-118
+name: LUSTIG v. UNITED STATES
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '1389'
+citation:
+  us: 338 U.S. 74
+  sct: 69 S. Ct. 1372
+  led: 93 L. Ed. 2d 1819
+  lexis: 1949 U.S. LEXIS 2083
+dates:
+  argued: '1948-04-19'
+  reargued: '1948-10-19'
+  decided: '1949-06-27'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: other
+  supp: 502
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 92, state: 35}
+  source: {code: 23}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 27}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: WODouglas
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - FMurphy
+- justice: FFrankfurter
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - FMurphy
+- justice: FMurphy
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed

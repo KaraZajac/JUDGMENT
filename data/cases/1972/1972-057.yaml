@@ -1,0 +1,84 @@
+id: 1972-057
+name: OTTER TAIL POWER CO. v. UNITED STATES
+term: 1972
+chief: Burger
+natural_court: 1504
+docket: 71-991
+citation:
+  us: 410 U.S. 366
+  sct: 93 S. Ct. 1022
+  led: 35 L. Ed. 2d 359
+  lexis: 1973 U.S. LEXIS 131
+dates:
+  argued: '1972-12-05'
+  decided: '1973-02-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 336
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 83}
+  source: {code: 83}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 148}
+  respondent: {code: 27}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: WODouglas
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: HABlackmun
+  participated: false
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart

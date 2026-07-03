@@ -1,0 +1,88 @@
+id: 1948-011
+name: UPSHAW v. UNITED STATES
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '98'
+citation:
+  us: 335 U.S. 410
+  sct: 69 S. Ct. 170
+  led: 93 L. Ed. 2d 100
+  lexis: 1948 U.S. LEXIS 2794
+dates:
+  argued: '1948-11-12'
+  decided: '1948-12-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10010, area: criminal-procedure}
+law:
+  type: court-rules
+  supp: 401
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 27}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed

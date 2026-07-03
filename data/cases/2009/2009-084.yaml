@@ -1,0 +1,94 @@
+id: 2009-084
+name: BILLY JOE MAGWOOD v. TONY PATTERSON, WARDEN, et al.
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 09-158
+citation:
+  us: 561 U.S. 320
+  sct: 130 S. Ct. 2788
+  led: 177 L. Ed. 2d 592
+  lexis: 2010 U.S. LEXIS 5258
+dates:
+  argued: '2010-03-24'
+  decided: '2010-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 341
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 41}
+  source: {code: 31}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 1}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JPStevens
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: JPStevens
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: SSotomayor
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SGBreyer

@@ -1,0 +1,85 @@
+id: 1953-082
+name: SECRETARY OF AGRICULTURE v. UNITED STATES et al.
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '480'
+citation:
+  us: 347 U.S. 645
+  sct: 74 S. Ct. 826
+  led: 98 L. Ed. 2d 1015
+  lexis: 1954 U.S. LEXIS 2632
+dates:
+  argued: '1954-04-27'
+  decided: '1954-06-07'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80220, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 58}
+  source: {code: 58}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 304}
+  respondent: {code: 366}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: SFReed
+votes:
+- justice: HLBlack
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: EWarren
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false

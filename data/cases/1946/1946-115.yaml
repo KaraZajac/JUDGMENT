@@ -1,0 +1,80 @@
+id: 1946-115
+name: ORDER OF UNITED COMMERCIAL TRAVELERS OF AMERICA v. WOLFE
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '32'
+citation:
+  us: 331 U.S. 586
+  sct: 67 S. Ct. 1355
+  led: 91 L. Ed. 1687
+  lexis: 1947 U.S. LEXIS 2161
+dates:
+  argued: '1946-02-28'
+  reargued: '1946-11-12'
+  decided: '1947-06-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 110030, area: interstate-relations}
+law:
+  type: constitution
+  supp: 143
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 302, state: 49}
+  source: {code: 300, state: 49}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: true
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 166}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: HFStone
+votes:
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FFrankfurter
+  vote: majority
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: WBRutledge
+  vote: dissent
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FMurphy
+  vote: dissent
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FMVinson
+  vote: majority
+  in_majority: true

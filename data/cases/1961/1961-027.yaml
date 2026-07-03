@@ -1,0 +1,82 @@
+id: 1961-027
+name: BLAU v. LEHMAN et al.
+term: 1961
+chief: Warren
+natural_court: 1406
+docket: '66'
+citation:
+  us: 368 U.S. 403
+  sct: 82 S. Ct. 451
+  led: 7 L. Ed. 2d 403
+  lexis: 1962 U.S. LEXIS 2166
+dates:
+  argued: '1961-12-12'
+  decided: '1962-01-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80120, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 365
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 119}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  participated: false
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true

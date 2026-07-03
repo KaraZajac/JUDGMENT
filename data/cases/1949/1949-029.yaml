@@ -1,0 +1,81 @@
+id: 1949-029
+name: FEDERAL POWER COMMISSION v. EAST OHIO GAS CO. ET AL.
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '71'
+citation:
+  us: 338 U.S. 464
+  sct: 70 S. Ct. 266
+  led: 94 L. Ed. 2d 268
+  lexis: 1950 U.S. LEXIS 2482
+dates:
+  argued: '1949-11-10'
+  decided: '1950-01-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 80300, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 355
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 352}
+  respondent: {code: 148}
+admin_action: {agency: 52}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  participated: false
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,92 @@
+id: 1989-016
+name: FW/PBS, INC., DBA PARIS ADULT BOOKSTORE II, et al. v. CITY OF DALLAS et al.
+term: 1989
+chief: Rehnquist
+natural_court: 1603
+docket: 87-2012
+citation:
+  us: 493 U.S. 215
+  sct: 110 S. Ct. 596
+  led: 107 L. Ed. 2d 603
+  lexis: 1990 U.S. LEXIS 334
+dates:
+  argued: '1989-10-04'
+  decided: '1990-01-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 120}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 117}
+  respondent: {code: 3}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,79 @@
+id: 1969-016
+name: ZUBER et al. v. ALLEN et al.
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '25'
+citation:
+  us: 396 U.S. 168
+  sct: 90 S. Ct. 314
+  led: 24 L. Ed. 2d 345
+  lexis: 1969 U.S. LEXIS 85
+dates:
+  argued: '1969-10-16'
+  decided: '1969-12-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 80350, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 7 U.S.C. § 601
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 152}
+  respondent: {code: 152}
+admin_action: {agency: 4}
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: WODouglas
+votes:
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WEBurger
+  participated: false

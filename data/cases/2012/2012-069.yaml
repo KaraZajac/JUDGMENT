@@ -1,0 +1,86 @@
+id: 2012-069
+name: MUTUAL PHARMACEUTICAL COMPANY, INC., PETITIONER v. KAREN L. BARTLETT
+term: 2012
+chief: Roberts
+natural_court: 1704
+docket: 12-142
+citation:
+  us: 570 U.S. 472
+  sct: 133 S. Ct. 2466
+  led: 186 L. Ed. 2d 607
+  lexis: 2013 U.S. LEXIS 4702
+dates:
+  argued: '2013-03-19'
+  decided: '2013-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100030, area: federalism}
+law:
+  type: federal-statute
+  supp: 332
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 91}
+  source: {code: 21}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 143}
+  respondent: {code: 204}
+opinions:
+  majority_author: SAAlito
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SAAlito
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SGBreyer

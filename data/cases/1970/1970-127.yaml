@@ -1,0 +1,82 @@
+id: 1970-127
+name: UNITED STATES et al. v. MITCHELL et al.
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '798'
+citation:
+  us: 403 U.S. 190
+  sct: 91 S. Ct. 1763
+  led: 29 L. Ed. 2d 406
+  lexis: 1971 U.S. LEXIS 145
+dates:
+  argued: '1971-04-20'
+  decided: '1971-06-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 9}
+  source: {code: 25}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 253}
+admin_action: {agency: 69}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

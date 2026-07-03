@@ -1,0 +1,84 @@
+id: 2015-039
+name: UTAH v. STRIEFF
+term: 2015
+chief: Roberts
+natural_court: 1705
+docket: 14-1373
+citation:
+  us: 579 U.S. 232
+  sct: 136 S. Ct. 2056
+  led: 195 L. Ed. 2d 400
+  lexis: 2016 U.S. LEXIS 3926
+dates:
+  argued: '2016-02-22'
+  decided: '2016-06-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-and-state-confusion
+lower_court:
+  origin: {code: 301, state: 52}
+  source: {code: 300, state: 52}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 52}
+  respondent: {code: 100}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor
+  - EKagan
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

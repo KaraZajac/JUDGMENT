@@ -1,0 +1,89 @@
+id: 1967-147
+name: WITHERSPOON v. ILLINOIS et al.
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '1015'
+citation:
+  us: 391 U.S. 510
+  sct: 88 S. Ct. 1770
+  led: 20 L. Ed. 2d 776
+  lexis: 1968 U.S. LEXIS 1469
+dates:
+  argued: '1968-04-24'
+  decided: '1968-06-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10250, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 217
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 17}
+opinions:
+  majority_author: PStewart
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,92 @@
+id: 1966-022
+name: FORTSON, SECRETARY OF STATE OF GEORGIA v. MORRIS et al.
+term: 1966
+chief: Warren
+natural_court: 1409
+docket: '800'
+citation:
+  us: 385 U.S. 231
+  sct: 87 S. Ct. 446
+  led: 17 L. Ed. 2d 330
+  lexis: 1966 U.S. LEXIS 5
+dates:
+  argued: '1966-12-05'
+  decided: '1966-12-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20090, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 60}
+  source: {code: 60}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 13}
+  respondent: {code: 251}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - AFortas
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+  - AFortas
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AFortas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack

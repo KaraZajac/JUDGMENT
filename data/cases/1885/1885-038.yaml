@@ -1,0 +1,82 @@
+id: 1885-038
+name: THOMPSON v. ALLEN COUNTY & OTHERS
+term: 1885
+chief: Waite
+natural_court: 706
+docket: '60'
+citation:
+  us: 115 U.S. 550
+  sct: 6 S. Ct. 140
+  led: 29 L. Ed. 472
+  lexis: 1885 U.S. LEXIS 1867
+dates:
+  argued: '1885-11-12'
+  decided: '1885-11-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 90330, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 414}
+  source: {code: 414}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 5}
+  respondent_state: {code: 21}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WBWoods
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

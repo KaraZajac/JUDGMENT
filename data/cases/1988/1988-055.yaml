@@ -1,0 +1,88 @@
+id: 1988-055
+name: NATIONAL TREASURY EMPLOYEES UNION et al. v. VON RAAB, COMMISSIONER, UNITED STATES CUSTOMS SERVICE
+term: 1988
+chief: Rehnquist
+natural_court: 1603
+docket: 86-1879
+citation:
+  us: 489 U.S. 656
+  sct: 109 S. Ct. 1384
+  led: 103 L. Ed. 2d 685
+  lexis: 1989 U.S. LEXIS 6033
+dates:
+  argued: '1988-11-02'
+  decided: '1989-03-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 75}
+  source: {code: 25}
+  disposition: vacated
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 321}
+admin_action: {agency: 21}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AScalia
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

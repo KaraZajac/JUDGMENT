@@ -1,0 +1,75 @@
+id: 1867-044
+name: ex parte MCCARDLE
+term: 1867
+chief: Chase
+natural_court: 601
+citation:
+  us: 73 U.S. 318
+  led: 18 L. Ed. 816
+  lexis: 1867 U.S. LEXIS 975
+dates:
+  argued: '1868-01-31'
+  decided: '1868-02-17'
+decision:
+  type: opinion-of-the-court
+  disposition: no-disposition
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90340, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, February 5, 1867
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 421}
+  source: {code: 421}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 110}
+  respondent: {code: 27}
+opinions:
+  majority_author: SPChase
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

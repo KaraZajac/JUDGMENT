@@ -1,0 +1,89 @@
+id: 1944-085
+name: CENTRAL STATES ELECTRIC CO. v. CITY OF MUSCATINE et al.
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '85'
+citation:
+  us: 324 U.S. 138
+  sct: 65 S. Ct. 565
+  led: 89 L. Ed. 801
+  lexis: 1945 U.S. LEXIS 2626
+dates:
+  argued: '1944-12-08'
+  decided: '1945-02-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80170, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 332
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 27}
+  source: {code: 27}
+  disposition: vacated
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 148}
+  respondent: {code: 3}
+  respondent_state: {code: 19}
+admin_action: {agency: 52}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack

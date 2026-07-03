@@ -1,0 +1,77 @@
+id: 1942-120
+name: UNITED STATES v. SWIFT & CO. et al.
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '529'
+citation:
+  us: 318 U.S. 442
+  sct: 63 S. Ct. 684
+  led: 87 L. Ed. 889
+  lexis: 1943 U.S. LEXIS 1308
+dates:
+  argued: '1943-02-11'
+  decided: '1943-03-15'
+decision:
+  type: per-curiam-argued
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90340, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 52}
+  source: {code: 52}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: jurisdictional-dissent
+  opinion: co-wrote
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: jurisdictional-dissent
+  opinion: co-wrote
+  in_majority: false
+- justice: FMurphy
+  vote: jurisdictional-dissent
+  opinion: co-wrote
+  in_majority: false
+- justice: RHJackson
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  participated: false

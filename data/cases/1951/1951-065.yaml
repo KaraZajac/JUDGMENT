@@ -1,0 +1,85 @@
+id: 1951-065
+name: KAUFMAN ET AL. v. SOCIETE INTERNATIONALE POUR PARTICIPATIONS INDUSTRIELLES ET COMMERCIALES, S. A., ET AL.
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '172'
+citation:
+  us: 343 U.S. 156
+  sct: 72 S. Ct. 611
+  led: 96 L. Ed. 2d 853
+  lexis: 1952 U.S. LEXIS 2230
+dates:
+  argued: '1952-01-02'
+  decided: '1952-04-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 40070, area: due-process}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 159}
+admin_action: {agency: 5}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed

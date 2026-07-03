@@ -1,0 +1,91 @@
+id: 1956-024
+name: LA BUY, UNITED STATES DISTRICT JUDGE, v. HOWES LEATHER CO., INC., et al.
+term: 1956
+chief: Warren
+natural_court: 1404
+docket: '27'
+citation:
+  us: 352 U.S. 249
+  sct: 77 S. Ct. 309
+  led: 1 L. Ed. 2d 290
+  lexis: 1957 U.S. LEXIS 1757
+dates:
+  argued: '1956-10-17'
+  decided: '1957-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90330, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 1651
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: vacated
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 16}
+  petitioner_state: {code: 60}
+  respondent: {code: 184}
+opinions:
+  majority_author: TCClark
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true

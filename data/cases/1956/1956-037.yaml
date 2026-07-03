@@ -1,0 +1,82 @@
+id: 1956-037
+name: BUTLER v. MICHIGAN
+term: 1956
+chief: Warren
+natural_court: 1404
+docket: '16'
+citation:
+  us: 352 U.S. 380
+  sct: 77 S. Ct. 524
+  led: 1 L. Ed. 2d 412
+  lexis: 1957 U.S. LEXIS 1252
+dates:
+  argued: '1956-10-16'
+  decided: '1957-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 30190, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 27}
+  source: {code: 300, state: 27}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 27}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true

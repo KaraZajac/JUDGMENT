@@ -1,0 +1,77 @@
+id: 1870-124
+name: DUNPHY v. KLEINSMITH AND DUER
+term: 1870
+chief: Chase
+natural_court: 602
+citation:
+  us: 78 U.S. 610
+  led: 20 L. Ed. 223
+  lexis: 1870 U.S. LEXIS 1506
+dates:
+  argued: '1871-04-17'
+  decided: '1871-05-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 100120, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, May 26, 1864, seccs. 6, 9, 13
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 17, state: 31}
+  source: {code: 15, state: 31}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 135}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: NClifford
+votes:
+- justice: SPChase
+  participated: false
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

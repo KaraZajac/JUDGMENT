@@ -1,0 +1,88 @@
+id: 2007-065
+name: SPRINT COMMUNS. CO., L.P. v. APCC SERVS.
+term: 2007
+chief: Roberts
+natural_court: 1702
+docket: 07-552
+citation:
+  us: 554 U.S. 269
+  sct: 128 S. Ct. 2531
+  led: 171 L. Ed. 2d 424
+  lexis: 2008 U.S. LEXIS 5034
+dates:
+  argued: '2008-04-21'
+  decided: '2008-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90230, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 205}
+  respondent: {code: 102}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JPStevens
+votes:
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false

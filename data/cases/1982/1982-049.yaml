@@ -1,0 +1,85 @@
+id: 1982-049
+name: ILLINOIS v. ABBOTT & ASSOCIATES, INC., et al.
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 81-1114
+citation:
+  us: 460 U.S. 557
+  sct: 103 S. Ct. 1356
+  led: 75 L. Ed. 2d 281
+  lexis: 1983 U.S. LEXIS 136
+dates:
+  argued: '1982-11-29'
+  decided: '1983-03-29'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10160, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 310
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 17}
+  respondent: {code: 120}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan

@@ -1,0 +1,85 @@
+id: 1952-027
+name: F. W. WOOLWORTH CO. v. CONTEMPORARY ARTS, INC.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '42'
+citation:
+  us: 344 U.S. 228
+  sct: 73 S. Ct. 222
+  led: 97 L. Ed. 2d 276
+  lexis: 1952 U.S. LEXIS 2784
+dates:
+  argued: '1952-11-17'
+  decided: '1952-12-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80190, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 17 U.S.C. § 101
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 80, state: 26}
+  source: {code: 21}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 238}
+  respondent: {code: 112}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

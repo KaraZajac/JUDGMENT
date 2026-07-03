@@ -1,0 +1,77 @@
+id: 1872-008
+name: GORHAM COMPANY v. WHITE
+term: 1872
+chief: Chase
+natural_court: 602
+citation:
+  us: 81 U.S. 511
+  led: 20 L. Ed. 731
+  lexis: 1871 U.S. LEXIS 1018
+dates:
+  argued: '1872-04-24'
+  decided: '1872-11-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80180, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Patent Act of March 2, 1861, sec. 4
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 137}
+opinions:
+  majority_author: WStrong
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WStrong
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  direction: conservative
+  in_majority: false

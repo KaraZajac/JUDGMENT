@@ -1,0 +1,89 @@
+id: 1986-073
+name: CRUZ v. NEW YORK
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-5939
+citation:
+  us: 481 U.S. 186
+  sct: 107 S. Ct. 1714
+  led: 95 L. Ed. 2d 162
+  lexis: 1987 U.S. LEXIS 1807
+dates:
+  argued: '1986-12-01'
+  decided: '1987-04-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10270, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 213
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

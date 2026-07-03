@@ -1,0 +1,89 @@
+id: 1971-154
+name: UNITED STATES v. SCOTLAND NECK CITY BOARD OF EDUCATION et al.
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 70-130
+citation:
+  us: 407 U.S. 484
+  sct: 92 S. Ct. 2214
+  led: 33 L. Ed. 2d 75
+  lexis: 1972 U.S. LEXIS 32
+dates:
+  argued: '1972-02-29'
+  decided: '1972-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20050, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 98}
+  source: {code: 24}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 21}
+  respondent_state: {code: 38}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WEBurger
+- justice: LFPowell
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WEBurger
+- justice: WHRehnquist
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WEBurger

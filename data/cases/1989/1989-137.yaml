@@ -1,0 +1,93 @@
+id: 1989-137
+name: WALTON v. ARIZONA
+term: 1989
+chief: Rehnquist
+natural_court: 1603
+docket: 88-7351
+citation:
+  us: 497 U.S. 639
+  sct: 110 S. Ct. 3047
+  led: 111 L. Ed. 2d 511
+  lexis: 1990 U.S. LEXIS 3462
+dates:
+  argued: '1990-01-17'
+  decided: '1990-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10130, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 217
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 302, state: 4}
+  source: {code: 300, state: 4}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 4}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+  - HABlackmun
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true

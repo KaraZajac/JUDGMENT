@@ -1,0 +1,89 @@
+id: 1974-015
+name: LINDEN LUMBER DIVISION, SUMMER & CO. v. NATIONAL LABOR RELATIONS BOARD et al.
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-1231
+citation:
+  us: 419 U.S. 301
+  sct: 95 S. Ct. 429
+  led: 42 L. Ed. 2d 465
+  lexis: 1974 U.S. LEXIS 160
+dates:
+  argued: '1974-11-18'
+  decided: '1974-12-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70070, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 382}
+admin_action: {agency: 82}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

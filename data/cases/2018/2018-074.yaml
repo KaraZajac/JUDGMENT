@@ -1,0 +1,85 @@
+id: 2018-074
+name: FOOD MARKETING INSTITUTE v. ARGUS LEADER MEDIA
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 18-481
+citation:
+  sct: 139 S. Ct. 2356
+  led: 204 L. Ed. 2d 742
+  lexis: 2019 U.S. LEXIS 4200
+dates:
+  argued: '2019-04-22'
+  decided: '2019-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 50040, area: privacy}
+law:
+  type: federal-statute
+  supp: 335
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 115}
+  source: {code: 28}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 228}
+  respondent: {code: 190}
+opinions:
+  majority_author: NMGorsuch
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true

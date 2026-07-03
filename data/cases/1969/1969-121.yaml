@@ -1,0 +1,87 @@
+id: 1969-121
+name: WILLIAMS v. FLORIDA
+term: 1969
+chief: Burger
+natural_court: 1502
+docket: '927'
+citation:
+  us: 399 U.S. 78
+  sct: 90 S. Ct. 1893
+  led: 26 L. Ed. 2d 446
+  lexis: 1970 U.S. LEXIS 98
+dates:
+  argued: '1970-03-04'
+  decided: '1970-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10090, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 210
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 12}
+  source: {code: 301, state: 12}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 12}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  participated: false

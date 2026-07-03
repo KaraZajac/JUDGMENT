@@ -1,0 +1,85 @@
+id: 1968-034
+name: SMITH v. HOOEY, JUDGE
+term: 1968
+chief: Warren
+natural_court: 1410
+docket: '198'
+citation:
+  us: 393 U.S. 374
+  sct: 89 S. Ct. 575
+  led: 21 L. Ed. 2d 607
+  lexis: 1969 U.S. LEXIS 2781
+dates:
+  argued: '1968-12-11'
+  decided: '1969-01-20'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10590, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 216
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 300, state: 51}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 16}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: PStewart
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

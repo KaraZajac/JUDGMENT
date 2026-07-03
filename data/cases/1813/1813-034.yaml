@@ -1,0 +1,67 @@
+id: 1813-034
+name: FAIRFAX'S DEVISEE v. HUNTER'S LESSEE
+term: 1813
+chief: Marshall
+natural_court: 406
+citation:
+  us: 11 U.S. 603
+  led: 3 L. Ed. 453
+  lexis: 1813 U.S. LEXIS 460
+dates:
+  argued: '1812-02-27'
+  decided: '1813-03-15'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 3
+  minority_votes: 1
+issue: {code: 100010, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 55}
+  source: {code: 300, state: 55}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 195}
+opinions:
+  majority_author: JStory
+  majority_assigner: HBLivingston
+votes:
+- justice: JMarshall
+  participated: false
+- justice: BWashington
+  participated: false
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HBLivingston
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true

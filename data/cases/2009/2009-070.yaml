@@ -1,0 +1,89 @@
+id: 2009-070
+name: BRIAN RUSSELL DOLAN v. UNITED STATES
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 09-367
+citation:
+  us: 560 U.S. 605
+  sct: 130 S. Ct. 2533
+  led: 177 L. Ed. 2d 108
+  lexis: 2010 U.S. LEXIS 4762
+dates:
+  argued: '2010-04-20'
+  decided: '2010-06-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90320, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18-3664
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 93}
+  source: {code: 30}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 137}
+  respondent: {code: 27}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: CThomas
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true

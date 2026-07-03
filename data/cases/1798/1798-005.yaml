@@ -1,0 +1,66 @@
+id: 1798-005
+name: CALDER ET WIFE, VERSUS BULL ET WIFE
+term: 1798
+chief: Ellsworth
+natural_court: 301
+citation:
+  us: 3 U.S. 386
+  led: 1 L. Ed. 648
+  lexis: 1798 U.S. LEXIS 148
+dates:
+  argued: '1798-02-08'
+  decided: '1798-08-08'
+decision:
+  type: seriatim
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 4
+  minority_votes: 0
+issue: {code: 10180, area: criminal-procedure}
+law:
+  type: constitution
+  supp: 101
+authority:
+- federal-common-law
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 8}
+  source: {code: 300, state: 8}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 166}
+opinions:
+  majority_assigner: WCushing
+votes:
+- justice: OEllsworth
+  participated: false
+- justice: WCushing
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JWilson
+  participated: false
+- justice: JIredell
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WPaterson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SChase
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

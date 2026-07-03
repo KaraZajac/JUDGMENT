@@ -1,0 +1,92 @@
+id: 1959-101
+name: UNITED STATES v. KAISER
+term: 1959
+chief: Warren
+natural_court: 1406
+docket: '55'
+citation:
+  us: 363 U.S. 299
+  sct: 80 S. Ct. 1204
+  led: 4 L. Ed. 2d 1233
+  lexis: 1960 U.S. LEXIS 1925
+dates:
+  argued: '1960-03-23'
+  decided: '1960-06-13'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 132}
+  source: {code: 27}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 240}
+admin_action: {agency: 69}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CEWhittaker
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CEWhittaker
+- justice: WJBrennan
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,76 @@
+id: 1867-047
+name: SILVER v. LADD
+term: 1867
+chief: Chase
+natural_court: 601
+citation:
+  us: 73 U.S. 440
+  led: 18 L. Ed. 828
+  lexis: 1867 U.S. LEXIS 985
+dates:
+  decided: '1868-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: no-disposition
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 90350, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 9 SAL 496
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 43}
+  source: {code: 300, state: 43}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 195}
+opinions:
+  majority_author: SPChase
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

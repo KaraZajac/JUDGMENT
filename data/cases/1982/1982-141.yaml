@@ -1,0 +1,86 @@
+id: 1982-141
+name: CITY OF REVERE v. MASSACHUSETTS GENERAL HOSPITAL
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 82-63
+citation:
+  us: 463 U.S. 239
+  sct: 103 S. Ct. 2979
+  led: 77 L. Ed. 2d 605
+  lexis: 1983 U.S. LEXIS 91
+dates:
+  argued: '1983-02-28'
+  decided: '1983-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 40040, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 26}
+  source: {code: 300, state: 26}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 26}
+  respondent: {code: 167}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WHRehnquist
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

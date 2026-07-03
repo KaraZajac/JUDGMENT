@@ -1,0 +1,85 @@
+id: 1877-110
+name: UNITED STATES v. COUNTY OF CLARK
+term: 1877
+chief: Waite
+natural_court: 702
+docket: '600'
+citation:
+  us: 96 U.S. 211
+  led: 24 L. Ed. 628
+  lexis: 1877 U.S. LEXIS 1655
+dates:
+  decided: '1878-01-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 422}
+  source: {code: 422}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 30}
+  respondent: {code: 27}
+admin_action: {agency: 117, state: 30}
+opinions:
+  majority_author: WStrong
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true

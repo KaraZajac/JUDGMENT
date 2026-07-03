@@ -1,0 +1,73 @@
+id: 1900-068
+name: PIRIE v. CHICAGO TITLE AND TRUST COMPANY
+term: 1900
+chief: Fuller
+natural_court: 808
+docket: '391'
+citation:
+  us: 182 U.S. 438
+  sct: 21 S. Ct. 906
+  led: 45 L. Ed. 1171
+  lexis: 1901 U.S. LEXIS 1235
+dates:
+  argued: '1901-01-18'
+  decided: '1901-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 140080, area: private-action}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: bankruptcy law of 1898, para 57g
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 114}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  in_majority: true
+- justice: HGray
+  vote: majority
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  in_majority: false
+- justice: EDEWhite
+  vote: dissent
+  in_majority: false
+- justice: RWPeckham
+  vote: dissent
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  in_majority: true

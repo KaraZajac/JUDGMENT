@@ -1,0 +1,92 @@
+id: 1917-156
+name: UNITED STATES v. UNITED SHOE MACHINERY COMPANY OF NEW JERSEY et al.
+term: 1917
+chief: White
+natural_court: 905
+docket: '207'
+citation:
+  us: 247 U.S. 32
+  sct: 38 S. Ct. 473
+  led: 62 L. Ed. 968
+  lexis: 1918 U.S. LEXIS 1956
+dates:
+  argued: '1917-03-16'
+  reargued: '1918-01-11'
+  decided: '1918-05-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80020, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 310
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 80}
+  source: {code: 80}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 122}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHClarke
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WRDay
+  - JHClarke
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - WRDay

@@ -1,0 +1,92 @@
+id: 1971-155
+name: PETERS v. KIFF, WARDEN
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 71-5078
+citation:
+  us: 407 U.S. 493
+  sct: 92 S. Ct. 2163
+  led: 33 L. Ed. 2d 83
+  lexis: 1972 U.S. LEXIS 33
+dates:
+  argued: '1972-02-22'
+  decided: '1972-06-22'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20040, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 59}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 13}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WEBurger
+- justice: LFPowell
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WEBurger

@@ -1,0 +1,88 @@
+id: 2010-063
+name: JANUS CAPITAL GROUP, INC., et al., PETITIONERS v. FIRST DERIVATIVE TRADERS
+term: 2010
+chief: Roberts
+natural_court: 1704
+docket: 09-525
+citation:
+  us: 564 U.S. 135
+  sct: 131 S. Ct. 2296
+  led: 180 L. Ed. 2d 166
+  lexis: 2011 U.S. LEXIS 4380
+dates:
+  argued: '2010-12-07'
+  decided: '2011-06-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80120, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 365
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 79}
+  source: {code: 24}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 173}
+  respondent: {code: 237}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer

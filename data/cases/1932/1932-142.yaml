@@ -1,0 +1,92 @@
+id: 1932-142
+name: TEXAS & PACIFIC RAILWAY CO. et al. v. UNITED STATES et al.
+term: 1932
+chief: Hughes
+natural_court: 1103
+docket: '1'
+citation:
+  us: 289 U.S. 627
+  sct: 53 S. Ct. 768
+  led: 77 L. Ed. 1410
+  lexis: 1933 U.S. LEXIS 945
+dates:
+  argued: '1931-10-12'
+  reargued: '1932-10-11'
+  decided: '1933-05-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80220, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 121}
+  source: {code: 121}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 366}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: WVanDevanter
+votes:
+- justice: CEHughes2
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone

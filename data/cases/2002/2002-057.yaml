@@ -1,0 +1,91 @@
+id: 2002-057
+name: NEVADA DEPARTMENT OF HUMAN RESOURCES, et al. v. WILLIAM HIBBS et al.
+term: 2002
+chief: Rehnquist
+natural_court: 1607
+docket: 01-1368
+citation:
+  us: 538 U.S. 721
+  sct: 123 S. Ct. 1972
+  led: 155 L. Ed. 2d 953
+  lexis: 2003 U.S. LEXIS 4272
+dates:
+  argued: '2003-01-15'
+  decided: '2003-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 100120, area: federalism}
+law:
+  type: constitutional-amendment
+  supp: 232
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 90}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 7}
+  petitioner_state: {code: 33}
+  respondent: {code: 8}
+  respondent_state: {code: 33}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: DHSouter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

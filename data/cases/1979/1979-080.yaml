@@ -1,0 +1,82 @@
+id: 1979-080
+name: AMERICAN EXPORT LINES, INC. v. ALVEZ et al.
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 79-1
+citation:
+  us: 446 U.S. 274
+  sct: 100 S. Ct. 1673
+  led: 64 L. Ed. 2d 284
+  lexis: 1980 U.S. LEXIS 34
+dates:
+  argued: '1980-02-26'
+  decided: '1980-05-12'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80050, area: economic-activity}
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 145}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

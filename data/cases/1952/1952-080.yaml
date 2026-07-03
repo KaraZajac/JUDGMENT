@@ -1,0 +1,87 @@
+id: 1952-080
+name: POULOS v. NEW HAMPSHIRE
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '341'
+citation:
+  us: 345 U.S. 395
+  sct: 73 S. Ct. 760
+  led: 97 L. Ed. 2d 1105
+  lexis: 1953 U.S. LEXIS 2606
+dates:
+  argued: '1953-02-03'
+  decided: '1953-04-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 30160, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 202
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 34}
+  source: {code: 300, state: 34}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 130}
+  respondent: {code: 28}
+  respondent_state: {code: 34}
+opinions:
+  majority_author: SFReed
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

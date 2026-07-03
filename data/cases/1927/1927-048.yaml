@@ -1,0 +1,85 @@
+id: 1927-048
+name: THE EQUITABLE TRUST COMPANY OF NEW YORK, TRUSTEE IN BANKRUPTCY OF KNAUTH, NACHOD & KUHNE, v. THE FIRST NATIONAL
+  BANK OF TRINIDAD, COLORADO
+term: 1927
+chief: Taft
+natural_court: 1005
+docket: '130'
+citation:
+  us: 275 U.S. 359
+  sct: 48 S. Ct. 167
+  led: 72 L. Ed. 313
+  lexis: 1928 U.S. LEXIS 266
+dates:
+  argued: '1927-12-07'
+  decided: '1928-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 114}
+  respondent: {code: 113}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

@@ -1,0 +1,83 @@
+id: 1859-039
+name: ROBINSON LYTLE AND LYDIA L. HIS WIFE, NATHAN H. CLOYES, AND OTHERS, PLAINTIFFS IN ERROR, v. THE STATE OF ARKANSAS,
+  CHARLES B. BERTRAND, AND OTHERS
+term: 1859
+chief: Taney
+natural_court: 511
+citation:
+  us: 63 U.S. 193
+  led: 16 L. Ed. 306
+  lexis: 1859 U.S. LEXIS 714
+dates:
+  argued: '1860-01-16'
+  decided: '1860-02-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90350, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Judiciary Act of 1789, sec.25
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 5}
+  source: {code: 300, state: 5}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 28}
+  respondent_state: {code: 5}
+opinions:
+  majority_author: JCatron
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JACampbell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  direction: conservative
+  in_majority: false

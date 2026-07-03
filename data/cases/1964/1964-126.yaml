@@ -1,0 +1,92 @@
+id: 1964-126
+name: LOCAL UNION NO. 189, AMALGAMATED MEAT CUTTERS & BUTCHER WORKMEN OF NORTH AMERICA, AFL-CIO, et al. v. JEWEL
+  TEA CO., INC.
+term: 1964
+chief: Warren
+natural_court: 1408
+docket: '240'
+citation:
+  us: 381 U.S. 676
+  sct: 85 S. Ct. 1596
+  led: 14 L. Ed. 2d 640
+  lexis: 1965 U.S. LEXIS 2208
+dates:
+  argued: '1965-01-27'
+  decided: '1965-06-07'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 70020, area: unions}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 238}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TCClark
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: JHarlan2
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AJGoldberg
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AJGoldberg
+- justice: BRWhite
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AJGoldberg
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

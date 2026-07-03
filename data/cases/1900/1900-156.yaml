@@ -1,0 +1,84 @@
+id: 1900-156
+name: ATHERTON v. ATHERTON
+term: 1900
+chief: Fuller
+natural_court: 808
+docket: '17'
+citation:
+  us: 181 U.S. 155
+  sct: 21 S. Ct. 544
+  led: 45 L. Ed. 794
+  lexis: 1901 U.S. LEXIS 1353
+dates:
+  argued: '1899-12-15'
+  decided: '1901-04-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 40060, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 302, state: 37}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 168}
+  respondent: {code: 253}
+opinions:
+  majority_author: HGray
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RWPeckham
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true

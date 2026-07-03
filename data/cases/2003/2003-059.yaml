@@ -1,0 +1,97 @@
+id: 2003-059
+name: TENNESSEE v. GEORGE LANE et al.
+term: 2003
+chief: Rehnquist
+natural_court: 1607
+docket: 02-1667
+citation:
+  us: 541 U.S. 509
+  sct: 124 S. Ct. 1978
+  led: 158 L. Ed. 2d 820
+  lexis: 2004 U.S. LEXIS 3386
+dates:
+  argued: '2004-01-13'
+  decided: '2004-05-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20210, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 300
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 117}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 50}
+  respondent: {code: 140}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: DHSouter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - RBGinsburg
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: RBGinsburg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - RBGinsburg

@@ -1,0 +1,78 @@
+id: 1955-033
+name: COSTELLO v. UNITED STATES
+term: 1955
+chief: Warren
+natural_court: 1403
+docket: '72'
+citation:
+  us: 350 U.S. 359
+  sct: 76 S. Ct. 406
+  led: 100 L. Ed. 2d 397
+  lexis: 1956 U.S. LEXIS 1845
+dates:
+  argued: '1956-01-16'
+  decided: '1956-03-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 10200, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 208
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 27}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  participated: false
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true

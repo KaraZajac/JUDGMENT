@@ -1,0 +1,88 @@
+id: 1992-023
+name: GARY GRAHAM v. JAMES A. COLLINS, DIRECTOR, TEXAS DEPARTMENT OF CRIMINAL JUSTICE, INSTITUTIONAL DIVISION
+term: 1992
+chief: Rehnquist
+natural_court: 1605
+docket: 91-7580
+citation:
+  us: 506 U.S. 461
+  sct: 113 S. Ct. 892
+  led: 122 L. Ed. 2d 260
+  lexis: 1993 U.S. LEXIS 1015
+dates:
+  argued: '1992-10-14'
+  decided: '1993-01-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10020, area: criminal-procedure}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 121}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WHRehnquist
+votes:
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SDOConnor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

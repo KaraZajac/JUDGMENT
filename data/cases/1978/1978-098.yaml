@@ -1,0 +1,85 @@
+id: 1978-098
+name: KENTUCKY v. WHORTON
+term: 1978
+chief: Burger
+natural_court: 1506
+docket: 78-749
+citation:
+  us: 441 U.S. 786
+  sct: 99 S. Ct. 2088
+  led: 60 L. Ed. 2d 640
+  lexis: 1979 U.S. LEXIS 105
+dates:
+  argued: '1979-04-16'
+  decided: '1979-05-21'
+decision:
+  type: per-curiam-argued
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10220, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 21}
+  source: {code: 300, state: 21}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 21}
+  respondent: {code: 100}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

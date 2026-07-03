@@ -1,0 +1,84 @@
+id: 1878-017
+name: FERTILIZING COMPANY v. HYDE PARK
+term: 1878
+chief: Waite
+natural_court: 702
+docket: '5'
+citation:
+  us: 97 U.S. 659
+  led: 24 L. Ed. 1036
+  lexis: 1878 U.S. LEXIS 1495
+dates:
+  argued: '1878-10-17'
+  decided: '1878-11-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 3}
+  respondent_state: {code: 17}
+admin_action: {agency: 117, state: 17}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - SFMiller
+- justice: SFMiller
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  participated: false
+- justice: WStrong
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true

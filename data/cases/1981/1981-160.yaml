@@ -1,0 +1,87 @@
+id: 1981-160
+name: LORETTO v. TELEPROMPTER MANHATTAN CATV CORP. et al.
+term: 1981
+chief: Burger
+natural_court: 1507
+docket: 81-244
+citation:
+  us: 458 U.S. 419
+  sct: 102 S. Ct. 3164
+  led: 73 L. Ed. 2d 868
+  lexis: 1982 U.S. LEXIS 150
+dates:
+  argued: '1982-03-30'
+  decided: '1982-06-30'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 211
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 124}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

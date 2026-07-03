@@ -1,0 +1,79 @@
+id: 1995-073
+name: MICHAEL O. LEAVITT, GOVERNOR OF UTAH, et al., v. JANE L., et al.
+term: 1995
+chief: Rehnquist
+natural_court: 1607
+docket: 95-1242
+citation:
+  us: 518 U.S. 137
+  sct: 116 S. Ct. 2068
+  led: 135 L. Ed. 2d 443
+  lexis: 1996 U.S. LEXIS 3885
+dates:
+  decided: '1996-06-17'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 50020, area: privacy}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 123}
+  source: {code: 30}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 52}
+  respondent: {code: 155}
+opinions:
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: SGBreyer
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - JPStevens

@@ -1,0 +1,72 @@
+id: 1971-024
+name: WILWORDING et al. v. SWENSON, WARDEN
+term: 1971
+chief: Burger
+natural_court: 1503
+docket: 70-5308
+citation:
+  us: 404 U.S. 249
+  sct: 92 S. Ct. 407
+  led: 30 L. Ed. 2d 418
+  lexis: 1971 U.S. LEXIS 6
+dates:
+  decided: '1971-12-14'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 341
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 87}
+  source: {code: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 28}
+  respondent_state: {code: 30}
+opinions:
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true

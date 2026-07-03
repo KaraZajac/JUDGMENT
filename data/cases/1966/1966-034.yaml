@@ -1,0 +1,86 @@
+id: 1966-034
+name: SWANN et al. v. ADAMS, SECRETARY OF STATE OF FLORIDA, et al.
+term: 1966
+chief: Warren
+natural_court: 1409
+docket: '136'
+citation:
+  us: 385 U.S. 440
+  sct: 87 S. Ct. 569
+  led: 17 L. Ed. 2d 501
+  lexis: 1967 U.S. LEXIS 2577
+dates:
+  argued: '1966-12-06'
+  decided: '1967-01-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20090, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 58}
+  source: {code: 58}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 251}
+  respondent: {code: 19}
+  respondent_state: {code: 12}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: BRWhite
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

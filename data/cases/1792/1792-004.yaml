@@ -1,0 +1,68 @@
+id: 1792-004
+name: HAYBURN'S CASE
+term: 1792
+chief: Jay
+natural_court: 103
+citation:
+  us: 2 U.S. 409
+  led: 1 L. Ed. 436
+  lexis: 1792 U.S. LEXIS 591
+dates:
+  argued: '1792-08-08'
+  decided: '1792-08-11'
+decision:
+  type: per-curiam-argued
+  disposition: petition-denied
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 90340, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: imposition of nonjudicial duties on federal courts
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 8}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 430}
+  source: {code: 430}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 6}
+  respondent_state: {code: 45}
+opinions:
+  majority_assigner: JJay
+votes:
+- justice: JJay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JWilson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JBlair
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JIredell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TJohnson
+  vote: majority
+  direction: liberal
+  in_majority: true

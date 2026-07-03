@@ -1,0 +1,84 @@
+id: 1899-216
+name: THE CARLOS F. ROSES
+term: 1899
+chief: Fuller
+natural_court: 808
+docket: '243'
+citation:
+  us: 177 U.S. 655
+  sct: 20 S. Ct. 803
+  led: 44 L. Ed. 929
+  lexis: 1900 U.S. LEXIS 1836
+dates:
+  argued: '1900-01-12'
+  decided: '1900-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 40070, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 58}
+  source: {code: 58}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 195}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - GShiras
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true

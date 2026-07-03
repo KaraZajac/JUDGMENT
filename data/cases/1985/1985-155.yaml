@@ -1,0 +1,88 @@
+id: 1985-155
+name: PENNSYLVANIA et al. v. DELAWARE VALLEY CITIZENS' COUNCIL FOR CLEAN AIR et al.
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 85-5
+citation:
+  us: 478 U.S. 546
+  sct: 106 S. Ct. 3088
+  led: 92 L. Ed. 2d 439
+  lexis: 1986 U.S. LEXIS 134
+dates:
+  argued: '1986-03-03'
+  decided: '1986-07-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 60010, area: attorneys}
+law:
+  type: federal-statute
+  supp: 304
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 109}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 45}
+  respondent: {code: 150}
+admin_action: {agency: 33}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

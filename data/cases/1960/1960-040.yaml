@@ -1,0 +1,85 @@
+id: 1960-040
+name: MAYNARD v. DURHAM & SOUTHERN RAILWAY CO.
+term: 1960
+chief: Warren
+natural_court: 1406
+docket: '183'
+citation:
+  us: 365 U.S. 160
+  sct: 81 S. Ct. 561
+  led: 5 L. Ed. 2d 486
+  lexis: 1961 U.S. LEXIS 1686
+dates:
+  argued: '1961-01-12'
+  decided: '1961-02-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80040, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 329
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 302, state: 38}
+  source: {code: 300, state: 38}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 231}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEWhittaker
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,81 @@
+id: 1906-088
+name: UNITED STATES v. HEINSZEN & COMPANY
+term: 1906
+chief: Fuller
+natural_court: 811
+docket: '580'
+citation:
+  us: 206 U.S. 370
+  sct: 27 S. Ct. 742
+  led: 51 L. Ed. 1098
+  lexis: 1907 U.S. LEXIS 1170
+dates:
+  argued: '1907-04-09'
+  decided: '1907-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: delegation of powers & 5th Amendment, due process
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 122}
+admin_action: {agency: 117, state: 62}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  participated: false

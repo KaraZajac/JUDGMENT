@@ -1,0 +1,85 @@
+id: 1963-018
+name: GOTTHILF v. SILLS et al.
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '50'
+citation:
+  us: 375 U.S. 79
+  sct: 84 S. Ct. 187
+  led: 11 L. Ed. 2d 159
+  lexis: 1963 U.S. LEXIS 186
+dates:
+  argued: '1963-10-24'
+  decided: '1963-11-18'
+decision:
+  type: per-curiam-argued
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90350, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 1257
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 301, state: 37}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 135}
+opinions:
+  majority_assigner: TCClark
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  direction: conservative
+  in_majority: true

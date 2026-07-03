@@ -1,0 +1,94 @@
+id: 1993-074
+name: JONATHAN DALE SIMMONS v. SOUTH CAROLINA
+term: 1993
+chief: Rehnquist
+natural_court: 1606
+docket: 92-9059
+citation:
+  us: 512 U.S. 154
+  sct: 114 S. Ct. 2187
+  led: 129 L. Ed. 2d 133
+  lexis: 1994 U.S. LEXIS 4640
+dates:
+  argued: '1994-01-18'
+  decided: '1994-06-17'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10220, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 48}
+  source: {code: 300, state: 48}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 48}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: HABlackmun
+votes:
+- justice: HABlackmun
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: JPStevens
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - DHSouter
+- justice: SDOConnor
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: DHSouter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

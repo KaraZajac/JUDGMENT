@@ -1,0 +1,91 @@
+id: 1986-015
+name: FEDERAL ELECTION COMMISSION v. MASSACHUSETTS CITIZENS FOR LIFE, INC.
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-701
+citation:
+  us: 479 U.S. 238
+  sct: 107 S. Ct. 616
+  led: 93 L. Ed. 2d 539
+  lexis: 1986 U.S. LEXIS 26
+dates:
+  argued: '1986-10-07'
+  decided: '1986-12-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30140, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 330
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 80}
+  source: {code: 21}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 343}
+  respondent: {code: 192}
+admin_action: {agency: 43}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: SDOConnor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,88 @@
+id: 1909-058
+name: WESTERN UNION TELEGRAPH COMPANY v. THE STATE OF KANSAS EX REL. COLEMAN, ATTORNEY GENERAL
+term: 1909
+chief: Fuller
+natural_court: 812
+docket: '4'
+citation:
+  us: 216 U.S. 1
+  sct: 30 S. Ct. 190
+  led: 54 L. Ed. 355
+  lexis: 1910 U.S. LEXIS 1870
+dates:
+  argued: '1909-03-17'
+  decided: '1910-01-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 14th Amendment due process and interstatge commerce clauses
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 20}
+  source: {code: 300, state: 20}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 205}
+  respondent: {code: 28}
+  respondent_state: {code: 20}
+admin_action: {agency: 117, state: 20}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  participated: false

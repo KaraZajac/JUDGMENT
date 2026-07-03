@@ -1,0 +1,87 @@
+id: 1977-056
+name: STUMP et al. v. SPARKMAN ET VIR
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 76-1750
+citation:
+  us: 435 U.S. 349
+  sct: 98 S. Ct. 1099
+  led: 55 L. Ed. 2d 331
+  lexis: 1978 U.S. LEXIS 74
+dates:
+  argued: '1978-01-10'
+  decided: '1978-03-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 20400, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 314
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 68}
+  source: {code: 27}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 16}
+  petitioner_state: {code: 18}
+  respondent: {code: 155}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WJBrennan
+  participated: false
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

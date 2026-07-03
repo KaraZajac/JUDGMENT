@@ -1,0 +1,70 @@
+id: 1862-042
+name: THE BRIG AMY WARWICK
+term: 1862
+chief: Taney
+natural_court: 514
+citation:
+  us: 67 U.S. 635
+  led: 17 L. Ed. 459
+  lexis: 1862 U.S. LEXIS 282
+dates:
+  argued: '1863-02-10'
+  decided: '1863-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 130020, area: miscellaneous}
+law:
+  type: constitution
+  supp: 133
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 80}
+  source: {code: 80}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 27}
+opinions:
+  majority_author: RCGrier
+  majority_assigner: JMWayne
+votes:
+- justice: RBTaney
+  vote: dissent
+  in_majority: false
+- justice: JMWayne
+  vote: majority
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  in_majority: false
+- justice: SNelson
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: RCGrier
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  in_majority: true

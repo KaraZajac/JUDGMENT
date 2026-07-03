@@ -1,0 +1,84 @@
+id: 1950-085
+name: ZITTMAN v. McGRATH, ATTORNEY GENERAL, SUCCESSOR TO THE ALIEN PROPERTY CUSTODIAN
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '298'
+citation:
+  us: 341 U.S. 446
+  sct: 71 S. Ct. 832
+  led: 95 L. Ed. 2d 1096
+  lexis: 1951 U.S. LEXIS 2353
+dates:
+  argued: '1951-02-28'
+  decided: '1951-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 120030, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 376
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96, state: 37}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 305}
+admin_action: {agency: 5}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFReed
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

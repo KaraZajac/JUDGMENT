@@ -1,0 +1,88 @@
+id: 1952-048
+name: LUTWAK ET AL. v. UNITED STATES
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '66'
+citation:
+  us: 344 U.S. 604
+  sct: 73 S. Ct. 481
+  led: 97 L. Ed. 2d 593
+  lexis: 1953 U.S. LEXIS 2395
+dates:
+  argued: '1952-12-08'
+  decided: '1953-02-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10400, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 8 U.S.C. § 232
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 66, state: 17}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 27}
+opinions:
+  majority_author: SMinton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

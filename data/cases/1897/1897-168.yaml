@@ -1,0 +1,82 @@
+id: 1897-168
+name: THE IRRAWADDY
+term: 1897
+chief: Fuller
+natural_court: 808
+docket: '591'
+citation:
+  us: 171 U.S. 187
+  sct: 18 S. Ct. 831
+  led: 43 L. Ed. 130
+  lexis: 1898 U.S. LEXIS 1596
+dates:
+  decided: '1898-05-31'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80070, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 2/13/1893
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 174}
+opinions:
+  majority_author: GShiras
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: GShiras
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HBBrown

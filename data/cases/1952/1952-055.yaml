@@ -1,0 +1,81 @@
+id: 1952-055
+name: UNITED STATES v. RUMELY
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '87'
+citation:
+  us: 345 U.S. 41
+  sct: 73 S. Ct. 543
+  led: 97 L. Ed. 2d 770
+  lexis: 1953 U.S. LEXIS 2617
+dates:
+  argued: '1952-12-11'
+  decided: '1953-03-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80140, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 2 U.S.C. § 192
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 32}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 254}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  participated: false
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  participated: false
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

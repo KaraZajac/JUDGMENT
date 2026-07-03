@@ -1,0 +1,88 @@
+id: 1882-052
+name: UNITED STATES v. LEE
+term: 1882
+chief: Waite
+natural_court: 706
+docket: '25'
+citation:
+  us: 106 U.S. 196
+  sct: 1 S. Ct. 240
+  led: 27 L. Ed. 171
+  lexis: 1882 U.S. LEXIS 1534
+dates:
+  argued: '1882-10-18'
+  decided: '1882-12-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40070, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 436}
+  source: {code: 436}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 27}
+admin_action: {agency: 124}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: SFMiller
+votes:
+- justice: MRWaite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HGray
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HGray
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HGray
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

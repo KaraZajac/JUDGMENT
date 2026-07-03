@@ -1,0 +1,85 @@
+id: 1906-114
+name: PEARCY v. STRANAHAN
+term: 1906
+chief: Fuller
+natural_court: 811
+docket: '1'
+citation:
+  us: 205 U.S. 257
+  sct: 27 S. Ct. 545
+  led: 51 L. Ed. 793
+  lexis: 1907 U.S. LEXIS 1393
+dates:
+  decided: '1907-04-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 110033, area: miscellaneous}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 30 SAL 151, chap, 11
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 234}
+  respondent: {code: 8}
+  respondent_state: {code: 37}
+admin_action: {agency: 21}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - MWFuller
+- justice: OWHolmes
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - EDEWhite
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  participated: false

@@ -1,0 +1,90 @@
+id: 2004-015
+name: KEYSE G. JAMA v. IMMIGRATION AND CUSTOMS ENFORCEMENT
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 03-674
+citation:
+  us: 543 U.S. 335
+  sct: 125 S. Ct. 694
+  led: 160 L. Ed. 2d 708
+  lexis: 2005 U.S. LEXIS 626
+dates:
+  argued: '2004-10-12'
+  decided: '2005-01-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20110, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 8 U.S.C. § 1231
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 83}
+  source: {code: 28}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 368}
+admin_action: {agency: 7}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter

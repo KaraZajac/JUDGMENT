@@ -1,0 +1,79 @@
+id: 1924-093
+name: FLANAGAN v. FEDERAL COAL COMPANY
+term: 1924
+chief: Taft
+natural_court: 1005
+docket: '75'
+citation:
+  us: 267 U.S. 222
+  sct: 45 S. Ct. 233
+  led: 69 L. Ed. 583
+  lexis: 1925 U.S. LEXIS 366
+dates:
+  argued: '1924-10-15'
+  decided: '1925-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90090, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 233}
+  respondent: {code: 132}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  participated: false

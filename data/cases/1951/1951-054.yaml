@@ -1,0 +1,88 @@
+id: 1951-054
+name: CARLSON ET AL. v. LANDON, DISTRICT DIRECTOR OF IMMIGRATION AND NATURALIZATION SERVICE
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '35'
+citation:
+  us: 342 U.S. 524
+  sct: 72 S. Ct. 525
+  led: 96 L. Ed. 2d 547
+  lexis: 1952 U.S. LEXIS 2344
+dates:
+  argued: '1951-11-26'
+  decided: '1952-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30060, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 346
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 51, state: 6}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 368}
+admin_action: {agency: 68}
+opinions:
+  majority_author: SFReed
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

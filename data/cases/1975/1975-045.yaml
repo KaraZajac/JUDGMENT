@@ -1,0 +1,83 @@
+id: 1975-045
+name: UNITED STATES v. GADDIS et al.
+term: 1975
+chief: Burger
+natural_court: 1506
+docket: 74-1141
+citation:
+  us: 424 U.S. 544
+  sct: 96 S. Ct. 1023
+  led: 47 L. Ed. 2d 222
+  lexis: 1976 U.S. LEXIS 143
+dates:
+  argued: '1975-12-15'
+  decided: '1976-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 10390, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U.S.C. § 2113
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 59}
+  source: {code: 25}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 126}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  participated: false

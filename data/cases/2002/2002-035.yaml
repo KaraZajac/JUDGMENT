@@ -1,0 +1,90 @@
+id: 2002-035
+name: ALLEN D. BROWN AND GREG HAYES v. LEGAL FOUNDATION OF WASHINGTON et al.
+term: 2002
+chief: Rehnquist
+natural_court: 1607
+docket: 01-1325
+citation:
+  us: 538 U.S. 216
+  sct: 123 S. Ct. 1406
+  led: 155 L. Ed. 2d 376
+  lexis: 2003 U.S. LEXIS 2493
+dates:
+  argued: '2002-12-09'
+  decided: '2003-03-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 211
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 129}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 20}
+  petitioner_state: {code: 56}
+  respondent: {code: 111}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,81 @@
+id: 1952-019
+name: ALISON v. UNITED STATES
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '79'
+citation:
+  us: 344 U.S. 167
+  sct: 73 S. Ct. 191
+  led: 97 L. Ed. 2d 186
+  lexis: 1952 U.S. LEXIS 2766
+dates:
+  argued: '1952-11-12'
+  decided: '1952-12-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 111}
+  source: {code: 23}
+  disposition: petition-denied
+  disagreement: false
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 27}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

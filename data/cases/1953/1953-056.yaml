@@ -1,0 +1,83 @@
+id: 1953-056
+name: ST. JOE PAPER CO. et al. v. ATLANTIC COAST LINE RAILROAD CO.
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '24'
+citation:
+  us: 347 U.S. 298
+  sct: 74 S. Ct. 574
+  led: 98 L. Ed. 2d 710
+  lexis: 1954 U.S. LEXIS 2627
+dates:
+  argued: '1953-10-15'
+  decided: '1954-04-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 58}
+  source: {code: 25}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 231}
+admin_action: {agency: 66}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: EWarren
+votes:
+- justice: HLBlack
+  participated: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

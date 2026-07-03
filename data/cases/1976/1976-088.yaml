@@ -1,0 +1,90 @@
+id: 1976-088
+name: WOOLEY, CHIEF OF POLICE OF LEBANON, et al. v. MAYNARD ET UX.
+term: 1976
+chief: Burger
+natural_court: 1506
+docket: 75-1453
+citation:
+  us: 430 U.S. 705
+  sct: 97 S. Ct. 1428
+  led: 51 L. Ed. 2d 752
+  lexis: 1977 U.S. LEXIS 75
+dates:
+  argued: '1976-11-29'
+  decided: '1977-04-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30160, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 202
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 91}
+  source: {code: 91}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 34}
+  respondent: {code: 130}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WEBurger
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+  - WHRehnquist
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

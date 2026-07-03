@@ -1,0 +1,88 @@
+id: 1963-096
+name: UNITED STATES v. BARNETT et al.
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '107'
+citation:
+  us: 376 U.S. 681
+  sct: 84 S. Ct. 984
+  led: 12 L. Ed. 2d 23
+  lexis: 1964 U.S. LEXIS 1489
+dates:
+  argued: '1963-10-21'
+  decided: '1964-04-06'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10080, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U.S.C. § 402
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 85}
+  source: {code: 25}
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 19}
+  respondent_state: {code: 29}
+opinions:
+  majority_author: TCClark
+  majority_assigner: TCClark
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+  - AJGoldberg
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AJGoldberg
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AJGoldberg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

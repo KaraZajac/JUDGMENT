@@ -1,0 +1,84 @@
+id: 2002-085
+name: NIKE, INC., et al. v. MARC KASKY
+term: 2002
+chief: Rehnquist
+natural_court: 1607
+docket: 02-575
+citation:
+  us: 539 U.S. 654
+  sct: 123 S. Ct. 2554
+  led: 156 L. Ed. 2d 580
+  lexis: 2003 U.S. LEXIS 5015
+dates:
+  argued: '2003-04-23'
+  decided: '2003-06-26'
+decision:
+  type: per-curiam-argued
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90150, area: judicial-power}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 214}
+opinions:
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: DHSouter
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

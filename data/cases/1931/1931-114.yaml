@@ -1,0 +1,83 @@
+id: 1931-114
+name: MICHIGAN v. MICHIGAN TRUST CO., RECEIVER
+term: 1931
+chief: Hughes
+natural_court: 1103
+docket: '598'
+citation:
+  us: 286 U.S. 334
+  sct: 52 S. Ct. 512
+  led: 76 L. Ed. 1136
+  lexis: 1932 U.S. LEXIS 855
+dates:
+  argued: '1932-04-19'
+  decided: '1932-05-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 120030, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 82}
+  source: {code: 26}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 27}
+  respondent: {code: 102}
+opinions:
+  majority_author: BNCardozo
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

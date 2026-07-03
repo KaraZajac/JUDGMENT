@@ -1,0 +1,85 @@
+id: 1926-002
+name: MCCARDLE et al. v. INDIANAPOLIS WATER COMPANY
+term: 1926
+chief: Taft
+natural_court: 1005
+docket: '37'
+citation:
+  us: 272 U.S. 400
+  sct: 47 S. Ct. 144
+  led: 71 L. Ed. 316
+  lexis: 1926 U.S. LEXIS 10
+dates:
+  argued: '1926-04-16'
+  decided: '1926-11-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 166}
+  source: {code: 166}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 18}
+  respondent: {code: 122}
+admin_action: {agency: 117, state: 18}
+opinions:
+  majority_author: PButler
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LDBrandeis

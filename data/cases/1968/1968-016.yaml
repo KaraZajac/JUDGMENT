@@ -1,0 +1,80 @@
+id: 1968-016
+name: RECZNIK v. CITY OF LORAIN
+term: 1968
+chief: Warren
+natural_court: 1410
+docket: '323'
+citation:
+  us: 393 U.S. 166
+  sct: 89 S. Ct. 342
+  led: 21 L. Ed. 2d 317
+  lexis: 1968 U.S. LEXIS 278
+dates:
+  decided: '1968-11-18'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 3}
+  respondent_state: {code: 41}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: BRWhite
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true

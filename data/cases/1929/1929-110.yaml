@@ -1,0 +1,84 @@
+id: 1929-110
+name: NEW JERSEY BELL TELEPHONE COMPANY v. STATE BOARD OF TAXES AND ASSESSMENTS OF THE STATE OF NEW JERSEY
+term: 1929
+chief: Taft
+natural_court: 1005
+docket: '254'
+citation:
+  us: 280 U.S. 338
+  sct: 50 S. Ct. 111
+  led: 74 L. Ed. 463
+  lexis: 1930 U.S. LEXIS 754
+dates:
+  argued: '1929-11-25'
+  decided: '1930-01-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 35}
+  source: {code: 300, state: 35}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 205}
+  respondent: {code: 4}
+  respondent_state: {code: 35}
+admin_action: {agency: 117, state: 35}
+opinions:
+  majority_author: PButler
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  participated: false

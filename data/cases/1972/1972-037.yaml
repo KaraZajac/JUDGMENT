@@ -1,0 +1,89 @@
+id: 1972-037
+name: ALMOTA FARMERS ELEVATOR & WAREHOUSE CO. v. UNITED STATES
+term: 1972
+chief: Burger
+natural_court: 1504
+docket: 71-951
+citation:
+  us: 409 U.S. 470
+  sct: 93 S. Ct. 791
+  led: 35 L. Ed. 2d 1
+  lexis: 1973 U.S. LEXIS 138
+dates:
+  argued: '1972-10-18'
+  decided: '1973-01-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 211
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 128}
+  source: {code: 29}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 241}
+  respondent: {code: 27}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

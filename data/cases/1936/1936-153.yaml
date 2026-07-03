@@ -1,0 +1,81 @@
+id: 1936-153
+name: DUGAS v. AMERICAN SURETY CO.
+term: 1936
+chief: Hughes
+natural_court: 1103
+docket: '340'
+citation:
+  us: 300 U.S. 414
+  sct: 57 S. Ct. 515
+  led: 81 L. Ed. 720
+  lexis: 1937 U.S. LEXIS 76
+dates:
+  argued: '1937-01-13'
+  decided: '1937-03-29'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90470, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 75}
+  source: {code: 25}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 171}
+opinions:
+  majority_author: WVanDevanter
+  majority_assigner: WVanDevanter
+votes:
+- justice: CEHughes2
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  participated: false
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false

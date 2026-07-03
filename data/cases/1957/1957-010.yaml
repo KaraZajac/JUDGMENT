@@ -1,0 +1,87 @@
+id: 1957-010
+name: YATES v. UNITED STATES
+term: 1957
+chief: Warren
+natural_court: 1405
+docket: '2'
+citation:
+  us: 355 U.S. 66
+  sct: 78 S. Ct. 128
+  led: 2 L. Ed. 2d 95
+  lexis: 1957 U.S. LEXIS 133
+dates:
+  argued: '1956-10-19'
+  reargued: '1957-10-22'
+  decided: '1957-11-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10080, area: criminal-procedure}
+authority:
+- supervisory
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 51}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 254}
+  respondent: {code: 27}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: TCClark
+  majority_assigner: FFrankfurter
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true

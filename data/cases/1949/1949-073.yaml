@@ -1,0 +1,84 @@
+id: 1949-073
+name: INTERNATIONAL BROTHERHOOD OF TEAMSTERS, ETC. UNION, LOCAL 309, ET AL. v. HANKE ET AL., DOING BUSINESS AS ATLAS
+  AUTO REBUILD
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '309'
+citation:
+  us: 339 U.S. 470
+  sct: 70 S. Ct. 773
+  led: 94 L. Ed. 2d 995
+  lexis: 1950 U.S. LEXIS 2532
+dates:
+  argued: '1950-02-09'
+  decided: '1950-05-08'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 125}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TCClark
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SMinton
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

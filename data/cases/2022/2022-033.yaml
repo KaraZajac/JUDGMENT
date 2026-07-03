@@ -1,0 +1,86 @@
+id: 2022-033
+name: SANTOS-ZACARIA v. GARLAND
+term: 2022
+chief: Roberts
+natural_court: 1710
+docket: 21-1436
+citation:
+  us: 598 U.S. 411
+  sct: 143 S. Ct. 1103
+  led: 215 L. Ed. 2d 375
+  lexis: 2023 U.S. LEXIS 1891
+dates:
+  argued: '2023-01-17'
+  decided: '2023-05-11'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20110, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 8 U.S.C. 1252
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 25}
+  source: {code: 25}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 1}
+admin_action: {agency: 7}
+opinions:
+  majority_author: KBJackson
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: SAAlito
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: KBJackson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

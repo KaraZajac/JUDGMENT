@@ -1,0 +1,78 @@
+id: 1939-028
+name: BRUNO v. UNITED STATES
+term: 1939
+chief: Hughes
+natural_court: 1107
+docket: '300'
+citation:
+  us: 308 U.S. 287
+  sct: 60 S. Ct. 198
+  led: 84 L. Ed. 257
+  lexis: 1939 U.S. LEXIS 38
+dates:
+  argued: '1939-11-06'
+  decided: '1939-12-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 10510, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Volstead Act
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed-and-reversed-in-part
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,95 @@
+id: 1971-170
+name: FURMAN v. GEORGIA
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 69-5003
+citation:
+  us: 408 U.S. 238
+  sct: 92 S. Ct. 2726
+  led: 33 L. Ed. 2d 346
+  lexis: 1972 U.S. LEXIS 169
+dates:
+  argued: '1972-01-17'
+  decided: '1972-06-29'
+decision:
+  type: per-curiam-argued
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10130, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 221
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 13}
+  source: {code: 300, state: 13}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 13}
+opinions:
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WEBurger
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WEBurger

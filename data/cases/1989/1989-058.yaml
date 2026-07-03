@@ -1,0 +1,90 @@
+id: 1989-058
+name: NATIONAL LABOR RELATIONS BOARD v. CURTIN MATHESON SCIENTIFIC, INC.
+term: 1989
+chief: Rehnquist
+natural_court: 1603
+docket: 88-1685
+citation:
+  us: 494 U.S. 775
+  sct: 110 S. Ct. 1542
+  led: 108 L. Ed. 2d 801
+  lexis: 1990 U.S. LEXIS 2020
+dates:
+  argued: '1989-12-04'
+  decided: '1990-04-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70070, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 25}
+  source: {code: 25}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 151}
+admin_action: {agency: 82}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia

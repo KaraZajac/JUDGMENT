@@ -1,0 +1,90 @@
+id: 2011-066
+name: SALAZAR v. RAMAH NAVAJO CHAPTER
+term: 2011
+chief: Roberts
+natural_court: 1704
+docket: 11-551
+citation:
+  us: 567 U.S. 182
+  sct: 132 S. Ct. 2181
+  led: 183 L. Ed. 2d 186
+  lexis: 2012 U.S. LEXIS 4656
+dates:
+  argued: '2012-04-18'
+  decided: '2012-06-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20150, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 25-450
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 93}
+  source: {code: 30}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 326}
+  respondent: {code: 170}
+admin_action: {agency: 26}
+opinions:
+  majority_author: SSotomayor
+  majority_assigner: AScalia
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: SGBreyer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: SSotomayor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

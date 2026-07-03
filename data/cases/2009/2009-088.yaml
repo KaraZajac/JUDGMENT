@@ -1,0 +1,88 @@
+id: 2009-088
+name: FREE ENTERPRISE FUND AND BECKSTEAD AND WATTS, LLP v. PUBLIC COMPANY ACCOUNTING OVERSIGHT BOARD et al.
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 08-861
+citation:
+  us: 561 U.S. 477
+  sct: 130 S. Ct. 3138
+  led: 177 L. Ed. 2d 706
+  lexis: 2010 U.S. LEXIS 5524
+dates:
+  argued: '2009-12-07'
+  decided: '2010-06-28'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: constitution
+  supp: 131
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 216}
+  respondent: {code: 405}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SGBreyer

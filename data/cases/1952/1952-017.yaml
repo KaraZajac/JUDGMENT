@@ -1,0 +1,83 @@
+id: 1952-017
+name: UNITED STATES v. CALTEX (PHILIPPINES), INC. ET AL.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '16'
+citation:
+  us: 344 U.S. 149
+  sct: 73 S. Ct. 200
+  led: 97 L. Ed. 2d 157
+  lexis: 1952 U.S. LEXIS 2631
+dates:
+  argued: '1952-10-20'
+  decided: '1952-12-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 211
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 198}
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

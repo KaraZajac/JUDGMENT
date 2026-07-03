@@ -1,0 +1,86 @@
+id: 2009-075
+name: WILLIAM G. SCHWAB v. NADEJDA REILLY
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 08-538
+citation:
+  us: 560 U.S. 770
+  sct: 130 S. Ct. 2652
+  led: 177 L. Ed. 2d 234
+  lexis: 2010 U.S. LEXIS 4974
+dates:
+  argued: '2009-11-03'
+  decided: '2010-06-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 110}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 114}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JPStevens
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true

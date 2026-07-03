@@ -1,0 +1,91 @@
+id: 1986-023
+name: WRIGHT et al. v. CITY OF ROANOKE REDEVELOPMENT AND HOUSING AUTHORITY
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-5915
+citation:
+  us: 479 U.S. 418
+  sct: 107 S. Ct. 766
+  led: 93 L. Ed. 2d 781
+  lexis: 1987 U.S. LEXIS 288
+dates:
+  argued: '1986-10-06'
+  decided: '1987-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90290, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 42 U.S.C. § 1437
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 127}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 241}
+  respondent: {code: 18}
+  respondent_state: {code: 55}
+admin_action: {agency: 64}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor

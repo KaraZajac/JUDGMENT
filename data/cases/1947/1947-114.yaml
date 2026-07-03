@@ -1,0 +1,93 @@
+id: 1947-114
+name: LUDECKE v. WATKINS, DISTRICT DIRECTOR OF IMMIGRATION
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '723'
+citation:
+  us: 335 U.S. 160
+  sct: 68 S. Ct. 1429
+  led: 92 L. Ed. 2d 1881
+  lexis: 1948 U.S. LEXIS 1935
+dates:
+  argued: '1948-05-03'
+  decided: '1948-06-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20110, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 207
+authority:
+- statutory-construction
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96, state: 37}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 368}
+admin_action: {agency: 27}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+  - WODouglas
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+  - WODouglas
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

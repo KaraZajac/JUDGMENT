@@ -1,0 +1,91 @@
+id: 1971-126
+name: KIRBY v. ILLINOIS
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 70-5061
+citation:
+  us: 406 U.S. 682
+  sct: 92 S. Ct. 1877
+  led: 32 L. Ed. 2d 411
+  lexis: 1972 U.S. LEXIS 49
+dates:
+  argued: '1971-11-11'
+  reargued: '1972-03-20'
+  decided: '1972-06-07'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10150, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 214
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 301, state: 17}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 110}
+  respondent: {code: 28}
+  respondent_state: {code: 17}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: PStewart
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WEBurger
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

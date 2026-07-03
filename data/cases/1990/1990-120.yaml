@@ -1,0 +1,92 @@
+id: 1990-120
+name: COHEN v. COWLES MEDIA CO., DBA MINNEAPOLIS STAR & TRIBUNE CO., et al.
+term: 1990
+chief: Rehnquist
+natural_court: 1604
+docket: 90-634
+citation:
+  us: 501 U.S. 663
+  sct: 111 S. Ct. 2513
+  led: 115 L. Ed. 2d 586
+  lexis: 1991 U.S. LEXIS 3639
+dates:
+  argued: '1991-03-27'
+  decided: '1991-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 28}
+  source: {code: 300, state: 28}
+  disposition: affirmed-and-reversed-in-part
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 190}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+  - DHSouter
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun

@@ -1,0 +1,81 @@
+id: 1950-045
+name: UNITED STATES v. YELLOW CAB CO.
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '218'
+citation:
+  us: 340 U.S. 543
+  sct: 71 S. Ct. 399
+  led: 95 L. Ed. 2d 523
+  lexis: 1951 U.S. LEXIS 2364
+dates:
+  argued: '1950-12-06'
+  decided: '1951-02-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80060, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 218
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 109, state: 45}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 121}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: FMVinson
+votes:
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true

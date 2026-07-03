@@ -1,0 +1,73 @@
+id: 1922-218
+name: COMMONWEALTH OF PENNSYLVANIA v. STATE OF WEST VIRGINIA
+term: 1922
+chief: Taft
+natural_court: 1004
+docket: 15 ORIG
+citation:
+  us: 262 U.S. 553
+  sct: 43 S. Ct. 658
+  led: 67 L. Ed. 1117
+  lexis: 1923 U.S. LEXIS 2670
+dates:
+  argued: '1921-12-08'
+  reargued: '1923-04-20'
+  decided: '1923-06-11'
+decision:
+  type: opinion-of-the-court
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 110020, area: interstate-relations}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 45}
+  respondent: {code: 28}
+  respondent_state: {code: 57}
+opinions:
+  majority_author: WVanDevanter
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JCMcReynolds
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: LDBrandeis
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  in_majority: true
+- justice: PButler
+  vote: majority
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  in_majority: true

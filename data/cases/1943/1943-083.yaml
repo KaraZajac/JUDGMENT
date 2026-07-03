@@ -1,0 +1,86 @@
+id: 1943-083
+name: POLLOCK v. WILLIAMS, SHERIFF
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '345'
+citation:
+  us: 322 U.S. 4
+  sct: 64 S. Ct. 792
+  led: 88 L. Ed. 1095
+  lexis: 1944 U.S. LEXIS 1304
+dates:
+  argued: '1944-02-10'
+  decided: '1944-04-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20075, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 226
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 12}
+  source: {code: 300, state: 12}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 19}
+  respondent_state: {code: 12}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: OJRoberts
+votes:
+- justice: HFStone
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

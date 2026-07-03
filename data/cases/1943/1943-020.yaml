@@ -1,0 +1,86 @@
+id: 1943-020
+name: MERCHANTS NATIONAL BANK OF BOSTON, EXECUTOR, v. COMMISSIONER OF INTERNAL REVENUE
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '30'
+citation:
+  us: 320 U.S. 256
+  sct: 64 S. Ct. 108
+  led: 88 L. Ed. 35
+  lexis: 1943 U.S. LEXIS 1226
+dates:
+  argued: '1943-10-19'
+  decided: '1943-11-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 21}
+  source: {code: 21}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 369}
+admin_action: {agency: 69}
+opinions:
+  majority_author: WBRutledge
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: WBRutledge
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

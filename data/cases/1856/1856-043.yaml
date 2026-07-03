@@ -1,0 +1,86 @@
+id: 1856-043
+name: JOSIAH WALTON, ADMINISTRATOR OF PRISCILLA COTTON, et al., COMPLAINANTS AND PLAINTIFFS IN ERROR, v. ALLEN COTTON,
+  NOAH COTTON, AND WILLIAM E. JONES
+term: 1856
+chief: Taney
+natural_court: 510
+citation:
+  us: 60 U.S. 355
+  led: 15 L. Ed. 658
+  lexis: 1856 U.S. LEXIS 459
+dates:
+  argued: '1857-02-16'
+  decided: '1857-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20170, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Pension Acts of June 4, 1832 and July 4, 1836
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 166}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRCurtis
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRCurtis
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JACampbell
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRCurtis

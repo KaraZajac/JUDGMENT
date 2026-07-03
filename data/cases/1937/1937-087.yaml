@@ -1,0 +1,85 @@
+id: 1937-087
+name: UNITED GAS PUBLIC SERVICE CO. v. TEXAS et al.
+term: 1937
+chief: Hughes
+natural_court: 1105
+docket: '13'
+citation:
+  us: 303 U.S. 123
+  sct: 58 S. Ct. 483
+  led: 82 L. Ed. 702
+  lexis: 1938 U.S. LEXIS 228
+dates:
+  argued: '1937-10-15'
+  reargued: '1937-12-14'
+  decided: '1938-02-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 301, state: 51}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 198}
+  respondent: {code: 4}
+  respondent_state: {code: 51}
+admin_action: {agency: 117, state: 51}
+opinions:
+  majority_author: CEHughes2
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  participated: false

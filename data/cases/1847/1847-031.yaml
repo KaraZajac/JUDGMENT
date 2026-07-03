@@ -1,0 +1,90 @@
+id: 1847-031
+name: NATHANIEL S. WARING AND PETER DALMAN, OWNERS OF THE STEAMBOAT DE SOTO, HER TACKLE, APPAREL, AND FURNITURE,
+  APPELLANTS, v. THOMAS CLARKE, LATE MASTER OF THE STEAMBOAT LUDA, AND AGENT OF P. T. MARIONOUX AND T. J. ABEL,
+  OWNERS OF SAID STEAMBOAT L
+term: 1847
+chief: Taney
+natural_court: 508
+citation:
+  us: 46 U.S. 441
+  led: 12 L. Ed. 226
+  lexis: 1847 U.S. LEXIS 321
+dates:
+  argued: '1846-12-17'
+  reargued: '1846-12-21'
+  decided: '1847-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 5 Statutes at Large 304
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 75}
+  source: {code: 415}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 116}
+opinions:
+  majority_author: JMWayne
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LWoodbury
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LWoodbury
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RCGrier
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - LWoodbury

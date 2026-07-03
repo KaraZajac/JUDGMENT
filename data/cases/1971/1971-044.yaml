@@ -1,0 +1,81 @@
+id: 1971-044
+name: TRBOVICH v. UNITED MINE WORKERS OF AMERICA et al.
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 71-119
+citation:
+  us: 404 U.S. 528
+  sct: 92 S. Ct. 630
+  led: 30 L. Ed. 2d 686
+  lexis: 1972 U.S. LEXIS 148
+dates:
+  argued: '1971-11-18'
+  decided: '1972-01-17'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 70060, area: unions}
+law:
+  type: federal-statute
+  supp: 351
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 247}
+  respondent: {code: 249}
+admin_action: {agency: 71}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  participated: false

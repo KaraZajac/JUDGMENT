@@ -1,0 +1,87 @@
+id: 1932-128
+name: LOUIS K. LIGGETT CO. et al. v. LEE, COMPTROLLER, et al.
+term: 1932
+chief: Hughes
+natural_court: 1103
+docket: '301'
+citation:
+  us: 288 U.S. 517
+  sct: 53 S. Ct. 481
+  led: 77 L. Ed. 929
+  lexis: 1933 U.S. LEXIS 51
+dates:
+  argued: '1933-01-12'
+  decided: '1933-03-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 12}
+  source: {code: 300, state: 12}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 8}
+  respondent_state: {code: 12}
+admin_action: {agency: 117, state: 12}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BNCardozo
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,85 @@
+id: 1937-163
+name: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. BASHFORD
+term: 1937
+chief: Hughes
+natural_court: 1104
+docket: '33'
+citation:
+  us: 302 U.S. 454
+  sct: 58 S. Ct. 307
+  led: 82 L. Ed. 367
+  lexis: 1938 U.S. LEXIS 86
+dates:
+  argued: '1937-10-21'
+  reargued: '1937-12-15'
+  decided: '1938-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: putative-conflict
+lower_court:
+  origin: {code: 23}
+  source: {code: 23}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 240}
+admin_action: {agency: 69}
+opinions:
+  majority_author: LDBrandeis
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: PButler
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  participated: false
+- justice: BNCardozo
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true

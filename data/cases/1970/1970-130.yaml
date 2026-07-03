@@ -1,0 +1,94 @@
+id: 1970-130
+name: PALMER et al. v. THOMPSON, MAYOR OF THE CITY OF JACKSON, et al.
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '107'
+citation:
+  us: 403 U.S. 217
+  sct: 91 S. Ct. 1940
+  led: 29 L. Ed. 2d 438
+  lexis: 1971 U.S. LEXIS 27
+dates:
+  argued: '1970-12-14'
+  decided: '1971-06-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20040, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 85}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 222}
+  respondent: {code: 3}
+  respondent_state: {code: 29}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+  - BRWhite
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: WEBurger
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

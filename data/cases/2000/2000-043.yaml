@@ -1,0 +1,91 @@
+id: 2000-043
+name: JAMES ALEXANDER, DIRECTOR, ALABAMA DEPARTMENT OF PUBLIC SAFETY, et al. v. MARTHA SANDOVAL, INDIVIDUALLY AND
+  ON BEHALF OF ALL OTHERS SIMILARLY SITUATED
+term: 2000
+chief: Rehnquist
+natural_court: 1607
+docket: 99-1908
+citation:
+  us: 532 U.S. 275
+  sct: 121 S. Ct. 1511
+  led: 149 L. Ed. 2d 517
+  lexis: 2001 U.S. LEXIS 3367
+dates:
+  argued: '2001-01-16'
+  decided: '2001-04-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90290, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 387
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 41}
+  source: {code: 31}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 1}
+  respondent: {code: 106}
+admin_action: {agency: 27}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens

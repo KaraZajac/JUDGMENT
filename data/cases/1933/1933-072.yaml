@@ -1,0 +1,88 @@
+id: 1933-072
+name: SNYDER v. MASSACHUSETTS
+term: 1933
+chief: Hughes
+natural_court: 1103
+docket: '241'
+citation:
+  us: 291 U.S. 97
+  sct: 54 S. Ct. 330
+  led: 78 L. Ed. 674
+  lexis: 1934 U.S. LEXIS 493
+dates:
+  argued: '1933-11-07'
+  decided: '1934-01-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40010, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 26}
+  source: {code: 302, state: 26}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 26}
+opinions:
+  majority_author: BNCardozo
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: GSutherland
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: PButler
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BNCardozo
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

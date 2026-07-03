@@ -1,0 +1,87 @@
+id: 1939-042
+name: UNITED STATES et al. v. AMERICAN TRUCKING ASSOCIATIONS, INC. et al.
+term: 1939
+chief: Hughes
+natural_court: 1108
+docket: '713'
+citation:
+  us: 310 U.S. 534
+  sct: 60 S. Ct. 1059
+  led: 84 L. Ed. 1345
+  lexis: 1940 U.S. LEXIS 1049
+dates:
+  argued: '1940-04-26'
+  decided: '1940-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80240, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 352
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 249}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: SFReed
+  majority_assigner: HLBlack
+votes:
+- justice: CEHughes2
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true

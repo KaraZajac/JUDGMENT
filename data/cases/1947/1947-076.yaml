@@ -1,0 +1,77 @@
+id: 1947-076
+name: UNITED STATES v. GRIFFITH ET AL.
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '64'
+citation:
+  us: 334 U.S. 100
+  sct: 68 S. Ct. 941
+  led: 92 L. Ed. 2d 1236
+  lexis: 1948 U.S. LEXIS 2833
+dates:
+  argued: '1947-12-15'
+  decided: '1948-05-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 107, state: 42}
+  source: {code: 107, state: 42}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 242}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  participated: false
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

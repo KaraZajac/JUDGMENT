@@ -1,0 +1,89 @@
+id: 1955-084
+name: COMMISSIONER OF INTERNAL REVENUE v. LOBUE
+term: 1955
+chief: Warren
+natural_court: 1403
+docket: '373'
+citation:
+  us: 351 U.S. 243
+  sct: 76 S. Ct. 800
+  led: 100 L. Ed. 2d 1142
+  lexis: 1956 U.S. LEXIS 1793
+dates:
+  argued: '1956-03-06'
+  decided: '1956-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 9}
+  source: {code: 23}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 240}
+admin_action: {agency: 69}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true

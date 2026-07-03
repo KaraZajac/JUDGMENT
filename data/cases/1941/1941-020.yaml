@@ -1,0 +1,90 @@
+id: 1941-020
+name: EDWARDS v. CALIFORNIA
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '17'
+citation:
+  us: 314 U.S. 160
+  sct: 62 S. Ct. 164
+  led: 86 L. Ed. 119
+  lexis: 1941 U.S. LEXIS 1143
+dates:
+  argued: '1941-04-28'
+  reargued: '1941-10-21'
+  decided: '1941-11-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 301, state: 6}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 6}
+admin_action: {agency: 117, state: 6}
+opinions:
+  majority_author: JFByrnes
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: JFByrnes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

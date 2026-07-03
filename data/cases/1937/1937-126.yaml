@@ -1,0 +1,80 @@
+id: 1937-126
+name: SOUTH CAROLINA STATE HIGHWAY DEPARTMENT et al. v. BARNWELL BROTHERS, INC., et al.
+term: 1937
+chief: Hughes
+natural_court: 1105
+docket: '161'
+citation:
+  us: 303 U.S. 177
+  sct: 58 S. Ct. 510
+  led: 82 L. Ed. 734
+  lexis: 1938 U.S. LEXIS 360
+dates:
+  argued: '1938-01-04'
+  decided: '1938-02-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 155}
+  source: {code: 155}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 7}
+  petitioner_state: {code: 48}
+  respondent: {code: 245}
+admin_action: {agency: 117, state: 48}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HFStone
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  participated: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  participated: false

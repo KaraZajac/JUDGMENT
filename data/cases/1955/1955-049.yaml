@@ -1,0 +1,87 @@
+id: 1955-049
+name: PENNSYLVANIA v. NELSON
+term: 1955
+chief: Warren
+natural_court: 1403
+docket: '10'
+citation:
+  us: 350 U.S. 497
+  sct: 76 S. Ct. 477
+  led: 100 L. Ed. 2d 640
+  lexis: 1956 U.S. LEXIS 1730
+dates:
+  argued: '1955-11-15'
+  decided: '1956-04-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30060, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 369
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 45}
+  respondent: {code: 100}
+opinions:
+  majority_author: EWarren
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SMinton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed

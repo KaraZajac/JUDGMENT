@@ -1,0 +1,82 @@
+id: 1961-065
+name: BECK v. WASHINGTON
+term: 1961
+chief: Warren
+natural_court: 1407
+docket: '40'
+citation:
+  us: 369 U.S. 541
+  sct: 82 S. Ct. 955
+  led: 8 L. Ed. 2d 98
+  lexis: 1962 U.S. LEXIS 2210
+dates:
+  argued: '1961-11-14'
+  decided: '1962-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 10260, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 56}
+opinions:
+  majority_author: TCClark
+  majority_assigner: TCClark
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  participated: false
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  participated: false

@@ -1,0 +1,74 @@
+id: 1876-133
+name: INMAN STEAMSHIP COMPANY v. TINKER
+term: 1876
+chief: Waite
+natural_court: 701
+docket: '937'
+citation:
+  us: 94 U.S. 238
+  led: 24 L. Ed. 118
+  lexis: 1876 U.S. LEXIS 1854
+dates:
+  decided: '1877-03-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 159}
+  respondent: {code: 19}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  participated: false
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true

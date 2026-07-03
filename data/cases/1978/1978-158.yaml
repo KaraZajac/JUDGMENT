@@ -1,0 +1,92 @@
+id: 1978-158
+name: BELLOTTI, ATTORNEY GENERAL OF MASSACHUSETTS, et al. v. BAIRD et al.
+term: 1978
+chief: Burger
+natural_court: 1506
+docket: 78-329
+citation:
+  us: 443 U.S. 622
+  sct: 99 S. Ct. 3035
+  led: 61 L. Ed. 2d 797
+  lexis: 1979 U.S. LEXIS 17
+dates:
+  argued: '1979-02-27'
+  decided: '1979-07-02'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 50020, area: privacy}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 80}
+  source: {code: 80}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 26}
+  respondent: {code: 175}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: WJBrennan
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: LFPowell
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

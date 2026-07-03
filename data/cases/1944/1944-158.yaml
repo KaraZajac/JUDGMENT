@@ -1,0 +1,82 @@
+id: 1944-158
+name: UNITED STATES v. FRANKFORT DISTILLERIES, INC.
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '523'
+citation:
+  us: 324 U.S. 293
+  sct: 65 S. Ct. 661
+  led: 89 L. Ed. 951
+  lexis: 1945 U.S. LEXIS 2811
+dates:
+  argued: '1945-02-08'
+  decided: '1945-03-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 52}
+  source: {code: 30}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 105}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: OJRoberts
+votes:
+- justice: HFStone
+  participated: false
+- justice: OJRoberts
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

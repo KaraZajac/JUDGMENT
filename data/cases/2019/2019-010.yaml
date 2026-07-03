@@ -1,0 +1,89 @@
+id: 2019-010
+name: BARTON v. BARR
+term: 2019
+chief: Roberts
+natural_court: 1707
+docket: 18-725
+citation:
+  sct: 140 S. Ct. 1442
+  led: 206 L. Ed. 2d 682
+  lexis: 2020 U.S. LEXIS 2409
+dates:
+  argued: '2019-11-04'
+  decided: '2020-04-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20310, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 8 U.S.C. 1229
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 30}
+  source: {code: 31}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 327}
+admin_action: {agency: 7}
+opinions:
+  majority_author: BMKavanaugh
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

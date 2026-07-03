@@ -1,0 +1,87 @@
+id: 1954-072
+name: BELL v. UNITED STATES
+term: 1954
+chief: Warren
+natural_court: 1403
+docket: '468'
+citation:
+  us: 349 U.S. 81
+  sct: 75 S. Ct. 620
+  led: 99 L. Ed. 2d 905
+  lexis: 1955 U.S. LEXIS 864
+dates:
+  argued: '1955-04-21'
+  decided: '1955-05-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10500, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U.S.C. § 2421
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 116}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SMinton
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SMinton
+- justice: SMinton
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

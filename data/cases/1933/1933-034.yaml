@@ -1,0 +1,82 @@
+id: 1933-034
+name: UNITED STATES v. MURDOCK
+term: 1933
+chief: Hughes
+natural_court: 1103
+docket: '88'
+citation:
+  us: 290 U.S. 389
+  sct: 54 S. Ct. 223
+  led: 78 L. Ed. 381
+  lexis: 1933 U.S. LEXIS 470
+dates:
+  argued: '1933-11-06'
+  decided: '1933-12-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10220, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 67}
+  source: {code: 27}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 240}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  direction: conservative
+  in_majority: false

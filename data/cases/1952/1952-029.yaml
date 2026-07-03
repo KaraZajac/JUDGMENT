@@ -1,0 +1,90 @@
+id: 1952-029
+name: KING ET AL., CONSTITUTING THE FLORIDA RAILROAD AND PUBLIC UTILITIES COMMISSION, v. UNITED STATES ET AL.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '9'
+citation:
+  us: 344 U.S. 254
+  sct: 73 S. Ct. 259
+  led: 97 L. Ed. 2d 301
+  lexis: 1952 U.S. LEXIS 2649
+dates:
+  argued: '1952-10-15'
+  decided: '1952-12-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 57, state: 12}
+  source: {code: 57, state: 12}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 12}
+  respondent: {code: 27}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HHBurton
+  majority_assigner: SFReed
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas

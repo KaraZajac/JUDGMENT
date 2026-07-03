@@ -1,0 +1,84 @@
+id: 1974-029
+name: NORTH GEORGIA FINISHING, INC. v. DI-CHEM, INC.
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-1121
+citation:
+  us: 419 U.S. 601
+  sct: 95 S. Ct. 719
+  led: 42 L. Ed. 2d 751
+  lexis: 1975 U.S. LEXIS 24
+dates:
+  argued: '1974-11-18'
+  decided: '1975-01-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20100, area: civil-rights}
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 13}
+  source: {code: 300, state: 13}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 135}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LFPowell
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HABlackmun

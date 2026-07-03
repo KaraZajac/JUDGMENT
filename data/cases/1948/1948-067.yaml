@@ -1,0 +1,86 @@
+id: 1948-067
+name: WADE v. HUNTER, WARDEN
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '427'
+citation:
+  us: 336 U.S. 684
+  sct: 69 S. Ct. 834
+  led: 93 L. Ed. 2d 974
+  lexis: 1949 U.S. LEXIS 2499
+dates:
+  argued: '1949-03-07'
+  decided: '1949-04-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10170, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 206
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 72, state: 20}
+  source: {code: 30}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 126}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

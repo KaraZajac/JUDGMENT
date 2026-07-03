@@ -1,0 +1,84 @@
+id: 2002-037
+name: A. ELLIOTT ARCHER, ET UX. v. ARLENE L. WARNER
+term: 2002
+chief: Rehnquist
+natural_court: 1607
+docket: 01-1418
+citation:
+  us: 538 U.S. 314
+  sct: 123 S. Ct. 1462
+  led: 155 L. Ed. 2d 454
+  lexis: 2003 U.S. LEXIS 2498
+dates:
+  argued: '2003-01-13'
+  decided: '2003-03-31'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 99}
+  source: {code: 24}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 123}
+  respondent: {code: 114}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

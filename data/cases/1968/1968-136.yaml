@@ -1,0 +1,82 @@
+id: 1968-136
+name: CHIMEL v. CALIFORNIA
+term: 1968
+chief: Warren
+natural_court: 1411
+docket: '770'
+citation:
+  us: 395 U.S. 752
+  sct: 89 S. Ct. 2034
+  led: 23 L. Ed. 2d 685
+  lexis: 1969 U.S. LEXIS 1166
+dates:
+  argued: '1969-03-27'
+  decided: '1969-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 110}
+  respondent: {code: 28}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: PStewart
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true

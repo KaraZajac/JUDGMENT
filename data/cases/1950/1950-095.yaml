@@ -1,0 +1,86 @@
+id: 1950-095
+name: NATIONAL LABOR RELATIONS BOARD v. DENVER BUILDING & CONSTRUCTION TRADES COUNCIL ET AL.
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '393'
+citation:
+  us: 341 U.S. 675
+  sct: 71 S. Ct. 943
+  led: 95 L. Ed. 2d 1284
+  lexis: 1951 U.S. LEXIS 2409
+dates:
+  argued: '1951-02-27'
+  decided: '1951-06-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 70150, area: unions}
+law:
+  type: federal-statute
+  supp: 350
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: vacated
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 249}
+admin_action: {agency: 82}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

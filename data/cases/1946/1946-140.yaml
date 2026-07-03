@@ -1,0 +1,81 @@
+id: 1946-140
+name: UNITED STATES v. NATIONAL LEAD CO. ET AL.
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '89'
+citation:
+  us: 332 U.S. 319
+  sct: 67 S. Ct. 1634
+  led: 91 L. Ed. 2077
+  lexis: 1947 U.S. LEXIS 2925
+dates:
+  argued: '1947-02-03'
+  decided: '1947-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96, state: 37}
+  source: {code: 96, state: 37}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 184}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: WODouglas
+votes:
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  participated: false
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

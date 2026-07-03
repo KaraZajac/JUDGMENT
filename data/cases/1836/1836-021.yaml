@@ -1,0 +1,65 @@
+id: 1836-021
+name: THE MAYOR, ALDERMEN AND INHABITANTS OF NEW ORLEANS, APPELLANTS v. THE UNITED STATES
+term: 1836
+chief: Marshall
+natural_court: 410
+citation:
+  us: 35 U.S. 662
+  led: 9 L. Ed. 573
+  lexis: 1836 U.S. LEXIS 468
+dates:
+  argued: '1836-01-22'
+  decided: '1836-02-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, March 3, 1807
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 75}
+  source: {code: 75}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 22}
+  respondent: {code: 27}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: JStory
+votes:
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true

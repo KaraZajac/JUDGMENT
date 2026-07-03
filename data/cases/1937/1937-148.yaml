@@ -1,0 +1,82 @@
+id: 1937-148
+name: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. MOUNTAIN PRODUCERS CORPORATION
+term: 1937
+chief: Hughes
+natural_court: 1105
+docket: '600'
+citation:
+  us: 303 U.S. 376
+  sct: 58 S. Ct. 623
+  led: 82 L. Ed. 907
+  lexis: 1938 U.S. LEXIS 415
+dates:
+  argued: '1938-02-10'
+  decided: '1938-03-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: putative-conflict
+lower_court:
+  origin: {code: 30}
+  source: {code: 30}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 122}
+admin_action: {agency: 69}
+opinions:
+  majority_author: CEHughes2
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PButler
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  participated: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  participated: false

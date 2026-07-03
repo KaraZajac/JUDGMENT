@@ -1,0 +1,83 @@
+id: 1949-072
+name: HUGHES ET AL. v. SUPERIOR COURT OF CALIFORNIA FOR CONTRA COSTA COUNTY
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '61'
+citation:
+  us: 339 U.S. 460
+  sct: 70 S. Ct. 718
+  led: 94 L. Ed. 2d 985
+  lexis: 1950 U.S. LEXIS 2561
+dates:
+  argued: '1949-11-08'
+  decided: '1950-05-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 30150, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 223}
+  respondent: {code: 6}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: SFReed
+votes:
+- justice: SMinton
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

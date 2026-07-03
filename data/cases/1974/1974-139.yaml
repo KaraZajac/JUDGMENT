@@ -1,0 +1,88 @@
+id: 1974-139
+name: MUNIZ et al. v. HOFFMAN, REGIONAL DIRECTOR, NATIONAL LABOR RELATIONS BOARD
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-1924
+citation:
+  us: 422 U.S. 454
+  sct: 95 S. Ct. 2178
+  led: 45 L. Ed. 2d 319
+  lexis: 1975 U.S. LEXIS 112
+dates:
+  argued: '1975-03-24'
+  decided: '1975-06-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10580, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 215
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 50}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 382}
+admin_action: {agency: 82}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

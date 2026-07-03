@@ -1,0 +1,86 @@
+id: 1944-121
+name: GEMSCO, INC. et al. v. WALLING, ADMINISTRATOR OF THE WAGE AND HOUR DIVISION, U.S. DEPARTMENT OF LABOR
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '368'
+citation:
+  us: 324 U.S. 244
+  sct: 65 S. Ct. 605
+  led: 89 L. Ed. 921
+  lexis: 1945 U.S. LEXIS 2702
+dates:
+  argued: '1944-12-05'
+  decided: '1945-02-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 70040, area: unions}
+law:
+  type: federal-statute
+  supp: 334
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 371}
+admin_action: {agency: 71}
+opinions:
+  majority_author: WBRutledge
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,88 @@
+id: 1997-019
+name: CHRISTOPHER H. LUNDING, ET UX. v. NEW YORK TAX APPEALS TRIBUNAL et al.
+term: 1997
+chief: Rehnquist
+natural_court: 1607
+docket: 96-1462
+citation:
+  us: 522 U.S. 287
+  sct: 118 S. Ct. 766
+  led: 139 L. Ed. 2d 717
+  lexis: 1998 U.S. LEXIS 637
+dates:
+  argued: '1997-11-05'
+  decided: '1998-01-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 144
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: state-court-conflict
+lower_court:
+  origin: {code: 301, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 193}
+  respondent: {code: 4}
+  respondent_state: {code: 37}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: DHSouter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true

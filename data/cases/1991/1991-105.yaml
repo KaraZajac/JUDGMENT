@@ -1,0 +1,93 @@
+id: 1991-105
+name: RAV v. CITY OF ST. PAUL, MINNESOTA
+term: 1991
+chief: Rehnquist
+natural_court: 1605
+docket: 90-7675
+citation:
+  us: 505 U.S. 377
+  sct: 112 S. Ct. 2538
+  led: 120 L. Ed. 2d 305
+  lexis: 1992 U.S. LEXIS 3863
+dates:
+  argued: '1991-12-04'
+  decided: '1992-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 30150, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 28}
+  source: {code: 300, state: 28}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 175}
+  respondent: {code: 3}
+  respondent_state: {code: 28}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: HABlackmun
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: SDOConnor
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true

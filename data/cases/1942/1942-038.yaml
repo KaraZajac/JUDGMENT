@@ -1,0 +1,93 @@
+id: 1942-038
+name: BURFORD et al. v. SUN OIL CO. et al.
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '495'
+citation:
+  us: 319 U.S. 315
+  sct: 63 S. Ct. 1098
+  led: 87 L. Ed. 1424
+  lexis: 1943 U.S. LEXIS 1103
+dates:
+  argued: '1943-02-08'
+  reargued: '1943-04-14'
+  decided: '1943-05-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90090, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 122}
+  source: {code: 25}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 51}
+  respondent: {code: 198}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: OJRoberts
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true

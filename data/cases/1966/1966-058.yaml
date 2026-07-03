@@ -1,0 +1,87 @@
+id: 1966-058
+name: VACA et al. v. SIPES, ADMINISTRATOR
+term: 1966
+chief: Warren
+natural_court: 1409
+docket: '114'
+citation:
+  us: 386 U.S. 171
+  sct: 87 S. Ct. 903
+  led: 17 L. Ed. 2d 842
+  lexis: 1967 U.S. LEXIS 2873
+dates:
+  argued: '1966-11-17'
+  decided: '1967-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 70060, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 247}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AFortas
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AFortas
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

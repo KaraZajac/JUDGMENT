@@ -1,0 +1,89 @@
+id: 1982-034
+name: JEFFERSON COUNTY PHARMACEUTICAL ASSOCIATION, INC. v. ABBOTT LABORATORIES et al.
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 81-827
+citation:
+  us: 460 U.S. 150
+  sct: 103 S. Ct. 1011
+  led: 74 L. Ed. 2d 882
+  lexis: 1983 U.S. LEXIS 18
+dates:
+  argued: '1982-11-08'
+  decided: '1983-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 364
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 42}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 144}
+  respondent: {code: 143}
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

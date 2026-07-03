@@ -1,0 +1,88 @@
+id: 2004-008
+name: JOHN F. KOWALSKI, JUDGE, 26TH JUDICIAL CIRCUIT COURT OF MICHIGAN, et al. v. JOHN C. TESMER, et al.
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 03-407
+citation:
+  us: 543 U.S. 125
+  sct: 125 S. Ct. 564
+  led: 160 L. Ed. 2d 519
+  lexis: 2004 U.S. LEXIS 8273
+dates:
+  argued: '2004-10-04'
+  decided: '2004-12-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90240, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 81}
+  source: {code: 26}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 16}
+  petitioner_state: {code: 27}
+  respondent: {code: 111}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true

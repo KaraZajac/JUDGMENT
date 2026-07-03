@@ -1,0 +1,89 @@
+id: 1982-064
+name: CITY OF LOS ANGELES v. LYONS
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 81-1064
+citation:
+  us: 461 U.S. 95
+  sct: 103 S. Ct. 1660
+  led: 75 L. Ed. 2d 675
+  lexis: 1983 U.S. LEXIS 152
+dates:
+  argued: '1982-11-02'
+  decided: '1983-04-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90240, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 6}
+  respondent: {code: 208}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,86 @@
+id: 1863-058
+name: THE FOSSAT OR QUICKSILVER MINE CASE
+term: 1863
+chief: Taney
+natural_court: 515
+citation:
+  us: 69 U.S. 649
+  led: 17 L. Ed. 739
+  lexis: 1864 U.S. LEXIS 457
+dates:
+  argued: '1864-02-23'
+  decided: '1864-04-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 1
+issue: {code: 90380, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Act of congress, June 14, 1860
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 50}
+  source: {code: 50}
+  disposition: modified
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 231}
+admin_action: {agency: 123}
+opinions:
+  majority_author: SNelson
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

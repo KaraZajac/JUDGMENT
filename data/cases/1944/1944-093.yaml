@@ -1,0 +1,93 @@
+id: 1944-093
+name: NORTH CAROLINA et al. v. UNITED STATES et al.
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '560'
+citation:
+  us: 325 U.S. 507
+  sct: 65 S. Ct. 1260
+  led: 89 L. Ed. 1760
+  lexis: 1945 U.S. LEXIS 2638
+dates:
+  argued: '1945-04-23'
+  decided: '1945-06-11'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80040, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 98}
+  source: {code: 98}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 38}
+  respondent: {code: 27}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFReed
+- justice: OJRoberts
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFReed
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFReed
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true

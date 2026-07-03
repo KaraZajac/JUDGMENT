@@ -1,0 +1,91 @@
+id: 1948-043
+name: INTERNATIONAL UNION, U. A. W. A., A. F. OF L., LOCAL 232, ET AL. v. WISCONSIN EMPLOYMENT RELATIONS BOARD ET
+  AL.
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '14'
+citation:
+  us: 336 U.S. 245
+  sct: 69 S. Ct. 516
+  led: 93 L. Ed. 2d 651
+  lexis: 1949 U.S. LEXIS 3013
+dates:
+  argued: '1948-11-17'
+  decided: '1949-02-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70110, area: unions}
+law:
+  type: federal-statute
+  supp: 350
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 58}
+  source: {code: 300, state: 58}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 4}
+  respondent_state: {code: 58}
+admin_action: {agency: 117, state: 58}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+  - FMurphy
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

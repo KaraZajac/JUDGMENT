@@ -1,0 +1,84 @@
+id: 1948-109
+name: GIBBS v. BURKE, WARDEN
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '418'
+citation:
+  us: 337 U.S. 773
+  sct: 69 S. Ct. 1247
+  led: 93 L. Ed. 2d 1686
+  lexis: 1949 U.S. LEXIS 2086
+dates:
+  argued: '1949-04-21'
+  decided: '1949-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10120, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 214
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 45}
+opinions:
+  majority_author: SFReed
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,77 @@
+id: 1872-118
+name: TYLER v. MAGWIRE
+term: 1872
+chief: Chase
+natural_court: 603
+citation:
+  us: 84 U.S. 253
+  led: 21 L. Ed. 576
+  lexis: 1872 U.S. LEXIS 1327
+dates:
+  argued: '1872-12-17'
+  decided: '1873-03-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90380, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: NClifford
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JPBradley
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WHunt
+  participated: false

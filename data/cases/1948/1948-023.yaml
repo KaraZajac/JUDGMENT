@@ -1,0 +1,95 @@
+id: 1948-023
+name: KLAPPROTT v. UNITED STATES
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '42'
+citation:
+  us: 335 U.S. 601
+  sct: 69 S. Ct. 384
+  led: 93 L. Ed. 2d 266
+  lexis: 1949 U.S. LEXIS 3019
+dates:
+  argued: '1948-10-20'
+  decided: '1949-01-17'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20280, area: civil-rights}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 92, state: 35}
+  source: {code: 23}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 27}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: HLBlack
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - SFReed
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WBRutledge
+- justice: FMVinson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed

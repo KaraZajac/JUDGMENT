@@ -1,0 +1,84 @@
+id: 1968-135
+name: NORTH CAROLINA et al. v. PEARCE
+term: 1968
+chief: Warren
+natural_court: 1411
+docket: '413'
+citation:
+  us: 395 U.S. 711
+  sct: 89 S. Ct. 2072
+  led: 23 L. Ed. 2d 656
+  lexis: 1969 U.S. LEXIS 1165
+dates:
+  argued: '1969-02-24'
+  decided: '1969-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10170, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 206
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 98}
+  source: {code: 24}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 38}
+  respondent: {code: 126}
+opinions:
+  majority_author: PStewart
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,85 @@
+id: 1978-003
+name: NATIONAL LABOR RELATIONS BOARD v. BAYLOR UNIVERSITY MEDICAL CENTER
+term: 1978
+chief: Burger
+natural_court: 1506
+docket: 78-80
+citation:
+  us: 439 U.S. 9
+  sct: 99 S. Ct. 299
+  led: 58 L. Ed. 2d 202
+  lexis: 1978 U.S. LEXIS 138
+dates:
+  decided: '1978-10-30'
+decision:
+  type: per-curiam-no-argument
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 70130, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 167}
+admin_action: {agency: 82}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

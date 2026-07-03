@@ -1,0 +1,87 @@
+id: 1985-043
+name: MORRIS, SUPERINTENDENT, SOUTHERN OHIO CORRECTIONAL FACILITY v. MATHEWS
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 84-1636
+citation:
+  us: 475 U.S. 237
+  sct: 106 S. Ct. 1032
+  led: 89 L. Ed. 2d 187
+  lexis: 1986 U.S. LEXIS 11
+dates:
+  argued: '1985-11-04'
+  decided: '1986-02-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10170, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 206
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 104}
+  source: {code: 26}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 41}
+  respondent: {code: 126}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HABlackmun
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 1942-013
+name: STATE BANK OF HARDINSBURG v. BROWN ET UX.
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '23'
+citation:
+  us: 317 U.S. 135
+  sct: 63 S. Ct. 128
+  led: 87 L. Ed. 140
+  lexis: 1942 U.S. LEXIS 1098
+dates:
+  argued: '1942-10-16'
+  decided: '1942-11-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 69}
+  source: {code: 27}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 138}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

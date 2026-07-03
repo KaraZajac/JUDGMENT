@@ -1,0 +1,84 @@
+id: 1968-064
+name: SNYDER v. HARRIS et al.
+term: 1968
+chief: Warren
+natural_court: 1410
+docket: '109'
+citation:
+  us: 394 U.S. 332
+  sct: 89 S. Ct. 1053
+  led: 22 L. Ed. 2d 319
+  lexis: 1969 U.S. LEXIS 2155
+dates:
+  argued: '1969-01-21'
+  decided: '1969-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 86}
+  source: {code: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 185}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AFortas
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AFortas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,86 @@
+id: 2013-023
+name: UNITED STATES v. APEL
+term: 2013
+chief: Roberts
+natural_court: 1704
+docket: 12-1038
+citation:
+  us: 571 U.S. 359
+  sct: 134 S. Ct. 1144
+  led: 188 L. Ed. 2d 75
+  lexis: 2014 U.S. LEXIS 1643
+dates:
+  argued: '2013-12-04'
+  decided: '2014-02-26'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10570, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18-1382
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 137}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RBGinsburg
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true

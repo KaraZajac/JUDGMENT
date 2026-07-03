@@ -1,0 +1,84 @@
+id: 1952-072
+name: IN RE DISBARMENT OF ISSERMAN
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: 5 M
+citation:
+  us: 345 U.S. 286
+  sct: 73 S. Ct. 676
+  led: 97 L. Ed. 2d 1013
+  lexis: 1953 U.S. LEXIS 2235
+dates:
+  decided: '1953-04-06'
+decision:
+  type: judgment-of-the-court
+  disposition: granted
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 4
+issue: {code: 60040, area: attorneys}
+law:
+  type: court-rules
+  supp: 403
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 15}
+cert_reason: not-cert
+lower_court:
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 20}
+  petitioner_state: {code: 60}
+  respondent: {code: 111}
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: FMVinson
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true

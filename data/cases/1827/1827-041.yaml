@@ -1,0 +1,77 @@
+id: 1827-041
+name: OGDEN, PLAINTIFF IN ERROR, v. SAUNDERS, DEFENDANT IN ERROR
+term: 1827
+chief: Marshall
+natural_court: 408
+citation:
+  us: 25 U.S. 213
+  led: 6 L. Ed. 606
+  lexis: 1827 U.S. LEXIS 394
+dates:
+  argued: '1827-01-18'
+  reargued: '1827-03-10'
+  decided: '1827-03-13'
+decision:
+  type: seriatim
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 20100, area: civil-rights}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 150}
+  source: {code: 150}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 137}
+  respondent: {code: 174}
+opinions:
+  majority_assigner: BWashington
+votes:
+- justice: JMarshall
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BWashington
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: GDuvall
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMarshall
+- justice: JStory
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMarshall
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RTrimble
+  vote: majority
+  direction: liberal
+  in_majority: true

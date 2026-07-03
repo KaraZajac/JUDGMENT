@@ -1,0 +1,91 @@
+id: 2018-017
+name: VIRGINIA URANIUM v. WARREN
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 16-1275
+citation:
+  sct: 139 S. Ct. 1894
+  led: 204 L. Ed. 2d 377
+  lexis: 2019 U.S. LEXIS 4177
+dates:
+  argued: '2018-11-05'
+  decided: '2019-06-17'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 100030, area: federalism}
+law:
+  type: federal-statute
+  supp: 306
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 127}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 187}
+  respondent: {code: 7}
+  respondent_state: {code: 55}
+opinions:
+  majority_author: NMGorsuch
+  majority_assigner: CThomas
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: SAAlito
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: SSotomayor
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RBGinsburg
+- justice: EKagan
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RBGinsburg
+- justice: NMGorsuch
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true

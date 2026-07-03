@@ -1,0 +1,86 @@
+id: 1932-024
+name: SORRELLS v. UNITED STATES
+term: 1932
+chief: Hughes
+natural_court: 1103
+docket: '177'
+citation:
+  us: 287 U.S. 435
+  sct: 53 S. Ct. 210
+  led: 77 L. Ed. 413
+  lexis: 1932 U.S. LEXIS 30
+dates:
+  argued: '1932-11-08'
+  decided: '1932-12-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 10300, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 100}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: CEHughes2
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - OJRoberts
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - OJRoberts
+- justice: OJRoberts
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  direction: liberal
+  in_majority: true

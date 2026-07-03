@@ -1,0 +1,89 @@
+id: 1939-137
+name: MCCARROLL, COMMISSIONER OF REVENUES OF ARKANSAS, v. DIXIE GREYHOUND LINES, INC.
+term: 1939
+chief: Hughes
+natural_court: 1108
+docket: '138'
+citation:
+  us: 309 U.S. 176
+  sct: 60 S. Ct. 504
+  led: 84 L. Ed. 683
+  lexis: 1940 U.S. LEXIS 910
+dates:
+  argued: '1939-12-14'
+  decided: '1940-02-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 46}
+  source: {code: 28}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 5}
+  respondent: {code: 121}
+admin_action: {agency: 69}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HFStone
+- justice: HLBlack
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HFStone
+- justice: FFrankfurter
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  participated: false

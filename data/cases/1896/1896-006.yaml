@@ -1,0 +1,92 @@
+id: 1896-006
+name: SALTONSTALL v. BIRTWELL
+term: 1896
+chief: Fuller
+natural_court: 807
+docket: '257'
+citation:
+  us: 164 U.S. 54
+  sct: 17 S. Ct. 19
+  led: 41 L. Ed. 348
+  lexis: 1896 U.S. LEXIS 1840
+dates:
+  argued: '1896-04-24'
+  decided: '1896-10-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 418}
+  source: {code: 21}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 60}
+  respondent: {code: 234}
+admin_action: {agency: 21}
+opinions:
+  majority_author: GShiras
+  majority_assigner: HGray
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true

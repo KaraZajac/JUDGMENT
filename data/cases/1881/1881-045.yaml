@@ -1,0 +1,71 @@
+id: 1881-045
+name: PICKERING v. MCCULLOUGH
+term: 1881
+chief: Waite
+natural_court: 704
+docket: '155'
+citation:
+  us: 104 U.S. 310
+  led: 26 L. Ed. 749
+  lexis: 1881 U.S. LEXIS 2004
+dates:
+  argued: '1881-11-30'
+  decided: '1881-12-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80180, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 430}
+  source: {code: 430}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 172}
+opinions:
+  majority_author: SMatthews
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  participated: false
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

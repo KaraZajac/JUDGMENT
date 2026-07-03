@@ -1,0 +1,81 @@
+id: 1942-009
+name: DAVIS v. DEPARTMENT OF LABOR AND INDUSTRIES OF THE STATE OF WASHINGTON
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '86'
+citation:
+  us: 317 U.S. 249
+  sct: 63 S. Ct. 225
+  led: 87 L. Ed. 246
+  lexis: 1942 U.S. LEXIS 1057
+dates:
+  argued: '1942-11-18'
+  decided: '1942-12-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 7}
+  respondent_state: {code: 56}
+admin_action: {agency: 71}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: OJRoberts
+votes:
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

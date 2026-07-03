@@ -1,0 +1,87 @@
+id: 1957-012
+name: SCHAFFER TRANSPORTATION CO. et al. v. UNITED STATES et al.
+term: 1957
+chief: Warren
+natural_court: 1405
+docket: '20'
+citation:
+  us: 355 U.S. 83
+  sct: 78 S. Ct. 173
+  led: 2 L. Ed. 2d 117
+  lexis: 1957 U.S. LEXIS 1578
+dates:
+  argued: '1957-11-13'
+  decided: '1957-12-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80240, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 54 Stat. 899
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 115}
+  source: {code: 115}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 245}
+  respondent: {code: 27}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: EWarren
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true

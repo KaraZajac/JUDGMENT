@@ -1,0 +1,81 @@
+id: 1890-287
+name: CRUTCHER v. KENTUCKY
+term: 1890
+chief: Fuller
+natural_court: 803
+docket: '828'
+citation:
+  us: 141 U.S. 47
+  sct: 11 S. Ct. 851
+  led: 35 L. Ed. 649
+  lexis: 1891 U.S. LEXIS 2497
+dates:
+  argued: '1890-03-19'
+  decided: '1891-05-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 21}
+  source: {code: 300, state: 21}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 21}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: SJField
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  participated: false

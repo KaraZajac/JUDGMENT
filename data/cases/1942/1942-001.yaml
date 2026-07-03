@@ -1,0 +1,84 @@
+id: 1942-001
+name: ADAMS, WARDEN, et al. v. UNITED STATES ex rel. MCCANN
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '79'
+citation:
+  us: 317 U.S. 269
+  sct: 63 S. Ct. 236
+  led: 87 L. Ed. 268
+  lexis: 1942 U.S. LEXIS 1
+dates:
+  argued: '1942-11-17'
+  decided: '1942-12-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10580, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: granted
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 60}
+  respondent: {code: 215}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

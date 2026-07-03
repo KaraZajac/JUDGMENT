@@ -1,0 +1,88 @@
+id: 1917-069
+name: CITY AND COUNTY OF DENVER et al. v. DENVER UNION WATER COMPANY
+term: 1917
+chief: White
+natural_court: 905
+docket: '294'
+citation:
+  us: 246 U.S. 178
+  sct: 38 S. Ct. 278
+  led: 62 L. Ed. 649
+  lexis: 1918 U.S. LEXIS 1532
+dates:
+  argued: '1917-10-03'
+  decided: '1918-03-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 52}
+  source: {code: 52}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 7}
+  respondent: {code: 219}
+admin_action: {agency: 117, state: 7}
+opinions:
+  majority_author: MPitney
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes

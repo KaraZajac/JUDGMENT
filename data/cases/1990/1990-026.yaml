@@ -1,0 +1,89 @@
+id: 1990-026
+name: ROBERT LACY PARKER v. RICHARD L. DUGGER, SECRETARY, FLORIDA DEPARTMENT OF CORRECTIONS, et al.
+term: 1990
+chief: Rehnquist
+natural_court: 1604
+docket: 89-5961
+citation:
+  us: 498 U.S. 308
+  sct: 111 S. Ct. 731
+  led: 112 L. Ed. 2d 812
+  lexis: 1991 U.S. LEXIS 490
+dates:
+  argued: '1990-11-07'
+  decided: '1991-01-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10130, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 221
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 56}
+  source: {code: 31}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 12}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: TMarshall
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,81 @@
+id: 2016-007
+name: STAR ATHLETICA, L.L.C. v. VARSITY BRANDS, INC.
+term: 2016
+chief: Roberts
+natural_court: 1705
+docket: 15-866
+citation:
+  sct: 137 S. Ct. 1002
+  led: 197 L. Ed. 2d 354
+  lexis: 2017 U.S. LEXIS 2026
+dates:
+  argued: '2016-10-31'
+  decided: '2017-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80190, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Copyright Act
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 118}
+  source: {code: 26}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 184}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true

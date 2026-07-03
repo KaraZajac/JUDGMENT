@@ -1,0 +1,71 @@
+id: 1824-011
+name: MILLER v. STEWART AND OTHERS
+term: 1824
+chief: Marshall
+natural_court: 407
+citation:
+  us: 22 U.S. 680
+  led: 6 L. Ed. 189
+  lexis: 1824 U.S. LEXIS 407
+dates:
+  argued: '1824-02-23'
+  decided: '1824-02-28'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 80140, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, July 22, 1813, ch. 16, sec. 20
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 425}
+  source: {code: 425}
+  disagreement: true
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 35}
+  respondent: {code: 171}
+opinions:
+  majority_author: JStory
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true

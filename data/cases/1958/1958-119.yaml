@@ -1,0 +1,88 @@
+id: 1958-119
+name: PALERMO v. UNITED STATES
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '471'
+citation:
+  us: 360 U.S. 343
+  sct: 79 S. Ct. 1217
+  led: 3 L. Ed. 2d 1287
+  lexis: 1959 U.S. LEXIS 1903
+dates:
+  argued: '1959-04-28'
+  decided: '1959-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10160, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 347
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 27}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WODouglas
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true

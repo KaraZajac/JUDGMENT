@@ -1,0 +1,79 @@
+id: 1886-205
+name: BARRON v. BURNSIDE
+term: 1886
+chief: Waite
+natural_court: 706
+docket: '1335'
+citation:
+  us: 121 U.S. 186
+  sct: 7 S. Ct. 931
+  led: 30 L. Ed. 915
+  lexis: 1887 U.S. LEXIS 2037
+dates:
+  argued: '1887-03-18'
+  decided: '1887-04-11'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  source: {code: 300, state: 19}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 110}
+  respondent: {code: 4}
+  respondent_state: {code: 19}
+opinions:
+  majority_author: SBlatchford
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  participated: false
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

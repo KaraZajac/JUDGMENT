@@ -1,0 +1,88 @@
+id: 1959-127
+name: HERTZ CORPORATION (SUCCESSOR TO J. FRANK CONNOR, INC.) v. UNITED STATES
+term: 1959
+chief: Warren
+natural_court: 1406
+docket: '283'
+citation:
+  us: 364 U.S. 122
+  sct: 80 S. Ct. 1420
+  led: 4 L. Ed. 2d 1603
+  lexis: 1960 U.S. LEXIS 1988
+dates:
+  argued: '1960-03-30'
+  decided: '1960-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 54}
+  source: {code: 23}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 125}
+  respondent: {code: 27}
+admin_action: {agency: 69}
+opinions:
+  majority_author: TCClark
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PStewart
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JHarlan2
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JHarlan2

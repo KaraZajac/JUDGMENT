@@ -1,0 +1,80 @@
+id: 1901-080
+name: CONNOLLY v. UNION SEWER PIPE COMPANY
+term: 1901
+chief: Fuller
+natural_court: 808
+docket: '46'
+citation:
+  us: 184 U.S. 540
+  sct: 22 S. Ct. 431
+  led: 46 L. Ed. 679
+  lexis: 1902 U.S. LEXIS 2269
+dates:
+  argued: '1901-04-22'
+  decided: '1902-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80010, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 410}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 123}
+  respondent: {code: 233}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  participated: false
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

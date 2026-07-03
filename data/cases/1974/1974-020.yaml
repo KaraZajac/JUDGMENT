@@ -1,0 +1,87 @@
+id: 1974-020
+name: SOSNA v. IOWA et al.
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-762
+citation:
+  us: 419 U.S. 393
+  sct: 95 S. Ct. 553
+  led: 42 L. Ed. 2d 532
+  lexis: 1975 U.S. LEXIS 19
+dates:
+  argued: '1974-10-17'
+  decided: '1975-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20220, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 70}
+  source: {code: 70}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 236}
+  respondent: {code: 28}
+  respondent_state: {code: 19}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

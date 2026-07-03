@@ -1,0 +1,86 @@
+id: 2003-022
+name: VERIZON COMMUNICATIONS INC. v. LAW OFFICES OF CURTIS V TRINKO, LLP
+term: 2003
+chief: Rehnquist
+natural_court: 1607
+docket: 02-682
+citation:
+  us: 540 U.S. 398
+  sct: 124 S. Ct. 872
+  led: 157 L. Ed. 2d 823
+  lexis: 2004 U.S. LEXIS 657
+dates:
+  argued: '2003-10-14'
+  decided: '2004-01-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 205}
+  respondent: {code: 111}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,91 @@
+id: 1963-162
+name: JACKSON v. DENNO, WARDEN
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '62'
+citation:
+  us: 378 U.S. 368
+  sct: 84 S. Ct. 1774
+  led: 12 L. Ed. 2d 908
+  lexis: 1964 U.S. LEXIS 826
+dates:
+  argued: '1963-12-09'
+  decided: '1964-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10010, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 37}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: BRWhite
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: AJGoldberg
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,96 @@
+id: 1988-148
+name: PHILIP BRENDALE v. CONFEDERATED TRIBES AND BANDS OF THE YAKIMA INDIAN NATION et al.
+term: 1988
+chief: Rehnquist
+natural_court: 1603
+docket: 87-1622
+citation:
+  us: 492 U.S. 408
+  sct: 109 S. Ct. 2994
+  led: 106 L. Ed. 2d 343
+  lexis: 1989 U.S. LEXIS 3288
+dates:
+  argued: '1989-01-10'
+  decided: '1989-06-29'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20160, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 12 Stat. 951
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 128}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 170}
+admin_action: {agency: 117, state: 56}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HABlackmun
+- justice: WJBrennan
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HABlackmun
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: JPStevens
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite

@@ -1,0 +1,83 @@
+id: 1926-104
+name: OHIO PUBLIC SERVICE COMPANY v. OHIO EX REL. FRITZ
+term: 1926
+chief: Taft
+natural_court: 1005
+docket: '210'
+citation:
+  us: 274 U.S. 12
+  sct: 47 S. Ct. 480
+  led: 71 L. Ed. 898
+  lexis: 1927 U.S. LEXIS 6
+dates:
+  argued: '1927-03-10'
+  decided: '1927-04-11'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 148}
+  respondent: {code: 28}
+  respondent_state: {code: 41}
+admin_action: {agency: 117, state: 41}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

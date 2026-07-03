@@ -1,0 +1,93 @@
+id: 1870-132
+name: LEGAL TENDER CASES (KNOX v. LEE)
+term: 1870
+chief: Chase
+natural_court: 602
+citation:
+  us: 79 U.S. 457
+  led: 20 L. Ed. 287
+  lexis: 1870 U.S. LEXIS 1220
+dates:
+  argued: '1869-11-17'
+  reargued: '1871-04-18'
+  decided: '1871-05-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80350, area: economic-activity}
+law:
+  type: constitution
+  supp: 120
+authority:
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 434}
+  source: {code: 434}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 123}
+  respondent: {code: 233}
+opinions:
+  majority_author: WStrong
+  majority_assigner: NHSwayne
+votes:
+- justice: SPChase
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - NClifford
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - SPChase
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - SPChase
+  - NClifford
+- justice: WStrong
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPBradley
+- justice: JPBradley
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

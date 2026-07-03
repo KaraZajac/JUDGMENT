@@ -1,0 +1,89 @@
+id: 1994-014
+name: UNITED STATES v. GARY MEZZANATTO
+term: 1994
+chief: Rehnquist
+natural_court: 1607
+docket: 93-1340
+citation:
+  us: 513 U.S. 196
+  sct: 115 S. Ct. 797
+  led: 130 L. Ed. 2d 697
+  lexis: 1995 U.S. LEXIS 692
+dates:
+  argued: '1994-11-02'
+  decided: '1995-01-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10370, area: criminal-procedure}
+law:
+  type: court-rules
+  supp: 401
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 51}
+  source: {code: 29}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: CThomas
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SDOConnor
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RBGinsburg
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RBGinsburg

@@ -1,0 +1,84 @@
+id: 1942-136
+name: BARTCHY v. UNITED STATES
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '762'
+citation:
+  us: 319 U.S. 484
+  sct: 63 S. Ct. 1206
+  led: 87 L. Ed. 1534
+  lexis: 1943 U.S. LEXIS 533
+dates:
+  argued: '1943-05-12'
+  decided: '1943-06-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20230, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 366
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 121}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 142}
+  respondent: {code: 27}
+opinions:
+  majority_author: SFReed
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,79 @@
+id: 1892-248
+name: BYERS v. MCAULEY.
+term: 1892
+chief: Fuller
+natural_court: 805
+docket: '124'
+citation:
+  us: 149 U.S. 608
+  sct: 13 S. Ct. 906
+  led: 37 L. Ed. 867
+  lexis: 1893 U.S. LEXIS 2331
+dates:
+  argued: '1893-02-02'
+  decided: '1893-05-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 90410, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 430}
+  source: {code: 430}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 166}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: SJField
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  participated: false
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HEJackson
+  participated: false

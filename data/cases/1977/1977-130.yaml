@@ -1,0 +1,97 @@
+id: 1977-130
+name: WISE, MAYOR OF DALLAS, et al. v. LIPSCOMB et al.
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 77-529
+citation:
+  us: 437 U.S. 535
+  sct: 98 S. Ct. 2493
+  led: 57 L. Ed. 2d 411
+  lexis: 1978 U.S. LEXIS 120
+dates:
+  argued: '1978-04-26'
+  decided: '1978-06-22'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20090, area: civil-rights}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 120}
+  source: {code: 25}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 51}
+  respondent: {code: 251}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WHRehnquist
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - LFPowell
+  - WHRehnquist
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - LFPowell
+- justice: LFPowell
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - WHRehnquist
+- justice: WHRehnquist
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - LFPowell
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall

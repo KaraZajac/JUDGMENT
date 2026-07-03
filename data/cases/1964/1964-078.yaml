@@ -1,0 +1,85 @@
+id: 1964-078
+name: AMERICAN COMMITTEE FOR PROTECTION OF FOREIGN BORN v. SUBVERSIVE ACTIVITIES CONTROL BOARD
+term: 1964
+chief: Warren
+natural_court: 1408
+docket: '44'
+citation:
+  us: 380 U.S. 503
+  sct: 85 S. Ct. 1148
+  led: 14 L. Ed. 2d 39
+  lexis: 1965 U.S. LEXIS 1352
+dates:
+  argued: '1964-12-08'
+  decided: '1965-04-26'
+decision:
+  type: per-curiam-argued
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 30060, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 369
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 403}
+admin_action: {agency: 103}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan2
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  participated: false
+- justice: AJGoldberg
+  vote: majority
+  direction: liberal
+  in_majority: true

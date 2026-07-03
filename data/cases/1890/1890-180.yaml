@@ -1,0 +1,80 @@
+id: 1890-180
+name: PEAKE v. NEW ORLEANS
+term: 1890
+chief: Fuller
+natural_court: 803
+docket: '41'
+citation:
+  us: 139 U.S. 377
+  sct: 11 S. Ct. 541
+  led: 35 L. Ed. 131
+  lexis: 1891 U.S. LEXIS 2389
+dates:
+  argued: '1890-10-29'
+  decided: '1891-03-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80105, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 389
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 415}
+  source: {code: 415}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 177}
+  respondent: {code: 3}
+  respondent_state: {code: 22}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: SJField
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LQLamar
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  participated: false

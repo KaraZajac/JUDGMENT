@@ -1,0 +1,83 @@
+id: 1905-128
+name: VICKSBURG v. VICKSBURG WATERWORKS COMPANY
+term: 1905
+chief: Fuller
+natural_court: 810
+docket: '133'
+citation:
+  us: 202 U.S. 453
+  sct: 26 S. Ct. 660
+  led: 50 L. Ed. 1102
+  lexis: 1906 U.S. LEXIS 1547
+dates:
+  argued: '1905-12-13'
+  decided: '1906-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 421}
+  source: {code: 421}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 29}
+  respondent: {code: 219}
+opinions:
+  majority_author: WRDay
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

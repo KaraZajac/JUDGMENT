@@ -1,0 +1,91 @@
+id: 1992-034
+name: UNITED STATES v. A PARCEL OF LAND, BUILDINGS, APPURTENANCES AND IMPROVEMENTS, KNOWN AS 92 BUENA VISTA AVENUE,
+  RUMSON, NEW JERSEY, et al.
+term: 1992
+chief: Rehnquist
+natural_court: 1605
+docket: 91-781
+citation:
+  us: 507 U.S. 111
+  sct: 113 S. Ct. 1126
+  led: 122 L. Ed. 2d 469
+  lexis: 1993 U.S. LEXIS 1782
+dates:
+  argued: '1992-10-13'
+  decided: '1993-02-24'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10510, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 21 U.S.C. § 881
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 92}
+  source: {code: 23}
+  disposition: remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 195}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: HABlackmun
+votes:
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: JPStevens
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AScalia

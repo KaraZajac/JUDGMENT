@@ -1,0 +1,85 @@
+id: 2021-030
+name: RAMIREZ v. COLLIER
+term: 2021
+chief: Roberts
+natural_court: 1709
+docket: 21-5592
+citation:
+  sct: 142 S. Ct. 1264
+  led: 212 L. Ed. 2d 262
+  lexis: 2022 U.S. LEXIS 1670
+dates:
+  argued: '2021-11-09'
+  decided: '2022-03-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 30160, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: RLUIPA
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 121}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 19}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: liberal
+  in_majority: true

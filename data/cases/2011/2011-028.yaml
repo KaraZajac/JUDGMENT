@@ -1,0 +1,91 @@
+id: 2011-028
+name: TOBY DOUGLAS, DIRECTOR, CALIFORNIA DEPARTMENT OF HEALTH CARE SERVICES, PETITIONER v. INDEPENDENT LIVING CENTER
+  OF SOUTHERN CALIFORNIA, INC., et al.
+term: 2011
+chief: Roberts
+natural_court: 1704
+docket: 09-958
+citation:
+  us: 565 U.S. 606
+  sct: 132 S. Ct. 1204
+  led: 182 L. Ed. 2d 101
+  lexis: 2012 U.S. LEXIS 1685
+dates:
+  argued: '2011-10-03'
+  decided: '2012-02-22'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20180, area: civil-rights}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 29}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 6}
+  respondent: {code: 165}
+admin_action: {agency: 63}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: AMKennedy
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AScalia
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

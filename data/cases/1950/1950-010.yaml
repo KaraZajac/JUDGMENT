@@ -1,0 +1,89 @@
+id: 1950-010
+name: HARRIS v. COMMISSIONER OF INTERNAL REVENUE
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '14'
+citation:
+  us: 340 U.S. 106
+  sct: 71 S. Ct. 181
+  led: 95 L. Ed. 2d 111
+  lexis: 1950 U.S. LEXIS 2592
+dates:
+  argued: '1950-10-16'
+  decided: '1950-11-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 9}
+  source: {code: 22}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 27}
+admin_action: {agency: 69}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,86 @@
+id: 1941-147
+name: PEARCE v. COMMISSIONER OF INTERNAL REVENUE
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '306'
+citation:
+  us: 315 U.S. 543
+  sct: 62 S. Ct. 754
+  led: 86 L. Ed. 1016
+  lexis: 1942 U.S. LEXIS 850
+dates:
+  argued: '1942-02-05'
+  decided: '1942-03-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 369}
+admin_action: {agency: 69}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: OJRoberts
+votes:
+- justice: HFStone
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JFByrnes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

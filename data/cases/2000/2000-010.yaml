@@ -1,0 +1,92 @@
+id: 2000-010
+name: SOLID WASTE AGENCY OF NORTHERN COOK COUNTY v. UNITED STATES ARMY CORPS OF ENGINEERS, et al.
+term: 2000
+chief: Rehnquist
+natural_court: 1607
+docket: 99-1178
+citation:
+  us: 531 U.S. 159
+  sct: 121 S. Ct. 675
+  led: 148 L. Ed. 2d 576
+  lexis: 2001 U.S. LEXIS 640
+dates:
+  argued: '2000-10-31'
+  decided: '2001-01-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80130, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 33 U.S.C. § 1334
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 17}
+  respondent: {code: 306}
+admin_action: {agency: 6}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens

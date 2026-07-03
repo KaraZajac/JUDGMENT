@@ -1,0 +1,83 @@
+id: 1936-024
+name: VALENTINE, CHAIRMAN OF THE IOWA STATE BOARD OF ASSESSMENT AND REVIEW, et al. v. GREAT ATLANTIC & PACIFIC TEA
+  CO.
+term: 1936
+chief: Hughes
+natural_court: 1103
+docket: '13'
+citation:
+  us: 299 U.S. 32
+  sct: 57 S. Ct. 56
+  led: 81 L. Ed. 22
+  lexis: 1936 U.S. LEXIS 5
+dates:
+  argued: '1936-10-14'
+  decided: '1936-11-09'
+decision:
+  type: per-curiam-argued
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 240
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 71}
+  source: {code: 71}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 19}
+  respondent: {code: 25}
+  respondent_state: {code: 19}
+admin_action: {agency: 117, state: 19}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  participated: false
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  direction: liberal
+  in_majority: false

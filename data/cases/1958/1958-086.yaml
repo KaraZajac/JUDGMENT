@@ -1,0 +1,92 @@
+id: 1958-086
+name: IRVIN v. DOWD, WARDEN, INDIANA STATE PRISON
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '63'
+citation:
+  us: 359 U.S. 394
+  sct: 79 S. Ct. 825
+  led: 3 L. Ed. 2d 900
+  lexis: 1959 U.S. LEXIS 1086
+dates:
+  argued: '1959-01-15'
+  decided: '1959-05-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90040, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 341
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 68}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 18}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: CEWhittaker
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2

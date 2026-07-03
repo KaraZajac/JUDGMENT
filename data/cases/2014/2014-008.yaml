@@ -1,0 +1,89 @@
+id: 2014-008
+name: NC BD. OF DENTAL EXAMINERS v. FTC
+term: 2014
+chief: Roberts
+natural_court: 1704
+docket: 13-534
+citation:
+  us: 574 U.S. 494
+  sct: 135 S. Ct. 1101
+  led: 191 L. Ed. 2d 35
+  lexis: 2015 U.S. LEXIS 1502
+dates:
+  argued: '2014-10-14'
+  decided: '2015-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 24}
+  source: {code: 24}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 38}
+  respondent: {code: 357}
+admin_action: {agency: 117, state: 38}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

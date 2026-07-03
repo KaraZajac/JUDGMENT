@@ -1,0 +1,84 @@
+id: 1981-063
+name: LANE, CORRECTIONS DIRECTOR v. WILLIAMS et al.
+term: 1981
+chief: Burger
+natural_court: 1507
+docket: 80-1240
+citation:
+  us: 455 U.S. 624
+  sct: 102 S. Ct. 1322
+  led: 71 L. Ed. 2d 508
+  lexis: 1982 U.S. LEXIS 85
+dates:
+  argued: '1981-12-01'
+  decided: '1982-03-23'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90130, area: judicial-power}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 17}
+  respondent: {code: 126}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

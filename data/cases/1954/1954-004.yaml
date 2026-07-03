@@ -1,0 +1,79 @@
+id: 1954-004
+name: MCALLISTER v. UNITED STATES
+term: 1954
+chief: Warren
+natural_court: 1402
+docket: '23'
+citation:
+  us: 348 U.S. 19
+  sct: 75 S. Ct. 6
+  led: 99 L. Ed. 2d 20
+  lexis: 1954 U.S. LEXIS 2610
+dates:
+  argued: '1954-10-19'
+  decided: '1954-11-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80040, area: economic-activity}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 94}
+  source: {code: 22}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 60}
+  respondent: {code: 27}
+opinions:
+  majority_author: SMinton
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

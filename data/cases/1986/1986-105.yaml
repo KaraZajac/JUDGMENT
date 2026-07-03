@@ -1,0 +1,88 @@
+id: 1986-105
+name: UNITED STATES v. MENDOZA-LOPEZ et al.
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-2067
+citation:
+  us: 481 U.S. 828
+  sct: 107 S. Ct. 2148
+  led: 95 L. Ed. 2d 772
+  lexis: 1987 U.S. LEXIS 2262
+dates:
+  argued: '1987-03-03'
+  decided: '1987-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20110, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 89}
+  source: {code: 28}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 106}
+admin_action: {agency: 68}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

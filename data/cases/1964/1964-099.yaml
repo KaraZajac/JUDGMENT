@@ -1,0 +1,78 @@
+id: 1964-099
+name: SIMONS v. MIAMI BEACH FIRST NATIONAL BANK, EXECUTOR
+term: 1964
+chief: Warren
+natural_court: 1408
+docket: '363'
+citation:
+  us: 381 U.S. 81
+  sct: 85 S. Ct. 1315
+  led: 14 L. Ed. 2d 232
+  lexis: 1965 U.S. LEXIS 1305
+dates:
+  argued: '1965-03-10'
+  decided: '1965-05-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 110030, area: interstate-relations}
+law:
+  type: constitution
+  supp: 143
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 12}
+  source: {code: 301, state: 12}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 253}
+  respondent: {code: 102}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  in_majority: true
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  in_majority: true
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: PStewart
+  vote: jurisdictional-dissent
+  opinion: co-wrote
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  in_majority: true
+- justice: AJGoldberg
+  vote: jurisdictional-dissent
+  opinion: co-wrote
+  in_majority: false

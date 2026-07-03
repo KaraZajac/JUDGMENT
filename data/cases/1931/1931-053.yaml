@@ -1,0 +1,89 @@
+id: 1931-053
+name: PACIFIC CO., LTD. v. JOHNSON, STATE TREASURER
+term: 1931
+chief: Hughes
+natural_court: 1103
+docket: '270'
+citation:
+  us: 285 U.S. 480
+  sct: 52 S. Ct. 424
+  led: 76 L. Ed. 893
+  lexis: 1932 U.S. LEXIS 448
+dates:
+  argued: '1932-01-08'
+  reargued: '1932-03-17'
+  decided: '1932-04-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 6}
+  source: {code: 300, state: 6}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 8}
+  respondent_state: {code: 6}
+admin_action: {agency: 117, state: 6}
+opinions:
+  majority_author: HFStone
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - GSutherland
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PButler
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - GSutherland
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  direction: conservative
+  in_majority: true

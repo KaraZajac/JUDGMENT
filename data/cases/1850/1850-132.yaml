@@ -1,0 +1,79 @@
+id: 1850-132
+name: WILLIAM E. WOODRUFF, PLAINTIFF IN ERROR, v. FREDERICK W. TRAPNALL
+term: 1850
+chief: Taney
+natural_court: 508
+citation:
+  us: 51 U.S. 190
+  led: 13 L. Ed. 383
+  lexis: 1850 U.S. LEXIS 1462
+dates:
+  argued: '1851-01-24'
+  decided: '1851-02-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 5}
+  source: {code: 300, state: 5}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 7}
+  petitioner_state: {code: 5}
+  respondent: {code: 7}
+  respondent_state: {code: 5}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RCGrier
+- justice: JMcKinley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RCGrier
+- justice: SNelson
+  participated: false
+- justice: RCGrier
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,85 @@
+id: 1962-034
+name: FEDERAL TRADE COMMISSION v. SUN OIL CO.
+term: 1962
+chief: Warren
+natural_court: 1408
+docket: '56'
+citation:
+  us: 371 U.S. 505
+  sct: 83 S. Ct. 358
+  led: 9 L. Ed. 2d 466
+  lexis: 1963 U.S. LEXIS 2631
+dates:
+  argued: '1962-11-15'
+  decided: '1963-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 364
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 25}
+  source: {code: 25}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 357}
+  respondent: {code: 198}
+admin_action: {agency: 57}
+opinions:
+  majority_author: AJGoldberg
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,91 @@
+id: 1941-022
+name: REITZ v. MEALEY, COMMISSIONER OF MOTOR VEHICLES OF THE STATE OF NEW YORK
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '21'
+citation:
+  us: 314 U.S. 33
+  sct: 62 S. Ct. 24
+  led: 86 L. Ed. 21
+  lexis: 1941 U.S. LEXIS 1146
+dates:
+  argued: '1941-10-22'
+  decided: '1941-11-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 95}
+  source: {code: 95}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 114}
+  respondent: {code: 19}
+  respondent_state: {code: 37}
+admin_action: {agency: 117, state: 37}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JFByrnes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: RHJackson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas

@@ -1,0 +1,91 @@
+id: 1991-098
+name: FORSYTH COUNTY, GEORGIA v. THE NATIONALIST MOVEMENT
+term: 1991
+chief: Rehnquist
+natural_court: 1605
+docket: 91-538
+citation:
+  us: 505 U.S. 123
+  sct: 112 S. Ct. 2395
+  led: 120 L. Ed. 2d 101
+  lexis: 1992 U.S. LEXIS 3692
+dates:
+  argued: '1992-03-31'
+  decided: '1992-06-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 60}
+  source: {code: 31}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 13}
+  respondent: {code: 211}
+admin_action: {agency: 117, state: 13}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: HABlackmun
+votes:
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist

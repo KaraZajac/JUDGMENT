@@ -1,0 +1,83 @@
+id: 1978-027
+name: LEIS et al. v. FLYNT et al.
+term: 1978
+chief: Burger
+natural_court: 1506
+docket: 77-1618
+citation:
+  us: 439 U.S. 438
+  sct: 99 S. Ct. 698
+  led: 58 L. Ed. 2d 717
+  lexis: 1979 U.S. LEXIS 52
+dates:
+  decided: '1979-01-15'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40020, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 104}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 6}
+  petitioner_state: {code: 41}
+  respondent: {code: 111}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,79 @@
+id: 1854-018
+name: THE UNITED STATES, PLAINTIFFS IN ERROR, v. ONE CASE OF CLOCKS.  LION, PINSARD, AND CO., CLAIMANTS
+term: 1854
+chief: Taney
+natural_court: 510
+citation:
+  us: 58 U.S. 99
+  led: 15 L. Ed. 58
+  lexis: 1854 U.S. LEXIS 499
+dates:
+  decided: '1855-01-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Duty Act of 1799
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 75}
+  source: {code: 415}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 127}
+opinions:
+  majority_author: SNelson
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRCurtis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JACampbell
+  vote: dissent
+  direction: conservative
+  in_majority: false

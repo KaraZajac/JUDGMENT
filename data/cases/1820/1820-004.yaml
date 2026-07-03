@@ -1,0 +1,65 @@
+id: 1820-004
+name: THE VENUS, JADEMEROWSKY, CLAIMANT
+term: 1820
+chief: Marshall
+natural_court: 406
+citation:
+  us: 18 U.S. 127
+  led: 5 L. Ed. 50
+  lexis: 1820 U.S. LEXIS 247
+dates:
+  argued: '1816-03-01'
+  reargued: '1819-03-04'
+  decided: '1820-02-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 140040, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 409}
+  source: {code: 409}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 28}
+  respondent_state: {code: 13}
+opinions:
+  majority_author: WJohnson
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  in_majority: true
+- justice: JStory
+  vote: majority
+  in_majority: true

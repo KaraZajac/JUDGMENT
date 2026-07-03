@@ -1,0 +1,83 @@
+id: 1926-161
+name: SMITH et al. v. WILSON et al.
+term: 1926
+chief: Taft
+natural_court: 1005
+docket: '648'
+citation:
+  us: 273 U.S. 388
+  sct: 47 S. Ct. 385
+  led: 71 L. Ed. 699
+  lexis: 1927 U.S. LEXIS 705
+dates:
+  argued: '1927-01-05'
+  decided: '1927-02-21'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 90420, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 121}
+  source: {code: 121}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 5}
+  respondent_state: {code: 51}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HFStone
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

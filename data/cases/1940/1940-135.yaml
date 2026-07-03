@@ -1,0 +1,78 @@
+id: 1940-135
+name: WATSON, ATTORNEY GENERAL OF FLORIDA, et al. v. BUCK et al.
+term: 1940
+chief: Hughes
+natural_court: 1108
+docket: '610'
+citation:
+  us: 313 U.S. 387
+  sct: 61 S. Ct. 962
+  led: 85 L. Ed. 1416
+  lexis: 1941 U.S. LEXIS 1314
+dates:
+  argued: '1941-04-29'
+  decided: '1941-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 57}
+  source: {code: 57}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 12}
+  respondent: {code: 112}
+admin_action: {agency: 117, state: 12}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HLBlack
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  participated: false

@@ -1,0 +1,88 @@
+id: 1950-003
+name: SNYDER v. BUCK, PAYMASTER GENERAL OF THE NAVY
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '64'
+citation:
+  us: 340 U.S. 15
+  sct: 71 S. Ct. 93
+  led: 95 L. Ed. 2d 15
+  lexis: 1950 U.S. LEXIS 1409
+dates:
+  argued: '1950-10-18'
+  decided: '1950-11-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90480, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 43 Stat. 936
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 32}
+  disposition: vacated-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 250}
+  respondent: {code: 377}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TCClark
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

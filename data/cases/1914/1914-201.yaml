@@ -1,0 +1,82 @@
+id: 1914-201
+name: KIRMEYER v. STATE OF KANSA
+term: 1914
+chief: White
+natural_court: 903
+docket: '145'
+citation:
+  us: 236 U.S. 568
+  sct: 35 S. Ct. 419
+  led: 59 L. Ed. 721
+  lexis: 1915 U.S. LEXIS 1738
+dates:
+  argued: '1915-01-22'
+  decided: '1915-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 20}
+  source: {code: 300, state: 20}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 105}
+  respondent: {code: 28}
+  respondent_state: {code: 20}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

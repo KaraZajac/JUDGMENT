@@ -1,0 +1,78 @@
+id: 1911-100
+name: BERRYMAN v. BOARD OF TRUSTEES OF WHITMAN COLLEGE
+term: 1911
+chief: White
+natural_court: 901
+docket: '95'
+citation:
+  us: 222 U.S. 334
+  sct: 32 S. Ct. 147
+  led: 56 L. Ed. 225
+  lexis: 1912 U.S. LEXIS 2185
+dates:
+  argued: '1911-12-13'
+  decided: '1912-01-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 443}
+  source: {code: 443}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 56}
+  respondent: {code: 25}
+  respondent_state: {code: 56}
+admin_action: {agency: 117, state: 56}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: HHLurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: liberal
+  in_majority: true

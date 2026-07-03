@@ -1,0 +1,83 @@
+id: 1915-033
+name: PHILLIP WAGNER, INCORPORATED, v. LESER et al., JUDGES AND TAX COLLECTOR OF BALTIMORE CITY
+term: 1915
+chief: White
+natural_court: 903
+docket: '28'
+citation:
+  us: 239 U.S. 207
+  sct: 36 S. Ct. 66
+  led: 60 L. Ed. 230
+  lexis: 1915 U.S. LEXIS 1482
+dates:
+  argued: '1915-10-25'
+  decided: '1915-11-29'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 300, state: 25}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 25}
+  respondent: {code: 16}
+  respondent_state: {code: 25}
+admin_action: {agency: 117, state: 25}
+opinions:
+  majority_author: WRDay
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  participated: false
+- justice: MPitney
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false

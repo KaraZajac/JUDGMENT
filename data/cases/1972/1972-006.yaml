@@ -1,0 +1,81 @@
+id: 1972-006
+name: MURCH et al. v. MOTTRAM
+term: 1972
+chief: Burger
+natural_court: 1504
+docket: 72-55
+citation:
+  us: 409 U.S. 41
+  sct: 93 S. Ct. 71
+  led: 34 L. Ed. 2d 194
+  lexis: 1972 U.S. LEXIS 14
+dates:
+  decided: '1972-11-06'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10020, area: criminal-procedure}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 78}
+  source: {code: 21}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 23}
+  respondent: {code: 126}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

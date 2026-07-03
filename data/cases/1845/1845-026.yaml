@@ -1,0 +1,69 @@
+id: 1845-026
+name: JAMES STIMPSON, PLAINTIFF IN ERROR, v. WEST CHESTER RAILROAD COMPANY
+term: 1845
+chief: Taney
+natural_court: 505
+citation:
+  us: 44 U.S. 553
+  led: 11 L. Ed. 722
+  lexis: 1845 U.S. LEXIS 444
+dates:
+  decided: '1845-02-14'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 403
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 430}
+  source: {code: 430}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 231}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: conservative
+  in_majority: true

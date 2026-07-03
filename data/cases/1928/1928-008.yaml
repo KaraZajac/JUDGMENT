@@ -1,0 +1,87 @@
+id: 1928-008
+name: NORTHERN COAL & DOCK COMPANY et al. v. STRAND et al.
+term: 1928
+chief: Taft
+natural_court: 1005
+docket: '41'
+citation:
+  us: 278 U.S. 142
+  sct: 49 S. Ct. 88
+  led: 73 L. Ed. 232
+  lexis: 1928 U.S. LEXIS 274
+dates:
+  argued: '1928-10-23'
+  decided: '1928-12-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 58}
+  source: {code: 300, state: 58}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 145}
+admin_action: {agency: 117, state: 58}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HFStone
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HFStone
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

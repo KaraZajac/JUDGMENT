@@ -1,0 +1,89 @@
+id: 1871-183
+name: CASE OF THE STATE TAX ON FOREIGN-HELD BONDS. RAILROAD COMPANY v. PENNSYLVANIA
+term: 1871
+chief: Chase
+natural_court: 602
+docket: '31'
+citation:
+  us: 82 U.S. 300
+  led: 21 L. Ed. 179
+  lexis: 1872 U.S. LEXIS 1255
+dates:
+  argued: '1873-02-10'
+  decided: '1873-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 28}
+  respondent_state: {code: 45}
+opinions:
+  majority_author: SJField
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DDavis
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DDavis
+- justice: DDavis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DDavis

@@ -1,0 +1,83 @@
+id: 1946-013
+name: UNITED STATES v. BRUNO
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '67'
+citation:
+  us: 329 U.S. 207
+  sct: 67 S. Ct. 211
+  led: 91 L. Ed. 193
+  lexis: 1946 U.S. LEXIS 1659
+dates:
+  argued: '1946-11-22'
+  decided: '1946-12-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10430, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 50 U.S.C. § 925
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: putative-conflict
+lower_court:
+  origin: {code: 92, state: 35}
+  source: {code: 23}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 137}
+admin_action: {agency: 89}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

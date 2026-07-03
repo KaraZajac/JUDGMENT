@@ -1,0 +1,95 @@
+id: 1992-021
+name: LEONEL TORRES HERRERA v. JAMES A. COLLINS, DIRECTOR, TEXAS DEPARTMENT OF CRIMINAL JUSTICE, INSTITUTIONAL DIVISION
+term: 1992
+chief: Rehnquist
+natural_court: 1605
+docket: 91-7328
+citation:
+  us: 506 U.S. 390
+  sct: 113 S. Ct. 853
+  led: 122 L. Ed. 2d 203
+  lexis: 1993 U.S. LEXIS 1017
+dates:
+  argued: '1992-10-07'
+  decided: '1993-01-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- supervisory
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 121}
+  source: {code: 25}
+  disposition: vacated
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: SDOConnor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: CThomas
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AScalia

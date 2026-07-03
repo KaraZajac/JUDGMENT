@@ -1,0 +1,83 @@
+id: 1953-013
+name: PUBLIC UTILITIES COMMISSION OF CALIFORNIA et al. v. UNITED AIR LINES, INC. et al.
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '87'
+citation:
+  us: 346 U.S. 402
+  sct: 74 S. Ct. 151
+  led: 98 L. Ed. 2d 140
+  lexis: 1953 U.S. LEXIS 2567
+dates:
+  argued: '1953-11-12'
+  decided: '1953-11-30'
+decision:
+  type: per-curiam-argued
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90090, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 2201
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 50}
+  source: {code: 50}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 6}
+  respondent: {code: 104}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: HLBlack
+votes:
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EWarren
+  participated: false
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

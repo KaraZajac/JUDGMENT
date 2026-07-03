@@ -1,0 +1,90 @@
+id: 1986-096
+name: GRAY v. MISSISSIPPI
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-5454
+citation:
+  us: 481 U.S. 648
+  sct: 107 S. Ct. 2045
+  led: 95 L. Ed. 2d 622
+  lexis: 1987 U.S. LEXIS 2057
+dates:
+  argued: '1986-11-12'
+  decided: '1987-05-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10250, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 217
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 29}
+  source: {code: 300, state: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 29}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

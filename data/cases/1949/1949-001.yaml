@@ -1,0 +1,81 @@
+id: 1949-001
+name: UNITED STATES v. SPELAR, ADMINISTRATRIX
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '42'
+citation:
+  us: 338 U.S. 217
+  sct: 70 S. Ct. 10
+  led: 94 L. Ed. 2d 3
+  lexis: 1949 U.S. LEXIS 2921
+dates:
+  argued: '1949-10-18'
+  decided: '1949-11-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80060, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 374
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 94, state: 37}
+  source: {code: 22}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 145}
+opinions:
+  majority_author: SFReed
+  majority_assigner: FMVinson
+votes:
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: RHJackson
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true

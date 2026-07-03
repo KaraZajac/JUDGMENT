@@ -1,0 +1,76 @@
+id: 1870-125
+name: THE CHEROKEE TOBACCO
+term: 1870
+chief: Chase
+natural_court: 602
+citation:
+  us: 78 U.S. 616
+  led: 20 L. Ed. 227
+  lexis: 1870 U.S. LEXIS 1507
+dates:
+  argued: '1871-03-20'
+  decided: '1871-05-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 100060, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, July 20, 1868, sec. 107
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 47}
+  source: {code: 47}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 152}
+  respondent: {code: 27}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: NClifford
+votes:
+- justice: SPChase
+  participated: false
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SJField
+  participated: false
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - DDavis

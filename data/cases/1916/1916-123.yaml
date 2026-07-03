@@ -1,0 +1,83 @@
+id: 1916-123
+name: UNITED STATES v. MOREHEAD
+term: 1916
+chief: White
+natural_court: 905
+docket: '685'
+citation:
+  us: 243 U.S. 607
+  sct: 37 S. Ct. 458
+  led: 61 L. Ed. 926
+  lexis: 1917 U.S. LEXIS 1961
+dates:
+  argued: '1917-03-14'
+  decided: '1917-04-30'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10530, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Homestead Law preference
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 88}
+  source: {code: 88}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+admin_action: {agency: 123}
+opinions:
+  majority_author: LDBrandeis
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: conservative
+  in_majority: true

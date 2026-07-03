@@ -1,0 +1,79 @@
+id: 1953-064
+name: BROWNELL, ATTORNEY GENERAL, SUCCESSOR TO THE ALIEN PROPERTY CUSTODIAN, v. SINGER
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '401'
+citation:
+  us: 347 U.S. 403
+  sct: 74 S. Ct. 548
+  led: 98 L. Ed. 2d 803
+  lexis: 1954 U.S. LEXIS 2280
+dates:
+  argued: '1954-03-08'
+  decided: '1954-04-05'
+decision:
+  type: per-curiam-argued
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 120030, area: federal-taxation}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 300, state: 37}
+  source: {code: 300, state: 37}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 135}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_assigner: HLBlack
+votes:
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: EWarren
+  participated: false
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

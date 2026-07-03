@@ -1,0 +1,87 @@
+id: 2020-064
+name: HOLLYFRONTIER CHEYENNE REFINING, LLC v. RENEWABLE FUELS ASSOCIATION
+term: 2020
+chief: Roberts
+natural_court: 1709
+docket: 20-472
+citation:
+  sct: 141 S. Ct. 2172
+  led: 210 L. Ed. 2d 547
+  lexis: 2021 U.S. LEXIS 3399
+dates:
+  argued: '2021-04-27'
+  decided: '2021-06-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80290, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 121 Stat. 1519
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 30}
+  source: {code: 30}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 198}
+  respondent: {code: 198}
+admin_action: {agency: 33}
+opinions:
+  majority_author: NMGorsuch
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - ACBarrett
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - ACBarrett
+- justice: NMGorsuch
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

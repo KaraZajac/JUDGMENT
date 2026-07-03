@@ -1,0 +1,83 @@
+id: 1894-139
+name: THE CALEDONIA
+term: 1894
+chief: Fuller
+natural_court: 806
+docket: '107'
+citation:
+  us: 157 U.S. 124
+  sct: 15 S. Ct. 537
+  led: 39 L. Ed. 644
+  lexis: 1895 U.S. LEXIS 2183
+dates:
+  decided: '1895-03-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 80}
+  source: {code: 418}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 234}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HBBrown
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HBBrown
+- justice: HBBrown
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HEJackson
+  participated: false
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true

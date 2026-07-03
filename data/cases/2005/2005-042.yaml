@@ -1,0 +1,87 @@
+id: 2005-042
+name: GEORGIA v. SCOTT FITZ RANDOLPH
+term: 2005
+chief: Roberts
+natural_court: 1702
+docket: 04-1067
+citation:
+  us: 547 U.S. 103
+  sct: 126 S. Ct. 1515
+  led: 164 L. Ed. 2d 208
+  lexis: 2006 U.S. LEXIS 2498
+dates:
+  argued: '2005-11-08'
+  decided: '2006-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: state-court-conflict
+lower_court:
+  origin: {code: 302, state: 13}
+  source: {code: 300, state: 13}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 13}
+  respondent: {code: 100}
+opinions:
+  majority_author: DHSouter
+  majority_assigner: JPStevens
+votes:
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SAAlito
+  participated: false

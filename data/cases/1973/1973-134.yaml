@@ -1,0 +1,86 @@
+id: 1973-134
+name: WHEELER et al. v. BARRERA et al.
+term: 1973
+chief: Burger
+natural_court: 1504
+docket: 73-62
+citation:
+  us: 417 U.S. 402
+  sct: 94 S. Ct. 2274
+  led: 41 L. Ed. 2d 159
+  lexis: 1974 U.S. LEXIS 70
+dates:
+  argued: '1974-01-16'
+  decided: '1974-06-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 30180, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 324
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 87}
+  source: {code: 28}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 2}
+  petitioner_state: {code: 30}
+  respondent: {code: 239}
+admin_action: {agency: 117, state: 30}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

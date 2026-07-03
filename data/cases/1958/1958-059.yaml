@@ -1,0 +1,92 @@
+id: 1958-059
+name: SECURITIES AND EXCHANGE COMMISSION v. VARIABLE ANNUITY LIFE INSURANCE CO. OF AMERICA et al.
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '290'
+citation:
+  us: 359 U.S. 65
+  sct: 79 S. Ct. 618
+  led: 3 L. Ed. 2d 640
+  lexis: 1959 U.S. LEXIS 1754
+dates:
+  argued: '1959-01-15'
+  decided: '1959-03-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80120, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 15 U.S.C. § 1011
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 405}
+  respondent: {code: 171}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: CEWhittaker
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2

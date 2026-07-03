@@ -1,0 +1,81 @@
+id: 1925-130
+name: UNITED STATES v. KATZ et al.
+term: 1925
+chief: Taft
+natural_court: 1005
+docket: '726'
+citation:
+  us: 271 U.S. 354
+  sct: 46 S. Ct. 513
+  led: 70 L. Ed. 986
+  lexis: 1926 U.S. LEXIS 631
+dates:
+  argued: '1926-03-11'
+  decided: '1926-05-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 10510, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Volstead Act
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 109}
+  source: {code: 109}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 105}
+opinions:
+  majority_author: HFStone
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

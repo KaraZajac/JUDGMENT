@@ -1,0 +1,93 @@
+id: 1957-072
+name: TROP v. DULLES, SECRETARY OF STATE, et al.
+term: 1957
+chief: Warren
+natural_court: 1405
+docket: '70'
+citation:
+  us: 356 U.S. 86
+  sct: 78 S. Ct. 590
+  led: 2 L. Ed. 2d 630
+  lexis: 1958 U.S. LEXIS 1284
+dates:
+  argued: '1957-05-02'
+  reargued: '1957-10-28'
+  decided: '1958-03-31'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20280, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 94}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 328}
+opinions:
+  majority_author: EWarren
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CEWhittaker
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter

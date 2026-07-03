@@ -1,0 +1,79 @@
+id: 1902-188
+name: JAMES v. BOWMAN
+term: 1902
+chief: Fuller
+natural_court: 810
+docket: '213'
+citation:
+  us: 190 U.S. 127
+  sct: 23 S. Ct. 678
+  led: 47 L. Ed. 979
+  lexis: 1903 U.S. LEXIS 1587
+dates:
+  argued: '1903-03-16'
+  decided: '1903-05-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10570, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 233
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 74}
+  source: {code: 74}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 21}
+  respondent: {code: 222}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  participated: false
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true

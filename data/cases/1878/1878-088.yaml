@@ -1,0 +1,82 @@
+id: 1878-088
+name: UNION PACIFIC RAILROAD COMPANY v. UNITED STATES
+term: 1878
+chief: Waite
+natural_court: 702
+docket: '736'
+citation:
+  us: 99 U.S. 402
+  led: 25 L. Ed. 274
+  lexis: 1878 U.S. LEXIS 1556
+dates:
+  argued: '1878-12-03'
+  decided: '1879-01-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80220, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 7/1/1862
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 27}
+admin_action: {agency: 108}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WStrong

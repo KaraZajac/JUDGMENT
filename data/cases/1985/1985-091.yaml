@@ -1,0 +1,89 @@
+id: 1985-091
+name: FEDERAL DEPOSIT INSURANCE CORPORATION v. PHILADELPHIA GEAR CORP.
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 84-1972
+citation:
+  us: 476 U.S. 426
+  sct: 106 S. Ct. 1931
+  led: 90 L. Ed. 2d 428
+  lexis: 1986 U.S. LEXIS 77
+dates:
+  argued: '1986-03-04'
+  decided: '1986-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80350, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 12 U.S.C. § 1813
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 107}
+  source: {code: 30}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 341}
+  respondent: {code: 233}
+admin_action: {agency: 41}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

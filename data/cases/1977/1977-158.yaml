@@ -1,0 +1,81 @@
+id: 1977-158
+name: ALABAMA et al. v. PUGH et al.
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 77-1107
+citation:
+  us: 438 U.S. 781
+  sct: 98 S. Ct. 3057
+  led: 57 L. Ed. 2d 1114
+  lexis: 1978 U.S. LEXIS 136
+dates:
+  decided: '1978-07-03'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed-and-remanded
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10140, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 224
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 41}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 1}
+  respondent: {code: 215}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false

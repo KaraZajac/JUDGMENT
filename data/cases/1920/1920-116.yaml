@@ -1,0 +1,86 @@
+id: 1920-116
+name: FREY & SON, INCORPORATED, v. CUDAHY PACKING COMPANY
+term: 1920
+chief: White
+natural_court: 905
+docket: '200'
+citation:
+  us: 256 U.S. 208
+  sct: 41 S. Ct. 451
+  led: 65 L. Ed. 892
+  lexis: 1921 U.S. LEXIS 1664
+dates:
+  argued: '1921-03-16'
+  decided: '1921-04-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 79}
+  source: {code: 24}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 238}
+  respondent: {code: 184}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MPitney
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MPitney

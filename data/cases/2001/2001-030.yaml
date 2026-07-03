@@ -1,0 +1,90 @@
+id: 2001-030
+name: TRACY RAGSDALE, et al. v. WOLVERINE WORLD WIDE, INC.
+term: 2001
+chief: Rehnquist
+natural_court: 1607
+docket: 00-6029
+citation:
+  us: 535 U.S. 81
+  sct: 122 S. Ct. 1155
+  led: 152 L. Ed. 2d 167
+  lexis: 2002 U.S. LEXIS 1936
+dates:
+  argued: '2002-01-07'
+  decided: '2002-03-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90120, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 29 U.S.C. § 2612
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 46}
+  source: {code: 28}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 154}
+  respondent: {code: 151}
+admin_action: {agency: 71}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: SGBreyer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor

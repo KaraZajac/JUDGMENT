@@ -1,0 +1,92 @@
+id: 1942-154
+name: MURDOCK v. PENNSYLVANIA (CITY OF JEANNETTE)
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '480'
+citation:
+  us: 319 U.S. 105
+  sct: 63 S. Ct. 870
+  led: 87 L. Ed. 1292
+  lexis: 1943 U.S. LEXIS 711
+dates:
+  argued: '1943-03-10'
+  decided: '1943-05-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: local-ordinance
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30160, area: first-amendment}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 130}
+  respondent: {code: 3}
+  respondent_state: {code: 45}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+  - FFrankfurter
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

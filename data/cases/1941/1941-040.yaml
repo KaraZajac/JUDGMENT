@@ -1,0 +1,91 @@
+id: 1941-040
+name: CLOVERLEAF BUTTER CO. v. PATTERSON, COMMISSIONER OF AGRICULTURE AND INDUSTRIES OF ALABAMA, et al.
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '28'
+citation:
+  us: 315 U.S. 148
+  sct: 62 S. Ct. 491
+  led: 86 L. Ed. 754
+  lexis: 1942 U.S. LEXIS 1055
+dates:
+  argued: '1941-12-09'
+  decided: '1942-02-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80170, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 41}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 158}
+  respondent: {code: 19}
+  respondent_state: {code: 1}
+admin_action: {agency: 117, state: 1}
+opinions:
+  majority_author: SFReed
+  majority_assigner: OJRoberts
+votes:
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: JFByrnes
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

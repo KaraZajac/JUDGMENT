@@ -1,0 +1,77 @@
+id: 1942-043
+name: UNITED STATES ex rel. MARCUS et al. v. HESS et al.
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '173'
+citation:
+  us: 317 U.S. 537
+  sct: 63 S. Ct. 379
+  led: 87 L. Ed. 443
+  lexis: 1943 U.S. LEXIS 1108
+dates:
+  argued: '1942-12-10'
+  decided: '1943-01-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80060, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 111}
+  source: {code: 23}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 254}
+  respondent: {code: 176}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  participated: false
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

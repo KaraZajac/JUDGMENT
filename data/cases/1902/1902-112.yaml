@@ -1,0 +1,77 @@
+id: 1902-112
+name: THE OSCEOLA
+term: 1902
+chief: Fuller
+natural_court: 810
+docket: '98'
+citation:
+  us: 189 U.S. 158
+  sct: 23 S. Ct. 483
+  led: 47 L. Ed. 760
+  lexis: 1903 U.S. LEXIS 1340
+dates:
+  argued: '1902-12-02'
+  decided: '1903-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 132}
+  source: {code: 27}
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 127}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  participated: false

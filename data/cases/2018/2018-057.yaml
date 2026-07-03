@@ -1,0 +1,89 @@
+id: 2018-057
+name: VIRGINIA HOUSE OF DELEGATES v. BETHUNE-HILL
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 18-281
+citation:
+  sct: 139 S. Ct. 1945
+  led: 204 L. Ed. 2d 305
+  lexis: 2019 U.S. LEXIS 4174
+dates:
+  argued: '2019-03-18'
+  decided: '2019-06-17'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90230, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 126}
+  source: {code: 126}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 17}
+  petitioner_state: {code: 55}
+  respondent: {code: 251}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: CThomas
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SAAlito

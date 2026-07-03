@@ -1,0 +1,83 @@
+id: 1945-096
+name: MCALLISTER LIGHTERAGE LINE, INC. v. UNITED STATES et al.
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '616'
+citation:
+  us: 327 U.S. 655
+  sct: 66 S. Ct. 731
+  led: 90 L. Ed. 923
+  lexis: 1946 U.S. LEXIS 3041
+dates:
+  argued: '1946-03-05'
+  decided: '1946-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80230, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- administrative-interpretation
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 177}
+  respondent: {code: 27}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: FMurphy
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

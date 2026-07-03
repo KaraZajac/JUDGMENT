@@ -1,0 +1,88 @@
+id: 1978-149
+name: CALIFANO, SECRETARY OF HEALTH, EDUCATION, AND WELFARE v. BOLES et al.
+term: 1978
+chief: Burger
+natural_court: 1506
+docket: 78-808
+citation:
+  us: 443 U.S. 282
+  sct: 99 S. Ct. 2767
+  led: 61 L. Ed. 2d 541
+  lexis: 1979 U.S. LEXIS 9
+dates:
+  argued: '1979-04-25'
+  decided: '1979-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20200, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 212
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 122}
+  source: {code: 122}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 362}
+  respondent: {code: 188}
+admin_action: {agency: 106}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,87 @@
+id: 1998-020
+name: AT&T CORPORATION, et al. v. IOWA UTILITIES BOARD et al.
+term: 1998
+chief: Rehnquist
+natural_court: 1607
+docket: 97-826
+citation:
+  us: 525 U.S. 366
+  sct: 119 S. Ct. 721
+  led: 142 L. Ed. 2d 834
+  lexis: 1999 U.S. LEXIS 903
+dates:
+  argued: '1998-10-13'
+  decided: '1999-01-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80340, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 326
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 28}
+  source: {code: 28}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 205}
+  respondent: {code: 4}
+  respondent_state: {code: 19}
+admin_action: {agency: 38}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - CThomas
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  participated: false
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - CThomas

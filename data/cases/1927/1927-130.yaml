@@ -1,0 +1,85 @@
+id: 1927-130
+name: DELAWARE, LACKAWANNA AND WESTERN RAILROAD COMPANY v. TOWN OF MORRISTOWN et al.
+term: 1927
+chief: Taft
+natural_court: 1005
+docket: '147'
+citation:
+  us: 276 U.S. 182
+  sct: 48 S. Ct. 276
+  led: 72 L. Ed. 523
+  lexis: 1928 U.S. LEXIS 72
+dates:
+  argued: '1928-01-06'
+  decided: '1928-02-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 92}
+  source: {code: 23}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 3}
+  respondent_state: {code: 35}
+opinions:
+  majority_author: PButler
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

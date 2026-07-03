@@ -1,0 +1,91 @@
+id: 2005-068
+name: EMPIRE HEALTHCHOICE ASSURANCE, INC., DBA EMPIRE BLUE CROSS BLUE SHIELD v. DENISE F. MCVEIGH, AS ADMINISTRATRIX
+  OF THE ESTATE OF JOSEPH E. MCVEIGH
+term: 2005
+chief: Roberts
+natural_court: 1702
+docket: 05-200
+citation:
+  us: 547 U.S. 677
+  sct: 126 S. Ct. 2121
+  led: 165 L. Ed. 2d 131
+  lexis: 2006 U.S. LEXIS 4679
+dates:
+  argued: '2006-04-25'
+  decided: '2006-06-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90320, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 1331
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 8}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: JGRoberts
+votes:
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer

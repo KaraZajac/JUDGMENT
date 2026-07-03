@@ -1,0 +1,92 @@
+id: 2001-053
+name: FEDERAL MARITIME COMMISSION v. SOUTH CAROLINA STATE PORTS AUTHORITY et al.
+term: 2001
+chief: Rehnquist
+natural_court: 1607
+docket: 01-46
+citation:
+  us: 535 U.S. 743
+  sct: 122 S. Ct. 1864
+  led: 152 L. Ed. 2d 962
+  lexis: 2002 U.S. LEXIS 3794
+dates:
+  argued: '2002-02-25'
+  decided: '2002-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100100, area: federalism}
+law:
+  type: constitutional-amendment
+  supp: 224
+authority:
+- federal-common-law
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 24}
+  source: {code: 24}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 349}
+  respondent: {code: 4}
+  respondent_state: {code: 48}
+admin_action: {agency: 49}
+opinions:
+  majority_author: CThomas
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,79 @@
+id: 1909-095
+name: LOUISVILLE & NASHVILLE RAILROAD COMPANY v. GASTON
+term: 1909
+chief: Fuller
+natural_court: 812
+docket: '451'
+citation:
+  us: 216 U.S. 418
+  sct: 30 S. Ct. 291
+  led: 54 L. Ed. 542
+  lexis: 1910 U.S. LEXIS 1907
+dates:
+  argued: '1909-12-16'
+  decided: '1910-02-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 16}
+  respondent_state: {code: 1}
+opinions:
+  majority_author: WRDay
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  participated: false
+- justice: HHLurton
+  participated: false

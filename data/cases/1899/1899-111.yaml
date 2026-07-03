@@ -1,0 +1,91 @@
+id: 1899-111
+name: LINDSAY AND PHELPS COMPANY v. MULLEN
+term: 1899
+chief: Fuller
+natural_court: 808
+docket: '44'
+citation:
+  us: 176 U.S. 126
+  sct: 20 S. Ct. 325
+  led: 44 L. Ed. 400
+  lexis: 1900 U.S. LEXIS 1727
+dates:
+  argued: '1899-04-06'
+  decided: '1900-01-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 420}
+  source: {code: 420}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 259}
+  petitioner_state: {code: 28}
+  respondent: {code: 4}
+  respondent_state: {code: 28}
+admin_action: {agency: 117, state: 28}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RWPeckham
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RWPeckham
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RWPeckham
+- justice: RWPeckham
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true

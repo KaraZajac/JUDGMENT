@@ -1,0 +1,76 @@
+id: 1969-066
+name: CAIN et al. v. KENTUCKY
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '347'
+citation:
+  us: 397 U.S. 319
+  sct: 90 S. Ct. 1110
+  led: 25 L. Ed. 2d 334
+  lexis: 1970 U.S. LEXIS 2453
+dates:
+  decided: '1970-03-23'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 30190, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 21}
+  source: {code: 300, state: 21}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 156}
+  respondent: {code: 28}
+  respondent_state: {code: 21}
+opinions:
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

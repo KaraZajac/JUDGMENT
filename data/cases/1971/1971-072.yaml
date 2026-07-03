@@ -1,0 +1,83 @@
+id: 1971-072
+name: RABE v. WASHINGTON
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 71-247
+citation:
+  us: 405 U.S. 313
+  sct: 92 S. Ct. 993
+  led: 31 L. Ed. 2d 258
+  lexis: 1972 U.S. LEXIS 78
+dates:
+  argued: '1972-02-29'
+  decided: '1972-03-20'
+decision:
+  type: per-curiam-argued
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 30190, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 156}
+  respondent: {code: 28}
+  respondent_state: {code: 56}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WEBurger

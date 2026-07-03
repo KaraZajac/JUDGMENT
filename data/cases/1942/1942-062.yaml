@@ -1,0 +1,85 @@
+id: 1942-062
+name: PUBLIC UTILITIES COMMISSION OF OHIO et al. v. UNITED FUEL GAS CO. et al.
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '87'
+citation:
+  us: 317 U.S. 456
+  sct: 63 S. Ct. 369
+  led: 87 L. Ed. 396
+  lexis: 1943 U.S. LEXIS 1133
+dates:
+  argued: '1942-12-08'
+  decided: '1943-01-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80310, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 104}
+  source: {code: 104}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 41}
+  respondent: {code: 198}
+admin_action: {agency: 117, state: 41}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

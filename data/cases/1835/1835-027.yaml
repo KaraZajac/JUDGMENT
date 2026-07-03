@@ -1,0 +1,69 @@
+id: 1835-027
+name: JOSEPH D. BEERS, WILLIAM L. BOOTH AND ISAAC R. ST JOHN, PLAINTIFFS IN ERROR v. RICHARD HAUGHTON
+term: 1835
+chief: Marshall
+natural_court: 410
+citation:
+  us: 34 U.S. 329
+  led: 9 L. Ed. 145
+  lexis: 1835 U.S. LEXIS 354
+dates:
+  decided: '1835-02-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 20100, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Process Act, May 19, 1828
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 428}
+  source: {code: 428}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 138}
+opinions:
+  majority_author: JStory
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBaldwin
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true

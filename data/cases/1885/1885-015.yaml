@@ -1,0 +1,72 @@
+id: 1885-015
+name: SMITH v. BLACK, TRUSTEE
+term: 1885
+chief: Waite
+natural_court: 706
+docket: '29'
+citation:
+  us: 115 U.S. 308
+  sct: 6 S. Ct. 50
+  led: 29 L. Ed. 398
+  lexis: 1885 U.S. LEXIS 1842
+dates:
+  argued: '1885-10-26'
+  decided: '1885-11-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 140070, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 19}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 138}
+opinions:
+  majority_author: SBlatchford
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  in_majority: true
+- justice: HGray
+  vote: majority
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  opinion: wrote
+  in_majority: true

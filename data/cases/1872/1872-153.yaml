@@ -1,0 +1,76 @@
+id: 1872-153
+name: BRADWELL v. THE STATE OF ILLINOIS
+term: 1872
+chief: Chase
+natural_court: 603
+citation:
+  us: 83 U.S. 130
+  led: 21 L. Ed. 442
+  lexis: 1872 U.S. LEXIS 1140
+dates:
+  argued: '1872-01-18'
+  decided: '1873-04-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 20140, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 227
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 17}
+  source: {code: 300, state: 17}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 111}
+  respondent: {code: 28}
+  respondent_state: {code: 17}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: NClifford
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  in_majority: true
+- justice: NHSwayne
+  vote: special-concurrence
+  in_majority: true
+  joined:
+  - JPBradley
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  in_majority: true
+- justice: SJField
+  vote: special-concurrence
+  in_majority: true
+  joined:
+  - JPBradley
+- justice: WStrong
+  vote: majority
+  in_majority: true
+- justice: JPBradley
+  vote: special-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  in_majority: true

@@ -1,0 +1,81 @@
+id: 1885-095
+name: STONE & OTHERS v. ILLINOIS CENTRAL RAILROAD COMPANY
+term: 1885
+chief: Waite
+natural_court: 706
+citation:
+  us: 116 U.S. 347
+  sct: 6 S. Ct. 348
+  led: 29 L. Ed. 650
+  lexis: 1886 U.S. LEXIS 1765
+dates:
+  argued: '1885-10-14'
+  decided: '1886-01-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 421}
+  source: {code: 421}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 29}
+  respondent: {code: 231}
+opinions:
+  majority_author: MRWaite
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WBWoods
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SBlatchford
+  participated: false

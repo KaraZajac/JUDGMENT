@@ -1,0 +1,87 @@
+id: 1979-019
+name: WORLD-WIDE VOLKSWAGEN CORP. et al. v. WOODSON, DISTRICT JUDGE OF CREEK COUNTY, OKLAHOMA, et al.
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 78-1078
+citation:
+  us: 444 U.S. 286
+  sct: 100 S. Ct. 559
+  led: 62 L. Ed. 2d 490
+  lexis: 1980 U.S. LEXIS 65
+dates:
+  argued: '1979-10-03'
+  decided: '1980-01-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 40060, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 42}
+  source: {code: 300, state: 42}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 200}
+  respondent: {code: 16}
+  respondent_state: {code: 42}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

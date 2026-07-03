@@ -1,0 +1,90 @@
+id: 1985-031
+name: MIDLANTIC NATIONAL BANK v. NEW JERSEY DEPARTMENT OF ENVIRONMENTAL PROTECTION
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 84-801
+citation:
+  us: 474 U.S. 494
+  sct: 106 S. Ct. 755
+  led: 88 L. Ed. 2d 859
+  lexis: 1986 U.S. LEXIS 50
+dates:
+  argued: '1985-10-16'
+  decided: '1986-01-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 92}
+  source: {code: 23}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 7}
+  respondent_state: {code: 35}
+admin_action: {agency: 117, state: 35}
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: WEBurger
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WHRehnquist

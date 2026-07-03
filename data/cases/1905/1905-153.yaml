@@ -1,0 +1,81 @@
+id: 1905-153
+name: HOUSTON AND TEXAS CENTRAL RAILROAD COMPANY v. MAYES
+term: 1905
+chief: Fuller
+natural_court: 810
+docket: '198'
+citation:
+  us: 201 U.S. 321
+  sct: 26 S. Ct. 491
+  led: 50 L. Ed. 772
+  lexis: 1906 U.S. LEXIS 1792
+dates:
+  argued: '1906-03-08'
+  decided: '1906-04-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 301, state: 51}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 174}
+admin_action: {agency: 117, state: 51}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: DJBrewer
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  participated: false
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true

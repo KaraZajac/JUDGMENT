@@ -1,0 +1,68 @@
+id: 1829-020
+name: JOHN F. SATTERLEE, PLAINTIFF IN ERROR VS. ELIZABETH MATTHEWSON, DEFENDANT IN ERROR
+term: 1829
+chief: Marshall
+natural_court: 408
+citation:
+  us: 27 U.S. 380
+  led: 7 L. Ed. 458
+  lexis: 1829 U.S. LEXIS 433
+dates:
+  argued: '1829-02-10'
+  decided: '1829-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80105, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 241}
+  respondent: {code: 195}
+opinions:
+  majority_author: BWashington
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: conservative
+  in_majority: true

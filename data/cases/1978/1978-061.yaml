@@ -1,0 +1,92 @@
+id: 1978-061
+name: NEW YORK TELEPHONE CO. et al. v. NEW YORK STATE DEPARTMENT OF LABOR et al.
+term: 1978
+chief: Burger
+natural_court: 1506
+docket: 77-961
+citation:
+  us: 440 U.S. 519
+  sct: 99 S. Ct. 1328
+  led: 59 L. Ed. 2d 553
+  lexis: 1979 U.S. LEXIS 76
+dates:
+  argued: '1978-10-30'
+  decided: '1979-03-21'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 100030, area: federalism}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 205}
+  respondent: {code: 7}
+  respondent_state: {code: 37}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: TMarshall
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HABlackmun
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: HABlackmun
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true

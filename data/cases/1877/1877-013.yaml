@@ -1,0 +1,76 @@
+id: 1877-013
+name: SHIELDS v. OHIO
+term: 1877
+chief: Waite
+natural_court: 701
+docket: '380'
+citation:
+  us: 95 U.S. 319
+  led: 24 L. Ed. 357
+  lexis: 1877 U.S. LEXIS 2174
+dates:
+  argued: '1877-10-09'
+  decided: '1877-10-29'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 28}
+  respondent_state: {code: 41}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  participated: false
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WStrong
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true

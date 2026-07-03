@@ -1,0 +1,78 @@
+id: 1909-122
+name: ST. LOUIS SOUTHWESTERN RAILWAY COMPANY v. STATE OF ARKANSAS
+term: 1909
+chief: Fuller
+natural_court: 812
+docket: '111'
+citation:
+  us: 217 U.S. 136
+  sct: 30 S. Ct. 476
+  led: 54 L. Ed. 698
+  lexis: 1910 U.S. LEXIS 1949
+dates:
+  argued: '1910-01-26'
+  decided: '1910-04-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 5}
+  source: {code: 300, state: 5}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 28}
+  respondent_state: {code: 5}
+admin_action: {agency: 117, state: 5}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  participated: false
+- justice: HHLurton
+  vote: majority
+  direction: conservative
+  in_majority: true

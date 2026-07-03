@@ -1,0 +1,90 @@
+id: 1944-113
+name: INTERNATIONAL UNION OF MINE, MILL & SMELTER WORKERS, LOCALS NOS. 15, 17, 107, 108 AND 111, (C. I. O.) et al.
+  v. EAGLE-PICHER MINING & SMELTING CO. et al.
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '337'
+citation:
+  us: 325 U.S. 335
+  sct: 65 S. Ct. 1166
+  led: 89 L. Ed. 1649
+  lexis: 1945 U.S. LEXIS 2681
+dates:
+  argued: '1945-01-31'
+  decided: '1945-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90120, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 28}
+  source: {code: 28}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 187}
+admin_action: {agency: 82}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMurphy

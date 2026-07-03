@@ -1,0 +1,72 @@
+id: 1830-014
+name: WILLIAM PARSONS, PLAINTIFF IN ERROR VS. BEDFORD, BREEDLOVE, AND ROBESON, DEFENDANTS
+term: 1830
+chief: Marshall
+natural_court: 409
+citation:
+  us: 28 U.S. 433
+  led: 7 L. Ed. 732
+  lexis: 1830 U.S. LEXIS 550
+dates:
+  argued: '1830-01-29'
+  decided: '1830-02-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 100020, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, May 26, 1824
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 75}
+  source: {code: 75}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 123}
+  respondent: {code: 233}
+opinions:
+  majority_author: JStory
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HBaldwin
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,92 @@
+id: 1894-236
+name: POLLOCK v. FARMERS' LOAN AND TRUST COMPANY. (REHEARING)
+term: 1894
+chief: Fuller
+natural_court: 806
+docket: '893'
+citation:
+  us: 158 U.S. 601
+  sct: 15 S. Ct. 912
+  led: 39 L. Ed. 1108
+  lexis: 1895 U.S. LEXIS 2280
+dates:
+  argued: '1895-05-06'
+  decided: '1895-05-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 Stat 509, Tariff Act of Aug 15, 1894
+authority:
+- federal-common-law
+jurisdiction: {code: 6}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 122}
+admin_action: {agency: 27}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HEJackson
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HEJackson
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HEJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HEJackson

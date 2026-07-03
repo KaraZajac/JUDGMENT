@@ -1,0 +1,85 @@
+id: 1939-040
+name: SECURITIES AND EXCHANGE COMMISSION v. UNITED STATES REALTY & IMPROVEMENT CO.
+term: 1939
+chief: Hughes
+natural_court: 1108
+docket: '796'
+citation:
+  us: 310 U.S. 434
+  sct: 60 S. Ct. 1044
+  led: 84 L. Ed. 1293
+  lexis: 1940 U.S. LEXIS 1047
+dates:
+  argued: '1940-04-29'
+  decided: '1940-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 405}
+  respondent: {code: 114}
+admin_action: {agency: 105}
+opinions:
+  majority_author: HFStone
+  majority_assigner: HFStone
+votes:
+- justice: CEHughes2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true

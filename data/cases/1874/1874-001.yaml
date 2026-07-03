@@ -1,0 +1,76 @@
+id: 1874-001
+name: NEW ORLEANS v. THE STEAMSHIP COMPANY
+term: 1874
+chief: Waite
+natural_court: 701
+docket: '5'
+citation:
+  us: 87 U.S. 387
+  led: 22 L. Ed. 354
+  lexis: 1874 U.S. LEXIS 1427
+dates:
+  argued: '1874-10-13'
+  decided: '1874-10-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 10080, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 415}
+  source: {code: 415}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 22}
+  respondent: {code: 116}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  participated: false
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  participated: false
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  participated: false
+- justice: WHunt
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 1945-006
+name: ASBURY HOSPITAL v. CASS COUNTY et al.
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '35'
+citation:
+  us: 326 U.S. 207
+  sct: 66 S. Ct. 61
+  led: 90 L. Ed. 6
+  lexis: 1945 U.S. LEXIS 1533
+dates:
+  argued: '1945-10-10'
+  decided: '1945-11-05'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 39}
+  source: {code: 300, state: 39}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 5}
+  respondent_state: {code: 39}
+admin_action: {agency: 117, state: 39}
+opinions:
+  majority_author: HFStone
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,88 @@
+id: 2014-027
+name: YOUNG v. UPS
+term: 2014
+chief: Roberts
+natural_court: 1704
+docket: 12-1226
+citation:
+  us: 575 U.S. 206
+  sct: 135 S. Ct. 1338
+  led: 191 L. Ed. 2d 279
+  lexis: 2015 U.S. LEXIS 2121
+dates:
+  argued: '2014-12-03'
+  decided: '2015-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20140, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 384
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-confusion
+lower_court:
+  origin: {code: 79}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 154}
+  respondent: {code: 234}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

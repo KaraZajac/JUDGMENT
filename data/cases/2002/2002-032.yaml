@@ -1,0 +1,87 @@
+id: 2002-032
+name: NORFOLK & WESTERN RAILWAY COMPANY v. FREEMAN AYERS et al.
+term: 2002
+chief: Rehnquist
+natural_court: 1607
+docket: 01-963
+citation:
+  us: 538 U.S. 135
+  sct: 123 S. Ct. 1210
+  led: 155 L. Ed. 2d 261
+  lexis: 2003 U.S. LEXIS 1956
+dates:
+  argued: '2002-11-06'
+  decided: '2003-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80050, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 329
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 57}
+  source: {code: 302, state: 57}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 145}
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy

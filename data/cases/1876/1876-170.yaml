@@ -1,0 +1,75 @@
+id: 1876-170
+name: CORCORAN v. CHESAPEAKE AND OHIO CANAL COMPANY
+term: 1876
+chief: Waite
+natural_court: 701
+docket: '193'
+citation:
+  us: 94 U.S. 741
+  led: 24 L. Ed. 190
+  lexis: 1876 U.S. LEXIS 1936
+dates:
+  argued: '1877-03-26'
+  decided: '1877-04-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 40020, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 19}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 122}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true

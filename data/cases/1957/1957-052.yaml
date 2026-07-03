@@ -1,0 +1,91 @@
+id: 1957-052
+name: CITY OF DETROIT et al. v. MURRAY CORPORATION OF AMERICA et al.
+term: 1957
+chief: Warren
+natural_court: 1405
+docket: '18'
+citation:
+  us: 355 U.S. 489
+  sct: 78 S. Ct. 458
+  led: 2 L. Ed. 2d 441
+  lexis: 1958 U.S. LEXIS 1763
+dates:
+  argued: '1957-11-13'
+  decided: '1958-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 81}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 27}
+  respondent: {code: 176}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEWhittaker
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEWhittaker
+- justice: CEWhittaker
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEWhittaker

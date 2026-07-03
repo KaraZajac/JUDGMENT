@@ -1,0 +1,79 @@
+id: 1887-177
+name: MAYNARD v. HILL
+term: 1887
+chief: Waite
+natural_court: 707
+docket: '104'
+citation:
+  us: 125 U.S. 190
+  sct: 8 S. Ct. 723
+  led: 31 L. Ed. 654
+  lexis: 1888 U.S. LEXIS 1927
+dates:
+  argued: '1888-02-16'
+  decided: '1888-03-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 20130, area: civil-rights}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 17, state: 56}
+  source: {code: 15, state: 56}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 195}
+opinions:
+  majority_author: SJField
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: HGray
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: conservative
+  in_majority: true

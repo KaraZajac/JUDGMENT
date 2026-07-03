@@ -1,0 +1,88 @@
+id: 1994-086
+name: FLORIDA BAR v. WENT FOR IT, INC., AND JOHN T. BLAKELY
+term: 1994
+chief: Rehnquist
+natural_court: 1607
+docket: 94-226
+citation:
+  us: 515 U.S. 618
+  sct: 115 S. Ct. 2371
+  led: 132 L. Ed. 2d 541
+  lexis: 1995 U.S. LEXIS 4250
+dates:
+  argued: '1995-01-11'
+  decided: '1995-06-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 60020, area: attorneys}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 57}
+  source: {code: 31}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 216}
+  respondent: {code: 111}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true

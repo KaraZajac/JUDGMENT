@@ -1,0 +1,85 @@
+id: 2012-065
+name: AGENCY FOR INTERNATIONAL DEVELOPMENT, et al., PETITIONERS v. ALLIANCE FOR OPEN SOCIETY INTERNATIONAL, INC.,
+  et al.
+term: 2012
+chief: Roberts
+natural_court: 1704
+docket: 12-10
+citation:
+  us: 570 U.S. 205
+  sct: 133 S. Ct. 2321
+  led: 186 L. Ed. 2d 398
+  lexis: 2013 U.S. LEXIS 4699
+dates:
+  argued: '2013-04-22'
+  decided: '2013-06-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-national
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 12}
+  respondent: {code: 165}
+admin_action: {agency: 63}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  participated: false

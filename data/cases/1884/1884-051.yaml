@@ -1,0 +1,87 @@
+id: 1884-051
+name: CHICAGO, MILWAUKEE & ST. PAUL RAILWAY COMPANY v. ROSS
+term: 1884
+chief: Waite
+natural_court: 706
+docket: '25'
+citation:
+  us: 112 U.S. 377
+  sct: 5 S. Ct. 184
+  led: 28 L. Ed. 787
+  lexis: 1884 U.S. LEXIS 1891
+dates:
+  argued: '1884-04-14'
+  decided: '1884-12-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 420}
+  source: {code: 420}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 145}
+opinions:
+  majority_author: SJField
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMatthews
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: HGray
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SBlatchford
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPBradley

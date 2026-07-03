@@ -1,0 +1,88 @@
+id: 2006-019
+name: ANDRE WALLACE v. KRISTEN KATO et al.
+term: 2006
+chief: Roberts
+natural_court: 1702
+docket: 05-1240
+citation:
+  us: 549 U.S. 384
+  sct: 127 S. Ct. 1091
+  led: 166 L. Ed. 2d 973
+  lexis: 2007 U.S. LEXIS 2650
+dates:
+  argued: '2006-11-06'
+  decided: '2007-02-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20400, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 314
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 3}
+  respondent_state: {code: 17}
+opinions:
+  majority_author: AScalia
+  majority_assigner: JGRoberts
+votes:
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true

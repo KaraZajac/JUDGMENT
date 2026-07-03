@@ -1,0 +1,83 @@
+id: 1970-023
+name: KENNERLY et al. v. DISTRICT COURT OF THE NINTH JUDICIAL DISTRICT OF MONTANA et al.
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '5370'
+citation:
+  us: 400 U.S. 423
+  sct: 91 S. Ct. 480
+  led: 27 L. Ed. 2d 507
+  lexis: 1971 U.S. LEXIS 92
+dates:
+  decided: '1971-01-18'
+decision:
+  type: per-curiam-no-argument
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20160, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 67 Stat. 590
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 31}
+  source: {code: 300, state: 31}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 170}
+  respondent: {code: 6}
+  respondent_state: {code: 31}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,66 @@
+id: 1810-030
+name: SMITH v. THE STATE OF MARYLAND, AT THE INSTANCE AND FOR THE USE OF CARROLL AND MACCUBBIN
+term: 1810
+chief: Marshall
+natural_court: 404
+citation:
+  us: 10 U.S. 286
+  led: 3 L. Ed. 225
+  lexis: 1810 U.S. LEXIS 344
+dates:
+  argued: '1810-03-13'
+  decided: '1810-03-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 0
+issue: {code: 90350, area: judicial-power}
+law:
+  type: other
+  supp: 509
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 300, state: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 195}
+opinions:
+  majority_author: BWashington
+  majority_assigner: BWashington
+votes:
+- justice: JMarshall
+  participated: false
+- justice: WCushing
+  participated: false
+- justice: SChase
+  participated: false
+- justice: BWashington
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,61 @@
+id: 1832-025
+name: JOHN SMITH T., PLAINTIFF v. ROBERT BELL, DEFENDANT
+term: 1832
+chief: Marshall
+natural_court: 409
+citation:
+  us: 31 U.S. 68
+  led: 8 L. Ed. 322
+  lexis: 1832 U.S. LEXIS 457
+dates:
+  argued: '1832-01-12'
+  decided: '1832-02-04'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 140070, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 433}
+  source: {code: 433}
+  disagreement: true
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 257}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: WJohnson
+  participated: false
+- justice: GDuvall
+  vote: majority
+  in_majority: true
+- justice: JStory
+  vote: majority
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  in_majority: true

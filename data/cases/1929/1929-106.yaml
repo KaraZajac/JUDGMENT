@@ -1,0 +1,86 @@
+id: 1929-106
+name: THE FARMERS LOAN & TRUST COMPANY, EXECUTOR, v. MINNESOTA
+term: 1929
+chief: Taft
+natural_court: 1005
+docket: '26'
+citation:
+  us: 280 U.S. 204
+  sct: 50 S. Ct. 98
+  led: 74 L. Ed. 371
+  lexis: 1930 U.S. LEXIS 750
+dates:
+  argued: '1929-10-30'
+  decided: '1930-01-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 28}
+  source: {code: 300, state: 28}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 28}
+  respondent_state: {code: 28}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,86 @@
+id: 1923-073
+name: TEXAS TRANSPORT & TERMINAL COMPANY, INCORPORATED, v. CITY OF NEW ORLEANS
+term: 1923
+chief: Taft
+natural_court: 1004
+docket: '141'
+citation:
+  us: 264 U.S. 150
+  sct: 44 S. Ct. 242
+  led: 68 L. Ed. 611
+  lexis: 1924 U.S. LEXIS 2490
+dates:
+  argued: '1924-01-04'
+  decided: '1924-02-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 22}
+  source: {code: 300, state: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 3}
+  respondent_state: {code: 22}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true

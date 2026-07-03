@@ -1,0 +1,89 @@
+id: 1946-055
+name: ANGEL v. BULLINGTON
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '31'
+citation:
+  us: 330 U.S. 183
+  sct: 67 S. Ct. 657
+  led: 91 L. Ed. 832
+  lexis: 1947 U.S. LEXIS 2649
+dates:
+  argued: '1946-03-05'
+  reargued: '1946-11-18'
+  decided: '1947-02-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90460, area: judicial-power}
+law:
+  type: other
+  supp: 506
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 100, state: 38}
+  source: {code: 24}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 123}
+  respondent: {code: 233}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFReed
+  - WBRutledge
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFReed
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

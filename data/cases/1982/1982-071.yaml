@@ -1,0 +1,85 @@
+id: 1982-071
+name: BLOCK, SECRETARY OF AGRICULTURE, et al. v. NORTH DAKOTA ex rel. BOARD OF UNIVERSITY AND SCHOOL LANDS
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 81-2337
+citation:
+  us: 461 U.S. 273
+  sct: 103 S. Ct. 1811
+  led: 75 L. Ed. 2d 840
+  lexis: 1983 U.S. LEXIS 26
+dates:
+  argued: '1983-02-23'
+  decided: '1983-05-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 100020, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 2409
+authority:
+- statutory-construction
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 101}
+  source: {code: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 304}
+  respondent: {code: 28}
+  respondent_state: {code: 39}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

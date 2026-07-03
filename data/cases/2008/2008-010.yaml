@@ -1,0 +1,86 @@
+id: 2008-010
+name: OREGON v. THOMAS EUGENE ICE
+term: 2008
+chief: Roberts
+natural_court: 1702
+docket: 07-901
+citation:
+  us: 555 U.S. 160
+  sct: 129 S. Ct. 711
+  led: 172 L. Ed. 2d 517
+  lexis: 2009 U.S. LEXIS 582
+dates:
+  argued: '2008-10-14'
+  decided: '2009-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10580, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 215
+authority:
+- federal-common-law
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: state-court-conflict
+lower_court:
+  origin: {code: 302, state: 43}
+  source: {code: 300, state: 43}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 43}
+  respondent: {code: 126}
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: JPStevens
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AScalia
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true

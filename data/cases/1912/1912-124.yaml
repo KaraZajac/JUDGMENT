@@ -1,0 +1,84 @@
+id: 1912-124
+name: GRAND TRUNK WESTERN RAILWAY COMPANY v. CITY OF SOUTH BEND
+term: 1912
+chief: White
+natural_court: 902
+docket: '81'
+citation:
+  us: 227 U.S. 544
+  sct: 33 S. Ct. 303
+  led: 57 L. Ed. 633
+  lexis: 1913 U.S. LEXIS 2330
+dates:
+  argued: '1912-12-10'
+  decided: '1913-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 18}
+  source: {code: 300, state: 18}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 3}
+  respondent_state: {code: 18}
+opinions:
+  majority_author: JRLamar
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  direction: liberal
+  in_majority: false

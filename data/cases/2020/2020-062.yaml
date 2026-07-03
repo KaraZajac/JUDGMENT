@@ -1,0 +1,88 @@
+id: 2020-062
+name: MINERVA SURGICAL INC. v. HOLOGIC INC.
+term: 2020
+chief: Roberts
+natural_court: 1709
+docket: 20-440
+citation:
+  sct: 141 S. Ct. 2298
+  led: 210 L. Ed. 2d 689
+  lexis: 2021 U.S. LEXIS 3563
+dates:
+  argued: '2021-04-21'
+  decided: '2021-06-29'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80180, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Patent Acts
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 54}
+  source: {code: 8}
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 172}
+opinions:
+  majority_author: EKagan
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - ACBarrett
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - ACBarrett
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

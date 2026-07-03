@@ -1,0 +1,90 @@
+id: 1948-059
+name: H. P. HOOD & SONS, INC. v. DU MOND, COMMISSIONER OF AGRICULTURE AND MARKETS
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '92'
+citation:
+  us: 336 U.S. 525
+  sct: 69 S. Ct. 657
+  led: 93 L. Ed. 2d 865
+  lexis: 1949 U.S. LEXIS 3005
+dates:
+  argued: '1948-12-13'
+  decided: '1949-04-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80110, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 7 U.S.C. § 601
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 158}
+  respondent: {code: 19}
+  respondent_state: {code: 37}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: SFReed
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

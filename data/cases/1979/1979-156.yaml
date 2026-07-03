@@ -1,0 +1,83 @@
+id: 1979-156
+name: HAMMETT v. TEXAS
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 79-5050
+citation:
+  us: 448 U.S. 725
+  sct: 100 S. Ct. 2905
+  led: 65 L. Ed. 2d 1086
+  lexis: 1980 U.S. LEXIS 150
+dates:
+  decided: '1980-07-02'
+decision:
+  type: per-curiam-no-argument
+  disposition: granted
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10130, area: criminal-procedure}
+law:
+  type: court-rules
+  supp: 403
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 300, state: 51}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HABlackmun
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

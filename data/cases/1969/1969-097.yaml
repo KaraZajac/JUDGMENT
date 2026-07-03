@@ -1,0 +1,84 @@
+id: 1969-097
+name: SCHACHT v. UNITED STATES
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '628'
+citation:
+  us: 398 U.S. 58
+  sct: 90 S. Ct. 1555
+  led: 26 L. Ed. 2d 44
+  lexis: 1970 U.S. LEXIS 39
+dates:
+  argued: '1970-03-31'
+  decided: '1970-05-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 30150, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U.S.C. § 772
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 119}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 156}
+  respondent: {code: 27}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite

@@ -1,0 +1,74 @@
+id: 1975-008
+name: TURNER v. DEPARTMENT OF EMPLOYMENT SECURITY OF UTAH et al.
+term: 1975
+chief: Burger
+natural_court: 1505
+docket: 74-1312
+citation:
+  us: 423 U.S. 44
+  sct: 96 S. Ct. 249
+  led: 46 L. Ed. 2d 181
+  lexis: 1975 U.S. LEXIS 94
+dates:
+  decided: '1975-11-17'
+decision:
+  type: per-curiam-no-argument
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 20140, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 300, state: 52}
+  source: {code: 300, state: 52}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 248}
+  respondent: {code: 7}
+  respondent_state: {code: 52}
+admin_action: {agency: 117, state: 52}
+opinions:
+  majority_assigner: WJBrennan
+votes:
+- justice: WEBurger
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false

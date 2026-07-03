@@ -1,0 +1,86 @@
+id: 1952-068
+name: HEIKKILA v. BARBER, DISTRICT DIRECTOR OF THE IMMIGRATION AND NATURALIZATION SERVICE, ET AL.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '426'
+citation:
+  us: 345 U.S. 229
+  sct: 73 S. Ct. 603
+  led: 97 L. Ed. 2d 972
+  lexis: 1953 U.S. LEXIS 2613
+dates:
+  argued: '1953-02-04'
+  decided: '1953-03-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20110, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 50, state: 6}
+  source: {code: 50, state: 6}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 368}
+admin_action: {agency: 68}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: TCClark
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,87 @@
+id: 1945-068
+name: UNITED STATES v. AMERICAN UNION TRANSPORT, INC. et al.
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '44'
+citation:
+  us: 327 U.S. 437
+  sct: 66 S. Ct. 644
+  led: 90 L. Ed. 772
+  lexis: 1946 U.S. LEXIS 2994
+dates:
+  argued: '1945-10-11'
+  decided: '1946-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80230, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Shipping Act 46 U.S.C.S. 801
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 122}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WBRutledge
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

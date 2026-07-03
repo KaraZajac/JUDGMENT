@@ -1,0 +1,87 @@
+id: 1936-090
+name: BRUSH v. COMMISSIONER OF INTERNAL REVENUE
+term: 1936
+chief: Hughes
+natural_court: 1103
+docket: '451'
+citation:
+  us: 300 U.S. 352
+  sct: 57 S. Ct. 495
+  led: 81 L. Ed. 691
+  lexis: 1937 U.S. LEXIS 1178
+dates:
+  argued: '1937-02-04'
+  decided: '1937-03-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100060, area: federalism}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 240}
+admin_action: {agency: 69}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BNCardozo
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: conservative
+  in_majority: true

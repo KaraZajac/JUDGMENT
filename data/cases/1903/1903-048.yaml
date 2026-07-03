@@ -1,0 +1,85 @@
+id: 1903-048
+name: THE ROBERT W. PARSONS
+term: 1903
+chief: Fuller
+natural_court: 810
+docket: '16'
+citation:
+  us: 191 U.S. 17
+  sct: 24 S. Ct. 8
+  led: 48 L. Ed. 73
+  lexis: 1903 U.S. LEXIS 1495
+dates:
+  argued: '1903-03-11'
+  decided: '1903-10-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100080, area: federalism}
+law:
+  type: constitution
+  supp: 138
+authority:
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 302, state: 37}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 127}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: HBBrown
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true

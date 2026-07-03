@@ -1,0 +1,85 @@
+id: 1934-073
+name: PANAMA REFINING CO. et al. v. RYAN et al.
+term: 1934
+chief: Hughes
+natural_court: 1103
+docket: '135'
+citation:
+  us: 293 U.S. 388
+  sct: 55 S. Ct. 241
+  led: 79 L. Ed. 446
+  lexis: 1935 U.S. LEXIS 251
+dates:
+  argued: '1934-12-10'
+  decided: '1935-01-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: constitution
+  supp: 100
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 119}
+  source: {code: 25}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 198}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+admin_action: {agency: 26}
+opinions:
+  majority_author: CEHughes2
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

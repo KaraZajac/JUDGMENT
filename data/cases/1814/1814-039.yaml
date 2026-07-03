@@ -1,0 +1,72 @@
+id: 1814-039
+name: THE UNITED STATES v. 1960 BAGS OF COFFEE
+term: 1814
+chief: Marshall
+natural_court: 406
+citation:
+  us: 12 U.S. 398
+  led: 3 L. Ed. 602
+  lexis: 1814 U.S. LEXIS 442
+dates:
+  argued: '1813-02-17'
+  reargued: '1814-02-15'
+  decided: '1814-03-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 40070, area: due-process}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, March 1, 1809, vol. 9, p. 243
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 79}
+  source: {code: 417}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 234}
+opinions:
+  majority_author: WJohnson
+  majority_assigner: BWashington
+votes:
+- justice: JMarshall
+  participated: false
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

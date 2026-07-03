@@ -1,0 +1,87 @@
+id: 1946-132
+name: SUNAL v. LARGE, SUPERINTENDENT, FEDERAL PRISON CAMP
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '535'
+citation:
+  us: 332 U.S. 174
+  sct: 67 S. Ct. 1588
+  led: 91 L. Ed. 1982
+  lexis: 1947 U.S. LEXIS 2028
+dates:
+  argued: '1947-04-01'
+  decided: '1947-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30130, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 366
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 131, state: 57}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 142}
+  respondent: {code: 27}
+admin_action: {agency: 24}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,94 @@
+id: 1935-061
+name: MOREHEAD, WARDEN, v. NEW YORK EX REL. TIPALDO
+term: 1935
+chief: Hughes
+natural_court: 1103
+docket: '838'
+citation:
+  us: 298 U.S. 587
+  sct: 56 S. Ct. 918
+  led: 80 L. Ed. 1347
+  lexis: 1936 U.S. LEXIS 1044
+dates:
+  argued: '1936-04-28'
+  decided: '1936-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20140, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 37}
+  respondent: {code: 100}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: PButler
+  majority_assigner: WVanDevanter
+votes:
+- justice: CEHughes2
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CEHughes2
+  - HFStone
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - CEHughes2
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CEHughes2
+  - HFStone

@@ -1,0 +1,84 @@
+id: 1872-147
+name: UNITED STATES v. RAILROAD COMPANY
+term: 1872
+chief: Chase
+natural_court: 603
+citation:
+  us: 84 U.S. 322
+  led: 21 L. Ed. 597
+  lexis: 1872 U.S. LEXIS 1329
+dates:
+  argued: '1873-03-12'
+  decided: '1873-04-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Internal Revenue Act of 1864, sec. 122
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 417}
+  source: {code: 417}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 231}
+admin_action: {agency: 69}
+opinions:
+  majority_author: WHunt
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - NClifford
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  opinion: co-wrote
+  direction: conservative
+  in_majority: true

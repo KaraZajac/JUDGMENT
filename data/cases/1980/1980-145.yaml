@@ -1,0 +1,89 @@
+id: 1980-145
+name: CBS, INC. v. FEDERAL COMMUNICATIONS COMMISSION et al.
+term: 1980
+chief: Burger
+natural_court: 1506
+docket: 80-207
+citation:
+  us: 453 U.S. 367
+  sct: 101 S. Ct. 2813
+  led: 69 L. Ed. 2d 706
+  lexis: 1981 U.S. LEXIS 40
+dates:
+  argued: '1981-03-03'
+  decided: '1981-07-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80320, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 326
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 191}
+  respondent: {code: 338}
+admin_action: {agency: 38}
+opinions:
+  majority_author: WEBurger
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite

@@ -1,0 +1,87 @@
+id: 1977-146
+name: ALLIED STRUCTURAL STEEL CO. v. SPANNAUS, ATTORNEY GENERAL OF MINNESOTA, et al.
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 77-747
+citation:
+  us: 438 U.S. 234
+  sct: 98 S. Ct. 2716
+  led: 57 L. Ed. 2d 727
+  lexis: 1978 U.S. LEXIS 130
+dates:
+  argued: '1978-04-25'
+  decided: '1978-06-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 83}
+  source: {code: 83}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 28}
+  respondent_state: {code: 28}
+admin_action: {agency: 117, state: 28}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  participated: false
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

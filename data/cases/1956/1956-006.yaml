@@ -1,0 +1,86 @@
+id: 1956-006
+name: UNITED STATES v. BERGH et al.
+term: 1956
+chief: Warren
+natural_court: 1404
+docket: '17'
+citation:
+  us: 352 U.S. 40
+  sct: 77 S. Ct. 106
+  led: 1 L. Ed. 2d 102
+  lexis: 1956 U.S. LEXIS 1636
+dates:
+  argued: '1956-10-15'
+  decided: '1956-11-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 5 U.S.C. § 86
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 8}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: TCClark
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HHBurton
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  participated: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HHBurton
+- justice: HHBurton
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true

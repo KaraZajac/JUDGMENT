@@ -1,0 +1,86 @@
+id: 1887-179
+name: FRIEDENSTEIN v. UNITED STATES
+term: 1887
+chief: Waite
+natural_court: 707
+docket: '178'
+citation:
+  us: 125 U.S. 224
+  sct: 8 S. Ct. 838
+  led: 31 L. Ed. 736
+  lexis: 1888 U.S. LEXIS 1929
+dates:
+  argued: '1888-02-10'
+  decided: '1888-03-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 40070, area: due-process}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 SAL 189
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 426}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+admin_action: {agency: 108}
+opinions:
+  majority_author: SBlatchford
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SJField
+- justice: SMatthews
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: liberal
+  in_majority: true

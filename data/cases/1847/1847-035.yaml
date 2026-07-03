@@ -1,0 +1,88 @@
+id: 1847-035
+name: 'THE LICENSE CASES: SAMUEL THURLOW, PLAINTIFF IN ERROR, v. THE COMMONWEALTH OF MASSACHUSETTS'
+term: 1847
+chief: Taney
+natural_court: 508
+citation:
+  us: 46 U.S. 504
+  led: 12 L. Ed. 256
+  lexis: 1847 U.S. LEXIS 322
+dates:
+  argued: '1845-01-29'
+  reargued: '1847-01-12'
+  decided: '1847-03-06'
+decision:
+  type: seriatim
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 26}
+  source: {code: 300, state: 26}
+  disposition: granted
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 26}
+opinions:
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - RBTaney
+  - JCatron
+- justice: LWoodbury
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

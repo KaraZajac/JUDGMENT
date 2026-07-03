@@ -1,0 +1,85 @@
+id: 1958-005
+name: PEURIFOY et al. v. COMMISSIONER OF INTERNAL REVENUE
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '46'
+citation:
+  us: 358 U.S. 59
+  sct: 79 S. Ct. 104
+  led: 3 L. Ed. 2d 30
+  lexis: 1958 U.S. LEXIS 1909
+dates:
+  argued: '1958-10-16'
+  decided: '1958-11-10'
+decision:
+  type: per-curiam-argued
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 9}
+  source: {code: 24}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 369}
+admin_action: {agency: 69}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HLBlack

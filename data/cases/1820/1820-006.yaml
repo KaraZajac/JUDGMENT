@@ -1,0 +1,72 @@
+id: 1820-006
+name: THE UNITED STATES v. SMITH
+term: 1820
+chief: Marshall
+natural_court: 406
+citation:
+  us: 18 U.S. 153
+  led: 5 L. Ed. 57
+  lexis: 1820 U.S. LEXIS 250
+dates:
+  argued: '1820-02-14'
+  decided: '1820-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 10570, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress March 3, 1819, ch. 76, sec. 5
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 436}
+  source: {code: 436}
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: JStory
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TTodd
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

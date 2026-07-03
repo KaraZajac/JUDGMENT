@@ -1,0 +1,77 @@
+id: 1854-035
+name: THE CITY OF BOSTON, PLAINTIFF IN ERROR, v. DAVID R. LECRAW
+term: 1854
+chief: Taney
+natural_court: 510
+citation:
+  us: 58 U.S. 426
+  led: 15 L. Ed. 118
+  lexis: 1854 U.S. LEXIS 529
+dates:
+  argued: '1855-01-22'
+  decided: '1855-02-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 40070, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 431}
+  source: {code: 431}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 26}
+  respondent: {code: 195}
+opinions:
+  majority_author: RCGrier
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRCurtis
+  participated: false
+- justice: JACampbell
+  vote: majority
+  direction: conservative
+  in_majority: true

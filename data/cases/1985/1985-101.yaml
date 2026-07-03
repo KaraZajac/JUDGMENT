@@ -1,0 +1,87 @@
+id: 1985-101
+name: BOWEN, SECRETARY OF HEALTH AND HUMAN SERVICES v. AMERICAN HOSPITAL ASSOCIATION et al.
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 84-1529
+citation:
+  us: 476 U.S. 610
+  sct: 106 S. Ct. 2101
+  led: 90 L. Ed. 2d 584
+  lexis: 1986 U.S. LEXIS 87
+dates:
+  argued: '1986-01-15'
+  decided: '1986-06-09'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 20210, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 360
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 363}
+  respondent: {code: 167}
+admin_action: {agency: 63}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WEBurger
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  participated: false
+- justice: JPStevens
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite

@@ -1,0 +1,88 @@
+id: 1948-050
+name: BLACK DIAMOND STEAMSHIP CORP. v. ROBERT STEWART & SONS, LTD. ET AL.
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '121'
+citation:
+  us: 336 U.S. 386
+  sct: 69 S. Ct. 622
+  led: 93 L. Ed. 2d 754
+  lexis: 1949 U.S. LEXIS 2928
+dates:
+  argued: '1949-01-03'
+  decided: '1949-03-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80070, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 2408
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 94, state: 37}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 116}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FMVinson
+votes:
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true

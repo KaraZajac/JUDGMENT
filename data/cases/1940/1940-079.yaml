@@ -1,0 +1,83 @@
+id: 1940-079
+name: PITTSBURGH PLATE GLASS CO. v. NATIONAL LABOR RELATIONS BOARD
+term: 1940
+chief: Hughes
+natural_court: 1108
+docket: '521'
+citation:
+  us: 313 U.S. 146
+  sct: 61 S. Ct. 908
+  led: 85 L. Ed. 1251
+  lexis: 1941 U.S. LEXIS 1197
+dates:
+  argued: '1941-03-07'
+  decided: '1941-04-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 70070, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 28}
+  source: {code: 28}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 382}
+admin_action: {agency: 82}
+opinions:
+  majority_author: SFReed
+  majority_assigner: HLBlack
+votes:
+- justice: CEHughes2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true

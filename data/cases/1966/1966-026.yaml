@@ -1,0 +1,80 @@
+id: 1966-026
+name: HOFFA v. UNITED STATES
+term: 1966
+chief: Warren
+natural_court: 1409
+docket: '32'
+citation:
+  us: 385 U.S. 293
+  sct: 87 S. Ct. 408
+  led: 17 L. Ed. 2d 374
+  lexis: 1966 U.S. LEXIS 2778
+dates:
+  argued: '1966-10-13'
+  decided: '1966-12-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 117}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 27}
+opinions:
+  majority_author: PStewart
+  majority_assigner: HLBlack
+votes:
+- justice: EWarren
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+  joined:
+  - TCClark
+- justice: TCClark
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  participated: false
+- justice: AFortas
+  participated: false

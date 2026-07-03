@@ -1,0 +1,91 @@
+id: 1947-037
+name: CHICAGO & SOUTHERN AIR LINES, INC. v. WATERMAN STEAMSHIP CORP.
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '78'
+citation:
+  us: 333 U.S. 103
+  sct: 68 S. Ct. 431
+  led: 92 L. Ed. 2d 568
+  lexis: 1948 U.S. LEXIS 2720
+dates:
+  argued: '1947-11-19'
+  decided: '1948-02-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90120, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 49 U.S.C. § 601
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 25}
+  source: {code: 25}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 104}
+  respondent: {code: 104}
+admin_action: {agency: 12}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

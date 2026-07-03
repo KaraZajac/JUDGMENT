@@ -1,0 +1,88 @@
+id: 1998-024
+name: JANET RENO, ATTORNEY GENERAL, et al. v. AMERICAN-ARAB ANTI-DISCRIMINATION COMMITTEE, et al.
+term: 1998
+chief: Rehnquist
+natural_court: 1607
+docket: 97-1252
+citation:
+  us: 525 U.S. 471
+  sct: 119 S. Ct. 936
+  led: 142 L. Ed. 2d 940
+  lexis: 1999 U.S. LEXIS 1514
+dates:
+  argued: '1998-11-04'
+  decided: '1999-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 20110, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 8 U.S.C. § 1252
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 106}
+admin_action: {agency: 68}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RBGinsburg

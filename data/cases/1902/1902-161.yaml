@@ -1,0 +1,87 @@
+id: 1902-161
+name: HAWAII v. MANKICHI
+term: 1902
+chief: Fuller
+natural_court: 810
+docket: '219'
+citation:
+  us: 190 U.S. 197
+  sct: 23 S. Ct. 787
+  led: 47 L. Ed. 1016
+  lexis: 1903 U.S. LEXIS 1546
+dates:
+  argued: '1903-03-04'
+  decided: '1903-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100030, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 5th & 6th Amendments
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 63}
+  source: {code: 63}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 15}
+  respondent: {code: 126}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: DJBrewer
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - EDEWhite
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true

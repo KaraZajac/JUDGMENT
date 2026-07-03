@@ -1,0 +1,78 @@
+id: 1949-114
+name: UNITED STATES v. TEXAS
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: 13, Original
+citation:
+  us: 339 U.S. 707
+  sct: 70 S. Ct. 918
+  led: 94 L. Ed. 2d 1221
+  lexis: 1950 U.S. LEXIS 1814
+dates:
+  argued: '1950-03-28'
+  decided: '1950-06-05'
+decision:
+  type: opinion-of-the-court
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 100010, area: federalism}
+law:
+  type: constitution
+  supp: 140
+authority:
+- judicial-review-national
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: SMinton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed

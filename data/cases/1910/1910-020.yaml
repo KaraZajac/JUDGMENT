@@ -1,0 +1,75 @@
+id: 1910-020
+name: WESTERN UNION TELEGRAPH COMPANY v. COMMERCIAL MILLING COMPANY
+term: 1910
+chief: Fuller
+natural_court: 813
+docket: '15'
+citation:
+  us: 218 U.S. 406
+  sct: 31 S. Ct. 59
+  led: 54 L. Ed. 1088
+  lexis: 1910 U.S. LEXIS 2036
+dates:
+  argued: '1910-10-26'
+  decided: '1910-11-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 14th Amendment, privileges & immunities, due process; freedom of contract
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 27}
+  source: {code: 300, state: 27}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 205}
+  respondent: {code: 122}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: JHarlan1
+votes:
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHLurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true

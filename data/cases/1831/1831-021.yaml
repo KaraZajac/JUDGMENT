@@ -1,0 +1,68 @@
+id: 1831-021
+name: THE STATE OF NEW JERSEY, COMPLAINANT VS. THE PEOPLE OF THE STATE OF NEW YORK
+term: 1831
+chief: Marshall
+natural_court: 409
+citation:
+  us: 30 U.S. 284
+  led: 8 L. Ed. 127
+  lexis: 1831 U.S. LEXIS 353
+dates:
+  decided: '1831-02-11'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 90370, area: judicial-power}
+law:
+  type: constitution
+  supp: 140
+authority:
+- judicial-review-national
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 35}
+  respondent: {code: 28}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBaldwin
+  vote: dissent
+  direction: liberal
+  in_majority: false

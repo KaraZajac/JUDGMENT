@@ -1,0 +1,89 @@
+id: 2022-011
+name: CRUZ v. ARIZONA
+term: 2022
+chief: Roberts
+natural_court: 1710
+docket: 21-846
+citation:
+  us: 598 U.S. 17
+  sct: 143 S. Ct. 650
+  led: 214 L. Ed. 2d 391
+  lexis: 2023 U.S. LEXIS 945
+dates:
+  argued: '2022-11-01'
+  decided: '2023-02-22'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100020, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 4}
+  source: {code: 300, state: 4}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 28}
+  respondent_state: {code: 4}
+opinions:
+  majority_author: SSotomayor
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - ACBarrett
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - ACBarrett
+- justice: SSotomayor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - ACBarrett
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: KBJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

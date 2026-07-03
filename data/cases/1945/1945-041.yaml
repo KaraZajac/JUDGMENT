@@ -1,0 +1,85 @@
+id: 1945-041
+name: UNITED STATES v. RICE, DISTRICT JUDGE
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '411'
+citation:
+  us: 327 U.S. 742
+  sct: 66 S. Ct. 835
+  led: 90 L. Ed. 982
+  lexis: 1946 U.S. LEXIS 2501
+dates:
+  argued: '1946-02-05'
+  decided: '1946-04-22'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90330, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Judicial Code 28 USC 346
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 105}
+  source: {code: 30}
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 16}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: HFStone
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true

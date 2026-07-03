@@ -1,0 +1,90 @@
+id: 2021-045
+name: WEST VIRGINIA v. ENVIRONMENTAL PROTECTION AGENCY
+term: 2021
+chief: Roberts
+natural_court: 1709
+docket: 20-1530
+citation:
+  sct: 142 S. Ct. 2587
+  led: 213 L. Ed. 2d 896
+  lexis: 2022 U.S. LEXIS 3268
+dates:
+  argued: '2022-02-28'
+  decided: '2022-06-30'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80270, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 304
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 57}
+  respondent: {code: 333}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EKagan
+- justice: SAAlito
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - NMGorsuch
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EKagan
+- justice: EKagan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NMGorsuch
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: conservative
+  in_majority: true

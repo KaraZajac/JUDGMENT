@@ -1,0 +1,86 @@
+id: 1855-055
+name: GEORGE C. DODGE, APPELLANT, v. JOHN M. WOOLSEY
+term: 1855
+chief: Taney
+natural_court: 510
+citation:
+  us: 59 U.S. 331
+  led: 15 L. Ed. 401
+  lexis: 1855 U.S. LEXIS 704
+dates:
+  argued: '1856-02-04'
+  decided: '1856-04-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 428}
+  source: {code: 428}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 41}
+  respondent: {code: 237}
+admin_action: {agency: 117, state: 41}
+opinions:
+  majority_author: JMWayne
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JACampbell
+- justice: PVDaniel
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JACampbell
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRCurtis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JACampbell
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

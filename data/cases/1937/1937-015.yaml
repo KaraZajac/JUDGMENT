@@ -1,0 +1,87 @@
+id: 1937-015
+name: BOGARDUS v. COMMISSIONER OF INTERNAL REVENUE
+term: 1937
+chief: Hughes
+natural_court: 1104
+docket: '15'
+citation:
+  us: 302 U.S. 34
+  sct: 58 S. Ct. 61
+  led: 82 L. Ed. 32
+  lexis: 1937 U.S. LEXIS 528
+dates:
+  argued: '1937-10-18'
+  decided: '1937-11-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 369}
+admin_action: {agency: 69}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false

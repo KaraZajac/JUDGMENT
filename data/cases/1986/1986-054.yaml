@@ -1,0 +1,83 @@
+id: 1986-054
+name: TRUESDALE v. AIKEN, WARDEN, et al.
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 86-5530
+citation:
+  us: 480 U.S. 527
+  sct: 107 S. Ct. 1394
+  led: 94 L. Ed. 2d 539
+  lexis: 1987 U.S. LEXIS 1193
+dates:
+  decided: '1987-03-23'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10040, area: criminal-procedure}
+law:
+  type: other
+  supp: 501
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 48}
+  source: {code: 300, state: 48}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 48}
+opinions:
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true

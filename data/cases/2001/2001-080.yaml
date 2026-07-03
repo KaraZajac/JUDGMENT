@@ -1,0 +1,97 @@
+id: 2001-080
+name: SUSAN TAVE ZELMAN, SUPERINTENDENT OF PUBLIC INSTRUCTION OF OHIO, et al. v. DORIS SIMMONS-HARRIS et al.
+term: 2001
+chief: Rehnquist
+natural_court: 1607
+docket: 00-1751
+citation:
+  us: 536 U.S. 639
+  sct: 122 S. Ct. 2460
+  led: 153 L. Ed. 2d 604
+  lexis: 2002 U.S. LEXIS 4885
+dates:
+  argued: '2002-02-20'
+  decided: '2002-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30180, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 203
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 103}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 2}
+  petitioner_state: {code: 41}
+  respondent: {code: 25}
+  respondent_state: {code: 41}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+  - SGBreyer
+- justice: SDOConnor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter

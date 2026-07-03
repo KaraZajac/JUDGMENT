@@ -1,0 +1,85 @@
+id: 1967-051
+name: ZSCHERNIG et al. v. MILLER, ADMINISTRATOR, et al.
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '21'
+citation:
+  us: 389 U.S. 429
+  sct: 88 S. Ct. 664
+  led: 19 L. Ed. 2d 683
+  lexis: 1968 U.S. LEXIS 2714
+dates:
+  argued: '1967-11-07'
+  decided: '1968-01-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 100130, area: federalism}
+law:
+  type: constitution
+  supp: 131
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 43}
+  source: {code: 300, state: 43}
+  disposition: affirmed-and-reversed-in-part
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 4}
+  respondent_state: {code: 43}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - PStewart
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

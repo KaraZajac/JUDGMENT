@@ -1,0 +1,73 @@
+id: 1938-123
+name: UNITED STATES v. ALGOMA LUMBER CO.
+term: 1938
+chief: Hughes
+natural_court: 1105
+docket: '245'
+citation:
+  us: 305 U.S. 415
+  sct: 59 S. Ct. 267
+  led: 83 L. Ed. 260
+  lexis: 1939 U.S. LEXIS 933
+dates:
+  argued: '1938-12-16'
+  decided: '1939-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 20150, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 122}
+opinions:
+  majority_author: HFStone
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  participated: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  participated: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true

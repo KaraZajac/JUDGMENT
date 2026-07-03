@@ -1,0 +1,90 @@
+id: 1946-109
+name: GREENOUGH ET AL., TRUSTEES, v. TAX ASSESSORS OF NEWPORT ET AL.
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '461'
+citation:
+  us: 331 U.S. 486
+  sct: 67 S. Ct. 1400
+  led: 91 L. Ed. 1621
+  lexis: 1947 U.S. LEXIS 2878
+dates:
+  argued: '1947-03-07'
+  decided: '1947-06-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 47}
+  source: {code: 300, state: 47}
+  disposition: remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 47}
+  respondent: {code: 3}
+  respondent_state: {code: 47}
+opinions:
+  majority_author: SFReed
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: FMVinson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WBRutledge

@@ -1,0 +1,80 @@
+id: 1898-007
+name: UNITED STATES v. JOINT TRAFFIC ASSOCIATION
+term: 1898
+chief: Fuller
+natural_court: 808
+docket: '84'
+citation:
+  us: 171 U.S. 505
+  sct: 19 S. Ct. 25
+  led: 43 L. Ed. 259
+  lexis: 1898 U.S. LEXIS 1621
+dates:
+  argued: '1898-02-24'
+  decided: '1898-10-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 231}
+admin_action: {agency: 66}
+opinions:
+  majority_author: RWPeckham
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  participated: false

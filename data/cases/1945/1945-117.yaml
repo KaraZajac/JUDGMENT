@@ -1,0 +1,84 @@
+id: 1945-117
+name: ORDER OF RAILWAY CONDUCTORS OF AMERICA et al. v. PITNEY et al., TRUSTEES OF CENTRAL RAILROAD CO. OF NEW JERSEY,
+  et al.
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '37'
+citation:
+  us: 326 U.S. 561
+  sct: 66 S. Ct. 322
+  led: 90 L. Ed. 318
+  lexis: 1946 U.S. LEXIS 3096
+dates:
+  argued: '1945-11-09'
+  decided: '1946-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 90320, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 363
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 92}
+  source: {code: 23}
+  disposition: remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 102}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true

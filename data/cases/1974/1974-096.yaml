@@ -1,0 +1,94 @@
+id: 1974-096
+name: MEEK et al. v. PITTENGER, SECRETARY OF EDUCATION, et al.
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-1765
+citation:
+  us: 421 U.S. 349
+  sct: 95 S. Ct. 1753
+  led: 44 L. Ed. 2d 217
+  lexis: 1975 U.S. LEXIS 6
+dates:
+  argued: '1975-02-19'
+  decided: '1975-05-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30180, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 203
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 109}
+  source: {code: 109}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 45}
+  respondent: {code: 28}
+  respondent_state: {code: 45}
+admin_action: {agency: 117, state: 45}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: PStewart
+  majority_assigner: WODouglas
+votes:
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: TMarshall
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

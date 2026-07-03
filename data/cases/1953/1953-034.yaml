@@ -1,0 +1,86 @@
+id: 1953-034
+name: PEREIRA et al. v. UNITED STATES
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '50'
+citation:
+  us: 347 U.S. 1
+  sct: 74 S. Ct. 358
+  led: 98 L. Ed. 2d 435
+  lexis: 1954 U.S. LEXIS 2623
+dates:
+  argued: '1953-10-20'
+  decided: '1954-02-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10450, area: criminal-procedure}
+law:
+  type: court-rules
+  supp: 402
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 122}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 168}
+  respondent: {code: 27}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: EWarren
+  majority_assigner: EWarren
+votes:
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SMinton
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SMinton
+- justice: EWarren
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  participated: false
+- justice: SMinton
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

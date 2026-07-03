@@ -1,0 +1,89 @@
+id: 1989-065
+name: MISSOURI et al. v. JENKINS et al.
+term: 1989
+chief: Rehnquist
+natural_court: 1603
+docket: 88-1150
+citation:
+  us: 495 U.S. 33
+  sct: 110 S. Ct. 1651
+  led: 109 L. Ed. 2d 31
+  lexis: 1990 U.S. LEXIS 2033
+dates:
+  argued: '1989-10-30'
+  decided: '1990-04-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20050, area: civil-rights}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 87}
+  source: {code: 28}
+  disposition: affirmed-and-reversed-in-part
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 30}
+  respondent: {code: 224}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AMKennedy
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AMKennedy
+- justice: AScalia
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AMKennedy
+- justice: AMKennedy
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

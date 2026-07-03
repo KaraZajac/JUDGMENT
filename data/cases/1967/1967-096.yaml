@@ -1,0 +1,85 @@
+id: 1967-096
+name: HOPKINS v. COHEN, ACTING SECRETARY OF HEALTH, EDUCATION, AND WELFARE
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '276'
+citation:
+  us: 390 U.S. 530
+  sct: 88 S. Ct. 1146
+  led: 20 L. Ed. 2d 87
+  lexis: 1968 U.S. LEXIS 2059
+dates:
+  argued: '1968-03-11'
+  decided: '1968-04-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 60010, area: attorneys}
+law:
+  type: federal-statute
+  supp: 370
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 68}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 140}
+  respondent: {code: 362}
+admin_action: {agency: 62}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

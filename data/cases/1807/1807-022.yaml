@@ -1,0 +1,74 @@
+id: 1807-022
+name: HUDSON AND OTHERS v. GUESTIER
+term: 1807
+chief: Marshall
+natural_court: 403
+citation:
+  us: 8 U.S. 293
+  led: 2 L. Ed. 625
+  lexis: 1807 U.S. LEXIS 383
+dates:
+  argued: '1808-02-06'
+  decided: '1808-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 90090, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 417}
+  source: {code: 417}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WCushing
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - SChase
+- justice: SChase
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HBLivingston
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true

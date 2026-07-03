@@ -1,0 +1,92 @@
+id: 1944-088
+name: HOOVEN & ALLISON CO. v. EVATT, TAX COMMISSIONER OF OHIO
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '38'
+citation:
+  us: 324 U.S. 652
+  sct: 65 S. Ct. 870
+  led: 89 L. Ed. 1252
+  lexis: 1945 U.S. LEXIS 2629
+dates:
+  argued: '1944-11-07'
+  decided: '1945-04-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 300, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 4}
+  respondent_state: {code: 41}
+admin_action: {agency: 117, state: 41}
+opinions:
+  majority_author: HFStone
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FMurphy
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack

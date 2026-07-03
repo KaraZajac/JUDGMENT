@@ -1,0 +1,84 @@
+id: 1938-124
+name: GWIN, WHITE & PRINCE, INC. v. HENNEFORD et al.
+term: 1938
+chief: Hughes
+natural_court: 1105
+docket: '75'
+citation:
+  us: 305 U.S. 434
+  sct: 59 S. Ct. 325
+  led: 83 L. Ed. 272
+  lexis: 1939 U.S. LEXIS 934
+dates:
+  argued: '1938-11-10'
+  decided: '1939-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 56}
+  respondent: {code: 4}
+  respondent_state: {code: 56}
+admin_action: {agency: 117, state: 56}
+opinions:
+  majority_author: HFStone
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - PButler
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true

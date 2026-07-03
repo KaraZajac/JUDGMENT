@@ -1,0 +1,72 @@
+id: 1796-012
+name: DEL COL VERSUS ARNOLD
+term: 1796
+chief: Ellsworth
+natural_court: 301
+citation:
+  us: 3 U.S. 333
+  led: 1 L. Ed. 624
+  lexis: 1796 U.S. LEXIS 412
+dates:
+  argued: '1796-02-29'
+  reargued: '1796-08-05'
+  decided: '1796-08-11'
+decision:
+  type: per-curiam-argued
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80040, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 114}
+  source: {code: 432}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_assigner: OEllsworth
+votes:
+- justice: OEllsworth
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JWilson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JIredell
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - SChase
+- justice: WPaterson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SChase
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - JIredell

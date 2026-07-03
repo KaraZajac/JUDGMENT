@@ -1,0 +1,89 @@
+id: 1982-009
+name: BROWN et al. v. SOCIALIST WORKERS '74 CAMPAIGN COMMITTEE (OHIO) et al.
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 81-776
+citation:
+  us: 459 U.S. 87
+  sct: 103 S. Ct. 416
+  led: 74 L. Ed. 2d 250
+  lexis: 1982 U.S. LEXIS 169
+dates:
+  argued: '1982-10-04'
+  decided: '1982-12-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30140, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 104}
+  source: {code: 104}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 41}
+  respondent: {code: 211}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: JPStevens
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

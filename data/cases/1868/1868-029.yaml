@@ -1,0 +1,79 @@
+id: 1868-029
+name: THE GRACE GIRDLER
+term: 1868
+chief: Chase
+natural_court: 601
+citation:
+  us: 74 U.S. 196
+  led: 19 L. Ed. 113
+  lexis: 1868 U.S. LEXIS 992
+dates:
+  decided: '1869-02-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 426}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 116}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: SNelson
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DDavis
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DDavis
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true

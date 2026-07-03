@@ -1,0 +1,95 @@
+id: 1966-126
+name: GILBERT v. CALIFORNIA
+term: 1966
+chief: Warren
+natural_court: 1409
+docket: '223'
+citation:
+  us: 388 U.S. 263
+  sct: 87 S. Ct. 1951
+  led: 18 L. Ed. 2d 1178
+  lexis: 1967 U.S. LEXIS 1086
+dates:
+  argued: '1967-02-15'
+  decided: '1967-06-12'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10150, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 210
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 6}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - AFortas
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

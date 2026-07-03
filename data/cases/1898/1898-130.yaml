@@ -1,0 +1,87 @@
+id: 1898-130
+name: ATCHISON, TOPEKA AND SANTA FE RAILROAD COMPANY v. MATTHEWS
+term: 1898
+chief: Fuller
+natural_court: 808
+docket: '147'
+citation:
+  us: 174 U.S. 96
+  sct: 19 S. Ct. 609
+  led: 43 L. Ed. 909
+  lexis: 1899 U.S. LEXIS 1486
+dates:
+  decided: '1899-04-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 20}
+  source: {code: 300, state: 20}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 195}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan1
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan1
+- justice: JMcKenna
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan1

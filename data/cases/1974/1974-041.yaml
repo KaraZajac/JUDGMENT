@@ -1,0 +1,88 @@
+id: 1974-041
+name: UNITED STATES et al. v. BISCEGLIA
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-1245
+citation:
+  us: 420 U.S. 141
+  sct: 95 S. Ct. 915
+  led: 43 L. Ed. 2d 88
+  lexis: 1975 U.S. LEXIS 135
+dates:
+  argued: '1974-11-11'
+  decided: '1975-02-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 73}
+  source: {code: 26}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 113}
+admin_action: {agency: 69}
+opinions:
+  majority_author: WEBurger
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HABlackmun
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true

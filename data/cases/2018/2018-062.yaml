@@ -1,0 +1,89 @@
+id: 2018-062
+name: RUCHO v. COMMON CAUSE
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 18-422
+citation:
+  sct: 139 S. Ct. 2484
+  led: 204 L. Ed. 2d 931
+  lexis: 2019 U.S. LEXIS 4401
+dates:
+  argued: '2019-03-26'
+  decided: '2019-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20010, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 99}
+  source: {code: 99}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 17}
+  petitioner_state: {code: 38}
+  respondent: {code: 251}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EKagan
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EKagan
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EKagan
+- justice: EKagan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true

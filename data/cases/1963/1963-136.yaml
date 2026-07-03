@@ -1,0 +1,88 @@
+id: 1963-136
+name: GENERAL MOTORS CORP. v. WASHINGTON et al.
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '115'
+citation:
+  us: 377 U.S. 436
+  sct: 84 S. Ct. 1564
+  led: 12 L. Ed. 2d 430
+  lexis: 1964 U.S. LEXIS 1071
+dates:
+  argued: '1964-02-26'
+  decided: '1964-06-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 189}
+  respondent: {code: 28}
+  respondent_state: {code: 56}
+opinions:
+  majority_author: TCClark
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AJGoldberg
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AJGoldberg
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

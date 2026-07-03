@@ -1,0 +1,80 @@
+id: 1925-188
+name: NEW YORK CENTRAL RAILROAD COMPANY et al. v. NEW YORK AND PENNSYLVANIA COMPANY
+term: 1925
+chief: Taft
+natural_court: 1005
+docket: '230'
+citation:
+  us: 271 U.S. 124
+  sct: 46 S. Ct. 447
+  led: 70 L. Ed. 865
+  lexis: 1926 U.S. LEXIS 903
+dates:
+  argued: '1926-04-13'
+  decided: '1926-04-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90480, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 234}
+admin_action: {agency: 117, state: 45}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  participated: false
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true

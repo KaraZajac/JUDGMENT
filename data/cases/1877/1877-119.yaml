@@ -1,0 +1,88 @@
+id: 1877-119
+name: FARRINGTON v. TENNESSEE
+term: 1877
+chief: Waite
+natural_court: 702
+docket: '646'
+citation:
+  us: 95 U.S. 679
+  led: 24 L. Ed. 558
+  lexis: 1877 U.S. LEXIS 2222
+dates:
+  argued: '1877-12-12'
+  decided: '1878-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 50}
+  respondent: {code: 28}
+  respondent_state: {code: 50}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WStrong
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WStrong
+- justice: WStrong
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,86 @@
+id: 2019-012
+name: ALLEN v. COOPER
+term: 2019
+chief: Roberts
+natural_court: 1707
+docket: 18-877
+citation:
+  sct: 140 S. Ct. 994
+  led: 206 L. Ed. 2d 291
+  lexis: 2020 U.S. LEXIS 1909
+dates:
+  argued: '2019-11-05'
+  decided: '2020-03-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 100120, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Copyright Remedy Clarification Act, 17 U.S.C. 511
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 98}
+  source: {code: 24}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 112}
+  respondent: {code: 28}
+  respondent_state: {code: 38}
+opinions:
+  majority_author: EKagan
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true

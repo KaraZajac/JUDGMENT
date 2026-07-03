@@ -1,0 +1,82 @@
+id: 1943-091
+name: STARK et al. v. WICKARD, SECRETARY OF AGRICULTURE, et al.
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '211'
+citation:
+  us: 321 U.S. 288
+  sct: 64 S. Ct. 559
+  led: 88 L. Ed. 733
+  lexis: 1944 U.S. LEXIS 1319
+dates:
+  argued: '1944-01-14'
+  decided: '1944-02-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90120, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 158}
+  respondent: {code: 304}
+admin_action: {agency: 4}
+opinions:
+  majority_author: SFReed
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

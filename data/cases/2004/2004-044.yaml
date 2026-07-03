@@ -1,0 +1,86 @@
+id: 2004-044
+name: DENNIS BATES, et al. v. DOW AGROSCIENCES LLC
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 03-388
+citation:
+  us: 544 U.S. 431
+  sct: 125 S. Ct. 1788
+  led: 161 L. Ed. 2d 687
+  lexis: 2005 U.S. LEXIS 3706
+dates:
+  argued: '2005-01-10'
+  decided: '2005-04-27'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100020, area: federalism}
+law:
+  type: federal-statute
+  supp: 333
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 120}
+  source: {code: 25}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 152}
+  respondent: {code: 128}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

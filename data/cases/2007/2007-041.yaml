@@ -1,0 +1,86 @@
+id: 2007-041
+name: BOB RILEY, GOVERNOR OF ALABAMA v. YVONNE KENNEDY ET AL
+term: 2007
+chief: Roberts
+natural_court: 1702
+docket: 07-77
+citation:
+  us: 553 U.S. 406
+  sct: 128 S. Ct. 1970
+  led: 170 L. Ed. 2d 837
+  lexis: 2008 U.S. LEXIS 4517
+dates:
+  argued: '2008-03-24'
+  decided: '2008-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20020, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 378
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 41}
+  source: {code: 41}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 251}
+admin_action: {agency: 27}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: JGRoberts
+votes:
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true

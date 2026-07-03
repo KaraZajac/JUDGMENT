@@ -1,0 +1,90 @@
+id: 1990-051
+name: ARIZONA v. FULMINANTE
+term: 1990
+chief: Rehnquist
+natural_court: 1604
+docket: 89-839
+citation:
+  us: 499 U.S. 279
+  sct: 111 S. Ct. 1246
+  led: 113 L. Ed. 2d 302
+  lexis: 1991 U.S. LEXIS 1854
+dates:
+  argued: '1990-10-10'
+  decided: '1991-03-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10010, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 302, state: 4}
+  source: {code: 300, state: 4}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 4}
+  respondent: {code: 100}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: BRWhite
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: DHSouter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist

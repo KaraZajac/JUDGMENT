@@ -1,0 +1,80 @@
+id: 1952-085
+name: ESSO STANDARD OIL CO. v. EVANS, COMMISSIONER OF FINANCE AND TAXATION, ET AL.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '330'
+citation:
+  us: 345 U.S. 495
+  sct: 73 S. Ct. 800
+  led: 97 L. Ed. 2d 1174
+  lexis: 1953 U.S. LEXIS 2538
+dates:
+  argued: '1953-03-10'
+  decided: '1953-05-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 100060, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 198}
+  respondent: {code: 19}
+  respondent_state: {code: 50}
+opinions:
+  majority_author: SFReed
+  majority_assigner: SFReed
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  participated: false
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: dissent
+  direction: liberal
+  in_majority: false

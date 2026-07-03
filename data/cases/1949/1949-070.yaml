@@ -1,0 +1,80 @@
+id: 1949-070
+name: AMERICAN COMMUNICATIONS ASSN., C. I. O., ET AL. v. DOUDS, REGIONAL DIRECTOR OF THE NATIONAL LABOR RELATIONS
+  BOARD
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '10'
+citation:
+  us: 339 U.S. 382
+  sct: 70 S. Ct. 674
+  led: 94 L. Ed. 2d 925
+  lexis: 1950 U.S. LEXIS 2530
+dates:
+  argued: '1949-10-10'
+  decided: '1950-05-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 30060, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 350
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96, state: 37}
+  source: {code: 96, state: 37}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 382}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  participated: false
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

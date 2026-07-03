@@ -1,0 +1,89 @@
+id: 2008-024
+name: UNITED STATES v. RANDY EDWARD HAYES
+term: 2008
+chief: Roberts
+natural_court: 1702
+docket: 07-608
+citation:
+  us: 555 U.S. 415
+  sct: 129 S. Ct. 1079
+  led: 172 L. Ed. 2d 816
+  lexis: 2009 U.S. LEXIS 1634
+dates:
+  argued: '2008-11-10'
+  decided: '2009-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10440, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18-922
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 130}
+  source: {code: 24}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 126}
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: JPStevens
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: DHSouter
+  vote: majority
+  direction: conservative
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true

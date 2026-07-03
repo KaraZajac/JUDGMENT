@@ -1,0 +1,85 @@
+id: 1951-033
+name: GUESSEFELDT v. McGRATH, ATTORNEY GENERAL, SUCCESSOR TO THE ALIEN PROPERTY CUSTODIAN, ET AL.
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '204'
+citation:
+  us: 342 U.S. 308
+  sct: 72 S. Ct. 338
+  led: 96 L. Ed. 2d 342
+  lexis: 1952 U.S. LEXIS 2803
+dates:
+  argued: '1951-11-29'
+  decided: '1952-01-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 40070, area: due-process}
+law:
+  type: federal-statute
+  supp: 376
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 32}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 1}
+admin_action: {agency: 5}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMVinson
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMVinson
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

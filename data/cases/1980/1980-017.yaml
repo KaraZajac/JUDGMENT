@@ -1,0 +1,90 @@
+id: 1980-017
+name: DELAWARE STATE COLLEGE et al. v. RICKS
+term: 1980
+chief: Burger
+natural_court: 1506
+docket: 79-939
+citation:
+  us: 449 U.S. 250
+  sct: 101 S. Ct. 498
+  led: 66 L. Ed. 2d 431
+  lexis: 1980 U.S. LEXIS 161
+dates:
+  argued: '1980-10-07'
+  decided: '1980-12-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20060, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 384
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 54}
+  source: {code: 23}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 26}
+  petitioner_state: {code: 9}
+  respondent: {code: 10}
+  respondent_state: {code: 9}
+admin_action: {agency: 117, state: 9}
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

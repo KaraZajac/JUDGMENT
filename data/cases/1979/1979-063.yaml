@@ -1,0 +1,92 @@
+id: 1979-063
+name: VITEK, CORRECTIONAL DIRECTOR, et al. v. JONES
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 78-1155
+citation:
+  us: 445 U.S. 480
+  sct: 100 S. Ct. 1254
+  led: 63 L. Ed. 2d 552
+  lexis: 1980 U.S. LEXIS 31
+dates:
+  argued: '1979-12-05'
+  decided: '1980-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40040, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 89}
+  source: {code: 89}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 32}
+  respondent: {code: 215}
+admin_action: {agency: 117, state: 32}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

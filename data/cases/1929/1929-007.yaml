@@ -1,0 +1,86 @@
+id: 1929-007
+name: SAFE DEPOSIT AND TRUST COMPANY OF BALTIMORE v. COMMONWEALTH OF VIRGINIA
+term: 1929
+chief: Taft
+natural_court: 1005
+docket: '20'
+citation:
+  us: 280 U.S. 83
+  sct: 50 S. Ct. 59
+  led: 74 L. Ed. 180
+  lexis: 1929 U.S. LEXIS 450
+dates:
+  argued: '1929-10-24'
+  decided: '1929-11-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 55}
+  source: {code: 301, state: 55}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 19}
+  respondent_state: {code: 55}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HFStone
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

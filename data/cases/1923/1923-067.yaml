@@ -1,0 +1,81 @@
+id: 1923-067
+name: RED CROSS LINE v. ATLANTIC FRUIT COMPANY
+term: 1923
+chief: Taft
+natural_court: 1004
+docket: '112'
+citation:
+  us: 264 U.S. 109
+  sct: 44 S. Ct. 274
+  led: 68 L. Ed. 582
+  lexis: 1924 U.S. LEXIS 2484
+dates:
+  argued: '1923-11-14'
+  decided: '1924-02-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80160, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 388
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 302, state: 37}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 241}
+  respondent: {code: 116}
+opinions:
+  majority_author: LDBrandeis
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,92 @@
+id: 1997-071
+name: COUNTY OF SACRAMENTO, et al. v. TERI LEWIS AND THOMAS LEWIS, PERSONAL REPRESENTATIVES OF THE ESTATE OF PHILIP
+  LEWIS, DECEASED
+term: 1997
+chief: Rehnquist
+natural_court: 1607
+docket: 96-1337
+citation:
+  us: 523 U.S. 833
+  sct: 118 S. Ct. 1708
+  led: 140 L. Ed. 2d 1043
+  lexis: 1998 U.S. LEXIS 3404
+dates:
+  argued: '1997-12-09'
+  decided: '1998-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80060, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 49}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 6}
+  respondent: {code: 208}
+opinions:
+  majority_author: DHSouter
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AMKennedy
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

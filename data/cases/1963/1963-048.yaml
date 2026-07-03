@@ -1,0 +1,91 @@
+id: 1963-048
+name: WRIGHT et al. v. ROCKEFELLER, GOVERNOR OF NEW YORK, et al.
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '96'
+citation:
+  us: 376 U.S. 52
+  sct: 84 S. Ct. 603
+  led: 11 L. Ed. 2d 512
+  lexis: 1964 U.S. LEXIS 1774
+dates:
+  argued: '1963-11-19'
+  decided: '1964-02-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20090, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- supervisory
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 251}
+  respondent: {code: 211}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - AJGoldberg
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AJGoldberg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack

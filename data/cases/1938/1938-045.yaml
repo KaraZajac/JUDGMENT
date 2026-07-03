@@ -1,0 +1,84 @@
+id: 1938-045
+name: HAGUE, MAYOR, et al. v. COMMITTEE FOR INDUSTRIAL ORGANIZATION et al.
+term: 1938
+chief: Hughes
+natural_court: 1107
+docket: '651'
+citation:
+  us: 307 U.S. 496
+  sct: 59 S. Ct. 954
+  led: 83 L. Ed. 1423
+  lexis: 1939 U.S. LEXIS 1067
+dates:
+  argued: '1939-02-27'
+  decided: '1939-06-05'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 92}
+  source: {code: 23}
+  disposition: modified
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 35}
+  respondent: {code: 247}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PButler
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HFStone
+- justice: FFrankfurter
+  participated: false
+- justice: WODouglas
+  participated: false

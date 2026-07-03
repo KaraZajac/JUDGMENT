@@ -1,0 +1,81 @@
+id: 1938-055
+name: NATIONAL LABOR RELATIONS BOARD v. COLUMBIAN ENAMELING & STAMPING CO.
+term: 1938
+chief: Hughes
+natural_court: 1106
+docket: '229'
+citation:
+  us: 306 U.S. 292
+  sct: 59 S. Ct. 501
+  led: 83 L. Ed. 660
+  lexis: 1939 U.S. LEXIS 1093
+dates:
+  argued: '1939-01-11'
+  decided: '1939-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 70070, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 27}
+  source: {code: 27}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 122}
+admin_action: {agency: 82}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HFStone
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FFrankfurter
+  participated: false

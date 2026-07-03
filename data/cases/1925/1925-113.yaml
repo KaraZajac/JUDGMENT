@@ -1,0 +1,81 @@
+id: 1925-113
+name: UNITED STATES ex rel. HUGHES v. GAULT, MARSHAL
+term: 1925
+chief: Taft
+natural_court: 1005
+docket: '513'
+citation:
+  us: 271 U.S. 142
+  sct: 46 S. Ct. 459
+  led: 70 L. Ed. 875
+  lexis: 1926 U.S. LEXIS 614
+dates:
+  argued: '1926-04-22'
+  decided: '1926-05-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 10430, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: criminal law, financial
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 71}
+  source: {code: 71}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 8}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  participated: false

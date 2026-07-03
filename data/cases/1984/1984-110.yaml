@@ -1,0 +1,86 @@
+id: 1984-110
+name: CITY OF OKLAHOMA CITY v. TUTTLE, INDIVIDUALLY, AND AS ADMINISTRATRIX OF THE ESTATE OF TUTTLE
+term: 1984
+chief: Burger
+natural_court: 1507
+docket: 83-1919
+citation:
+  us: 471 U.S. 808
+  sct: 105 S. Ct. 2427
+  led: 85 L. Ed. 2d 791
+  lexis: 1985 U.S. LEXIS 26
+dates:
+  argued: '1985-01-08'
+  decided: '1985-06-03'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 20400, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 314
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 107}
+  source: {code: 30}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 42}
+  respondent: {code: 208}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

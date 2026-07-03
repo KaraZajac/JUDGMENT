@@ -1,0 +1,82 @@
+id: 1899-081
+name: MAY v. NEW ORLEANS
+term: 1899
+chief: Fuller
+natural_court: 808
+docket: '332'
+citation:
+  us: 178 U.S. 496
+  sct: 20 S. Ct. 976
+  led: 44 L. Ed. 1165
+  lexis: 1900 U.S. LEXIS 1696
+dates:
+  argued: '1900-03-06'
+  decided: '1900-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 22}
+  source: {code: 300, state: 22}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 234}
+  respondent: {code: 3}
+  respondent_state: {code: 22}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true

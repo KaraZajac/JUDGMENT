@@ -1,0 +1,85 @@
+id: 1976-143
+name: JONES v. HILDEBRANT et al.
+term: 1976
+chief: Burger
+natural_court: 1506
+docket: 76-5416
+citation:
+  us: 432 U.S. 183
+  sct: 97 S. Ct. 2283
+  led: 53 L. Ed. 2d 209
+  lexis: 1977 U.S. LEXIS 119
+dates:
+  argued: '1977-04-26'
+  decided: '1977-06-16'
+decision:
+  type: per-curiam-argued
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90150, area: judicial-power}
+law:
+  type: other
+  supp: 508
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 7}
+  source: {code: 300, state: 7}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 208}
+  respondent: {code: 19}
+  respondent_state: {code: 7}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

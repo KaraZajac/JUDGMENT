@@ -1,0 +1,86 @@
+id: 1938-049
+name: UNITED STATES et al. v. MORGAN et al.
+term: 1938
+chief: Hughes
+natural_court: 1107
+docket: '221'
+citation:
+  us: 307 U.S. 183
+  sct: 59 S. Ct. 795
+  led: 83 L. Ed. 1211
+  lexis: 1939 U.S. LEXIS 1076
+dates:
+  argued: '1938-10-20'
+  reargued: '1939-04-20'
+  decided: '1939-05-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80170, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 373
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 87}
+  source: {code: 87}
+  disposition: granted
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 233}
+admin_action: {agency: 4}
+opinions:
+  majority_author: HFStone
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PButler
+- justice: PButler
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PButler
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true

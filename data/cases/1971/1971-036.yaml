@@ -1,0 +1,82 @@
+id: 1971-036
+name: RELIANCE ELECTRIC CO. v. EMERSON ELECTRIC CO.
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 70-79
+citation:
+  us: 404 U.S. 418
+  sct: 92 S. Ct. 596
+  led: 30 L. Ed. 2d 575
+  lexis: 1972 U.S. LEXIS 158
+dates:
+  argued: '1971-11-10'
+  decided: '1972-01-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80120, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 365
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 86}
+  source: {code: 28}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 147}
+  respondent: {code: 147}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  participated: false

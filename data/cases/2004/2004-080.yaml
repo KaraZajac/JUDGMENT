@@ -1,0 +1,89 @@
+id: 2004-080
+name: NATIONAL CABLE & TELECOMMUNICATIONS ASSOCIATION, et al. v. BRAND X INTERNET SERVICES, et al.
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 04-277
+citation:
+  us: 545 U.S. 967
+  sct: 125 S. Ct. 2688
+  led: 162 L. Ed. 2d 820
+  lexis: 2005 U.S. LEXIS 5018
+dates:
+  argued: '2005-03-29'
+  decided: '2005-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 326
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 29}
+  source: {code: 29}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 124}
+  respondent: {code: 133}
+admin_action: {agency: 38}
+opinions:
+  majority_author: CThomas
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AScalia
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AScalia
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

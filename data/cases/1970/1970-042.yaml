@@ -1,0 +1,90 @@
+id: 1970-042
+name: DYSON, CHIEF OF POLICE OF DALLAS, et al. v. STEIN
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '41'
+citation:
+  us: 401 U.S. 200
+  sct: 91 S. Ct. 769
+  led: 27 L. Ed. 2d 781
+  lexis: 1971 U.S. LEXIS 86
+dates:
+  argued: '1970-04-30'
+  reargued: '1970-11-16'
+  decided: '1971-02-23'
+decision:
+  type: per-curiam-argued
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 90020, area: judicial-power}
+law:
+  type: other
+  supp: 500
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 120}
+  source: {code: 120}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 51}
+  respondent: {code: 117}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHarlan2
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - PStewart
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true

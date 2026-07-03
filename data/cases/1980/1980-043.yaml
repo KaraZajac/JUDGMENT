@@ -1,0 +1,85 @@
+id: 1980-043
+name: DEMOCRATIC PARTY OF UNITED STATES et al. v. WISCONSIN ex rel. LA FOLLETTE et al.
+term: 1980
+chief: Burger
+natural_court: 1506
+docket: 79-1631
+citation:
+  us: 450 U.S. 107
+  sct: 101 S. Ct. 1010
+  led: 67 L. Ed. 2d 82
+  lexis: 1981 U.S. LEXIS 7
+dates:
+  argued: '1980-12-08'
+  decided: '1981-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 201
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 58}
+  source: {code: 300, state: 58}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 211}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

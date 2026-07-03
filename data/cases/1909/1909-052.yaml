@@ -1,0 +1,78 @@
+id: 1909-052
+name: THE STATE OF NORTH DAKOTA EX REL. FLAHERTY v. HANSON, SHERIFF OF GRAND FORKS COUNTY
+term: 1909
+chief: Fuller
+natural_court: 812
+docket: '47'
+citation:
+  us: 215 U.S. 515
+  sct: 30 S. Ct. 179
+  led: 54 L. Ed. 307
+  lexis: 1910 U.S. LEXIS 1857
+dates:
+  decided: '1910-01-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 39}
+  source: {code: 300, state: 39}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 105}
+  respondent: {code: 5}
+  respondent_state: {code: 39}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: OWHolmes
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHMoody
+  participated: false
+- justice: HHLurton
+  vote: majority
+  direction: liberal
+  in_majority: true

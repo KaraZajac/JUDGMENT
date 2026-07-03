@@ -1,0 +1,97 @@
+id: 2002-078
+name: BARBARA GRUTTER v. LEE BOLLINGER et al.
+term: 2002
+chief: Rehnquist
+natural_court: 1607
+docket: 02-241
+citation:
+  us: 539 U.S. 306
+  sct: 123 S. Ct. 2325
+  led: 156 L. Ed. 2d 304
+  lexis: 2003 U.S. LEXIS 4800
+dates:
+  argued: '2003-04-01'
+  decided: '2003-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20070, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 81}
+  source: {code: 26}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 239}
+  respondent: {code: 26}
+  respondent_state: {code: 27}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+  - WHRehnquist
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+  - WHRehnquist
+- justice: RBGinsburg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - RBGinsburg

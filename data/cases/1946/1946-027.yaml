@@ -1,0 +1,88 @@
+id: 1946-027
+name: MACGREGOR v. WESTINGHOUSE ELECTRIC & MANUFACTURING CO.
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '28'
+citation:
+  us: 329 U.S. 402
+  sct: 67 S. Ct. 421
+  led: 91 L. Ed. 380
+  lexis: 1947 U.S. LEXIS 3020
+dates:
+  argued: '1946-12-12'
+  decided: '1947-01-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80180, area: economic-activity}
+law:
+  type: other
+  supp: 507
+authority:
+- federal-common-law
+jurisdiction: {code: 6}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 177}
+  respondent: {code: 172}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

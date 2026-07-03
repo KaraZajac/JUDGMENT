@@ -1,0 +1,85 @@
+id: 1963-108
+name: MISSOURI PACIFIC RAILROAD CO. v. ELMORE & STAHL
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '292'
+citation:
+  us: 377 U.S. 134
+  sct: 84 S. Ct. 1142
+  led: 12 L. Ed. 2d 194
+  lexis: 1964 U.S. LEXIS 2162
+dates:
+  argued: '1964-03-03'
+  decided: '1964-05-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80070, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 300, state: 51}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 234}
+opinions:
+  majority_author: PStewart
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,88 @@
+id: 1935-136
+name: CARTER v. CARTER COAL CO. et al.
+term: 1935
+chief: Hughes
+natural_court: 1103
+docket: '636'
+citation:
+  us: 298 U.S. 238
+  sct: 56 S. Ct. 855
+  led: 80 L. Ed. 1160
+  lexis: 1936 U.S. LEXIS 950
+dates:
+  argued: '1936-03-11'
+  decided: '1936-05-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 70070, area: unions}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 19}
+  source: {code: 32}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 132}
+admin_action: {agency: 66}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BNCardozo
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BNCardozo
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,82 @@
+id: 1902-090
+name: KIDD v. ALABAMA
+term: 1902
+chief: Fuller
+natural_court: 809
+docket: '158'
+citation:
+  us: 188 U.S. 730
+  sct: 23 S. Ct. 401
+  led: 47 L. Ed. 669
+  lexis: 1903 U.S. LEXIS 1316
+dates:
+  decided: '1903-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 28}
+  respondent_state: {code: 1}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

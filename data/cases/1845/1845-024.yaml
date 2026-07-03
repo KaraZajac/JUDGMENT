@@ -1,0 +1,71 @@
+id: 1845-024
+name: SAMUEL GORDON, PLAINTIFF IN ERROR, v. THE APPEAL TAX COURT
+term: 1845
+chief: Taney
+natural_court: 505
+citation:
+  us: 44 U.S. 133
+  led: 11 L. Ed. 529
+  lexis: 1845 U.S. LEXIS 427
+dates:
+  argued: '1844-12-23'
+  decided: '1845-01-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 301, state: 25}
+  source: {code: 301, state: 25}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 6}
+  respondent_state: {code: 25}
+opinions:
+  majority_author: JMWayne
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: conservative
+  in_majority: true

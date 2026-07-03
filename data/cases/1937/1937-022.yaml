@@ -1,0 +1,88 @@
+id: 1937-022
+name: HALE et al. v. STATE BOARD OF ASSESSMENT AND REVIEW
+term: 1937
+chief: Hughes
+natural_court: 1104
+docket: '16'
+citation:
+  us: 302 U.S. 95
+  sct: 58 S. Ct. 102
+  led: 82 L. Ed. 72
+  lexis: 1937 U.S. LEXIS 535
+dates:
+  argued: '1937-10-18'
+  decided: '1937-11-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 19}
+  source: {code: 300, state: 19}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 4}
+  respondent_state: {code: 19}
+admin_action: {agency: 117, state: 19}
+opinions:
+  majority_author: BNCardozo
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - GSutherland
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PButler
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - GSutherland
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true

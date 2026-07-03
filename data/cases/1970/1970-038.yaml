@@ -1,0 +1,94 @@
+id: 1970-038
+name: PEREZ et al. v. LEDESMA et al.
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '60'
+citation:
+  us: 401 U.S. 82
+  sct: 91 S. Ct. 674
+  led: 27 L. Ed. 2d 701
+  lexis: 1971 U.S. LEXIS 137
+dates:
+  argued: '1970-11-17'
+  decided: '1971-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90060, area: judicial-power}
+law:
+  type: other
+  supp: 500
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 75}
+  source: {code: 75}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 22}
+  respondent: {code: 117}
+flags:
+  three_judge_district_court: true
+  disposition_unusual: true
+opinions:
+  majority_author: HLBlack
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - PStewart

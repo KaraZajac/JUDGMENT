@@ -1,0 +1,74 @@
+id: 1911-116
+name: PETERS v. BROWARD
+term: 1911
+chief: White
+natural_court: 901
+docket: '49'
+citation:
+  us: 222 U.S. 483
+  sct: 32 S. Ct. 122
+  led: 56 L. Ed. 278
+  lexis: 1912 U.S. LEXIS 2201
+dates:
+  argued: '1911-11-08'
+  decided: '1912-01-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90080, area: judicial-power}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 408}
+  source: {code: 408}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: HHLurton
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: HHLurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: conservative
+  in_majority: true

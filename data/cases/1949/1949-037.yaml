@@ -1,0 +1,80 @@
+id: 1949-037
+name: REGENTS OF THE UNIVERSITY SYSTEM OF GEORGIA v. CARROLL ET AL.
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '83'
+citation:
+  us: 338 U.S. 586
+  sct: 70 S. Ct. 370
+  led: 94 L. Ed. 2d 363
+  lexis: 1950 U.S. LEXIS 2545
+dates:
+  argued: '1949-12-09'
+  decided: '1950-02-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 100100, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 13}
+  source: {code: 301, state: 13}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 26}
+  petitioner_state: {code: 13}
+  respondent: {code: 221}
+admin_action: {agency: 38}
+opinions:
+  majority_author: SFReed
+  majority_assigner: SFReed
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  participated: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

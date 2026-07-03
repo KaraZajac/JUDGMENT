@@ -1,0 +1,82 @@
+id: 1922-222
+name: FARMERS AND MERCHANTS BANK OF MONROE, NORTH CAROLINA, et al. v. FEDERAL RESERVE BANK OF RICHMOND, VIRGINIA
+term: 1922
+chief: Taft
+natural_court: 1004
+docket: '823'
+citation:
+  us: 262 U.S. 649
+  sct: 43 S. Ct. 651
+  led: 67 L. Ed. 1157
+  lexis: 1923 U.S. LEXIS 2674
+dates:
+  argued: '1923-04-30'
+  decided: '1923-06-11'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 38}
+  source: {code: 300, state: 38}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 355}
+admin_action: {agency: 55}
+opinions:
+  majority_author: LDBrandeis
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: liberal
+  in_majority: true

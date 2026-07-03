@@ -1,0 +1,84 @@
+id: 1943-101
+name: DOUGLAS v. COMMISSIONER OF INTERNAL REVENUE
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '130'
+citation:
+  us: 322 U.S. 275
+  sct: 64 S. Ct. 988
+  led: 88 L. Ed. 1271
+  lexis: 1944 U.S. LEXIS 1366
+dates:
+  argued: '1944-03-07'
+  decided: '1944-05-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 28}
+  source: {code: 28}
+  disposition: affirmed-and-reversed-in-part
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 369}
+admin_action: {agency: 69}
+opinions:
+  majority_author: SFReed
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

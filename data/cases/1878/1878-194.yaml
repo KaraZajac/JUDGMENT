@@ -1,0 +1,81 @@
+id: 1878-194
+name: PHELPS v. MCDONALD
+term: 1878
+chief: Waite
+natural_court: 702
+docket: '254'
+citation:
+  us: 99 U.S. 298
+  led: 25 L. Ed. 473
+  lexis: 1878 U.S. LEXIS 1543
+dates:
+  argued: '1879-04-24'
+  decided: '1879-05-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80030, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 19}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 138}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true

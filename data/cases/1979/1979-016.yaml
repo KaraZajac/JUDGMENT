@@ -1,0 +1,80 @@
+id: 1979-016
+name: THOMPSON v. UNITED STATES
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 79-5180
+citation:
+  us: 444 U.S. 248
+  sct: 100 S. Ct. 512
+  led: 62 L. Ed. 2d 457
+  lexis: 1980 U.S. LEXIS 62
+dates:
+  decided: '1980-01-14'
+decision:
+  type: per-curiam-no-argument
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10170, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 206
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

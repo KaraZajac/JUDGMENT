@@ -1,0 +1,82 @@
+id: 1953-004
+name: LOBER et al., EXECUTORS, v. UNITED STATES
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '30'
+citation:
+  us: 346 U.S. 335
+  sct: 74 S. Ct. 98
+  led: 98 L. Ed. 2d 15
+  lexis: 1953 U.S. LEXIS 2679
+dates:
+  argued: '1953-10-16'
+  decided: '1953-11-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 27}
+admin_action: {agency: 69}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false

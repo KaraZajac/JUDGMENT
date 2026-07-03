@@ -1,0 +1,86 @@
+id: 1960-079
+name: GOLDBERG, SECRETARY OF LABOR, v. WHITAKER HOUSE COOPERATIVE, INC., et al.
+term: 1960
+chief: Warren
+natural_court: 1406
+docket: '274'
+citation:
+  us: 366 U.S. 28
+  sct: 81 S. Ct. 933
+  led: 6 L. Ed. 2d 100
+  lexis: 1961 U.S. LEXIS 2026
+dates:
+  argued: '1961-03-30'
+  decided: '1961-04-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 70040, area: unions}
+law:
+  type: federal-statute
+  supp: 334
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 78}
+  source: {code: 21}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 371}
+  respondent: {code: 151}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEWhittaker
+- justice: WJBrennan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEWhittaker
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

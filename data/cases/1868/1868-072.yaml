@@ -1,0 +1,75 @@
+id: 1868-072
+name: ex parte MCCARDLE
+term: 1868
+chief: Chase
+natural_court: 601
+citation:
+  us: 74 U.S. 506
+  led: 19 L. Ed. 264
+  lexis: 1868 U.S. LEXIS 1028
+dates:
+  argued: '1868-03-02'
+  decided: '1869-04-12'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90340, area: judicial-power}
+law:
+  type: constitution
+  supp: 138
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 421}
+  source: {code: 421}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 186}
+opinions:
+  majority_author: SPChase
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true

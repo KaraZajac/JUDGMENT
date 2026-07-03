@@ -1,0 +1,81 @@
+id: 2017-029
+name: DUNN v. MADISON
+term: 2017
+chief: Roberts
+natural_court: 1706
+docket: 17-193
+citation:
+  sct: 138 S. Ct. 9
+  led: 199 L. Ed. 2d 243
+  lexis: 2017 U.S. LEXIS 6630
+dates:
+  decided: '2017-11-06'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: AntiTerrorism and Effective Death Penalty Act of 1996, 28 USC 2254(d)
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 43}
+  source: {code: 31}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 1}
+  respondent: {code: 215}
+opinions:
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,80 @@
+id: 1984-061
+name: BALL v. UNITED STATES
+term: 1984
+chief: Burger
+natural_court: 1507
+docket: 84-5004
+citation:
+  us: 470 U.S. 856
+  sct: 105 S. Ct. 1668
+  led: 84 L. Ed. 2d 740
+  lexis: 1985 U.S. LEXIS 79
+dates:
+  argued: '1985-01-09'
+  decided: '1985-03-26'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 10440, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 339
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 127}
+  source: {code: 24}
+  disposition: unusual-disposition
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 27}
+opinions:
+  majority_author: WEBurger
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

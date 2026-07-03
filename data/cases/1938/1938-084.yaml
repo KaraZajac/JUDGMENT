@@ -1,0 +1,93 @@
+id: 1938-084
+name: CURRY, STATE TAX COMMISSIONER OF ALABAMA, et al. v. MCCANLESS, COMMISSIONER OF FINANCE AND TAXATION OF TENNESSEE
+term: 1938
+chief: Hughes
+natural_court: 1107
+docket: '339'
+citation:
+  us: 307 U.S. 357
+  sct: 59 S. Ct. 900
+  led: 83 L. Ed. 1339
+  lexis: 1939 U.S. LEXIS 515
+dates:
+  argued: '1939-01-09'
+  reargued: '1939-04-28'
+  decided: '1939-05-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 1}
+  respondent: {code: 4}
+  respondent_state: {code: 50}
+admin_action: {agency: 117, state: 1}
+opinions:
+  majority_author: HFStone
+  majority_assigner: HFStone
+votes:
+- justice: CEHughes2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PButler
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PButler
+- justice: PButler
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PButler
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true

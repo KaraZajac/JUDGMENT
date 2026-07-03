@@ -1,0 +1,66 @@
+id: 1796-003
+name: WARE, ADMINSITRATOR OF JONES, PLAINTIFF IN ERROR, VERSUS HYLTON et al.
+term: 1796
+chief: Rutledge
+natural_court: 202
+citation:
+  us: 3 U.S. 199
+  led: 1 L. Ed. 568
+  lexis: 1796 U.S. LEXIS 400
+dates:
+  argued: '1796-02-06'
+  decided: '1796-03-07'
+decision:
+  type: seriatim
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 100050, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 436}
+  source: {code: 436}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 193}
+  respondent: {code: 138}
+opinions:
+  majority_assigner: WCushing
+votes:
+- justice: WCushing
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JWilson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JIredell
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WPaterson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SChase
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

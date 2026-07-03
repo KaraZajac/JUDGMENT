@@ -1,0 +1,83 @@
+id: 1952-076
+name: UNITED STATES v. CERTAIN PARCELS OF LAND IN THE COUNTY OF FAIRFAX, VIRGINIA, ET AL.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '253'
+citation:
+  us: 345 U.S. 344
+  sct: 73 S. Ct. 693
+  led: 97 L. Ed. 2d 1061
+  lexis: 1953 U.S. LEXIS 2542
+dates:
+  argued: '1953-01-09'
+  decided: '1953-04-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 40070, area: due-process}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 42 U.S.C. § 1534
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 126, state: 55}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 195}
+opinions:
+  majority_author: TCClark
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMVinson
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

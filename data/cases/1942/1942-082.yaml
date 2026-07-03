@@ -1,0 +1,84 @@
+id: 1942-082
+name: ALTVATER et al. v. FREEMAN et al.
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '696'
+citation:
+  us: 319 U.S. 359
+  sct: 63 S. Ct. 1115
+  led: 87 L. Ed. 1450
+  lexis: 1943 U.S. LEXIS 1252
+dates:
+  argued: '1943-04-19'
+  decided: '1943-05-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 90130, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 86}
+  source: {code: 28}
+  disposition: modified
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 233}
+  respondent: {code: 172}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

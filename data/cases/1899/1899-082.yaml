@@ -1,0 +1,86 @@
+id: 1899-082
+name: DEWEY v. UNITED STATES
+term: 1899
+chief: Fuller
+natural_court: 808
+docket: '546'
+citation:
+  us: 178 U.S. 510
+  sct: 20 S. Ct. 981
+  led: 44 L. Ed. 1170
+  lexis: 1900 U.S. LEXIS 1697
+dates:
+  argued: '1900-04-10'
+  decided: '1900-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20240, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: RS para 4635
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 186}
+  respondent: {code: 27}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller

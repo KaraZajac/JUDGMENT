@@ -1,0 +1,68 @@
+id: 1897-037
+name: HYER v. RICHMOND TRACTION COMPANY
+term: 1897
+chief: Fuller
+natural_court: 807
+docket: '379'
+citation:
+  us: 168 U.S. 471
+  sct: 18 S. Ct. 114
+  led: 42 L. Ed. 547
+  lexis: 1897 U.S. LEXIS 1741
+dates:
+  decided: '1897-12-06'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 140030, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 436}
+  source: {code: 24}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 122}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: regular-concurrence
+  in_majority: true
+- justice: HGray
+  vote: majority
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  in_majority: false
+- justice: GShiras
+  vote: majority
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  in_majority: false

@@ -1,0 +1,88 @@
+id: 1952-067
+name: SHAUGHNESSY, DISTRICT DIRECTOR OF IMMIGRATION AND NATURALIZATION, v. UNITED STATES EX REL. MEZEI
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '139'
+citation:
+  us: 345 U.S. 206
+  sct: 73 S. Ct. 625
+  led: 97 L. Ed. 2d 956
+  lexis: 1953 U.S. LEXIS 2301
+dates:
+  argued: '1953-01-07'
+  decided: '1953-03-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40020, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 207
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 96, state: 37}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 368}
+  respondent: {code: 106}
+admin_action: {agency: 27}
+opinions:
+  majority_author: TCClark
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

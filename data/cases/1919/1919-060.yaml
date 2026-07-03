@@ -1,0 +1,81 @@
+id: 1919-060
+name: PHILADELPHIA & READING RAILWAY COMPANY v. HANCOCK
+term: 1919
+chief: White
+natural_court: 905
+docket: '415'
+citation:
+  us: 253 U.S. 284
+  sct: 40 S. Ct. 512
+  led: 64 L. Ed. 907
+  lexis: 1920 U.S. LEXIS 1422
+dates:
+  argued: '1920-03-02'
+  decided: '1920-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80070, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 145}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  direction: conservative
+  in_majority: false

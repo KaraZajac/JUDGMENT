@@ -1,0 +1,88 @@
+id: 1960-120
+name: CIVIL AERONAUTICS BOARD v. DELTA AIR LINES, INC.
+term: 1960
+chief: Warren
+natural_court: 1406
+docket: '492'
+citation:
+  us: 367 U.S. 316
+  sct: 81 S. Ct. 1611
+  led: 6 L. Ed. 2d 869
+  lexis: 1961 U.S. LEXIS 1976
+dates:
+  argued: '1961-04-27'
+  decided: '1961-06-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80260, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 49 U.S.C. § 1371
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 312}
+  respondent: {code: 104}
+admin_action: {agency: 12}
+opinions:
+  majority_author: EWarren
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEWhittaker
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEWhittaker
+- justice: CEWhittaker
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

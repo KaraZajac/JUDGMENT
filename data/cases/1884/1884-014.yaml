@@ -1,0 +1,84 @@
+id: 1884-014
+name: ELK v. WILKINS
+term: 1884
+chief: Waite
+natural_court: 706
+docket: '27'
+citation:
+  us: 112 U.S. 94
+  sct: 5 S. Ct. 41
+  led: 28 L. Ed. 643
+  lexis: 1884 U.S. LEXIS 1857
+dates:
+  argued: '1884-04-28'
+  decided: '1884-11-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20150, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 441}
+  source: {code: 441}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 170}
+  respondent: {code: 8}
+  respondent_state: {code: 32}
+opinions:
+  majority_author: HGray
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WBWoods
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHarlan1
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,83 @@
+id: 1954-033
+name: SECURITIES AND EXCHANGE COMMISSION v. DREXEL & CO.
+term: 1954
+chief: Warren
+natural_court: 1402
+docket: '153'
+citation:
+  us: 348 U.S. 341
+  sct: 75 S. Ct. 386
+  led: 99 L. Ed. 2d 376
+  lexis: 1955 U.S. LEXIS 1113
+dates:
+  argued: '1955-02-09'
+  decided: '1955-02-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80120, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 15 U.S.C. § 79
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed-and-reversed-in-part
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 405}
+  respondent: {code: 119}
+admin_action: {agency: 105}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true

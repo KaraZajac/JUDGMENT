@@ -1,0 +1,92 @@
+id: 1967-183
+name: POWELL v. TEXAS
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '405'
+citation:
+  us: 392 U.S. 514
+  sct: 88 S. Ct. 2145
+  led: 20 L. Ed. 2d 1254
+  lexis: 1968 U.S. LEXIS 1140
+dates:
+  argued: '1968-03-07'
+  decided: '1968-06-17'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10140, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 221
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 302, state: 51}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AFortas
+- justice: JHarlan2
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AFortas
+- justice: PStewart
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AFortas
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AFortas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true

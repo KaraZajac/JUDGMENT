@@ -1,0 +1,84 @@
+id: 1871-120
+name: INSURANCE COMPANY v. THWING
+term: 1871
+chief: Chase
+natural_court: 602
+citation:
+  us: 80 U.S. 672
+  led: 20 L. Ed. 607
+  lexis: 1871 U.S. LEXIS 1382
+dates:
+  argued: '1872-02-06'
+  decided: '1872-03-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 174}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: SFMiller
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - NClifford
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - SPChase
+  - NHSwayne
+- justice: NHSwayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - NClifford
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,88 @@
+id: 1970-113
+name: COATES et al. v. CITY OF CINCINNATI
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '117'
+citation:
+  us: 402 U.S. 611
+  sct: 91 S. Ct. 1686
+  led: 29 L. Ed. 2d 214
+  lexis: 1971 U.S. LEXIS 38
+dates:
+  argued: '1971-01-11'
+  decided: '1971-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30150, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 218}
+  respondent: {code: 3}
+  respondent_state: {code: 41}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WODouglas
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite

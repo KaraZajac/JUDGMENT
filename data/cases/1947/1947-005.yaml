@@ -1,0 +1,83 @@
+id: 1947-005
+name: PRIEBE & SONS, INC. v. UNITED STATES
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '16'
+citation:
+  us: 332 U.S. 407
+  sct: 68 S. Ct. 123
+  led: 92 L. Ed. 2d 32
+  lexis: 1947 U.S. LEXIS 2855
+dates:
+  argued: '1947-10-13'
+  decided: '1947-11-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80060, area: economic-activity}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 176}
+  respondent: {code: 27}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FFrankfurter
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FMVinson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter

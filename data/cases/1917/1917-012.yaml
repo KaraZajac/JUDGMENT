@@ -1,0 +1,87 @@
+id: 1917-012
+name: HITCHMAN COAL & COKE COMPANY v. MITCHELL, INDIVIDUALLY, et al.
+term: 1917
+chief: White
+natural_court: 905
+docket: '11'
+citation:
+  us: 245 U.S. 229
+  sct: 38 S. Ct. 65
+  led: 62 L. Ed. 260
+  lexis: 1917 U.S. LEXIS 1734
+dates:
+  argued: '1916-03-02'
+  reargued: '1916-12-15'
+  decided: '1917-12-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 40020, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 130}
+  source: {code: 24}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 132}
+  respondent: {code: 249}
+opinions:
+  majority_author: MPitney
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JHClarke
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LDBrandeis

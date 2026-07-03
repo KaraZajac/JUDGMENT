@@ -1,0 +1,89 @@
+id: 1978-159
+name: WASHINGTON et al. v. WASHINGTON STATE COMMERCIAL PASSENGER FISHING VESSEL ASSOCIATION et al.
+term: 1978
+chief: Burger
+natural_court: 1506
+docket: 77-983
+citation:
+  us: 443 U.S. 658
+  sct: 99 S. Ct. 3055
+  led: 61 L. Ed. 2d 823
+  lexis: 1979 U.S. LEXIS 43
+dates:
+  argued: '1979-02-28'
+  decided: '1979-07-02'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20160, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 12 Stat. 927
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 56}
+  respondent: {code: 157}
+admin_action: {agency: 117, state: 56}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

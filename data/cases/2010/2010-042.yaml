@@ -1,0 +1,86 @@
+id: 2010-042
+name: SCHINDLER ELEVATOR CORPORATION, PETITIONER v. UNITED STATES ex rel. DANIEL KIRK
+term: 2010
+chief: Roberts
+natural_court: 1704
+docket: 10-188
+citation:
+  us: 563 U.S. 401
+  sct: 131 S. Ct. 1885
+  led: 179 L. Ed. 2d 825
+  lexis: 2011 U.S. LEXIS 3542
+dates:
+  argued: '2011-03-01'
+  decided: '2011-05-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 50040, area: privacy}
+law:
+  type: federal-statute
+  supp: 335
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 176}
+  respondent: {code: 230}
+admin_action: {agency: 71}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: EKagan
+  participated: false

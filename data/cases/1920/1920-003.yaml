@@ -1,0 +1,84 @@
+id: 1920-003
+name: THORNTON et al. v. DUFFY et al., MEMBERS OF AND COMPOSING THE INDUSTRIAL COMMISSION OF OHIO
+term: 1920
+chief: White
+natural_court: 905
+docket: '76'
+citation:
+  us: 254 U.S. 361
+  sct: 41 S. Ct. 137
+  led: 65 L. Ed. 304
+  lexis: 1920 U.S. LEXIS 1146
+dates:
+  argued: '1920-11-08'
+  decided: '1920-12-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80070, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 240
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 4}
+  respondent_state: {code: 41}
+admin_action: {agency: 117, state: 41}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

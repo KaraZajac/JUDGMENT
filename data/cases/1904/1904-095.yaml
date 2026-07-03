@@ -1,0 +1,90 @@
+id: 1904-095
+name: PABST BREWING COMPANY v. CRENSHAW
+term: 1904
+chief: Fuller
+natural_court: 810
+docket: '85'
+citation:
+  us: 198 U.S. 17
+  sct: 25 S. Ct. 552
+  led: 49 L. Ed. 925
+  lexis: 1905 U.S. LEXIS 1152
+dates:
+  argued: '1904-12-08'
+  decided: '1905-04-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80110, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: federal inspection fee on interstate beer
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 422}
+  source: {code: 422}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 118}
+  respondent: {code: 8}
+  respondent_state: {code: 30}
+admin_action: {agency: 117, state: 30}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HBBrown
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HBBrown
+- justice: HBBrown
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HBBrown

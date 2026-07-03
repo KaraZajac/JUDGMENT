@@ -1,0 +1,89 @@
+id: 1952-064
+name: UNITED STATES EX REL. CHAPMAN, SECRETARY OF THE INTERIOR, v. FEDERAL POWER COMMISSION ET AL.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '28'
+citation:
+  us: 345 U.S. 153
+  sct: 73 S. Ct. 609
+  led: 97 L. Ed. 2d 918
+  lexis: 1953 U.S. LEXIS 2560
+dates:
+  argued: '1952-10-22'
+  decided: '1953-03-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80130, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 16 U.S.C. § 825
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 24}
+  source: {code: 24}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 326}
+  respondent: {code: 352}
+admin_action: {agency: 52}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: SFReed
+votes:
+- justice: FMVinson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true

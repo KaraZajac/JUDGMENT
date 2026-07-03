@@ -1,0 +1,86 @@
+id: 1948-024
+name: COMMISSIONER OF INTERNAL REVENUE v. ESTATE OF CHURCH
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '5'
+citation:
+  us: 335 U.S. 632
+  sct: 69 S. Ct. 322
+  led: 93 L. Ed. 2d 288
+  lexis: 1949 U.S. LEXIS 2950
+dates:
+  argued: '1947-10-24'
+  reargued: '1948-10-12'
+  decided: '1949-01-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 9}
+  source: {code: 23}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 240}
+admin_action: {agency: 69}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: FFrankfurter
+votes:
+- justice: HHBurton
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RHJackson
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

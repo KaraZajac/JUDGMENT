@@ -1,0 +1,90 @@
+id: 1977-103
+name: MONELL et al. v. DEPARTMENT OF SOCIAL SERVICES OF THE CITY OF NEW YORK et al.
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 75-1914
+citation:
+  us: 436 U.S. 658
+  sct: 98 S. Ct. 2018
+  led: 56 L. Ed. 2d 611
+  lexis: 1978 U.S. LEXIS 100
+dates:
+  argued: '1977-11-02'
+  decided: '1978-06-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20400, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 314
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 9}
+  petitioner_state: {code: 37}
+  respondent: {code: 3}
+  respondent_state: {code: 37}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

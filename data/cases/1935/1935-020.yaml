@@ -1,0 +1,90 @@
+id: 1935-020
+name: BECKER, COLLECTOR OF INTERNAL REVENUE, v. ST. LOUIS UNION TRUST CO. et al., EXECUTOR
+term: 1935
+chief: Hughes
+natural_court: 1103
+docket: '262'
+citation:
+  us: 296 U.S. 48
+  sct: 56 S. Ct. 78
+  led: 80 L. Ed. 35
+  lexis: 1935 U.S. LEXIS 562
+dates:
+  argued: '1935-10-25'
+  decided: '1935-11-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 86}
+  source: {code: 28}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 102}
+admin_action: {agency: 69}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: WVanDevanter
+votes:
+- justice: CEHughes2
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone

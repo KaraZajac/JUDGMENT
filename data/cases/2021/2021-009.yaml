@@ -1,0 +1,82 @@
+id: 2021-009
+name: BABCOCK v. KIJAKAZI
+term: 2021
+chief: Roberts
+natural_court: 1709
+docket: 20-480
+citation:
+  sct: 142 S. Ct. 641
+  led: 211 L. Ed. 2d 424
+  lexis: 2022 U.S. LEXIS 494
+dates:
+  argued: '2021-10-13'
+  decided: '2022-01-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 370
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 82}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 406}
+admin_action: {agency: 106}
+opinions:
+  majority_author: ACBarrett
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

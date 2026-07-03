@@ -1,0 +1,64 @@
+id: 1836-005
+name: ANTOINE SOULARD'S HEIRS v. THE UNITED STATES
+term: 1836
+chief: Marshall
+natural_court: 410
+citation:
+  us: 35 U.S. 100
+  led: 9 L. Ed. 361
+  lexis: 1836 U.S. LEXIS 422
+dates:
+  argued: '1830-02-15'
+  reargued: '1830-02-25'
+  decided: '1836-01-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 10220, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 170}
+  source: {code: 170}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 27}
+admin_action: {agency: 108}
+opinions:
+  majority_author: HBaldwin
+  majority_assigner: JStory
+votes:
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true

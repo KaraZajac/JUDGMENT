@@ -1,0 +1,84 @@
+id: 1952-032
+name: AMERICAN TRUCKING ASSOCIATIONS, INC. ET AL. v. UNITED STATES ET AL.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '26'
+citation:
+  us: 344 U.S. 298
+  sct: 73 S. Ct. 307
+  led: 97 L. Ed. 2d 337
+  lexis: 1953 U.S. LEXIS 2561
+dates:
+  argued: '1952-11-17'
+  decided: '1953-01-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80240, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 352
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 42, state: 1}
+  source: {code: 42, state: 1}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 245}
+  respondent: {code: 27}
+admin_action: {agency: 66}
+opinions:
+  majority_author: SFReed
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

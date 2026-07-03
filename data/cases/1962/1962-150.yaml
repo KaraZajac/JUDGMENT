@@ -1,0 +1,88 @@
+id: 1962-150
+name: SHERBERT v. VERNER et al., MEMBERS OF SOUTH CAROLINA EMPLOYMENT SECURITY COMMISSION, et al.
+term: 1962
+chief: Warren
+natural_court: 1408
+docket: '526'
+citation:
+  us: 374 U.S. 398
+  sct: 83 S. Ct. 1790
+  led: 10 L. Ed. 2d 965
+  lexis: 1963 U.S. LEXIS 976
+dates:
+  argued: '1963-04-24'
+  decided: '1963-06-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 30160, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 202
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 48}
+  source: {code: 300, state: 48}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 248}
+  respondent: {code: 4}
+  respondent_state: {code: 48}
+admin_action: {agency: 117, state: 48}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  direction: liberal
+  in_majority: true

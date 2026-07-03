@@ -1,0 +1,69 @@
+id: 1817-007
+name: OTIS v. WALTER
+term: 1817
+chief: Marshall
+natural_court: 406
+citation:
+  us: 15 U.S. 18
+  led: 4 L. Ed. 174
+  lexis: 1817 U.S. LEXIS 381
+dates:
+  argued: '1817-02-05'
+  decided: '1817-02-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress April 25, 1808, secs. 6, 11
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 26}
+  source: {code: 300, state: 26}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 321}
+  respondent: {code: 195}
+opinions:
+  majority_author: WJohnson
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  participated: false

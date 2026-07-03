@@ -1,0 +1,77 @@
+id: 1863-006
+name: THE INSURANCE COMPANIES v. WRIGHT
+term: 1863
+chief: Taney
+natural_court: 515
+citation:
+  us: 68 U.S. 456
+  led: 17 L. Ed. 505
+  lexis: 1863 U.S. LEXIS 482
+dates:
+  argued: '1863-12-09'
+  decided: '1864-01-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 2
+issue: {code: 140050, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 195}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  in_majority: true
+- justice: SNelson
+  vote: special-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: SFMiller
+  vote: majority
+  in_majority: true
+- justice: DDavis
+  vote: dissent
+  in_majority: false
+  joined:
+  - NHSwayne
+- justice: SJField
+  vote: special-concurrence
+  in_majority: true
+  joined:
+  - SNelson

@@ -1,0 +1,87 @@
+id: 1980-136
+name: ROSTKER, DIRECTOR OF SELECTIVE SERVICE v. GOLDBERG et al.
+term: 1980
+chief: Burger
+natural_court: 1506
+docket: 80-251
+citation:
+  us: 453 U.S. 57
+  sct: 101 S. Ct. 2646
+  led: 69 L. Ed. 2d 478
+  lexis: 1981 U.S. LEXIS 126
+dates:
+  argued: '1981-03-24'
+  decided: '1981-06-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20130, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 366
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 109}
+  source: {code: 109}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 407}
+  respondent: {code: 142}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+  - BRWhite
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,81 @@
+id: 1848-013
+name: THE WEST RIVER BRIDGE COMPANY, PLAINTIFFS IN ERROR, v. JOSEPH DIX AND THE TOWNS OF BRATTLEBORO' AND DUMMERSTON,
+  IN THE COUNTY OF WINDHAM, DEFENDANTS IN ERROR
+term: 1848
+chief: Taney
+natural_court: 508
+citation:
+  us: 47 U.S. 507
+  led: 12 L. Ed. 535
+  lexis: 1848 U.S. LEXIS 322
+dates:
+  argued: '1846-01-13'
+  reargued: '1848-01-05'
+  decided: '1848-01-31'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 40070, area: due-process}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 53}
+  source: {code: 300, state: 53}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 214}
+opinions:
+  majority_author: PVDaniel
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  participated: false
+- justice: PVDaniel
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LWoodbury
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true

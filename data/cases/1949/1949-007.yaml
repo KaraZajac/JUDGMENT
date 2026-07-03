@@ -1,0 +1,75 @@
+id: 1949-007
+name: BOYD v. GRAND TRUNK WESTERN RAILROAD COMPANY
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '17'
+citation:
+  us: 338 U.S. 263
+  sct: 70 S. Ct. 26
+  led: 94 L. Ed. 2d 55
+  lexis: 1949 U.S. LEXIS 1737
+dates:
+  argued: '1949-10-11'
+  decided: '1949-11-07'
+decision:
+  type: per-curiam-argued
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90140, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 329
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  origin: {code: 302, state: 27}
+  source: {code: 300, state: 27}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 231}
+votes:
+- justice: SMinton
+  participated: false
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

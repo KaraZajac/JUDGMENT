@@ -1,0 +1,82 @@
+id: 1914-239
+name: UNITED STATES v. HOLTE
+term: 1914
+chief: White
+natural_court: 903
+docket: '628'
+citation:
+  us: 236 U.S. 140
+  sct: 35 S. Ct. 271
+  led: 59 L. Ed. 504
+  lexis: 1915 U.S. LEXIS 1789
+dates:
+  argued: '1915-01-08'
+  decided: '1915-02-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10500, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Mann Act
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 132}
+  source: {code: 132}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JRLamar
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  participated: false

@@ -1,0 +1,63 @@
+id: 1805-002
+name: ADAMS, QUI TAM, v. WOODS
+term: 1805
+chief: Marshall
+natural_court: 402
+citation:
+  us: 6 U.S. 336
+  led: 2 L. Ed. 297
+  lexis: 1805 U.S. LEXIS 279
+dates:
+  argued: '1804-03-06'
+  decided: '1805-02-19'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 0
+issue: {code: 90480, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, March 22, 1794, sec. 2
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  disagreement: true
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 138}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WPaterson
+  participated: false
+- justice: SChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  participated: false

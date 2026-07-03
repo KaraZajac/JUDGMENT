@@ -1,0 +1,88 @@
+id: 1960-062
+name: FERGUSON v. GEORGIA
+term: 1960
+chief: Warren
+natural_court: 1406
+docket: '44'
+citation:
+  us: 365 U.S. 570
+  sct: 81 S. Ct. 756
+  led: 5 L. Ed. 2d 783
+  lexis: 1961 U.S. LEXIS 1444
+dates:
+  argued: '1960-11-14'
+  decided: '1961-03-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10120, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 214
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 13}
+  source: {code: 300, state: 13}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 13}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - TCClark
+- justice: CEWhittaker
+  vote: majority
+  direction: liberal
+  in_majority: true

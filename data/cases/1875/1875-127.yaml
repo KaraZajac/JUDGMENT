@@ -1,0 +1,84 @@
+id: 1875-127
+name: GAINES v. FUENTES et al.
+term: 1875
+chief: Waite
+natural_court: 701
+docket: '104'
+citation:
+  us: 92 U.S. 10
+  led: 23 L. Ed. 524
+  lexis: 1875 U.S. LEXIS 1720
+dates:
+  argued: '1876-01-26'
+  decided: '1876-03-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90520, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 22}
+  source: {code: 300, state: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 174}
+opinions:
+  majority_author: SJField
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true

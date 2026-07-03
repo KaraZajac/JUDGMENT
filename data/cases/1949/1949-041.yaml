@@ -1,0 +1,85 @@
+id: 1949-041
+name: WISSNER ET AL. v. WISSNER
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '119'
+citation:
+  us: 338 U.S. 655
+  sct: 70 S. Ct. 398
+  led: 94 L. Ed. 2d 424
+  lexis: 1950 U.S. LEXIS 2469
+dates:
+  argued: '1949-12-06'
+  decided: '1950-02-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 100030, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 38 U.S.C. § 801
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 301, state: 6}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 202}
+  respondent: {code: 253}
+opinions:
+  majority_author: TCClark
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SMinton
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SMinton
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

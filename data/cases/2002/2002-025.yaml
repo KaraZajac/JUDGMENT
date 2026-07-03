@@ -1,0 +1,89 @@
+id: 2002-025
+name: UNITED STATES v. NAVAJO NATION
+term: 2002
+chief: Rehnquist
+natural_court: 1607
+docket: 01-1375
+citation:
+  us: 537 U.S. 488
+  sct: 123 S. Ct. 1079
+  led: 155 L. Ed. 2d 60
+  lexis: 2003 U.S. LEXIS 1946
+dates:
+  argued: '2002-12-02'
+  decided: '2003-03-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20150, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 25 U.S.C. § 396
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 3}
+  source: {code: 8}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 170}
+admin_action: {agency: 26}
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SDOConnor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,83 @@
+id: 1882-228
+name: KOUNTZE v. OMAHA HOTEL COMPANY
+term: 1882
+chief: Waite
+natural_court: 706
+docket: '247'
+citation:
+  us: 107 U.S. 378
+  sct: 2 S. Ct. 911
+  led: 27 L. Ed. 609
+  lexis: 1882 U.S. LEXIS 1229
+dates:
+  argued: '1883-04-12'
+  decided: '1883-05-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90110, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 441}
+  source: {code: 441}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 135}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SJField
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true

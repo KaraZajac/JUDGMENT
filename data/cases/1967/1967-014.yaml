@@ -1,0 +1,89 @@
+id: 1967-014
+name: WHITEHILL v. ELKINS, PRESIDENT, UNIVERSITY OF MARYLAND, et al.
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '25'
+citation:
+  us: 389 U.S. 54
+  sct: 88 S. Ct. 184
+  led: 19 L. Ed. 2d 228
+  lexis: 1967 U.S. LEXIS 343
+dates:
+  argued: '1967-10-16'
+  decided: '1967-11-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30090, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 79}
+  source: {code: 79}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 25}
+  respondent: {code: 26}
+  respondent_state: {code: 25}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

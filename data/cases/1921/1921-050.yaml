@@ -1,0 +1,83 @@
+id: 1921-050
+name: LEMKE, AS ATTORNEY GENERAL OF THE STATE OF NORTH DAKOTA, et al. V.OMER FARMERS ELEVATOR COMPANY et al.
+term: 1921
+chief: Taft
+natural_court: 1001
+docket: '604'
+citation:
+  us: 258 U.S. 65
+  sct: 42 S. Ct. 250
+  led: 66 L. Ed. 467
+  lexis: 1922 U.S. LEXIS 2239
+dates:
+  decided: '1922-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 101}
+  source: {code: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 39}
+  respondent: {code: 152}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WRDay
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,87 @@
+id: 1965-123
+name: UNITED STATES v. PABST BREWING CO. et al.
+term: 1965
+chief: Warren
+natural_court: 1409
+docket: '404'
+citation:
+  us: 384 U.S. 546
+  sct: 86 S. Ct. 1665
+  led: 16 L. Ed. 2d 765
+  lexis: 1966 U.S. LEXIS 2947
+dates:
+  argued: '1966-04-27'
+  decided: '1966-06-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80020, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 310
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 132}
+  source: {code: 132}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 118}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JHarlan2
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,75 @@
+id: 1867-070
+name: SOCIETY FOR SAVINGS v. COITE
+term: 1867
+chief: Chase
+natural_court: 601
+citation:
+  us: 73 U.S. 594
+  led: 18 L. Ed. 897
+  lexis: 1867 U.S. LEXIS 1012
+dates:
+  argued: '1868-02-26'
+  decided: '1868-03-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 100060, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 8}
+  source: {code: 300, state: 8}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 19}
+  respondent_state: {code: 8}
+opinions:
+  majority_author: NClifford
+  majority_assigner: SNelson
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

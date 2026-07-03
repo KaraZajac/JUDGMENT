@@ -1,0 +1,74 @@
+id: 1845-022
+name: WILLIAM F. CARY AND SAMUEL T. CARY, PLAINTIFFS, v. EDWARD CURTIS
+term: 1845
+chief: Taney
+natural_court: 505
+citation:
+  us: 44 U.S. 236
+  led: 11 L. Ed. 576
+  lexis: 1845 U.S. LEXIS 432
+dates:
+  decided: '1845-01-21'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, March 3, 1839. sec. 2
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  disagreement: true
+parties:
+  petitioner: {code: 234}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+admin_action: {agency: 21}
+opinions:
+  majority_author: PVDaniel
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMcLean
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

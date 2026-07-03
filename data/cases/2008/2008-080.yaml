@@ -1,0 +1,89 @@
+id: 2008-080
+name: ATLANTIC SOUNDING CO., INC., et al. v. EDGAR L. TOWNSEND
+term: 2008
+chief: Roberts
+natural_court: 1702
+docket: 08-214
+citation:
+  us: 557 U.S. 404
+  sct: 129 S. Ct. 2561
+  led: 174 L. Ed. 2d 382
+  lexis: 2009 U.S. LEXIS 4732
+dates:
+  argued: '2009-03-02'
+  decided: '2009-06-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80080, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 348
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 56}
+  source: {code: 31}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 145}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JPStevens
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

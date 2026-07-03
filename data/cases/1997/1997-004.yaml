@@ -1,0 +1,89 @@
+id: 1997-004
+name: CITY OF MONROE, et al. v. UNITED STATES
+term: 1997
+chief: Rehnquist
+natural_court: 1607
+docket: 97-122
+citation:
+  us: 522 U.S. 34
+  sct: 118 S. Ct. 400
+  led: 139 L. Ed. 2d 339
+  lexis: 1997 U.S. LEXIS 6898
+dates:
+  decided: '1997-11-17'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20020, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 378
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 59}
+  source: {code: 59}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 13}
+  respondent: {code: 27}
+admin_action: {agency: 27}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter

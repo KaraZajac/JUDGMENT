@@ -1,0 +1,88 @@
+id: 1950-067
+name: UNITED STATES v. PEWEE COAL CO., INC.
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '168'
+citation:
+  us: 341 U.S. 114
+  sct: 71 S. Ct. 670
+  led: 95 L. Ed. 2d 809
+  lexis: 1951 U.S. LEXIS 2445
+dates:
+  argued: '1951-01-02'
+  decided: '1951-04-30'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 211
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 132}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HHBurton
+- justice: TCClark
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HHBurton
+- justice: HHBurton
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HHBurton

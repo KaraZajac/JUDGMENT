@@ -1,0 +1,102 @@
+id: 1849-018
+name: 'PASSENGER CASES: GEORGE SMITH, PLAINTIFF IN ERROR. v. WILLIAM TURNER, HEALTH-COMMISSIONER OF THE PORT OF
+  NEW YORK'
+term: 1849
+chief: Taney
+natural_court: 508
+citation:
+  us: 48 U.S. 283
+  led: 12 L. Ed. 702
+  lexis: 1849 U.S. LEXIS 351
+dates:
+  argued: '1845-12-09'
+  reargued: '1847-12-20'
+  decided: '1849-02-07'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 37}
+  respondent: {code: 19}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: JMcLean
+votes:
+- justice: RBTaney
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - JMcKinley
+  - RCGrier
+- justice: JMcKinley
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - JMcLean
+  - JCatron
+- justice: PVDaniel
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SNelson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBTaney
+- justice: LWoodbury
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RCGrier
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - JCatron

@@ -1,0 +1,85 @@
+id: 1967-054
+name: CITY OF POTTSVILLE v. UNITED STATES et al.
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '433'
+citation:
+  us: 389 U.S. 486
+  sct: 88 S. Ct. 602
+  led: 19 L. Ed. 2d 723
+  lexis: 1968 U.S. LEXIS 3027
+dates:
+  argued: '1967-12-04'
+  decided: '1968-01-15'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80020, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 110}
+  source: {code: 110}
+  disposition: granted
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 45}
+  respondent: {code: 27}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: AFortas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

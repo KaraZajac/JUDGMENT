@@ -1,0 +1,72 @@
+id: 1829-038
+name: PLOWDEN WESTON AND OTHERS, PLAINTIFFS IN ERROR VS. THE CITY COUNCIL OF CHARLESTON, DEFENDANTS
+term: 1829
+chief: Marshall
+natural_court: 408
+citation:
+  us: 27 U.S. 449
+  led: 7 L. Ed. 481
+  lexis: 1829 U.S. LEXIS 414
+dates:
+  argued: '1829-02-28'
+  reargued: '1829-03-10'
+  decided: '1829-03-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 100110, area: federalism}
+law:
+  type: constitution
+  supp: 110
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 48}
+  source: {code: 300, state: 48}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 3}
+  respondent_state: {code: 48}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

@@ -1,0 +1,78 @@
+id: 1971-018
+name: NATIONAL LABOR RELATIONS BOARD v. NASHFINCH CO., DBA JACK & JILL STORES
+term: 1971
+chief: Burger
+natural_court: 1503
+docket: 70-93
+citation:
+  us: 404 U.S. 138
+  sct: 92 S. Ct. 373
+  led: 30 L. Ed. 2d 328
+  lexis: 1971 U.S. LEXIS 97
+dates:
+  argued: '1971-10-19'
+  decided: '1971-12-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 100020, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 2283
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 89}
+  source: {code: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 151}
+admin_action: {agency: 82}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true

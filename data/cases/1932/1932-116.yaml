@@ -1,0 +1,81 @@
+id: 1932-116
+name: BURNET, COMMISSIONER OF INTERNAL REVENUE, v. GUGGENHEIM
+term: 1932
+chief: Hughes
+natural_court: 1103
+docket: '283'
+citation:
+  us: 288 U.S. 280
+  sct: 53 S. Ct. 369
+  led: 77 L. Ed. 748
+  lexis: 1933 U.S. LEXIS 40
+dates:
+  argued: '1933-01-11'
+  decided: '1933-02-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 240}
+admin_action: {agency: 69}
+opinions:
+  majority_author: BNCardozo
+  majority_assigner: WVanDevanter
+votes:
+- justice: CEHughes2
+  participated: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: PButler
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

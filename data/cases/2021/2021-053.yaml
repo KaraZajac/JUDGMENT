@@ -1,0 +1,87 @@
+id: 2021-053
+name: VIKING RIVER CRUISES v. MORIANA
+term: 2021
+chief: Roberts
+natural_court: 1709
+docket: 20-1573
+citation:
+  sct: 142 S. Ct. 1906
+  led: 213 L. Ed. 2d 179
+  lexis: 2022 U.S. LEXIS 2940
+dates:
+  argued: '2022-03-30'
+  decided: '2022-06-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 70010, area: unions}
+law:
+  type: federal-statute
+  supp: 388
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 301, state: 6}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 145}
+opinions:
+  majority_author: SAAlito
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: ACBarrett
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,84 @@
+id: 1952-089
+name: MAY v. ANDERSON
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '244'
+citation:
+  us: 345 U.S. 528
+  sct: 73 S. Ct. 840
+  led: 97 L. Ed. 2d 1221
+  lexis: 1953 U.S. LEXIS 2088
+dates:
+  argued: '1953-01-06'
+  decided: '1953-05-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 40060, area: due-process}
+law:
+  type: constitution
+  supp: 143
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 188}
+  respondent: {code: 153}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,86 @@
+id: 1952-023
+name: WIEMAN et al. v. UPDEGRAFF et al.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '14'
+citation:
+  us: 344 U.S. 183
+  sct: 73 S. Ct. 215
+  led: 97 L. Ed. 2d 216
+  lexis: 1952 U.S. LEXIS 1430
+dates:
+  argued: '1952-11-16'
+  decided: '1952-12-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 30110, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 42}
+  source: {code: 300, state: 42}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 42}
+  respondent: {code: 25}
+  respondent_state: {code: 42}
+opinions:
+  majority_author: TCClark
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+  - FFrankfurter
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

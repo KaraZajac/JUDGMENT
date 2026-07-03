@@ -1,0 +1,87 @@
+id: 1942-045
+name: SCHNEIDERMAN v. UNITED STATES
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '2'
+citation:
+  us: 320 U.S. 118
+  sct: 63 S. Ct. 1333
+  led: 87 L. Ed. 1796
+  lexis: 1943 U.S. LEXIS 1110
+dates:
+  argued: '1942-11-09'
+  reargued: '1943-03-12'
+  decided: '1943-06-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 20110, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 50}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 27}
+opinions:
+  majority_author: FMurphy
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

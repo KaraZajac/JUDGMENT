@@ -1,0 +1,75 @@
+id: 1951-044
+name: SUTTON v. LEIB
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '143'
+citation:
+  us: 342 U.S. 402
+  sct: 72 S. Ct. 398
+  led: 96 L. Ed. 2d 448
+  lexis: 1952 U.S. LEXIS 2383
+dates:
+  argued: '1951-12-03'
+  decided: '1952-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 110030, area: interstate-relations}
+law:
+  type: constitution
+  supp: 143
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 67, state: 17}
+  source: {code: 27}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 253}
+  respondent: {code: 168}
+opinions:
+  majority_author: SFReed
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  in_majority: true

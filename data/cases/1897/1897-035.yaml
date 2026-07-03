@@ -1,0 +1,77 @@
+id: 1897-035
+name: THOMPSON v. MAXWELL LAND GRANT AND RAILWAY COMPANY
+term: 1897
+chief: Fuller
+natural_court: 807
+docket: '91'
+citation:
+  us: 168 U.S. 451
+  sct: 18 S. Ct. 121
+  led: 42 L. Ed. 539
+  lexis: 1897 U.S. LEXIS 1739
+dates:
+  argued: '1897-11-02'
+  decided: '1897-12-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 20170, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 17, state: 36}
+  source: {code: 15, state: 36}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: EDEWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true

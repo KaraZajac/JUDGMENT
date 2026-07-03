@@ -1,0 +1,90 @@
+id: 1940-064
+name: HINES, SECRETARY OF LABOR AND INDUSTRY OF PENNSYLVANIA, et al. v. DAVIDOWITZ et al.
+term: 1940
+chief: Hughes
+natural_court: 1108
+docket: '22'
+citation:
+  us: 312 U.S. 52
+  sct: 61 S. Ct. 399
+  led: 85 L. Ed. 581
+  lexis: 1941 U.S. LEXIS 1103
+dates:
+  argued: '1940-12-10'
+  decided: '1941-01-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30120, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 369
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 110}
+  source: {code: 110}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 45}
+  respondent: {code: 19}
+  respondent_state: {code: 45}
+admin_action: {agency: 117, state: 45}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HLBlack
+  majority_assigner: OJRoberts
+votes:
+- justice: CEHughes2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true

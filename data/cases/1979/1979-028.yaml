@@ -1,0 +1,83 @@
+id: 1979-028
+name: ESTES et al. v. METROPOLITAN BRANCHES OF THE DALLAS NAACP et al.
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 78-253
+citation:
+  us: 444 U.S. 437
+  sct: 100 S. Ct. 716
+  led: 62 L. Ed. 2d 626
+  lexis: 1980 U.S. LEXIS 70
+dates:
+  argued: '1979-10-29'
+  decided: '1980-01-21'
+decision:
+  type: per-curiam-argued
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90150, area: judicial-power}
+law:
+  type: other
+  supp: 508
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 120}
+  source: {code: 25}
+  disposition: modified
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 21}
+  petitioner_state: {code: 51}
+  respondent: {code: 222}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

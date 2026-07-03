@@ -1,0 +1,85 @@
+id: 1963-178
+name: GROVE PRESS, INC., v. GERSTEIN, STATE ATTORNEY, et al.
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '718'
+citation:
+  us: 378 U.S. 577
+  sct: 84 S. Ct. 1909
+  led: 12 L. Ed. 2d 1035
+  lexis: 1964 U.S. LEXIS 864
+dates:
+  decided: '1964-06-22'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30190, area: first-amendment}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 12}
+  source: {code: 301, state: 12}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 220}
+  respondent: {code: 28}
+  respondent_state: {code: 12}
+opinions:
+  majority_assigner: HLBlack
+votes:
+- justice: EWarren
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: JHarlan2
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: PStewart
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: AJGoldberg
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan

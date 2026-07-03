@@ -1,0 +1,94 @@
+id: 2017-020
+name: MASTERPIECE CAKESHOP, LTD. v. COLORADO CIVIL RIGHTS COMMISSION
+term: 2017
+chief: Roberts
+natural_court: 1706
+docket: 16-111
+citation:
+  sct: 138 S. Ct. 1719
+  led: 201 L. Ed. 2d 35
+  lexis: 2018 U.S. LEXIS 3386
+dates:
+  argued: '2017-12-05'
+  decided: '2018-06-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20130, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 202
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 301, state: 7}
+  source: {code: 301, state: 7}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 228}
+  respondent: {code: 4}
+  respondent_state: {code: 7}
+admin_action: {agency: 19}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SGBreyer
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - EKagan
+- justice: SAAlito
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - NMGorsuch
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: EKagan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - CThomas

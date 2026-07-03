@@ -1,0 +1,84 @@
+id: 1914-257
+name: ARIZONA & NEW MEXICO RAILWAY COMPANY v. CLARK
+term: 1914
+chief: White
+natural_court: 903
+docket: '347'
+citation:
+  us: 235 U.S. 669
+  sct: 35 S. Ct. 210
+  led: 59 L. Ed. 415
+  lexis: 1915 U.S. LEXIS 1824
+dates:
+  argued: '1914-12-01'
+  decided: '1915-01-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80070, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 45}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 145}
+opinions:
+  majority_author: MPitney
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEHughes1
+- justice: CEHughes1
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true

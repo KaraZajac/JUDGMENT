@@ -1,0 +1,90 @@
+id: 2005-081
+name: NEIL RANDALL, et al. v. WILLIAM H. SORRELL et al.
+term: 2005
+chief: Roberts
+natural_court: 1702
+docket: 04-1528
+citation:
+  us: 548 U.S. 230
+  sct: 126 S. Ct. 2479
+  led: 165 L. Ed. 2d 482
+  lexis: 2006 U.S. LEXIS 5161
+dates:
+  argued: '2006-02-28'
+  decided: '2006-06-26'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30140, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 124}
+  source: {code: 22}
+  disposition: vacated-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 211}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AScalia
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

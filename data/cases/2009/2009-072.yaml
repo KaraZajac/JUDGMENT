@@ -1,0 +1,89 @@
+id: 2009-072
+name: NEW PROCESS STEEL, L. P. v. NATIONAL LABOR RELATIONS BOARD
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 08-1457
+citation:
+  us: 560 U.S. 674
+  sct: 130 S. Ct. 2635
+  led: 177 L. Ed. 2d 162
+  lexis: 2010 U.S. LEXIS 4973
+dates:
+  argued: '2010-03-23'
+  decided: '2010-06-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 27}
+  source: {code: 27}
+  disposition: granted
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 382}
+admin_action: {agency: 82}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: SGBreyer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy

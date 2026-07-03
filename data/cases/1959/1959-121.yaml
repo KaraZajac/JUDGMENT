@@ -1,0 +1,88 @@
+id: 1959-121
+name: CONTINENTAL GRAIN CO. v. BARGE FBL-585 et al.
+term: 1959
+chief: Warren
+natural_court: 1406
+docket: '229'
+citation:
+  us: 364 U.S. 19
+  sct: 80 S. Ct. 1470
+  led: 4 L. Ed. 2d 1540
+  lexis: 1960 U.S. LEXIS 1876
+dates:
+  argued: '1960-04-20'
+  decided: '1960-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90140, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 1404
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 75}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 234}
+  respondent: {code: 116}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CEWhittaker
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan2
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true

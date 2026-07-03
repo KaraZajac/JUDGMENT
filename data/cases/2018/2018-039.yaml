@@ -1,0 +1,86 @@
+id: 2018-039
+name: HOME DEPOT U.S.A. INC. v. JACKSON
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 17-1471
+citation:
+  sct: 139 S. Ct. 1743
+  led: 204 L. Ed. 2d 34
+  lexis: 2019 U.S. LEXIS 3558
+dates:
+  argued: '2019-01-15'
+  decided: '2019-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90090, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 USC 1453
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 100}
+  source: {code: 24}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 238}
+  respondent: {code: 134}
+opinions:
+  majority_author: CThomas
+  majority_assigner: CThomas
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: BMKavanaugh
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito

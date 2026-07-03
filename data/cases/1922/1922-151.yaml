@@ -1,0 +1,85 @@
+id: 1922-151
+name: ADKINS et al., CONSTITUTING THE MINIMUM WAGE BOARD OF THE DISTRICT OF COLUMBIA, v. CHILDREN'S HOSPITAL OF
+  THE DISTRICT OF COLUMBIA
+term: 1922
+chief: Taft
+natural_court: 1004
+docket: '795'
+citation:
+  us: 261 U.S. 525
+  sct: 43 S. Ct. 394
+  led: 67 L. Ed. 785
+  lexis: 1923 U.S. LEXIS 2588
+dates:
+  argued: '1923-03-14'
+  decided: '1923-04-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 20140, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 10}
+  respondent: {code: 151}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: JMcKenna
+votes:
+- justice: WHTaft
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  participated: false
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WHTaft

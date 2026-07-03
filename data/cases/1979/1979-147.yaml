@@ -1,0 +1,90 @@
+id: 1979-147
+name: THOMAS v. WASHINGTON GAS LIGHT CO. et al.
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 79-116
+citation:
+  us: 448 U.S. 261
+  sct: 100 S. Ct. 2647
+  led: 65 L. Ed. 2d 757
+  lexis: 1980 U.S. LEXIS 54
+dates:
+  argued: '1980-03-19'
+  decided: '1980-06-27'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80050, area: economic-activity}
+law:
+  type: constitution
+  supp: 143
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 24}
+  source: {code: 24}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 151}
+admin_action: {agency: 11}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true

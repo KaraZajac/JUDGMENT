@@ -1,0 +1,85 @@
+id: 1996-093
+name: FREDERICK D. RAINES, DIRECTOR, OFFICE OF MANAGEMENT AND BUDGET, et al. v. ROBERT C. BYRD et al.
+term: 1996
+chief: Rehnquist
+natural_court: 1607
+docket: 96-1671
+citation:
+  us: 521 U.S. 811
+  sct: 117 S. Ct. 2312
+  led: 138 L. Ed. 2d 849
+  lexis: 1997 U.S. LEXIS 4040
+dates:
+  argued: '1997-05-27'
+  decided: '1997-06-26'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90240, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 388}
+  respondent: {code: 23}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

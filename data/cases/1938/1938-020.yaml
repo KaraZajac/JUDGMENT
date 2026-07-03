@@ -1,0 +1,77 @@
+id: 1938-020
+name: NEBLETT et al. v. CARPENTER, INSURANCE COMMISSIONER, et al.
+term: 1938
+chief: Hughes
+natural_court: 1105
+docket: '21'
+citation:
+  us: 305 U.S. 297
+  sct: 59 S. Ct. 170
+  led: 83 L. Ed. 182
+  lexis: 1938 U.S. LEXIS 456
+dates:
+  argued: '1938-10-18'
+  decided: '1938-12-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 241
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 4}
+  respondent_state: {code: 6}
+admin_action: {agency: 117, state: 6}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  participated: false

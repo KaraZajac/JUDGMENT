@@ -1,0 +1,81 @@
+id: 2004-011
+name: FLORIDA v. JOE ELTON NIXON
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 03-931
+citation:
+  us: 543 U.S. 175
+  sct: 125 S. Ct. 551
+  led: 160 L. Ed. 2d 565
+  lexis: 2004 U.S. LEXIS 8270
+dates:
+  argued: '2004-11-02'
+  decided: '2004-12-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 10120, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 221
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 12}
+  source: {code: 300, state: 12}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 12}
+  respondent: {code: 126}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  participated: false
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

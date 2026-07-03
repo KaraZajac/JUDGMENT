@@ -1,0 +1,83 @@
+id: 2019-041
+name: U.S. FOREST SERVICE v. COWPASTURE RIVER PRESERVATION ASSOCIATION
+term: 2019
+chief: Roberts
+natural_court: 1707
+docket: 18-1584
+citation:
+  sct: 140 S. Ct. 1837
+  led: 207 L. Ed. 2d 186
+  lexis: 2020 U.S. LEXIS 3251
+dates:
+  argued: '2020-02-24'
+  decided: '2020-06-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80130, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Mineral Leasing Act, 30 U.S.C. 181
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 24}
+  source: {code: 24}
+  disposition: vacated
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 410}
+  respondent: {code: 150}
+admin_action: {agency: 110}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true

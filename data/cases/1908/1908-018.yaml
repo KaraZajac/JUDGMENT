@@ -1,0 +1,85 @@
+id: 1908-018
+name: PRENTIS et al., CONSTITUTING THE STATE CORPORATION COMMISSION OF VIRGINIA, v. ATLANTIC COAST LINE COMPANY
+term: 1908
+chief: Fuller
+natural_court: 811
+docket: '270'
+citation:
+  us: 211 U.S. 210
+  sct: 29 S. Ct. 67
+  led: 53 L. Ed. 150
+  lexis: 1908 U.S. LEXIS 1539
+dates:
+  argued: '1908-10-16'
+  decided: '1908-11-30'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 436}
+  source: {code: 436}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 55}
+  respondent: {code: 231}
+admin_action: {agency: 117, state: 55}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JHarlan1
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHMoody
+  vote: majority
+  direction: liberal
+  in_majority: true

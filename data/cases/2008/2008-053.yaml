@@ -1,0 +1,88 @@
+id: 2008-053
+name: ARTHUR ANDERSEN LLP, et al. v. WAYNE CARLISLE et al.
+term: 2008
+chief: Roberts
+natural_court: 1702
+docket: 08-146
+citation:
+  us: 556 U.S. 624
+  sct: 129 S. Ct. 1896
+  led: 173 L. Ed. 2d 832
+  lexis: 2009 U.S. LEXIS 3463
+dates:
+  argued: '2009-03-03'
+  decided: '2009-05-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90380, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 9-16
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 73}
+  source: {code: 26}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 119}
+  respondent: {code: 134}
+admin_action: {agency: 69}
+opinions:
+  majority_author: AScalia
+  majority_assigner: AScalia
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: JPStevens
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true

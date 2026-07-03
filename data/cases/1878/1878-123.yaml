@@ -1,0 +1,77 @@
+id: 1878-123
+name: SHERRY v. MCKINLEY
+term: 1878
+chief: Waite
+natural_court: 702
+docket: '116'
+citation:
+  us: 99 U.S. 496
+  led: 25 L. Ed. 330
+  lexis: 1878 U.S. LEXIS 1566
+dates:
+  decided: '1879-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 123}
+  respondent: {code: 195}
+opinions:
+  majority_author: WStrong
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WStrong
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true

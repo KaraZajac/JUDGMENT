@@ -1,0 +1,87 @@
+id: 1931-121
+name: FIRST NATIONAL BANK OF BOSTON, EXECUTOR, v. MAINE
+term: 1931
+chief: Hughes
+natural_court: 1102
+docket: '171'
+citation:
+  us: 284 U.S. 312
+  sct: 52 S. Ct. 174
+  led: 76 L. Ed. 313
+  lexis: 1932 U.S. LEXIS 876
+dates:
+  argued: '1931-12-10'
+  decided: '1932-01-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 23}
+  source: {code: 300, state: 23}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 23}
+  respondent: {code: 28}
+  respondent_state: {code: 23}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true

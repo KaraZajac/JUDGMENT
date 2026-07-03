@@ -1,0 +1,95 @@
+id: 1999-025
+name: JANET RENO, ATTORNEY GENERAL v. BOSSIER PARISH SCHOOL BOARD
+term: 1999
+chief: Rehnquist
+natural_court: 1607
+docket: 98-405
+citation:
+  us: 528 U.S. 320
+  sct: 120 S. Ct. 866
+  led: 145 L. Ed. 2d 845
+  lexis: 2000 U.S. LEXIS 993
+dates:
+  argued: '1999-04-26'
+  reargued: '1999-10-06'
+  decided: '2000-01-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20020, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 378
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 21}
+  respondent_state: {code: 22}
+admin_action: {agency: 27}
+opinions:
+  majority_author: AScalia
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+  - JPStevens
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter

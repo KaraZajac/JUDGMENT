@@ -1,0 +1,79 @@
+id: 1887-273
+name: CALLAN v. WILSON
+term: 1887
+chief: Waite
+natural_court: 707
+docket: '1318'
+citation:
+  us: 127 U.S. 540
+  sct: 8 S. Ct. 1301
+  led: 32 L. Ed. 223
+  lexis: 1888 U.S. LEXIS 2017
+dates:
+  argued: '1888-01-16'
+  decided: '1888-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 10580, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 215
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 10}
+  source: {code: 19}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 19}
+  respondent_state: {code: 10}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: SFMiller
+votes:
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: liberal
+  in_majority: true

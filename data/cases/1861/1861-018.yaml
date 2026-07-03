@@ -1,0 +1,64 @@
+id: 1861-018
+name: HOYT VS. SHELDEN, EX'R OF THOMPSON, AND THE LONG ISLAND RAILROAD COMPANY
+term: 1861
+chief: Taney
+natural_court: 511
+citation:
+  us: 66 U.S. 518
+  led: 17 L. Ed. 65
+  lexis: 1861 U.S. LEXIS 509
+dates:
+  argued: '1862-01-09'
+  decided: '1862-01-20'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 90350, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 389
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 302, state: 37}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 102}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  participated: false
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true

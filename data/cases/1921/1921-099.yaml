@@ -1,0 +1,82 @@
+id: 1921-099
+name: VIGLIOTTI v. COMMONWEALTH OF PENNSYLVANIA
+term: 1921
+chief: Taft
+natural_court: 1001
+docket: '530'
+citation:
+  us: 258 U.S. 403
+  sct: 42 S. Ct. 330
+  led: 66 L. Ed. 686
+  lexis: 1922 U.S. LEXIS 2288
+dates:
+  argued: '1922-03-14'
+  decided: '1922-04-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100030, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 105}
+  respondent: {code: 28}
+  respondent_state: {code: 45}
+opinions:
+  majority_author: LDBrandeis
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

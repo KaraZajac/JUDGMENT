@@ -1,0 +1,82 @@
+id: 1856-022
+name: E.J. DUPONT DE NEMOURS & CO., LIBELLANTS AND APPELLANTS, v. JOHN VANCE et al., CLAIMANTS OF THE BRIG ANN ELIZABETH
+term: 1856
+chief: Taney
+natural_court: 510
+citation:
+  us: 60 U.S. 162
+  led: 15 L. Ed. 584
+  lexis: 1856 U.S. LEXIS 433
+dates:
+  argued: '1856-12-12'
+  decided: '1857-01-20'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 150}
+  source: {code: 415}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 116}
+opinions:
+  majority_author: BRCurtis
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JACampbell
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: BRCurtis
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JACampbell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

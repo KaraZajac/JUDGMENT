@@ -1,0 +1,78 @@
+id: 1843-008
+name: MAYOR AND ALDERMEN OF THE CITY OF MOBILE, PLAINTIFFS, v. J. EMANUEL AND G. S. GAINES, DEFENDANTS
+term: 1843
+chief: Taney
+natural_court: 505
+citation:
+  us: 42 U.S. 95
+  led: 11 L. Ed. 60
+  lexis: 1843 U.S. LEXIS 289
+dates:
+  argued: '1843-01-23'
+  decided: '1843-02-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, May 26, 1824
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 1}
+  respondent: {code: 195}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  participated: false
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMcKinley
+  participated: false
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true

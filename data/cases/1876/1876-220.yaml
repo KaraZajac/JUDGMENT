@@ -1,0 +1,76 @@
+id: 1876-220
+name: LIPPINCOTT v. MITCHELL
+term: 1876
+chief: Waite
+natural_court: 701
+docket: '249'
+citation:
+  us: 94 U.S. 767
+  led: 24 L. Ed. 315
+  lexis: 1876 U.S. LEXIS 1940
+dates:
+  argued: '1877-04-26'
+  decided: '1877-05-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 20130, area: civil-rights}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 403}
+  source: {code: 403}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 135}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true

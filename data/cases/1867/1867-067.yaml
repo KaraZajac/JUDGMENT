@@ -1,0 +1,69 @@
+id: 1867-067
+name: DOE, LESSEE OF POOR, v. CONSIDINE
+term: 1867
+chief: Chase
+natural_court: 601
+citation:
+  us: 73 U.S. 458
+  led: 18 L. Ed. 869
+  lexis: 1867 U.S. LEXIS 991
+dates:
+  argued: '1868-02-19'
+  decided: '1868-03-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 140070, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 428}
+  source: {code: 428}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 166}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: NClifford
+  vote: dissent
+  in_majority: false
+  joined:
+  - RCGrier
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  in_majority: true
+- justice: SJField
+  vote: majority
+  in_majority: true

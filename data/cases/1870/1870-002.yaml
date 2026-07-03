@@ -1,0 +1,74 @@
+id: 1870-002
+name: DEMING'S APPEAL
+term: 1870
+chief: Chase
+natural_court: 602
+citation:
+  us: 77 U.S. 251
+  led: 19 L. Ed. 893
+  lexis: 1869 U.S. LEXIS 1062
+dates:
+  argued: '1870-11-11'
+  decided: '1870-11-14'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90480, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 6}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 27}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: NClifford
+votes:
+- justice: SPChase
+  participated: false
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true

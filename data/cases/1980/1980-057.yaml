@@ -1,0 +1,91 @@
+id: 1980-057
+name: H. L. v. MATHESON, GOVERNOR OF UTAH, et al.
+term: 1980
+chief: Burger
+natural_court: 1506
+docket: 79-5903
+citation:
+  us: 450 U.S. 398
+  sct: 101 S. Ct. 1164
+  led: 67 L. Ed. 2d 388
+  lexis: 1981 U.S. LEXIS 81
+dates:
+  argued: '1980-10-06'
+  decided: '1981-03-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 50020, area: privacy}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 52}
+  source: {code: 300, state: 52}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 175}
+  respondent: {code: 28}
+  respondent_state: {code: 52}
+opinions:
+  majority_author: WEBurger
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - LFPowell
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

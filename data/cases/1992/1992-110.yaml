@@ -1,0 +1,87 @@
+id: 1992-110
+name: UNITED STATES AND FEDERAL COMMUNICATIONS COMMISSION v. EDGE BROADCASTING COMPANY T/A POWER 94
+term: 1992
+chief: Rehnquist
+natural_court: 1605
+docket: 92-486
+citation:
+  us: 509 U.S. 418
+  sct: 113 S. Ct. 2696
+  led: 125 L. Ed. 2d 345
+  lexis: 1993 U.S. LEXIS 4402
+dates:
+  argued: '1993-04-21'
+  decided: '1993-06-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 30020, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 326
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 126}
+  source: {code: 24}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 221}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WHRehnquist
+votes:
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - DHSouter
+- justice: DHSouter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true

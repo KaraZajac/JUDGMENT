@@ -1,0 +1,70 @@
+id: 1861-028
+name: UNITED STATES VS. BABBIT
+term: 1861
+chief: Taney
+natural_court: 512
+citation:
+  us: 66 U.S. 55
+  led: 17 L. Ed. 94
+  lexis: 1861 U.S. LEXIS 452
+dates:
+  argued: '1862-01-27'
+  decided: '1862-02-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 60010, area: attorneys}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 11 Statutes at Large 91
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 167}
+  source: {code: 167}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 138}
+admin_action: {agency: 123}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  participated: false
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

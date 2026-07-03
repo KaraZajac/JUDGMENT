@@ -1,0 +1,82 @@
+id: 1971-075
+name: DUNN, GOVERNOR OF TENNESSEE, et al. v. BLUMSTEIN
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 70-13
+citation:
+  us: 405 U.S. 330
+  sct: 92 S. Ct. 995
+  led: 31 L. Ed. 2d 274
+  lexis: 1972 U.S. LEXIS 75
+dates:
+  argued: '1971-11-16'
+  decided: '1972-03-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 20220, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 117}
+  source: {code: 117}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 50}
+  respondent: {code: 251}
+admin_action: {agency: 117, state: 50}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  participated: false

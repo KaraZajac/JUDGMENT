@@ -1,0 +1,81 @@
+id: 2000-062
+name: ARKANSAS v. KENNETH ANDREW SULLIVAN
+term: 2000
+chief: Rehnquist
+natural_court: 1607
+docket: 00-262
+citation:
+  us: 532 U.S. 769
+  sct: 121 S. Ct. 1876
+  led: 149 L. Ed. 2d 994
+  lexis: 2001 U.S. LEXIS 4118
+dates:
+  decided: '2001-05-29'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 100130, area: federalism}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 5}
+  source: {code: 300, state: 5}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 5}
+  respondent: {code: 100}
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - CThomas
+- justice: SDOConnor
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - CThomas
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - CThomas

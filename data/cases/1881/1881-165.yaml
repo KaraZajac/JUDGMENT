@@ -1,0 +1,84 @@
+id: 1881-165
+name: EVANSVILLE BANK v. BRITTON
+term: 1881
+chief: Waite
+natural_court: 706
+citation:
+  us: 105 U.S. 322
+  led: 26 L. Ed. 1053
+  lexis: 1881 U.S. LEXIS 2127
+dates:
+  argued: '1882-01-24'
+  decided: '1882-04-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 411}
+  source: {code: 411}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 8}
+  respondent_state: {code: 18}
+admin_action: {agency: 117, state: 18}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: SFMiller
+votes:
+- justice: MRWaite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,91 @@
+id: 1948-029
+name: WILKERSON v. McCARTHY ET AL., TRUSTEES
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '53'
+citation:
+  us: 336 U.S. 53
+  sct: 69 S. Ct. 413
+  led: 93 L. Ed. 2d 497
+  lexis: 1949 U.S. LEXIS 2799
+dates:
+  argued: '1948-12-06'
+  decided: '1949-01-31'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80040, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 329
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 52}
+  source: {code: 300, state: 52}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 151}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: FMurphy
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: FMVinson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

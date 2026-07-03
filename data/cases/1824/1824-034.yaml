@@ -1,0 +1,72 @@
+id: 1824-034
+name: THE APOLLON, EDON, CLAIMANT
+term: 1824
+chief: Marshall
+natural_court: 407
+citation:
+  us: 22 U.S. 362
+  led: 6 L. Ed. 111
+  lexis: 1824 U.S. LEXIS 374
+dates:
+  argued: '1824-03-13'
+  decided: '1824-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, May 15, 1820, ch. 125
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 164}
+  source: {code: 409}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 234}
+  respondent: {code: 24}
+admin_action: {agency: 21}
+opinions:
+  majority_author: JStory
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: conservative
+  in_majority: true

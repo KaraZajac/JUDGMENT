@@ -1,0 +1,84 @@
+id: 2004-017
+name: ILLINOIS v. ROY I. CABALLES
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 03-923
+citation:
+  us: 543 U.S. 405
+  sct: 125 S. Ct. 834
+  led: 160 L. Ed. 2d 842
+  lexis: 2005 U.S. LEXIS 769
+dates:
+  argued: '2004-11-10'
+  decided: '2005-01-24'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10060, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 17}
+  respondent: {code: 100}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  participated: false
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true

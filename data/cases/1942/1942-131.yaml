@@ -1,0 +1,90 @@
+id: 1942-131
+name: WEST VIRGINIA STATE BOARD OF EDUCATION et al. v. BARNETTE et al.
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '591'
+citation:
+  us: 319 U.S. 624
+  sct: 63 S. Ct. 1178
+  led: 87 L. Ed. 1628
+  lexis: 1943 U.S. LEXIS 490
+dates:
+  argued: '1943-03-11'
+  decided: '1943-06-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30010, area: first-amendment}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 131}
+  source: {code: 131}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 21}
+  petitioner_state: {code: 57}
+  respondent: {code: 130}
+admin_action: {agency: 117, state: 57}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: RHJackson
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

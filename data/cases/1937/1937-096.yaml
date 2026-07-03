@@ -1,0 +1,79 @@
+id: 1937-096
+name: INDIANA EX REL. ANDERSON v. BRAND, TRUSTEE
+term: 1937
+chief: Hughes
+natural_court: 1105
+docket: '256'
+citation:
+  us: 303 U.S. 95
+  sct: 58 S. Ct. 443
+  led: 82 L. Ed. 685
+  lexis: 1938 U.S. LEXIS 287
+dates:
+  argued: '1938-01-10'
+  decided: '1938-01-31'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 18}
+  source: {code: 300, state: 18}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 18}
+  respondent: {code: 102}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  participated: false
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  participated: false

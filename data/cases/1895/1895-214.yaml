@@ -1,0 +1,84 @@
+id: 1895-214
+name: PUTNAM v. UNITED STATES.
+term: 1895
+chief: Fuller
+natural_court: 807
+docket: '573'
+citation:
+  us: 162 U.S. 687
+  sct: 16 S. Ct. 923
+  led: 40 L. Ed. 1118
+  lexis: 1896 U.S. LEXIS 2240
+dates:
+  decided: '1896-05-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10330, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 424}
+  source: {code: 424}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: SJField
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HBBrown
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true

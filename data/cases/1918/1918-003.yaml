@@ -1,0 +1,82 @@
+id: 1918-003
+name: SANDBERG et al. v. MCDONALD, CLAIMANT OF THE BRITISH SHIP TALUS
+term: 1918
+chief: White
+natural_court: 905
+docket: '392'
+citation:
+  us: 248 U.S. 185
+  sct: 39 S. Ct. 84
+  led: 63 L. Ed. 200
+  lexis: 1918 U.S. LEXIS 1662
+dates:
+  argued: '1918-11-05'
+  decided: '1918-12-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70190, area: unions}
+law:
+  type: federal-statute
+  supp: 900
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 43}
+  source: {code: 25}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 159}
+  respondent: {code: 195}
+opinions:
+  majority_author: WRDay
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false

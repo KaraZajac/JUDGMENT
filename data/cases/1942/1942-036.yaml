@@ -1,0 +1,87 @@
+id: 1942-036
+name: INTERSTATE COMMERCE COMMISSION et al. v. INLAND WATERWAYS CORP. et al.
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '175'
+citation:
+  us: 319 U.S. 671
+  sct: 63 S. Ct. 1296
+  led: 87 L. Ed. 1655
+  lexis: 1943 U.S. LEXIS 1101
+dates:
+  argued: '1943-01-11'
+  decided: '1943-06-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80230, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 66}
+  disposition: vacated
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 366}
+  respondent: {code: 304}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: RHJackson
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FMurphy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  participated: false

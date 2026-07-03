@@ -1,0 +1,82 @@
+id: 1966-083
+name: UTAH PIE CO. v. CONTINENTAL BAKING CO. et al.
+term: 1966
+chief: Warren
+natural_court: 1409
+docket: '18'
+citation:
+  us: 386 U.S. 685
+  sct: 87 S. Ct. 1326
+  led: 18 L. Ed. 2d 406
+  lexis: 1967 U.S. LEXIS 2982
+dates:
+  argued: '1967-01-17'
+  decided: '1967-04-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 310
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 123}
+  source: {code: 30}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 158}
+  respondent: {code: 158}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  participated: false
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

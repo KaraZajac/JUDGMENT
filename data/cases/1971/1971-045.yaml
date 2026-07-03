@@ -1,0 +1,83 @@
+id: 1971-045
+name: BOARD OF REGENTS OF THE UNIVERSITY OF TEXAS SYSTEM v. NEW LEFT EDUCATION PROJECT et al.
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 70-55
+citation:
+  us: 404 U.S. 541
+  sct: 92 S. Ct. 652
+  led: 30 L. Ed. 2d 697
+  lexis: 1972 U.S. LEXIS 95
+dates:
+  argued: '1971-12-06'
+  decided: '1972-01-24'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 90340, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 2281
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 122}
+  source: {code: 122}
+  disposition: granted
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 26}
+  petitioner_state: {code: 51}
+  respondent: {code: 211}
+admin_action: {agency: 117, state: 51}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  participated: false

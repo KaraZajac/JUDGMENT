@@ -1,0 +1,89 @@
+id: 1981-015
+name: CITIZENS AGAINST RENT CONTROL/COALITION FOR FAIR HOUSING et al. v. CITY OF BERKELEY, CALIFORNIA, et al.
+term: 1981
+chief: Burger
+natural_court: 1507
+docket: 80-737
+citation:
+  us: 454 U.S. 290
+  sct: 102 S. Ct. 434
+  led: 70 L. Ed. 2d 492
+  lexis: 1981 U.S. LEXIS 135
+dates:
+  argued: '1981-10-14'
+  decided: '1981-12-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 30140, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 201
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 201}
+  respondent: {code: 3}
+  respondent_state: {code: 6}
+admin_action: {agency: 117, state: 6}
+opinions:
+  majority_author: WEBurger
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HABlackmun

@@ -1,0 +1,99 @@
+id: 1988-151
+name: COUNTY OF ALLEGHENY et al. v. AMERICAN CIVIL LIBERTIES UNION, GREATER PITTSBURGH CHAPTER, et al.
+term: 1988
+chief: Rehnquist
+natural_court: 1603
+docket: 87-2050
+citation:
+  us: 492 U.S. 573
+  sct: 109 S. Ct. 3086
+  led: 106 L. Ed. 2d 472
+  lexis: 1989 U.S. LEXIS 3468
+dates:
+  argued: '1989-02-22'
+  decided: '1989-07-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30170, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 203
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 111}
+  source: {code: 23}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 45}
+  respondent: {code: 207}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+  - JPStevens
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: SDOConnor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

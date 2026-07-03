@@ -1,0 +1,88 @@
+id: 1935-081
+name: GREAT NORTHERN RAILWAY CO. v. WEEKS, STATE TAX COMMISSIONER, et al.
+term: 1935
+chief: Hughes
+natural_court: 1103
+docket: '178'
+citation:
+  us: 297 U.S. 135
+  sct: 56 S. Ct. 426
+  led: 80 L. Ed. 532
+  lexis: 1936 U.S. LEXIS 519
+dates:
+  argued: '1936-01-06'
+  decided: '1936-02-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 101}
+  source: {code: 28}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 8}
+  respondent_state: {code: 39}
+admin_action: {agency: 117, state: 39}
+opinions:
+  majority_author: PButler
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone

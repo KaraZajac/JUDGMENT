@@ -1,0 +1,79 @@
+id: 1921-156
+name: UNITED STATES v. SOUTHERN PACIFIC COMPANY et al.
+term: 1921
+chief: Taft
+natural_court: 1001
+docket: '5'
+citation:
+  us: 259 U.S. 214
+  sct: 42 S. Ct. 496
+  led: 66 L. Ed. 907
+  lexis: 1922 U.S. LEXIS 2477
+dates:
+  argued: '1921-04-18'
+  reargued: '1922-04-11'
+  decided: '1922-05-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 123}
+  source: {code: 123}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 231}
+admin_action: {agency: 27}
+opinions:
+  majority_author: WRDay
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  participated: false
+- justice: LDBrandeis
+  participated: false
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,83 @@
+id: 1917-215
+name: ROSEN et al. v. UNITED STATES
+term: 1917
+chief: White
+natural_court: 905
+docket: '365'
+citation:
+  us: 245 U.S. 467
+  sct: 38 S. Ct. 148
+  led: 62 L. Ed. 406
+  lexis: 1918 U.S. LEXIS 2150
+dates:
+  argued: '1917-12-12'
+  decided: '1918-01-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10400, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 94}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: JHClarke
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,86 @@
+id: 1886-157
+name: ROBBINS v. SHELBY COUNTY TAXING DISTRICT
+term: 1886
+chief: Waite
+natural_court: 706
+docket: '816'
+citation:
+  us: 120 U.S. 489
+  sct: 7 S. Ct. 592
+  led: 30 L. Ed. 694
+  lexis: 1887 U.S. LEXIS 1993
+dates:
+  argued: '1886-01-08'
+  decided: '1887-03-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 233}
+  respondent: {code: 5}
+  respondent_state: {code: 50}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: SFMiller
+votes:
+- justice: MRWaite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  participated: false
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,92 @@
+id: 1974-028
+name: GOSS et al. v. LOPEZ et al.
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-898
+citation:
+  us: 419 U.S. 565
+  sct: 95 S. Ct. 729
+  led: 42 L. Ed. 2d 725
+  lexis: 1975 U.S. LEXIS 23
+dates:
+  argued: '1974-10-16'
+  decided: '1975-01-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40020, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 104}
+  source: {code: 104}
+  disposition: granted
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 21}
+  petitioner_state: {code: 41}
+  respondent: {code: 239}
+admin_action: {agency: 117, state: 41}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell

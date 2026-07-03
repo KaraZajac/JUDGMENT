@@ -1,0 +1,80 @@
+id: 1961-055
+name: NATIONAL LABOR RELATIONS BOARD v. WALTON MANUFACTURING CO. et al.
+term: 1961
+chief: Warren
+natural_court: 1407
+docket: '77'
+citation:
+  us: 369 U.S. 404
+  sct: 82 S. Ct. 853
+  led: 7 L. Ed. 2d 829
+  lexis: 1962 U.S. LEXIS 2215
+dates:
+  argued: '1962-03-19'
+  decided: '1962-04-09'
+decision:
+  type: per-curiam-argued
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 70080, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- supervisory
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 25}
+  source: {code: 25}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 151}
+admin_action: {agency: 82}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

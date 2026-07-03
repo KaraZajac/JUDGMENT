@@ -1,0 +1,78 @@
+id: 1816-038
+name: THE COMMERCEN. -- LINDGREN, CLAIMANT
+term: 1816
+chief: Marshall
+natural_court: 406
+citation:
+  us: 14 U.S. 382
+  led: 4 L. Ed. 116
+  lexis: 1816 U.S. LEXIS 334
+dates:
+  argued: '1816-03-16'
+  decided: '1816-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 40070, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 78}
+  source: {code: 418}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 195}
+opinions:
+  majority_author: JStory
+  majority_assigner: BWashington
+votes:
+- justice: JMarshall
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMarshall
+- justice: HBLivingston
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMarshall
+- justice: TTodd
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

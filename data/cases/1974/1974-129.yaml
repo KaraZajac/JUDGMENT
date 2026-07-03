@@ -1,0 +1,87 @@
+id: 1974-129
+name: ERZNOZNIK v. CITY OF JACKSONVILLE
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-1942
+citation:
+  us: 422 U.S. 205
+  sct: 95 S. Ct. 2268
+  led: 45 L. Ed. 2d 125
+  lexis: 1975 U.S. LEXIS 79
+dates:
+  argued: '1975-02-26'
+  decided: '1975-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30190, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 12}
+  source: {code: 301, state: 12}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 242}
+  respondent: {code: 3}
+  respondent_state: {code: 12}
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WEBurger

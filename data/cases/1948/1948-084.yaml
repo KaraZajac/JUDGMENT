@@ -1,0 +1,86 @@
+id: 1948-084
+name: UNITED STATES v. PENN FOUNDRY & MANUFACTURING CO., INC.
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '253'
+citation:
+  us: 337 U.S. 198
+  sct: 69 S. Ct. 1009
+  led: 93 L. Ed. 2d 1308
+  lexis: 1949 U.S. LEXIS 2941
+dates:
+  argued: '1949-01-07'
+  decided: '1949-05-31'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90360, area: judicial-power}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 176}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: WBRutledge
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: FMurphy
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,87 @@
+id: 2009-011
+name: HEMI GROUP, LLC AND KAI GACHUPIN v. CITY OF NEW YORK, NEW YORK
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 08-969
+citation:
+  us: 559 U.S. 1
+  sct: 130 S. Ct. 983
+  led: 175 L. Ed. 2d 943
+  lexis: 2010 U.S. LEXIS 768
+dates:
+  argued: '2009-11-03'
+  decided: '2010-01-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80170, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 362
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 233}
+  respondent: {code: 3}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  participated: false

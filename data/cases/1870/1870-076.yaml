@@ -1,0 +1,75 @@
+id: 1870-076
+name: WARD v. STATE OF MARYLAND
+term: 1870
+chief: Chase
+natural_court: 602
+citation:
+  us: 79 U.S. 163
+  led: 20 L. Ed. 260
+  lexis: 1870 U.S. LEXIS 1174
+dates:
+  decided: '1871-03-06'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 403
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 300, state: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 25}
+opinions:
+  majority_author: NClifford
+  majority_assigner: NClifford
+votes:
+- justice: SPChase
+  participated: false
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true

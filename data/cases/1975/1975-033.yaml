@@ -1,0 +1,84 @@
+id: 1975-033
+name: BUCKLEY et al. v. VALEO, SECRETARY OF THE UNITED STATES SENATE, et al.
+term: 1975
+chief: Burger
+natural_court: 1506
+docket: 75-436
+citation:
+  us: 424 U.S. 1
+  sct: 96 S. Ct. 612
+  led: 46 L. Ed. 2d 659
+  lexis: 1976 U.S. LEXIS 16
+dates:
+  argued: '1975-11-10'
+  decided: '1976-01-30'
+decision:
+  type: per-curiam-argued
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 30140, area: first-amendment}
+law:
+  type: constitution
+  supp: 135
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 23}
+  respondent: {code: 343}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  participated: false

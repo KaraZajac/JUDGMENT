@@ -1,0 +1,70 @@
+id: 1815-016
+name: THE MARY, STAFFORD, MASTER
+term: 1815
+chief: Marshall
+natural_court: 406
+citation:
+  us: 13 U.S. 126
+  led: 3 L. Ed. 678
+  lexis: 1815 U.S. LEXIS 376
+dates:
+  argued: '1814-03-08'
+  reargued: '1815-02-18'
+  decided: '1815-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 113}
+  source: {code: 431}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 195}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true

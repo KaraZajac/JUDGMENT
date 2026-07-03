@@ -1,0 +1,86 @@
+id: 1947-093
+name: PHYLE v. DUFFY, WARDEN
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '655'
+citation:
+  us: 334 U.S. 431
+  sct: 68 S. Ct. 1131
+  led: 92 L. Ed. 2d 1494
+  lexis: 1948 U.S. LEXIS 2083
+dates:
+  argued: '1948-04-20'
+  decided: '1948-06-07'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10130, area: criminal-procedure}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 136}
+  respondent: {code: 28}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: FMurphy
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

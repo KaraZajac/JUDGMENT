@@ -1,0 +1,93 @@
+id: 2017-001
+name: SESSIONS v. DIMAYA
+term: 2017
+chief: Roberts
+natural_court: 1706
+docket: 15-1498
+citation:
+  sct: 138 S. Ct. 1204
+  led: 200 L. Ed. 2d 549
+  lexis: 2018 U.S. LEXIS 2497
+dates:
+  argued: '2017-01-17'
+  reargued: '2017-10-02'
+  decided: '2018-04-17'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40020, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 207
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 29}
+  source: {code: 29}
+  disposition: remanded
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 327}
+  respondent: {code: 106}
+admin_action: {agency: 7}
+opinions:
+  majority_author: EKagan
+  majority_assigner: RBGinsburg
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+  - CThomas
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+  - CThomas
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

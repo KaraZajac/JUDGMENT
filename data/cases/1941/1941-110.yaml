@@ -1,0 +1,86 @@
+id: 1941-110
+name: JACOB v. NEW YORK CITY
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '589'
+citation:
+  us: 315 U.S. 752
+  sct: 62 S. Ct. 854
+  led: 86 L. Ed. 1166
+  lexis: 1942 U.S. LEXIS 1244
+dates:
+  argued: '1942-03-06'
+  decided: '1942-03-30'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 151}
+opinions:
+  majority_author: FMurphy
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JFByrnes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

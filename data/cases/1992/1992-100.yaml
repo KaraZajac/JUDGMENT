@@ -1,0 +1,89 @@
+id: 1992-100
+name: JANET RENO, ATTORNEY GENERAL, et al. v. CATHOLIC SOCIAL SERVICES, INC., et al.
+term: 1992
+chief: Rehnquist
+natural_court: 1605
+docket: 91-1826
+citation:
+  us: 509 U.S. 43
+  sct: 113 S. Ct. 2485
+  led: 125 L. Ed. 2d 38
+  lexis: 1993 U.S. LEXIS 4209
+dates:
+  argued: '1993-01-11'
+  decided: '1993-06-18'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90310, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 49}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 106}
+admin_action: {agency: 68}
+opinions:
+  majority_author: DHSouter
+  majority_assigner: WHRehnquist
+votes:
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true

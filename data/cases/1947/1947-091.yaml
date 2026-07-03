@@ -1,0 +1,87 @@
+id: 1947-091
+name: TOOMER et al. v. WITSELL et al.
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '415'
+citation:
+  us: 334 U.S. 385
+  sct: 68 S. Ct. 1156
+  led: 92 L. Ed. 2d 1460
+  lexis: 1948 U.S. LEXIS 2082
+dates:
+  argued: '1948-01-13'
+  decided: '1948-06-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20220, area: civil-rights}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 155, state: 48}
+  source: {code: 155, state: 48}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 157}
+  respondent: {code: 19}
+  respondent_state: {code: 48}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

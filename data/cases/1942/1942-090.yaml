@@ -1,0 +1,77 @@
+id: 1942-090
+name: UNITED STATES v. JOHNSON
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '4'
+citation:
+  us: 319 U.S. 503
+  sct: 63 S. Ct. 1233
+  led: 87 L. Ed. 1546
+  lexis: 1943 U.S. LEXIS 1278
+dates:
+  argued: '1942-04-10'
+  reargued: '1942-10-12'
+  decided: '1943-06-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 10490, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 345
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 126}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  participated: false
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  participated: false

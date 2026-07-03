@@ -1,0 +1,88 @@
+id: 1993-036
+name: CENTRAL BANK OF DENVER, N. A. v. FIRST INTERSTATE BANK OF DENVER, N. A. AND JACK K. NABER
+term: 1993
+chief: Rehnquist
+natural_court: 1606
+docket: 92-854
+citation:
+  us: 511 U.S. 164
+  sct: 114 S. Ct. 1439
+  led: 128 L. Ed. 2d 119
+  lexis: 1994 U.S. LEXIS 3120
+dates:
+  argued: '1993-11-30'
+  decided: '1994-04-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80120, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 365
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-confusion
+lower_court:
+  origin: {code: 52}
+  source: {code: 30}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 113}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: HABlackmun
+votes:
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens

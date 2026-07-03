@@ -1,0 +1,79 @@
+id: 1893-125
+name: GALVESTON, HARRISBURG AND SAN ANTONIO RAILWAY COMPANY v. GONZALES
+term: 1893
+chief: Fuller
+natural_court: 805
+docket: '158'
+citation:
+  us: 151 U.S. 496
+  sct: 14 S. Ct. 401
+  led: 38 L. Ed. 248
+  lexis: 1894 U.S. LEXIS 2075
+dates:
+  argued: '1893-12-11'
+  decided: '1894-01-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 434}
+  source: {code: 434}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 208}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HEJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan1

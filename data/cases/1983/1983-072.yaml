@@ -1,0 +1,90 @@
+id: 1983-072
+name: JUSTICES OF BOSTON MUNICIPAL COURT v. LYDON
+term: 1983
+chief: Burger
+natural_court: 1507
+docket: 82-1479
+citation:
+  us: 466 U.S. 294
+  sct: 104 S. Ct. 1805
+  led: 80 L. Ed. 2d 311
+  lexis: 1984 U.S. LEXIS 60
+dates:
+  argued: '1983-12-06'
+  decided: '1984-04-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10170, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 206
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 80}
+  source: {code: 21}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 6}
+  petitioner_state: {code: 26}
+  respondent: {code: 126}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - LFPowell
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

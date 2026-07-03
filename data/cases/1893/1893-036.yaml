@@ -1,0 +1,78 @@
+id: 1893-036
+name: KNAPP v. MORSS.
+term: 1893
+chief: Fuller
+natural_court: 805
+docket: '55'
+citation:
+  us: 150 U.S. 221
+  sct: 14 S. Ct. 81
+  led: 37 L. Ed. 1059
+  lexis: 1893 U.S. LEXIS 2376
+dates:
+  argued: '1893-10-26'
+  decided: '1893-11-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 80180, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 137}
+admin_action: {agency: 27}
+opinions:
+  majority_author: HEJackson
+  majority_assigner: SJField
+votes:
+- justice: MWFuller
+  participated: false
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - GShiras
+- justice: GShiras
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HEJackson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

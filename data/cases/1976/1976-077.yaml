@@ -1,0 +1,93 @@
+id: 1976-077
+name: CASTANEDA, SHERIFF v. PARTIDA
+term: 1976
+chief: Burger
+natural_court: 1506
+docket: 75-1552
+citation:
+  us: 430 U.S. 482
+  sct: 97 S. Ct. 1272
+  led: 51 L. Ed. 2d 498
+  lexis: 1977 U.S. LEXIS 67
+dates:
+  argued: '1976-11-09'
+  decided: '1977-03-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20040, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 121}
+  source: {code: 25}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 51}
+  respondent: {code: 222}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TMarshall
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WEBurger
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WEBurger
+  - LFPowell
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

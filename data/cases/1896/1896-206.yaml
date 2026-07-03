@@ -1,0 +1,85 @@
+id: 1896-206
+name: NEW ORLEANS v. CITIZENS' BANK
+term: 1896
+chief: Fuller
+natural_court: 807
+docket: '108'
+citation:
+  us: 167 U.S. 371
+  sct: 17 S. Ct. 905
+  led: 42 L. Ed. 202
+  lexis: 1897 U.S. LEXIS 2105
+dates:
+  argued: '1897-01-15'
+  decided: '1897-05-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90460, area: judicial-power}
+law:
+  type: other
+  supp: 506
+authority:
+- supervisory
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 415}
+  source: {code: 415}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 22}
+  respondent: {code: 113}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: SJField
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false

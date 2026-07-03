@@ -1,0 +1,78 @@
+id: 1953-054
+name: ALABAMA v. TEXAS et al.
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: ORIG
+citation:
+  us: 347 U.S. 272
+  sct: 74 S. Ct. 481
+  led: 98 L. Ed. 2d 689
+  lexis: 1954 U.S. LEXIS 2335
+dates:
+  argued: '1954-02-03'
+  decided: '1954-03-15'
+decision:
+  type: per-curiam-argued
+  disposition: granted
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 100040, area: federalism}
+law:
+  type: constitution
+  supp: 146
+authority:
+- judicial-review-national
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 1}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_assigner: SFReed
+votes:
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  participated: false
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,80 @@
+id: 1872-047
+name: UNITED STATES v. THOMAS
+term: 1872
+chief: Chase
+natural_court: 602
+citation:
+  us: 82 U.S. 337
+  led: 21 L. Ed. 89
+  lexis: 1872 U.S. LEXIS 1257
+dates:
+  argued: '1872-12-06'
+  decided: '1873-01-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80060, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 433}
+  source: {code: 433}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 50}
+  respondent: {code: 27}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

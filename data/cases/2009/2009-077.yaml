@@ -1,0 +1,88 @@
+id: 2009-077
+name: ERIC H. HOLDER, JR., ATTORNEY GENERAL, et al. v. HUMANITARIAN LAW PROJECT et al.
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 08-1498
+citation:
+  us: 561 U.S. 1
+  sct: 130 S. Ct. 2705
+  led: 177 L. Ed. 2d 355
+  lexis: 2010 U.S. LEXIS 5252
+dates:
+  argued: '2010-02-23'
+  decided: '2010-06-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30060, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+authority:
+- statutory-construction
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 327}
+  respondent: {code: 149}
+admin_action: {agency: 27}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer

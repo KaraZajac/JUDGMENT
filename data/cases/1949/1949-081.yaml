@@ -1,0 +1,83 @@
+id: 1949-081
+name: EWING, FEDERAL SECURITY ADMINISTRATOR, ET AL. v. MYTINGER & CASSELBERRY, INC.
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '568'
+citation:
+  us: 339 U.S. 594
+  sct: 70 S. Ct. 870
+  led: 94 L. Ed. 2d 1088
+  lexis: 1950 U.S. LEXIS 1924
+dates:
+  argued: '1950-04-19'
+  decided: '1950-05-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 40020, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 207
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 55, state: 10}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 340}
+  respondent: {code: 158}
+admin_action: {agency: 40}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HHBurton
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true

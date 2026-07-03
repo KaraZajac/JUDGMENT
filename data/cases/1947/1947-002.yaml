@@ -1,0 +1,85 @@
+id: 1947-002
+name: FEDERAL CROP INSURANCE CORP. v. MERRILL ET AL., DOING BUSINESS AS MERRILL BROS.
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '45'
+citation:
+  us: 332 U.S. 380
+  sct: 68 S. Ct. 1
+  led: 92 L. Ed. 2d 10
+  lexis: 1947 U.S. LEXIS 2856
+dates:
+  argued: '1947-10-16'
+  decided: '1947-11-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 7 U.S.C. § 1503
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 16}
+  source: {code: 300, state: 16}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 304}
+  respondent: {code: 152}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FMVinson
+votes:
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WBRutledge
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

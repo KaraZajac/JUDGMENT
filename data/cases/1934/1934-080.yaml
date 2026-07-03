@@ -1,0 +1,88 @@
+id: 1934-080
+name: PERRY v. UNITED STATES
+term: 1934
+chief: Hughes
+natural_court: 1103
+docket: '532'
+citation:
+  us: 294 U.S. 330
+  sct: 55 S. Ct. 432
+  led: 79 L. Ed. 912
+  lexis: 1935 U.S. LEXIS 258
+dates:
+  argued: '1935-01-10'
+  decided: '1935-02-18'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80060, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-national
+- judicial-review-national
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 27}
+opinions:
+  majority_author: CEHughes2
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JCMcReynolds
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JCMcReynolds
+- justice: PButler
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JCMcReynolds
+- justice: HFStone
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  direction: liberal
+  in_majority: true

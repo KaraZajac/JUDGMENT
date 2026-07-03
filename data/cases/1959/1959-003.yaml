@@ -1,0 +1,83 @@
+id: 1959-003
+name: UNITED STEELWORKERS OF AMERICA v. UNITED STATES et al.
+term: 1959
+chief: Warren
+natural_court: 1406
+docket: '504'
+citation:
+  us: 361 U.S. 39
+  sct: 80 S. Ct. 1
+  led: 4 L. Ed. 2d 12
+  lexis: 1959 U.S. LEXIS 1743
+dates:
+  argued: '1959-11-03'
+  decided: '1959-11-07'
+decision:
+  type: per-curiam-argued
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 70110, area: unions}
+law:
+  type: federal-statute
+  supp: 350
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 111}
+  source: {code: 23}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 27}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true

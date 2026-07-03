@@ -1,0 +1,86 @@
+id: 2018-064
+name: IANCU v. BRUNETTI
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 18-302
+citation:
+  sct: 139 S. Ct. 2294
+  led: 204 L. Ed. 2d 714
+  lexis: 2019 U.S. LEXIS 4201
+dates:
+  argued: '2019-04-15'
+  decided: '2019-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 8}
+  source: {code: 8}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 316}
+  respondent: {code: 172}
+admin_action: {agency: 94}
+opinions:
+  majority_author: EKagan
+  majority_assigner: CThomas
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true

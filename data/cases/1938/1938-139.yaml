@@ -1,0 +1,83 @@
+id: 1938-139
+name: SOUTHERN PACIFIC CO. v. GALLAGHER et al.
+term: 1938
+chief: Hughes
+natural_court: 1106
+docket: '212'
+citation:
+  us: 306 U.S. 167
+  sct: 59 S. Ct. 389
+  led: 83 L. Ed. 586
+  lexis: 1939 U.S. LEXIS 983
+dates:
+  argued: '1938-12-12'
+  decided: '1939-01-30'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 50}
+  source: {code: 50}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 19}
+  respondent_state: {code: 6}
+admin_action: {agency: 117, state: 6}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: SFReed
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PButler
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  participated: false
+- justice: HLBlack
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  participated: false

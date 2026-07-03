@@ -1,0 +1,87 @@
+id: 1965-086
+name: DEGREGORY v. ATTORNEY GENERAL OF NEW HAMPSHIRE
+term: 1965
+chief: Warren
+natural_court: 1409
+docket: '396'
+citation:
+  us: 383 U.S. 825
+  sct: 86 S. Ct. 1148
+  led: 16 L. Ed. 2d 292
+  lexis: 1966 U.S. LEXIS 1909
+dates:
+  argued: '1966-02-24'
+  decided: '1966-04-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30050, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 201
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 34}
+  source: {code: 300, state: 34}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 254}
+  respondent: {code: 19}
+  respondent_state: {code: 34}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

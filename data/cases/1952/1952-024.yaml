@@ -1,0 +1,84 @@
+id: 1952-024
+name: SCHWARTZ v. TEXAS
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '41'
+citation:
+  us: 344 U.S. 199
+  sct: 73 S. Ct. 232
+  led: 97 L. Ed. 2d 231
+  lexis: 1952 U.S. LEXIS 1431
+dates:
+  argued: '1952-11-12'
+  decided: '1952-12-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 10370, area: criminal-procedure}
+law:
+  type: other
+  supp: 502
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 300, state: 51}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: SMinton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

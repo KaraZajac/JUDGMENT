@@ -1,0 +1,82 @@
+id: 1937-123
+name: COVERDALE, SHERIFF AND EX-OFFICIO TAX COLLECTOR, v. ARKANSAS-LOUISIANA PIPE LINE CO.
+term: 1937
+chief: Hughes
+natural_court: 1105
+docket: '458'
+citation:
+  us: 303 U.S. 604
+  sct: 58 S. Ct. 736
+  led: 82 L. Ed. 1043
+  lexis: 1938 U.S. LEXIS 357
+dates:
+  argued: '1938-02-28'
+  decided: '1938-04-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 77}
+  source: {code: 77}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 22}
+  respondent: {code: 25}
+  respondent_state: {code: 22}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: SFReed
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  participated: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,87 @@
+id: 1977-070
+name: CITY OF LOS ANGELES DEPARTMENT OF WATER AND POWER et al. v. MANHART et al.
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 76-1810
+citation:
+  us: 435 U.S. 702
+  sct: 98 S. Ct. 1370
+  led: 55 L. Ed. 2d 657
+  lexis: 1978 U.S. LEXIS 23
+dates:
+  argued: '1978-01-18'
+  decided: '1978-04-25'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 20140, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 384
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 6}
+  respondent: {code: 9}
+  respondent_state: {code: 6}
+admin_action: {agency: 117, state: 6}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: PStewart
+votes:
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WJBrennan
+  participated: false
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WEBurger
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,70 @@
+id: 1852-035
+name: THE SALMON FALLS MANUFACTURING COMPANY, PLAINTIFF IN ERROR, v. WILLIAM W. GODDARD
+term: 1852
+chief: Taney
+natural_court: 509
+citation:
+  us: 55 U.S. 446
+  led: 14 L. Ed. 493
+  lexis: 1852 U.S. LEXIS 457
+dates:
+  argued: '1853-02-02'
+  decided: '1853-02-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 140030, area: private-action}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 233}
+  respondent: {code: 123}
+opinions:
+  majority_author: SNelson
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  in_majority: false
+  joined:
+  - BRCurtis
+- justice: PVDaniel
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  in_majority: true
+- justice: BRCurtis
+  vote: dissent
+  opinion: wrote
+  in_majority: false

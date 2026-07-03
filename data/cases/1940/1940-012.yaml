@@ -1,0 +1,88 @@
+id: 1940-012
+name: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. EUBANK
+term: 1940
+chief: Hughes
+natural_court: 1108
+docket: '205'
+citation:
+  us: 311 U.S. 122
+  sct: 61 S. Ct. 149
+  led: 85 L. Ed. 81
+  lexis: 1940 U.S. LEXIS 1104
+dates:
+  argued: '1940-10-25'
+  decided: '1940-11-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 171}
+admin_action: {agency: 69}
+opinions:
+  majority_author: HFStone
+  majority_assigner: HFStone
+votes:
+- justice: CEHughes2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JCMcReynolds
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JCMcReynolds
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true

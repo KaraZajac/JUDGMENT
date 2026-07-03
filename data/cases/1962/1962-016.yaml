@@ -1,0 +1,87 @@
+id: 1962-016
+name: FOMAN v. DAVIS, EXECUTRIX
+term: 1962
+chief: Warren
+natural_court: 1408
+docket: '41'
+citation:
+  us: 371 U.S. 178
+  sct: 83 S. Ct. 227
+  led: 9 L. Ed. 2d 222
+  lexis: 1962 U.S. LEXIS 65
+dates:
+  argued: '1962-11-14'
+  decided: '1962-12-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 80}
+  source: {code: 21}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 129}
+  respondent: {code: 253}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: AJGoldberg
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JHarlan2
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

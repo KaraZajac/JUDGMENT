@@ -1,0 +1,88 @@
+id: 1944-033
+name: AMERICAN POWER & LIGHT CO. v. SECURITIES & EXCHANGE COMMISSION
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '470'
+citation:
+  us: 325 U.S. 385
+  sct: 65 S. Ct. 1254
+  led: 89 L. Ed. 1683
+  lexis: 1945 U.S. LEXIS 1975
+dates:
+  argued: '1945-04-26'
+  decided: '1945-06-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80120, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 359
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 21}
+  source: {code: 21}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 405}
+admin_action: {agency: 105}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

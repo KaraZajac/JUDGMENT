@@ -1,0 +1,84 @@
+id: 1963-069
+name: ITALIA SOCIETA PER AZIONI DI NAVIGAZIONE v. OREGON STEVEDORING CO., INC.
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '82'
+citation:
+  us: 376 U.S. 315
+  sct: 84 S. Ct. 748
+  led: 11 L. Ed. 2d 732
+  lexis: 1964 U.S. LEXIS 2163
+dates:
+  argued: '1964-01-08'
+  decided: '1964-03-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 108}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 116}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: TCClark
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  direction: conservative
+  in_majority: true

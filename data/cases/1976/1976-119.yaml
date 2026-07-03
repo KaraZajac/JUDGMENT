@@ -1,0 +1,80 @@
+id: 1976-119
+name: SCARBOROUGH v. UNITED STATES
+term: 1976
+chief: Burger
+natural_court: 1506
+docket: 75-1344
+citation:
+  us: 431 U.S. 563
+  sct: 97 S. Ct. 1963
+  led: 52 L. Ed. 2d 582
+  lexis: 1977 U.S. LEXIS 2230
+dates:
+  argued: '1977-03-02'
+  decided: '1977-06-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 10440, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 339
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 126}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  participated: false
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

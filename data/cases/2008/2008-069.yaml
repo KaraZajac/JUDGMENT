@@ -1,0 +1,89 @@
+id: 2008-069
+name: POLAR TANKERS, INC. v. CITY OF VALDEZ, ALASKA
+term: 2008
+chief: Roberts
+natural_court: 1702
+docket: 08-310
+citation:
+  us: 557 U.S. 1
+  sct: 129 S. Ct. 2277
+  led: 174 L. Ed. 2d 1
+  lexis: 2009 U.S. LEXIS 4319
+dates:
+  argued: '2009-04-01'
+  decided: '2009-06-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 129
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 2}
+  source: {code: 300, state: 2}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 3}
+  respondent_state: {code: 2}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

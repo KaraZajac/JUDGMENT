@@ -1,0 +1,89 @@
+id: 1968-003
+name: WILLIAMS et al. v. RHODES, GOVERNOR OF OHIO, et al.
+term: 1968
+chief: Warren
+natural_court: 1410
+docket: '543'
+citation:
+  us: 393 U.S. 23
+  sct: 89 S. Ct. 5
+  led: 21 L. Ed. 2d 24
+  lexis: 1968 U.S. LEXIS 2959
+dates:
+  argued: '1968-10-07'
+  decided: '1968-10-15'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20030, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 104}
+  source: {code: 104}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 19}
+  respondent_state: {code: 41}
+flags:
+  three_judge_district_court: true
+  disposition_unusual: true
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

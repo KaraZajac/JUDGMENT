@@ -1,0 +1,87 @@
+id: 1913-156
+name: GERMAN ALLIANCE INSURANCE COMPANY v. LEWIS, SUPERINTENDENT OF INSURANCE OF THE STATE OF KANSAS
+term: 1913
+chief: White
+natural_court: 902
+docket: '120'
+citation:
+  us: 233 U.S. 389
+  sct: 34 S. Ct. 612
+  led: 58 L. Ed. 1011
+  lexis: 1914 U.S. LEXIS 1237
+dates:
+  argued: '1913-12-10'
+  decided: '1914-04-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: commerce clause & 14th Amenndment, equal protection
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 413}
+  source: {code: 413}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 19}
+  respondent_state: {code: 20}
+admin_action: {agency: 117, state: 20}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: JMcKenna
+votes:
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JRLamar
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHLurton
+  participated: false
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JRLamar
+- justice: JRLamar
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true

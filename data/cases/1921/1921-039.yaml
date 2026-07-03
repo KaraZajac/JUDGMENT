@@ -1,0 +1,94 @@
+id: 1921-039
+name: TRUAX et al., COPARTNERS, DOING BUSINESS UNDER THE FIRM NAME AND STYLE OF WILLIAM TRUAX, v. CORRIGAN et al.
+term: 1921
+chief: Taft
+natural_court: 1001
+docket: '13'
+citation:
+  us: 257 U.S. 312
+  sct: 42 S. Ct. 124
+  led: 66 L. Ed. 254
+  lexis: 1921 U.S. LEXIS 1345
+dates:
+  argued: '1920-04-29'
+  reargued: '1921-10-05'
+  decided: '1921-12-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70140, area: unions}
+law:
+  type: constitutional-amendment
+  supp: 240
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 4}
+  source: {code: 300, state: 4}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 228}
+  respondent: {code: 247}
+opinions:
+  majority_author: WHTaft
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - MPitney
+  - LDBrandeis
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+  - MPitney
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MPitney

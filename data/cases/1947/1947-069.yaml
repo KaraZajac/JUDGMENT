@@ -1,0 +1,88 @@
+id: 1947-069
+name: UNITED STATES v. SOUTH BUFFALO RAILWAY CO. ET AL.
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '198'
+citation:
+  us: 333 U.S. 771
+  sct: 68 S. Ct. 868
+  led: 92 L. Ed. 2d 1077
+  lexis: 1948 U.S. LEXIS 2737
+dates:
+  argued: '1948-02-02'
+  decided: '1948-04-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80220, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 97, state: 37}
+  source: {code: 97, state: 37}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 231}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

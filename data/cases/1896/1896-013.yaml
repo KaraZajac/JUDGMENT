@@ -1,0 +1,81 @@
+id: 1896-013
+name: FALLBROOK IRRIGATION DISTRICT v. BRADLEY
+term: 1896
+chief: Fuller
+natural_court: 807
+docket: '355'
+citation:
+  us: 164 U.S. 112
+  sct: 17 S. Ct. 56
+  led: 41 L. Ed. 369
+  lexis: 1896 U.S. LEXIS 1847
+dates:
+  argued: '1896-01-23'
+  decided: '1896-11-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 405}
+  source: {code: 405}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 195}
+opinions:
+  majority_author: RWPeckham
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SJField
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

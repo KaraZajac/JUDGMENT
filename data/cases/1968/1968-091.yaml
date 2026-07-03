@@ -1,0 +1,88 @@
+id: 1968-091
+name: MOORE et al. v. OGILVIE, GOVERNOR OF ILLINOIS, et al.
+term: 1968
+chief: Warren
+natural_court: 1410
+docket: '620'
+citation:
+  us: 394 U.S. 814
+  sct: 89 S. Ct. 1493
+  led: 23 L. Ed. 2d 1
+  lexis: 1969 U.S. LEXIS 1700
+dates:
+  argued: '1969-03-27'
+  decided: '1969-05-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20030, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 66}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 4}
+  respondent_state: {code: 17}
+admin_action: {agency: 117, state: 17}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

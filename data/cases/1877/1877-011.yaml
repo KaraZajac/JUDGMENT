@@ -1,0 +1,78 @@
+id: 1877-011
+name: NEW JERSEY v. YARD
+term: 1877
+chief: Waite
+natural_court: 701
+docket: '343'
+citation:
+  us: 95 U.S. 104
+  led: 24 L. Ed. 352
+  lexis: 1877 U.S. LEXIS 2140
+dates:
+  argued: '1877-10-16'
+  decided: '1877-10-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 35}
+  source: {code: 300, state: 35}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 35}
+  respondent: {code: 4}
+  respondent_state: {code: 35}
+admin_action: {agency: 117, state: 35}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  participated: false
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true

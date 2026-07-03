@@ -1,0 +1,87 @@
+id: 1967-160
+name: PERMA LIFE MUFFLERS, INC., et al. v. INTERNATIONAL PARTS CORP. et al.
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '733'
+citation:
+  us: 392 U.S. 134
+  sct: 88 S. Ct. 1981
+  led: 20 L. Ed. 2d 982
+  lexis: 1968 U.S. LEXIS 3168
+dates:
+  argued: '1968-04-22'
+  decided: '1968-06-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed-and-reversed-in-part
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 161}
+  respondent: {code: 160}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: TMarshall
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

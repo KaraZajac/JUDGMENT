@@ -1,0 +1,86 @@
+id: 1919-129
+name: UNITED STATES v. UNITED STATES STEEL CORPORATION et al.
+term: 1919
+chief: White
+natural_court: 905
+docket: '6'
+citation:
+  us: 251 U.S. 417
+  sct: 40 S. Ct. 293
+  led: 64 L. Ed. 343
+  lexis: 1920 U.S. LEXIS 1630
+dates:
+  argued: '1917-03-09'
+  reargued: '1919-10-07'
+  decided: '1920-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 92}
+  source: {code: 92}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 122}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MPitney
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WRDay

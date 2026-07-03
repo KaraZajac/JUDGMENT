@@ -1,0 +1,92 @@
+id: 1983-035
+name: MINNESOTA STATE BOARD FOR COMMUNITY COLLEGES v. KNIGHT et al.
+term: 1983
+chief: Burger
+natural_court: 1507
+docket: 82-898
+citation:
+  us: 465 U.S. 271
+  sct: 104 S. Ct. 1058
+  led: 79 L. Ed. 2d 299
+  lexis: 1984 U.S. LEXIS 28
+dates:
+  argued: '1983-11-01'
+  decided: '1984-02-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 83}
+  source: {code: 83}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 2}
+  petitioner_state: {code: 28}
+  respondent: {code: 8}
+  respondent_state: {code: 28}
+admin_action: {agency: 117, state: 28}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

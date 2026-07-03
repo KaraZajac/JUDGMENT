@@ -1,0 +1,86 @@
+id: 1928-027
+name: CUDAHY PACKING COMPANY v. HINKLE, SECRETARY OF STATE, et al.
+term: 1928
+chief: Taft
+natural_court: 1005
+docket: '278'
+citation:
+  us: 278 U.S. 460
+  sct: 49 S. Ct. 204
+  led: 73 L. Ed. 454
+  lexis: 1929 U.S. LEXIS 16
+dates:
+  argued: '1929-01-07'
+  decided: '1929-02-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 129}
+  source: {code: 129}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 210}
+  respondent: {code: 19}
+  respondent_state: {code: 56}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

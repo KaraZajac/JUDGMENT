@@ -1,0 +1,86 @@
+id: 1988-040
+name: HARRIS v. REED, WARDEN, et al.
+term: 1988
+chief: Rehnquist
+natural_court: 1603
+docket: 87-5677
+citation:
+  us: 489 U.S. 255
+  sct: 109 S. Ct. 1038
+  led: 103 L. Ed. 2d 308
+  lexis: 1989 U.S. LEXIS 1044
+dates:
+  argued: '1988-10-12'
+  decided: '1989-02-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 10020, area: criminal-procedure}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 17}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

@@ -1,0 +1,85 @@
+id: 1947-036
+name: MUSSER ET AL. v. UTAH
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '60'
+citation:
+  us: 333 U.S. 95
+  sct: 68 S. Ct. 397
+  led: 92 L. Ed. 2d 562
+  lexis: 1948 U.S. LEXIS 2557
+dates:
+  argued: '1947-11-10'
+  reargued: '1948-01-05'
+  decided: '1948-02-09'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90190, area: judicial-power}
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 52}
+  source: {code: 300, state: 52}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 137}
+  respondent: {code: 28}
+  respondent_state: {code: 52}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

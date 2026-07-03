@@ -1,0 +1,87 @@
+id: 1919-180
+name: JACOB RUPPERT, A CORPORATION, v. CAFFEY, UNITED STATES ATTORNEY FOR THE SOUTHERN DISTRICT OF NEW YORK, et
+  al.
+term: 1919
+chief: White
+natural_court: 905
+docket: '603'
+citation:
+  us: 251 U.S. 264
+  sct: 40 S. Ct. 141
+  led: 64 L. Ed. 260
+  lexis: 1920 U.S. LEXIS 1735
+dates:
+  argued: '1919-11-20'
+  decided: '1920-01-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 327}
+admin_action: {agency: 69}
+opinions:
+  majority_author: LDBrandeis
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JCMcReynolds
+- justice: WVanDevanter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JCMcReynolds
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false

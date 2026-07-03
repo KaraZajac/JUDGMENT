@@ -1,0 +1,78 @@
+id: 1882-107
+name: SUN MUTUAL INSURANCE COMPANY v. OCEAN INSURANCE COMPANY
+term: 1882
+chief: Waite
+natural_court: 706
+docket: '119'
+citation:
+  us: 107 U.S. 485
+  sct: 1 S. Ct. 582
+  led: 27 L. Ed. 337
+  lexis: 1882 U.S. LEXIS 1241
+dates:
+  argued: '1882-12-06'
+  decided: '1883-01-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 140080, area: private-action}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Act of 1875
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 426}
+  disposition: reversed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 171}
+opinions:
+  majority_author: SMatthews
+  majority_assigner: SJField
+votes:
+- justice: MRWaite
+  vote: dissent
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: SJField
+  vote: majority
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: JHarlan1
+  vote: majority
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: HGray
+  vote: majority
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  in_majority: true

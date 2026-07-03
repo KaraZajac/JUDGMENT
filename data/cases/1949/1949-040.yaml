@@ -1,0 +1,78 @@
+id: 1949-040
+name: UNITED STATES v. MORTON SALT CO.
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '273'
+citation:
+  us: 338 U.S. 632
+  sct: 70 S. Ct. 357
+  led: 94 L. Ed. 2d 401
+  lexis: 1950 U.S. LEXIS 2600
+dates:
+  argued: '1949-12-14'
+  decided: '1950-02-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 305
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 66, state: 17}
+  source: {code: 27}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 158}
+admin_action: {agency: 57}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  participated: false
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,90 @@
+id: 1968-052
+name: GREGORY et al. v. CITY OF CHICAGO
+term: 1968
+chief: Warren
+natural_court: 1410
+docket: '60'
+citation:
+  us: 394 U.S. 111
+  sct: 89 S. Ct. 946
+  led: 22 L. Ed. 2d 134
+  lexis: 1969 U.S. LEXIS 2295
+dates:
+  argued: '1968-12-10'
+  decided: '1969-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 30150, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 223}
+  respondent: {code: 3}
+  respondent_state: {code: 17}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: EWarren
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

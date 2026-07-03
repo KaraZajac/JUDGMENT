@@ -1,0 +1,80 @@
+id: 1909-069
+name: LUDWIG, SECRETARY OF STATE OF ARKANSAS, v. WESTERN UNION TELEGRAPH COMPANY
+term: 1909
+chief: Fuller
+natural_court: 812
+docket: '45'
+citation:
+  us: 216 U.S. 146
+  sct: 30 S. Ct. 280
+  led: 54 L. Ed. 423
+  lexis: 1910 U.S. LEXIS 1881
+dates:
+  argued: '1909-04-13'
+  decided: '1910-02-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80340, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 224
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 404}
+  source: {code: 404}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 5}
+  respondent: {code: 205}
+admin_action: {agency: 117, state: 5}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  participated: false

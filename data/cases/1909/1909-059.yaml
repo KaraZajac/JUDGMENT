@@ -1,0 +1,84 @@
+id: 1909-059
+name: PULLMAN COMPANY v. STATE OF KANSAS EX REL. COLEMAN, ATTORNEY GENERAL
+term: 1909
+chief: Fuller
+natural_court: 812
+docket: '5'
+citation:
+  us: 216 U.S. 56
+  sct: 30 S. Ct. 232
+  led: 54 L. Ed. 378
+  lexis: 1910 U.S. LEXIS 1871
+dates:
+  argued: '1909-03-17'
+  decided: '1910-01-31'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 20}
+  source: {code: 300, state: 20}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 28}
+  respondent_state: {code: 20}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  participated: false

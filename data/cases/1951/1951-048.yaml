@@ -1,0 +1,84 @@
+id: 1951-048
+name: PERKINS v. BENGUET CONSOLIDATED MINING CO. ET AL.
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '85'
+citation:
+  us: 342 U.S. 437
+  sct: 72 S. Ct. 413
+  led: 96 L. Ed. 2d 485
+  lexis: 1952 U.S. LEXIS 2386
+dates:
+  argued: '1951-11-27'
+  decided: '1952-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 40060, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 193}
+  respondent: {code: 200}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SMinton

@@ -1,0 +1,72 @@
+id: 1901-064
+name: HITZ v. JENKS
+term: 1901
+chief: Fuller
+natural_court: 808
+docket: '99'
+citation:
+  us: 185 U.S. 155
+  sct: 22 S. Ct. 598
+  led: 46 L. Ed. 851
+  lexis: 1902 U.S. LEXIS 2250
+dates:
+  argued: '1902-01-14'
+  decided: '1902-04-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 140070, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 32}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 233}
+  respondent: {code: 166}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: HGray
+  vote: majority
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  in_majority: false
+- justice: HBBrown
+  vote: majority
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  in_majority: true

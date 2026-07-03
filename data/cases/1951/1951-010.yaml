@@ -1,0 +1,80 @@
+id: 1951-010
+name: BINDCZYCK v. FINUCANE, CHAIRMAN OF THE BOARD OF IMMIGRATION APPEALS, ET AL.
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '18'
+citation:
+  us: 342 U.S. 76
+  sct: 72 S. Ct. 130
+  led: 96 L. Ed. 2d 100
+  lexis: 1951 U.S. LEXIS 2365
+dates:
+  argued: '1951-10-10'
+  decided: '1951-11-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 20280, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 32}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 186}
+  respondent: {code: 307}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  participated: false
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

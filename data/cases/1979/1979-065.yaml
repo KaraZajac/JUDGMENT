@@ -1,0 +1,84 @@
+id: 1979-065
+name: UNITED STATES v. MITCHELL et al.
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 78-1756
+citation:
+  us: 445 U.S. 535
+  sct: 100 S. Ct. 1349
+  led: 63 L. Ed. 2d 607
+  lexis: 1980 U.S. LEXIS 32
+dates:
+  argued: '1979-12-03'
+  decided: '1980-04-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 25 U.S.C. § 331
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 170}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: PStewart
+votes:
+- justice: WEBurger
+  participated: false
+- justice: WJBrennan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite

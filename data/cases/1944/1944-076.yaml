@@ -1,0 +1,85 @@
+id: 1944-076
+name: GEORGIA v. PENNSYLVANIA RAILROAD CO. et al.
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: 11 ORIG
+citation:
+  us: 324 U.S. 439
+  sct: 65 S. Ct. 716
+  led: 89 L. Ed. 1051
+  lexis: 1945 U.S. LEXIS 2617
+dates:
+  argued: '1945-01-02'
+  decided: '1945-03-26'
+decision:
+  type: opinion-of-the-court
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90370, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 13}
+  respondent: {code: 231}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,84 @@
+id: 2024-011
+name: ADVOCATE CHRIST MEDICAL CENTER v. KENNEDY
+term: 2024
+chief: Roberts
+natural_court: 1710
+docket: 23-715
+citation:
+  sct: 145 S. Ct. 1262
+  led: 221 L. Ed. 2d 684
+  lexis: 2025 U.S. LEXIS 1744
+dates:
+  argued: '2024-11-05'
+  decided: '2025-04-29'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 42 U. S. C. 1395
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 167}
+  respondent: {code: 363}
+opinions:
+  majority_author: ACBarrett
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: KBJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

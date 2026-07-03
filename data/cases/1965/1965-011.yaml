@@ -1,0 +1,87 @@
+id: 1965-011
+name: SHUTTLESWORTH v. CITY OF BIRMINGHAM
+term: 1965
+chief: Warren
+natural_court: 1409
+docket: '5'
+citation:
+  us: 382 U.S. 87
+  sct: 86 S. Ct. 211
+  led: 15 L. Ed. 2d 176
+  lexis: 1965 U.S. LEXIS 264
+dates:
+  argued: '1965-10-11'
+  decided: '1965-11-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 30150, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 301, state: 1}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 223}
+  respondent: {code: 3}
+  respondent_state: {code: 1}
+opinions:
+  majority_author: PStewart
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AFortas
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

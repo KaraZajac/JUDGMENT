@@ -1,0 +1,82 @@
+id: 1951-020
+name: KEROTEST MANUFACTURING CO. v. C-O-TWO FIRE EQUIPMENT CO.
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '180'
+citation:
+  us: 342 U.S. 180
+  sct: 72 S. Ct. 219
+  led: 96 L. Ed. 2d 200
+  lexis: 1952 U.S. LEXIS 2805
+dates:
+  argued: '1951-11-30'
+  decided: '1952-01-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90140, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 2201
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 54, state: 9}
+  source: {code: 23}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 172}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FFrankfurter
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: dissent
+  direction: liberal
+  in_majority: false

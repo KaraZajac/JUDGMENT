@@ -1,0 +1,81 @@
+id: 1889-157
+name: in re WIGHT, PETITIONER
+term: 1889
+chief: Fuller
+natural_court: 802
+docket: '1521'
+citation:
+  us: 134 U.S. 136
+  sct: 10 S. Ct. 487
+  led: 33 L. Ed. 865
+  lexis: 1890 U.S. LEXIS 1955
+dates:
+  decided: '1890-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10370, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 419}
+  source: {code: 419}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 8}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: SFMiller
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HGray
+  participated: false
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true

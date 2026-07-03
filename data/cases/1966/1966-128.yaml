@@ -1,0 +1,88 @@
+id: 1966-128
+name: WALKER et al. v. CITY OF BIRMINGHAM
+term: 1966
+chief: Warren
+natural_court: 1409
+docket: '249'
+citation:
+  us: 388 U.S. 307
+  sct: 87 S. Ct. 1824
+  led: 18 L. Ed. 2d 1210
+  lexis: 1967 U.S. LEXIS 2837
+dates:
+  argued: '1967-03-13'
+  decided: '1967-06-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30150, area: first-amendment}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 223}
+  respondent: {code: 3}
+  respondent_state: {code: 1}
+opinions:
+  majority_author: PStewart
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AFortas
+  vote: dissent
+  direction: liberal
+  in_majority: false

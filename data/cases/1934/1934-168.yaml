@@ -1,0 +1,83 @@
+id: 1934-168
+name: PANHANDLE EASTERN PIPE LINE CO. v. STATE HIGHWAY COMMISSION
+term: 1934
+chief: Hughes
+natural_court: 1103
+docket: '412'
+citation:
+  us: 294 U.S. 613
+  sct: 55 S. Ct. 563
+  led: 79 L. Ed. 1090
+  lexis: 1935 U.S. LEXIS 61
+dates:
+  argued: '1935-02-07'
+  reargued: '1935-03-13'
+  decided: '1935-04-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 241
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 20}
+  source: {code: 300, state: 20}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 209}
+  respondent: {code: 4}
+  respondent_state: {code: 20}
+admin_action: {agency: 117, state: 20}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true

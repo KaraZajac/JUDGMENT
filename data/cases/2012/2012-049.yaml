@@ -1,0 +1,89 @@
+id: 2012-049
+name: CARLOS TREVINO, PETITIONER v. RICK THALER, DIRECTOR, TEXAS DEPARTMENT OF CRIMINAL JUSTICE, CORRECTIONAL INSTITUTIONS
+  DIVISION
+term: 2012
+chief: Roberts
+natural_court: 1704
+docket: 11-10189
+citation:
+  us: 569 U.S. 413
+  sct: 133 S. Ct. 1911
+  led: 185 L. Ed. 2d 1044
+  lexis: 2013 U.S. LEXIS 3980
+dates:
+  argued: '2013-02-25'
+  decided: '2013-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20330, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 341
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 122}
+  source: {code: 25}
+  disposition: unusual-disposition
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 51}
+  respondent: {code: 126}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: AMKennedy
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

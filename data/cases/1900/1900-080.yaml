@@ -1,0 +1,83 @@
+id: 1900-080
+name: GLAVEY v. UNITED STATES
+term: 1900
+chief: Fuller
+natural_court: 808
+docket: '235'
+citation:
+  us: 182 U.S. 595
+  sct: 21 S. Ct. 891
+  led: 45 L. Ed. 1247
+  lexis: 1901 U.S. LEXIS 1247
+dates:
+  argued: '1901-04-11'
+  decided: '1901-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 60010, area: attorneys}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 8/7/82
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 22}
+  respondent: {code: 27}
+admin_action: {agency: 108}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JMcKenna
+  vote: dissent
+  direction: conservative
+  in_majority: false

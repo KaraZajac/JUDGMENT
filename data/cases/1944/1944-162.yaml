@@ -1,0 +1,86 @@
+id: 1944-162
+name: SOUTHERN PACIFIC CO. v. ARIZONA EX REL. SULLIVAN, ATTORNEY GENERAL
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '56'
+citation:
+  us: 325 U.S. 761
+  sct: 65 S. Ct. 1515
+  led: 89 L. Ed. 1915
+  lexis: 1945 U.S. LEXIS 2816
+dates:
+  argued: '1945-03-26'
+  decided: '1945-06-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 4}
+  source: {code: 300, state: 4}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 28}
+  respondent_state: {code: 4}
+admin_action: {agency: 66}
+opinions:
+  majority_author: HFStone
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true

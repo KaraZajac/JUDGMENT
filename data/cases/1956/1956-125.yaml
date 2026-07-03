@@ -1,0 +1,81 @@
+id: 1956-125
+name: VANDERBILT v. VANDERBILT et al.
+term: 1956
+chief: Warren
+natural_court: 1405
+docket: '302'
+citation:
+  us: 354 U.S. 416
+  sct: 77 S. Ct. 1360
+  led: 1 L. Ed. 2d 1456
+  lexis: 1957 U.S. LEXIS 584
+dates:
+  argued: '1957-04-22'
+  decided: '1957-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 40060, area: due-process}
+law:
+  type: constitution
+  supp: 143
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 168}
+  respondent: {code: 253}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  participated: false
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CEWhittaker
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

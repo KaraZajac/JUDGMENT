@@ -1,0 +1,78 @@
+id: 1894-087
+name: MATTOX v. UNITED STATES
+term: 1894
+chief: Fuller
+natural_court: 806
+docket: '667'
+citation:
+  us: 156 U.S. 237
+  sct: 15 S. Ct. 337
+  led: 39 L. Ed. 409
+  lexis: 1895 U.S. LEXIS 2131
+dates:
+  decided: '1895-02-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 10270, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 213
+authority:
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 72}
+  source: {code: 72}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HEJackson
+  participated: false
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true

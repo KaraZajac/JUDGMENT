@@ -1,0 +1,76 @@
+id: 1915-210
+name: ROSENBERGER v. PACIFIC EXPRESS COMPANY
+term: 1915
+chief: White
+natural_court: 903
+docket: '249'
+citation:
+  us: 241 U.S. 48
+  sct: 36 S. Ct. 510
+  led: 60 L. Ed. 880
+  lexis: 1916 U.S. LEXIS 1799
+dates:
+  argued: '1916-03-08'
+  decided: '1916-04-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 245}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true

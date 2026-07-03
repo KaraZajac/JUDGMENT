@@ -1,0 +1,83 @@
+id: 1952-042
+name: BROCK v. NORTH CAROLINA
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '34'
+citation:
+  us: 344 U.S. 424
+  sct: 73 S. Ct. 349
+  led: 97 L. Ed. 2d 456
+  lexis: 1953 U.S. LEXIS 2426
+dates:
+  argued: '1952-10-23'
+  decided: '1953-02-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10170, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 206
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 38}
+  source: {code: 300, state: 38}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 28}
+  respondent_state: {code: 38}
+opinions:
+  majority_author: SMinton
+  majority_assigner: SFReed
+votes:
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  participated: false
+- justice: FMVinson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

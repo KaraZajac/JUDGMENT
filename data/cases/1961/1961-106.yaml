@@ -1,0 +1,81 @@
+id: 1961-106
+name: STATE BOARD OF INSURANCE et al. v. TODD SHIPYARDS CORP.
+term: 1961
+chief: Warren
+natural_court: 1407
+docket: '144'
+citation:
+  us: 370 U.S. 451
+  sct: 82 S. Ct. 1380
+  led: 8 L. Ed. 2d 620
+  lexis: 1962 U.S. LEXIS 2151
+dates:
+  argued: '1962-03-21'
+  decided: '1962-06-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 15 U.S.C. § 1012
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 301, state: 51}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 51}
+  respondent: {code: 25}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  participated: false
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  participated: false

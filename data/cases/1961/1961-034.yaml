@@ -1,0 +1,93 @@
+id: 1961-034
+name: MACHIBRODA v. UNITED STATES
+term: 1961
+chief: Warren
+natural_court: 1406
+docket: '69'
+citation:
+  us: 368 U.S. 487
+  sct: 82 S. Ct. 510
+  led: 7 L. Ed. 2d 473
+  lexis: 1962 U.S. LEXIS 1771
+dates:
+  argued: '1961-12-05'
+  decided: '1962-02-19'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10030, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 341
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 103}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: PStewart
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: CEWhittaker
+  vote: majority
+  direction: liberal
+  in_majority: true

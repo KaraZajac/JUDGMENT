@@ -1,0 +1,81 @@
+id: 1974-071
+name: AUSTIN et al. v. NEW HAMPSHIRE et al.
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-2060
+citation:
+  us: 420 U.S. 656
+  sct: 95 S. Ct. 1191
+  led: 43 L. Ed. 2d 530
+  lexis: 1975 U.S. LEXIS 106
+dates:
+  argued: '1975-01-15'
+  decided: '1975-03-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 144
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 34}
+  source: {code: 300, state: 34}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 193}
+  respondent: {code: 28}
+  respondent_state: {code: 34}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  participated: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

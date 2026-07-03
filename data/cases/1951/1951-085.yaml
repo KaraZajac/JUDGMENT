@@ -1,0 +1,83 @@
+id: 1951-085
+name: STEMBRIDGE v. GEORGIA
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '474'
+citation:
+  us: 343 U.S. 541
+  sct: 72 S. Ct. 834
+  led: 96 L. Ed. 2d 1130
+  lexis: 1952 U.S. LEXIS 2062
+dates:
+  argued: '1952-04-22'
+  decided: '1952-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90150, area: judicial-power}
+law:
+  type: other
+  supp: 508
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 301, state: 13}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 13}
+opinions:
+  majority_author: SMinton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

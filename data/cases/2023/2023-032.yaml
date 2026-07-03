@@ -1,0 +1,87 @@
+id: 2023-032
+name: CORNER POST v. BOARD OF GOVERNORS OF THE FEDERAL RESERVE SYSTEM
+term: 2023
+chief: Roberts
+natural_court: 1710
+docket: 22-1008
+citation:
+  sct: 144 S. Ct. 2440
+  led: 219 L. Ed. 2d 1139
+  lexis: 2024 U.S. LEXIS 2885
+dates:
+  argued: '2024-02-20'
+  decided: '2024-07-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80350, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 305
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 101}
+  source: {code: 28}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 354}
+admin_action: {agency: 54}
+opinions:
+  majority_author: ACBarrett
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: KBJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

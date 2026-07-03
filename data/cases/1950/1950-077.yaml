@@ -1,0 +1,82 @@
+id: 1950-077
+name: NATIONAL LABOR RELATIONS BOARD v. HIGHLAND PARK MANUFACTURING CO.
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '425'
+citation:
+  us: 341 U.S. 322
+  sct: 71 S. Ct. 758
+  led: 95 L. Ed. 2d 969
+  lexis: 1951 U.S. LEXIS 2416
+dates:
+  argued: '1951-04-23'
+  decided: '1951-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 30070, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 350
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 24}
+  source: {code: 24}
+  disposition: vacated
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 151}
+admin_action: {agency: 82}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  participated: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

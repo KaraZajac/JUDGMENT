@@ -1,0 +1,88 @@
+id: 1989-071
+name: STEWART et al. v. ABEND, DBA AUTHORS RESEARCH CO.
+term: 1989
+chief: Rehnquist
+natural_court: 1603
+docket: 88-2102
+citation:
+  us: 495 U.S. 207
+  sct: 110 S. Ct. 1750
+  led: 109 L. Ed. 2d 184
+  lexis: 1990 U.S. LEXIS 2184
+dates:
+  argued: '1990-01-09'
+  decided: '1990-04-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80190, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 17 U.S.C. § 1
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 156}
+  respondent: {code: 102}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true

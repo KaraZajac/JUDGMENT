@@ -1,0 +1,83 @@
+id: 1916-160
+name: THE FIVE PER CENT. DISCOUNT CASE
+term: 1916
+chief: White
+natural_court: 905
+docket: '149'
+citation:
+  us: 243 U.S. 97
+  sct: 37 S. Ct. 346
+  led: 61 L. Ed. 617
+  lexis: 1917 U.S. LEXIS 2098
+dates:
+  argued: '1916-02-25'
+  reargued: '1917-02-02'
+  decided: '1917-03-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 1}
+  source: {code: 1}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 159}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

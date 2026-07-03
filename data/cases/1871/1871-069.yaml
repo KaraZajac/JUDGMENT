@@ -1,0 +1,75 @@
+id: 1871-069
+name: ARMSTRONG v. MORRILL
+term: 1871
+chief: Chase
+natural_court: 602
+citation:
+  us: 81 U.S. 120
+  led: 20 L. Ed. 765
+  lexis: 1871 U.S. LEXIS 983
+dates:
+  argued: '1871-12-05'
+  decided: '1872-01-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 140010, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 152}
+  source: {code: 152}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: NClifford
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  in_majority: true
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  in_majority: true
+- justice: DDavis
+  vote: dissent
+  in_majority: false
+  joined:
+  - WStrong
+- justice: SJField
+  vote: majority
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+  joined:
+  - DDavis
+- justice: JPBradley
+  vote: dissent
+  in_majority: false
+  joined:
+  - WStrong

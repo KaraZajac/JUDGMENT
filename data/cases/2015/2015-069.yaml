@@ -1,0 +1,83 @@
+id: 2015-069
+name: ENCINO MOTORCARS, LLC v. NAVARRO
+term: 2015
+chief: Roberts
+natural_court: 1705
+docket: 15-415
+citation:
+  us: 579 U.S. 211
+  sct: 136 S. Ct. 2117
+  led: 195 L. Ed. 2d 282
+  lexis: 2016 U.S. LEXIS 3924
+dates:
+  argued: '2016-04-20'
+  decided: '2016-06-20'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 70040, area: unions}
+law:
+  type: federal-statute
+  supp: 334
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 125}
+  respondent: {code: 145}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SSotomayor
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RBGinsburg
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true

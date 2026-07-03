@@ -1,0 +1,84 @@
+id: 1984-053
+name: BENNETT, SECRETARY OF EDUCATION v. NEW JERSEY
+term: 1984
+chief: Burger
+natural_court: 1507
+docket: 83-2064
+citation:
+  us: 470 U.S. 632
+  sct: 105 S. Ct. 1555
+  led: 84 L. Ed. 2d 572
+  lexis: 1985 U.S. LEXIS 72
+dates:
+  argued: '1985-01-08'
+  decided: '1985-03-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 100130, area: federalism}
+law:
+  type: federal-statute
+  supp: 324
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 23}
+  source: {code: 23}
+  disposition: remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 330}
+  respondent: {code: 28}
+  respondent_state: {code: 35}
+admin_action: {agency: 30}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

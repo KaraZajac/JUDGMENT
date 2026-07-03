@@ -1,0 +1,88 @@
+id: 1947-062
+name: PARKER v. ILLINOIS
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '270'
+citation:
+  us: 333 U.S. 571
+  sct: 68 S. Ct. 708
+  led: 92 L. Ed. 2d 886
+  lexis: 1948 U.S. LEXIS 2335
+dates:
+  argued: '1948-02-13'
+  decided: '1948-04-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 40010, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- supervisory
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 254}
+  respondent: {code: 28}
+  respondent_state: {code: 17}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

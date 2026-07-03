@@ -1,0 +1,80 @@
+id: 1922-217
+name: KENTUCKY FINANCE CORPORATION v. PARAMOUNT AUTO EXCHANGE CORPORATION
+term: 1922
+chief: Taft
+natural_court: 1004
+docket: '17'
+citation:
+  us: 262 U.S. 544
+  sct: 43 S. Ct. 636
+  led: 67 L. Ed. 1112
+  lexis: 1923 U.S. LEXIS 2669
+dates:
+  argued: '1922-10-05'
+  decided: '1923-06-11'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 50040, area: privacy}
+law:
+  type: federal-statute
+  supp: 335
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 58}
+  source: {code: 300, state: 58}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 127}
+  respondent: {code: 125}
+opinions:
+  majority_author: WVanDevanter
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: WVanDevanter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  participated: false
+- justice: ETSanford
+  participated: false

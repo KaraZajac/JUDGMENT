@@ -1,0 +1,90 @@
+id: 1919-061
+name: OHIO VALLEY WATER COMPANY v. BEN AVON BOROUGH et al.
+term: 1919
+chief: White
+natural_court: 905
+docket: '128'
+citation:
+  us: 253 U.S. 287
+  sct: 40 S. Ct. 527
+  led: 64 L. Ed. 908
+  lexis: 1920 U.S. LEXIS 1423
+dates:
+  argued: '1919-10-15'
+  reargued: '1920-03-05'
+  decided: '1920-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80130, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 219}
+  respondent: {code: 4}
+  respondent_state: {code: 45}
+admin_action: {agency: 117, state: 45}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LDBrandeis

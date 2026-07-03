@@ -1,0 +1,85 @@
+id: 1921-081
+name: UNITED STATES v. BEHRMAN
+term: 1921
+chief: Taft
+natural_court: 1001
+docket: '582'
+citation:
+  us: 258 U.S. 280
+  sct: 42 S. Ct. 303
+  led: 66 L. Ed. 619
+  lexis: 1922 U.S. LEXIS 2270
+dates:
+  argued: '1922-03-07'
+  decided: '1922-03-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10510, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 362
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 206}
+opinions:
+  majority_author: WRDay
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: JHClarke
+  vote: majority
+  direction: conservative
+  in_majority: true

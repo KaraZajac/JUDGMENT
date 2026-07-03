@@ -1,0 +1,81 @@
+id: 1903-100
+name: MCCRAY v. UNITED STATES
+term: 1903
+chief: Fuller
+natural_court: 810
+docket: '301'
+citation:
+  us: 195 U.S. 27
+  sct: 24 S. Ct. 769
+  led: 49 L. Ed. 78
+  lexis: 1904 U.S. LEXIS 818
+dates:
+  argued: '1903-12-02'
+  decided: '1904-05-31'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80170, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 223
+authority:
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 104}
+  source: {code: 104}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 27}
+admin_action: {agency: 69}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true

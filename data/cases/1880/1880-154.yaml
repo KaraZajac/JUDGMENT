@@ -1,0 +1,71 @@
+id: 1880-154
+name: MILES v. UNITED STATES
+term: 1880
+chief: Waite
+natural_court: 703
+citation:
+  us: 103 U.S. 304
+  led: 26 L. Ed. 481
+  lexis: 1880 U.S. LEXIS 2120
+dates:
+  argued: '1881-01-25'
+  decided: '1881-04-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 10570, area: criminal-procedure}
+law:
+  type: other
+  supp: 512
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 17, state: 52}
+  source: {code: 15, state: 52}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: WBWoods
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  participated: false
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,86 @@
+id: 1943-109
+name: SNOWDEN v. HUGHES et al.
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '57'
+citation:
+  us: 321 U.S. 1
+  sct: 64 S. Ct. 397
+  led: 88 L. Ed. 497
+  lexis: 1944 U.S. LEXIS 1383
+dates:
+  argued: '1943-12-13'
+  decided: '1944-01-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20400, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 227
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 4}
+  respondent_state: {code: 17}
+opinions:
+  majority_author: HFStone
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,80 @@
+id: 1871-113
+name: TARBLE'S CASE
+term: 1871
+chief: Chase
+natural_court: 602
+citation:
+  us: 80 U.S. 397
+  led: 20 L. Ed. 597
+  lexis: 1871 U.S. LEXIS 1353
+dates:
+  argued: '1871-11-14'
+  decided: '1872-03-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 100120, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 58}
+  source: {code: 300, state: 58}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 153}
+admin_action: {agency: 6}
+opinions:
+  majority_author: SJField
+  majority_assigner: NClifford
+votes:
+- justice: SPChase
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true

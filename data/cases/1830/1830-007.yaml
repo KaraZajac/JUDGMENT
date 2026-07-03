@@ -1,0 +1,72 @@
+id: 1830-007
+name: JOHN INGLIS, DEMANDANT VS. THE TRUSTEES OF THE SAILOR'S SNUG HARBOUR IN THE CITY OF NEW YORK
+term: 1830
+chief: Marshall
+natural_court: 409
+citation:
+  us: 28 U.S. 99
+  led: 7 L. Ed. 617
+  lexis: 1830 U.S. LEXIS 533
+dates:
+  argued: '1829-03-06'
+  reargued: '1829-03-13'
+  decided: '1830-02-02'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 20270, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  disagreement: true
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 166}
+opinions:
+  majority_author: SThompson
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SThompson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  direction: conservative
+  in_majority: true

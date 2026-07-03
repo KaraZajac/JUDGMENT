@@ -1,0 +1,70 @@
+id: 1800-009
+name: BAS, PLAINTIFF IN ERROR, VERSUS TINGY, DEFENDANT IN ERROR
+term: 1800
+chief: Ellsworth
+natural_court: 303
+citation:
+  us: 4 U.S. 37
+  led: 1 L. Ed. 731
+  lexis: 1800 U.S. LEXIS 307
+dates:
+  argued: '1800-08-14'
+  decided: '1800-08-15'
+decision:
+  type: seriatim
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80230, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Act of Congress of March 2, 1799
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 176}
+  source: {code: 430}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 135}
+opinions:
+  majority_assigner: OEllsworth
+votes:
+- justice: OEllsworth
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WPaterson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SChase
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMoore
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

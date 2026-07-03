@@ -1,0 +1,80 @@
+id: 1853-027
+name: ROSS WINANS, PLAINTIFF IN ERROR, v. ADAM, EDWARD, AND TALBOT DENMEAD
+term: 1853
+chief: Taney
+natural_court: 510
+citation:
+  us: 56 U.S. 330
+  led: 14 L. Ed. 717
+  lexis: 1853 U.S. LEXIS 288
+dates:
+  argued: '1854-01-16'
+  decided: '1854-02-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80180, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Patent Act of 1793
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 417}
+  source: {code: 417}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 184}
+opinions:
+  majority_author: BRCurtis
+  majority_assigner: JMcLean
+votes:
+- justice: RBTaney
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: PVDaniel
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRCurtis
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JACampbell
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

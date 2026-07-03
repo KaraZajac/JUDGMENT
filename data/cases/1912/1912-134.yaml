@@ -1,0 +1,82 @@
+id: 1912-134
+name: KANSAS CITY SOUTHERN RAILWAY COMPANY v. CARL
+term: 1912
+chief: White
+natural_court: 902
+docket: '16'
+citation:
+  us: 227 U.S. 639
+  sct: 33 S. Ct. 391
+  led: 57 L. Ed. 683
+  lexis: 1913 U.S. LEXIS 2340
+dates:
+  argued: '1912-03-05'
+  reargued: '1912-10-22'
+  decided: '1913-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80070, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 5}
+  source: {code: 300, state: 5}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 234}
+opinions:
+  majority_author: HHLurton
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,62 @@
+id: 1804-005
+name: PENNINGTON v. COXE
+term: 1804
+chief: Marshall
+natural_court: 401
+citation:
+  us: 6 U.S. 33
+  led: 2 L. Ed. 199
+  lexis: 1804 U.S. LEXIS 251
+dates:
+  argued: '1804-02-11'
+  decided: '1804-02-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 0
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress April 6, 1802, vol. 6, p. 53
+authority:
+- statutory-construction
+- diversity-jurisdiction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 430}
+  source: {code: 430}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 501}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WPaterson
+  participated: false
+- justice: SChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true

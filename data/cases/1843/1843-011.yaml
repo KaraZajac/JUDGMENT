@@ -1,0 +1,71 @@
+id: 1843-011
+name: WILLIAM NELSON, A PETITIONER IN BANKRUPTCY, v. DANIEL CARLAND, AN OPPOSING CREDITOR
+term: 1843
+chief: Taney
+natural_court: 505
+citation:
+  us: 42 U.S. 265
+  led: 11 L. Ed. 126
+  lexis: 1843 U.S. LEXIS 306
+dates:
+  decided: '1843-02-07'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 80030, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Bankruptcy Act of April 29, 1802
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 182}
+  source: {code: 414}
+  disagreement: true
+parties:
+  petitioner: {code: 114}
+  respondent: {code: 135}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  participated: false
+- justice: SThompson
+  participated: false
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: JMcKinley
+  participated: false
+- justice: PVDaniel
+  vote: majority
+  direction: conservative
+  in_majority: true

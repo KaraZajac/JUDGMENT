@@ -1,0 +1,88 @@
+id: 2003-057
+name: TENNESSEE STUDENT ASSISTANCE CORPORATION v. PAMELA L. HOOD
+term: 2003
+chief: Rehnquist
+natural_court: 1607
+docket: 02-1606
+citation:
+  us: 541 U.S. 440
+  sct: 124 S. Ct. 1905
+  led: 158 L. Ed. 2d 764
+  lexis: 2004 U.S. LEXIS 3387
+dates:
+  argued: '2004-03-01'
+  decided: '2004-05-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100120, area: federalism}
+law:
+  type: constitutional-amendment
+  supp: 224
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 118}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 50}
+  respondent: {code: 239}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

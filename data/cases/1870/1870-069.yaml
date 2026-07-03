@@ -1,0 +1,72 @@
+id: 1870-069
+name: VIRGINIA v. WEST VIRGINIA
+term: 1870
+chief: Chase
+natural_court: 602
+citation:
+  us: 78 U.S. 39
+  led: 20 L. Ed. 67
+  lexis: 1870 U.S. LEXIS 1457
+dates:
+  argued: '1871-02-13'
+  decided: '1871-03-06'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 110010, area: interstate-relations}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, December 31, 1862
+authority:
+- statutory-construction
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 55}
+  respondent: {code: 28}
+  respondent_state: {code: 57}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: NHSwayne
+votes:
+- justice: SPChase
+  participated: false
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: dissent
+  in_majority: false
+  joined:
+  - DDavis
+- justice: NHSwayne
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: DDavis
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: SJField
+  vote: dissent
+  in_majority: false
+  joined:
+  - DDavis
+- justice: WStrong
+  vote: majority
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  in_majority: true

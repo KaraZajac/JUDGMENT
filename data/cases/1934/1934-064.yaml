@@ -1,0 +1,92 @@
+id: 1934-064
+name: ATLANTIC COAST LINE RAILROAD CO. v. FLORIDA
+term: 1934
+chief: Hughes
+natural_court: 1103
+docket: '344'
+citation:
+  us: 295 U.S. 301
+  sct: 55 S. Ct. 713
+  led: 79 L. Ed. 1451
+  lexis: 1935 U.S. LEXIS 1115
+dates:
+  argued: '1935-01-17'
+  reargued: '1935-03-04'
+  decided: '1935-04-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80220, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 60}
+  source: {code: 60}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 28}
+  respondent_state: {code: 12}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: BNCardozo
+  majority_assigner: WVanDevanter
+votes:
+- justice: CEHughes2
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BNCardozo
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

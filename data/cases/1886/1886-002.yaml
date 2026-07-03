@@ -1,0 +1,86 @@
+id: 1886-002
+name: WABASH, ST. LOUIS AND PACIFIC RAILWAY COMPANY v. ILLINOIS
+term: 1886
+chief: Waite
+natural_court: 706
+docket: '11'
+citation:
+  us: 118 U.S. 557
+  sct: 7 S. Ct. 4
+  led: 30 L. Ed. 244
+  lexis: 1886 U.S. LEXIS 1950
+dates:
+  argued: '1886-04-14'
+  decided: '1886-10-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 28}
+  respondent_state: {code: 17}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: SFMiller
+votes:
+- justice: MRWaite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  participated: false
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

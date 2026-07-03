@@ -1,0 +1,74 @@
+id: 1916-049
+name: THE KRONPRINZESSIN CECILIE
+term: 1916
+chief: White
+natural_court: 905
+docket: '922'
+citation:
+  us: 244 U.S. 12
+  sct: 37 S. Ct. 490
+  led: 61 L. Ed. 960
+  lexis: 1917 U.S. LEXIS 1601
+dates:
+  argued: '1917-04-16'
+  decided: '1917-05-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 140030, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 80}
+  source: {code: 21}
+  disposition: reversed-and-remanded
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 113}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  opinion: co-wrote
+  in_majority: false
+- justice: JCMcReynolds
+  vote: majority
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  opinion: co-wrote
+  in_majority: false

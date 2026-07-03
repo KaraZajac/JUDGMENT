@@ -1,0 +1,85 @@
+id: 2024-030
+name: FOOD AND DRUG ADMINISTRATION v. R.J. REYNOLDS VAPOR CO.
+term: 2024
+chief: Roberts
+natural_court: 1710
+docket: 23-1187
+citation:
+  sct: 145 S. Ct. 1984
+  led: 222 L. Ed. 2d 472
+  lexis: 2025 U.S. LEXIS 2386
+dates:
+  argued: '2025-01-21'
+  decided: '2025-06-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90330, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Family Smoking Prevention and Tobacco Control Act (TCA)
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 25}
+  source: {code: 25}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 340}
+  respondent: {code: 184}
+admin_action: {agency: 40}
+opinions:
+  majority_author: ACBarrett
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: KBJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

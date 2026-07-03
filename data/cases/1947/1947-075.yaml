@@ -1,0 +1,92 @@
+id: 1947-075
+name: REPUBLIC NATURAL GAS CO. v. OKLAHOMA ET AL.
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '134'
+citation:
+  us: 334 U.S. 62
+  sct: 68 S. Ct. 972
+  led: 92 L. Ed. 2d 1212
+  lexis: 1948 U.S. LEXIS 2723
+dates:
+  argued: '1948-01-06'
+  decided: '1948-05-03'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90380, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 237
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 42}
+  source: {code: 300, state: 42}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 209}
+  respondent: {code: 28}
+  respondent_state: {code: 42}
+admin_action: {agency: 117, state: 42}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

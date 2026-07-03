@@ -1,0 +1,90 @@
+id: 2012-025
+name: SUPAP KIRTSAENG, DBA BLUECHRISTINE99, PETITIONER v. JOHN WILEY & SONS, INC.
+term: 2012
+chief: Roberts
+natural_court: 1704
+docket: 11-697
+citation:
+  us: 568 U.S. 519
+  sct: 133 S. Ct. 1351
+  led: 185 L. Ed. 2d 392
+  lexis: 2013 U.S. LEXIS 2371
+dates:
+  argued: '2012-10-29'
+  decided: '2013-03-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80190, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 17-106
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 117}
+  respondent: {code: 220}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - EKagan
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

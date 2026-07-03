@@ -1,0 +1,85 @@
+id: 2022-021
+name: U.S., EX REL. POLANSKY v. EXECUTIVE HEALTH RESOURCES
+term: 2022
+chief: Roberts
+natural_court: 1710
+docket: 21-1052
+citation:
+  us: 599 U.S. 419
+  sct: 143 S. Ct. 1720
+  led: 216 L. Ed. 2d 370
+  lexis: 2023 U.S. LEXIS 2547
+dates:
+  argued: '2022-12-06'
+  decided: '2023-06-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80170, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 325
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 109}
+  source: {code: 23}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 165}
+opinions:
+  majority_author: EKagan
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: KBJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,89 @@
+id: 1935-088
+name: MAYFLOWER FARMS, INC. v. TEN EYCK, COMMISSIONER OF THE DEPARTMENT OF AGRICULTURE & MARKETS OF NEW YORK, et
+  al.
+term: 1935
+chief: Hughes
+natural_court: 1103
+docket: '349'
+citation:
+  us: 297 U.S. 266
+  sct: 56 S. Ct. 457
+  led: 80 L. Ed. 675
+  lexis: 1936 U.S. LEXIS 526
+dates:
+  argued: '1936-01-15'
+  decided: '1936-02-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30020, area: first-amendment}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 19}
+  respondent_state: {code: 37}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BNCardozo
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BNCardozo
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

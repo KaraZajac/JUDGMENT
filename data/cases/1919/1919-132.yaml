@@ -1,0 +1,83 @@
+id: 1919-132
+name: WORTH BROTHERS COMPANY v. LEDERER, COLLECTOR OF INTERNAL REVENUE FOR THE FIRST DISTRICT OF PENNSYLVANIA
+term: 1919
+chief: White
+natural_court: 905
+docket: '525'
+citation:
+  us: 251 U.S. 507
+  sct: 40 S. Ct. 282
+  led: 64 L. Ed. 377
+  lexis: 1920 U.S. LEXIS 1633
+dates:
+  argued: '1920-01-08'
+  decided: '1920-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 111}
+  source: {code: 23}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 27}
+admin_action: {agency: 69}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

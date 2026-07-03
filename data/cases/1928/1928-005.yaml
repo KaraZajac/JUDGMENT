@@ -1,0 +1,89 @@
+id: 1928-005
+name: BOSTON SAND AND GRAVEL COMPANY v. UNITED STATES
+term: 1928
+chief: Taft
+natural_court: 1005
+docket: '15'
+citation:
+  us: 278 U.S. 41
+  sct: 49 S. Ct. 52
+  led: 73 L. Ed. 170
+  lexis: 1928 U.S. LEXIS 271
+dates:
+  argued: '1928-02-28'
+  reargued: '1928-10-18'
+  decided: '1928-11-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80060, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 80}
+  source: {code: 21}
+  disposition: modified
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 27}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PButler
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - GSutherland
+- justice: ETSanford
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - GSutherland
+- justice: HFStone
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - GSutherland

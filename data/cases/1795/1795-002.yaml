@@ -1,0 +1,69 @@
+id: 1795-002
+name: PENHALLOW, et al. VERSUS DOANE'S ADMINISTRATORS
+term: 1795
+chief: Jay
+natural_court: 104
+citation:
+  us: 3 U.S. 54
+  led: 1 L. Ed. 507
+  lexis: 1795 U.S. LEXIS 329
+dates:
+  argued: '1795-02-06'
+  decided: '1795-02-24'
+decision:
+  type: seriatim
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 3
+  minority_votes: 3
+issue: {code: 90330, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 1 Journ. Congress 259
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  source: {code: 424}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 102}
+opinions:
+  majority_assigner: JJay
+votes:
+- justice: JJay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JWilson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JBlair
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JIredell
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WPaterson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

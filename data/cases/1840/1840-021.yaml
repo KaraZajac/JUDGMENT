@@ -1,0 +1,81 @@
+id: 1840-021
+name: LESSEE OF WILLIAM POLLARD'S HEIRS, &C., PLAINTIFFS IN ERROR, VS. GAIUS KIBBE, DEFENDANT IN ERROR
+term: 1840
+chief: Taney
+natural_court: 504
+citation:
+  us: 39 U.S. 353
+  led: 10 L. Ed. 490
+  lexis: 1840 U.S. LEXIS 378
+dates:
+  argued: '1840-02-05'
+  decided: '1840-02-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: private act of congress, 1824
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: SThompson
+  majority_assigner: JStory
+votes:
+- justice: RBTaney
+  participated: false
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HBaldwin
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PPBarbour
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JCatron
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMcKinley
+  participated: false

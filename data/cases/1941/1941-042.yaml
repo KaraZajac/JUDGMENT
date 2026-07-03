@@ -1,0 +1,82 @@
+id: 1941-042
+name: UNITED STATES v. PINK, SUPERINTENDENT OF INSURANCE OF THE STATE OF NEW YORK, et al.
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '42'
+citation:
+  us: 315 U.S. 203
+  sct: 62 S. Ct. 552
+  led: 86 L. Ed. 796
+  lexis: 1942 U.S. LEXIS 1060
+dates:
+  argued: '1941-12-15'
+  decided: '1942-02-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 120030, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: yax law
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 302, state: 37}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 28}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  participated: false
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JFByrnes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false

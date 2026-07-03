@@ -1,0 +1,72 @@
+id: 1902-049
+name: BLACKSTONE v. MILLER
+term: 1902
+chief: Fuller
+natural_court: 809
+docket: '423'
+citation:
+  us: 188 U.S. 189
+  sct: 23 S. Ct. 277
+  led: 47 L. Ed. 439
+  lexis: 1903 U.S. LEXIS 1275
+dates:
+  argued: '1903-01-05'
+  decided: '1903-01-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 140070, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 302, state: 37}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 19}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  in_majority: true

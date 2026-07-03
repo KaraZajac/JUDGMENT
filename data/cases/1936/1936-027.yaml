@@ -1,0 +1,82 @@
+id: 1936-027
+name: STATE BOARD OF EQUALIZATION OF CALIFORNIA et al. v. YOUNG'S MARKET CO. et al.
+term: 1936
+chief: Hughes
+natural_court: 1103
+docket: '22'
+citation:
+  us: 299 U.S. 59
+  sct: 57 S. Ct. 77
+  led: 81 L. Ed. 38
+  lexis: 1936 U.S. LEXIS 8
+dates:
+  argued: '1936-10-19'
+  decided: '1936-11-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 51}
+  source: {code: 51}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 6}
+  respondent: {code: 105}
+admin_action: {agency: 117, state: 6}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: LDBrandeis
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  participated: false
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  direction: liberal
+  in_majority: true

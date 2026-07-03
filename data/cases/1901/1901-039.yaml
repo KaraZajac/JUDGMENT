@@ -1,0 +1,89 @@
+id: 1901-039
+name: CARNEGIE STEEL COMPANY v. CAMBRIA IRON COMPANY
+term: 1901
+chief: Fuller
+natural_court: 808
+docket: '17'
+citation:
+  us: 185 U.S. 403
+  sct: 22 S. Ct. 698
+  led: 46 L. Ed. 968
+  lexis: 1902 U.S. LEXIS 2202
+dates:
+  argued: '1901-10-17'
+  decided: '1902-05-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80180, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 430}
+  source: {code: 23}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 137}
+admin_action: {agency: 94}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: HGray
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true

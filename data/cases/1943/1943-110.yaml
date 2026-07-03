@@ -1,0 +1,81 @@
+id: 1943-110
+name: UNITED STATES v. WHITE
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '366'
+citation:
+  us: 322 U.S. 694
+  sct: 64 S. Ct. 1248
+  led: 88 L. Ed. 1542
+  lexis: 1944 U.S. LEXIS 1392
+dates:
+  argued: '1944-03-06'
+  decided: '1944-06-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 70210, area: unions}
+law:
+  type: constitutional-amendment
+  supp: 210
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 110}
+  source: {code: 23}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 249}
+opinions:
+  majority_author: FMurphy
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true

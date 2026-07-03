@@ -1,0 +1,82 @@
+id: 1915-060
+name: TRUAX AND THE ATTORNEY GENERAL OF THE STATE OF ARIZONA v. RAICH
+term: 1915
+chief: White
+natural_court: 903
+docket: '361'
+citation:
+  us: 239 U.S. 33
+  sct: 36 S. Ct. 7
+  led: 60 L. Ed. 131
+  lexis: 1915 U.S. LEXIS 1521
+dates:
+  argued: '1915-10-15'
+  decided: '1915-11-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 20120, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 45}
+  source: {code: 45}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 106}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: CEHughes1
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  participated: false
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

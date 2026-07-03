@@ -1,0 +1,85 @@
+id: 1986-043
+name: FEDERAL COMMUNICATIONS COMMISSION et al. v. FLORIDA POWER CORP. et al.
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-1658
+citation:
+  us: 480 U.S. 245
+  sct: 107 S. Ct. 1107
+  led: 94 L. Ed. 2d 282
+  lexis: 1987 U.S. LEXIS 937
+dates:
+  argued: '1986-12-03'
+  decided: '1987-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 211
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 31}
+  source: {code: 31}
+  disposition: vacated
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 338}
+  respondent: {code: 219}
+admin_action: {agency: 38}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - LFPowell
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true

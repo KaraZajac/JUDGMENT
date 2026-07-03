@@ -1,0 +1,99 @@
+id: 1987-094
+name: K MART CORP. v. CARTIER, INC., et al.
+term: 1987
+chief: Rehnquist
+natural_court: 1603
+docket: 86-495
+citation:
+  us: 486 U.S. 281
+  sct: 108 S. Ct. 1811
+  led: 100 L. Ed. 2d 313
+  lexis: 1988 U.S. LEXIS 2473
+dates:
+  argued: '1987-10-06'
+  reargued: '1988-04-26'
+  decided: '1988-05-31'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80200, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 19 U.S.C. § 1526
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed-and-reversed-in-part
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 238}
+  respondent: {code: 172}
+admin_action: {agency: 108}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: WJBrennan
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: TMarshall
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: JPStevens
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,78 @@
+id: 1961-075
+name: LYNCH v. OVERHOLSER, HOSPITAL SUPERINTENDENT
+term: 1961
+chief: Warren
+natural_court: 1407
+docket: '159'
+citation:
+  us: 369 U.S. 705
+  sct: 82 S. Ct. 1063
+  led: 8 L. Ed. 2d 211
+  lexis: 1962 U.S. LEXIS 1228
+dates:
+  argued: '1962-01-15'
+  decided: '1962-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 10570, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 320
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 136}
+  respondent: {code: 167}
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  participated: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  participated: false

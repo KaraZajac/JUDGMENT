@@ -1,0 +1,86 @@
+id: 1969-135
+name: MORRIS et al. v. SCHOONFIELD, WARDEN, et al.
+term: 1969
+chief: Burger
+natural_court: 1502
+docket: '782'
+citation:
+  us: 399 U.S. 508
+  sct: 90 S. Ct. 2232
+  led: 26 L. Ed. 2d 773
+  lexis: 1970 U.S. LEXIS 10
+dates:
+  argued: '1970-04-22'
+  decided: '1970-06-29'
+decision:
+  type: per-curiam-argued
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 20340, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 79}
+  source: {code: 79}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 213}
+  respondent: {code: 28}
+  respondent_state: {code: 25}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: WJBrennan
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  participated: false

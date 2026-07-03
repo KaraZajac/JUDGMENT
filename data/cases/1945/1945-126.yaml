@@ -1,0 +1,77 @@
+id: 1945-126
+name: UNITED STATES v. JOHNSON
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '115'
+citation:
+  us: 327 U.S. 106
+  sct: 66 S. Ct. 464
+  led: 90 L. Ed. 562
+  lexis: 1946 U.S. LEXIS 3136
+dates:
+  argued: '1946-01-02'
+  decided: '1946-02-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90330, area: judicial-power}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 153}
+  source: {code: 27}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 126}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  participated: false
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true

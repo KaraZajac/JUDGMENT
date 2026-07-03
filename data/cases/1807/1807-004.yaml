@@ -1,0 +1,60 @@
+id: 1807-004
+name: MONTALET v. MURRA
+term: 1807
+chief: Marshall
+natural_court: 403
+citation:
+  us: 8 U.S. 46
+  led: 2 L. Ed. 545
+  lexis: 1807 U.S. LEXIS 364
+dates:
+  argued: '1807-02-12'
+  decided: '1807-02-12'
+decision:
+  type: per-curiam-argued
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 0
+issue: {code: 90170, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 409}
+  source: {code: 409}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 501}
+opinions:
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WCushing
+  participated: false
+- justice: SChase
+  participated: false
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true

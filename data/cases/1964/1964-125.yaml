@@ -1,0 +1,91 @@
+id: 1964-125
+name: UNITED MINE WORKERS OF AMERICA v. PENNINGTON et al.
+term: 1964
+chief: Warren
+natural_court: 1408
+docket: '48'
+citation:
+  us: 381 U.S. 657
+  sct: 85 S. Ct. 1585
+  led: 14 L. Ed. 2d 626
+  lexis: 1965 U.S. LEXIS 2207
+dates:
+  argued: '1965-01-27'
+  decided: '1965-06-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 70020, area: unions}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 116}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 146}
+  respondent: {code: 132}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: JHarlan2
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AJGoldberg
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AJGoldberg
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AJGoldberg
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

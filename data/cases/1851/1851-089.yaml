@@ -1,0 +1,75 @@
+id: 1851-089
+name: JOHN H. HOWARD, PLAINTIFF IN ERROR, v. STEPHEN M. INGERSOLL
+term: 1851
+chief: Taney
+natural_court: 509
+docket: '121'
+citation:
+  us: 54 U.S. 381
+  led: 14 L. Ed. 189
+  lexis: 1851 U.S. LEXIS 866
+dates:
+  argued: '1852-04-23'
+  reargued: '1852-04-26'
+  decided: '1852-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 110010, area: interstate-relations}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 137}
+  respondent: {code: 195}
+opinions:
+  majority_author: JMWayne
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  in_majority: true
+- justice: SNelson
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: RCGrier
+  vote: dissent
+  in_majority: false
+  joined:
+  - SNelson
+- justice: BRCurtis
+  vote: special-concurrence
+  in_majority: true

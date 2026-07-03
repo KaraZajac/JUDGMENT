@@ -1,0 +1,79 @@
+id: 1913-182
+name: MYERS v. PITTSBURGH COAL COMPANY
+term: 1913
+chief: White
+natural_court: 902
+docket: '816'
+citation:
+  us: 233 U.S. 184
+  sct: 34 S. Ct. 559
+  led: 58 L. Ed. 906
+  lexis: 1914 U.S. LEXIS 1280
+dates:
+  argued: '1914-02-27'
+  decided: '1914-04-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 10580, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 215
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 111}
+  source: {code: 23}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 132}
+opinions:
+  majority_author: WRDay
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  participated: false
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true

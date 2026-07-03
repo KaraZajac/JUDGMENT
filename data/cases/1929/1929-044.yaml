@@ -1,0 +1,84 @@
+id: 1929-044
+name: MISSOURI EX REL. MISSOURI INSURANCE COMPANY v. GEHNER, ASSESSOR OF THE CITY OF ST. LOUIS, et al.
+term: 1929
+chief: Hughes
+natural_court: 1101
+docket: '222'
+citation:
+  us: 281 U.S. 313
+  sct: 50 S. Ct. 326
+  led: 74 L. Ed. 870
+  lexis: 1930 U.S. LEXIS 383
+dates:
+  argued: '1930-02-26'
+  decided: '1930-04-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 30}
+  source: {code: 300, state: 30}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 19}
+  respondent_state: {code: 30}
+admin_action: {agency: 117, state: 30}
+opinions:
+  majority_author: PButler
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

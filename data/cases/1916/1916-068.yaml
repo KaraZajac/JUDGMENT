@@ -1,0 +1,87 @@
+id: 1916-068
+name: NEW YORK CENTRAL RAILROAD COMPANY v. WINFIELD
+term: 1916
+chief: White
+natural_court: 905
+docket: '321'
+citation:
+  us: 244 U.S. 147
+  sct: 37 S. Ct. 546
+  led: 61 L. Ed. 1045
+  lexis: 1917 U.S. LEXIS 1620
+dates:
+  argued: '1916-02-29'
+  reargued: '1917-02-01'
+  decided: '1917-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100030, area: federalism}
+law:
+  type: federal-statute
+  supp: 329
+authority:
+- statutory-construction
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 301, state: 37}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 27}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: WVanDevanter
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JHClarke
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LDBrandeis

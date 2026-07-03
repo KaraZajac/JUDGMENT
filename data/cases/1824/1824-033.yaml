@@ -1,0 +1,74 @@
+id: 1824-033
+name: OSBORN AND OTHERS, APPELLANTS, v. THE PRESIDENT, DIRECTORS, AND COMPANY OF THE BANK OF THE UNITED STATES,
+  RESPONDENT
+term: 1824
+chief: Marshall
+natural_court: 407
+citation:
+  us: 22 U.S. 738
+  led: 6 L. Ed. 204
+  lexis: 1824 U.S. LEXIS 409
+dates:
+  argued: '1824-02-10'
+  reargued: '1824-03-10'
+  decided: '1824-03-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 100110, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 428}
+  source: {code: 428}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 41}
+  respondent: {code: 258}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true

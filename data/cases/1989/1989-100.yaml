@@ -1,0 +1,88 @@
+id: 1989-100
+name: AMERICAN TRUCKING ASSOCIATIONS, INC., et al. v. MAURICE SMITH, DIRECTOR, ARKANSAS HIGHWAY AND TRANSPORTATION
+  DEPARTMENT, et al.
+term: 1989
+chief: Rehnquist
+natural_court: 1603
+docket: 88-325
+citation:
+  us: 496 U.S. 167
+  sct: 110 S. Ct. 2323
+  led: 110 L. Ed. 2d 148
+  lexis: 1990 U.S. LEXIS 2952
+dates:
+  argued: '1989-03-22'
+  reargued: '1989-12-06'
+  decided: '1990-06-04'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 300, state: 5}
+  source: {code: 300, state: 5}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 245}
+  respondent: {code: 19}
+  respondent_state: {code: 5}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WJBrennan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SDOConnor
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,76 @@
+id: 1868-108
+name: JOHN MACGWIRE v. MARY L. TYLER ET AL
+term: 1868
+chief: Chase
+natural_court: 601
+docket: '107'
+citation:
+  us: 75 U.S. 668
+  led: 19 L. Ed. 420
+  lexis: 1868 U.S. LEXIS -99
+dates:
+  argued: '1869-04-09'
+  reargued: '1869-10-22'
+  decided: '1869-11-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 90190, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+admin_action: {agency: 123}
+opinions:
+  majority_author: NClifford
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  participated: false
+- justice: RCGrier
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

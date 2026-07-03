@@ -1,0 +1,81 @@
+id: 1838-026
+name: DANIEL F. STROTHER, PLAINTIFF, IN ERROR v. JOHN B. C. LUCAS, DEFENDANT
+term: 1838
+chief: Taney
+natural_court: 504
+citation:
+  us: 37 U.S. 410
+  led: 9 L. Ed. 1137
+  lexis: 1838 U.S. LEXIS 363
+dates:
+  argued: '1838-01-15'
+  reargued: '1838-01-30'
+  decided: '1838-03-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: unidentified act of congress
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 170}
+  source: {code: 170}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: HBaldwin
+  majority_assigner: JStory
+votes:
+- justice: RBTaney
+  participated: false
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HBaldwin
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: PPBarbour
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMWayne

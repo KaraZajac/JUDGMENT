@@ -1,0 +1,71 @@
+id: 1831-035
+name: THE UNITED STATES VS. ROBERTSON
+term: 1831
+chief: Marshall
+natural_court: 409
+citation:
+  us: 30 U.S. 641
+  led: 8 L. Ed. 257
+  lexis: 1831 U.S. LEXIS 376
+dates:
+  argued: '1831-02-25'
+  decided: '1831-03-11'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 120030, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 417}
+  source: {code: 417}
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 185}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBaldwin
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

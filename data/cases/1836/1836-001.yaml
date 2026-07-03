@@ -1,0 +1,62 @@
+id: 1836-001
+name: JOHN DUBOIS, LESSEE OF OLIVER S. WOLCOTT, PLAINTIFF IN ERROR v. ANDREW D. HEPBURN
+term: 1836
+chief: Marshall
+natural_court: 410
+citation:
+  us: 35 U.S. 1
+  led: 9 L. Ed. 325
+  lexis: 1836 U.S. LEXIS 417
+dates:
+  argued: '1835-03-12'
+  decided: '1836-01-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 111}
+  source: {code: 111}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: HBaldwin
+  majority_assigner: JStory
+votes:
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true

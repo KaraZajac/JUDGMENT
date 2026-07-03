@@ -1,0 +1,81 @@
+id: 1908-181
+name: UNITED STATES v. SHIPP
+term: 1908
+chief: Fuller
+natural_court: 811
+docket: 5 ORIG
+citation:
+  us: 214 U.S. 386
+  sct: 29 S. Ct. 637
+  led: 53 L. Ed. 1041
+  lexis: 1909 U.S. LEXIS 1926
+dates:
+  argued: '1909-03-02'
+  decided: '1909-05-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10080, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 15}
+cert_reason: not-cert
+lower_court:
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RWPeckham
+- justice: RWPeckham
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RWPeckham
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  participated: false

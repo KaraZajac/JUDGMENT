@@ -1,0 +1,87 @@
+id: 2020-053
+name: GOLDMAN SACHS GROUP INC. v. ARKANSAS TEACHER RETIREMENT SYSTEM
+term: 2020
+chief: Roberts
+natural_court: 1709
+docket: 20-222
+citation:
+  sct: 141 S. Ct. 1951
+  led: 210 L. Ed. 2d 347
+  lexis: 2021 U.S. LEXIS 3391
+dates:
+  argued: '2021-03-29'
+  decided: '2021-06-21'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80120, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 365
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 119}
+  respondent: {code: 237}
+opinions:
+  majority_author: ACBarrett
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

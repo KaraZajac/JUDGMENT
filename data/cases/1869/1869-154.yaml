@@ -1,0 +1,78 @@
+id: 1869-154
+name: VEAZIE BANK v. FENNO
+term: 1869
+chief: Chase
+natural_court: 601
+citation:
+  us: 75 U.S. 533
+  led: 19 L. Ed. 482
+  lexis: 1868 U.S. LEXIS 1130
+dates:
+  argued: '1869-10-18'
+  decided: '1869-12-13'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: constitution
+  supp: 123
+authority:
+- judicial-review-national
+- federal-common-law
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 416}
+  source: {code: 416}
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 369}
+admin_action: {agency: 69}
+opinions:
+  majority_author: SPChase
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SNelson
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

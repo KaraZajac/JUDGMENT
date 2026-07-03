@@ -1,0 +1,84 @@
+id: 1938-136
+name: GRAVES et al., COMMISSIONERS CONSTITUTING THE STATE TAX COMMISSION OF NEW YORK, v. NEW YORK EX REL. O'KEEFE
+term: 1938
+chief: Hughes
+natural_court: 1106
+docket: '478'
+citation:
+  us: 306 U.S. 466
+  sct: 59 S. Ct. 595
+  led: 83 L. Ed. 927
+  lexis: 1939 U.S. LEXIS 980
+dates:
+  argued: '1939-03-06'
+  decided: '1939-03-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 100060, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 301, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 37}
+  respondent: {code: 8}
+  respondent_state: {code: 60}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: HFStone
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PButler
+- justice: PButler
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

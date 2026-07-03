@@ -1,0 +1,90 @@
+id: 2014-058
+name: WALKER v. TEXAS DIVISION, SONS OF CONFEDERATE VETERANS, INC.
+term: 2014
+chief: Roberts
+natural_court: 1704
+docket: 14-144
+citation:
+  us: 576 U.S. 200
+  sct: 135 S. Ct. 2239
+  led: 192 L. Ed. 2d 274
+  lexis: 2015 U.S. LEXIS 4063
+dates:
+  argued: '2015-03-23'
+  decided: '2015-06-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 122}
+  source: {code: 25}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 7}
+  petitioner_state: {code: 51}
+  respondent: {code: 192}
+admin_action: {agency: 117, state: 51}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: CThomas
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: AScalia
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: AMKennedy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true

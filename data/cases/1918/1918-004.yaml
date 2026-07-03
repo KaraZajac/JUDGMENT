@@ -1,0 +1,81 @@
+id: 1918-004
+name: NEILSON et al. v. RHINE SHIPPING COMPANY, CLAIMANT OF THE SAILING SHIP RHINE
+term: 1918
+chief: White
+natural_court: 905
+docket: '393'
+citation:
+  us: 248 U.S. 205
+  sct: 39 S. Ct. 89
+  led: 63 L. Ed. 208
+  lexis: 1918 U.S. LEXIS 1663
+dates:
+  argued: '1918-11-05'
+  decided: '1918-12-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70190, area: unions}
+law:
+  type: federal-statute
+  supp: 900
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 94}
+  source: {code: 22}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 234}
+opinions:
+  majority_author: WRDay
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false

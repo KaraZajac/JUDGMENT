@@ -1,0 +1,70 @@
+id: 1901-095
+name: UNITED STATES v. BARLOW
+term: 1901
+chief: Fuller
+natural_court: 808
+docket: '127'
+citation:
+  us: 184 U.S. 123
+  sct: 22 S. Ct. 468
+  led: 46 L. Ed. 463
+  lexis: 1902 U.S. LEXIS 2293
+dates:
+  argued: '1902-01-23'
+  decided: '1902-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 140030, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 176}
+  respondent: {code: 27}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  participated: false
+- justice: HGray
+  vote: majority
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  in_majority: false
+- justice: HBBrown
+  vote: majority
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  in_majority: true

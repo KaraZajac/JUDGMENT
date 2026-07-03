@@ -1,0 +1,78 @@
+id: 1916-030
+name: SIM v. EDENBORN
+term: 1916
+chief: White
+natural_court: 905
+docket: '8'
+citation:
+  us: 242 U.S. 131
+  sct: 37 S. Ct. 36
+  led: 61 L. Ed. 199
+  lexis: 1916 U.S. LEXIS 1538
+dates:
+  argued: '1915-05-05'
+  reargued: '1916-10-23'
+  decided: '1916-12-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 140030, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 94}
+  source: {code: 22}
+  disposition: reversed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 102}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: OWHolmes
+  vote: majority
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  in_majority: false
+  joined:
+  - JMcKenna
+- justice: WVanDevanter
+  vote: dissent
+  in_majority: false
+  joined:
+  - JMcKenna
+- justice: MPitney
+  vote: majority
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  in_majority: true

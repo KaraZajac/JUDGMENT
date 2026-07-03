@@ -1,0 +1,84 @@
+id: 1902-064
+name: UNITED STATES v. LYNAH
+term: 1902
+chief: Fuller
+natural_court: 809
+docket: '45'
+citation:
+  us: 188 U.S. 445
+  sct: 23 S. Ct. 349
+  led: 47 L. Ed. 539
+  lexis: 1903 U.S. LEXIS 1290
+dates:
+  argued: '1903-01-09'
+  decided: '1903-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 211
+authority:
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 432}
+  source: {code: 432}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 195}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: DJBrewer
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  participated: false
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true

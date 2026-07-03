@@ -1,0 +1,79 @@
+id: 1942-156
+name: UNITED STATES v. LEPOWITCH et al.
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '629'
+citation:
+  us: 318 U.S. 702
+  sct: 63 S. Ct. 914
+  led: 87 L. Ed. 1091
+  lexis: 1943 U.S. LEXIS 761
+dates:
+  argued: '1943-04-08'
+  decided: '1943-04-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 10450, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: fraud
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 86}
+  source: {code: 86}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  participated: false
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true

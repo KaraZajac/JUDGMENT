@@ -1,0 +1,89 @@
+id: 1985-057
+name: MATSUSHITA ELECTRIC INDUSTRIAL CO., LTD, et al. v. ZENITH RADIO CORP. et al.
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 83-2004
+citation:
+  us: 475 U.S. 574
+  sct: 106 S. Ct. 1348
+  led: 89 L. Ed. 2d 538
+  lexis: 1986 U.S. LEXIS 38
+dates:
+  argued: '1985-11-12'
+  decided: '1986-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80010, area: economic-activity}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 109}
+  source: {code: 23}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 159}
+  respondent: {code: 147}
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: LFPowell
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

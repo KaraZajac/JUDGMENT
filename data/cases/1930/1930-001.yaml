@@ -1,0 +1,86 @@
+id: 1930-001
+name: BEIDLER et al., EXECUTORS, v. SOUTH CAROLINA TAX COMMISSION
+term: 1930
+chief: Hughes
+natural_court: 1102
+docket: '2'
+citation:
+  us: 282 U.S. 1
+  sct: 51 S. Ct. 54
+  led: 75 L. Ed. 131
+  lexis: 1930 U.S. LEXIS 1
+dates:
+  argued: '1928-10-22'
+  reargued: '1930-10-23'
+  decided: '1930-11-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 48}
+  source: {code: 300, state: 48}
+  disposition: affirmed-and-reversed-in-part
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 4}
+  respondent_state: {code: 48}
+opinions:
+  majority_author: CEHughes2
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - OWHolmes
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true

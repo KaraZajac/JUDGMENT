@@ -1,0 +1,90 @@
+id: 1927-112
+name: PANHANDLE OIL COMPANY v. MISSISSIPPI EX REL. KNOX, ATTORNEY GENERAL
+term: 1927
+chief: Taft
+natural_court: 1005
+docket: '288'
+citation:
+  us: 277 U.S. 218
+  sct: 48 S. Ct. 451
+  led: 72 L. Ed. 857
+  lexis: 1928 U.S. LEXIS 684
+dates:
+  argued: '1928-03-05'
+  decided: '1928-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100060, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 29}
+  source: {code: 300, state: 29}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 29}
+  respondent: {code: 28}
+  respondent_state: {code: 29}
+opinions:
+  majority_author: PButler
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OWHolmes
+  - JCMcReynolds

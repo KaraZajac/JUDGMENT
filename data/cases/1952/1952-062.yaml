@@ -1,0 +1,89 @@
+id: 1952-062
+name: RAMSPECK ET AL. v. FEDERAL TRIAL EXAMINERS CONFERENCE ET AL.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '278'
+citation:
+  us: 345 U.S. 128
+  sct: 73 S. Ct. 570
+  led: 97 L. Ed. 2d 872
+  lexis: 1953 U.S. LEXIS 2621
+dates:
+  argued: '1953-01-09'
+  decided: '1953-03-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20060, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 305
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 32}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 60}
+  respondent: {code: 320}
+admin_action: {agency: 20}
+opinions:
+  majority_author: SMinton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

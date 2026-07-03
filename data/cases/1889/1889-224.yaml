@@ -1,0 +1,84 @@
+id: 1889-224
+name: IRON SILVER MINING COMPANY v. CAMPBELL
+term: 1889
+chief: Fuller
+natural_court: 802
+docket: '22'
+citation:
+  us: 135 U.S. 286
+  sct: 10 S. Ct. 765
+  led: 34 L. Ed. 155
+  lexis: 1890 U.S. LEXIS 2022
+dates:
+  argued: '1890-03-25'
+  decided: '1890-04-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: RS secs 2325 & 2326
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 442}
+  source: {code: 442}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 187}
+  respondent: {code: 195}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: SFMiller
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

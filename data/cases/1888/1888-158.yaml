@@ -1,0 +1,78 @@
+id: 1888-158
+name: SMITH v. ADAMS
+term: 1888
+chief: Fuller
+natural_court: 801
+docket: '1498'
+citation:
+  us: 130 U.S. 167
+  sct: 9 S. Ct. 566
+  led: 32 L. Ed. 895
+  lexis: 1889 U.S. LEXIS 1735
+dates:
+  decided: '1889-04-01'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90350, area: judicial-power}
+law:
+  type: other
+  supp: 512
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 17, state: 39}
+  source: {code: 15, state: 39}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 49}
+  respondent: {code: 251}
+opinions:
+  majority_author: SJField
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: conservative
+  in_majority: true

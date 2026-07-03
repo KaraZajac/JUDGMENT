@@ -1,0 +1,87 @@
+id: 1970-053
+name: BODDIE et al. v. CONNECTICUT et al.
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '27'
+citation:
+  us: 401 U.S. 371
+  sct: 91 S. Ct. 780
+  led: 28 L. Ed. 2d 113
+  lexis: 1971 U.S. LEXIS 73
+dates:
+  argued: '1969-12-08'
+  reargued: '1970-11-17'
+  decided: '1971-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 20350, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 53}
+  source: {code: 53}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 236}
+  respondent: {code: 28}
+  respondent_state: {code: 8}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true

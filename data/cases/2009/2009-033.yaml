@@ -1,0 +1,89 @@
+id: 2009-033
+name: SHADY GROVE ORTHOPEDIC ASSOCIATES, P. A. v. ALLSTATE INSURANCE COMPANY
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 08-1008
+citation:
+  us: 559 U.S. 393
+  sct: 130 S. Ct. 1431
+  led: 176 L. Ed. 2d 311
+  lexis: 2010 U.S. LEXIS 2929
+dates:
+  argued: '2009-11-02'
+  decided: '2010-03-31'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 94}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 206}
+  respondent: {code: 171}
+opinions:
+  majority_author: AScalia
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SGBreyer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,93 @@
+id: 1994-029
+name: ARIZONA v. ISAAC EVANS
+term: 1994
+chief: Rehnquist
+natural_court: 1607
+docket: 93-1660
+citation:
+  us: 514 U.S. 1
+  sct: 115 S. Ct. 1185
+  led: 131 L. Ed. 2d 34
+  lexis: 1995 U.S. LEXIS 1806
+dates:
+  argued: '1994-12-07'
+  decided: '1995-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10060, area: criminal-procedure}
+law:
+  type: other
+  supp: 502
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 4}
+  source: {code: 300, state: 4}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 4}
+  respondent: {code: 100}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: SDOConnor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SGBreyer
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - DHSouter
+  - SDOConnor

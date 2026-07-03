@@ -1,0 +1,82 @@
+id: 1898-031
+name: NORWOOD v. BAKER
+term: 1898
+chief: Fuller
+natural_court: 808
+docket: '34'
+citation:
+  us: 172 U.S. 269
+  sct: 19 S. Ct. 187
+  led: 43 L. Ed. 443
+  lexis: 1898 U.S. LEXIS 1652
+dates:
+  decided: '1898-12-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 428}
+  source: {code: 428}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 41}
+  respondent: {code: 195}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true

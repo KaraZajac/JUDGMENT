@@ -1,0 +1,75 @@
+id: 1927-177
+name: CITY OF NEW BRUNSWICK et al. v. UNITED STATES et al.
+term: 1927
+chief: Taft
+natural_court: 1005
+docket: '260'
+citation:
+  us: 276 U.S. 547
+  sct: 48 S. Ct. 371
+  led: 72 L. Ed. 693
+  lexis: 1928 U.S. LEXIS 98
+dates:
+  argued: '1928-03-02'
+  decided: '1928-04-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 100060, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 92}
+  source: {code: 23}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 35}
+  respondent: {code: 27}
+admin_action: {agency: 118}
+opinions:
+  majority_author: ETSanford
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  in_majority: true
+- justice: PButler
+  vote: majority
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  in_majority: true

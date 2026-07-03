@@ -1,0 +1,92 @@
+id: 1953-016
+name: UNITED STATES v. FIVE GAMBLING DEVICES ETC.
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '14'
+citation:
+  us: 346 U.S. 441
+  sct: 74 S. Ct. 190
+  led: 98 L. Ed. 2d 179
+  lexis: 1953 U.S. LEXIS 2531
+dates:
+  argued: '1953-10-12'
+  decided: '1953-12-07'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10460, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 15 U.S.C. § 1171
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 117}
+  source: {code: 117}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 127}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: HLBlack
+votes:
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: EWarren
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true

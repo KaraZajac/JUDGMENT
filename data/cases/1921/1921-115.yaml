@@ -1,0 +1,87 @@
+id: 1921-115
+name: FEDERAL TRADE COMMISSION v. BEECH-NUT PACKING COMPANY
+term: 1921
+chief: Taft
+natural_court: 1001
+docket: '47'
+citation:
+  us: 257 U.S. 441
+  sct: 42 S. Ct. 150
+  led: 66 L. Ed. 307
+  lexis: 1922 U.S. LEXIS 2423
+dates:
+  argued: '1921-11-10'
+  decided: '1922-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 357}
+  respondent: {code: 158}
+admin_action: {agency: 57}
+opinions:
+  majority_author: WRDay
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

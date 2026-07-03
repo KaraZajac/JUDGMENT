@@ -1,0 +1,83 @@
+id: 1871-131
+name: UNITED STATES v. CRUSELL
+term: 1871
+chief: Chase
+natural_court: 602
+citation:
+  us: 81 U.S. 1
+  led: 20 L. Ed. 821
+  lexis: 1871 U.S. LEXIS 966
+dates:
+  argued: '1872-02-26'
+  decided: '1872-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Abandoned and Captured Property Act
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 195}
+admin_action: {agency: 108}
+opinions:
+  majority_author: SPChase
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DDavis
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DDavis
+- justice: DDavis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true

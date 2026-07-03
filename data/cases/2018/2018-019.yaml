@@ -1,0 +1,84 @@
+id: 2018-019
+name: BNSF RAILWAY COMPANY v. LOOS
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 17-1042
+citation:
+  sct: 139 S. Ct. 893
+  led: 203 L. Ed. 2d 160
+  lexis: 2019 U.S. LEXIS 1734
+dates:
+  argued: '2018-11-06'
+  decided: '2019-03-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Railroad Retirement Tax Act, 26 U.S.C 1301
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-and-state-confusion
+lower_court:
+  origin: {code: 83}
+  source: {code: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 145}
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true

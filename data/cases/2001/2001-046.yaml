@@ -1,0 +1,90 @@
+id: 2001-046
+name: JOHN ASHCROFT, ATTORNEY GENERAL v. AMERICAN CIVIL LIBERTIES UNION, et al.
+term: 2001
+chief: Rehnquist
+natural_court: 1607
+docket: 00-1293
+citation:
+  us: 535 U.S. 564
+  sct: 122 S. Ct. 1700
+  led: 152 L. Ed. 2d 771
+  lexis: 2002 U.S. LEXIS 3421
+dates:
+  argued: '2001-11-28'
+  decided: '2002-05-13'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 30200, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 47 U.S.C. § 231
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 109}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 207}
+opinions:
+  majority_author: CThomas
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AMKennedy
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AMKennedy
+- justice: SGBreyer
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

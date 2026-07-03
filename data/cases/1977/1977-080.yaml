@@ -1,0 +1,88 @@
+id: 1977-080
+name: KULKO v. SUPERIOR COURT OF CALIFORNIA IN AND FOR THE CITY AND COUNTY OF SAN FRANCISCO (HORN, REAL PARTY IN
+  INTEREST)
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 77-293
+citation:
+  us: 436 U.S. 84
+  sct: 98 S. Ct. 1690
+  led: 56 L. Ed. 2d 132
+  lexis: 1978 U.S. LEXIS 87
+dates:
+  argued: '1978-03-29'
+  decided: '1978-05-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 40060, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 200}
+  respondent: {code: 6}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

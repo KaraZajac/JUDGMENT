@@ -1,0 +1,79 @@
+id: 1971-030
+name: UNITED STATES v. MARION et al.
+term: 1971
+chief: Burger
+natural_court: 1503
+docket: 70-19
+citation:
+  us: 404 U.S. 307
+  sct: 92 S. Ct. 455
+  led: 30 L. Ed. 2d 468
+  lexis: 1971 U.S. LEXIS 4
+dates:
+  argued: '1971-11-08'
+  decided: '1971-12-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 10590, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 216
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+admin_action: {agency: 57}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: WJBrennan
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true

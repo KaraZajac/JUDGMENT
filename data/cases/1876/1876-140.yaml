@@ -1,0 +1,76 @@
+id: 1876-140
+name: DUTCHER v. WRIGHT
+term: 1876
+chief: Waite
+natural_court: 701
+docket: '173'
+citation:
+  us: 94 U.S. 553
+  led: 24 L. Ed. 130
+  lexis: 1876 U.S. LEXIS 1906
+dates:
+  argued: '1877-01-23'
+  decided: '1877-03-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80030, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: bankruptcy law
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 438}
+  source: {code: 438}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 114}
+opinions:
+  majority_author: NClifford
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true

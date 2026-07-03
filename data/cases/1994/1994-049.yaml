@@ -1,0 +1,86 @@
+id: 1994-049
+name: CALIFORNIA DEPARTMENT OF CORRECTIONS, et al. v. JOSE RAMON MORALES
+term: 1994
+chief: Rehnquist
+natural_court: 1607
+docket: 93-1462
+citation:
+  us: 514 U.S. 499
+  sct: 115 S. Ct. 1597
+  led: 131 L. Ed. 2d 588
+  lexis: 1995 U.S. LEXIS 3037
+dates:
+  argued: '1995-01-09'
+  decided: '1995-04-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10180, area: criminal-procedure}
+law:
+  type: constitution
+  supp: 127
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 156}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 7}
+  petitioner_state: {code: 6}
+  respondent: {code: 215}
+admin_action: {agency: 117, state: 6}
+opinions:
+  majority_author: CThomas
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true

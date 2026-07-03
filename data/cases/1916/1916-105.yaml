@@ -1,0 +1,89 @@
+id: 1916-105
+name: PAINE LUMBER COMPANY, LIMITED, et al. v. NEAL, INDIVIDUALLY AND AS SECRETARY AND TREASURER OF THE JOINT DISTRICT
+  COUNCIL OF NEW YORK AND VICINITY OF THE UNITED BROTHERHOOD OF CARPENTERS AND JOINERS OF AMERICA AND AMALGAMATED
+  SOCIETY OF CARPENT
+term: 1916
+chief: White
+natural_court: 905
+docket: '24'
+citation:
+  us: 244 U.S. 459
+  sct: 37 S. Ct. 718
+  led: 61 L. Ed. 1256
+  lexis: 1917 U.S. LEXIS 1657
+dates:
+  argued: '1915-05-03'
+  reargued: '1916-10-24'
+  decided: '1917-06-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70030, area: unions}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 249}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MPitney
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MPitney
+- justice: MPitney
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JCMcReynolds
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: conservative
+  in_majority: true

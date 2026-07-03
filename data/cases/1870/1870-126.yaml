@@ -1,0 +1,75 @@
+id: 1870-126
+name: UNITED STATES v. LYNDE
+term: 1870
+chief: Chase
+natural_court: 602
+citation:
+  us: 78 U.S. 632
+  led: 20 L. Ed. 230
+  lexis: 1870 U.S. LEXIS 1509
+dates:
+  decided: '1871-05-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, March 26, 1804
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 150}
+  source: {code: 150}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 166}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: NHSwayne
+votes:
+- justice: SPChase
+  participated: false
+- justice: SNelson
+  participated: false
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

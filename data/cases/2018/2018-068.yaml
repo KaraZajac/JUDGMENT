@@ -1,0 +1,93 @@
+id: 2018-068
+name: DEPARTMENT OF COMMERCE v. NEW YORK
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 18-966
+citation:
+  sct: 139 S. Ct. 2551
+  led: 204 L. Ed. 2d 978
+  lexis: 2019 U.S. LEXIS 4402
+dates:
+  argued: '2019-04-23'
+  decided: '2019-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 305
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 316}
+  respondent: {code: 28}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SSotomayor
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: EKagan
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: NMGorsuch
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: BMKavanaugh
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas

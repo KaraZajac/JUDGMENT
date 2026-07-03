@@ -1,0 +1,69 @@
+id: 1810-027
+name: FLETCHER v. PECK
+term: 1810
+chief: Marshall
+natural_court: 404
+citation:
+  us: 10 U.S. 87
+  led: 3 L. Ed. 162
+  lexis: 1810 U.S. LEXIS 322
+dates:
+  argued: '1809-03-01'
+  reargued: '1810-02-15'
+  decided: '1810-03-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 4
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 123}
+  respondent: {code: 233}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WCushing
+  participated: false
+- justice: SChase
+  participated: false
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  direction: conservative
+  in_majority: true

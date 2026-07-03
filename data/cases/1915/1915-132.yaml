@@ -1,0 +1,80 @@
+id: 1915-132
+name: DETROIT AND MACKINAC RAILWAY COMPANY v. MICHIGAN RAILROAD COMMISSION AND FLETCHER PAPER COMPANY
+term: 1915
+chief: White
+natural_court: 903
+docket: '68'
+citation:
+  us: 240 U.S. 564
+  sct: 36 S. Ct. 424
+  led: 60 L. Ed. 802
+  lexis: 1916 U.S. LEXIS 1483
+dates:
+  argued: '1915-11-10'
+  decided: '1916-04-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 90420, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 27}
+  source: {code: 300, state: 27}
+  disposition: granted
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 4}
+  respondent_state: {code: 27}
+admin_action: {agency: 117, state: 27}
+opinions:
+  majority_author: WVanDevanter
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

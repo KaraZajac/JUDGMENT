@@ -1,0 +1,642 @@
+# Hand-curated background for every justice of the SCDB modern era (all justices
+# serving during the 1946+ terms), keyed by SCDB justiceName mnemonic. Merged into
+# data/justices/<slug>.yaml by pipeline.build (service: + bio: blocks).
+#
+# Conventions: dates are quoted YYYY-MM-DD strings; `party` is the party of the
+# appointing president; `confirmation_vote` is the Senate floor vote ("voice" when
+# confirmed by voice vote); fields are omitted rather than guessed. Sitting
+# justices have no `ended`/`end_reason`.
+#
+# Legacy-era justices (1791–1945 service only) are not yet curated; they receive
+# mechanical names and computed records only. Enrichment from the Epstein et al.
+# Justices Database is a roadmap item (docs/sources.md).
+
+HLBlack:
+  name: Hugo L. Black
+  slug: hugo-black
+  position: associate
+  appointed_by: Franklin D. Roosevelt
+  party: Democratic
+  oath: "1937-08-19"
+  ended: "1971-09-17"
+  end_reason: retired
+  confirmation_vote: "63-16"
+  born: "1886-02-27"
+  died: "1971-09-25"
+  law_school: University of Alabama
+  prior:
+    - U.S. Senator (Alabama)
+
+SFReed:
+  name: Stanley F. Reed
+  slug: stanley-reed
+  position: associate
+  appointed_by: Franklin D. Roosevelt
+  party: Democratic
+  oath: "1938-01-31"
+  ended: "1957-02-25"
+  end_reason: retired
+  born: "1884-12-31"
+  died: "1980-04-02"
+  law_school: read law (attended University of Virginia and Columbia)
+  prior:
+    - U.S. Solicitor General
+
+FFrankfurter:
+  name: Felix Frankfurter
+  slug: felix-frankfurter
+  position: associate
+  appointed_by: Franklin D. Roosevelt
+  party: Democratic
+  oath: "1939-01-30"
+  ended: "1962-08-28"
+  end_reason: retired
+  confirmation_vote: voice
+  born: "1882-11-15"
+  died: "1965-02-22"
+  law_school: Harvard
+  prior:
+    - Harvard Law School professor
+
+WODouglas:
+  name: William O. Douglas
+  slug: william-o-douglas
+  position: associate
+  appointed_by: Franklin D. Roosevelt
+  party: Democratic
+  oath: "1939-04-17"
+  ended: "1975-11-12"
+  end_reason: retired
+  confirmation_vote: "62-4"
+  born: "1898-10-16"
+  died: "1980-01-19"
+  law_school: Columbia
+  prior:
+    - Chairman of the Securities and Exchange Commission
+
+FMurphy:
+  name: Frank Murphy
+  slug: frank-murphy
+  position: associate
+  appointed_by: Franklin D. Roosevelt
+  party: Democratic
+  oath: "1940-02-05"
+  ended: "1949-07-19"
+  end_reason: died
+  born: "1890-04-13"
+  died: "1949-07-19"
+  law_school: University of Michigan
+  prior:
+    - U.S. Attorney General
+    - Governor of Michigan
+
+RHJackson:
+  name: Robert H. Jackson
+  slug: robert-h-jackson
+  position: associate
+  appointed_by: Franklin D. Roosevelt
+  party: Democratic
+  oath: "1941-07-11"
+  ended: "1954-10-09"
+  end_reason: died
+  born: "1892-02-13"
+  died: "1954-10-09"
+  law_school: Albany Law School (read law)
+  prior:
+    - U.S. Attorney General
+    - U.S. Solicitor General
+
+WBRutledge:
+  name: Wiley B. Rutledge
+  slug: wiley-rutledge
+  position: associate
+  appointed_by: Franklin D. Roosevelt
+  party: Democratic
+  oath: "1943-02-15"
+  ended: "1949-09-10"
+  end_reason: died
+  born: "1894-07-20"
+  died: "1949-09-10"
+  law_school: University of Colorado
+  prior:
+    - D.C. Circuit judge
+
+HHBurton:
+  name: Harold H. Burton
+  slug: harold-burton
+  position: associate
+  appointed_by: Harry S. Truman
+  party: Democratic
+  oath: "1945-10-01"
+  ended: "1958-10-13"
+  end_reason: retired
+  born: "1888-06-22"
+  died: "1964-10-28"
+  law_school: Harvard
+  prior:
+    - U.S. Senator (Ohio)
+    - Mayor of Cleveland
+
+FMVinson:
+  name: Fred M. Vinson
+  slug: fred-vinson
+  position: chief
+  appointed_by: Harry S. Truman
+  party: Democratic
+  oath: "1946-06-24"
+  ended: "1953-09-08"
+  end_reason: died
+  born: "1890-01-22"
+  died: "1953-09-08"
+  law_school: Centre College
+  prior:
+    - Secretary of the Treasury
+    - D.C. Circuit judge
+
+TCClark:
+  name: Tom C. Clark
+  slug: tom-clark
+  position: associate
+  appointed_by: Harry S. Truman
+  party: Democratic
+  oath: "1949-08-24"
+  ended: "1967-06-12"
+  end_reason: retired
+  confirmation_vote: "73-8"
+  born: "1899-09-23"
+  died: "1977-06-13"
+  law_school: University of Texas
+  prior:
+    - U.S. Attorney General
+
+SMinton:
+  name: Sherman Minton
+  slug: sherman-minton
+  position: associate
+  appointed_by: Harry S. Truman
+  party: Democratic
+  oath: "1949-10-12"
+  ended: "1956-10-15"
+  end_reason: retired
+  confirmation_vote: "48-16"
+  born: "1890-10-20"
+  died: "1965-04-09"
+  law_school: Indiana University
+  prior:
+    - Seventh Circuit judge
+    - U.S. Senator (Indiana)
+
+EWarren:
+  name: Earl Warren
+  slug: earl-warren
+  position: chief
+  appointed_by: Dwight D. Eisenhower
+  party: Republican
+  oath: "1953-10-05"
+  ended: "1969-06-23"
+  end_reason: retired
+  confirmation_vote: voice
+  born: "1891-03-19"
+  died: "1974-07-09"
+  law_school: UC Berkeley
+  prior:
+    - Governor of California
+    - California Attorney General
+
+JHarlan2:
+  name: John Marshall Harlan II
+  slug: john-marshall-harlan-ii
+  position: associate
+  appointed_by: Dwight D. Eisenhower
+  party: Republican
+  oath: "1955-03-28"
+  ended: "1971-09-23"
+  end_reason: retired
+  confirmation_vote: "71-11"
+  born: "1899-05-20"
+  died: "1971-12-29"
+  law_school: New York Law School
+  prior:
+    - Second Circuit judge
+
+WJBrennan:
+  name: William J. Brennan, Jr.
+  slug: william-brennan
+  position: associate
+  appointed_by: Dwight D. Eisenhower
+  party: Republican
+  oath: "1956-10-16"
+  ended: "1990-07-20"
+  end_reason: retired
+  confirmation_vote: voice
+  born: "1906-04-25"
+  died: "1997-07-24"
+  law_school: Harvard
+  prior:
+    - New Jersey Supreme Court justice
+
+CEWhittaker:
+  name: Charles E. Whittaker
+  slug: charles-whittaker
+  position: associate
+  appointed_by: Dwight D. Eisenhower
+  party: Republican
+  oath: "1957-03-25"
+  ended: "1962-04-01"
+  end_reason: retired
+  born: "1901-02-22"
+  died: "1973-11-26"
+  law_school: University of Missouri–Kansas City
+  prior:
+    - Eighth Circuit judge
+
+PStewart:
+  name: Potter Stewart
+  slug: potter-stewart
+  position: associate
+  appointed_by: Dwight D. Eisenhower
+  party: Republican
+  oath: "1958-10-14"
+  ended: "1981-07-03"
+  end_reason: retired
+  confirmation_vote: "70-17"
+  born: "1915-01-23"
+  died: "1985-12-07"
+  law_school: Yale
+  prior:
+    - Sixth Circuit judge
+
+BRWhite:
+  name: Byron R. White
+  slug: byron-white
+  position: associate
+  appointed_by: John F. Kennedy
+  party: Democratic
+  oath: "1962-04-16"
+  ended: "1993-06-28"
+  end_reason: retired
+  confirmation_vote: voice
+  born: "1917-06-08"
+  died: "2002-04-15"
+  law_school: Yale
+  prior:
+    - Deputy U.S. Attorney General
+
+AJGoldberg:
+  name: Arthur J. Goldberg
+  slug: arthur-goldberg
+  position: associate
+  appointed_by: John F. Kennedy
+  party: Democratic
+  oath: "1962-10-01"
+  ended: "1965-07-25"
+  end_reason: resigned
+  confirmation_vote: voice
+  born: "1908-08-08"
+  died: "1990-01-19"
+  law_school: Northwestern
+  prior:
+    - U.S. Secretary of Labor
+
+AFortas:
+  name: Abe Fortas
+  slug: abe-fortas
+  position: associate
+  appointed_by: Lyndon B. Johnson
+  party: Democratic
+  oath: "1965-10-04"
+  ended: "1969-05-14"
+  end_reason: resigned
+  confirmation_vote: voice
+  born: "1910-06-19"
+  died: "1982-04-05"
+  law_school: Yale
+  prior:
+    - Private practice (founding partner, Arnold & Fortas)
+
+TMarshall:
+  name: Thurgood Marshall
+  slug: thurgood-marshall
+  position: associate
+  appointed_by: Lyndon B. Johnson
+  party: Democratic
+  oath: "1967-10-02"
+  ended: "1991-10-01"
+  end_reason: retired
+  confirmation_vote: "69-11"
+  born: "1908-07-02"
+  died: "1993-01-24"
+  law_school: Howard
+  prior:
+    - U.S. Solicitor General
+    - Second Circuit judge
+    - Director-counsel, NAACP Legal Defense Fund
+
+WEBurger:
+  name: Warren E. Burger
+  slug: warren-burger
+  position: chief
+  appointed_by: Richard Nixon
+  party: Republican
+  oath: "1969-06-23"
+  ended: "1986-09-26"
+  end_reason: retired
+  confirmation_vote: "74-3"
+  born: "1907-09-17"
+  died: "1995-06-25"
+  law_school: St. Paul College of Law
+  prior:
+    - D.C. Circuit judge
+
+HABlackmun:
+  name: Harry A. Blackmun
+  slug: harry-blackmun
+  position: associate
+  appointed_by: Richard Nixon
+  party: Republican
+  oath: "1970-06-09"
+  ended: "1994-08-03"
+  end_reason: retired
+  confirmation_vote: "94-0"
+  born: "1908-11-12"
+  died: "1999-03-04"
+  law_school: Harvard
+  prior:
+    - Eighth Circuit judge
+
+LFPowell:
+  name: Lewis F. Powell, Jr.
+  slug: lewis-powell
+  position: associate
+  appointed_by: Richard Nixon
+  party: Republican
+  oath: "1972-01-07"
+  ended: "1987-06-26"
+  end_reason: retired
+  confirmation_vote: "89-1"
+  born: "1907-09-19"
+  died: "1998-08-25"
+  law_school: Washington and Lee
+  prior:
+    - President of the American Bar Association
+    - Private practice (Richmond, Virginia)
+
+WHRehnquist:
+  name: William H. Rehnquist
+  slug: william-rehnquist
+  position: associate
+  appointed_by: Richard Nixon
+  party: Republican
+  oath: "1972-01-07"
+  ended: "2005-09-03"
+  end_reason: died
+  confirmation_vote: "68-26"
+  elevated:
+    position: chief
+    appointed_by: Ronald Reagan
+    oath: "1986-09-26"
+    confirmation_vote: "65-33"
+  born: "1924-10-01"
+  died: "2005-09-03"
+  law_school: Stanford
+  prior:
+    - Assistant Attorney General, Office of Legal Counsel
+
+JPStevens:
+  name: John Paul Stevens
+  slug: john-paul-stevens
+  position: associate
+  appointed_by: Gerald Ford
+  party: Republican
+  oath: "1975-12-19"
+  ended: "2010-06-29"
+  end_reason: retired
+  confirmation_vote: "98-0"
+  born: "1920-04-20"
+  died: "2019-07-16"
+  law_school: Northwestern
+  prior:
+    - Seventh Circuit judge
+
+SDOConnor:
+  name: Sandra Day O'Connor
+  slug: sandra-day-oconnor
+  position: associate
+  appointed_by: Ronald Reagan
+  party: Republican
+  oath: "1981-09-25"
+  ended: "2006-01-31"
+  end_reason: retired
+  confirmation_vote: "99-0"
+  born: "1930-03-26"
+  died: "2023-12-01"
+  law_school: Stanford
+  prior:
+    - Arizona Court of Appeals judge
+    - Arizona State Senate majority leader
+
+AScalia:
+  name: Antonin Scalia
+  slug: antonin-scalia
+  position: associate
+  appointed_by: Ronald Reagan
+  party: Republican
+  oath: "1986-09-26"
+  ended: "2016-02-13"
+  end_reason: died
+  confirmation_vote: "98-0"
+  born: "1936-03-11"
+  died: "2016-02-13"
+  law_school: Harvard
+  prior:
+    - D.C. Circuit judge
+
+AMKennedy:
+  name: Anthony M. Kennedy
+  slug: anthony-kennedy
+  position: associate
+  appointed_by: Ronald Reagan
+  party: Republican
+  oath: "1988-02-18"
+  ended: "2018-07-31"
+  end_reason: retired
+  confirmation_vote: "97-0"
+  born: "1936-07-23"
+  law_school: Harvard
+  prior:
+    - Ninth Circuit judge
+
+DHSouter:
+  name: David H. Souter
+  slug: david-souter
+  position: associate
+  appointed_by: George H. W. Bush
+  party: Republican
+  oath: "1990-10-09"
+  ended: "2009-06-29"
+  end_reason: retired
+  confirmation_vote: "90-9"
+  born: "1939-09-17"
+  died: "2025-05-08"
+  law_school: Harvard
+  prior:
+    - First Circuit judge
+    - New Hampshire Supreme Court justice
+
+CThomas:
+  name: Clarence Thomas
+  slug: clarence-thomas
+  position: associate
+  appointed_by: George H. W. Bush
+  party: Republican
+  oath: "1991-10-23"
+  confirmation_vote: "52-48"
+  born: "1948-06-23"
+  law_school: Yale
+  prior:
+    - D.C. Circuit judge
+    - Chairman of the EEOC
+
+RBGinsburg:
+  name: Ruth Bader Ginsburg
+  slug: ruth-bader-ginsburg
+  position: associate
+  appointed_by: Bill Clinton
+  party: Democratic
+  oath: "1993-08-10"
+  ended: "2020-09-18"
+  end_reason: died
+  confirmation_vote: "96-3"
+  born: "1933-03-15"
+  died: "2020-09-18"
+  law_school: Columbia
+  prior:
+    - D.C. Circuit judge
+    - Co-founder, ACLU Women's Rights Project
+
+SGBreyer:
+  name: Stephen G. Breyer
+  slug: stephen-breyer
+  position: associate
+  appointed_by: Bill Clinton
+  party: Democratic
+  oath: "1994-08-03"
+  ended: "2022-06-30"
+  end_reason: retired
+  confirmation_vote: "87-9"
+  born: "1938-08-15"
+  law_school: Harvard
+  prior:
+    - First Circuit chief judge
+
+JGRoberts:
+  name: John G. Roberts, Jr.
+  slug: john-roberts
+  position: chief
+  appointed_by: George W. Bush
+  party: Republican
+  oath: "2005-09-29"
+  confirmation_vote: "78-22"
+  born: "1955-01-27"
+  law_school: Harvard
+  prior:
+    - D.C. Circuit judge
+    - Principal Deputy Solicitor General
+
+SAAlito:
+  name: Samuel A. Alito, Jr.
+  slug: samuel-alito
+  position: associate
+  appointed_by: George W. Bush
+  party: Republican
+  oath: "2006-01-31"
+  confirmation_vote: "58-42"
+  born: "1950-04-01"
+  law_school: Yale
+  prior:
+    - Third Circuit judge
+    - U.S. Attorney (District of New Jersey)
+
+SSotomayor:
+  name: Sonia Sotomayor
+  slug: sonia-sotomayor
+  position: associate
+  appointed_by: Barack Obama
+  party: Democratic
+  oath: "2009-08-08"
+  confirmation_vote: "68-31"
+  born: "1954-06-25"
+  law_school: Yale
+  prior:
+    - Second Circuit judge
+    - S.D.N.Y. district judge
+
+EKagan:
+  name: Elena Kagan
+  slug: elena-kagan
+  position: associate
+  appointed_by: Barack Obama
+  party: Democratic
+  oath: "2010-08-07"
+  confirmation_vote: "63-37"
+  born: "1960-04-28"
+  law_school: Harvard
+  prior:
+    - U.S. Solicitor General
+    - Dean of Harvard Law School
+
+NMGorsuch:
+  name: Neil M. Gorsuch
+  slug: neil-gorsuch
+  position: associate
+  appointed_by: Donald Trump
+  party: Republican
+  oath: "2017-04-10"
+  confirmation_vote: "54-45"
+  born: "1967-08-29"
+  law_school: Harvard
+  prior:
+    - Tenth Circuit judge
+
+BMKavanaugh:
+  name: Brett M. Kavanaugh
+  slug: brett-kavanaugh
+  position: associate
+  appointed_by: Donald Trump
+  party: Republican
+  oath: "2018-10-06"
+  confirmation_vote: "50-48"
+  born: "1965-02-12"
+  law_school: Yale
+  prior:
+    - D.C. Circuit judge
+    - White House Staff Secretary
+
+ACBarrett:
+  name: Amy Coney Barrett
+  slug: amy-coney-barrett
+  position: associate
+  appointed_by: Donald Trump
+  party: Republican
+  oath: "2020-10-27"
+  confirmation_vote: "52-48"
+  born: "1972-01-28"
+  law_school: Notre Dame
+  prior:
+    - Seventh Circuit judge
+    - Notre Dame Law School professor
+
+KBJackson:
+  name: Ketanji Brown Jackson
+  slug: ketanji-brown-jackson
+  position: associate
+  appointed_by: Joe Biden
+  party: Democratic
+  oath: "2022-06-30"
+  confirmation_vote: "53-47"
+  born: "1970-09-14"
+  law_school: Harvard
+  prior:
+    - D.C. Circuit judge
+    - D.D.C. district judge
+    - Vice chair, U.S. Sentencing Commission

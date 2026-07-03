@@ -1,0 +1,79 @@
+id: 1966-130
+name: UNITED STATES v. ARNOLD, SCHWINN & CO. et al.
+term: 1966
+chief: Warren
+natural_court: 1409
+docket: '25'
+citation:
+  us: 388 U.S. 365
+  sct: 87 S. Ct. 1856
+  led: 18 L. Ed. 2d 1249
+  lexis: 1967 U.S. LEXIS 2965
+dates:
+  argued: '1967-04-20'
+  decided: '1967-06-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 66}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 141}
+opinions:
+  majority_author: AFortas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  participated: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: AFortas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

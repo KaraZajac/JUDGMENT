@@ -1,0 +1,84 @@
+id: 1914-232
+name: UNITED STATES v. MIDWEST OIL COMPANY
+term: 1914
+chief: White
+natural_court: 903
+docket: '278'
+citation:
+  us: 236 U.S. 459
+  sct: 35 S. Ct. 309
+  led: 59 L. Ed. 673
+  lexis: 1915 U.S. LEXIS 1776
+dates:
+  argued: '1914-01-19'
+  reargued: '1914-05-07'
+  decided: '1915-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: other
+  supp: 511
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 134}
+  source: {code: 28}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 198}
+opinions:
+  majority_author: JRLamar
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WRDay
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WRDay
+- justice: JRLamar
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  participated: false

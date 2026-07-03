@@ -1,0 +1,85 @@
+id: 1921-080
+name: UNITED ZINC & CHEMICAL COMPANY v. BRITT et al.
+term: 1921
+chief: Taft
+natural_court: 1001
+docket: '164'
+citation:
+  us: 258 U.S. 268
+  sct: 42 S. Ct. 299
+  led: 66 L. Ed. 615
+  lexis: 1922 U.S. LEXIS 2269
+dates:
+  decided: '1922-03-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 72}
+  source: {code: 28}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 128}
+  respondent: {code: 202}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: JMcKenna
+votes:
+- justice: WHTaft
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHClarke
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHClarke
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

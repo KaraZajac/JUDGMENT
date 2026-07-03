@@ -1,0 +1,80 @@
+id: 1872-053
+name: LYNDE v. THE COUNTY
+term: 1872
+chief: Chase
+natural_court: 602
+citation:
+  us: 83 U.S. 6
+  led: 21 L. Ed. 272
+  lexis: 1872 U.S. LEXIS 1136
+dates:
+  argued: '1872-10-28'
+  decided: '1873-01-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90120, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 412}
+  source: {code: 412}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 5}
+  respondent_state: {code: 19}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: NClifford
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SJField
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SJField
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true

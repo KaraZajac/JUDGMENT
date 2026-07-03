@@ -1,0 +1,86 @@
+id: 1945-044
+name: KENNECOTT COPPER CORP. v. STATE TAX COMMISSION et al.
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '424'
+citation:
+  us: 327 U.S. 573
+  sct: 66 S. Ct. 745
+  led: 90 L. Ed. 862
+  lexis: 1946 U.S. LEXIS 2612
+dates:
+  argued: '1946-01-30'
+  decided: '1946-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 90300, area: judicial-power}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 123}
+  source: {code: 30}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 52}
+  respondent: {code: 4}
+  respondent_state: {code: 52}
+admin_action: {agency: 117, state: 52}
+opinions:
+  majority_author: SFReed
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  participated: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter

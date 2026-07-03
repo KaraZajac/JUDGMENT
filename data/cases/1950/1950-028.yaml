@@ -1,0 +1,85 @@
+id: 1950-028
+name: NIAGARA HUDSON POWER CORP. v. LEVENTRITT
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '211'
+citation:
+  us: 340 U.S. 336
+  sct: 71 S. Ct. 341
+  led: 95 L. Ed. 2d 319
+  lexis: 1951 U.S. LEXIS 2433
+dates:
+  argued: '1950-12-05'
+  decided: '1951-01-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80120, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 15 U.S.C. § 79
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 95, state: 37}
+  source: {code: 22}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 219}
+  respondent: {code: 237}
+admin_action: {agency: 105}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

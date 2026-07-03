@@ -1,0 +1,89 @@
+id: 1941-061
+name: WALLING, ADMINISTRATOR OF THE WAGE AND HOUR DIVISION, U.S. DEPARTMENT OF LABOR, v. A. H. BELO CORPORATION
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '622'
+citation:
+  us: 316 U.S. 624
+  sct: 62 S. Ct. 1223
+  led: 86 L. Ed. 1716
+  lexis: 1942 U.S. LEXIS 1121
+dates:
+  argued: '1942-04-06'
+  decided: '1942-06-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70040, area: unions}
+law:
+  type: federal-statute
+  supp: 334
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 120}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 371}
+  respondent: {code: 151}
+admin_action: {agency: 71}
+opinions:
+  majority_author: JFByrnes
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFReed
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFReed
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFReed
+- justice: JFByrnes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

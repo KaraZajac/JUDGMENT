@@ -1,0 +1,88 @@
+id: 1965-068
+name: A BOOK NAMED 'JOHN CLELAND'S MEMOIRS OF A WOMAN OF PLEASURE' et al. v. ATTORNEY GENERAL OF MASSACHUSETTS
+term: 1965
+chief: Warren
+natural_court: 1409
+docket: '368'
+citation:
+  us: 383 U.S. 413
+  sct: 86 S. Ct. 975
+  led: 16 L. Ed. 2d 1
+  lexis: 1966 U.S. LEXIS 2906
+dates:
+  argued: '1965-12-07'
+  decided: '1966-03-21'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30190, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 26}
+  source: {code: 300, state: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 112}
+  respondent: {code: 19}
+  respondent_state: {code: 26}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

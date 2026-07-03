@@ -1,0 +1,86 @@
+id: 1912-161
+name: DONNELLY v. UNITED STATES
+term: 1912
+chief: White
+natural_court: 902
+docket: '97'
+citation:
+  us: 228 U.S. 243
+  sct: 33 S. Ct. 449
+  led: 57 L. Ed. 820
+  lexis: 1913 U.S. LEXIS 2370
+dates:
+  argued: '1912-12-18'
+  decided: '1913-04-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20150, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: extension of reservation boundaries
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 405}
+  source: {code: 405}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: MPitney
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHLurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: CEHughes1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

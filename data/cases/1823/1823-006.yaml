@@ -1,0 +1,67 @@
+id: 1823-006
+name: GREEN v. BIDDLE
+term: 1823
+chief: Marshall
+natural_court: 406
+citation:
+  us: 21 U.S. 1
+  led: 5 L. Ed. 547
+  lexis: 1823 U.S. LEXIS 271
+dates:
+  argued: '1821-02-16'
+  reargued: '1822-03-07'
+  decided: '1823-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 4
+  minority_votes: 1
+issue: {code: 80105, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 414}
+  source: {code: 414}
+  disagreement: true
+parties:
+  petitioner: {code: 241}
+  respondent: {code: 195}
+opinions:
+  majority_author: BWashington
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HBLivingston
+  participated: false
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true

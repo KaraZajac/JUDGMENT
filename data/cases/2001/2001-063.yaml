@@ -1,0 +1,91 @@
+id: 2001-063
+name: WATCHTOWER BIBLE AND TRACT SOCIETY OF NEW YORK, INC., et al. v. VILLAGE OF STRATTON et al.
+term: 2001
+chief: Rehnquist
+natural_court: 1607
+docket: 00-1737
+citation:
+  us: 536 U.S. 150
+  sct: 122 S. Ct. 2080
+  led: 153 L. Ed. 2d 205
+  lexis: 2002 U.S. LEXIS 4422
+dates:
+  argued: '2002-02-26'
+  decided: '2002-06-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 30160, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 104}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 130}
+  respondent: {code: 3}
+  respondent_state: {code: 41}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

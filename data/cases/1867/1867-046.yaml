@@ -1,0 +1,80 @@
+id: 1867-046
+name: UNITED STATES v. HARTWELL
+term: 1867
+chief: Chase
+natural_court: 601
+citation:
+  us: 73 U.S. 385
+  led: 18 L. Ed. 830
+  lexis: 1867 U.S. LEXIS 981
+dates:
+  argued: '1868-01-14'
+  decided: '1868-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10430, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 9 SAL 59, sec 16
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SFMiller

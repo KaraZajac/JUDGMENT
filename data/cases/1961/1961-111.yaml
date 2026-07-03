@@ -1,0 +1,81 @@
+id: 1961-111
+name: LINK v. WABASH RAILROAD CO.
+term: 1961
+chief: Warren
+natural_court: 1407
+docket: '422'
+citation:
+  us: 370 U.S. 626
+  sct: 82 S. Ct. 1386
+  led: 8 L. Ed. 2d 734
+  lexis: 1962 U.S. LEXIS 849
+dates:
+  argued: '1962-04-03'
+  decided: '1962-06-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 68}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 208}
+  respondent: {code: 231}
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: TCClark
+votes:
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  participated: false
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  participated: false

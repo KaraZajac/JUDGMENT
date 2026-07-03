@@ -1,0 +1,80 @@
+id: 1945-031
+name: PENNEKAMP et al. v. FLORIDA
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '473'
+citation:
+  us: 328 U.S. 331
+  sct: 66 S. Ct. 1029
+  led: 90 L. Ed. 1295
+  lexis: 1946 U.S. LEXIS 2281
+dates:
+  argued: '1946-02-07'
+  decided: '1946-06-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 10080, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 302, state: 12}
+  source: {code: 300, state: 12}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 190}
+  respondent: {code: 28}
+  respondent_state: {code: 12}
+opinions:
+  majority_author: SFReed
+  majority_assigner: HLBlack
+votes:
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

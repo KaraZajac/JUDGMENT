@@ -1,0 +1,91 @@
+id: 2007-014
+name: ABDUS-SHAHID M. S. ALI v. FEDERAL BUREAU OF PRISONS ET AL
+term: 2007
+chief: Roberts
+natural_court: 1702
+docket: 06-9130
+citation:
+  us: 552 U.S. 214
+  sct: 128 S. Ct. 831
+  led: 169 L. Ed. 2d 680
+  lexis: 2008 U.S. LEXIS 1212
+dates:
+  argued: '2007-10-29'
+  decided: '2008-01-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80060, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 374
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 60}
+  source: {code: 31}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 336}
+admin_action: {agency: 36}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+  - SGBreyer
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: DHSouter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true

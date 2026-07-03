@@ -1,0 +1,89 @@
+id: 1997-074
+name: FEDERAL ELECTION COMMISSION v. JAMES E. AKINS, RICHARD CURTISS, PAUL FINDLEY, ROBERT J. HANKS, ANDREW KILLGORE,
+  AND ORIN PARKER
+term: 1997
+chief: Rehnquist
+natural_court: 1607
+docket: 96-1590
+citation:
+  us: 524 U.S. 11
+  sct: 118 S. Ct. 1777
+  led: 141 L. Ed. 2d 10
+  lexis: 1998 U.S. LEXIS 3567
+dates:
+  argued: '1998-01-14'
+  decided: '1998-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90280, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 2 U.S.C. § 431
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 343}
+  respondent: {code: 251}
+admin_action: {agency: 43}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

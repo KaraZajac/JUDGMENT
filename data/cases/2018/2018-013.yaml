@@ -1,0 +1,92 @@
+id: 2018-013
+name: WASHINGTON STATE DEPARTMENT OF LICENSING v. COUGAR DEN INC.
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 16-1498
+citation:
+  sct: 139 S. Ct. 1000
+  led: 203 L. Ed. 2d 301
+  lexis: 2019 U.S. LEXIS 2086
+dates:
+  argued: '2018-10-30'
+  decided: '2019-03-19'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20160, area: civil-rights}
+law:
+  type: other
+  supp: 509
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: affirmed
+  direction: liberal
+parties:
+  petitioner: {code: 7}
+  petitioner_state: {code: 56}
+  respondent: {code: 234}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: RBGinsburg
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+  - BMKavanaugh
+- justice: RBGinsburg
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - NMGorsuch
+- justice: SGBreyer
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts

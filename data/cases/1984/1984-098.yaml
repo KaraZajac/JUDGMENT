@@ -1,0 +1,87 @@
+id: 1984-098
+name: PONTE, SUPERINTENDENT, MASSACHUSETTS CORRECTIONAL INSTITUTION v. REAL
+term: 1984
+chief: Burger
+natural_court: 1507
+docket: 83-1329
+citation:
+  us: 471 U.S. 491
+  sct: 105 S. Ct. 2192
+  led: 85 L. Ed. 2d 553
+  lexis: 1985 U.S. LEXIS 15
+dates:
+  argued: '1985-01-09'
+  decided: '1985-05-20'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 40040, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 26}
+  source: {code: 300, state: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 26}
+  respondent: {code: 215}
+admin_action: {agency: 117, state: 26}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

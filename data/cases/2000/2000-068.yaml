@@ -1,0 +1,74 @@
+id: 2000-068
+name: STATE OF KANSAS v. STATE OF COLORADO
+term: 2000
+chief: Rehnquist
+natural_court: 1607
+docket: 105 ORIG
+citation:
+  us: 533 U.S. 1
+  sct: 121 S. Ct. 2023
+  led: 150 L. Ed. 2d 72
+  lexis: 2001 U.S. LEXIS 4488
+dates:
+  argued: '2001-03-19'
+  decided: '2001-06-11'
+decision:
+  type: opinion-of-the-court
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 110020, area: interstate-relations}
+law:
+  type: other
+  supp: 510
+authority:
+- statutory-construction
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 20}
+  respondent: {code: 28}
+  respondent_state: {code: 7}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: AScalia
+  vote: dissent
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: AMKennedy
+  vote: majority
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: RBGinsburg
+  vote: majority
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  in_majority: true

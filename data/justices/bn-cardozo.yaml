@@ -1,0 +1,37 @@
+slug: bn-cardozo
+name: B. N. Cardozo
+scdb: {name: BNCardozo, id: 77}
+record:
+  first_decision: '1932-03-14'
+  last_decision: '1938-05-31'
+  first_term: 1931
+  last_term: 1937
+  terms: 7
+  cases: 1084
+  majority_share: 0.93
+  dissents: 64
+  opinions_written: 172
+ideology:
+  career_liberal_share: 0.608
+  by_term:
+    1931: {liberal_share: 0.708, n: 48}
+    1932: {liberal_share: 0.64, n: 161}
+    1933: {liberal_share: 0.623, n: 146}
+    1934: {liberal_share: 0.568, n: 155}
+    1935: {liberal_share: 0.573, n: 150}
+    1936: {liberal_share: 0.628, n: 148}
+    1937: {liberal_share: 0.54, n: 50}
+  by_issue_area:
+    attorneys: {liberal_share: 0.455, n: 11}
+    civil-rights: {liberal_share: 0.49, n: 49}
+    criminal-procedure: {liberal_share: 0.471, n: 68}
+    due-process: {liberal_share: 0.538, n: 26}
+    economic-activity: {liberal_share: 0.686, n: 376}
+    federal-taxation: {liberal_share: 0.708, n: 161}
+    federalism: {liberal_share: 0.414, n: 29}
+    first-amendment: {liberal_share: 0.714, n: 7}
+    interstate-relations: {liberal_share: 1.0, n: 1}
+    judicial-power: {liberal_share: 0.398, n: 108}
+    miscellaneous: {liberal_share: 0.5, n: 10}
+    privacy: {liberal_share: 0.0, n: 1}
+    unions: {liberal_share: 0.818, n: 11}

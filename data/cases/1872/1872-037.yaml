@@ -1,0 +1,69 @@
+id: 1872-037
+name: CANAL COMPANY v. HILL
+term: 1872
+chief: Chase
+natural_court: 602
+citation:
+  us: 82 U.S. 94
+  led: 21 L. Ed. 64
+  lexis: 1872 U.S. LEXIS 1236
+dates:
+  argued: '1872-11-08'
+  decided: '1872-12-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 140030, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 19}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 241}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  in_majority: true
+- justice: DDavis
+  vote: dissent
+  in_majority: false
+  joined:
+  - WStrong
+- justice: SJField
+  vote: majority
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  in_majority: true

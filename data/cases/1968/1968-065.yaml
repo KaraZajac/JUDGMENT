@@ -1,0 +1,84 @@
+id: 1968-065
+name: HADNOTT et al. v. AMOS, SECRETARY OF STATE OF ALABAMA, et al.
+term: 1968
+chief: Warren
+natural_court: 1410
+docket: '647'
+citation:
+  us: 394 U.S. 358
+  sct: 89 S. Ct. 1101
+  led: 22 L. Ed. 2d 336
+  lexis: 1969 U.S. LEXIS 2156
+dates:
+  argued: '1969-01-21'
+  decided: '1969-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 20020, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 41}
+  source: {code: 41}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 19}
+  respondent_state: {code: 1}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  participated: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,85 @@
+id: 1955-098
+name: SOUTHERN PACIFIC CO. v. GILEO et al.
+term: 1955
+chief: Warren
+natural_court: 1403
+docket: '257'
+citation:
+  us: 351 U.S. 493
+  sct: 76 S. Ct. 952
+  led: 100 L. Ed. 2d 1357
+  lexis: 1956 U.S. LEXIS 1629
+dates:
+  argued: '1956-05-01'
+  decided: '1956-06-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80050, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 329
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 145}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: SMinton
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

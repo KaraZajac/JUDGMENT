@@ -1,0 +1,89 @@
+id: 1898-089
+name: LAKE SHORE & MICHIGAN SOUTHERN RAILWAY COMPANY v. OHIO
+term: 1898
+chief: Fuller
+natural_court: 808
+docket: '95'
+citation:
+  us: 173 U.S. 285
+  sct: 19 S. Ct. 465
+  led: 43 L. Ed. 702
+  lexis: 1899 U.S. LEXIS 1438
+dates:
+  argued: '1898-12-13'
+  decided: '1899-02-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100030, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: RS para 5258
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 28}
+  respondent_state: {code: 41}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - GShiras
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RWPeckham
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - GShiras
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true

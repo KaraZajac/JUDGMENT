@@ -1,0 +1,63 @@
+id: 1804-009
+name: LITTLE et al. v. BARREME et al.
+term: 1804
+chief: Marshall
+natural_court: 401
+citation:
+  us: 6 U.S. 170
+  led: 2 L. Ed. 243
+  lexis: 1804 U.S. LEXIS 255
+dates:
+  argued: '1801-12-16'
+  decided: '1804-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 0
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, February 6, 1799, vol. 4, p. 244
+authority:
+- statutory-construction
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 80}
+  source: {code: 418}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 186}
+  respondent: {code: 159}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WPaterson
+  participated: false
+- justice: SChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true

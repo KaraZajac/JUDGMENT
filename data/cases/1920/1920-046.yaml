@@ -1,0 +1,79 @@
+id: 1920-046
+name: ARNDSTEIN v. MCCARTHY, UNITED STATES MARSHAL FOR THE SOUTHERN DISTRICT OF NEW YORK
+term: 1920
+chief: White
+natural_court: 905
+docket: '575'
+citation:
+  us: 254 U.S. 71
+  sct: 41 S. Ct. 26
+  led: 65 L. Ed. 138
+  lexis: 1920 U.S. LEXIS 1239
+dates:
+  argued: '1920-10-21'
+  decided: '1920-11-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 10090, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 210
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 110}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 1910-160
+name: CARPENTER v. WINN
+term: 1910
+chief: White
+natural_court: 901
+docket: '135'
+citation:
+  us: 221 U.S. 533
+  sct: 31 S. Ct. 683
+  led: 55 L. Ed. 842
+  lexis: 1911 U.S. LEXIS 1754
+dates:
+  argued: '1911-04-20'
+  decided: '1911-05-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 50040, area: privacy}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: pretrial inspection of books
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 426}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 137}
+  respondent: {code: 174}
+opinions:
+  majority_author: HHLurton
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHLurton
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: liberal
+  in_majority: true

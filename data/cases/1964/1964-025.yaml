@@ -1,0 +1,83 @@
+id: 1964-025
+name: CALIFORNIA et al. v. LO-VACA GATHERING CO. et al.
+term: 1964
+chief: Warren
+natural_court: 1408
+docket: '46'
+citation:
+  us: 379 U.S. 366
+  sct: 85 S. Ct. 486
+  led: 13 L. Ed. 2d 357
+  lexis: 1965 U.S. LEXIS 2229
+dates:
+  argued: '1964-11-17'
+  decided: '1965-01-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80310, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 355
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 25}
+  source: {code: 25}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 6}
+  respondent: {code: 198}
+admin_action: {agency: 52}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  participated: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  direction: liberal
+  in_majority: true

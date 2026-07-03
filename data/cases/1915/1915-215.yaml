@@ -1,0 +1,78 @@
+id: 1915-215
+name: NORTHERN PACIFIC RAILWAY CO. v. WALL, ADMINISTRATOR
+term: 1915
+chief: White
+natural_court: 903
+docket: '350'
+citation:
+  us: 241 U.S. 87
+  sct: 36 S. Ct. 493
+  led: 60 L. Ed. 905
+  lexis: 1916 U.S. LEXIS 1804
+dates:
+  argued: '1915-12-01'
+  decided: '1916-04-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 80070, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 31}
+  source: {code: 300, state: 31}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 174}
+opinions:
+  majority_author: WVanDevanter
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JCMcReynolds
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

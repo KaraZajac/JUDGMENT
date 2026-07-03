@@ -1,0 +1,88 @@
+id: 1988-051
+name: BARNARD, CHAIRMAN OF THE COMMITTEE OF BAR EXAMINERS OF THE VIRGIN ISLANDS v. THORSTENN et al.
+term: 1988
+chief: Rehnquist
+natural_court: 1603
+docket: 87-1939
+citation:
+  us: 489 U.S. 546
+  sct: 109 S. Ct. 1294
+  led: 103 L. Ed. 2d 559
+  lexis: 1989 U.S. LEXIS 1241
+dates:
+  argued: '1989-01-11'
+  decided: '1989-03-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20220, area: civil-rights}
+law:
+  type: constitution
+  supp: 144
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 125}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 54}
+  respondent: {code: 111}
+admin_action: {agency: 117, state: 54}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

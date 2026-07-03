@@ -1,0 +1,80 @@
+id: 1901-153
+name: CHIN BAK KAN v. UNITED STATES
+term: 1901
+chief: Fuller
+natural_court: 808
+docket: '525'
+citation:
+  us: 186 U.S. 193
+  sct: 22 S. Ct. 891
+  led: 46 L. Ed. 1121
+  lexis: 1902 U.S. LEXIS 886
+dates:
+  argued: '1902-03-13'
+  decided: '1902-06-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 20110, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 27 SAL 25, chap. 60
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 95}
+  source: {code: 95}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 27}
+admin_action: {agency: 21}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  participated: false
+- justice: DJBrewer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true

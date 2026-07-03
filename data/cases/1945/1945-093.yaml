@@ -1,0 +1,86 @@
+id: 1945-093
+name: BOUTELL et al., DOING BUSINESS AS F. J. BOUTELL SERVICE CO., v. WALLING, WAGE AND HOUR ADMINISTRATOR
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '73'
+citation:
+  us: 327 U.S. 463
+  sct: 66 S. Ct. 631
+  led: 90 L. Ed. 786
+  lexis: 1946 U.S. LEXIS 3036
+dates:
+  argued: '1945-10-09'
+  decided: '1946-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 334
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 81}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 371}
+admin_action: {agency: 66}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

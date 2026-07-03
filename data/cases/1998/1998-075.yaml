@@ -1,0 +1,91 @@
+id: 1998-075
+name: NATIONAL AERONAUTICS AND SPACE ADMINISTRATION, ETC., et al. v. FEDERAL LABOR RELATIONS AUTHORITY et al.
+term: 1998
+chief: Rehnquist
+natural_court: 1607
+docket: 98-369
+citation:
+  us: 527 U.S. 229
+  sct: 119 S. Ct. 1979
+  led: 144 L. Ed. 2d 258
+  lexis: 1999 U.S. LEXIS 4190
+dates:
+  argued: '1999-03-23'
+  decided: '1999-06-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70170, area: unions}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 5 U.S.C. § 7114
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 31}
+  source: {code: 31}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 376}
+  respondent: {code: 347}
+admin_action: {agency: 76}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

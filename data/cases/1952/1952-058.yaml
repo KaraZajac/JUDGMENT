@@ -1,0 +1,87 @@
+id: 1952-058
+name: NATIONAL LABOR RELATIONS BOARD v. ROCKAWAY NEWS SUPPLY CO., INC.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '318'
+citation:
+  us: 345 U.S. 71
+  sct: 73 S. Ct. 519
+  led: 97 L. Ed. 2d 832
+  lexis: 1953 U.S. LEXIS 2618
+dates:
+  argued: '1953-01-14'
+  decided: '1953-03-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 70140, area: unions}
+law:
+  type: federal-statute
+  supp: 350
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  disposition: vacated
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 151}
+admin_action: {agency: 82}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

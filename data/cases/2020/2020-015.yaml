@@ -1,0 +1,95 @@
+id: 2020-015
+name: FULTON v. CITY OF PHILADELPHIA, PENNSYLVANIA
+term: 2020
+chief: Roberts
+natural_court: 1709
+docket: 19-123
+citation:
+  sct: 141 S. Ct. 1868
+  led: 210 L. Ed. 2d 137
+  lexis: 2021 U.S. LEXIS 3121
+dates:
+  argued: '2020-11-04'
+  decided: '2021-06-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20130, area: civil-rights}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 109}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 130}
+  respondent: {code: 3}
+  respondent_state: {code: 45}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SAAlito
+  - NMGorsuch
+- justice: SGBreyer
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: SAAlito
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - NMGorsuch
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: BMKavanaugh
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: ACBarrett
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

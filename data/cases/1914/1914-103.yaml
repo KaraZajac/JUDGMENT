@@ -1,0 +1,89 @@
+id: 1914-103
+name: CUMBERLAND GLASS MANUFACTURING COMPANY v. DE WITT AND COMPANY
+term: 1914
+chief: White
+natural_court: 903
+docket: '191'
+citation:
+  us: 237 U.S. 447
+  sct: 35 S. Ct. 636
+  led: 59 L. Ed. 1042
+  lexis: 1915 U.S. LEXIS 1353
+dates:
+  argued: '1915-03-10'
+  decided: '1915-05-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90460, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 300, state: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 114}
+opinions:
+  majority_author: WRDay
+  majority_assigner: JMcKenna
+votes:
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite

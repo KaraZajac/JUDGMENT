@@ -1,0 +1,73 @@
+id: 1869-112
+name: UNITED STATES v. MERRILL
+term: 1869
+chief: Chase
+natural_court: 601
+citation:
+  us: 76 U.S. 614
+  led: 19 L. Ed. 664
+  lexis: 1869 U.S. LEXIS 1007
+dates:
+  argued: '1870-03-04'
+  decided: '1870-03-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 20240, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, March 3, 1865, sec. 4
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 186}
+opinions:
+  majority_author: NClifford
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  participated: false

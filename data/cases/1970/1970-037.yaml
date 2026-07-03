@@ -1,0 +1,86 @@
+id: 1970-037
+name: BOYLE, JUDGE, et al. v. LANDRY et al.
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '4'
+citation:
+  us: 401 U.S. 77
+  sct: 91 S. Ct. 758
+  led: 27 L. Ed. 2d 696
+  lexis: 1971 U.S. LEXIS 84
+dates:
+  argued: '1969-03-24'
+  reargued: '1969-04-29'
+  decided: '1971-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 90030, area: judicial-power}
+law:
+  type: other
+  supp: 500
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 66}
+  source: {code: 66}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 17}
+  respondent: {code: 222}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HLBlack
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true

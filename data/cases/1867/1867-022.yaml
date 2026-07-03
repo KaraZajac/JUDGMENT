@@ -1,0 +1,80 @@
+id: 1867-022
+name: RIGGS v. JOHNSON COUNTY
+term: 1867
+chief: Chase
+natural_court: 601
+citation:
+  us: 73 U.S. 166
+  led: 18 L. Ed. 768
+  lexis: 1867 U.S. LEXIS 954
+dates:
+  argued: '1867-12-16'
+  decided: '1868-01-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 100110, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 412}
+  source: {code: 412}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 5}
+  respondent_state: {code: 19}
+opinions:
+  majority_author: NClifford
+  majority_assigner: SNelson
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

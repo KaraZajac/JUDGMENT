@@ -1,0 +1,79 @@
+id: 1940-144
+name: UNITED STATES v. CLASSIC et al.
+term: 1940
+chief: Hughes
+natural_court: 1108
+docket: '618'
+citation:
+  us: 313 U.S. 299
+  sct: 61 S. Ct. 1031
+  led: 85 L. Ed. 1368
+  lexis: 1941 U.S. LEXIS 601
+dates:
+  argued: '1941-04-07'
+  decided: '1941-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 20010, area: civil-rights}
+law:
+  type: constitution
+  supp: 104
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 75}
+  source: {code: 75}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: HFStone
+  majority_assigner: HFStone
+votes:
+- justice: CEHughes2
+  participated: false
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WODouglas

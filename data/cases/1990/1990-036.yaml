@@ -1,0 +1,86 @@
+id: 1990-036
+name: MARK E. DENNIS v. MARGARET L. HIGGINS, DIRECTOR, NEBRASKA DEPARTMENT OF MOTOR VEHICLES, et al.
+term: 1990
+chief: Rehnquist
+natural_court: 1604
+docket: 89-1555
+citation:
+  us: 498 U.S. 439
+  sct: 111 S. Ct. 865
+  led: 112 L. Ed. 2d 969
+  lexis: 1991 U.S. LEXIS 1142
+dates:
+  argued: '1990-10-31'
+  decided: '1991-02-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20400, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 314
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 302, state: 32}
+  source: {code: 300, state: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 32}
+  respondent: {code: 28}
+  respondent_state: {code: 32}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: BRWhite
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AMKennedy
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 1902-195
+name: WESTERN UNION TELEGRAPH COMPANY v. BOROUGH OF NEW HOPE
+term: 1902
+chief: Fuller
+natural_court: 809
+docket: '101'
+citation:
+  us: 187 U.S. 419
+  sct: 23 S. Ct. 204
+  led: 47 L. Ed. 240
+  lexis: 1903 U.S. LEXIS 1659
+dates:
+  argued: '1902-12-02'
+  decided: '1903-01-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 301, state: 45}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 205}
+  respondent: {code: 3}
+  respondent_state: {code: 45}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: RWPeckham
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JMcKenna
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true

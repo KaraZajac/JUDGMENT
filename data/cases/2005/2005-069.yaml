@@ -1,0 +1,91 @@
+id: 2005-069
+name: JOHN A. RAPANOS, ET UX., et al. v. UNITED STATES
+term: 2005
+chief: Roberts
+natural_court: 1702
+docket: 04-1034
+citation:
+  us: 547 U.S. 715
+  sct: 126 S. Ct. 2208
+  led: 165 L. Ed. 2d 159
+  lexis: 2006 U.S. LEXIS 4887
+dates:
+  argued: '2006-02-21'
+  decided: '2006-06-19'
+decision:
+  type: judgment-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80130, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 338
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 81}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 27}
+admin_action: {agency: 6}
+opinions:
+  majority_author: AScalia
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AScalia
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true

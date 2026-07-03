@@ -1,0 +1,71 @@
+id: 1867-120
+name: UNITED STATES v. COOK
+term: 1867
+chief: Chase
+natural_court: 601
+docket: '102'
+citation:
+  us: 154 U.S. 555
+  led: 18 L. Ed. 835
+  lexis: 1868 U.S. LEXIS 1072
+dates:
+  argued: '1868-02-12'
+  decided: '1868-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 10330, area: criminal-procedure}
+authority:
+- supervisory
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 428}
+  source: {code: 428}
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 501}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true

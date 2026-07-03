@@ -1,0 +1,93 @@
+id: 2000-022
+name: BOARD OF TRUSTEES OF THE UNIVERSITY OF ALABAMA, et al., v. PATRICIA GARRETT, et al.
+term: 2000
+chief: Rehnquist
+natural_court: 1607
+docket: 99-1240
+citation:
+  us: 531 U.S. 356
+  sct: 121 S. Ct. 955
+  led: 148 L. Ed. 2d 866
+  lexis: 2001 U.S. LEXIS 1700
+dates:
+  argued: '2000-10-11'
+  decided: '2001-02-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100120, area: federalism}
+law:
+  type: constitutional-amendment
+  supp: 224
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 42}
+  source: {code: 31}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 26}
+  petitioner_state: {code: 1}
+  respondent: {code: 8}
+  respondent_state: {code: 1}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SDOConnor
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AMKennedy
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,88 @@
+id: 1996-051
+name: JANET RENO, ATTORNEY GENERAL v. BOSSIER PARISH SCHOOL BOARD et al.
+term: 1996
+chief: Rehnquist
+natural_court: 1607
+docket: 95-1455
+citation:
+  us: 520 U.S. 471
+  sct: 117 S. Ct. 1491
+  led: 137 L. Ed. 2d 730
+  lexis: 1997 U.S. LEXIS 2845
+dates:
+  argued: '1996-12-09'
+  decided: '1997-05-12'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20020, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 378
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 21}
+  respondent_state: {code: 22}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

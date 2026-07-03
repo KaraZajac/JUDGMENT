@@ -1,0 +1,81 @@
+id: 1927-174
+name: DONNELLEY v. UNITED STATES
+term: 1927
+chief: Taft
+natural_court: 1005
+docket: '110'
+citation:
+  us: 276 U.S. 505
+  sct: 48 S. Ct. 400
+  led: 72 L. Ed. 676
+  lexis: 1928 U.S. LEXIS 95
+dates:
+  argued: '1927-11-22'
+  reargued: '1928-01-19'
+  decided: '1928-04-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10510, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Mann Act
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 90}
+  source: {code: 29}
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: PButler
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

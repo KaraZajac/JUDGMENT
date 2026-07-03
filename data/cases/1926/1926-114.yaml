@@ -1,0 +1,86 @@
+id: 1926-114
+name: MAUL v. UNITED STATES
+term: 1926
+chief: Taft
+natural_court: 1005
+docket: '655'
+citation:
+  us: 274 U.S. 501
+  sct: 47 S. Ct. 735
+  led: 71 L. Ed. 1171
+  lexis: 1927 U.S. LEXIS 624
+dates:
+  argued: '1927-01-19'
+  decided: '1927-05-31'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80230, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Revised Stats 3072, 4337, 4377 (seizure on high seas)
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 53}
+  source: {code: 22}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 27}
+admin_action: {agency: 108}
+opinions:
+  majority_author: WVanDevanter
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - LDBrandeis
+- justice: WVanDevanter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

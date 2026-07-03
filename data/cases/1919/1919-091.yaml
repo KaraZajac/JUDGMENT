@@ -1,0 +1,87 @@
+id: 1919-091
+name: CINCINNATI, CONVINGTON & ERLANGER RAILWAY COMPANY v. COMMONWEALTH OF KENTUCKY
+term: 1919
+chief: White
+natural_court: 905
+docket: '253'
+citation:
+  us: 252 U.S. 408
+  sct: 40 S. Ct. 381
+  led: 64 L. Ed. 637
+  lexis: 1920 U.S. LEXIS 1518
+dates:
+  argued: '1920-03-18'
+  decided: '1920-04-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20040, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 21}
+  source: {code: 300, state: 21}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 28}
+  respondent_state: {code: 21}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WRDay
+- justice: MPitney
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WRDay
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: conservative
+  in_majority: true

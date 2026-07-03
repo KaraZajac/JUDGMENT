@@ -1,0 +1,90 @@
+id: 2020-056
+name: AMERICANS FOR PROSPERITY FOUNDATION v. BONTA
+term: 2020
+chief: Roberts
+natural_court: 1709
+docket: 19-251
+citation:
+  sct: 141 S. Ct. 2373
+  led: 210 L. Ed. 2d 716
+  lexis: 2021 U.S. LEXIS 3569
+dates:
+  argued: '2021-04-26'
+  decided: '2021-07-01'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 201
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 192}
+  respondent: {code: 7}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: SAAlito
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: NMGorsuch
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: liberal
+  in_majority: true

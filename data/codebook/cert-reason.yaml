@@ -1,0 +1,39 @@
+- code: 1
+  token: not-cert
+  label: case did not arise on cert or cert not granted
+- code: 2
+  token: federal-court-conflict
+  label: federal court conflict
+- code: 3
+  token: federal-conflict-and-important-question
+  label: federal court conflict and to resolve important or significant question
+- code: 4
+  token: putative-conflict
+  label: putative conflict
+- code: 5
+  token: federal-state-conflict
+  label: conflict between federal court and state court
+- code: 6
+  token: state-court-conflict
+  label: state court conflict
+- code: 7
+  token: federal-court-confusion
+  label: federal court confusion or uncertainty
+- code: 8
+  token: state-court-confusion
+  label: state court confusion or uncertainty
+- code: 9
+  token: federal-and-state-confusion
+  label: federal court and state court confusion or uncertainty
+- code: 10
+  token: to-resolve-important-question
+  label: to resolve important or significant question
+- code: 11
+  token: to-resolve-question-presented
+  label: to resolve question presented
+- code: 12
+  token: no-reason-given
+  label: no reason given
+- code: 13
+  token: other-reason
+  label: other reason

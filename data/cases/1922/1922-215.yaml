@@ -1,0 +1,83 @@
+id: 1922-215
+name: SONNEBORN BROTHERS v. CURETON, ATTORNEY GENERAL OF THE STATE OF TEXAS, et al.
+term: 1922
+chief: Taft
+natural_court: 1004
+docket: '20'
+citation:
+  us: 262 U.S. 506
+  sct: 43 S. Ct. 643
+  led: 67 L. Ed. 1095
+  lexis: 1923 U.S. LEXIS 2667
+dates:
+  argued: '1922-03-24'
+  reargued: '1922-10-05'
+  decided: '1923-06-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 122}
+  source: {code: 122}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 51}
+  respondent: {code: 19}
+  respondent_state: {code: 51}
+admin_action: {agency: 117, state: 51}
+opinions:
+  majority_author: WHTaft
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  participated: false

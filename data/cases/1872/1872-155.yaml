@@ -1,0 +1,86 @@
+id: 1872-155
+name: LAPEYRE v. UNITED STATES
+term: 1872
+chief: Chase
+natural_court: 603
+citation:
+  us: 84 U.S. 191
+  led: 21 L. Ed. 606
+  lexis: 1872 U.S. LEXIS 1324
+dates:
+  argued: '1873-01-14'
+  decided: '1873-04-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Presidential Proclamation of June 24, 1865
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 27}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHunt
+- justice: DDavis
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHunt
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHunt

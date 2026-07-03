@@ -1,0 +1,95 @@
+id: 1995-068
+name: GEORGE W. BUSH, GOVERNOR OF TEXAS, et al. v. AL VERA et al.
+term: 1995
+chief: Rehnquist
+natural_court: 1607
+docket: 94-805
+citation:
+  us: 517 U.S. 952
+  sct: 116 S. Ct. 1941
+  led: 135 L. Ed. 2d 248
+  lexis: 1996 U.S. LEXIS 3882
+dates:
+  argued: '1995-12-05'
+  decided: '1996-06-13'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20090, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 121}
+  source: {code: 121}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 51}
+  respondent: {code: 251}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+  - DHSouter
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+  - DHSouter

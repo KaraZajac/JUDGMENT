@@ -1,0 +1,80 @@
+id: 1872-154
+name: DAVIS v. GRAY
+term: 1872
+chief: Chase
+natural_court: 603
+citation:
+  us: 83 U.S. 203
+  led: 21 L. Ed. 447
+  lexis: 1872 U.S. LEXIS 1151
+dates:
+  argued: '1872-01-10'
+  decided: '1873-04-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90330, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 434}
+  source: {code: 434}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 51}
+  respondent: {code: 114}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: NClifford
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - DDavis
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  participated: false

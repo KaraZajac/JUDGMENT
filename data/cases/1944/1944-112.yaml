@@ -1,0 +1,86 @@
+id: 1944-112
+name: WALLING, ADMINISTRATOR OF THE WAGE AND HOUR DIVISION, U.S. DEPARTMENT OF LABOR, v. HARNISCHFEGER CORPORATION
+term: 1944
+chief: Stone
+natural_court: 1202
+docket: '956'
+citation:
+  us: 325 U.S. 427
+  sct: 65 S. Ct. 1246
+  led: 89 L. Ed. 1711
+  lexis: 1945 U.S. LEXIS 2677
+dates:
+  argued: '1945-05-01'
+  decided: '1945-06-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 70040, area: unions}
+law:
+  type: federal-statute
+  supp: 334
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 132}
+  source: {code: 27}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 371}
+  respondent: {code: 151}
+admin_action: {agency: 71}
+opinions:
+  majority_author: FMurphy
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HFStone
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

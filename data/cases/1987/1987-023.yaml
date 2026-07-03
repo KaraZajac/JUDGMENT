@@ -1,0 +1,81 @@
+id: 1987-023
+name: CARNEGIE-MELLON UNIVERSITY et al. v. COHILL, JUDGE, UNITED STATES DISTRICT COURT FOR THE WESTERN DISTRICT
+  OF PENNSYLVANIA, et al.
+term: 1987
+chief: Rehnquist
+natural_court: 1602
+docket: 86-1021
+citation:
+  us: 484 U.S. 343
+  sct: 108 S. Ct. 614
+  led: 98 L. Ed. 2d 720
+  lexis: 1988 U.S. LEXIS 449
+dates:
+  argued: '1987-11-10'
+  decided: '1988-01-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90320, area: judicial-power}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 111}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 232}
+  respondent: {code: 16}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite

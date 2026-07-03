@@ -1,0 +1,89 @@
+id: 1999-031
+name: HAROLD F. RICE v. BENJAMIN J. CAYETANO, GOVERNOR OF HAWAII
+term: 1999
+chief: Rehnquist
+natural_court: 1607
+docket: 98-818
+citation:
+  us: 528 U.S. 495
+  sct: 120 S. Ct. 1044
+  led: 145 L. Ed. 2d 1007
+  lexis: 2000 U.S. LEXIS 1538
+dates:
+  argued: '1999-10-06'
+  decided: '2000-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20010, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 233
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 63}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 251}
+  respondent: {code: 28}
+  respondent_state: {code: 15}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: SGBreyer
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

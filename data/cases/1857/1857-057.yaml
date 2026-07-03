@@ -1,0 +1,87 @@
+id: 1857-057
+name: JOHN R. IRVINE, APPELLANT, v. WILLIAM R. MARSHALL AND THOMAS BARTON
+term: 1857
+chief: Taney
+natural_court: 511
+citation:
+  us: 61 U.S. 558
+  led: 15 L. Ed. 994
+  lexis: 1857 U.S. LEXIS 487
+dates:
+  argued: '1858-04-15'
+  decided: '1858-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90120, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 17, state: 28}
+  source: {code: 15, state: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+admin_action: {agency: 123}
+opinions:
+  majority_author: PVDaniel
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SNelson
+- justice: PVDaniel
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RCGrier
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SNelson
+- justice: JACampbell
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SNelson
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true

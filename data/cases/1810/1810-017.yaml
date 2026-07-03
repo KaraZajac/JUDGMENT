@@ -1,0 +1,67 @@
+id: 1810-017
+name: CUSTISS v. THE GEORGETOWN AND ALEXANDRIA TURNPIKE COMPANY
+term: 1810
+chief: Marshall
+natural_court: 404
+citation:
+  us: 10 U.S. 233
+  led: 3 L. Ed. 209
+  lexis: 1810 U.S. LEXIS 335
+dates:
+  argued: '1810-03-03'
+  decided: '1810-03-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 90320, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: construction of turnpike road
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 440}
+  source: {code: 440}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 120}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WCushing
+  participated: false
+- justice: SChase
+  participated: false
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  direction: conservative
+  in_majority: true

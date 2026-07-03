@@ -1,0 +1,85 @@
+id: 2024-055
+name: KENNEDY v. BRAIDWOOD MANAGEMENT
+term: 2024
+chief: Roberts
+natural_court: 1710
+docket: 24-316
+citation:
+  sct: 145 S. Ct. 2427
+  led: 222 L. Ed. 2d 867
+  lexis: 2025 U.S. LEXIS 1004
+dates:
+  argued: '2025-04-21'
+  decided: '2025-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80350, area: economic-activity}
+law:
+  type: constitution
+  supp: 135
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 120}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 363}
+  respondent: {code: 122}
+opinions:
+  majority_author: BMKavanaugh
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: BMKavanaugh
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: KBJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,81 @@
+id: 1876-149
+name: DOYLE v. CONTINENTAL INSURANCE COMPANY
+term: 1876
+chief: Waite
+natural_court: 701
+docket: '910'
+citation:
+  us: 94 U.S. 535
+  led: 24 L. Ed. 148
+  lexis: 1876 U.S. LEXIS 1903
+dates:
+  decided: '1877-03-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 143
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 438}
+  source: {code: 438}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 58}
+  respondent: {code: 171}
+admin_action: {agency: 117, state: 58}
+opinions:
+  majority_author: WHunt
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WHunt
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,90 @@
+id: 1968-014
+name: COMMONWEALTH COATINGS CORP. v. CONTINENTAL CASUALTY CO. et al.
+term: 1968
+chief: Warren
+natural_court: 1410
+docket: '14'
+citation:
+  us: 393 U.S. 145
+  sct: 89 S. Ct. 337
+  led: 21 L. Ed. 2d 301
+  lexis: 1968 U.S. LEXIS 277
+dates:
+  argued: '1968-10-22'
+  decided: '1968-11-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80160, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 9 U.S.C. § 10
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 112}
+  source: {code: 21}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 120}
+  respondent: {code: 120}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AFortas
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AFortas
+- justice: TMarshall
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

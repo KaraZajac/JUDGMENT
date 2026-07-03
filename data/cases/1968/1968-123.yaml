@@ -1,0 +1,83 @@
+id: 1968-123
+name: JENKINS v. MCKEITHEN, GOVERNOR OF LOUISIANA, et al.
+term: 1968
+chief: Warren
+natural_court: 1411
+docket: '548'
+citation:
+  us: 395 U.S. 411
+  sct: 89 S. Ct. 1843
+  led: 23 L. Ed. 2d 404
+  lexis: 1969 U.S. LEXIS 3175
+dates:
+  argued: '1969-03-25'
+  decided: '1969-06-09'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90210, area: judicial-power}
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 75}
+  source: {code: 75}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 247}
+  respondent: {code: 19}
+  respondent_state: {code: 22}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: TMarshall
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: TMarshall
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true

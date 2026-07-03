@@ -1,0 +1,80 @@
+id: 1974-054
+name: UNITED STATES et al. v. NEW JERSEY STATE LOTTERY COMMISSION
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-1471
+citation:
+  us: 420 U.S. 371
+  sct: 95 S. Ct. 941
+  led: 43 L. Ed. 2d 260
+  lexis: 1975 U.S. LEXIS 39
+dates:
+  argued: '1974-11-20'
+  decided: '1975-02-25'
+decision:
+  type: per-curiam-argued
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 90130, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: putative-conflict
+lower_court:
+  origin: {code: 23}
+  source: {code: 23}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 4}
+  respondent_state: {code: 35}
+admin_action: {agency: 38}
+opinions:
+  majority_assigner: WJBrennan
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  participated: false
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

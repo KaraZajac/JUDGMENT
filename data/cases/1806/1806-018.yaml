@@ -1,0 +1,64 @@
+id: 1806-018
+name: THE UNITED STATES v. HETH
+term: 1806
+chief: Marshall
+natural_court: 402
+citation:
+  us: 7 U.S. 399
+  led: 2 L. Ed. 479
+  lexis: 1806 U.S. LEXIS 344
+dates:
+  argued: '1806-02-21'
+  decided: '1806-02-27'
+decision:
+  type: seriatim
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 0
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Act  of Congress of May 10, 1800
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 436}
+  source: {code: 436}
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 369}
+opinions:
+  majority_assigner: WCushing
+votes:
+- justice: JMarshall
+  participated: false
+- justice: WCushing
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WPaterson
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SChase
+  participated: false
+- justice: BWashington
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

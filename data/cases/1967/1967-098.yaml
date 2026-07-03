@@ -1,0 +1,86 @@
+id: 1967-098
+name: In re RUFFALO
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '73'
+citation:
+  us: 390 U.S. 544
+  sct: 88 S. Ct. 1222
+  led: 20 L. Ed. 2d 117
+  lexis: 1968 U.S. LEXIS 2000
+dates:
+  argued: '1968-03-04'
+  decided: '1968-04-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 60030, area: attorneys}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 26}
+  source: {code: 26}
+  disposition: granted
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 111}
+  respondent: {code: 28}
+  respondent_state: {code: 41}
+admin_action: {agency: 117, state: 41}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  participated: false
+- justice: TMarshall
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

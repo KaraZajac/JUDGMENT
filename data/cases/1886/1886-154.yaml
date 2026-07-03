@@ -1,0 +1,85 @@
+id: 1886-154
+name: ROSENBAUM v. BAUER
+term: 1886
+chief: Waite
+natural_court: 706
+docket: '1199'
+citation:
+  us: 120 U.S. 450
+  sct: 7 S. Ct. 633
+  led: 30 L. Ed. 743
+  lexis: 1887 U.S. LEXIS 1990
+dates:
+  decided: '1887-03-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90330, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 3/3/75 sec, 716
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 405}
+  source: {code: 405}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 3}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: SBlatchford
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: WBWoods
+  participated: false
+- justice: SMatthews
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

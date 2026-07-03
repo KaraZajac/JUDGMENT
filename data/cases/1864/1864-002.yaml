@@ -1,0 +1,72 @@
+id: 1864-002
+name: MILES v. CALDWELL
+term: 1864
+chief: Chase
+natural_court: 601
+citation:
+  us: 69 U.S. 35
+  led: 17 L. Ed. 755
+  lexis: 1864 U.S. LEXIS 405
+dates:
+  argued: '1864-12-08'
+  decided: '1865-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 140040, area: private-action}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 422}
+  source: {code: 422}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  in_majority: true
+- justice: JCatron
+  participated: false
+- justice: SNelson
+  vote: majority
+  in_majority: true
+- justice: RCGrier
+  vote: regular-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: DDavis
+  participated: false
+- justice: SJField
+  vote: majority
+  in_majority: true

@@ -1,0 +1,74 @@
+id: 1861-030
+name: CARONDELET VS. SAINT LOUIS
+term: 1861
+chief: Taney
+natural_court: 512
+citation:
+  us: 66 U.S. 179
+  led: 17 L. Ed. 102
+  lexis: 1861 U.S. LEXIS 468
+dates:
+  argued: '1861-03-06'
+  reargued: '1861-12-11'
+  decided: '1862-02-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 2 Statutes at Large 748
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 30}
+  respondent: {code: 3}
+  respondent_state: {code: 30}
+opinions:
+  majority_author: JCatron
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  participated: false
+- justice: JCatron
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true

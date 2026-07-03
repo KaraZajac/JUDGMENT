@@ -1,0 +1,89 @@
+id: 1985-126
+name: INTERNATIONAL UNION, UNITED AUTOMOBILE, AEROSPACE, AND AGRICULTURAL IMPLEMENT WORKERS OF AMERICA, et al. v.
+  BROCK, SECRETARY OF LABOR
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 84-1777
+citation:
+  us: 477 U.S. 274
+  sct: 106 S. Ct. 2523
+  led: 91 L. Ed. 2d 228
+  lexis: 1986 U.S. LEXIS 116
+dates:
+  argued: '1986-03-25'
+  decided: '1986-06-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90240, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 371}
+admin_action: {agency: 71}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

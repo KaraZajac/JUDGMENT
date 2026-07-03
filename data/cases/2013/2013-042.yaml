@@ -1,0 +1,95 @@
+id: 2013-042
+name: TOWN OF GREECE v. GALLOWAY
+term: 2013
+chief: Roberts
+natural_court: 1704
+docket: 12-696
+citation:
+  us: 572 U.S. 565
+  sct: 134 S. Ct. 1811
+  led: 188 L. Ed. 2d 835
+  lexis: 2014 U.S. LEXIS 3110
+dates:
+  argued: '2013-11-06'
+  decided: '2014-05-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30170, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 203
+authority:
+- federal-common-law
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 97}
+  source: {code: 22}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 37}
+  respondent: {code: 227}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SAAlito
+  - CThomas
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EKagan
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EKagan
+- justice: SAAlito
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EKagan
+- justice: EKagan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

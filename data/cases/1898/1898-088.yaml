@@ -1,0 +1,82 @@
+id: 1898-088
+name: OHIO v. THOMAS
+term: 1898
+chief: Fuller
+natural_court: 808
+docket: '353'
+citation:
+  us: 173 U.S. 276
+  sct: 19 S. Ct. 453
+  led: 43 L. Ed. 699
+  lexis: 1899 U.S. LEXIS 1437
+dates:
+  argued: '1899-01-10'
+  decided: '1899-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 100050, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 428}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 41}
+  respondent: {code: 19}
+  respondent_state: {code: 41}
+admin_action: {agency: 117, state: 41}
+opinions:
+  majority_author: RWPeckham
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  participated: false
+- justice: JHarlan1
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true

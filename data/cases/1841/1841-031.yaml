@@ -1,0 +1,84 @@
+id: 1841-031
+name: MOSES GROVES AND JAMES GRAHAM, PLAINTIFFS IN ERROR, v. ROBERT SLAUGHTER, DEFENDANT IN ERROR
+term: 1841
+chief: Taney
+natural_court: 504
+citation:
+  us: 40 U.S. 449
+  led: 10 L. Ed. 800
+  lexis: 1841 U.S. LEXIS 278
+dates:
+  argued: '1841-02-12'
+  decided: '1841-03-10'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 20075, area: civil-rights}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 415}
+  source: {code: 415}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 123}
+  respondent: {code: 233}
+opinions:
+  majority_author: SThompson
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBTaney
+- justice: SThompson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - RBTaney
+- justice: JMcLean
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBaldwin
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+  joined:
+  - RBTaney
+- justice: JCatron
+  participated: false
+- justice: JMcKinley
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBTaney

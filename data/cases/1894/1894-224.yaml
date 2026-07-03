@@ -1,0 +1,81 @@
+id: 1894-224
+name: NEW YORK, LAKE ERIE & WESTERN RAILROAD COMPANY v. PENNSYLVANIA
+term: 1894
+chief: Fuller
+natural_court: 806
+docket: '263'
+citation:
+  us: 158 U.S. 431
+  sct: 15 S. Ct. 896
+  led: 39 L. Ed. 1043
+  lexis: 1895 U.S. LEXIS 2268
+dates:
+  argued: '1895-04-05'
+  decided: '1895-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 28}
+  respondent_state: {code: 45}
+admin_action: {agency: 117, state: 45}
+opinions:
+  majority_author: GShiras
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HEJackson
+  participated: false
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true

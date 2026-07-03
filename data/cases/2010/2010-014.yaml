@@ -1,0 +1,83 @@
+id: 2010-014
+name: ERIC L. THOMPSON, PETITIONER v. NORTH AMERICAN STAINLESS, LP
+term: 2010
+chief: Roberts
+natural_court: 1704
+docket: 09-291
+citation:
+  us: 562 U.S. 170
+  sct: 131 S. Ct. 863
+  led: 178 L. Ed. 2d 694
+  lexis: 2011 U.S. LEXIS 913
+dates:
+  argued: '2010-12-07'
+  decided: '2011-01-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 20060, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 384
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 73}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 151}
+admin_action: {agency: 32}
+opinions:
+  majority_author: AScalia
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - RBGinsburg
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  participated: false

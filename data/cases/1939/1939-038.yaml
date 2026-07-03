@@ -1,0 +1,82 @@
+id: 1939-038
+name: OKLAHOMA PACKING CO. et al. v. OKLAHOMA GAS & ELECTRIC CO.
+term: 1939
+chief: Hughes
+natural_court: 1107
+docket: '19'
+citation:
+  us: 309 U.S. 4
+  sct: 60 S. Ct. 215
+  led: 84 L. Ed. 537
+  lexis: 1940 U.S. LEXIS 1044
+dates:
+  argued: '1939-10-17'
+  decided: '1940-01-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90420, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 107}
+  source: {code: 30}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 148}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - CEHughes2
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - CEHughes2
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true

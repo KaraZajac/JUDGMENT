@@ -1,0 +1,81 @@
+id: 1920-222
+name: UNITED STATES v. STRANG et al.
+term: 1920
+chief: White
+natural_court: 905
+docket: '206'
+citation:
+  us: 254 U.S. 491
+  sct: 41 S. Ct. 165
+  led: 65 L. Ed. 368
+  lexis: 1921 U.S. LEXIS 1892
+dates:
+  argued: '1920-12-09'
+  decided: '1921-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 10400, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: federal xonspiracy law
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 58}
+  source: {code: 58}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  direction: conservative
+  in_majority: false

@@ -1,0 +1,89 @@
+id: 2020-013
+name: BORDEN v. UNITED STATES
+term: 2020
+chief: Roberts
+natural_court: 1709
+docket: 19-5410
+citation:
+  sct: 141 S. Ct. 1817
+  led: 210 L. Ed. 2d 63
+  lexis: 2021 U.S. LEXIS 2990
+dates:
+  argued: '2020-11-03'
+  decided: '2021-06-10'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10440, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Armed Career Criminal Act, 18 U.S.C. 924
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 116}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: EKagan
+  majority_assigner: CThomas
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: ACBarrett
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BMKavanaugh

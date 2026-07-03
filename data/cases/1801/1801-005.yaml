@@ -1,0 +1,67 @@
+id: 1801-005
+name: UNITED STATES v. SCHOONER PEGGY
+term: 1801
+chief: Marshall
+natural_court: 401
+citation:
+  us: 5 U.S. 103
+  led: 2 L. Ed. 49
+  lexis: 1801 U.S. LEXIS 118
+dates:
+  argued: '1801-12-14'
+  decided: '1801-12-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80230, area: economic-activity}
+law:
+  type: other
+  supp: 509
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 53}
+  source: {code: 406}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 116}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WPaterson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMoore
+  vote: majority
+  direction: liberal
+  in_majority: true

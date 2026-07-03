@@ -1,0 +1,85 @@
+id: 1938-050
+name: MULFORD et al. v. SMITH et al.
+term: 1938
+chief: Hughes
+natural_court: 1107
+docket: '505'
+citation:
+  us: 307 U.S. 38
+  sct: 59 S. Ct. 648
+  led: 83 L. Ed. 1092
+  lexis: 1939 U.S. LEXIS 1080
+dates:
+  argued: '1939-03-08'
+  decided: '1939-04-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80350, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Agricultural Adjustment Act of 1938, 7 USCU ss 1281
+authority:
+- statutory-construction
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 59}
+  source: {code: 59}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 152}
+  respondent: {code: 145}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PButler
+- justice: PButler
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  participated: false

@@ -1,0 +1,88 @@
+id: 1900-060
+name: DOOLEY v. UNITED STATES
+term: 1900
+chief: Fuller
+natural_court: 808
+docket: '501'
+citation:
+  us: 182 U.S. 222
+  sct: 21 S. Ct. 762
+  led: 45 L. Ed. 1074
+  lexis: 1901 U.S. LEXIS 1227
+dates:
+  argued: '1901-01-08'
+  decided: '1901-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 234}
+  respondent: {code: 27}
+admin_action: {agency: 21}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - EDEWhite

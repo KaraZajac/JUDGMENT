@@ -1,0 +1,84 @@
+id: 1921-174
+name: WARD & GOW v. KRINSKY et al.
+term: 1921
+chief: Taft
+natural_court: 1001
+docket: '343'
+citation:
+  us: 259 U.S. 503
+  sct: 42 S. Ct. 529
+  led: 66 L. Ed. 1033
+  lexis: 1922 U.S. LEXIS 2495
+dates:
+  argued: '1921-12-14'
+  decided: '1922-06-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 301, state: 37}
+  source: {code: 301, state: 37}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 117}
+  respondent: {code: 145}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: MPitney
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JCMcReynolds
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

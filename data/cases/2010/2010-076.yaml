@@ -1,0 +1,89 @@
+id: 2010-076
+name: PLIVIA, INC., et al., PETITIONERS v. GLADYS MENSING
+term: 2010
+chief: Roberts
+natural_court: 1704
+docket: 09-993
+citation:
+  us: 564 U.S. 604
+  sct: 131 S. Ct. 2567
+  led: 180 L. Ed. 2d 580
+  lexis: 2011 U.S. LEXIS 4793
+dates:
+  argued: '2011-03-30'
+  decided: '2011-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100030, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 83}
+  source: {code: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 143}
+  respondent: {code: 134}
+admin_action: {agency: 40}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: SGBreyer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SSotomayor

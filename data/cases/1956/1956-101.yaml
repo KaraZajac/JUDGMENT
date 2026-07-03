@@ -1,0 +1,85 @@
+id: 1956-101
+name: REID, SUPERINTENDENT, DISTRICT OF COLUMBIA JAIL, v. COVERT
+term: 1956
+chief: Warren
+natural_court: 1405
+docket: '701'
+citation:
+  us: 354 U.S. 1
+  sct: 77 S. Ct. 1222
+  led: 1 L. Ed. 2d 1148
+  lexis: 1957 U.S. LEXIS 729
+dates:
+  argued: '1956-05-03'
+  reargued: '1957-02-27'
+  decided: '1957-06-10'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: federal-statute
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 20240, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 377
+authority:
+- judicial-review-national
+jurisdiction: {code: 6}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 60}
+  respondent: {code: 253}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  participated: false
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark

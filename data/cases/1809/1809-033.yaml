@@ -1,0 +1,66 @@
+id: 1809-033
+name: HEPBURN AND DUNDAS, PLAINTIFFS IN ERROR, v. COLIN AULD, DEFENDANTS IN ERROR
+term: 1809
+chief: Marshall
+natural_court: 404
+citation:
+  us: 9 U.S. 262
+  led: 3 L. Ed. 96
+  lexis: 1809 U.S. LEXIS 429
+dates:
+  argued: '1807-02-19'
+  reargued: '1809-03-01'
+  decided: '1809-03-14'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 140030, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 440}
+  source: {code: 440}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 102}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  in_majority: true
+- justice: SChase
+  vote: majority
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  in_majority: true
+- justice: WJohnson
+  vote: special-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: HBLivingston
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: TTodd
+  vote: majority
+  in_majority: true

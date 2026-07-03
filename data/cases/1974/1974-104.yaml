@@ -1,0 +1,87 @@
+id: 1974-104
+name: EASTLAND et al. v. UNITED STATES SERVICEMEN'S FUND et al.
+term: 1974
+chief: Burger
+natural_court: 1504
+docket: 73-1923
+citation:
+  us: 421 U.S. 491
+  sct: 95 S. Ct. 1813
+  led: 44 L. Ed. 2d 324
+  lexis: 1975 U.S. LEXIS 65
+dates:
+  argued: '1975-01-22'
+  decided: '1975-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 30050, area: first-amendment}
+law:
+  type: constitution
+  supp: 106
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 22}
+  respondent: {code: 218}
+opinions:
+  majority_author: WEBurger
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - TMarshall
+- justice: TMarshall
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

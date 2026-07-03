@@ -1,0 +1,69 @@
+id: 1821-019
+name: LA CONCEPTION.  THE SPANISH CONSUL, CLAIMANT
+term: 1821
+chief: Marshall
+natural_court: 406
+citation:
+  us: 19 U.S. 235
+  led: 5 L. Ed. 249
+  lexis: 1821 U.S. LEXIS 359
+dates:
+  argued: '1821-03-06'
+  decided: '1821-03-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 114}
+  source: {code: 432}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 600}
+  respondent: {code: 195}
+opinions:
+  majority_author: JStory
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  participated: false
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

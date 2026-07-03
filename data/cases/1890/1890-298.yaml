@@ -1,0 +1,87 @@
+id: 1890-298
+name: MCALLISTER v. UNITED STATES
+term: 1890
+chief: Fuller
+natural_court: 803
+docket: '238'
+citation:
+  us: 141 U.S. 174
+  sct: 11 S. Ct. 949
+  led: 35 L. Ed. 693
+  lexis: 1891 U.S. LEXIS 2508
+dates:
+  argued: '1891-03-24'
+  decided: '1891-05-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: RS sec. 1768
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 16}
+  petitioner_state: {code: 2}
+  respondent: {code: 27}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SJField
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SJField

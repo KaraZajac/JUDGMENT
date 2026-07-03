@@ -1,0 +1,82 @@
+id: 1938-121
+name: UNITED STATES v. CONTINENTAL NATIONAL BANK & TRUST CO., TRUSTEE, et al.
+term: 1938
+chief: Hughes
+natural_court: 1105
+docket: '22'
+citation:
+  us: 305 U.S. 398
+  sct: 59 S. Ct. 308
+  led: 83 L. Ed. 249
+  lexis: 1939 U.S. LEXIS 931
+dates:
+  argued: '1938-12-05'
+  decided: '1939-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 27}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 102}
+admin_action: {agency: 122}
+opinions:
+  majority_author: PButler
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true

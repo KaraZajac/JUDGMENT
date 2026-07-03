@@ -1,0 +1,82 @@
+id: 1982-051
+name: ARIZONA v. CALIFORNIA et al.
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 8 ORIG
+citation:
+  us: 460 U.S. 605
+  sct: 103 S. Ct. 1382
+  led: 75 L. Ed. 2d 318
+  lexis: 1983 U.S. LEXIS 137
+dates:
+  argued: '1982-12-08'
+  decided: '1983-03-30'
+decision:
+  type: opinion-of-the-court
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 20160, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 224
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 4}
+  respondent: {code: 28}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

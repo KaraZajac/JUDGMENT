@@ -1,0 +1,90 @@
+id: 2008-056
+name: JOHN D. ASHCROFT, FORMER ATTORNEY GENERAL, et al. v. JAVAID IQBAL et al.
+term: 2008
+chief: Roberts
+natural_court: 1702
+docket: 07-1015
+citation:
+  us: 556 U.S. 662
+  sct: 129 S. Ct. 1937
+  led: 173 L. Ed. 2d 868
+  lexis: 2009 U.S. LEXIS 3472
+dates:
+  argued: '2008-12-10'
+  decided: '2009-05-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90160, area: judicial-power}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 94}
+  source: {code: 22}
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 106}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true

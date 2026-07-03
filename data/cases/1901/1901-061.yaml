@@ -1,0 +1,71 @@
+id: 1901-061
+name: MCINTOSH v. AUBREY
+term: 1901
+chief: Fuller
+natural_court: 808
+docket: '107'
+citation:
+  us: 185 U.S. 122
+  sct: 22 S. Ct. 561
+  led: 46 L. Ed. 834
+  lexis: 1902 U.S. LEXIS 2247
+dates:
+  decided: '1902-04-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 140010, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 186}
+  respondent: {code: 195}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  in_majority: true
+- justice: HGray
+  vote: majority
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  in_majority: false
+- justice: EDEWhite
+  vote: dissent
+  in_majority: false
+- justice: RWPeckham
+  vote: dissent
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  in_majority: true

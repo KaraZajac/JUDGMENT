@@ -1,0 +1,86 @@
+id: 1960-123
+name: UNITED STATES v. SHIMER
+term: 1960
+chief: Warren
+natural_court: 1406
+docket: '392'
+citation:
+  us: 367 U.S. 374
+  sct: 81 S. Ct. 1554
+  led: 6 L. Ed. 2d 908
+  lexis: 1961 U.S. LEXIS 970
+dates:
+  argued: '1961-04-27'
+  decided: '1961-06-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20250, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 58 Stat. 284
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 109}
+  source: {code: 23}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 250}
+admin_action: {agency: 114}
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true

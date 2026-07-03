@@ -1,0 +1,82 @@
+id: 1901-026
+name: BOWKER v. UNITED STATES
+term: 1901
+chief: Fuller
+natural_court: 808
+docket: '247'
+citation:
+  us: 186 U.S. 135
+  sct: 22 S. Ct. 802
+  led: 46 L. Ed. 1090
+  lexis: 1902 U.S. LEXIS 2184
+dates:
+  argued: '1902-05-01'
+  decided: '1902-05-19'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90380, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Judiciary Act of 1891
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 92}
+  source: {code: 92}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 27}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false

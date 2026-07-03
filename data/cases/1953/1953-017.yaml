@@ -1,0 +1,89 @@
+id: 1953-017
+name: NATIONAL LABOR RELATIONS BOARD v. LOCAL UNION NO. 1229, INTERNATIONAL BROTHERHOOD OF ELECTRICAL WORKERS
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '15'
+citation:
+  us: 346 U.S. 464
+  sct: 74 S. Ct. 172
+  led: 98 L. Ed. 2d 195
+  lexis: 1953 U.S. LEXIS 2577
+dates:
+  argued: '1953-10-12'
+  decided: '1953-12-07'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 70090, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 249}
+admin_action: {agency: 82}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: HHBurton
+  majority_assigner: EWarren
+votes:
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

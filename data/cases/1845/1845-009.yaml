@@ -1,0 +1,74 @@
+id: 1845-009
+name: ex parte, THE CITY BANK OF NEW ORLEANS IN THE MATTER OF WILLIAM CHRISTY, ASSIGNEE OF DANIEL T. WALDEN, A BANKRUPT
+term: 1845
+chief: Taney
+natural_court: 505
+citation:
+  us: 44 U.S. 292
+  led: 11 L. Ed. 603
+  lexis: 1845 U.S. LEXIS 434
+dates:
+  argued: '1844-12-13'
+  decided: '1844-12-31'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 80030, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Bankrupt Act of August 19, 1841
+authority:
+- statutory-construction
+jurisdiction: {code: 10}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 150}
+  source: {code: 150}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 6}
+  respondent_state: {code: 60}
+admin_action: {agency: 112}
+opinions:
+  majority_author: JStory
+  majority_assigner: JStory
+votes:
+- justice: RBTaney
+  participated: false
+- justice: JStory
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMcKinley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JCatron

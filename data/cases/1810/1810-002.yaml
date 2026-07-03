@@ -1,0 +1,66 @@
+id: 1810-002
+name: SCOTT v. NEGRO BEN
+term: 1810
+chief: Marshall
+natural_court: 404
+citation:
+  us: 10 U.S. 3
+  led: 3 L. Ed. 135
+  lexis: 1810 U.S. LEXIS 313
+dates:
+  argued: '1810-02-06'
+  decided: '1810-02-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 20075, area: civil-rights}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 440}
+  source: {code: 440}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 257}
+  respondent: {code: 256}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WCushing
+  participated: false
+- justice: SChase
+  participated: false
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  direction: conservative
+  in_majority: true

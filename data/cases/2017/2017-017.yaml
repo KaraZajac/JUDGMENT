@@ -1,0 +1,90 @@
+id: 2017-017
+name: PATCHAK v. ZINKE
+term: 2017
+chief: Roberts
+natural_court: 1706
+docket: 16-498
+citation:
+  sct: 138 S. Ct. 897
+  led: 200 L. Ed. 2d 92
+  lexis: 2018 U.S. LEXIS 1515
+dates:
+  argued: '2017-11-07'
+  decided: '2018-02-27'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90320, area: judicial-power}
+law:
+  type: constitution
+  supp: 138
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 326}
+opinions:
+  majority_author: CThomas
+  majority_assigner: CThomas
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AMKennedy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - RBGinsburg
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts

@@ -1,0 +1,86 @@
+id: 1905-122
+name: BURTON v. UNITED STATES
+term: 1905
+chief: Fuller
+natural_court: 810
+docket: '539'
+citation:
+  us: 202 U.S. 344
+  sct: 26 S. Ct. 688
+  led: 50 L. Ed. 1057
+  lexis: 1906 U.S. LEXIS 1541
+dates:
+  argued: '1906-04-03'
+  decided: '1906-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80140, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: RS 1782 - senator's pay for servicing federal dept
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 422}
+  source: {code: 422}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 23}
+  respondent: {code: 27}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: RWPeckham
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true

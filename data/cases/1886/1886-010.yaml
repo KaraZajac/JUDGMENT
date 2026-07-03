@@ -1,0 +1,78 @@
+id: 1886-010
+name: VICKSBURG & MERIDIAN RAILROAD v. O'BRIEN
+term: 1886
+chief: Waite
+natural_court: 706
+docket: '12'
+citation:
+  us: 119 U.S. 99
+  sct: 7 S. Ct. 118
+  led: 30 L. Ed. 299
+  lexis: 1886 U.S. LEXIS 1968
+dates:
+  argued: '1886-04-19'
+  decided: '1886-11-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 140040, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 421}
+  source: {code: 421}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 208}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: JPBradley
+votes:
+- justice: MRWaite
+  vote: dissent
+  in_majority: false
+  joined:
+  - SJField
+- justice: SFMiller
+  vote: dissent
+  in_majority: false
+  joined:
+  - SJField
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  in_majority: true
+- justice: HGray
+  vote: majority
+  in_majority: true
+- justice: SBlatchford
+  vote: dissent
+  in_majority: false
+  joined:
+  - SJField

@@ -1,0 +1,83 @@
+id: 2022-037
+name: DUBIN v. UNITED STATES
+term: 2022
+chief: Roberts
+natural_court: 1710
+docket: 22-10
+citation:
+  us: 599 U.S. 110
+  sct: 143 S. Ct. 1557
+  led: 216 L. Ed. 2d 136
+  lexis: 2023 U.S. LEXIS 2420
+dates:
+  argued: '2023-02-27'
+  decided: '2023-06-08'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10450, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 USC 1347
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 122}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: SSotomayor
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: KBJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

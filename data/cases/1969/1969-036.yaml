@@ -1,0 +1,81 @@
+id: 1969-036
+name: SHAPIRO, WELFARE COMMISSIONER OF CONNECTICUT v. DOE
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '805'
+citation:
+  us: 396 U.S. 488
+  sct: 90 S. Ct. 641
+  led: 24 L. Ed. 2d 677
+  lexis: 1970 U.S. LEXIS 3136
+dates:
+  decided: '1970-01-26'
+decision:
+  type: per-curiam-no-argument
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 403
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 53}
+  source: {code: 53}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 8}
+  respondent: {code: 212}
+admin_action: {agency: 117, state: 8}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,91 @@
+id: 1926-163
+name: TYSON AND BROTHER -- UNITED THEATRE TICKET OFFICES, INCORPORATED, v. BANTON, DISTRICT ATTORNEY, et al.
+term: 1926
+chief: Taft
+natural_court: 1005
+docket: '261'
+citation:
+  us: 273 U.S. 418
+  sct: 47 S. Ct. 426
+  led: 71 L. Ed. 718
+  lexis: 1927 U.S. LEXIS 707
+dates:
+  argued: '1926-10-06'
+  decided: '1927-02-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 19}
+  respondent_state: {code: 37}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: GSutherland
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HFStone
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+  - HFStone
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HFStone
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,81 @@
+id: 1910-065
+name: HOUSE v. MAYES, MARSHAL OF JACKSON COUNTY, MISSOURI
+term: 1910
+chief: White
+natural_court: 901
+docket: '597'
+citation:
+  us: 219 U.S. 270
+  sct: 31 S. Ct. 234
+  led: 55 L. Ed. 213
+  lexis: 1911 U.S. LEXIS 1635
+dates:
+  argued: '1910-12-13'
+  decided: '1911-01-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 10450, area: criminal-procedure}
+law:
+  type: constitution
+  supp: 128
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 30}
+  source: {code: 300, state: 30}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 19}
+  respondent_state: {code: 30}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JMcKenna
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  participated: false
+- justice: JRLamar
+  participated: false

@@ -1,0 +1,87 @@
+id: 1990-112
+name: HOUSTON LAWYERS' ASSOCIATION, et al. v. ATTORNEY GENERAL OF TEXAS, et al.
+term: 1990
+chief: Rehnquist
+natural_court: 1604
+docket: 90-813
+citation:
+  us: 501 U.S. 419
+  sct: 111 S. Ct. 2376
+  led: 115 L. Ed. 2d 379
+  lexis: 1991 U.S. LEXIS 3628
+dates:
+  argued: '1991-04-22'
+  decided: '1991-06-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20020, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 378
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 122}
+  source: {code: 25}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 251}
+  respondent: {code: 19}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: BRWhite
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true

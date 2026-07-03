@@ -1,0 +1,86 @@
+id: 1968-080
+name: STREET v. NEW YORK
+term: 1968
+chief: Warren
+natural_court: 1410
+docket: '5'
+citation:
+  us: 394 U.S. 576
+  sct: 89 S. Ct. 1354
+  led: 22 L. Ed. 2d 572
+  lexis: 1969 U.S. LEXIS 3189
+dates:
+  argued: '1968-10-21'
+  decided: '1969-04-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30150, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 218}
+  respondent: {code: 28}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: WODouglas
+votes:
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AFortas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

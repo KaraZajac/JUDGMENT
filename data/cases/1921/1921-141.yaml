@@ -1,0 +1,82 @@
+id: 1921-141
+name: SOUTH - COVINGTON & CINCINNATI STREET RAILWAY COMPANY, et al. v. CITY OF NEWPORT, KENTUCKY
+term: 1921
+chief: Taft
+natural_court: 1001
+docket: '203'
+citation:
+  us: 259 U.S. 97
+  sct: 42 S. Ct. 418
+  led: 66 L. Ed. 842
+  lexis: 1922 U.S. LEXIS 2462
+dates:
+  argued: '1922-04-13'
+  decided: '1922-05-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90320, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 73}
+  source: {code: 73}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 148}
+  respondent: {code: 3}
+  respondent_state: {code: 21}
+admin_action: {agency: 117, state: 21}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JHClarke
+  vote: dissent
+  direction: conservative
+  in_majority: false

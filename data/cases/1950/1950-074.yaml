@@ -1,0 +1,93 @@
+id: 1950-074
+name: UNITED STATES ET AL. v. CHAMPLIN REFINING CO.
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '433'
+citation:
+  us: 341 U.S. 290
+  sct: 71 S. Ct. 715
+  led: 95 L. Ed. 2d 949
+  lexis: 1951 U.S. LEXIS 2348
+dates:
+  argued: '1951-03-08'
+  decided: '1951-05-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80250, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 107, state: 42}
+  source: {code: 107, state: 42}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 209}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+  vote_unclear: true
+  disposition_unusual: true
+opinions:
+  majority_author: TCClark
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WODouglas
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

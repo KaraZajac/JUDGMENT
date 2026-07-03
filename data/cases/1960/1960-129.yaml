@@ -1,0 +1,83 @@
+id: 1960-129
+name: TORCASO v. WATKINS, CLERK
+term: 1960
+chief: Warren
+natural_court: 1406
+docket: '373'
+citation:
+  us: 367 U.S. 488
+  sct: 81 S. Ct. 1680
+  led: 6 L. Ed. 2d 982
+  lexis: 1961 U.S. LEXIS 809
+dates:
+  argued: '1961-04-24'
+  decided: '1961-06-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 30170, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 203
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 300, state: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 25}
+  respondent: {code: 19}
+  respondent_state: {code: 25}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: liberal
+  in_majority: true

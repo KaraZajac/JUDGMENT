@@ -1,0 +1,84 @@
+id: 1879-136
+name: GUY v. BALTIMORE
+term: 1879
+chief: Waite
+natural_court: 702
+docket: '136'
+citation:
+  us: 100 U.S. 434
+  led: 25 L. Ed. 743
+  lexis: 1879 U.S. LEXIS 1837
+dates:
+  argued: '1879-12-24'
+  decided: '1880-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 301, state: 25}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 3}
+  respondent_state: {code: 25}
+admin_action: {agency: 117, state: 25}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

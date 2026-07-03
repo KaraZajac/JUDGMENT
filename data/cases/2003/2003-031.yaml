@@ -1,0 +1,86 @@
+id: 2003-031
+name: GENERAL DYNAMICS LAND SYSTEMS, INC. v. DENNIS CLINE et al.
+term: 2003
+chief: Rehnquist
+natural_court: 1607
+docket: 02-1080
+citation:
+  us: 540 U.S. 581
+  sct: 124 S. Ct. 1236
+  led: 157 L. Ed. 2d 1094
+  lexis: 2004 U.S. LEXIS 1623
+dates:
+  argued: '2003-11-12'
+  decided: '2004-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20060, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 302
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 103}
+  source: {code: 26}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 145}
+admin_action: {agency: 32}
+opinions:
+  majority_author: DHSouter
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: DHSouter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

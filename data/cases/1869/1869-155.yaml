@@ -1,0 +1,81 @@
+id: 1869-155
+name: PEOPLE'S RAILROAD v. MEMPHIS RAILROAD
+term: 1869
+chief: Chase
+natural_court: 601
+citation:
+  us: 77 U.S. 38
+  led: 19 L. Ed. 844
+  lexis: 1869 U.S. LEXIS 1042
+dates:
+  argued: '1869-11-24'
+  decided: '1869-12-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 231}
+opinions:
+  majority_author: NClifford
+  majority_assigner: RCGrier
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DDavis
+- justice: SNelson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DDavis
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true

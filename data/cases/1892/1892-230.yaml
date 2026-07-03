@@ -1,0 +1,73 @@
+id: 1892-230
+name: PATRICK v. BOWMAN
+term: 1892
+chief: Fuller
+natural_court: 805
+docket: '157'
+citation:
+  us: 149 U.S. 411
+  sct: 13 S. Ct. 811
+  led: 37 L. Ed. 790
+  lexis: 1893 U.S. LEXIS 2313
+dates:
+  argued: '1893-03-22'
+  decided: '1893-04-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 140030, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 422}
+  source: {code: 422}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 187}
+  respondent: {code: 187}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: SJField
+votes:
+- justice: MWFuller
+  vote: dissent
+  in_majority: false
+- justice: SJField
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  participated: false
+- justice: HGray
+  vote: majority
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  in_majority: true
+- justice: HEJackson
+  vote: majority
+  in_majority: true

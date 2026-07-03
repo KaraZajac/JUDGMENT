@@ -1,0 +1,77 @@
+id: 1909-173
+name: WATSON v. STATE OF MARYLAND
+term: 1909
+chief: Fuller
+natural_court: 812
+docket: '174'
+citation:
+  us: 218 U.S. 173
+  sct: 30 S. Ct. 644
+  led: 54 L. Ed. 987
+  lexis: 1910 U.S. LEXIS 2014
+dates:
+  argued: '1910-04-27'
+  decided: '1910-05-31'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 40020, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 300, state: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 25}
+opinions:
+  majority_author: WRDay
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  participated: false
+- justice: HHLurton
+  vote: majority
+  direction: conservative
+  in_majority: true

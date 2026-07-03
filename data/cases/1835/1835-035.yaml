@@ -1,0 +1,67 @@
+id: 1835-035
+name: ex parte GEORGE MILBURN
+term: 1835
+chief: Marshall
+natural_court: 410
+citation:
+  us: 34 U.S. 704
+  led: 9 L. Ed. 280
+  lexis: 1835 U.S. LEXIS 368
+dates:
+  argued: '1835-03-12'
+  decided: '1835-03-14'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 14}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 440}
+  source: {code: 440}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 110}
+  respondent: {code: 28}
+  respondent_state: {code: 10}
+opinions:
+  majority_author: JStory
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true

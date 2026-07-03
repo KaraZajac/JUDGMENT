@@ -1,0 +1,76 @@
+id: 1945-102
+name: FISHGOLD v. SULLIVAN DRYDOCK & REPAIR CORP. et al.
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '970'
+citation:
+  us: 328 U.S. 275
+  sct: 66 S. Ct. 1105
+  led: 90 L. Ed. 1230
+  lexis: 1946 U.S. LEXIS 3070
+dates:
+  argued: '1946-05-06'
+  decided: '1946-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 20250, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 366
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 94}
+  source: {code: 22}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 250}
+  respondent: {code: 151}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: SFReed
+votes:
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,80 @@
+id: 1913-283
+name: BARRETT, PRESIDENT OF ADAMS EXPRESS CO., v. CITY OF NEW YORK
+term: 1913
+chief: White
+natural_court: 902
+docket: '83'
+citation:
+  us: 232 U.S. 14
+  sct: 34 S. Ct. 203
+  led: 58 L. Ed. 483
+  lexis: 1914 U.S. LEXIS 1456
+dates:
+  argued: '1913-12-03'
+  decided: '1914-01-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 185}
+  respondent: {code: 3}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: CEHughes1
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  participated: false
+- justice: CEHughes1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true

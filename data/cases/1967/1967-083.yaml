@@ -1,0 +1,86 @@
+id: 1967-083
+name: SIMMONS et al. v. UNITED STATES
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '55'
+citation:
+  us: 390 U.S. 377
+  sct: 88 S. Ct. 967
+  led: 19 L. Ed. 2d 1247
+  lexis: 1968 U.S. LEXIS 2167
+dates:
+  argued: '1968-01-15'
+  decided: '1968-03-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 10160, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 347
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 100}
+  respondent: {code: 27}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: AFortas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  participated: false

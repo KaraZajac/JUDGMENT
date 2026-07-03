@@ -1,0 +1,81 @@
+id: 1897-057
+name: UNITED STATES v. PASSAVANT
+term: 1897
+chief: Fuller
+natural_court: 807
+docket: '129'
+citation:
+  us: 169 U.S. 16
+  sct: 18 S. Ct. 219
+  led: 42 L. Ed. 644
+  lexis: 1898 U.S. LEXIS 1470
+dates:
+  argued: '1897-12-01'
+  decided: '1898-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 22}
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 234}
+admin_action: {agency: 21}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HBBrown

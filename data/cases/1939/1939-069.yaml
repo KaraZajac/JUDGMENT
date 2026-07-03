@@ -1,0 +1,80 @@
+id: 1939-069
+name: MCGOLDRICK, COMPTROLLER OF THE CITY OF NEW YORK, v. COMPAGNIE GENERALE TRANSATLANTIQUE
+term: 1939
+chief: Hughes
+natural_court: 1108
+docket: '44'
+citation:
+  us: 309 U.S. 430
+  sct: 60 S. Ct. 670
+  led: 84 L. Ed. 849
+  lexis: 1940 U.S. LEXIS 1082
+dates:
+  argued: '1940-01-02'
+  decided: '1940-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 301, state: 37}
+  source: {code: 301, state: 37}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 37}
+  respondent: {code: 159}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: HFStone
+  majority_assigner: HFStone
+votes:
+- justice: CEHughes2
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  participated: false
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  participated: false

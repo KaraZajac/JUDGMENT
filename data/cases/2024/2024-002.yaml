@@ -1,0 +1,87 @@
+id: 2024-002
+name: MEDICAL MARIJUANA, INC. v. HORN
+term: 2024
+chief: Roberts
+natural_court: 1710
+docket: 23-365
+citation:
+  sct: 145 S. Ct. 931
+  led: 221 L. Ed. 2d 475
+  lexis: 2025 U.S. LEXIS 1369
+dates:
+  argued: '2024-10-15'
+  decided: '2025-04-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80070, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 362
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 97}
+  source: {code: 22}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 174}
+opinions:
+  majority_author: ACBarrett
+  majority_assigner: SSotomayor
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: ACBarrett
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: KBJackson
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

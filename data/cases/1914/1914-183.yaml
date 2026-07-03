@@ -1,0 +1,83 @@
+id: 1914-183
+name: WRIGHT, COMPTROLLER GENERAL OF GEORGIA, v. CENTRAL OF GEORGIA RAILWAY COMPANY
+term: 1914
+chief: White
+natural_court: 903
+docket: '161'
+citation:
+  us: 236 U.S. 674
+  sct: 35 S. Ct. 471
+  led: 59 L. Ed. 781
+  lexis: 1915 U.S. LEXIS 1709
+dates:
+  argued: '1915-01-28'
+  decided: '1915-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 60}
+  source: {code: 60}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 13}
+  respondent: {code: 231}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  participated: false
+- justice: MPitney
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - CEHughes1
+- justice: JCMcReynolds
+  vote: dissent
+  direction: liberal
+  in_majority: false

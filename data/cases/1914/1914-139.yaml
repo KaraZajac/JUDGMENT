@@ -1,0 +1,81 @@
+id: 1914-139
+name: UNITED STATES v. MOSLEY
+term: 1914
+chief: White
+natural_court: 903
+docket: '180'
+citation:
+  us: 238 U.S. 383
+  sct: 35 S. Ct. 904
+  led: 59 L. Ed. 1355
+  lexis: 1915 U.S. LEXIS 1574
+dates:
+  decided: '1915-06-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 20010, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 1913 Civil Rights Act
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 107}
+  source: {code: 107}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true

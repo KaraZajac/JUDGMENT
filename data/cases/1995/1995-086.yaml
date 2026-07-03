@@ -1,0 +1,93 @@
+id: 1995-086
+name: COLORADO REPUBLICAN FEDERAL CAMPAIGN COMMITTEE AND DOUGLAS JONES, TREASURER v. FEDERAL ELECTION COMMISSION
+term: 1995
+chief: Rehnquist
+natural_court: 1607
+docket: 95-489
+citation:
+  us: 518 U.S. 604
+  sct: 116 S. Ct. 2309
+  led: 135 L. Ed. 2d 795
+  lexis: 1996 U.S. LEXIS 4258
+dates:
+  argued: '1996-04-15'
+  decided: '1996-06-26'
+decision:
+  type: judgment-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 30140, area: first-amendment}
+law:
+  type: federal-statute
+  supp: 330
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 52}
+  source: {code: 30}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 343}
+admin_action: {agency: 43}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AMKennedy
+  - CThomas
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AMKennedy
+  - CThomas
+- justice: AMKennedy
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: SGBreyer
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true

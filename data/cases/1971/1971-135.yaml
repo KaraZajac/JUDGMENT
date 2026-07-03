@@ -1,0 +1,84 @@
+id: 1971-135
+name: FUENTES v. SHEVIN, ATTORNEY GENERAL OF FLORIDA, et al.
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 70-5039
+citation:
+  us: 407 U.S. 67
+  sct: 92 S. Ct. 1983
+  led: 32 L. Ed. 2d 556
+  lexis: 1972 U.S. LEXIS 42
+dates:
+  argued: '1971-11-09'
+  decided: '1972-06-12'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 20100, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 58}
+  source: {code: 58}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 123}
+  respondent: {code: 28}
+  respondent_state: {code: 12}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: PStewart
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  participated: false

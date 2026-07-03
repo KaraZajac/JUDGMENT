@@ -1,0 +1,79 @@
+id: 1870-087
+name: THE COLLECTOR v. DAY
+term: 1870
+chief: Chase
+natural_court: 602
+citation:
+  us: 78 U.S. 113
+  led: 20 L. Ed. 122
+  lexis: 1870 U.S. LEXIS 1463
+dates:
+  argued: '1871-02-03'
+  decided: '1871-04-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 100060, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-national
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 16}
+  respondent_state: {code: 26}
+opinions:
+  majority_author: SNelson
+  majority_assigner: SNelson
+votes:
+- justice: SPChase
+  participated: false
+- justice: SNelson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,86 @@
+id: 1936-160
+name: HENNEFORD et al. v. SILAS MASON CO., INC. et al.
+term: 1936
+chief: Hughes
+natural_court: 1103
+docket: '418'
+citation:
+  us: 300 U.S. 577
+  sct: 57 S. Ct. 524
+  led: 81 L. Ed. 814
+  lexis: 1937 U.S. LEXIS 82
+dates:
+  argued: '1936-12-14'
+  reargued: '1937-03-01'
+  decided: '1937-03-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 128}
+  source: {code: 128}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 56}
+  respondent: {code: 25}
+  respondent_state: {code: 56}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: BNCardozo
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

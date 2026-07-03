@@ -1,0 +1,68 @@
+id: 1814-018
+name: THE RAPID, PERRY, MASTER
+term: 1814
+chief: Marshall
+natural_court: 406
+citation:
+  us: 12 U.S. 155
+  led: 3 L. Ed. 520
+  lexis: 1814 U.S. LEXIS 394
+dates:
+  argued: '1814-02-21'
+  decided: '1814-03-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 501}
+opinions:
+  majority_author: WJohnson
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true

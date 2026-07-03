@@ -1,0 +1,87 @@
+id: 2009-060
+name: STATE OF ALABAMA, et al., PLAINTIFFS v. STATE OF NORTH CAROLINA.
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 132, Orig.
+citation:
+  us: 560 U.S. 330
+  sct: 130 S. Ct. 2295
+  led: 176 L. Ed. 2d 1070
+  lexis: 2010 U.S. LEXIS 4381
+dates:
+  argued: '2010-01-11'
+  decided: '2010-06-01'
+decision:
+  type: opinion-of-the-court
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80130, area: economic-activity}
+law:
+  type: other
+  supp: 510
+authority:
+- statutory-construction
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 1}
+  respondent: {code: 28}
+  respondent_state: {code: 38}
+opinions:
+  majority_author: AScalia
+  majority_assigner: JPStevens
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AMKennedy

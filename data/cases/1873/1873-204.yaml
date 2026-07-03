@@ -1,0 +1,74 @@
+id: 1873-204
+name: THE NEW ENGLAND MUTUAL INSURANCE COMPANY v. THE DETROIT AND CLEVELAND STEAM NAVIGATION COMPANY
+term: 1873
+chief: Chase
+natural_court: 603
+docket: '77'
+citation:
+  us: 85 U.S. 307n
+  led: 21 L. Ed. 846
+  lexis: 1873 U.S. LEXIS -99
+dates:
+  decided: '1874-01-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 40060, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 428}
+  source: {code: 428}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 116}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: NClifford
+votes:
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true

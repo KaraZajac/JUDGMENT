@@ -1,0 +1,87 @@
+id: 1956-099
+name: LEHMANN, OFFICER IN CHARGE, IMMIGRATION AND NATURALIZATION SERVICE, v. UNITED STATES ex rel. CARSON OR CARASANITI
+term: 1956
+chief: Warren
+natural_court: 1405
+docket: '72'
+citation:
+  us: 353 U.S. 685
+  sct: 77 S. Ct. 1022
+  led: 1 L. Ed. 2d 1122
+  lexis: 1957 U.S. LEXIS 786
+dates:
+  argued: '1957-03-26'
+  decided: '1957-06-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20110, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 103}
+  source: {code: 26}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 368}
+  respondent: {code: 106}
+admin_action: {agency: 68}
+flags:
+  vote_unclear: true
+opinions:
+  majority_author: CEWhittaker
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true

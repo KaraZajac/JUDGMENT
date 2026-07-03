@@ -1,0 +1,80 @@
+id: 1888-086
+name: NOBLE v. HAMMOND
+term: 1888
+chief: Fuller
+natural_court: 801
+docket: '101'
+citation:
+  us: 129 U.S. 65
+  sct: 9 S. Ct. 235
+  led: 32 L. Ed. 621
+  lexis: 1889 U.S. LEXIS 1663
+dates:
+  argued: '1888-12-03'
+  decided: '1889-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80030, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Bankruptcy Act
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 53}
+  source: {code: 300, state: 53}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 114}
+  respondent: {code: 135}
+opinions:
+  majority_author: LQLamar
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  participated: false
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

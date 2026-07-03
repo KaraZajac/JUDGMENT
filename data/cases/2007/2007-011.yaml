@@ -1,0 +1,84 @@
+id: 2007-011
+name: STONERIDGE INVESTMENT PARTNERS, LLC v. SCIENTIFIC-ATLANTA, INC., ET AL
+term: 2007
+chief: Roberts
+natural_court: 1702
+docket: 06-43
+citation:
+  us: 552 U.S. 148
+  sct: 128 S. Ct. 761
+  led: 169 L. Ed. 2d 627
+  lexis: 2008 U.S. LEXIS 1091
+dates:
+  argued: '2007-10-09'
+  decided: '2008-01-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80120, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 365
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 86}
+  source: {code: 28}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 173}
+  respondent: {code: 233}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  participated: false

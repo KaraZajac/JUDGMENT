@@ -1,0 +1,80 @@
+id: 1851-034
+name: JOHN DARRINGTON, LORENZO JAMES, AND ROBERT D. JAMES, PLAINTIFFS IN ERROR, v. THE BRANCH OF THE BANK OF THE
+  STATE OF ALABAMA.
+term: 1851
+chief: Taney
+natural_court: 509
+citation:
+  us: 54 U.S. 12
+  led: 14 L. Ed. 30
+  lexis: 1851 U.S. LEXIS 832
+dates:
+  argued: '1852-01-23'
+  decided: '1852-02-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 127
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 113}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: BRCurtis
+  vote: majority
+  direction: liberal
+  in_majority: true

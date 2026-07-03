@@ -1,0 +1,64 @@
+id: 1807-009
+name: ex parte BOLLMAN
+term: 1807
+chief: Marshall
+natural_court: 403
+citation:
+  us: 8 U.S. 75
+  led: 2 L. Ed. 554
+  lexis: 1807 U.S. LEXIS 369
+dates:
+  argued: '1807-02-16'
+  decided: '1807-02-20'
+decision:
+  type: opinion-of-the-court
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 3
+  minority_votes: 1
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Juudiciary Act of 1789, sec. 14
+authority:
+- statutory-construction
+jurisdiction: {code: 14}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 440}
+  source: {code: 440}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 110}
+  respondent: {code: 27}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  participated: false
+- justice: SChase
+  participated: false
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HBLivingston
+  vote: majority
+  direction: liberal
+  in_majority: true

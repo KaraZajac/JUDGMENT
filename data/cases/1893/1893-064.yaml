@@ -1,0 +1,78 @@
+id: 1893-064
+name: ALLEN v. UNITED STATES
+term: 1893
+chief: Fuller
+natural_court: 805
+docket: '969'
+citation:
+  us: 150 U.S. 551
+  sct: 14 S. Ct. 196
+  led: 37 L. Ed. 1179
+  lexis: 1893 U.S. LEXIS 2404
+dates:
+  decided: '1893-12-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 20170, area: civil-rights}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 404}
+  source: {code: 404}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - HBBrown
+- justice: HBBrown
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HEJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

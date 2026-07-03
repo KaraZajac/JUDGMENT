@@ -1,0 +1,92 @@
+id: 2021-036
+name: BIDEN v. MISSOURI
+term: 2021
+chief: Roberts
+natural_court: 1709
+docket: 21A240
+citation:
+  sct: 142 S. Ct. 647
+  led: 211 L. Ed. 2d 433
+  lexis: 2022 U.S. LEXIS 495
+dates:
+  argued: '2022-01-07'
+  decided: '2022-01-13'
+decision:
+  type: per-curiam-argued
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80350, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 309
+authority:
+- statutory-construction
+jurisdiction: {code: 12}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 86}
+  source: {code: 28}
+  disposition: unusual-disposition
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 60}
+  respondent: {code: 28}
+  respondent_state: {code: 30}
+opinions:
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+  - SAAlito
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+  - SAAlito

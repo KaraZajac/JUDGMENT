@@ -1,0 +1,84 @@
+id: 1952-046
+name: BODE et al. v. BARRETT, SECRETARY OF STATE, et al.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '187'
+citation:
+  us: 344 U.S. 583
+  sct: 73 S. Ct. 468
+  led: 97 L. Ed. 2d 567
+  lexis: 1953 U.S. LEXIS 2394
+dates:
+  argued: '1953-01-05'
+  decided: '1953-02-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 300, state: 17}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 245}
+  respondent: {code: 19}
+  respondent_state: {code: 17}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,90 @@
+id: 1958-104
+name: COUNTY OF ALLEGHENY v. FRANK MASHUDA CO. et al.
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '347'
+citation:
+  us: 360 U.S. 185
+  sct: 79 S. Ct. 1060
+  led: 3 L. Ed. 2d 1163
+  lexis: 1959 U.S. LEXIS 854
+dates:
+  argued: '1959-04-02'
+  decided: '1959-06-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90090, area: judicial-power}
+law:
+  type: other
+  supp: 500
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 111}
+  source: {code: 23}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 45}
+  respondent: {code: 195}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - TCClark
+- justice: CEWhittaker
+  vote: majority
+  direction: liberal
+  in_majority: true

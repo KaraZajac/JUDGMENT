@@ -1,0 +1,84 @@
+id: 1943-044
+name: FEDERAL POWER COMMISSION et al. v. HOPE NATURAL GAS CO.
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '34'
+citation:
+  us: 320 U.S. 591
+  sct: 64 S. Ct. 281
+  led: 88 L. Ed. 333
+  lexis: 1944 U.S. LEXIS 1204
+dates:
+  argued: '1943-10-20'
+  decided: '1944-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80300, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 359
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 24}
+  source: {code: 24}
+  disposition: vacated
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 352}
+  respondent: {code: 148}
+admin_action: {agency: 52}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true

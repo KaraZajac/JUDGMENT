@@ -1,0 +1,81 @@
+id: 1916-130
+name: BUNTING v. STATE OF OREGON
+term: 1916
+chief: White
+natural_court: 905
+docket: '38'
+citation:
+  us: 243 U.S. 426
+  sct: 37 S. Ct. 435
+  led: 61 L. Ed. 830
+  lexis: 1917 U.S. LEXIS 2008
+dates:
+  argued: '1916-04-18'
+  reargued: '1917-01-19'
+  decided: '1917-04-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 70190, area: unions}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 43}
+  source: {code: 300, state: 43}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 27}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: JMcKenna
+votes:
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  participated: false
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

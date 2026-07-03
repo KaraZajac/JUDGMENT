@@ -1,0 +1,77 @@
+id: 1911-011
+name: UNITED STATES OF AMERICA, EX REL. TURNER v. FISHER, SECRETARY OF THE INTERIOR
+term: 1911
+chief: White
+natural_court: 901
+docket: '60'
+citation:
+  us: 222 U.S. 204
+  sct: 32 S. Ct. 37
+  led: 56 L. Ed. 165
+  lexis: 1911 U.S. LEXIS 1775
+dates:
+  argued: '1911-11-14'
+  decided: '1911-12-04'
+decision:
+  type: per-curiam-argued
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 20150, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 207
+authority:
+- administrative-interpretation
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 170}
+  respondent: {code: 326}
+admin_action: {agency: 26}
+opinions:
+  majority_author: JRLamar
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: HHLurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

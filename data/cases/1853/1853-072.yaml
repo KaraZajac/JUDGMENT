@@ -1,0 +1,89 @@
+id: 1853-072
+name: THE OHIO LIFE INSURANCE AND TRUST COMPANY, PLAINTIFF IN ERROR, v. HENRY DEBOLT, TREASURER OF HAMILTON COUNTY,
+  DEFENDANT IN ERROR
+term: 1853
+chief: Taney
+natural_court: 510
+citation:
+  us: 57 U.S. 416
+  led: 14 L. Ed. 997
+  lexis: 1850 U.S. LEXIS 1559
+dates:
+  argued: '1854-04-21'
+  reargued: '1854-04-24'
+  decided: '1854-05-24'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 19}
+  respondent_state: {code: 41}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMWayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JCatron
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRCurtis
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRCurtis
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JACampbell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

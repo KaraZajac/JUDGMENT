@@ -1,0 +1,71 @@
+id: 1891-159
+name: UNITED STATES v. BUDD
+term: 1891
+chief: Fuller
+natural_court: 803
+docket: '1391'
+citation:
+  us: 144 U.S. 154
+  sct: 12 S. Ct. 575
+  led: 36 L. Ed. 384
+  lexis: 1892 U.S. LEXIS 2066
+dates:
+  argued: '1892-02-01'
+  decided: '1892-03-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 140010, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 443}
+  source: {code: 443}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 172}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: SJField
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  in_majority: false
+  joined:
+  - HBBrown
+- justice: HGray
+  vote: majority
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  opinion: wrote
+  in_majority: false

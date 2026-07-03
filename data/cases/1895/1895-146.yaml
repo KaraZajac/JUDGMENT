@@ -1,0 +1,71 @@
+id: 1895-146
+name: SPALDING v. MASON
+term: 1895
+chief: Fuller
+natural_court: 807
+docket: '55'
+citation:
+  us: 161 U.S. 375
+  sct: 16 S. Ct. 592
+  led: 40 L. Ed. 738
+  lexis: 1896 U.S. LEXIS 2172
+dates:
+  argued: '1895-04-25'
+  decided: '1896-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 140030, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 19}
+  disposition: modified
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: SJField
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: RWPeckham
+  participated: false

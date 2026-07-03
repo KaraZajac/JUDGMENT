@@ -1,0 +1,88 @@
+id: 1983-172
+name: SMITH et al. v. ROBINSON, RHODE ISLAND ASSOCIATE COMMISSIONER OF EDUCATION, et al.
+term: 1983
+chief: Burger
+natural_court: 1507
+docket: 82-2120
+citation:
+  us: 468 U.S. 992
+  sct: 104 S. Ct. 3457
+  led: 82 L. Ed. 2d 746
+  lexis: 1984 U.S. LEXIS 155
+dates:
+  argued: '1984-03-28'
+  decided: '1984-07-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 60010, area: attorneys}
+law:
+  type: federal-statute
+  supp: 360
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-confusion
+lower_court:
+  origin: {code: 113}
+  source: {code: 21}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 164}
+  respondent: {code: 21}
+  respondent_state: {code: 47}
+admin_action: {agency: 117, state: 47}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

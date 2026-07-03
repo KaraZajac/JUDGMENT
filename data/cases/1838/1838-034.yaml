@@ -1,0 +1,85 @@
+id: 1838-034
+name: GEORGE BEASTON, GARNISHEE OF THE ELKTON BANK OF MARYLAND v. THE FARMERS' BANK OF DELAWARE
+term: 1838
+chief: Taney
+natural_court: 504
+citation:
+  us: 37 U.S. 102
+  led: 9 L. Ed. 1017
+  lexis: 1838 U.S. LEXIS 344
+dates:
+  argued: '1838-01-12'
+  decided: '1838-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120030, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, March 3, 1797, sec. 5
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 301, state: 25}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 113}
+opinions:
+  majority_author: JMcKinley
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SThompson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JStory
+- justice: HBaldwin
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JStory
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PPBarbour
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

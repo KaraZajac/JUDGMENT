@@ -1,0 +1,84 @@
+id: 1968-104
+name: CRANE v. CEDAR RAPIDS & IOWA CITY RAILWAY CO.
+term: 1968
+chief: Warren
+natural_court: 1411
+docket: '791'
+citation:
+  us: 395 U.S. 164
+  sct: 89 S. Ct. 1706
+  led: 23 L. Ed. 2d 176
+  lexis: 1969 U.S. LEXIS 1511
+dates:
+  argued: '1969-04-24'
+  decided: '1969-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80050, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 45 U.S.C. § 2
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 19}
+  source: {code: 300, state: 19}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 231}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: JHarlan2
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack

@@ -1,0 +1,82 @@
+id: 1872-107
+name: RAILROAD COMPANY v. JOHNSON
+term: 1872
+chief: Chase
+natural_court: 603
+citation:
+  us: 82 U.S. 195
+  led: 21 L. Ed. 178
+  lexis: 1872 U.S. LEXIS 1247
+dates:
+  decided: '1873-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80350, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 8}
+  source: {code: 302, state: 8}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 237}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: NHSwayne
+votes:
+- justice: SPChase
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SPChase
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SPChase
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true

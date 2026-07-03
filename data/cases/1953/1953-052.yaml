@@ -1,0 +1,83 @@
+id: 1953-052
+name: FEDERAL POWER COMMISSION v. NIAGARA MOHAWK POWER CORP.
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '28'
+citation:
+  us: 347 U.S. 239
+  sct: 74 S. Ct. 487
+  led: 98 L. Ed. 2d 666
+  lexis: 1954 U.S. LEXIS 2621
+dates:
+  argued: '1953-10-15'
+  decided: '1954-03-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80270, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 336
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 352}
+  respondent: {code: 177}
+admin_action: {agency: 52}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: EWarren
+votes:
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  participated: false
+- justice: SMinton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: RHJackson
+  participated: false

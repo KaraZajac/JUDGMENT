@@ -1,0 +1,95 @@
+id: 1964-121
+name: GRISWOLD et al. v. CONNECTICUT
+term: 1964
+chief: Warren
+natural_court: 1408
+docket: '496'
+citation:
+  us: 381 U.S. 479
+  sct: 85 S. Ct. 1678
+  led: 14 L. Ed. 2d 510
+  lexis: 1965 U.S. LEXIS 2282
+dates:
+  argued: '1965-03-29'
+  decided: '1965-06-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 50010, area: privacy}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 8}
+  source: {code: 300, state: 8}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 165}
+  respondent: {code: 28}
+  respondent_state: {code: 8}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WJBrennan
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AJGoldberg
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AJGoldberg
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

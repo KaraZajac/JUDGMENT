@@ -1,0 +1,88 @@
+id: 1960-094
+name: LOUISIANA ex rel. GREMILLION, ATTORNEY GENERAL, et al. v. NATIONAL ASSOCIATION FOR THE ADVANCEMENT OF COLORED
+  PEOPLE et al.
+term: 1960
+chief: Warren
+natural_court: 1406
+docket: '294'
+citation:
+  us: 366 U.S. 293
+  sct: 81 S. Ct. 1333
+  led: 6 L. Ed. 2d 301
+  lexis: 1961 U.S. LEXIS 2012
+dates:
+  argued: '1961-04-26'
+  decided: '1961-05-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 201
+authority:
+- supervisory
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 75}
+  source: {code: 75}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 22}
+  respondent: {code: 223}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: liberal
+  in_majority: true

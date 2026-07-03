@@ -1,0 +1,87 @@
+id: 1940-067
+name: RAILROAD COMMISSION OF TEXAS et al. v. ROWAN & NICHOLS OIL CO.
+term: 1940
+chief: Hughes
+natural_court: 1108
+docket: '218'
+citation:
+  us: 311 U.S. 570
+  sct: 61 S. Ct. 343
+  led: 85 L. Ed. 358
+  lexis: 1941 U.S. LEXIS 1109
+dates:
+  argued: '1940-12-12'
+  decided: '1941-01-06'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80290, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 359
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 122}
+  source: {code: 122}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 51}
+  respondent: {code: 198}
+admin_action: {agency: 117, state: 51}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HFStone
+votes:
+- justice: CEHughes2
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true

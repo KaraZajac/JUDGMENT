@@ -1,0 +1,83 @@
+id: 1932-133
+name: O'DONOGHUE v. UNITED STATES
+term: 1932
+chief: Hughes
+natural_court: 1103
+docket: '729'
+citation:
+  us: 289 U.S. 516
+  sct: 53 S. Ct. 740
+  led: 77 L. Ed. 1356
+  lexis: 1933 U.S. LEXIS 933
+dates:
+  argued: '1933-04-12'
+  decided: '1933-05-29'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  disagreement: false
+parties:
+  petitioner: {code: 16}
+  petitioner_state: {code: 10}
+  respondent: {code: 27}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: JCMcReynolds
+votes:
+- justice: CEHughes2
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false

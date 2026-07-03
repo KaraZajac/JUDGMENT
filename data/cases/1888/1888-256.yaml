@@ -1,0 +1,71 @@
+id: 1888-256
+name: FREELAND v. WILLIAMS
+term: 1888
+chief: Fuller
+natural_court: 801
+docket: '267'
+citation:
+  us: 131 U.S. 405
+  sct: 9 S. Ct. 763
+  led: 33 L. Ed. 193
+  lexis: 1889 U.S. LEXIS 1833
+dates:
+  argued: '1889-04-17'
+  decided: '1889-05-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 140030, area: private-action}
+law:
+  type: constitution
+  supp: 128
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 57}
+  source: {code: 300, state: 57}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 152}
+  respondent: {code: 186}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: SJField
+  vote: majority
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: HGray
+  vote: majority
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  in_majority: true

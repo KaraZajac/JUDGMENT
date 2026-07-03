@@ -1,0 +1,85 @@
+id: 2009-013
+name: HOLLY WOOD, PETITIONER v. RICHARD F. ALLEN, COMMISSIONER, ALABAMA DEPARTMENT OF CORRECTIONS, et al.
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 08-9156
+citation:
+  us: 558 U.S. 290
+  sct: 130 S. Ct. 841
+  led: 175 L. Ed. 2d 738
+  lexis: 2010 U.S. LEXIS 763
+dates:
+  argued: '2009-11-04'
+  decided: '2010-01-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 341
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 41}
+  source: {code: 31}
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 1}
+opinions:
+  majority_author: SSotomayor
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

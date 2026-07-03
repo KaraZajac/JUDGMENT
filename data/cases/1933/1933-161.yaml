@@ -1,0 +1,90 @@
+id: 1933-161
+name: UNITED STATES et al. v. ILLINOIS CENTRAL RAILROAD CO. et al.
+term: 1933
+chief: Hughes
+natural_court: 1103
+docket: '422'
+citation:
+  us: 291 U.S. 457
+  sct: 54 S. Ct. 471
+  led: 78 L. Ed. 909
+  lexis: 1934 U.S. LEXIS 994
+dates:
+  argued: '1934-02-08'
+  decided: '1934-03-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80220, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 54}
+  source: {code: 54}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 231}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: GSutherland
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HFStone
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HFStone
+- justice: BNCardozo
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HFStone

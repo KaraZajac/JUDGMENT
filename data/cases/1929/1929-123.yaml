@@ -1,0 +1,82 @@
+id: 1929-123
+name: WHITE et al. v. SPARKILL REALTY CORPORATION et al.
+term: 1929
+chief: Hughes
+natural_court: 1101
+docket: '336'
+citation:
+  us: 280 U.S. 500
+  sct: 50 S. Ct. 186
+  led: 74 L. Ed. 578
+  lexis: 1930 U.S. LEXIS 767
+dates:
+  argued: '1930-01-07'
+  decided: '1930-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90090, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 37}
+  respondent: {code: 225}
+admin_action: {agency: 117, state: 37}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: GSutherland
+  majority_assigner: OWHolmes
+votes:
+- justice: CEHughes2
+  participated: false
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

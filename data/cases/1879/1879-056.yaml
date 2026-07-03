@@ -1,0 +1,86 @@
+id: 1879-056
+name: IMPROVEMENT COMPANY v. SLACK
+term: 1879
+chief: Waite
+natural_court: 702
+docket: '123'
+citation:
+  us: 100 U.S. 648
+  led: 25 L. Ed. 609
+  lexis: 1879 U.S. LEXIS 1862
+dates:
+  argued: '1879-12-19'
+  decided: '1880-01-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80220, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 7/13/1866
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 369}
+admin_action: {agency: 69}
+opinions:
+  majority_author: NClifford
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SJField
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SJField

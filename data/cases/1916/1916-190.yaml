@@ -1,0 +1,85 @@
+id: 1916-190
+name: CAMINETTI v. UNITED STATES
+term: 1916
+chief: White
+natural_court: 905
+docket: '139'
+citation:
+  us: 242 U.S. 470
+  sct: 37 S. Ct. 192
+  led: 61 L. Ed. 442
+  lexis: 1917 U.S. LEXIS 2169
+dates:
+  argued: '1916-11-13'
+  decided: '1917-01-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10500, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Mann Act
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 50}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: WRDay
+  majority_assigner: OWHolmes
+votes:
+- justice: EDEWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JMcKenna
+- justice: JMcKenna
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  participated: false
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JMcKenna

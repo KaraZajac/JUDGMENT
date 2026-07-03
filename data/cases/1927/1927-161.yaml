@@ -1,0 +1,85 @@
+id: 1927-161
+name: SPRINGER et al. v. GOVERNMENT OF THE PHILIPPINE ISLANDS
+term: 1927
+chief: Taft
+natural_court: 1005
+docket: '564'
+citation:
+  us: 277 U.S. 189
+  sct: 48 S. Ct. 480
+  led: 72 L. Ed. 845
+  lexis: 1928 U.S. LEXIS 885
+dates:
+  argued: '1928-04-10'
+  decided: '1928-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 15, state: 62}
+  source: {code: 15, state: 62}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 185}
+  respondent: {code: 28}
+  respondent_state: {code: 62}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true

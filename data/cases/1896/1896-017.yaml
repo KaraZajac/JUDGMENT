@@ -1,0 +1,75 @@
+id: 1896-017
+name: BROWN v. UNITED STATES
+term: 1896
+chief: Fuller
+natural_court: 807
+docket: '381'
+citation:
+  us: 164 U.S. 221
+  sct: 17 S. Ct. 33
+  led: 41 L. Ed. 410
+  lexis: 1896 U.S. LEXIS 1851
+dates:
+  decided: '1896-11-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 140040, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 404}
+  source: {code: 404}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: HGray
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: SJField
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  in_majority: true
+- justice: HGray
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: HBBrown
+  vote: dissent
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: GShiras
+  vote: majority
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  in_majority: false
+  joined:
+  - DJBrewer

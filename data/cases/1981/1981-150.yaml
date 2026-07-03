@@ -1,0 +1,81 @@
+id: 1981-150
+name: FIDELITY FEDERAL SAVINGS & LOAN ASSOCIATION et al. v. DE LA CUESTA et al.
+term: 1981
+chief: Burger
+natural_court: 1507
+docket: 81-750
+citation:
+  us: 458 U.S. 141
+  sct: 102 S. Ct. 3014
+  led: 73 L. Ed. 2d 664
+  lexis: 1982 U.S. LEXIS 6
+dates:
+  argued: '1982-04-28'
+  decided: '1982-06-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 100030, area: federalism}
+authority:
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 301, state: 6}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 195}
+admin_action: {agency: 46}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: SDOConnor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

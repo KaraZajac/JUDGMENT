@@ -1,0 +1,75 @@
+id: 1868-064
+name: ex parte BRADLEY
+term: 1868
+chief: Chase
+natural_court: 601
+citation:
+  us: 74 U.S. 364
+  led: 19 L. Ed. 214
+  lexis: 1868 U.S. LEXIS 1014
+dates:
+  argued: '1868-12-18'
+  decided: '1869-01-11'
+decision:
+  type: opinion-of-the-court
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 60030, area: attorneys}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, March 3, 1863
+authority:
+- statutory-construction
+jurisdiction: {code: 8}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 19}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 111}
+  respondent: {code: 6}
+  respondent_state: {code: 10}
+opinions:
+  majority_author: SNelson
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  participated: false
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

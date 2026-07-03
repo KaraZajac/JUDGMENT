@@ -1,0 +1,82 @@
+id: 1874-178
+name: THE LOTTAWANNA
+term: 1874
+chief: Waite
+natural_court: 701
+docket: '33'
+citation:
+  us: 88 U.S. 558
+  led: 22 L. Ed. 654
+  lexis: 1874 U.S. LEXIS 1394
+dates:
+  argued: '1874-04-01'
+  reargued: '1874-10-19'
+  decided: '1875-05-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 403
+authority:
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 150}
+  source: {code: 415}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 135}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true

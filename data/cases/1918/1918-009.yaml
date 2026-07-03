@@ -1,0 +1,80 @@
+id: 1918-009
+name: E. W. BLISS COMPANY v. UNITED STATES
+term: 1918
+chief: White
+natural_court: 905
+docket: '15'
+citation:
+  us: 248 U.S. 37
+  sct: 39 S. Ct. 42
+  led: 63 L. Ed. 112
+  lexis: 1918 U.S. LEXIS 1686
+dates:
+  argued: '1918-11-20'
+  decided: '1918-12-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 50040, area: privacy}
+law:
+  type: federal-statute
+  supp: 900
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 94}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 176}
+  respondent: {code: 27}
+admin_action: {agency: 77}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: JMcKenna
+votes:
+- justice: EDEWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  participated: false
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,91 @@
+id: 2021-013
+name: NEW YORK STATE RIFLE & PISTOL ASSOCIATION INC. v. BRUEN
+term: 2021
+chief: Roberts
+natural_court: 1709
+docket: 20-843
+citation:
+  sct: 141 S. Ct. 2111
+  led: 213 L. Ed. 2d 387
+  lexis: 2022 U.S. LEXIS 3055
+dates:
+  argued: '2021-11-03'
+  decided: '2022-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10600, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 239
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 95}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 207}
+  respondent: {code: 7}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SAAlito
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SGBreyer
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

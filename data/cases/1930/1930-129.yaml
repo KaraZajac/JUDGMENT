@@ -1,0 +1,81 @@
+id: 1930-129
+name: INTERNATIONAL PAPER COMPANY v. UNITED STATES
+term: 1930
+chief: Hughes
+natural_court: 1102
+docket: '37'
+citation:
+  us: 282 U.S. 399
+  sct: 51 S. Ct. 176
+  led: 75 L. Ed. 410
+  lexis: 1931 U.S. LEXIS 849
+dates:
+  argued: '1931-01-07'
+  decided: '1931-01-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 211
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 27}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: OJRoberts
+  vote: dissent
+  direction: liberal
+  in_majority: false

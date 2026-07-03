@@ -1,0 +1,74 @@
+id: 1849-003
+name: MARTIN LUTHER, PLAINTIFF IN ERROR, v. LUTHER M. BORDEN et al., DEFENDANTS IN ERRO
+term: 1849
+chief: Taney
+natural_court: 508
+citation:
+  us: 48 U.S. 1
+  led: 12 L. Ed. 581
+  lexis: 1849 U.S. LEXIS 337
+dates:
+  argued: '1848-01-21'
+  reargued: '1848-01-24'
+  decided: '1849-01-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 90250, area: judicial-power}
+law:
+  type: constitution
+  supp: 147
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 431}
+  source: {code: 431}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 100}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  participated: false
+- justice: JMcKinley
+  participated: false
+- justice: PVDaniel
+  participated: false
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LWoodbury
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,84 @@
+id: 2018-034
+name: BIESTEK v. BERRYHILL
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 17-1184
+citation:
+  sct: 139 S. Ct. 1148
+  led: 203 L. Ed. 2d 504
+  lexis: 2019 U.S. LEXIS 2480
+dates:
+  argued: '2018-12-04'
+  decided: '2019-04-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20190, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 370
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 81}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 140}
+  respondent: {code: 406}
+opinions:
+  majority_author: EKagan
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true

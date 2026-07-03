@@ -1,0 +1,73 @@
+id: 1819-021
+name: THE TRUSTEES OF DARTMOUTH COLLEGE v. WOODWARD
+term: 1819
+chief: Marshall
+natural_court: 406
+citation:
+  us: 17 U.S. 518
+  led: 4 L. Ed. 629
+  lexis: 1819 U.S. LEXIS 330
+dates:
+  argued: '1818-03-10'
+  decided: '1819-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 34}
+  source: {code: 300, state: 34}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 232}
+  respondent: {code: 19}
+  respondent_state: {code: 34}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JStory
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

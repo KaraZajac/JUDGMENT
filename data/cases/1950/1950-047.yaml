@@ -1,0 +1,83 @@
+id: 1950-047
+name: MOORE, ADMINISTRATRIX, v. CHESAPEAKE & OHIO RAILWAY CO.
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '318'
+citation:
+  us: 340 U.S. 573
+  sct: 71 S. Ct. 428
+  led: 95 L. Ed. 2d 547
+  lexis: 1951 U.S. LEXIS 2158
+dates:
+  argued: '1951-01-04'
+  reargued: '1951-01-10'
+  decided: '1951-02-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80040, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 329
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 126, state: 55}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 231}
+opinions:
+  majority_author: SMinton
+  majority_assigner: FMVinson
+votes:
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  participated: false
+- justice: FFrankfurter
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,81 @@
+id: 1873-167
+name: PACIFIC RAILROAD COMPANY v. MAGUIRE
+term: 1873
+chief: Waite
+natural_court: 701
+citation:
+  us: 87 U.S. 36
+  led: 22 L. Ed. 282
+  lexis: 1873 U.S. LEXIS 1486
+dates:
+  argued: '1874-04-01'
+  decided: '1874-04-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 4}
+  respondent_state: {code: 30}
+opinions:
+  majority_author: WHunt
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  participated: false
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

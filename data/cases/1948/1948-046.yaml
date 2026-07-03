@@ -1,0 +1,86 @@
+id: 1948-046
+name: ALGOMA PLYWOOD & VENEER CO. v. WISCONSIN EMPLOYMENT RELATIONS BOARD
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '216'
+citation:
+  us: 336 U.S. 301
+  sct: 69 S. Ct. 584
+  led: 93 L. Ed. 2d 691
+  lexis: 1949 U.S. LEXIS 2930
+dates:
+  argued: '1948-11-18'
+  decided: '1949-03-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100020, area: federalism}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 58}
+  source: {code: 300, state: 58}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 4}
+  respondent_state: {code: 58}
+admin_action: {agency: 117, state: 58}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WBRutledge
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

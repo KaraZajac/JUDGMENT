@@ -1,0 +1,85 @@
+id: 2019-026
+name: THRYV v. CLICK-TO-CALL TECHNOLOGIES, LP
+term: 2019
+chief: Roberts
+natural_court: 1707
+docket: 18-916
+citation:
+  sct: 140 S. Ct. 1367
+  led: 206 L. Ed. 2d 554
+  lexis: 2020 U.S. LEXIS 2406
+dates:
+  argued: '2019-12-09'
+  decided: '2020-04-20'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80180, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 35 U.S.C. 315
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 8}
+  source: {code: 8}
+  disposition: vacated
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 133}
+admin_action: {agency: 94}
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,92 @@
+id: 1937-003
+name: JAMES, STATE TAX COMMISSIONER, v. DRAVO CONTRACTING CO.
+term: 1937
+chief: Hughes
+natural_court: 1104
+docket: '3'
+citation:
+  us: 302 U.S. 134
+  sct: 58 S. Ct. 208
+  led: 82 L. Ed. 155
+  lexis: 1937 U.S. LEXIS 1131
+dates:
+  argued: '1937-04-26'
+  reargued: '1937-10-12'
+  decided: '1937-12-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100060, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 131}
+  source: {code: 131}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 57}
+  respondent: {code: 176}
+admin_action: {agency: 117, state: 57}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: CEHughes2
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: PButler
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OJRoberts
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BNCardozo
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true

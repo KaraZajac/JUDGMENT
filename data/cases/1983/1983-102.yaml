@@ -1,0 +1,89 @@
+id: 1983-102
+name: SOUTH-CENTRAL TIMBER DEVELOPMENT, INC. v. WUNNICKE, COMMISSIONER, DEPARTMENT OF NATURAL RESOURCES OF ALASKA,
+  et al.
+term: 1983
+chief: Burger
+natural_court: 1507
+docket: 82-1608
+citation:
+  us: 467 U.S. 82
+  sct: 104 S. Ct. 2237
+  led: 81 L. Ed. 2d 71
+  lexis: 1984 U.S. LEXIS 88
+dates:
+  argued: '1984-02-29'
+  decided: '1984-05-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 100080, area: federalism}
+law:
+  type: constitution
+  supp: 111
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 44}
+  source: {code: 29}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 243}
+  respondent: {code: 28}
+  respondent_state: {code: 2}
+admin_action: {agency: 117, state: 2}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - LFPowell
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  participated: false
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist

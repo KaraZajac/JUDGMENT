@@ -1,0 +1,83 @@
+id: 1945-023
+name: FISHER v. UNITED STATES
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '122'
+citation:
+  us: 328 U.S. 463
+  sct: 66 S. Ct. 1318
+  led: 90 L. Ed. 1382
+  lexis: 1946 U.S. LEXIS 2178
+dates:
+  argued: '1945-12-05'
+  decided: '1946-06-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 10220, area: criminal-procedure}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 136}
+  respondent: {code: 27}
+opinions:
+  majority_author: SFReed
+  majority_assigner: HLBlack
+votes:
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,80 @@
+id: 1849-012
+name: JAMES ERWIN, PLAINTIFF IN ERROR, v. ALFRED J. LOWRY, CURATOR OF ALEXANDER MCNEILL, DECEASED
+term: 1849
+chief: Taney
+natural_court: 508
+citation:
+  us: 48 U.S. 172
+  led: 12 L. Ed. 655
+  lexis: 1849 U.S. LEXIS 341
+dates:
+  argued: '1849-01-04'
+  reargued: '1849-01-08'
+  decided: '1849-02-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90520, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 22}
+  source: {code: 300, state: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: JCatron
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JCatron
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LWoodbury
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true

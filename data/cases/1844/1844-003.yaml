@@ -1,0 +1,74 @@
+id: 1844-003
+name: WILLIAM M. GWIN v. JAMES W. BREEDLOVE
+term: 1844
+chief: Taney
+natural_court: 505
+citation:
+  us: 43 U.S. 29
+  led: 11 L. Ed. 167
+  lexis: 1844 U.S. LEXIS 314
+dates:
+  argued: '1844-01-10'
+  decided: '1844-01-31'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 100110, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Process Act of 1828
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 421}
+  source: {code: 421}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 60}
+  respondent: {code: 174}
+opinions:
+  majority_author: JCatron
+  majority_assigner: JStory
+votes:
+- justice: RBTaney
+  participated: false
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  direction: conservative
+  in_majority: false

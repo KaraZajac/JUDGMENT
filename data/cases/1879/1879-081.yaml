@@ -1,0 +1,83 @@
+id: 1879-081
+name: DOW v. JOHNSON
+term: 1879
+chief: Waite
+natural_court: 702
+citation:
+  us: 100 U.S. 158
+  led: 25 L. Ed. 632
+  lexis: 1879 U.S. LEXIS 1821
+dates:
+  argued: '1879-11-20'
+  decided: '1880-02-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90430, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 416}
+  source: {code: 416}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 186}
+  respondent: {code: 195}
+admin_action: {agency: 6}
+opinions:
+  majority_author: SJField
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NHSwayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - NClifford
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true

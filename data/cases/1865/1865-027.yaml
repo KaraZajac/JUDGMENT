@@ -1,0 +1,83 @@
+id: 1865-027
+name: THE BINGHAMTON BRIDGE
+term: 1865
+chief: Chase
+natural_court: 601
+citation:
+  us: 70 U.S. 51
+  led: 18 L. Ed. 137
+  lexis: 1865 U.S. LEXIS 687
+dates:
+  argued: '1865-12-14'
+  decided: '1866-02-05'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 120}
+  respondent: {code: 120}
+opinions:
+  majority_author: DDavis
+  majority_assigner: JMWayne
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RCGrier
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  participated: false
+- justice: RCGrier
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RCGrier

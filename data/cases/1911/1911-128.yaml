@@ -1,0 +1,78 @@
+id: 1911-128
+name: QUONG WING v. KIRKENDALL, TREASURER OF LEWIS AND CLARK COUNTY, MONTANA
+term: 1911
+chief: White
+natural_court: 901
+docket: '119'
+citation:
+  us: 223 U.S. 59
+  sct: 32 S. Ct. 192
+  led: 56 L. Ed. 350
+  lexis: 1912 U.S. LEXIS 2213
+dates:
+  argued: '1911-12-18'
+  decided: '1912-01-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 31}
+  source: {code: 300, state: 31}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 5}
+  respondent_state: {code: 31}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: HHLurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

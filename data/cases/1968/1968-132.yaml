@@ -1,0 +1,77 @@
+id: 1968-132
+name: NOYD v. BOND et al.
+term: 1968
+chief: Warren
+natural_court: 1411
+docket: '830'
+citation:
+  us: 395 U.S. 683
+  sct: 89 S. Ct. 1876
+  led: 23 L. Ed. 2d 631
+  lexis: 1969 U.S. LEXIS 1262
+dates:
+  argued: '1969-04-24'
+  decided: '1969-06-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 90130, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 377
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 93}
+  source: {code: 30}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 186}
+  respondent: {code: 303}
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true

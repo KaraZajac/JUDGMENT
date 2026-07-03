@@ -1,0 +1,89 @@
+id: 1970-043
+name: BYRNE, DISTRICT ATTORNEY OF SUFFOLK COUNTY, et al. v. KARALEXIS et al.
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '83'
+citation:
+  us: 401 U.S. 216
+  sct: 91 S. Ct. 777
+  led: 27 L. Ed. 2d 792
+  lexis: 1971 U.S. LEXIS 87
+dates:
+  argued: '1970-04-30'
+  reargued: '1970-11-17'
+  decided: '1971-02-23'
+decision:
+  type: per-curiam-argued
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90060, area: judicial-power}
+law:
+  type: other
+  supp: 500
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 80}
+  source: {code: 80}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 26}
+  respondent: {code: 242}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  participated: false
+- justice: JHarlan2
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - PStewart
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true

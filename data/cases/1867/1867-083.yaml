@@ -1,0 +1,67 @@
+id: 1867-083
+name: WHITE v. CANNON
+term: 1867
+chief: Chase
+natural_court: 601
+citation:
+  us: 73 U.S. 443
+  led: 18 L. Ed. 923
+  lexis: 1867 U.S. LEXIS 987
+dates:
+  argued: '1868-03-26'
+  decided: '1868-04-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 140010, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 22}
+  source: {code: 300, state: 22}
+  disposition: reversed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: SJField
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  in_majority: true
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  in_majority: true

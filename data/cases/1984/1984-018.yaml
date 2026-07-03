@@ -1,0 +1,87 @@
+id: 1984-018
+name: LAWRENCE COUNTY et al. v. LEAD-DEADWOOD SCHOOL DISTRICT NO. 40-1
+term: 1984
+chief: Burger
+natural_court: 1507
+docket: 83-240
+citation:
+  us: 469 U.S. 256
+  sct: 105 S. Ct. 695
+  led: 83 L. Ed. 2d 635
+  lexis: 1985 U.S. LEXIS 37
+dates:
+  argued: '1984-10-30'
+  decided: '1985-01-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100120, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 49}
+  source: {code: 300, state: 49}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 49}
+  respondent: {code: 21}
+  respondent_state: {code: 49}
+admin_action: {agency: 117, state: 49}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

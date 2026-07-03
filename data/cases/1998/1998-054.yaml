@@ -1,0 +1,90 @@
+id: 1998-054
+name: JAMES B. HUNT, JR., GOVERNOR OF NORTH CAROLINA, et al. v. MARTIN CROMARTIE et al.
+term: 1998
+chief: Rehnquist
+natural_court: 1607
+docket: 98-85
+citation:
+  us: 526 U.S. 541
+  sct: 119 S. Ct. 1545
+  led: 143 L. Ed. 2d 731
+  lexis: 1999 U.S. LEXIS 3171
+dates:
+  argued: '1999-01-20'
+  decided: '1999-05-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20090, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 98}
+  source: {code: 98}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 38}
+  respondent: {code: 251}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: CThomas
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: SGBreyer
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens

@@ -1,0 +1,85 @@
+id: 1987-065
+name: TRAYNOR v. TURNAGE, ADMINISTRATOR, VETERANS' ADMINISTRATION, et al.
+term: 1987
+chief: Rehnquist
+natural_court: 1603
+docket: 86-622
+citation:
+  us: 485 U.S. 535
+  sct: 108 S. Ct. 1372
+  led: 99 L. Ed. 2d 618
+  lexis: 1988 U.S. LEXIS 1874
+dates:
+  argued: '1987-12-07'
+  decided: '1988-04-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 20250, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 38 U.S.C. § 211
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 250}
+  respondent: {code: 414}
+admin_action: {agency: 114}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  participated: false
+- justice: AMKennedy
+  participated: false

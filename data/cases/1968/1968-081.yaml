@@ -1,0 +1,90 @@
+id: 1968-081
+name: SHAPIRO, COMMISSIONER OF WELFARE OF CONNECTICUT v. THOMPSON
+term: 1968
+chief: Warren
+natural_court: 1410
+docket: '9'
+citation:
+  us: 394 U.S. 618
+  sct: 89 S. Ct. 1322
+  led: 22 L. Ed. 2d 600
+  lexis: 1969 U.S. LEXIS 3190
+dates:
+  argued: '1968-05-01'
+  reargued: '1968-10-23'
+  decided: '1969-04-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20180, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 53}
+  source: {code: 53}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 7}
+  petitioner_state: {code: 8}
+  respondent: {code: 193}
+admin_action: {agency: 117, state: 8}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WODouglas
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - EWarren
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 1880-049
+name: MERIWETHER v. GARRETT
+term: 1880
+chief: Waite
+natural_court: 702
+docket: '575'
+citation:
+  us: 102 U.S. 472
+  led: 26 L. Ed. 197
+  lexis: 1880 U.S. LEXIS 2056
+dates:
+  argued: '1879-12-12'
+  decided: '1880-12-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 100030, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 433}
+  source: {code: 433}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 50}
+  respondent: {code: 135}
+admin_action: {agency: 117, state: 50}
+opinions:
+  majority_author: MRWaite
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  participated: false
+- justice: NHSwayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WStrong
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WStrong

@@ -1,0 +1,72 @@
+id: 1876-072
+name: SAGE et al. v. CENTRAL RAILROAD COMPANY OF IOWA et al.
+term: 1876
+chief: Waite
+natural_court: 701
+citation:
+  us: 93 U.S. 412
+  led: 23 L. Ed. 933
+  lexis: 1876 U.S. LEXIS 1398
+dates:
+  argued: '1876-11-27'
+  decided: '1876-12-18'
+decision:
+  type: opinion-of-the-court
+  disposition: no-disposition
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 140050, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 412}
+  source: {code: 412}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 231}
+opinions:
+  majority_author: MRWaite
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: WStrong
+  vote: majority
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  in_majority: true

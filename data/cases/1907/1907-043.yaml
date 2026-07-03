@@ -1,0 +1,91 @@
+id: 1907-043
+name: THE EMPLOYERS' LIABILITY CASES
+term: 1907
+chief: Fuller
+natural_court: 811
+docket: '216'
+citation:
+  us: 207 U.S. 463
+  sct: 28 S. Ct. 141
+  led: 52 L. Ed. 297
+  lexis: 1908 U.S. LEXIS 1412
+dates:
+  argued: '1907-04-10'
+  decided: '1908-01-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80220, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- statutory-construction
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 433}
+  source: {code: 433}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 231}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RWPeckham
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: DJBrewer
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RWPeckham
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHarlan1
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

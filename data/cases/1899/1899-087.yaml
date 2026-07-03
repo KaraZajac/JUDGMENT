@@ -1,0 +1,87 @@
+id: 1899-087
+name: TAYLOR AND MARSHALL v. BECKHAM
+term: 1899
+chief: Fuller
+natural_court: 808
+docket: '603'
+citation:
+  us: 178 U.S. 548
+  sct: 20 S. Ct. 890
+  led: 44 L. Ed. 1187
+  lexis: 1900 U.S. LEXIS 1702
+dates:
+  argued: '1900-05-01'
+  decided: '1900-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90350, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 21}
+  source: {code: 300, state: 21}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 4}
+  respondent_state: {code: 21}
+admin_action: {agency: 117, state: 21}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HBBrown
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true

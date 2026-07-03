@@ -1,0 +1,82 @@
+id: 1958-017
+name: UNITED STATES v. A & P TRUCKING CO. et al.
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '32'
+citation:
+  us: 358 U.S. 121
+  sct: 79 S. Ct. 203
+  led: 3 L. Ed. 2d 165
+  lexis: 1958 U.S. LEXIS 1765
+dates:
+  argued: '1958-10-20'
+  decided: '1958-12-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80240, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 352
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 92}
+  source: {code: 92}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true

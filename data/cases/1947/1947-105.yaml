@@ -1,0 +1,83 @@
+id: 1947-105
+name: WEST v. OKLAHOMA TAX COMMISSION
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '489'
+citation:
+  us: 334 U.S. 717
+  sct: 68 S. Ct. 1223
+  led: 92 L. Ed. 2d 1676
+  lexis: 1948 U.S. LEXIS 2704
+dates:
+  argued: '1948-03-29'
+  decided: '1948-06-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 42}
+  source: {code: 300, state: 42}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 170}
+  respondent: {code: 4}
+  respondent_state: {code: 42}
+admin_action: {agency: 117, state: 42}
+opinions:
+  majority_author: FMurphy
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  direction: conservative
+  in_majority: false

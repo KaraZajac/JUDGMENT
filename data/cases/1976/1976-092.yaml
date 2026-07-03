@@ -1,0 +1,89 @@
+id: 1976-092
+name: FIALLO, A MINOR, BY RODRIGUEZ, et al. v. BELL, ATTORNEY GENERAL, et al.
+term: 1976
+chief: Burger
+natural_court: 1506
+docket: 75-6297
+citation:
+  us: 430 U.S. 787
+  sct: 97 S. Ct. 1473
+  led: 52 L. Ed. 2d 50
+  lexis: 1977 U.S. LEXIS 78
+dates:
+  argued: '1976-12-07'
+  decided: '1977-04-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20200, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 94}
+  source: {code: 94}
+  disposition: granted
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 1}
+admin_action: {agency: 68}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

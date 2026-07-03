@@ -1,0 +1,85 @@
+id: 1916-103
+name: VALDEZ v. UNITED STATES
+term: 1916
+chief: White
+natural_court: 905
+docket: '361'
+citation:
+  us: 244 U.S. 432
+  sct: 37 S. Ct. 725
+  led: 61 L. Ed. 1242
+  lexis: 1917 U.S. LEXIS 1655
+dates:
+  argued: '1917-04-23'
+  decided: '1917-06-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10330, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: PI Bill of rights
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 17, state: 62}
+  source: {code: 15, state: 62}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: JMcKenna
+votes:
+- justice: EDEWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHClarke
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

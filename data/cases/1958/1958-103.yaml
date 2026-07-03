@@ -1,0 +1,90 @@
+id: 1958-103
+name: HARRISON, ATTORNEY GENERAL OF VIRGINIA, et al. v. NATIONAL ASSOCIATION FOR THE ADVANCEMENT OF COLORED PEOPLE
+  et al.
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '127'
+citation:
+  us: 360 U.S. 167
+  sct: 79 S. Ct. 1025
+  led: 3 L. Ed. 2d 1152
+  lexis: 1959 U.S. LEXIS 1760
+dates:
+  argued: '1959-03-23'
+  decided: '1959-06-08'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90010, area: judicial-power}
+law:
+  type: other
+  supp: 500
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 126}
+  source: {code: 126}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 55}
+  respondent: {code: 223}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true

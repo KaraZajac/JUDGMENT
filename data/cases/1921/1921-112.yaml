@@ -1,0 +1,87 @@
+id: 1921-112
+name: SLOAN SHIPYARDS CORPORATION et al. v. UNITED STATES SHIPPING BOARD EMERGENCY FLEET CORPORATION AND THE UNITED
+  STATES
+term: 1921
+chief: Taft
+natural_court: 1001
+docket: '308'
+citation:
+  us: 258 U.S. 549
+  sct: 42 S. Ct. 386
+  led: 66 L. Ed. 762
+  lexis: 1922 U.S. LEXIS 2301
+dates:
+  argued: '1922-03-15'
+  decided: '1922-05-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 133}
+  source: {code: 133}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 120}
+  respondent: {code: 420}
+admin_action: {agency: 118}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: JMcKenna
+votes:
+- justice: WHTaft
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WHTaft
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WHTaft

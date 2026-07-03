@@ -1,0 +1,83 @@
+id: 1926-158
+name: SMYER et al. v. UNITED STATES
+term: 1926
+chief: Taft
+natural_court: 1005
+docket: '131'
+citation:
+  us: 273 U.S. 333
+  sct: 47 S. Ct. 375
+  led: 71 L. Ed. 667
+  lexis: 1927 U.S. LEXIS 702
+dates:
+  argued: '1927-01-14'
+  decided: '1927-02-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10570, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: miscellaneous criminal law
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 42}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 412}
+  respondent: {code: 27}
+admin_action: {agency: 112}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: WVanDevanter
+votes:
+- justice: WHTaft
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: OWHolmes
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: conservative
+  in_majority: false

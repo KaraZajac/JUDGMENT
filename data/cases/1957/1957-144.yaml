@@ -1,0 +1,87 @@
+id: 1957-144
+name: SPEISER v. RANDALL, ASSESSOR OF CONTRA COSTA COUNTY, CALIFORNIA
+term: 1957
+chief: Warren
+natural_court: 1405
+docket: '483'
+citation:
+  us: 357 U.S. 513
+  sct: 78 S. Ct. 1332
+  led: 2 L. Ed. 2d 1460
+  lexis: 1958 U.S. LEXIS 1803
+dates:
+  argued: '1958-04-08'
+  decided: '1958-06-30'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 30070, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 250}
+  respondent: {code: 5}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  participated: false
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true

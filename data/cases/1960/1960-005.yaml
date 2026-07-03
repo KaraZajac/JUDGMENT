@@ -1,0 +1,84 @@
+id: 1960-005
+name: GOMILLION et al. v. LIGHTFOOT, MAYOR OF TUSKEGEE, et al.
+term: 1960
+chief: Warren
+natural_court: 1406
+docket: '32'
+citation:
+  us: 364 U.S. 339
+  sct: 81 S. Ct. 125
+  led: 5 L. Ed. 2d 110
+  lexis: 1960 U.S. LEXIS 189
+dates:
+  argued: '1960-10-18'
+  decided: '1960-11-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20010, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 233
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 41}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 227}
+  respondent: {code: 19}
+  respondent_state: {code: 1}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

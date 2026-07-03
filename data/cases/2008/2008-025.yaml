@@ -1,0 +1,88 @@
+id: 2008-025
+name: PACIFIC BELL TELEPHONE COMPANY, DBA AT&T CALIFORNIA et al. v. LINKLINE COMMUNICATIONS, INC., et al.
+term: 2008
+chief: Roberts
+natural_court: 1702
+docket: 07-512
+citation:
+  us: 555 U.S. 438
+  sct: 129 S. Ct. 1109
+  led: 172 L. Ed. 2d 836
+  lexis: 2009 U.S. LEXIS 1635
+dates:
+  argued: '2008-12-08'
+  decided: '2009-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 205}
+  respondent: {code: 133}
+opinions:
+  majority_author: JGRoberts
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: SGBreyer
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,91 @@
+id: 1904-135
+name: SAN FRANCISCO NATIONAL BANK v. DODGE
+term: 1904
+chief: Fuller
+natural_court: 810
+docket: '44'
+citation:
+  us: 197 U.S. 70
+  sct: 25 S. Ct. 384
+  led: 49 L. Ed. 669
+  lexis: 1905 U.S. LEXIS 1221
+dates:
+  argued: '1904-11-07'
+  decided: '1905-02-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100060, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: RS para 5219
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 405}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 19}
+  respondent_state: {code: 6}
+admin_action: {agency: 117, state: 6}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HBBrown
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true

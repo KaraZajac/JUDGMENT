@@ -1,0 +1,74 @@
+id: 1873-132
+name: MITCHELL v. TILGHMAN
+term: 1873
+chief: Waite
+natural_court: 701
+citation:
+  us: 86 U.S. 287
+  led: 22 L. Ed. 125
+  lexis: 1873 U.S. LEXIS 1448
+dates:
+  argued: '1873-11-11'
+  decided: '1874-03-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80180, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 172}
+opinions:
+  majority_author: NClifford
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  participated: false
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  participated: false
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true

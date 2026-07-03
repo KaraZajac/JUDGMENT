@@ -1,0 +1,87 @@
+id: 1977-043
+name: FEDERAL MARITIME COMMISSION et al. v. PACIFIC MARITIME ASSN. et al.
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 76-938
+citation:
+  us: 435 U.S. 40
+  sct: 98 S. Ct. 927
+  led: 55 L. Ed. 2d 96
+  lexis: 1978 U.S. LEXIS 17
+dates:
+  argued: '1977-12-07'
+  decided: '1978-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 70020, area: unions}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 46 U.S.C. § 814
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: vacated-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 349}
+  respondent: {code: 234}
+admin_action: {agency: 49}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: WJBrennan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  participated: false
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

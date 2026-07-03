@@ -1,0 +1,87 @@
+id: 2003-082
+name: RICHARD B. CHENEY, VICE PRESIDENT OF THE UNITED STATES, et al. v. UNITED STATES DISTRICT COURT FOR THE DISTRICT
+  OF COLUMBIA et al.
+term: 2003
+chief: Rehnquist
+natural_court: 1607
+docket: 03-475
+citation:
+  us: 542 U.S. 367
+  sct: 124 S. Ct. 2576
+  led: 159 L. Ed. 2d 459
+  lexis: 2004 U.S. LEXIS 4576
+dates:
+  argued: '2004-04-27'
+  decided: '2004-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 50040, area: privacy}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 6}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true

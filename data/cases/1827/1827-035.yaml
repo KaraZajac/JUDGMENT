@@ -1,0 +1,71 @@
+id: 1827-035
+name: THE COLUMBIAN INSURANCE COMPANY, PLAINTIFFS IN ERROR, v. CATLETT, DEFENDANT IN ERROR
+term: 1827
+chief: Marshall
+natural_court: 408
+citation:
+  us: 25 U.S. 383
+  led: 6 L. Ed. 664
+  lexis: 1827 U.S. LEXIS 396
+dates:
+  argued: '1827-03-03'
+  decided: '1827-03-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 440}
+  source: {code: 440}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 174}
+opinions:
+  majority_author: JStory
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RTrimble
+  vote: majority
+  direction: conservative
+  in_majority: true

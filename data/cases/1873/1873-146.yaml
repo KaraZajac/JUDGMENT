@@ -1,0 +1,84 @@
+id: 1873-146
+name: THE MAYOR v. RAY
+term: 1873
+chief: Waite
+natural_court: 701
+citation:
+  us: 86 U.S. 468
+  led: 22 L. Ed. 164
+  lexis: 1873 U.S. LEXIS 1451
+dates:
+  argued: '1874-01-12'
+  decided: '1874-03-30'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 433}
+  source: {code: 433}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 3}
+  respondent_state: {code: 50}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: SFMiller
+votes:
+- justice: MRWaite
+  participated: false
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NHSwayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPBradley
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPBradley
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+  joined:
+  - JPBradley
+- justice: WStrong
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true

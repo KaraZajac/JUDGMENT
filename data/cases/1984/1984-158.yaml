@@ -1,0 +1,91 @@
+id: 1984-158
+name: CITY OF CLEBURNE, TEXAS, et al. v. CLEBURNE LIVING CENTER, INC., et al.
+term: 1984
+chief: Burger
+natural_court: 1507
+docket: 84-468
+citation:
+  us: 473 U.S. 432
+  sct: 105 S. Ct. 3249
+  led: 87 L. Ed. 2d 313
+  lexis: 1985 U.S. LEXIS 118
+dates:
+  argued: '1985-03-18'
+  reargued: '1985-04-23'
+  decided: '1985-07-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80150, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 120}
+  source: {code: 25}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 51}
+  respondent: {code: 229}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - TMarshall
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

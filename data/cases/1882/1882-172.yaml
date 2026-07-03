@@ -1,0 +1,89 @@
+id: 1882-172
+name: KRING v. MISSOURI
+term: 1882
+chief: Waite
+natural_court: 706
+docket: '1041'
+citation:
+  us: 107 U.S. 221
+  sct: 2 S. Ct. 443
+  led: 27 L. Ed. 506
+  lexis: 1882 U.S. LEXIS 1218
+dates:
+  argued: '1883-03-13'
+  decided: '1883-04-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10180, area: criminal-procedure}
+law:
+  type: constitution
+  supp: 127
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 30}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: SFMiller
+votes:
+- justice: MRWaite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SMatthews
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SMatthews
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMatthews
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HGray
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SMatthews
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true

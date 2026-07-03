@@ -1,0 +1,87 @@
+id: 1965-081
+name: INTERNATIONAL UNION, UNITED AUTOMOBILE, AEROSPACE & AGRICULTURAL IMPLEMENT WORKERS OF AMERICA (UAW), AFL-CIO
+  v. HOOSIER CARDINAL CORP.
+term: 1965
+chief: Warren
+natural_court: 1409
+docket: '387'
+citation:
+  us: 383 U.S. 696
+  sct: 86 S. Ct. 1107
+  led: 16 L. Ed. 2d 192
+  lexis: 1966 U.S. LEXIS 2749
+dates:
+  argued: '1966-01-27'
+  decided: '1966-03-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 70080, area: unions}
+law:
+  type: federal-statute
+  supp: 350
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 69}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 151}
+opinions:
+  majority_author: PStewart
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,79 @@
+id: 1893-055
+name: HICKS v. UNITED STATES
+term: 1893
+chief: Fuller
+natural_court: 805
+docket: '971'
+citation:
+  us: 150 U.S. 442
+  sct: 14 S. Ct. 144
+  led: 37 L. Ed. 1137
+  lexis: 1893 U.S. LEXIS 2395
+dates:
+  decided: '1893-11-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10290, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 404}
+  source: {code: 404}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: GShiras
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - HBBrown
+- justice: HBBrown
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: GShiras
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HEJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

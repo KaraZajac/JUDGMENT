@@ -1,0 +1,85 @@
+id: 1989-050
+name: JOHN S. LYTLE v. HOUSEHOLD MANUFACTURING, INC., DBA SCHWITZER TURBOCHARGERS
+term: 1989
+chief: Rehnquist
+natural_court: 1603
+docket: 88-334
+citation:
+  us: 494 U.S. 545
+  sct: 110 S. Ct. 1331
+  led: 108 L. Ed. 2d 504
+  lexis: 1990 U.S. LEXIS 1532
+dates:
+  argued: '1990-01-08'
+  decided: '1990-03-20'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10580, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 218
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 100}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 182}
+  respondent: {code: 151}
+admin_action: {agency: 32}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true

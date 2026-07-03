@@ -1,0 +1,64 @@
+id: 1793-001
+name: CHISHOLM, EX'R. VERSUS GEORGIA
+term: 1793
+chief: Jay
+natural_court: 103
+citation:
+  us: 2 U.S. 419
+  led: 1 L. Ed. 440
+  lexis: 1793 U.S. LEXIS 249
+dates:
+  argued: '1793-02-05'
+  decided: '1793-02-19'
+decision:
+  type: seriatim
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 1
+issue: {code: 100050, area: federalism}
+law:
+  type: constitution
+  supp: 140
+authority:
+- judicial-review-national
+- supervisory
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 238}
+  respondent: {code: 28}
+  respondent_state: {code: 13}
+opinions:
+  majority_assigner: JJay
+votes:
+- justice: JJay
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JWilson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JBlair
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JIredell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

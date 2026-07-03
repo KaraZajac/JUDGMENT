@@ -1,0 +1,84 @@
+id: 1920-009
+name: WALLS, ATTORNEY GENERAL OF THE STATE OF WYOMING, et al. v. MIDLAND CARBON COMPANY et al.
+term: 1920
+chief: White
+natural_court: 905
+docket: '219'
+citation:
+  us: 254 U.S. 300
+  sct: 41 S. Ct. 118
+  led: 65 L. Ed. 276
+  lexis: 1920 U.S. LEXIS 1160
+dates:
+  argued: '1920-10-13'
+  decided: '1920-12-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 134}
+  source: {code: 134}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 59}
+  respondent: {code: 184}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: JMcKenna
+votes:
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

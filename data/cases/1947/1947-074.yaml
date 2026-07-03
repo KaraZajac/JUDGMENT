@@ -1,0 +1,86 @@
+id: 1947-074
+name: FEDERAL TRADE COMMISSION v. MORTON SALT CO.
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '464'
+citation:
+  us: 334 U.S. 37
+  sct: 68 S. Ct. 822
+  led: 92 L. Ed. 2d 1196
+  lexis: 1948 U.S. LEXIS 2766
+dates:
+  argued: '1948-03-10'
+  decided: '1948-05-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 364
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 27}
+  source: {code: 27}
+  disposition: vacated
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 357}
+  respondent: {code: 158}
+admin_action: {agency: 57}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

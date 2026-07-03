@@ -1,0 +1,80 @@
+id: 1920-073
+name: BURDEAU v. MCDOWELL
+term: 1920
+chief: White
+natural_court: 905
+docket: '646'
+citation:
+  us: 256 U.S. 465
+  sct: 41 S. Ct. 574
+  led: 65 L. Ed. 1048
+  lexis: 1921 U.S. LEXIS 1576
+dates:
+  argued: '1921-04-11'
+  decided: '1921-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 111}
+  source: {code: 111}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 127}
+admin_action: {agency: 27}
+opinions:
+  majority_author: WRDay
+  majority_assigner: JMcKenna
+votes:
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHClarke
+  vote: majority
+  direction: conservative
+  in_majority: true

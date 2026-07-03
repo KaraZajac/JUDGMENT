@@ -1,0 +1,89 @@
+id: 1927-144
+name: CASEY v. UNITED STATES
+term: 1927
+chief: Taft
+natural_court: 1005
+docket: '500'
+citation:
+  us: 276 U.S. 413
+  sct: 48 S. Ct. 373
+  led: 72 L. Ed. 632
+  lexis: 1928 U.S. LEXIS 86
+dates:
+  argued: '1928-01-11'
+  decided: '1928-04-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10510, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Mann Act
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 129}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - JCMcReynolds
+  - LDBrandeis
+- justice: ETSanford
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

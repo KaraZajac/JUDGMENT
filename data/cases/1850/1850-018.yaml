@@ -1,0 +1,80 @@
+id: 1850-018
+name: CHARLOTTE TAYLOR, BY JAMES M. WALKER, HER NEXT FRIEND, APPELLANT, v. JAMES TAYLOR, JULIA SCARBOROUGH, GODFREY
+  BARNSLEY AND JULIA, HIS WIFE, JOSEPH SCARBOROUGH AND WILLIAM SCARBOROUGH, ROBERT M. GOODWIN, NORMAN WALLACE, AND
+  ANDREW T. MILLER
+term: 1850
+chief: Taney
+natural_court: 508
+citation:
+  us: 49 U.S. 183
+  led: 12 L. Ed. 1040
+  lexis: 1850 U.S. LEXIS 1666
+dates:
+  argued: '1850-01-04'
+  reargued: '1850-01-07'
+  decided: '1850-01-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 20170, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 409}
+  source: {code: 409}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 168}
+opinions:
+  majority_author: PVDaniel
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  participated: false
+- justice: PVDaniel
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LWoodbury
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true

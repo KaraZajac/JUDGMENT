@@ -1,0 +1,74 @@
+id: 1837-003
+name: LESSEE OF JOSEPH MARLATT, PLAINTIFF IN ERROR, v. JOHN SILK, AND JOHN M'DONALD
+term: 1837
+chief: Taney
+natural_court: 502
+citation:
+  us: 36 U.S. 1
+  led: 9 L. Ed. 609
+  lexis: 1837 U.S. LEXIS 161
+dates:
+  decided: '1837-01-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 80105, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 111}
+  source: {code: 111}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: PPBarbour
+  majority_assigner: JStory
+votes:
+- justice: RBTaney
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMcLean
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - RBTaney
+- justice: HBaldwin
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PPBarbour
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

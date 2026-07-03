@@ -1,0 +1,96 @@
+id: 2023-010
+name: VIDAL v. ELSTER
+term: 2023
+chief: Roberts
+natural_court: 1710
+docket: 22-704
+citation:
+  us: 602 U.S. 286
+  sct: 144 S. Ct. 1507
+  led: 219 L. Ed. 2d 56
+  lexis: 2024 U.S. LEXIS 2605
+dates:
+  argued: '2023-11-01'
+  decided: '2024-06-13'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 8}
+  source: {code: 8}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 394}
+  respondent: {code: 172}
+admin_action: {agency: 94}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: CThomas
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: EKagan
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - ACBarrett
+  - SSotomayor
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: KBJackson
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - ACBarrett
+  - SSotomayor

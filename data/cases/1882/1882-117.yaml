@@ -1,0 +1,87 @@
+id: 1882-117
+name: BUSH v. KENTUCKY
+term: 1882
+chief: Waite
+natural_court: 706
+docket: '1130'
+citation:
+  us: 107 U.S. 110
+  sct: 1 S. Ct. 625
+  led: 27 L. Ed. 354
+  lexis: 1882 U.S. LEXIS 1207
+dates:
+  argued: '1883-01-16'
+  decided: '1883-01-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20040, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- supervisory
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 21}
+  source: {code: 300, state: 21}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 21}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: SFMiller
+votes:
+- justice: MRWaite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true

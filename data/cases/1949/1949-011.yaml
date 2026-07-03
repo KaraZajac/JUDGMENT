@@ -1,0 +1,86 @@
+id: 1949-011
+name: UNITED STATES ET AL. v. CAPITAL TRANSIT COMPANY ET AL.
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '40'
+citation:
+  us: 338 U.S. 286
+  sct: 70 S. Ct. 115
+  led: 94 L. Ed. 2d 93
+  lexis: 1949 U.S. LEXIS 2964
+dates:
+  argued: '1949-10-20'
+  decided: '1949-11-14'
+decision:
+  type: per-curiam-argued
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80240, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 352
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 55, state: 10}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 121}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMVinson
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMVinson
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

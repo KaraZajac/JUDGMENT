@@ -1,0 +1,80 @@
+id: 1941-046
+name: SCRIPPS-HOWARD RADIO, INC. v. FEDERAL COMMUNICATIONS COMMISSION
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '508'
+citation:
+  us: 316 U.S. 4
+  sct: 62 S. Ct. 875
+  led: 86 L. Ed. 1229
+  lexis: 1942 U.S. LEXIS 1072
+dates:
+  argued: '1942-03-03'
+  decided: '1942-04-06'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90120, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disagreement: false
+parties:
+  petitioner: {code: 221}
+  respondent: {code: 338}
+admin_action: {agency: 52}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  participated: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: FMurphy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: JFByrnes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

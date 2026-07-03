@@ -1,0 +1,90 @@
+id: 1962-049
+name: KENNEDY, ATTORNEY GENERAL, v. MENDOZA-MARTINEZ
+term: 1962
+chief: Warren
+natural_court: 1408
+docket: '2'
+citation:
+  us: 372 U.S. 144
+  sct: 83 S. Ct. 554
+  led: 9 L. Ed. 2d 644
+  lexis: 1963 U.S. LEXIS 2095
+dates:
+  argued: '1961-10-10'
+  reargued: '1962-12-04'
+  decided: '1963-02-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20280, area: civil-rights}
+law:
+  type: other
+  supp: 507
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 51}
+  source: {code: 51}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 106}
+opinions:
+  majority_author: AJGoldberg
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: co-wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: AJGoldberg
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,73 @@
+id: 1881-081
+name: MICOU v. NATIONAL BANK
+term: 1881
+chief: Waite
+natural_court: 705
+docket: '66'
+citation:
+  us: 104 U.S. 530
+  led: 26 L. Ed. 834
+  lexis: 1881 U.S. LEXIS 2042
+dates:
+  argued: '1881-12-20'
+  decided: '1882-01-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 20100, area: civil-rights}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 403}
+  source: {code: 403}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 113}
+opinions:
+  majority_author: SMatthews
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBWoods
+  participated: false
+- justice: SMatthews
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  participated: false

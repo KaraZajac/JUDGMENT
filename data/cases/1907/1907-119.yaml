@@ -1,0 +1,89 @@
+id: 1907-119
+name: GALVESTON, HARRISBURG AND SAN ANTONIO RAILWAY COMPANY v. STATE OF TEXAS
+term: 1907
+chief: Fuller
+natural_court: 811
+docket: '207'
+citation:
+  us: 210 U.S. 217
+  sct: 28 S. Ct. 638
+  led: 52 L. Ed. 1031
+  lexis: 1908 U.S. LEXIS 1505
+dates:
+  argued: '1908-04-21'
+  decided: '1908-05-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 300, state: 51}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: DJBrewer
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHarlan1
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHarlan1
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHarlan1
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  vote: majority
+  direction: conservative
+  in_majority: true

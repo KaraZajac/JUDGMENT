@@ -1,0 +1,84 @@
+id: 1946-094
+name: AYRSHIRE COLLIERIES CORP. ET AL. v. UNITED STATES ET AL.
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '467'
+citation:
+  us: 331 U.S. 132
+  sct: 67 S. Ct. 1168
+  led: 91 L. Ed. 1391
+  lexis: 1947 U.S. LEXIS 2899
+dates:
+  argued: '1947-04-07'
+  decided: '1947-04-28'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 90320, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 380
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 69, state: 18}
+  source: {code: 69, state: 18}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 234}
+  respondent: {code: 27}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: FMurphy
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

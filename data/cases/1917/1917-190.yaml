@@ -1,0 +1,84 @@
+id: 1917-190
+name: NORTHERN OHIO TRACTION & LIGHT COMPANY et al. v. STATE OF OHIO ON THE RELATION OF PONTIUS, PROSECUTING ATTORNEY
+  OF STARK COUNTY, OHIO
+term: 1917
+chief: White
+natural_court: 905
+docket: '60'
+citation:
+  us: 245 U.S. 574
+  sct: 38 S. Ct. 196
+  led: 62 L. Ed. 481
+  lexis: 1918 U.S. LEXIS 2108
+dates:
+  argued: '1917-10-18'
+  decided: '1918-01-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 41}
+  source: {code: 300, state: 41}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 8}
+  respondent_state: {code: 41}
+admin_action: {agency: 117, state: 41}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHClarke
+- justice: JHClarke
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

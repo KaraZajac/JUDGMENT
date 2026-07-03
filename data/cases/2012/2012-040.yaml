@@ -1,0 +1,93 @@
+id: 2012-040
+name: JONATHAN EDWARD BOYER, PETITIONER v. LOUISIANA
+term: 2012
+chief: Roberts
+natural_court: 1704
+docket: 11-9953
+citation:
+  us: 569 U.S. 238
+  sct: 133 S. Ct. 1702
+  led: 185 L. Ed. 2d 774
+  lexis: 2013 U.S. LEXIS 3518
+dates:
+  argued: '2013-01-14'
+  decided: '2013-04-29'
+decision:
+  type: per-curiam-argued
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90150, area: judicial-power}
+law:
+  type: constitutional-amendment
+  supp: 216
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 22}
+  source: {code: 301, state: 22}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 213}
+  respondent: {code: 28}
+  respondent_state: {code: 22}
+opinions:
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: SAAlito
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor

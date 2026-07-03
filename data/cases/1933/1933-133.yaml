@@ -1,0 +1,87 @@
+id: 1933-133
+name: W. B. WORTHEN CO. et al. v. THOMAS
+term: 1933
+chief: Hughes
+natural_court: 1103
+docket: '856'
+citation:
+  us: 292 U.S. 426
+  sct: 54 S. Ct. 816
+  led: 78 L. Ed. 1344
+  lexis: 1934 U.S. LEXIS 720
+dates:
+  decided: '1934-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20100, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 5}
+  source: {code: 300, state: 5}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 138}
+opinions:
+  majority_author: CEHughes2
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - GSutherland
+- justice: JCMcReynolds
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - GSutherland
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - GSutherland
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  direction: conservative
+  in_majority: true

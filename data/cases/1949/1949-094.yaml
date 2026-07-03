@@ -1,0 +1,83 @@
+id: 1949-094
+name: AUTOMATIC RADIO MANUFACTURING CO., INC. v. HAZELTINE RESEARCH, INC.
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '455'
+citation:
+  us: 339 U.S. 827
+  sct: 70 S. Ct. 894
+  led: 94 L. Ed. 2d 1312
+  lexis: 1950 U.S. LEXIS 2622
+dates:
+  argued: '1950-04-05'
+  decided: '1950-06-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80180, area: economic-activity}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 80, state: 26}
+  source: {code: 21}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 177}
+  respondent: {code: 172}
+opinions:
+  majority_author: SMinton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

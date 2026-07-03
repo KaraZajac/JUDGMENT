@@ -1,0 +1,79 @@
+id: 1887-060
+name: MUGLER v. KANSAS
+term: 1887
+chief: Waite
+natural_court: 706
+docket: '19'
+citation:
+  us: 123 U.S. 623
+  sct: 8 S. Ct. 273
+  led: 31 L. Ed. 205
+  lexis: 1887 U.S. LEXIS 2204
+dates:
+  argued: '1887-04-11'
+  decided: '1887-12-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 20}
+  source: {code: 300, state: 20}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 118}
+  respondent: {code: 28}
+  respondent_state: {code: 20}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true

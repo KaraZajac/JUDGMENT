@@ -1,0 +1,70 @@
+id: 1870-051
+name: MERCHANTS' BANK v. STATE BANK
+term: 1870
+chief: Chase
+natural_court: 602
+citation:
+  us: 77 U.S. 604
+  led: 19 L. Ed. 1008
+  lexis: 1870 U.S. LEXIS 1159
+dates:
+  argued: '1870-04-14'
+  decided: '1871-01-30'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 140030, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 113}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: SNelson
+votes:
+- justice: SPChase
+  participated: false
+- justice: SNelson
+  vote: majority
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: SFMiller
+  participated: false
+- justice: DDavis
+  vote: dissent
+  in_majority: false
+  joined:
+  - NClifford
+- justice: SJField
+  vote: majority
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  in_majority: true

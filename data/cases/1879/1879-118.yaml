@@ -1,0 +1,82 @@
+id: 1879-118
+name: PELTON v. NATIONAL BANK
+term: 1879
+chief: Waite
+natural_court: 702
+docket: '827'
+citation:
+  us: 101 U.S. 143
+  led: 25 L. Ed. 901
+  lexis: 1879 U.S. LEXIS 1894
+dates:
+  argued: '1879-12-04'
+  decided: '1880-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 100060, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 428}
+  source: {code: 428}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 41}
+  respondent: {code: 113}
+admin_action: {agency: 117, state: 41}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true

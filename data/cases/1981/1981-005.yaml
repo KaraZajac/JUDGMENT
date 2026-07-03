@@ -1,0 +1,84 @@
+id: 1981-005
+name: RIDGWAY et al. v. RIDGWAY et al.
+term: 1981
+chief: Burger
+natural_court: 1507
+docket: 80-1070
+citation:
+  us: 454 U.S. 46
+  sct: 102 S. Ct. 49
+  led: 70 L. Ed. 2d 39
+  lexis: 1981 U.S. LEXIS 143
+dates:
+  argued: '1981-10-07'
+  decided: '1981-11-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 100030, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 38 U.S.C. § 765
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 23}
+  source: {code: 300, state: 23}
+  disposition: vacated-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 253}
+  respondent: {code: 129}
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SDOConnor
+  participated: false

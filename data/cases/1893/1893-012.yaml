@@ -1,0 +1,77 @@
+id: 1893-012
+name: MAGONE v. HELLER
+term: 1893
+chief: Fuller
+natural_court: 805
+docket: '47'
+citation:
+  us: 150 U.S. 70
+  sct: 14 S. Ct. 18
+  led: 37 L. Ed. 1001
+  lexis: 1893 U.S. LEXIS 2352
+dates:
+  argued: '1893-10-19'
+  decided: '1893-10-30'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 60}
+  respondent: {code: 234}
+admin_action: {agency: 21}
+opinions:
+  majority_author: HGray
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: HBBrown
+  participated: false
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HEJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

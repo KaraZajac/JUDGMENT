@@ -1,0 +1,87 @@
+id: 1893-293
+name: INTERSTATE COMMERCE COMMISSION v. BRIMSON
+term: 1893
+chief: Fuller
+natural_court: 806
+docket: '883'
+citation:
+  us: 154 U.S. 447
+  sct: 14 S. Ct. 1125
+  led: 38 L. Ed. 1047
+  lexis: 1894 U.S. LEXIS 2243
+dates:
+  argued: '1894-04-16'
+  decided: '1894-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 50040, area: privacy}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 410}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 366}
+  respondent: {code: 501}
+admin_action: {agency: 66}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: SJField
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - MWFuller
+  - HEJackson
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HEJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true

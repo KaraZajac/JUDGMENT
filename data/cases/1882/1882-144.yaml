@@ -1,0 +1,85 @@
+id: 1882-144
+name: ANTONI v. GREENHOW
+term: 1882
+chief: Waite
+natural_court: 706
+citation:
+  us: 107 U.S. 769
+  sct: 2 S. Ct. 91
+  led: 27 L. Ed. 468
+  lexis: 1882 U.S. LEXIS 1269
+dates:
+  argued: '1883-01-08'
+  decided: '1883-03-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 55}
+  source: {code: 300, state: 55}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 55}
+  respondent: {code: 8}
+  respondent_state: {code: 55}
+admin_action: {agency: 117, state: 55}
+opinions:
+  majority_author: MRWaite
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPBradley
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WBWoods
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: SMatthews
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true

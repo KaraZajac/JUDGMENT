@@ -1,0 +1,88 @@
+id: 2021-049
+name: TORRES v. TEXAS DEPARTMENT OF PUBLIC SAFETY
+term: 2021
+chief: Roberts
+natural_court: 1709
+docket: 20-603
+citation:
+  sct: 142 S. Ct. 2455
+  led: 213 L. Ed. 2d 808
+  lexis: 2022 U.S. LEXIS 3221
+dates:
+  argued: '2022-03-29'
+  decided: '2022-06-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100130, area: federalism}
+law:
+  type: constitution
+  supp: 116
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 301, state: 51}
+  disposition: reversed
+  direction: conservative
+parties:
+  petitioner: {code: 186}
+  respondent: {code: 7}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas

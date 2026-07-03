@@ -1,0 +1,74 @@
+id: 1872-024
+name: GRAY v. DARLINGTON
+term: 1872
+chief: Chase
+natural_court: 602
+citation:
+  us: 82 U.S. 63
+  led: 21 L. Ed. 45
+  lexis: 1872 U.S. LEXIS 1231
+dates:
+  decided: '1872-12-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Act of Congress, March 2, 1867
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 430}
+  source: {code: 430}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 195}
+opinions:
+  majority_author: SJField
+  majority_assigner: NHSwayne
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: NClifford
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  direction: liberal
+  in_majority: false

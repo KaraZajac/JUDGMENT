@@ -1,0 +1,87 @@
+id: 1950-070
+name: JORDAN, DISTRICT DIRECTOR OF IMMIGRATION & NATURALIZATION, v. De GEORGE
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '348'
+citation:
+  us: 341 U.S. 223
+  sct: 71 S. Ct. 703
+  led: 95 L. Ed. 2d 886
+  lexis: 1951 U.S. LEXIS 2418
+dates:
+  argued: '1951-03-05'
+  decided: '1951-05-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20110, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 207
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 66, state: 17}
+  source: {code: 27}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 368}
+  respondent: {code: 106}
+admin_action: {agency: 7}
+opinions:
+  majority_author: FMVinson
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

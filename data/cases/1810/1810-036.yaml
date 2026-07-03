@@ -1,0 +1,68 @@
+id: 1810-036
+name: HUDSON AND SMITH v. GUESTIER
+term: 1810
+chief: Marshall
+natural_court: 404
+citation:
+  us: 10 U.S. 281
+  led: 3 L. Ed. 224
+  lexis: 1810 U.S. LEXIS 343
+dates:
+  argued: '1810-03-12'
+  decided: '1810-03-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 1
+issue: {code: 90500, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 417}
+  source: {code: 417}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 123}
+opinions:
+  majority_author: HBLivingston
+  majority_assigner: BWashington
+votes:
+- justice: JMarshall
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WCushing
+  participated: false
+- justice: SChase
+  participated: false
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TTodd
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

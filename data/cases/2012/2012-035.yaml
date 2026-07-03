@@ -1,0 +1,89 @@
+id: 2012-035
+name: US AIRWAYS, INC., IN ITS CAPACITY AS FIDUCIARY AND PLAN ADMINISTRATOR OF THE US AIRWAYS, INC. EMPLOYEE BENEFITS
+  PLAN, PETITIONER v. JAMES E. MCCUTCHEN et al.
+term: 2012
+chief: Roberts
+natural_court: 1704
+docket: 11-1285
+citation:
+  us: 569 U.S. 88
+  sct: 133 S. Ct. 1537
+  led: 185 L. Ed. 2d 654
+  lexis: 2013 U.S. LEXIS 3156
+dates:
+  argued: '2012-11-27'
+  decided: '2013-04-16'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80090, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 323
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 111}
+  source: {code: 23}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 104}
+  respondent: {code: 145}
+opinions:
+  majority_author: EKagan
+  majority_assigner: AMKennedy
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AScalia
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - AScalia
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

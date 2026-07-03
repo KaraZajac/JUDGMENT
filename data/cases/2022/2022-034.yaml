@@ -1,0 +1,82 @@
+id: 2022-034
+name: PEREZ v. STURGIS PUBLIC SCHOOLS
+term: 2022
+chief: Roberts
+natural_court: 1710
+docket: 21-887
+citation:
+  us: 598 U.S. 142
+  sct: 143 S. Ct. 859
+  led: 215 L. Ed. 2d 95
+  lexis: 2023 U.S. LEXIS 1291
+dates:
+  argued: '2023-01-18'
+  decided: '2023-03-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20210, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 340
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 82}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 140}
+  respondent: {code: 21}
+  respondent_state: {code: 27}
+opinions:
+  majority_author: NMGorsuch
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: KBJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

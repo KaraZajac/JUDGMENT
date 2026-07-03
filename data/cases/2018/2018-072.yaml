@@ -1,0 +1,87 @@
+id: 2018-072
+name: UNITED STATES v. DAVIS
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 18-431
+citation:
+  sct: 139 S. Ct. 2319
+  led: 204 L. Ed. 2d 757
+  lexis: 2019 U.S. LEXIS 4210
+dates:
+  argued: '2019-04-17'
+  decided: '2019-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40040, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 207
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 120}
+  source: {code: 25}
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 126}
+opinions:
+  majority_author: NMGorsuch
+  majority_assigner: RBGinsburg
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

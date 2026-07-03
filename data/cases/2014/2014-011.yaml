@@ -1,0 +1,91 @@
+id: 2014-011
+name: ZIVOTOFSKY v. KERRY
+term: 2014
+chief: Roberts
+natural_court: 1704
+docket: 13-628
+citation:
+  us: 576 U.S. 1
+  sct: 135 S. Ct. 2076
+  led: 192 L. Ed. 2d 83
+  lexis: 2015 U.S. LEXIS 3781
+dates:
+  argued: '2014-11-03'
+  decided: '2015-06-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 130015, area: miscellaneous}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 116-1350, sec 214
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 175}
+  respondent: {code: 328}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: AMKennedy
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+  - AScalia
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

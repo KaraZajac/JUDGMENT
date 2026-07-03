@@ -1,0 +1,77 @@
+id: 1926-177
+name: UNITED STATES v. INTERNATIONAL HARVESTER COMPANY et al.
+term: 1926
+chief: Taft
+natural_court: 1005
+docket: '254'
+citation:
+  us: 274 U.S. 693
+  sct: 47 S. Ct. 748
+  led: 71 L. Ed. 1302
+  lexis: 1927 U.S. LEXIS 959
+dates:
+  argued: '1926-10-26'
+  decided: '1927-06-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 83}
+  source: {code: 83}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 122}
+admin_action: {agency: 57}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: ETSanford
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  participated: false
+- justice: LDBrandeis
+  participated: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  participated: false

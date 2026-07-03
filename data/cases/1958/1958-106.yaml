@@ -1,0 +1,88 @@
+id: 1958-106
+name: MARTIN, SUCCESSOR TO LAWLER, SECRETARY OF HIGHWAYS OF PENNSYLVANIA, et al. v. CREASY et al.
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '157'
+citation:
+  us: 360 U.S. 219
+  sct: 79 S. Ct. 1034
+  led: 3 L. Ed. 2d 1186
+  lexis: 1959 U.S. LEXIS 855
+dates:
+  argued: '1959-04-02'
+  decided: '1959-06-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 90090, area: judicial-power}
+law:
+  type: other
+  supp: 500
+authority:
+- supervisory
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 111}
+  source: {code: 111}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 45}
+  respondent: {code: 195}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: PStewart
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true

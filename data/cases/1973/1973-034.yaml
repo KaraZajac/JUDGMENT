@@ -1,0 +1,82 @@
+id: 1973-034
+name: NATIONAL RAILROAD PASSENGER CORP. et al. v. NATIONAL ASSOCIATION OF RAILROAD PASSENGERS
+term: 1973
+chief: Burger
+natural_court: 1504
+docket: 72-1289
+citation:
+  us: 414 U.S. 453
+  sct: 94 S. Ct. 690
+  led: 38 L. Ed. 2d 646
+  lexis: 1974 U.S. LEXIS 39
+dates:
+  argued: '1973-11-12'
+  decided: '1974-01-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80220, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 45 U.S.C. § 547
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 108}
+  respondent: {code: 134}
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

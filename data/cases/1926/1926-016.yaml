@@ -1,0 +1,89 @@
+id: 1926-016
+name: FEDERAL TRADE COMMISSION v. WESTERN MEAT COMPANY
+term: 1926
+chief: Taft
+natural_court: 1005
+docket: '213'
+citation:
+  us: 272 U.S. 554
+  sct: 47 S. Ct. 175
+  led: 71 L. Ed. 405
+  lexis: 1926 U.S. LEXIS 23
+dates:
+  argued: '1926-10-25'
+  decided: '1926-11-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 23}
+  source: {code: 23}
+  disposition: affirmed-and-reversed-in-part
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 357}
+  respondent: {code: 158}
+admin_action: {agency: 57}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: WVanDevanter
+votes:
+- justice: WHTaft
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: OWHolmes
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LDBrandeis

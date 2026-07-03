@@ -1,0 +1,87 @@
+id: 1901-019
+name: WILSON v. NELSON
+term: 1901
+chief: Fuller
+natural_court: 808
+docket: '31'
+citation:
+  us: 183 U.S. 191
+  sct: 22 S. Ct. 74
+  led: 46 L. Ed. 147
+  lexis: 1901 U.S. LEXIS 1266
+dates:
+  argued: '1901-03-20'
+  decided: '1901-12-09'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 133}
+  source: {code: 27}
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 138}
+opinions:
+  majority_author: HGray
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - GShiras
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - GShiras
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - GShiras
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true

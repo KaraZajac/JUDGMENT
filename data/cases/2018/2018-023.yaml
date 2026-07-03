@@ -1,0 +1,87 @@
+id: 2018-023
+name: APPLE INC. v. PEPPER
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 17-204
+citation:
+  sct: 139 S. Ct. 1514
+  led: 203 L. Ed. 2d 802
+  lexis: 2019 U.S. LEXIS 3397
+dates:
+  argued: '2018-11-26'
+  decided: '2019-05-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 310
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 50}
+  source: {code: 29}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 133}
+  respondent: {code: 134}
+opinions:
+  majority_author: BMKavanaugh
+  majority_assigner: RBGinsburg
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BMKavanaugh
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

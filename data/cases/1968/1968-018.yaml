@@ -1,0 +1,85 @@
+id: 1968-018
+name: UNIVERSAL INTERPRETIVE SHUTTLE CORP. v. WASHINGTON METROPOLITAN AREA TRANSIT COMMISSION et al.
+term: 1968
+chief: Warren
+natural_court: 1410
+docket: '19'
+citation:
+  us: 393 U.S. 186
+  sct: 89 S. Ct. 354
+  led: 21 L. Ed. 2d 334
+  lexis: 1968 U.S. LEXIS 2907
+dates:
+  argued: '1968-10-21'
+  decided: '1968-11-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90120, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 16 U.S.C. § 1
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 121}
+  respondent: {code: 15}
+admin_action: {agency: 26}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AFortas
+  vote: majority
+  direction: conservative
+  in_majority: true

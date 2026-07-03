@@ -1,0 +1,80 @@
+id: 1878-139
+name: HARTELL v. TILGHMAN
+term: 1878
+chief: Waite
+natural_court: 702
+docket: '172'
+citation:
+  us: 99 U.S. 547
+  led: 25 L. Ed. 357
+  lexis: 1878 U.S. LEXIS 1572
+dates:
+  argued: '1879-03-04'
+  decided: '1879-03-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80180, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 430}
+  source: {code: 430}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 137}
+  respondent: {code: 172}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  participated: false
+- justice: JPBradley
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,85 @@
+id: 1953-026
+name: CHICAGO, ROCK ISLAND & PACIFIC RAILROAD CO. v. STUDE et al.
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '209'
+citation:
+  us: 346 U.S. 574
+  sct: 74 S. Ct. 290
+  led: 98 L. Ed. 2d 317
+  lexis: 1954 U.S. LEXIS 2504
+dates:
+  argued: '1953-12-02'
+  decided: '1954-01-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100130, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28 U.S.C. § 1441
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 71}
+  source: {code: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 195}
+opinions:
+  majority_author: SMinton
+  majority_assigner: EWarren
+votes:
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,84 @@
+id: 1865-023
+name: UNITED STATES v. CIRCUIT JUDGES
+term: 1865
+chief: Chase
+natural_court: 601
+citation:
+  us: 70 U.S. 673
+  led: 18 L. Ed. 111
+  lexis: 1865 U.S. LEXIS 748
+dates:
+  argued: '1866-01-05'
+  decided: '1866-01-29'
+decision:
+  type: opinion-of-the-court
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90340, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: July 1, 1864, sec. 4
+authority:
+- statutory-construction
+jurisdiction: {code: 8}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 184}
+  source: {code: 405}
+  disposition: unusual-disposition
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 6}
+  respondent_state: {code: 60}
+admin_action: {agency: 123}
+opinions:
+  majority_author: SNelson
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - SJField
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - SJField
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false

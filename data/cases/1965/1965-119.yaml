@@ -1,0 +1,87 @@
+id: 1965-119
+name: CHEFF v. SCHNACKENBERG, U.S. CIRCUIT JUDGE, et al.
+term: 1965
+chief: Warren
+natural_court: 1409
+docket: '67'
+citation:
+  us: 384 U.S. 373
+  sct: 86 S. Ct. 1523
+  led: 16 L. Ed. 2d 629
+  lexis: 1966 U.S. LEXIS 2949
+dates:
+  argued: '1966-03-03'
+  decided: '1966-06-06'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10080, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 215
+authority:
+- judicial-review-national
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 27}
+  source: {code: 27}
+  disposition: granted
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 185}
+  respondent: {code: 16}
+  respondent_state: {code: 60}
+admin_action: {agency: 57}
+opinions:
+  majority_author: TCClark
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TCClark
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  participated: false
+- justice: AFortas
+  vote: majority
+  direction: conservative
+  in_majority: true

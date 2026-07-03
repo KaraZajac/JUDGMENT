@@ -1,0 +1,81 @@
+id: 1932-042
+name: INTERSTATE COMMERCE COMMISSION v. NEW YORK, NEW HAVEN & HARTFORD RAILROAD CO. et al.
+term: 1932
+chief: Hughes
+natural_court: 1103
+docket: '15'
+citation:
+  us: 287 U.S. 178
+  sct: 53 S. Ct. 106
+  led: 77 L. Ed. 248
+  lexis: 1932 U.S. LEXIS 813
+dates:
+  argued: '1932-10-17'
+  decided: '1932-11-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80220, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 19}
+  source: {code: 32}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 366}
+  respondent: {code: 231}
+admin_action: {agency: 66}
+opinions:
+  majority_author: BNCardozo
+  majority_assigner: LDBrandeis
+votes:
+- justice: CEHughes2
+  participated: false
+- justice: WVanDevanter
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: PButler
+  participated: false
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

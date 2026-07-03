@@ -1,0 +1,88 @@
+id: 1916-166
+name: OWENSBORO, KENTUCKY, v. OWENSBORO WATER WORKS COMPANY OF OWENSBORO, KENTUCKY
+term: 1916
+chief: White
+natural_court: 905
+docket: '79'
+citation:
+  us: 243 U.S. 166
+  sct: 37 S. Ct. 322
+  led: 61 L. Ed. 650
+  lexis: 1917 U.S. LEXIS 2104
+dates:
+  argued: '1916-11-08'
+  decided: '1917-03-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 74}
+  source: {code: 74}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 21}
+  respondent: {code: 219}
+opinions:
+  majority_author: WVanDevanter
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHClarke
+- justice: WVanDevanter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JHClarke
+- justice: JHClarke
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

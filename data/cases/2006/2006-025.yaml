@@ -1,0 +1,91 @@
+id: 2006-025
+name: ALICIA G. LIMTIACO, ATTORNEY GENERAL OF GUAM v. FELIX P. CAMACHO, GOVERNOR OF GUAM
+term: 2006
+chief: Roberts
+natural_court: 1702
+docket: 06-116
+citation:
+  us: 549 U.S. 483
+  sct: 127 S. Ct. 1413
+  led: 167 L. Ed. 2d 212
+  lexis: 2007 U.S. LEXIS 3777
+dates:
+  argued: '2007-01-08'
+  decided: '2007-03-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 48 U.S.C. § 1423
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 15, state: 14}
+  source: {code: 15, state: 14}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 14}
+  respondent: {code: 211}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter

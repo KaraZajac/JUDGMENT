@@ -1,0 +1,82 @@
+id: 1969-053
+name: ASSOCIATION OF DATA PROCESSING SERVICE ORGANIZATIONS, INC., et al. v. CAMP, COMPTROLLER OF THE CURRENCY, et
+  al.
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '85'
+citation:
+  us: 397 U.S. 150
+  sct: 90 S. Ct. 827
+  led: 25 L. Ed. 2d 184
+  lexis: 1970 U.S. LEXIS 92
+dates:
+  argued: '1969-11-18'
+  decided: '1970-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90240, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 83}
+  source: {code: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 238}
+  respondent: {code: 317}
+admin_action: {agency: 17}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true

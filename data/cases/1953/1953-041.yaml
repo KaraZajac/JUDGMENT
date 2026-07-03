@@ -1,0 +1,93 @@
+id: 1953-041
+name: KERN-LIMERICK, INC. et al. v. SCURLOCK, COMMISSIONER OF REVENUES FOR ARKANSAS
+term: 1953
+chief: Warren
+natural_court: 1401
+docket: '115'
+citation:
+  us: 347 U.S. 110
+  sct: 74 S. Ct. 403
+  led: 98 L. Ed. 2d 546
+  lexis: 1954 U.S. LEXIS 2608
+dates:
+  argued: '1954-01-04'
+  decided: '1954-02-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 5}
+  source: {code: 300, state: 5}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 5}
+  respondent: {code: 19}
+  respondent_state: {code: 5}
+admin_action: {agency: 117, state: 5}
+opinions:
+  majority_author: SFReed
+  majority_assigner: SFReed
+votes:
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+  - HLBlack
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true

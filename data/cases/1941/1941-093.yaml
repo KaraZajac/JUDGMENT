@@ -1,0 +1,77 @@
+id: 1941-093
+name: CHRYSLER CORPORATION et al. v. UNITED STATES
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '1036'
+citation:
+  us: 316 U.S. 556
+  sct: 62 S. Ct. 1146
+  led: 86 L. Ed. 1668
+  lexis: 1942 U.S. LEXIS 1222
+dates:
+  argued: '1942-05-01'
+  decided: '1942-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 68}
+  source: {code: 68}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 189}
+  respondent: {code: 27}
+opinions:
+  majority_author: JFByrnes
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  participated: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  participated: false
+- justice: JFByrnes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false

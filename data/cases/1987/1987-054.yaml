@@ -1,0 +1,85 @@
+id: 1987-054
+name: RICHARD A. LYNG, SECRETARY OF AGRICULTURE v. INTERNATIONAL UNION, UNITED AUTOMOBILE AEROSPACE AND AGRICULTURAL
+  IMPLEMENT WORKERS OF AMERICA, UAW, et al.
+term: 1987
+chief: Rehnquist
+natural_court: 1603
+docket: 86-1471
+citation:
+  us: 485 U.S. 360
+  sct: 108 S. Ct. 1184
+  led: 99 L. Ed. 2d 380
+  lexis: 1988 U.S. LEXIS 1448
+dates:
+  argued: '1987-12-07'
+  decided: '1988-03-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 20180, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 7 U.S.C. § 2015
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 304}
+  respondent: {code: 249}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  participated: false

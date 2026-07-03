@@ -1,0 +1,87 @@
+id: 1943-125
+name: GENERAL TRADING CO., DOING BUSINESS AS MINNEAPOLIS IRON STORE, v. STATE TAX COMMISSION OF THE STATE OF IOWA
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '441'
+citation:
+  us: 322 U.S. 335
+  sct: 64 S. Ct. 1028
+  led: 88 L. Ed. 1309
+  lexis: 1944 U.S. LEXIS 732
+dates:
+  argued: '1944-02-04'
+  decided: '1944-05-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-confusion
+lower_court:
+  origin: {code: 302, state: 19}
+  source: {code: 300, state: 19}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 19}
+  respondent: {code: 4}
+  respondent_state: {code: 19}
+admin_action: {agency: 117, state: 19}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WBRutledge
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true

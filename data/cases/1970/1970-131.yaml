@@ -1,0 +1,87 @@
+id: 1970-131
+name: AMALGAMATED ASSOCIATION OF STREET, ELECTRIC RAILWAY & MOTOR COACH EMPLOYEES OF AMERICA et al. v. LOCKRIDGE
+term: 1970
+chief: Burger
+natural_court: 1502
+docket: '76'
+citation:
+  us: 403 U.S. 274
+  sct: 91 S. Ct. 1909
+  led: 29 L. Ed. 2d 473
+  lexis: 1971 U.S. LEXIS 101
+dates:
+  argued: '1970-12-15'
+  decided: '1971-06-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70060, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 16}
+  source: {code: 300, state: 16}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 247}
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

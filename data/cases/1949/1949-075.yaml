@@ -1,0 +1,81 @@
+id: 1949-075
+name: POWELL ET AL. v. UNITED STATES CARTRIDGE CO.
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '96'
+citation:
+  us: 339 U.S. 497
+  sct: 70 S. Ct. 755
+  led: 94 L. Ed. 2d 1017
+  lexis: 1950 U.S. LEXIS 2468
+dates:
+  argued: '1949-12-08'
+  decided: '1950-05-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 70040, area: unions}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 50 U.S.C. § 1171
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 86, state: 30}
+  source: {code: 28}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 176}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

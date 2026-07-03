@@ -1,0 +1,87 @@
+id: 1918-220
+name: THE HEBE COMPANY et al. v. SHAW, SECRETARY OF AGRICULTURE OF OHIO, et al.
+term: 1918
+chief: White
+natural_court: 905
+docket: '664'
+citation:
+  us: 248 U.S. 297
+  sct: 39 S. Ct. 125
+  led: 63 L. Ed. 255
+  lexis: 1919 U.S. LEXIS 2312
+dates:
+  argued: '1918-12-11'
+  decided: '1919-01-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80170, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 332
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 104}
+  source: {code: 104}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 158}
+  respondent: {code: 19}
+  respondent_state: {code: 41}
+admin_action: {agency: 117, state: 41}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WRDay
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WRDay
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

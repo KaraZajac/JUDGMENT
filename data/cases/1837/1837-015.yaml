@@ -1,0 +1,79 @@
+id: 1837-015
+name: THE PROPRIETORS OF THE CHARLES RIVER BRIDGE, PLAINTIFFS IN ERROR v. THE PROPRIETORS OF THE WARREN BRIDGE,
+  AND OTHER
+term: 1837
+chief: Taney
+natural_court: 502
+citation:
+  us: 36 U.S. 420
+  led: 9 L. Ed. 773
+  lexis: 1837 U.S. LEXIS 180
+dates:
+  argued: '1831-03-07'
+  reargued: '1837-01-19'
+  decided: '1837-02-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 26}
+  source: {code: 300, state: 26}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 122}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - SThompson
+- justice: SThompson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JStory
+- justice: JMcLean
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HBaldwin
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PPBarbour
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,86 @@
+id: 1938-091
+name: DRISCOLL et al., CONSTITUTING PENNSYLVANIA PUBLIC UTILITY COMM'N, et al. v. EDISON LIGHT & POWER CO.
+term: 1938
+chief: Hughes
+natural_court: 1107
+docket: '509'
+citation:
+  us: 307 U.S. 104
+  sct: 59 S. Ct. 715
+  led: 83 L. Ed. 1134
+  lexis: 1939 U.S. LEXIS 649
+dates:
+  argued: '1939-02-07'
+  decided: '1939-04-17'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80270, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 109}
+  source: {code: 109}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 45}
+  respondent: {code: 148}
+admin_action: {agency: 117, state: 45}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: SFReed
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  participated: false

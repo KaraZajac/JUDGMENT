@@ -1,0 +1,84 @@
+id: 1858-068
+name: HIRAM BARBER, APPELLANT, v. HULDAH A. BARBER, BY HER NEXT FRIEND, GEORGE CRONKHITE
+term: 1858
+chief: Taney
+natural_court: 511
+citation:
+  us: 62 U.S. 582
+  led: 16 L. Ed. 226
+  lexis: 1858 U.S. LEXIS 685
+dates:
+  argued: '1859-01-19'
+  decided: '1859-03-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20130, area: civil-rights}
+law:
+  type: constitution
+  supp: 143
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 181}
+  source: {code: 181}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 168}
+  respondent: {code: 253}
+opinions:
+  majority_author: JMWayne
+  majority_assigner: JMcLean
+votes:
+- justice: RBTaney
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PVDaniel
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JACampbell
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PVDaniel
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true

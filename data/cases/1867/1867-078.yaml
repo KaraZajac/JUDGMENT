@@ -1,0 +1,75 @@
+id: 1867-078
+name: HAMILTON COMPANY v. MASSACHUSETTS
+term: 1867
+chief: Chase
+natural_court: 601
+citation:
+  us: 73 U.S. 632
+  led: 18 L. Ed. 904
+  lexis: 1867 U.S. LEXIS 1014
+dates:
+  argued: '1868-02-27'
+  decided: '1868-03-30'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 26}
+  source: {code: 302, state: 26}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 28}
+  respondent_state: {code: 26}
+opinions:
+  majority_author: NClifford
+  majority_assigner: SNelson
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true

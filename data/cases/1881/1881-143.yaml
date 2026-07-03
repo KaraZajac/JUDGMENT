@@ -1,0 +1,75 @@
+id: 1881-143
+name: UNITED STATES v. GRANITE COMPANY
+term: 1881
+chief: Waite
+natural_court: 705
+docket: '211'
+citation:
+  us: 105 U.S. 37
+  led: 26 L. Ed. 1005
+  lexis: 1881 U.S. LEXIS 2087
+dates:
+  argued: '1882-03-02'
+  decided: '1882-03-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 120020, area: federal-taxation}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 122}
+opinions:
+  majority_author: SJField
+  majority_assigner: SJField
+votes:
+- justice: MRWaite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WBWoods
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true

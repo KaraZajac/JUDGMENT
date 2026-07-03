@@ -1,0 +1,64 @@
+id: 1809-025
+name: HIMELY v. ROSE
+term: 1809
+chief: Marshall
+natural_court: 404
+citation:
+  us: 9 U.S. 313
+  led: 3 L. Ed. 111
+  lexis: 1809 U.S. LEXIS 440
+dates:
+  argued: '1809-03-09'
+  decided: '1809-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 140080, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 432}
+  source: {code: 432}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 234}
+  respondent: {code: 195}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  in_majority: true
+- justice: SChase
+  vote: majority
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: HBLivingston
+  vote: majority
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  in_majority: true

@@ -1,0 +1,84 @@
+id: 1855-056
+name: 'ex parte: IN THE MATTER OF WILLIAM WELLS'
+term: 1855
+chief: Taney
+natural_court: 510
+citation:
+  us: 59 U.S. 307
+  led: 15 L. Ed. 421
+  lexis: 1855 U.S. LEXIS 703
+dates:
+  argued: '1855-12-21'
+  decided: '1856-04-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: constitution
+  supp: 134
+authority:
+- judicial-review-national
+- federal-common-law
+jurisdiction: {code: 14}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 440}
+  source: {code: 440}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 8}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: JMWayne
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMWayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRCurtis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JACampbell
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRCurtis

@@ -1,0 +1,84 @@
+id: 1941-160
+name: Ex parte TEXAS et al.
+term: 1941
+chief: Stone
+natural_court: 1202
+citation:
+  us: 315 U.S. 8
+  sct: 62 S. Ct. 418
+  led: 86 L. Ed. 579
+  lexis: 1942 U.S. LEXIS 990
+dates:
+  argued: '1941-12-08'
+  decided: '1942-01-12'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90420, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 8}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 301, state: 51}
+  source: {code: 300, state: 51}
+  disposition: remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 51}
+  respondent: {code: 16}
+  respondent_state: {code: 51}
+admin_action: {agency: 117, state: 51}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  participated: false
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JFByrnes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

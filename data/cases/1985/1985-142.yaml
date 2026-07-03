@@ -1,0 +1,96 @@
+id: 1985-142
+name: THORNBURG, ATTORNEY GENERAL OF NORTH CAROLINA, et al. v. GINGLES et al.
+term: 1985
+chief: Burger
+natural_court: 1507
+docket: 83-1968
+citation:
+  us: 478 U.S. 30
+  sct: 106 S. Ct. 2752
+  led: 92 L. Ed. 2d 25
+  lexis: 1986 U.S. LEXIS 121
+dates:
+  argued: '1985-12-04'
+  decided: '1986-06-30'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 20020, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 378
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 98}
+  source: {code: 98}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 38}
+  respondent: {code: 251}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens
+- justice: LFPowell
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: WHRehnquist
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SDOConnor
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

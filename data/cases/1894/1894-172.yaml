@@ -1,0 +1,83 @@
+id: 1894-172
+name: HYDE v. CONTINENTAL TRUST COMPANY
+term: 1894
+chief: Fuller
+natural_court: 806
+docket: '894'
+citation:
+  us: 157 U.S. 654
+  sct: 15 S. Ct. 717
+  led: 39 L. Ed. 845
+  lexis: 1895 U.S. LEXIS 2216
+dates:
+  argued: '1895-03-13'
+  decided: '1895-04-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: constitution
+  supp: 123
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 122}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HEJackson
+  participated: false
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,84 @@
+id: 1919-016
+name: BRANSON, SHERIFF AND COLLECTOR OF CRAWFORD COUNTY, et al. v. BUSH, RECEIVER OF THE ST. LOUIS, IRON MOUNTAIN
+  & SOUTHERN RAILWAY COMPANY
+term: 1919
+chief: White
+natural_court: 905
+docket: '82'
+citation:
+  us: 251 U.S. 182
+  sct: 40 S. Ct. 113
+  led: 64 L. Ed. 215
+  lexis: 1919 U.S. LEXIS 1823
+dates:
+  argued: '1919-11-14'
+  decided: '1919-12-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 47}
+  source: {code: 28}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 5}
+  respondent: {code: 231}
+admin_action: {agency: 117, state: 5}
+opinions:
+  majority_author: JHClarke
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

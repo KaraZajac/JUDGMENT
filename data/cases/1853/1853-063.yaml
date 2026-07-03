@@ -1,0 +1,81 @@
+id: 1853-063
+name: JOHN C. DESHLER v. GEORGE C. DODGE
+term: 1853
+chief: Taney
+natural_court: 510
+citation:
+  us: 57 U.S. 622
+  led: 14 L. Ed. 1084
+  lexis: 1850 U.S. LEXIS 1574
+dates:
+  argued: '1854-04-25'
+  decided: '1854-05-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90330, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 389
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 428}
+  source: {code: 428}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 138}
+opinions:
+  majority_author: SNelson
+  majority_assigner: JMcLean
+votes:
+- justice: RBTaney
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PVDaniel
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JCatron
+- justice: SNelson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRCurtis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JACampbell
+  vote: dissent
+  direction: conservative
+  in_majority: false

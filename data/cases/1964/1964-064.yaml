@@ -1,0 +1,86 @@
+id: 1964-064
+name: AMERICAN SHIP BUILDING CO. v. NATIONAL LABOR RELATIONS BOARD
+term: 1964
+chief: Warren
+natural_court: 1408
+docket: '255'
+citation:
+  us: 380 U.S. 300
+  sct: 85 S. Ct. 955
+  led: 13 L. Ed. 2d 855
+  lexis: 1965 U.S. LEXIS 2310
+dates:
+  argued: '1965-01-21'
+  decided: '1965-03-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 70080, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: putative-conflict
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 382}
+admin_action: {agency: 82}
+opinions:
+  majority_author: PStewart
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AJGoldberg
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AJGoldberg
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,83 @@
+id: 1971-054
+name: ROUDEBUSH v. HARTKE et al.
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 70-66
+citation:
+  us: 405 U.S. 15
+  sct: 92 S. Ct. 804
+  led: 31 L. Ed. 2d 1
+  lexis: 1972 U.S. LEXIS 89
+dates:
+  argued: '1971-12-13'
+  decided: '1972-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 20010, area: civil-rights}
+law:
+  type: constitution
+  supp: 105
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 69}
+  source: {code: 69}
+  disposition: granted
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 211}
+admin_action: {agency: 117, state: 18}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  participated: false

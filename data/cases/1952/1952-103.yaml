@@ -1,0 +1,81 @@
+id: 1952-103
+name: FEDERAL COMMUNICATIONS COMMISSION v. RCA COMMUNICATIONS, INC.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '567'
+citation:
+  us: 346 U.S. 86
+  sct: 73 S. Ct. 998
+  led: 97 L. Ed. 2d 1470
+  lexis: 1953 U.S. LEXIS 2720
+dates:
+  argued: '1953-04-29'
+  decided: '1953-06-08'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 326
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: vacated
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 338}
+  respondent: {code: 221}
+admin_action: {agency: 38}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  participated: false
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

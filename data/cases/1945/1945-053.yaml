@@ -1,0 +1,81 @@
+id: 1945-053
+name: CASE, COMMISSIONER OF PUBLIC LANDS OF THE STATE OF WASHINGTON, v. BOWLES, PRICE ADMINISTRATOR, et al.
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '261'
+citation:
+  us: 327 U.S. 92
+  sct: 66 S. Ct. 438
+  led: 90 L. Ed. 552
+  lexis: 1946 U.S. LEXIS 2805
+dates:
+  argued: '1946-01-10'
+  decided: '1946-02-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 100080, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-state-conflict
+lower_court:
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 56}
+  respondent: {code: 389}
+admin_action: {agency: 117, state: 56}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

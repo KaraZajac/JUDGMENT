@@ -1,0 +1,75 @@
+id: 1945-028
+name: UNITED STATES v. ANDERSON
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '447'
+citation:
+  us: 328 U.S. 699
+  sct: 66 S. Ct. 1213
+  led: 90 L. Ed. 1529
+  lexis: 1946 U.S. LEXIS 2183
+dates:
+  argued: '1946-03-26'
+  decided: '1946-06-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90140, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 366
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 129}
+  source: {code: 129}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: WBRutledge
+  majority_assigner: HLBlack
+votes:
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

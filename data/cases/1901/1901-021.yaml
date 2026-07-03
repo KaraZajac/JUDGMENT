@@ -1,0 +1,78 @@
+id: 1901-021
+name: MCCLAUGHRY v. DEMING
+term: 1901
+chief: Fuller
+natural_court: 808
+docket: '610'
+citation:
+  us: 186 U.S. 49
+  sct: 22 S. Ct. 786
+  led: 46 L. Ed. 1049
+  lexis: 1902 U.S. LEXIS 2179
+dates:
+  argued: '1902-04-28'
+  decided: '1902-05-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 30 SAL 977, chap 352
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 413}
+  source: {code: 413}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 60}
+  respondent: {code: 186}
+opinions:
+  majority_author: RWPeckham
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  participated: false
+- justice: DJBrewer
+  participated: false
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: conservative
+  in_majority: false

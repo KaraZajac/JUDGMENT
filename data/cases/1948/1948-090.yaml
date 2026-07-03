@@ -1,0 +1,89 @@
+id: 1948-090
+name: JOY OIL CO., LTD. v. STATE TAX COMMISSION
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '223'
+citation:
+  us: 337 U.S. 286
+  sct: 69 S. Ct. 1075
+  led: 93 L. Ed. 2d 1366
+  lexis: 1949 U.S. LEXIS 2257
+dates:
+  argued: '1949-01-06'
+  decided: '1949-06-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 129
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 300, state: 27}
+  source: {code: 300, state: 27}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 27}
+  respondent: {code: 4}
+  respondent_state: {code: 27}
+admin_action: {agency: 117, state: 27}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HLBlack
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMVinson
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FMVinson
+- justice: FMVinson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

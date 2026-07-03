@@ -1,0 +1,63 @@
+id: 1836-012
+name: THE UNITED STATES, PLAINTIFFS IN ERROR v. THE HEIRS AND REPRESENTATIVES OF JOSEPH H. HAWKINS, DECEASED
+term: 1836
+chief: Marshall
+natural_court: 410
+citation:
+  us: 35 U.S. 125
+  led: 9 L. Ed. 369
+  lexis: 1836 U.S. LEXIS 425
+dates:
+  argued: '1836-01-20'
+  decided: '1836-02-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, 03/03/1797
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 75}
+  source: {code: 75}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 138}
+opinions:
+  majority_author: JMWayne
+  majority_assigner: JStory
+votes:
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

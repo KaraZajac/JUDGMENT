@@ -1,0 +1,91 @@
+id: 2013-073
+name: LANE v. FRANKS
+term: 2013
+chief: Roberts
+natural_court: 1704
+docket: 13-483
+citation:
+  us: 573 U.S. 228
+  sct: 134 S. Ct. 2369
+  led: 189 L. Ed. 2d 312
+  lexis: 2014 U.S. LEXIS 4302
+dates:
+  argued: '2014-04-28'
+  decided: '2014-06-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 30010, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 42}
+  source: {code: 31}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 1}
+  respondent: {code: 26}
+  respondent_state: {code: 1}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: SSotomayor
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - CThomas
+- justice: SSotomayor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true

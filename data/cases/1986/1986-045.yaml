@@ -1,0 +1,86 @@
+id: 1986-045
+name: SCHOOL BOARD OF NASSAU COUNTY, FLORIDA, et al. v. ARLINE
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-1277
+citation:
+  us: 480 U.S. 273
+  sct: 107 S. Ct. 1123
+  led: 94 L. Ed. 2d 307
+  lexis: 1987 U.S. LEXIS 1058
+dates:
+  argued: '1986-12-03'
+  decided: '1987-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20210, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 360
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 56}
+  source: {code: 31}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 21}
+  petitioner_state: {code: 12}
+  respondent: {code: 164}
+admin_action: {agency: 117, state: 12}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist

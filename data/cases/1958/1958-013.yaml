@@ -1,0 +1,87 @@
+id: 1958-013
+name: FEDERAL HOUSING ADMINISTRATION v. THE DARLINGTON, INC.
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '13'
+citation:
+  us: 358 U.S. 84
+  sct: 79 S. Ct. 141
+  led: 3 L. Ed. 2d 132
+  lexis: 1958 U.S. LEXIS 116
+dates:
+  argued: '1958-10-13'
+  decided: '1958-11-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80350, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 12 U.S.C. § 1743
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 155}
+  source: {code: 155}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 345}
+  respondent: {code: 195}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  participated: false
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: CEWhittaker
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2

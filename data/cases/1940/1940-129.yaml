@@ -1,0 +1,75 @@
+id: 1940-129
+name: UNITED STATES v. GILLILAND et al.
+term: 1940
+chief: Hughes
+natural_court: 1108
+docket: '245'
+citation:
+  us: 312 U.S. 86
+  sct: 61 S. Ct. 518
+  led: 85 L. Ed. 598
+  lexis: 1941 U.S. LEXIS 1284
+dates:
+  argued: '1941-01-10'
+  decided: '1941-02-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 10450, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: fraud
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 119}
+  source: {code: 119}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 100}
+opinions:
+  majority_author: CEHughes2
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  participated: false

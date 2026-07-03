@@ -1,0 +1,85 @@
+id: 1945-113
+name: in re YAMASHITA
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: 61 M
+citation:
+  us: 327 U.S. 1
+  sct: 66 S. Ct. 340
+  led: 90 L. Ed. 499
+  lexis: 1946 U.S. LEXIS 3090
+dates:
+  argued: '1946-01-07'
+  decided: '1946-02-04'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Articles of War 10 U.S.C.S. 1471-1593
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 14}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 15, state: 62}
+  source: {code: 15, state: 62}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: HFStone
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - WBRutledge
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true

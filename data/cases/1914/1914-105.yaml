@@ -1,0 +1,84 @@
+id: 1914-105
+name: STATE OF GEORGIA v. TENNESSEE COPPER COMPANY AND DUCKTOWN SULPHUR, COPPER & IRON COMPANY, LIMITED
+term: 1914
+chief: White
+natural_court: 903
+docket: 1 ORIG
+citation:
+  us: 237 U.S. 474
+  sct: 35 S. Ct. 631
+  led: 59 L. Ed. 1054
+  lexis: 1915 U.S. LEXIS 1355
+dates:
+  argued: '1915-04-06'
+  decided: '1915-05-10'
+decision:
+  type: opinion-of-the-court
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80130, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 15}
+cert_reason: not-cert
+lower_court:
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 13}
+  respondent: {code: 122}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: JMcKenna
+votes:
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEHughes1
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CEHughes1
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

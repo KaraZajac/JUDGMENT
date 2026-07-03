@@ -1,0 +1,82 @@
+id: 1924-076
+name: OZARK PIPE LINE CORPORATION v. MONIER et al., CONSTITUTING THE STATE TAX COMMISSION OF THE STATE OF MISSOURI,
+  et al.
+term: 1924
+chief: Taft
+natural_court: 1004
+docket: '181'
+citation:
+  us: 266 U.S. 555
+  sct: 45 S. Ct. 184
+  led: 69 L. Ed. 439
+  lexis: 1925 U.S. LEXIS 313
+dates:
+  argued: '1924-11-26'
+  decided: '1925-01-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 87}
+  source: {code: 87}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 30}
+  respondent: {code: 4}
+  respondent_state: {code: 30}
+admin_action: {agency: 117, state: 30}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true

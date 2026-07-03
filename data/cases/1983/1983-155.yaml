@@ -1,0 +1,88 @@
+id: 1983-155
+name: FEDERAL COMMUNICATIONS COMMISSION v. LEAGUE OF WOMEN VOTERS OF CALIFORNIA et al.
+term: 1983
+chief: Burger
+natural_court: 1507
+docket: 82-912
+citation:
+  us: 468 U.S. 364
+  sct: 104 S. Ct. 3106
+  led: 82 L. Ed. 2d 278
+  lexis: 1984 U.S. LEXIS 139
+dates:
+  argued: '1984-01-16'
+  decided: '1984-07-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30010, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 47 U.S.C. § 399
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 48}
+  source: {code: 48}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 338}
+  respondent: {code: 211}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

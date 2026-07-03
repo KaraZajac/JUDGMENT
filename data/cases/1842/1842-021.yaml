@@ -1,0 +1,87 @@
+id: 1842-021
+name: EDWARD PRIGG, PLAINTIFF IN ERROR, v. THE COMMONWEALTH OF PENNSYLVANIA, DEFENDANT IN ERROR
+term: 1842
+chief: Taney
+natural_court: 505
+citation:
+  us: 41 U.S. 539
+  led: 10 L. Ed. 1060
+  lexis: 1842 U.S. LEXIS 387
+dates:
+  argued: '1842-02-08'
+  decided: '1842-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 20075, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Fugitive Slave Law
+authority:
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 45}
+opinions:
+  majority_author: JStory
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HBaldwin
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

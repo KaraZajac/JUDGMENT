@@ -1,0 +1,62 @@
+id: 1800-008
+name: PRIESTMAN, PLAINTIFF IN ERROR, VERSUS THE UNITED STATES
+term: 1800
+chief: Ellsworth
+natural_court: 303
+citation:
+  us: 4 U.S. 28
+  led: 1 L. Ed. 727
+  lexis: 1800 U.S. LEXIS 305
+dates:
+  argued: '1800-08-13'
+  decided: '1800-08-15'
+decision:
+  type: per-curiam-argued
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 0
+issue: {code: 80230, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Act of Congress of February 18, 1793, sec. 19
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 176}
+  source: {code: 430}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 27}
+opinions:
+  majority_assigner: WPaterson
+votes:
+- justice: OEllsworth
+  participated: false
+- justice: WCushing
+  participated: false
+- justice: WPaterson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMoore
+  vote: majority
+  direction: liberal
+  in_majority: true

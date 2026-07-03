@@ -1,0 +1,85 @@
+id: 1858-058
+name: JAMES C. CONVERSE, ADMINISTRATOR OF PHILIP GREELY, DECEASED, PLAINTIFF IN ERROR, v. THE UNITED STATES
+term: 1858
+chief: Taney
+natural_court: 511
+citation:
+  us: 62 U.S. 463
+  led: 16 L. Ed. 192
+  lexis: 1858 U.S. LEXIS 672
+dates:
+  argued: '1859-03-04'
+  decided: '1859-03-11'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 60010, area: attorneys}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 5 Statutes at Large 432
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 27}
+admin_action: {agency: 108}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JACampbell
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JACampbell
+- justice: JACampbell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true

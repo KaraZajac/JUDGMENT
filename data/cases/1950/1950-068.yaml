@@ -1,0 +1,89 @@
+id: 1950-068
+name: JOINT ANTI-FASCIST REFUGEE COMMITTEE v. McGRATH, ATTORNEY GENERAL, ET AL.
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '8'
+citation:
+  us: 341 U.S. 123
+  sct: 71 S. Ct. 624
+  led: 95 L. Ed. 2d 817
+  lexis: 1951 U.S. LEXIS 2349
+dates:
+  argued: '1950-10-11'
+  decided: '1951-04-30'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90250, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 149}
+  respondent: {code: 1}
+admin_action: {agency: 27}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFReed

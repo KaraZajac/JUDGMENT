@@ -1,0 +1,86 @@
+id: 1924-132
+name: SHAFER, AS ATTORNEY GENERAL OF THE STATE OF NORTH DAKOTA, et al. v. FARMERS GRAIN COMPANY OF EMBDEN, et al.
+term: 1924
+chief: Taft
+natural_court: 1005
+docket: '34'
+citation:
+  us: 268 U.S. 189
+  sct: 45 S. Ct. 481
+  led: 69 L. Ed. 909
+  lexis: 1925 U.S. LEXIS 560
+dates:
+  argued: '1923-05-04'
+  reargued: '1925-03-02'
+  decided: '1925-05-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 101}
+  source: {code: 101}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 39}
+  respondent: {code: 234}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WVanDevanter
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

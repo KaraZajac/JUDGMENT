@@ -1,0 +1,85 @@
+id: 1882-143
+name: LOUISIANA v. JUMEL
+term: 1882
+chief: Waite
+natural_court: 706
+docket: '520'
+citation:
+  us: 107 U.S. 711
+  sct: 2 S. Ct. 128
+  led: 27 L. Ed. 448
+  lexis: 1882 U.S. LEXIS 1268
+dates:
+  argued: '1882-04-18'
+  decided: '1883-03-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100020, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+- administrative-interpretation
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 415}
+  source: {code: 415}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 8}
+  respondent_state: {code: 22}
+admin_action: {agency: 117, state: 22}
+opinions:
+  majority_author: MRWaite
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WBWoods
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,72 @@
+id: 1912-151
+name: UNITED STATES v. READING COMPANY
+term: 1912
+chief: White
+natural_court: 902
+docket: '198'
+citation:
+  us: 228 U.S. 158
+  sct: 33 S. Ct. 509
+  led: 57 L. Ed. 779
+  lexis: 1913 U.S. LEXIS 2360
+dates:
+  decided: '1913-04-07'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 231}
+opinions:
+  majority_author: HHLurton
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: HHLurton
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  participated: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  participated: false

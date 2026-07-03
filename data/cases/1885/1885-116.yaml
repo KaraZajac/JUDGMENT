@@ -1,0 +1,82 @@
+id: 1885-116
+name: WALLING v. MICHIGAN
+term: 1885
+chief: Waite
+natural_court: 706
+docket: '741'
+citation:
+  us: 116 U.S. 446
+  sct: 6 S. Ct. 454
+  led: 29 L. Ed. 691
+  lexis: 1886 U.S. LEXIS 1784
+dates:
+  argued: '1884-12-03'
+  decided: '1886-01-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 27}
+  source: {code: 300, state: 27}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 27}
+  respondent: {code: 28}
+  respondent_state: {code: 27}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: SFMiller
+votes:
+- justice: MRWaite
+  participated: false
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

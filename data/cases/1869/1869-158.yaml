@@ -1,0 +1,77 @@
+id: 1869-158
+name: BUTZ v. CITY OF MUSCATINE
+term: 1869
+chief: Chase
+natural_court: 601
+citation:
+  us: 75 U.S. 575
+  led: 19 L. Ed. 490
+  lexis: 1868 U.S. LEXIS 1132
+dates:
+  argued: '1869-11-30'
+  decided: '1869-12-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 100110, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 412}
+  source: {code: 412}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 3}
+  respondent_state: {code: 19}
+admin_action: {agency: 117, state: 19}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: SNelson
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  participated: false

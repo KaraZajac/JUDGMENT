@@ -1,0 +1,83 @@
+id: 1895-241
+name: HENNINGTON v. GEORGIA
+term: 1895
+chief: Fuller
+natural_court: 807
+docket: '150'
+citation:
+  us: 163 U.S. 299
+  sct: 16 S. Ct. 1086
+  led: 41 L. Ed. 166
+  lexis: 1896 U.S. LEXIS 2267
+dates:
+  argued: '1896-03-17'
+  decided: '1896-05-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 13}
+  source: {code: 300, state: 13}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 13}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: SJField
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  participated: false
+- justice: HBBrown
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MWFuller
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true

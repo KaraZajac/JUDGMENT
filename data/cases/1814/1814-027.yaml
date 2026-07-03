@@ -1,0 +1,74 @@
+id: 1814-027
+name: THE MERRIMACK
+term: 1814
+chief: Marshall
+natural_court: 406
+citation:
+  us: 12 U.S. 317
+  led: 3 L. Ed. 575
+  lexis: 1814 U.S. LEXIS 431
+dates:
+  argued: '1814-02-26'
+  decided: '1814-03-12'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 79}
+  source: {code: 417}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JStory
+- justice: WJohnson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HBLivingston
+  participated: false
+- justice: TTodd
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JStory
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

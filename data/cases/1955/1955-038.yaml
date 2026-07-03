@@ -1,0 +1,85 @@
+id: 1955-038
+name: UNITED STATES et al. v. CONTRACT STEEL CARRIERS, INC.
+term: 1955
+chief: Warren
+natural_court: 1403
+docket: '102'
+citation:
+  us: 350 U.S. 409
+  sct: 76 S. Ct. 461
+  led: 100 L. Ed. 2d 482
+  lexis: 1956 U.S. LEXIS 1665
+dates:
+  argued: '1956-02-29'
+  decided: '1956-03-12'
+decision:
+  type: per-curiam-argued
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80240, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 49 U.S.C. § 303
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 68}
+  source: {code: 68}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 245}
+admin_action: {agency: 66}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true

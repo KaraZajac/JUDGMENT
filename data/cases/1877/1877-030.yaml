@@ -1,0 +1,81 @@
+id: 1877-030
+name: INSURANCE COMPANY v. BOO
+term: 1877
+chief: Waite
+natural_court: 701
+citation:
+  us: 95 U.S. 117
+  led: 24 L. Ed. 395
+  lexis: 1877 U.S. LEXIS 2141
+dates:
+  argued: '1877-04-30'
+  decided: '1877-11-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 406}
+  source: {code: 406}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 174}
+admin_action: {agency: 6}
+opinions:
+  majority_author: WStrong
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - NClifford
+- justice: SJField
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - NClifford
+  - SFMiller
+- justice: WStrong
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true

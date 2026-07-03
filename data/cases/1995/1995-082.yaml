@@ -1,0 +1,88 @@
+id: 1995-082
+name: WILLIAM GASPERINI v. CENTER FOR HUMANITIES, INC.
+term: 1995
+chief: Rehnquist
+natural_court: 1607
+docket: 95-719
+citation:
+  us: 518 U.S. 415
+  sct: 116 S. Ct. 2211
+  led: 135 L. Ed. 2d 659
+  lexis: 1996 U.S. LEXIS 4051
+dates:
+  argued: '1996-04-16'
+  decided: '1996-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90330, area: judicial-power}
+law:
+  type: constitutional-amendment
+  supp: 218
+authority:
+- judicial-review-national
+- diversity-jurisdiction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: vacated
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 226}
+  respondent: {code: 156}
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: JPStevens
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,90 @@
+id: 1893-279
+name: COVINGTON AND CINCINNATI BRIDGE COMPANY v. KENTUCKY
+term: 1893
+chief: Fuller
+natural_court: 806
+docket: '1025'
+citation:
+  us: 154 U.S. 204
+  sct: 14 S. Ct. 1087
+  led: 38 L. Ed. 962
+  lexis: 1894 U.S. LEXIS 2229
+dates:
+  argued: '1894-04-25'
+  decided: '1894-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80350, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 21}
+  source: {code: 300, state: 21}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 28}
+  respondent_state: {code: 21}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - MWFuller
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - MWFuller
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HEJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - MWFuller

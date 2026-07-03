@@ -1,0 +1,86 @@
+id: 1949-033
+name: UNITED STATES EX REL. KNAUFF v. SHAUGHNESSY, ACTING DISTRICT DIRECTOR OF IMMIGRATION AND NATURALIZATION
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '54'
+citation:
+  us: 338 U.S. 537
+  sct: 70 S. Ct. 309
+  led: 94 L. Ed. 2d 317
+  lexis: 1950 U.S. LEXIS 2481
+dates:
+  argued: '1949-12-05'
+  decided: '1950-01-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 30120, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 8 U.S.C. § 232
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 96, state: 37}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 368}
+admin_action: {agency: 27}
+opinions:
+  majority_author: SMinton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,83 @@
+id: 1971-079
+name: EISENSTADT, SHERIFF v. BAIRD
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 70-17
+citation:
+  us: 405 U.S. 438
+  sct: 92 S. Ct. 1029
+  led: 31 L. Ed. 2d 349
+  lexis: 1972 U.S. LEXIS 145
+dates:
+  argued: '1971-11-17'
+  decided: '1972-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 50020, area: privacy}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 80}
+  source: {code: 21}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 26}
+  respondent: {code: 165}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WODouglas
+votes:
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HABlackmun
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  participated: false

@@ -1,0 +1,87 @@
+id: 1886-158
+name: CORSON v. MARYLAND
+term: 1886
+chief: Waite
+natural_court: 706
+docket: '8'
+citation:
+  us: 120 U.S. 502
+  sct: 7 S. Ct. 655
+  led: 30 L. Ed. 699
+  lexis: 1887 U.S. LEXIS 1994
+dates:
+  argued: '1886-04-05'
+  reargued: '1886-11-05'
+  decided: '1887-03-07'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 300, state: 25}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 233}
+  respondent: {code: 28}
+  respondent_state: {code: 25}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - MRWaite
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  participated: false
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - MRWaite
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,90 @@
+id: 2004-033
+name: RODERICK JACKSON v. BIRMINGHAM BOARD OF EDUCATION
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 02-1672
+citation:
+  us: 544 U.S. 167
+  sct: 125 S. Ct. 1497
+  led: 161 L. Ed. 2d 361
+  lexis: 2005 U.S. LEXIS 2928
+dates:
+  argued: '2004-11-30'
+  decided: '2005-03-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20130, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 322
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 42}
+  source: {code: 31}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 10}
+  petitioner_state: {code: 1}
+  respondent: {code: 21}
+  respondent_state: {code: 1}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

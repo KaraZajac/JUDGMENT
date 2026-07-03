@@ -1,0 +1,70 @@
+id: 1845-028
+name: THE UNITED STATES, PLAINTIFFS, v. ELI S. PRESCOTT et al., DEFENDANTS
+term: 1845
+chief: Taney
+natural_court: 505
+citation:
+  us: 44 U.S. 578
+  led: 11 L. Ed. 734
+  lexis: 1845 U.S. LEXIS 448
+dates:
+  argued: '1845-01-30'
+  decided: '1845-02-04'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+authority:
+- federal-common-law
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 410}
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,83 @@
+id: 1957-106
+name: INTERNATIONAL UNION, UNITED AUTOMOBILE, AIRCRAFT AND AGRICULTURAL IMPLEMENT WORKERS OF AMERICA (UAW-CIO) et
+  al. v. RUSSELL
+term: 1957
+chief: Warren
+natural_court: 1405
+docket: '21'
+citation:
+  us: 356 U.S. 634
+  sct: 78 S. Ct. 932
+  led: 2 L. Ed. 2d 1030
+  lexis: 1958 U.S. LEXIS 1813
+dates:
+  argued: '1957-12-11'
+  decided: '1958-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 100020, area: federalism}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 145}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: FFrankfurter
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  participated: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EWarren
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,93 @@
+id: 1993-089
+name: TURNER BROADCASTING SYSTEM, INC., et al. v. FEDERAL COMMUNICATIONS COMMISSION et al.
+term: 1993
+chief: Rehnquist
+natural_court: 1606
+docket: 93-44
+citation:
+  us: 512 U.S. 622
+  sct: 114 S. Ct. 2445
+  led: 129 L. Ed. 2d 497
+  lexis: 1994 U.S. LEXIS 4831
+dates:
+  argued: '1994-01-12'
+  decided: '1994-06-27'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30010, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 47 U.S.C. § 534
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 124}
+  respondent: {code: 338}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: WHRehnquist
+votes:
+- justice: HABlackmun
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: AScalia
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - SDOConnor

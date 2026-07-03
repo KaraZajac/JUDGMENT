@@ -1,0 +1,84 @@
+id: 1923-035
+name: CRAIG v. HECHT, UNITED STATES MARSHAL FOR THE SOUTHERN DISTRICT OF NEW YORK
+term: 1923
+chief: Taft
+natural_court: 1004
+docket: '82'
+citation:
+  us: 263 U.S. 255
+  sct: 44 S. Ct. 103
+  led: 68 L. Ed. 293
+  lexis: 1923 U.S. LEXIS 2742
+dates:
+  argued: '1923-10-17'
+  decided: '1923-11-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 37}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: GSutherland
+  participated: false
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true

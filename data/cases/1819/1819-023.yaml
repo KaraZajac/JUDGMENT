@@ -1,0 +1,71 @@
+id: 1819-023
+name: M'CULLOCH v. THE STATE OF MARYLAND et al.
+term: 1819
+chief: Marshall
+natural_court: 406
+citation:
+  us: 17 U.S. 316
+  led: 4 L. Ed. 579
+  lexis: 1819 U.S. LEXIS 320
+dates:
+  argued: '1819-02-22'
+  decided: '1819-03-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 100110, area: federalism}
+law:
+  type: constitution
+  supp: 120
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 300, state: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 28}
+  respondent_state: {code: 25}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true

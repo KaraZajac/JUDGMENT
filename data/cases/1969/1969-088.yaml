@@ -1,0 +1,82 @@
+id: 1969-088
+name: ROWAN, DBA AMERICAN BOOK SERVICE, et al. v. UNITED STATES POST OFFICE DEPARTMENT et al.
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '399'
+citation:
+  us: 397 U.S. 728
+  sct: 90 S. Ct. 1484
+  led: 25 L. Ed. 2d 736
+  lexis: 1970 U.S. LEXIS 44
+dates:
+  argued: '1970-01-22'
+  decided: '1970-05-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 30200, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 48}
+  source: {code: 48}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 220}
+  respondent: {code: 412}
+admin_action: {agency: 112}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WEBurger
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

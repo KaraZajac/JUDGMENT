@@ -1,0 +1,83 @@
+id: 1879-096
+name: TENNESSEE v. DAVIS
+term: 1879
+chief: Waite
+natural_court: 702
+citation:
+  us: 100 U.S. 257
+  led: 25 L. Ed. 648
+  lexis: 1879 U.S. LEXIS 1829
+dates:
+  argued: '1879-10-21'
+  decided: '1880-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100020, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Revised Statutes, sec. 643
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 433}
+  source: {code: 433}
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 50}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: WStrong
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - NClifford
+- justice: WStrong
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true

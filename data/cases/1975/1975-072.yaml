@@ -1,0 +1,77 @@
+id: 1975-072
+name: OHIO v. GALLAGHER
+term: 1975
+chief: Burger
+natural_court: 1506
+docket: 74-492
+citation:
+  us: 425 U.S. 257
+  sct: 96 S. Ct. 1438
+  led: 47 L. Ed. 2d 722
+  lexis: 1976 U.S. LEXIS 36
+dates:
+  argued: '1975-12-02'
+  decided: '1976-04-05'
+decision:
+  type: per-curiam-argued
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90190, area: judicial-power}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 41}
+  source: {code: 300, state: 41}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 41}
+  respondent: {code: 100}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - PStewart
+- justice: HABlackmun
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - PStewart
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  participated: false

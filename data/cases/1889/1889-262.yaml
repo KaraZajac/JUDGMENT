@@ -1,0 +1,87 @@
+id: 1889-262
+name: NORFOLK AND WESTERN RAILROAD COMPANY v. PENNSYLVANIA
+term: 1889
+chief: Fuller
+natural_court: 802
+docket: '294'
+citation:
+  us: 136 U.S. 114
+  sct: 10 S. Ct. 958
+  led: 34 L. Ed. 394
+  lexis: 1890 U.S. LEXIS 2203
+dates:
+  argued: '1890-04-24'
+  decided: '1890-05-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 28}
+  respondent_state: {code: 45}
+admin_action: {agency: 117, state: 45}
+opinions:
+  majority_author: LQLamar
+  majority_assigner: SFMiller
+votes:
+- justice: MWFuller
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

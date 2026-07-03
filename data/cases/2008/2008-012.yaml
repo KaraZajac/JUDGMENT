@@ -1,0 +1,88 @@
+id: 2008-012
+name: DANIEL B. LOCKE, et al. v. EDWARD A. KARASS, STATE CONTROLLER, et al.
+term: 2008
+chief: Roberts
+natural_court: 1702
+docket: 07-610
+citation:
+  us: 555 U.S. 207
+  sct: 129 S. Ct. 798
+  led: 172 L. Ed. 2d 552
+  lexis: 2009 U.S. LEXIS 590
+dates:
+  argued: '2008-10-06'
+  decided: '2009-01-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 70030, area: unions}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-confusion
+lower_court:
+  origin: {code: 78}
+  source: {code: 21}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 23}
+  respondent: {code: 28}
+  respondent_state: {code: 23}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

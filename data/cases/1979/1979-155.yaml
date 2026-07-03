@@ -1,0 +1,93 @@
+id: 1979-155
+name: INDUSTRIAL UNION DEPARTMENT, AFL-CIO v. AMERICAN PETROLEUM INSTITUTE et al.
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 78-911
+citation:
+  us: 448 U.S. 607
+  sct: 100 S. Ct. 2844
+  led: 65 L. Ed. 2d 1010
+  lexis: 1980 U.S. LEXIS 55
+dates:
+  argued: '1979-10-10'
+  decided: '1980-07-02'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70050, area: unions}
+law:
+  type: federal-statute
+  supp: 358
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 25}
+  source: {code: 25}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 249}
+  respondent: {code: 151}
+admin_action: {agency: 71}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: WEBurger
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: LFPowell
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true

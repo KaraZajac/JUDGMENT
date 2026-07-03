@@ -1,0 +1,65 @@
+id: 1796-010
+name: THE UNITED STATES VERSUS LA VENGEANCE
+term: 1796
+chief: Ellsworth
+natural_court: 301
+citation:
+  us: 3 U.S. 297
+  led: 1 L. Ed. 610
+  lexis: 1796 U.S. LEXIS 402
+dates:
+  argued: '1796-08-10'
+  decided: '1796-08-11'
+decision:
+  type: per-curiam-argued
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: court-rules
+  supp: 400
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 173}
+  source: {code: 426}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 127}
+opinions:
+  majority_assigner: OEllsworth
+votes:
+- justice: OEllsworth
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JWilson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JIredell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WPaterson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SChase
+  vote: majority
+  direction: liberal
+  in_majority: true

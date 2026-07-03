@@ -1,0 +1,83 @@
+id: 1918-100
+name: TEXAS & PACIFIC RAILWAY COMPANY et al. v. LEATHERWOOD
+term: 1918
+chief: White
+natural_court: 905
+docket: '249'
+citation:
+  us: 250 U.S. 478
+  sct: 39 S. Ct. 517
+  led: 63 L. Ed. 1096
+  lexis: 1919 U.S. LEXIS 1767
+dates:
+  decided: '1919-06-09'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 301, state: 51}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 234}
+opinions:
+  majority_author: LDBrandeis
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: OWHolmes
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - JCMcReynolds
+- justice: MPitney
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JCMcReynolds
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false

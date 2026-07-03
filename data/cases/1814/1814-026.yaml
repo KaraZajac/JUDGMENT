@@ -1,0 +1,74 @@
+id: 1814-026
+name: THE VENUS, RAE, MASTER
+term: 1814
+chief: Marshall
+natural_court: 406
+citation:
+  us: 12 U.S. 253
+  led: 3 L. Ed. 553
+  lexis: 1814 U.S. LEXIS 430
+dates:
+  argued: '1814-02-23'
+  decided: '1814-03-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 40070, area: due-process}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress December 31, 1792, vol. 2, p. 133
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 80}
+  source: {code: 418}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 501}
+opinions:
+  majority_author: BWashington
+  majority_assigner: BWashington
+votes:
+- justice: JMarshall
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BWashington
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  participated: false
+- justice: HBLivingston
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMarshall
+- justice: TTodd
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

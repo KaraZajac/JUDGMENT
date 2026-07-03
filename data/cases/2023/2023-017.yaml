@@ -1,0 +1,88 @@
+id: 2023-017
+name: CAMPOS-CHAVES v. GARLAND
+term: 2023
+chief: Roberts
+natural_court: 1710
+docket: 22-674
+citation:
+  sct: 144 S. Ct. 1637
+  led: 219 L. Ed. 2d 179
+  lexis: 2024 U.S. LEXIS 2608
+dates:
+  argued: '2024-01-08'
+  decided: '2024-06-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20110, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 25}
+  source: {code: 25}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 1}
+admin_action: {agency: 7}
+opinions:
+  majority_author: SAAlito
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: NMGorsuch
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: KBJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,83 @@
+id: 1940-080
+name: PHELPS DODGE CORP. v. NATIONAL LABOR RELATIONS BOARD
+term: 1940
+chief: Hughes
+natural_court: 1108
+docket: '387'
+citation:
+  us: 313 U.S. 177
+  sct: 61 S. Ct. 845
+  led: 85 L. Ed. 1271
+  lexis: 1941 U.S. LEXIS 1198
+dates:
+  argued: '1941-03-11'
+  decided: '1941-04-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 70190, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 22}
+  source: {code: 22}
+  disposition: affirmed-and-reversed-in-part
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 382}
+admin_action: {agency: 82}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HFStone
+- justice: HFStone
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  participated: false
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - FMurphy
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,84 @@
+id: 1969-083
+name: CHOCTAW NATION et al. v. OKLAHOMA et al.
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '41'
+citation:
+  us: 397 U.S. 620
+  sct: 90 S. Ct. 1328
+  led: 25 L. Ed. 2d 615
+  lexis: 1970 U.S. LEXIS 89
+dates:
+  argued: '1969-10-22'
+  reargued: '1970-03-05'
+  decided: '1970-04-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 20160, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 7 Stat. 333
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 105}
+  source: {code: 30}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 170}
+  respondent: {code: 28}
+  respondent_state: {code: 42}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WODouglas
+votes:
+- justice: JHarlan2
+  participated: false
+- justice: HLBlack
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite

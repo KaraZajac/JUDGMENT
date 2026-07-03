@@ -1,0 +1,64 @@
+id: 1804-007
+name: ALEXANDER MURRAY, ESQ. v. SCHOONER CHARMING BETSY
+term: 1804
+chief: Marshall
+natural_court: 401
+citation:
+  us: 6 U.S. 64
+  led: 2 L. Ed. 208
+  lexis: 1804 U.S. LEXIS 252
+dates:
+  argued: '1803-03-01'
+  reargued: '1804-02-09'
+  decided: '1804-02-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 0
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of cogress February 27, 1801, vol. 5 , p. 15
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 176}
+  source: {code: 430}
+  disposition: affirmed-and-reversed-in-part
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 116}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WPaterson
+  participated: false
+- justice: SChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true

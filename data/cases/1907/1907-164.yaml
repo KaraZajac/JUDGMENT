@@ -1,0 +1,87 @@
+id: 1907-164
+name: GENERAL OIL COMPANY v. CRAIN, INSPECTOR OF COAL OIL
+term: 1907
+chief: Fuller
+natural_court: 811
+docket: '128'
+citation:
+  us: 209 U.S. 211
+  sct: 28 S. Ct. 475
+  led: 52 L. Ed. 754
+  lexis: 1908 U.S. LEXIS 1728
+dates:
+  argued: '1908-01-23'
+  decided: '1908-03-23'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 100060, area: federalism}
+law:
+  type: constitution
+  supp: 111
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 50}
+  respondent: {code: 28}
+  respondent_state: {code: 50}
+admin_action: {agency: 117, state: 50}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

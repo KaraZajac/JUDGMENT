@@ -1,0 +1,86 @@
+id: 2017-059
+name: SOUTH DAKOTA v. WAYFAIR
+term: 2017
+chief: Roberts
+natural_court: 1706
+docket: 17-494
+citation:
+  sct: 138 S. Ct. 2080
+  led: 201 L. Ed. 2d 403
+  lexis: 2018 U.S. LEXIS 3835
+dates:
+  argued: '2018-04-17'
+  decided: '2018-06-21'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 302, state: 49}
+  source: {code: 300, state: 49}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 49}
+  respondent: {code: 233}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: AMKennedy
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: NMGorsuch
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

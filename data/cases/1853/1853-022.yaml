@@ -1,0 +1,86 @@
+id: 1853-022
+name: HENRY O'REILLY, EUGENE L. WHITMAN, AND W. F. B. HASTINGS, APPELLANTS, v. SAMUEL F. B. MORSE, ALFRED VAIL,
+  AND FRANCIS O. J. SMITH
+term: 1853
+chief: Taney
+natural_court: 510
+citation:
+  us: 56 U.S. 62
+  led: 14 L. Ed. 601
+  lexis: 1853 U.S. LEXIS 273
+dates:
+  argued: '1852-12-24'
+  decided: '1854-01-30'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80180, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Patent Act of 1793
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 414}
+  source: {code: 414}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 172}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - SNelson
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - JMWayne
+  - JMWayne
+- justice: RCGrier
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: BRCurtis
+  participated: false
+- justice: JACampbell
+  vote: majority
+  direction: conservative
+  in_majority: true

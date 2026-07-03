@@ -1,0 +1,59 @@
+id: 1804-015
+name: OGDEN, ADMINISTRATOR OF CORNELL, v. BLACKLEDGE, EXECUTOR OF SALTER
+term: 1804
+chief: Marshall
+natural_court: 401
+citation:
+  us: 6 U.S. 272
+  led: 2 L. Ed. 276
+  lexis: 1804 U.S. LEXIS 260
+dates:
+  argued: '1804-02-25'
+  decided: '1804-03-06'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 0
+issue: {code: 90480, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 389
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 427}
+  source: {code: 427}
+  disagreement: true
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 138}
+opinions:
+  majority_author: WCushing
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WPaterson
+  participated: false
+- justice: SChase
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true

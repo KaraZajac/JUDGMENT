@@ -1,0 +1,87 @@
+id: 1923-214
+name: FIRST NATIONAL BANK IN ST. LOUIS v. STATE OF MISSOURI AT THE INFORMATION OF BARRETT, ATTORNEY GENERAL
+term: 1923
+chief: Taft
+natural_court: 1004
+docket: '252'
+citation:
+  us: 263 U.S. 640
+  sct: 44 S. Ct. 213
+  led: 68 L. Ed. 486
+  lexis: 1924 U.S. LEXIS 2831
+dates:
+  argued: '1923-05-07'
+  reargued: '1923-11-21'
+  decided: '1924-01-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 100020, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 30}
+  source: {code: 300, state: 30}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 28}
+  respondent_state: {code: 30}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: JMcKenna
+votes:
+- justice: WHTaft
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WVanDevanter
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WVanDevanter
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,84 @@
+id: 1884-218
+name: MARYE, AUDITOR, AND OTHERS, v. PARSONS
+term: 1884
+chief: Waite
+natural_court: 706
+docket: '1278'
+citation:
+  us: 114 U.S. 325
+  sct: 5 S. Ct. 932
+  led: 29 L. Ed. 205
+  lexis: 1885 U.S. LEXIS 1765
+dates:
+  argued: '1885-03-27'
+  decided: '1885-04-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90240, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 436}
+  source: {code: 436}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 55}
+  respondent: {code: 195}
+opinions:
+  majority_author: SMatthews
+  majority_assigner: SJField
+votes:
+- justice: MRWaite
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SFMiller
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

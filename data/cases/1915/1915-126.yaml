@@ -1,0 +1,79 @@
+id: 1915-126
+name: ARMOUR & COMPANY v. STATE OF NORTH DAKOTA
+term: 1915
+chief: White
+natural_court: 903
+docket: '258'
+citation:
+  us: 240 U.S. 510
+  sct: 36 S. Ct. 440
+  led: 60 L. Ed. 771
+  lexis: 1916 U.S. LEXIS 1477
+dates:
+  argued: '1916-03-03'
+  decided: '1916-04-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80170, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Pure Food & Drugs plus ND state law
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 39}
+  source: {code: 300, state: 39}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 39}
+admin_action: {agency: 117, state: 39}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true

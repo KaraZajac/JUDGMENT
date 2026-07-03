@@ -1,0 +1,95 @@
+id: 1997-098
+name: RANDON BRAGDON v. SIDNEY ABBOTT, et al.
+term: 1997
+chief: Rehnquist
+natural_court: 1607
+docket: 97-156
+citation:
+  us: 524 U.S. 624
+  sct: 118 S. Ct. 2196
+  led: 141 L. Ed. 2d 540
+  lexis: 1998 U.S. LEXIS 4212
+dates:
+  argued: '1998-03-30'
+  decided: '1998-06-25'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20210, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 300
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 78}
+  source: {code: 21}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 206}
+  respondent: {code: 204}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: AScalia
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: RBGinsburg
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens

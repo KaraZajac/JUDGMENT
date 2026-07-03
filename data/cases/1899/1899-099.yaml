@@ -1,0 +1,83 @@
+id: 1899-099
+name: LOUISIANA v. TEXAS
+term: 1899
+chief: Fuller
+natural_court: 808
+docket: '6'
+citation:
+  us: 176 U.S. 1
+  sct: 20 S. Ct. 251
+  led: 44 L. Ed. 347
+  lexis: 1900 U.S. LEXIS 1715
+dates:
+  decided: '1900-01-15'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 40050, area: due-process}
+law:
+  type: constitution
+  supp: 140
+authority:
+- judicial-review-national
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 22}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+admin_action: {agency: 117, state: 22}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - MWFuller
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true

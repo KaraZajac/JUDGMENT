@@ -1,0 +1,84 @@
+id: 1877-165
+name: COUNTY OF BATES v. WINTERS
+term: 1877
+chief: Waite
+natural_court: 702
+docket: '210'
+citation:
+  us: 97 U.S. 83
+  led: 24 L. Ed. 933
+  lexis: 1877 U.S. LEXIS 1756
+dates:
+  decided: '1878-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 422}
+  source: {code: 422}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 30}
+  respondent: {code: 237}
+opinions:
+  majority_author: WHunt
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NHSwayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - NClifford
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - NClifford
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true

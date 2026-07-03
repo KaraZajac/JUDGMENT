@@ -1,0 +1,79 @@
+id: 1850-011
+name: THE UNITED STATES, PLAINTIFFS IN ERROR, v. MCKEAN BUCHANAN
+term: 1850
+chief: Taney
+natural_court: 508
+citation:
+  us: 49 U.S. 83
+  led: 12 L. Ed. 997
+  lexis: 1850 U.S. LEXIS 1659
+dates:
+  argued: '1849-12-27'
+  reargued: '1849-12-31'
+  decided: '1850-01-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, March 3, 1797
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 109}
+  source: {code: 430}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 186}
+admin_action: {agency: 77}
+opinions:
+  majority_author: LWoodbury
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JMWayne
+  participated: false
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  participated: false
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LWoodbury
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  direction: conservative
+  in_majority: false

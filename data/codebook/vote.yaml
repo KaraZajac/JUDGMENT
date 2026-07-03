@@ -1,0 +1,24 @@
+- code: 1
+  token: majority
+  label: voted with majority or plurality
+- code: 2
+  token: dissent
+  label: dissent
+- code: 3
+  token: regular-concurrence
+  label: regular concurrence (joins the majority opinion)
+- code: 4
+  token: special-concurrence
+  label: special concurrence (concurs in result, not in the majority opinion)
+- code: 5
+  token: judgment-of-the-court
+  label: judgment of the Court
+- code: 6
+  token: dissent-from-cert-denial
+  label: dissent from the denial or dismissal of certiorari or appeal
+- code: 7
+  token: jurisdictional-dissent
+  label: jurisdictional dissent
+- code: 8
+  token: equally-divided
+  label: participation in an equally divided vote

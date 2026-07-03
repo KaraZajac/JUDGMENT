@@ -1,0 +1,81 @@
+id: 1937-109
+name: MCCART et al. v. INDIANAPOLIS WATER CO.
+term: 1937
+chief: Hughes
+natural_court: 1104
+docket: '90'
+citation:
+  us: 302 U.S. 419
+  sct: 58 S. Ct. 324
+  led: 82 L. Ed. 336
+  lexis: 1938 U.S. LEXIS 3
+dates:
+  argued: '1937-12-15'
+  decided: '1938-01-03'
+decision:
+  type: per-curiam-argued
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 40070, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 241
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 69}
+  source: {code: 27}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 18}
+  respondent: {code: 219}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  participated: false
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

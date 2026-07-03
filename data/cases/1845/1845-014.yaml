@@ -1,0 +1,76 @@
+id: 1845-014
+name: JAMES BARRY, PLAINTIFF IN ERROR, v. HAMILTON R. GAMBLE
+term: 1845
+chief: Taney
+natural_court: 505
+citation:
+  us: 44 U.S. 32
+  led: 11 L. Ed. 479
+  lexis: 1845 U.S. LEXIS 417
+dates:
+  decided: '1845-01-14'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: unidentified act of congress
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: JCatron
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMcKinley
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMcKinley
+- justice: JCatron
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true

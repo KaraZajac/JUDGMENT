@@ -1,0 +1,78 @@
+id: 1958-030
+name: HAHN v. ROSS ISLAND SAND & GRAVEL CO.
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '52'
+citation:
+  us: 358 U.S. 272
+  sct: 79 S. Ct. 266
+  led: 3 L. Ed. 2d 292
+  lexis: 1959 U.S. LEXIS 1750
+dates:
+  argued: '1958-12-11'
+  decided: '1959-01-12'
+decision:
+  type: per-curiam-argued
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 80050, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 349
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 43}
+  source: {code: 300, state: 43}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 145}
+  respondent: {code: 116}
+opinions:
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PStewart
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  participated: false
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  participated: false
+- justice: CEWhittaker
+  vote: majority
+  direction: liberal
+  in_majority: true

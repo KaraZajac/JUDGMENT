@@ -1,0 +1,97 @@
+id: 1991-110
+name: ROBERT E. LEE, INDIVIDUALLY AND AS PRINCIPAL OF NATHAN BISHOP MIDDLE SCHOOL, et al. v. DANIEL WEISMAN ETC.
+term: 1991
+chief: Rehnquist
+natural_court: 1605
+docket: 90-1014
+citation:
+  us: 505 U.S. 577
+  sct: 112 S. Ct. 2649
+  led: 120 L. Ed. 2d 467
+  lexis: 1992 U.S. LEXIS 4364
+dates:
+  argued: '1991-11-06'
+  decided: '1992-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30170, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 203
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 113}
+  source: {code: 21}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 21}
+  petitioner_state: {code: 47}
+  respondent: {code: 239}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: WHRehnquist
+votes:
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: HABlackmun
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: JPStevens
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HABlackmun
+  - DHSouter
+- justice: SDOConnor
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HABlackmun
+  - DHSouter
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia

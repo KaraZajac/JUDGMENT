@@ -1,0 +1,89 @@
+id: 1987-154
+name: BOWEN, SECRETARY OF HEALTH AND HUMAN SERVICES, et al. v. MASSACHUSETTS
+term: 1987
+chief: Rehnquist
+natural_court: 1603
+docket: 87-712
+citation:
+  us: 487 U.S. 879
+  sct: 108 S. Ct. 2722
+  led: 101 L. Ed. 2d 749
+  lexis: 1988 U.S. LEXIS 3029
+dates:
+  argued: '1988-04-20'
+  decided: '1988-06-29'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90320, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 305
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 80}
+  source: {code: 21}
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 363}
+  respondent: {code: 28}
+  respondent_state: {code: 26}
+admin_action: {agency: 63}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia

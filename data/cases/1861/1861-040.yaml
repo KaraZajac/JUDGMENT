@@ -1,0 +1,75 @@
+id: 1861-040
+name: MAGWIRE VS. TYLER et al.
+term: 1861
+chief: Taney
+natural_court: 512
+citation:
+  us: 66 U.S. 195
+  led: 17 L. Ed. 137
+  lexis: 1861 U.S. LEXIS 470
+dates:
+  argued: '1862-02-05'
+  decided: '1862-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 9 Statutes at Large 395
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+admin_action: {agency: 123}
+opinions:
+  majority_author: JCatron
+  majority_assigner: JCatron
+votes:
+- justice: RBTaney
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMWayne
+  participated: false
+- justice: JCatron
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBTaney
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true

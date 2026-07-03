@@ -1,0 +1,102 @@
+id: 1952-114
+name: ROSENBERG ET AL. v. UNITED STATES
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '687'
+citation:
+  us: 346 U.S. 273
+  sct: 73 S. Ct. 1152
+  led: 97 L. Ed. 2d 1607
+  lexis: 1953 U.S. LEXIS 2557
+dates:
+  argued: '1953-06-18'
+  decided: '1953-06-19'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10130, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 306
+authority:
+- statutory-construction
+jurisdiction: {code: 12}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: FMVinson
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RHJackson
+  - TCClark
+- justice: TCClark
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - RHJackson
+- justice: HHBurton
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RHJackson
+  - TCClark
+- justice: RHJackson
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - TCClark
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - RHJackson
+  - TCClark
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - RHJackson
+  - TCClark

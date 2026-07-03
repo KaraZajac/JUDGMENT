@@ -1,0 +1,90 @@
+id: 1981-148
+name: NORTHERN PIPELINE CONSTRUCTION CO. v. MARATHON PIPE LINE CO. et al.
+term: 1981
+chief: Burger
+natural_court: 1507
+docket: 81-150
+citation:
+  us: 458 U.S. 50
+  sct: 102 S. Ct. 2858
+  led: 73 L. Ed. 2d 598
+  lexis: 1982 U.S. LEXIS 143
+dates:
+  argued: '1982-04-27'
+  decided: '1982-06-28'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90320, area: judicial-power}
+law:
+  type: constitution
+  supp: 137
+authority:
+- judicial-review-national
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 83}
+  source: {code: 83}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 114}
+  respondent: {code: 209}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WHRehnquist
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WHRehnquist

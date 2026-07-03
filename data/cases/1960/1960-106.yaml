@@ -1,0 +1,86 @@
+id: 1960-106
+name: UNITED STATES, TRUSTEE, v. OREGON
+term: 1960
+chief: Warren
+natural_court: 1406
+docket: '329'
+citation:
+  us: 366 U.S. 643
+  sct: 81 S. Ct. 1278
+  led: 6 L. Ed. 2d 575
+  lexis: 1961 U.S. LEXIS 1942
+dates:
+  argued: '1961-04-25'
+  decided: '1961-05-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20250, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 38 U.S.C. § 17
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: putative-conflict
+lower_court:
+  origin: {code: 302, state: 43}
+  source: {code: 300, state: 43}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 28}
+  respondent_state: {code: 43}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEWhittaker
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack

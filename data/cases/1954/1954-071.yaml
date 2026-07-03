@@ -1,0 +1,86 @@
+id: 1954-071
+name: RICE v. SIOUX CITY MEMORIAL PARK CEMETERY, INC. et al.
+term: 1954
+chief: Warren
+natural_court: 1403
+docket: '28'
+citation:
+  us: 349 U.S. 70
+  sct: 75 S. Ct. 614
+  led: 99 L. Ed. 2d 897
+  lexis: 1955 U.S. LEXIS 863
+dates:
+  argued: '1954-11-08'
+  decided: '1955-05-09'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90150, area: judicial-power}
+law:
+  type: other
+  supp: 508
+authority:
+- supervisory
+jurisdiction: {code: 6}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 19}
+  source: {code: 300, state: 19}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 222}
+  respondent: {code: 122}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: SFReed
+votes:
+- justice: JHarlan2
+  participated: false
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: EWarren
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true

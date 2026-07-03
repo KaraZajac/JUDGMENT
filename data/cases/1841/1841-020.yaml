@@ -1,0 +1,72 @@
+id: 1841-020
+name: THE UNITED STATES, PLAINTIFFS IN ERROR, v. WILLIAM LINN AND OTHERS, DEFENDANTS IN ERROR
+term: 1841
+chief: Taney
+natural_court: 504
+citation:
+  us: 40 U.S. 290
+  led: 10 L. Ed. 742
+  lexis: 1841 U.S. LEXIS 272
+dates:
+  argued: '1841-01-30'
+  reargued: '1841-02-05'
+  decided: '1841-02-22'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 140030, area: private-action}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: unidentified act of congress
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 410}
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+admin_action: {agency: 124}
+opinions:
+  majority_author: SThompson
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  in_majority: true
+- justice: JStory
+  vote: dissent
+  in_majority: false
+- justice: SThompson
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  in_majority: false
+- justice: HBaldwin
+  vote: dissent
+  in_majority: false
+- justice: JMWayne
+  vote: majority
+  in_majority: true
+- justice: PPBarbour
+  vote: majority
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  in_majority: true

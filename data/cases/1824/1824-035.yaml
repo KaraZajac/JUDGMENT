@@ -1,0 +1,70 @@
+id: 1824-035
+name: THE BANK OF THE UNITED STATES v. THE PLANTERS' BANK OF GEORGIA
+term: 1824
+chief: Marshall
+natural_court: 407
+citation:
+  us: 22 U.S. 904
+  led: 6 L. Ed. 244
+  lexis: 1824 U.S. LEXIS 410
+dates:
+  argued: '1824-03-10'
+  decided: '1824-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 90330, area: judicial-power}
+law:
+  type: constitution
+  supp: 138
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 409}
+  source: {code: 409}
+  disagreement: true
+parties:
+  petitioner: {code: 258}
+  petitioner_state: {code: 60}
+  respondent: {code: 113}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true

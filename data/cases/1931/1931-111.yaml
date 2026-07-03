@@ -1,0 +1,78 @@
+id: 1931-111
+name: UNITED STATES v. SWIFT & CO. et al.
+term: 1931
+chief: Hughes
+natural_court: 1103
+docket: '568'
+citation:
+  us: 286 U.S. 106
+  sct: 52 S. Ct. 460
+  led: 76 L. Ed. 999
+  lexis: 1932 U.S. LEXIS 852
+dates:
+  argued: '1932-03-17'
+  decided: '1932-05-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 80010, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 367
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 19}
+  disposition: modified
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 158}
+opinions:
+  majority_author: BNCardozo
+  majority_assigner: JCMcReynolds
+votes:
+- justice: CEHughes2
+  participated: false
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PButler
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  participated: false
+- justice: PButler
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  participated: false
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

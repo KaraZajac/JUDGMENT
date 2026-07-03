@@ -1,0 +1,83 @@
+id: 1877-173
+name: ATHERTON v. FOWLER
+term: 1877
+chief: Waite
+natural_court: 702
+docket: '165'
+citation:
+  us: 96 U.S. 513
+  led: 24 L. Ed. 732
+  lexis: 1877 U.S. LEXIS 1691
+dates:
+  argued: '1878-01-10'
+  decided: '1878-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80105, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 137}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: NHSwayne
+votes:
+- justice: MRWaite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true

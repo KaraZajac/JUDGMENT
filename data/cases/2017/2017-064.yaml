@@ -1,0 +1,86 @@
+id: 2017-064
+name: UPPER SKAGIT INDIAN TRIBE v. LUNDGREN
+term: 2017
+chief: Roberts
+natural_court: 1706
+docket: 17-387
+citation:
+  sct: 138 S. Ct. 1649
+  led: 200 L. Ed. 2d 931
+  lexis: 2018 U.S. LEXIS 3085
+dates:
+  argued: '2018-03-21'
+  decided: '2018-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20160, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: state-court-confusion
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 170}
+  respondent: {code: 195}
+opinions:
+  majority_author: NMGorsuch
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

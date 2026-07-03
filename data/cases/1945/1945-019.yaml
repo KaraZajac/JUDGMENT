@@ -1,0 +1,82 @@
+id: 1945-019
+name: ASHBACKER RADIO CORP. v. FEDERAL COMMUNICATIONS COMMISSION
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '65'
+citation:
+  us: 326 U.S. 327
+  sct: 66 S. Ct. 148
+  led: 90 L. Ed. 108
+  lexis: 1945 U.S. LEXIS 2732
+dates:
+  argued: '1945-11-13'
+  decided: '1945-12-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 326
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 221}
+  respondent: {code: 338}
+admin_action: {agency: 38}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  participated: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - FFrankfurter
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

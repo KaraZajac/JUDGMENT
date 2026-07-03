@@ -1,0 +1,66 @@
+id: 1806-010
+name: SIMMS AND WISE v. SLACUM
+term: 1806
+chief: Marshall
+natural_court: 402
+citation:
+  us: 7 U.S. 300
+  led: 2 L. Ed. 446
+  lexis: 1806 U.S. LEXIS 337
+dates:
+  argued: '1806-02-13'
+  decided: '1806-02-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 1
+issue: {code: 20100, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 55}
+  source: {code: 440}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 135}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WPaterson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SChase
+  participated: false
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: liberal
+  in_majority: true

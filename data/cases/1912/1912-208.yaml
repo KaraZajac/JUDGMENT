@@ -1,0 +1,87 @@
+id: 1912-208
+name: BAUER & CIE v. O'DONNELL
+term: 1912
+chief: White
+natural_court: 902
+docket: '951'
+citation:
+  us: 229 U.S. 1
+  sct: 33 S. Ct. 616
+  led: 57 L. Ed. 1041
+  lexis: 1913 U.S. LEXIS 2417
+dates:
+  argued: '1913-04-10'
+  decided: '1913-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80180, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: patent law
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 32}
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 233}
+opinions:
+  majority_author: WRDay
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JMcKenna
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHLurton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JMcKenna
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JMcKenna
+- justice: JRLamar
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true

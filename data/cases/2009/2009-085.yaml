@@ -1,0 +1,94 @@
+id: 2009-085
+name: JEFFREY K. SKILLING v. UNITED STATES
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 08-1394
+citation:
+  us: 561 U.S. 358
+  sct: 130 S. Ct. 2896
+  led: 177 L. Ed. 2d 619
+  lexis: 2010 U.S. LEXIS 5259
+dates:
+  argued: '2010-03-01'
+  decided: '2010-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10450, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18-37
+authority:
+- statutory-construction
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 121}
+  source: {code: 25}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 185}
+  respondent: {code: 27}
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: AScalia
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AScalia
+- justice: CThomas
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: SAAlito
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

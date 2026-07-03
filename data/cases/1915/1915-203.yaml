@@ -1,0 +1,78 @@
+id: 1915-203
+name: UNITED STATES v. ARCHER
+term: 1915
+chief: White
+natural_court: 903
+docket: '112'
+citation:
+  us: 241 U.S. 119
+  sct: 36 S. Ct. 521
+  led: 60 L. Ed. 918
+  lexis: 1916 U.S. LEXIS 1786
+dates:
+  argued: '1915-12-07'
+  decided: '1916-05-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 90360, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: MS River Commission
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 195}
+admin_action: {agency: 117, state: 5}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  participated: false

@@ -1,0 +1,87 @@
+id: 1966-104
+name: GARDNER, SECRETARY OF HEALTH, EDUCATION, AND WELFARE, et al. v. TOILET GOODS ASSOCIATION, INC., et al.
+term: 1966
+chief: Warren
+natural_court: 1409
+docket: '438'
+citation:
+  us: 387 U.S. 167
+  sct: 87 S. Ct. 1526
+  led: 18 L. Ed. 2d 704
+  lexis: 1967 U.S. LEXIS 3001
+dates:
+  argued: '1967-01-16'
+  decided: '1967-05-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 332
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 362}
+  respondent: {code: 184}
+admin_action: {agency: 62}
+opinions:
+  majority_author: JHarlan2
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  participated: false
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AFortas
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AFortas
+- justice: AFortas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

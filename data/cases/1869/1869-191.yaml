@@ -1,0 +1,73 @@
+id: 1869-191
+name: ex parte PARGOUD
+term: 1869
+chief: Chase
+natural_court: 601
+docket: '9'
+citation:
+  us: 154 U.S. 567
+  sct: 14 S. Ct. 1208
+  led: 19 L. Ed. 620
+  lexis: 1870 U.S. LEXIS 1248
+dates:
+  argued: '1870-02-18'
+  decided: '1870-02-28'
+decision:
+  type: opinion-of-the-court
+  disposition: granted
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 90360, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 8}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 501}
+  respondent: {code: 6}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: SNelson
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true

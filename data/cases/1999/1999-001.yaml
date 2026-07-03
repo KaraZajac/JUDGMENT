@@ -1,0 +1,87 @@
+id: 1999-001
+name: FRIENDS OF THE EARTH, INCORPORATED, et al. v. LAIDLAW ENVIRONMENTAL SERVICES (TOC), INC.
+term: 1999
+chief: Rehnquist
+natural_court: 1607
+docket: 98-822
+citation:
+  us: 528 U.S. 167
+  sct: 120 S. Ct. 693
+  led: 145 L. Ed. 2d 610
+  lexis: 2000 U.S. LEXIS 501
+dates:
+  argued: '1999-10-12'
+  decided: '2000-01-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90240, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 338
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 114}
+  source: {code: 24}
+  disposition: vacated-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 150}
+  respondent: {code: 195}
+admin_action: {agency: 117, state: 48}
+opinions:
+  majority_author: RBGinsburg
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

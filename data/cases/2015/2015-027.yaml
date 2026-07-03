@@ -1,0 +1,81 @@
+id: 2015-027
+name: HARRIS v. ARIZONA INDEPENDENT REDISTRICTING COMMISSION
+term: 2015
+chief: Roberts
+natural_court: 1705
+docket: 14-232
+citation:
+  us: 578 U.S. 253
+  sct: 136 S. Ct. 1301
+  led: 194 L. Ed. 2d 497
+  lexis: 2016 U.S. LEXIS 2798
+dates:
+  argued: '2015-12-08'
+  decided: '2016-04-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 20010, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 45}
+  source: {code: 45}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 251}
+  respondent: {code: 4}
+  respondent_state: {code: 4}
+admin_action: {agency: 117, state: 4}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

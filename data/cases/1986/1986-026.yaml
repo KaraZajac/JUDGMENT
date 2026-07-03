@@ -1,0 +1,89 @@
+id: 1986-026
+name: CITY OF PLEASANT GROVE v. UNITED STATES
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-1244
+citation:
+  us: 479 U.S. 462
+  sct: 107 S. Ct. 794
+  led: 93 L. Ed. 2d 866
+  lexis: 1987 U.S. LEXIS 415
+dates:
+  argued: '1986-12-10'
+  decided: '1987-01-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20020, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 378
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55}
+  source: {code: 55}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 1}
+  respondent: {code: 27}
+admin_action: {agency: 27}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true

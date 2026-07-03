@@ -1,0 +1,86 @@
+id: 2020-017
+name: NIZ-CHAVEZ v. GARLAND, ATTORNEY GENERAL
+term: 2020
+chief: Roberts
+natural_court: 1709
+docket: 19-863
+citation:
+  sct: 141 S. Ct. 1474
+  led: 209 L. Ed. 2d 433
+  lexis: 2021 U.S. LEXIS 2232
+dates:
+  argued: '2020-11-09'
+  decided: '2021-04-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20310, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 26}
+  source: {code: 26}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 1}
+admin_action: {agency: 7}
+opinions:
+  majority_author: NMGorsuch
+  majority_assigner: CThomas
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: ACBarrett
+  vote: majority
+  direction: liberal
+  in_majority: true

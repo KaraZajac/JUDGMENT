@@ -1,0 +1,79 @@
+id: 1886-042
+name: WOOD v. FORT WAYNE
+term: 1886
+chief: Waite
+natural_court: 706
+docket: '51'
+citation:
+  us: 119 U.S. 312
+  sct: 7 S. Ct. 219
+  led: 30 L. Ed. 416
+  lexis: 1886 U.S. LEXIS 1990
+dates:
+  argued: '1886-11-16'
+  decided: '1886-12-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- administrative-interpretation
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 411}
+  source: {code: 411}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 176}
+  respondent: {code: 3}
+  respondent_state: {code: 18}
+opinions:
+  majority_author: SBlatchford
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  participated: false
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

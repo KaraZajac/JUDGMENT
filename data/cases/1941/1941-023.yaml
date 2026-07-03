@@ -1,0 +1,78 @@
+id: 1941-023
+name: DISTRICT OF COLUMBIA v. MURPHY
+term: 1941
+chief: Stone
+natural_court: 1202
+docket: '58'
+citation:
+  us: 314 U.S. 441
+  sct: 62 S. Ct. 303
+  led: 86 L. Ed. 329
+  lexis: 1941 U.S. LEXIS 1248
+dates:
+  argued: '1941-11-17'
+  decided: '1941-12-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 10}
+  respondent: {code: 8}
+  respondent_state: {code: 10}
+admin_action: {agency: 117, state: 10}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: HLBlack
+votes:
+- justice: HFStone
+  participated: false
+- justice: OJRoberts
+  participated: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JFByrnes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

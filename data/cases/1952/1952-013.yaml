@@ -1,0 +1,89 @@
+id: 1952-013
+name: KEDROFF ET AL. v. SAINT NICHOLAS CATHEDRAL OF THE RUSSIAN ORTHODOX CHURCH IN NORTH AMERICA
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '3'
+citation:
+  us: 344 U.S. 94
+  sct: 73 S. Ct. 143
+  led: 97 L. Ed. 2d 120
+  lexis: 1952 U.S. LEXIS 2666
+dates:
+  argued: '1952-02-01'
+  reargued: '1952-10-14'
+  decided: '1952-11-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 30160, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 202
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 130}
+  respondent: {code: 130}
+opinions:
+  majority_author: SFReed
+  majority_assigner: SFReed
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WODouglas
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - FFrankfurter
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

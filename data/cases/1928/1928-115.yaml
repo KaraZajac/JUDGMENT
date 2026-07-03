@@ -1,0 +1,85 @@
+id: 1928-115
+name: UNITED STATES v. SCHWIMMER
+term: 1928
+chief: Taft
+natural_court: 1005
+docket: '484'
+citation:
+  us: 279 U.S. 644
+  sct: 49 S. Ct. 448
+  led: 73 L. Ed. 889
+  lexis: 1929 U.S. LEXIS 64
+dates:
+  argued: '1929-04-12'
+  decided: '1929-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20270, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 68}
+  source: {code: 27}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 106}
+opinions:
+  majority_author: PButler
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

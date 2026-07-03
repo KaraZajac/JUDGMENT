@@ -1,0 +1,79 @@
+id: 1975-006
+name: ROSE, WARDEN v. HODGES et al.
+term: 1975
+chief: Burger
+natural_court: 1504
+docket: 75-139
+citation:
+  us: 423 U.S. 19
+  sct: 96 S. Ct. 175
+  led: 46 L. Ed. 2d 162
+  lexis: 1975 U.S. LEXIS 93
+dates:
+  decided: '1975-11-11'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10580, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 215
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 118}
+  source: {code: 26}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 50}
+  respondent: {code: 126}
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: WJBrennan
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true

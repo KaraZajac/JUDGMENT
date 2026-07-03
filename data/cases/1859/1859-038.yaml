@@ -1,0 +1,80 @@
+id: 1859-038
+name: THE UNITED STATES EX REL.TIONE RICHARD R. CRAWFORD v. HENRY ADDISON
+term: 1859
+chief: Taney
+natural_court: 511
+citation:
+  us: 63 U.S. 174
+  led: 16 L. Ed. 304
+  lexis: 1859 U.S. LEXIS 711
+dates:
+  argued: '1860-01-06'
+  decided: '1860-02-20'
+decision:
+  type: opinion-of-the-court
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90340, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Judiciary Act of 1789, sec.13
+authority:
+- statutory-construction
+jurisdiction: {code: 8}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 440}
+  source: {code: 440}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 211}
+  respondent: {code: 6}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JACampbell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true

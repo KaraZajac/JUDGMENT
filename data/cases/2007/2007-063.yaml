@@ -1,0 +1,90 @@
+id: 2007-063
+name: ROTHGERY v. GILLESPIE COUNTY
+term: 2007
+chief: Roberts
+natural_court: 1702
+docket: 07-440
+citation:
+  us: 554 U.S. 191
+  sct: 128 S. Ct. 2578
+  led: 171 L. Ed. 2d 366
+  lexis: 2008 U.S. LEXIS 5057
+dates:
+  argued: '2008-03-17'
+  decided: '2008-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 20320, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 214
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 122}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 5}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: DHSouter
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JGRoberts
+  - SAAlito
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

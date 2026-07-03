@@ -1,0 +1,70 @@
+id: 1864-029
+name: TOBEY v. LEONARDS
+term: 1864
+chief: Chase
+natural_court: 601
+citation:
+  us: 69 U.S. 423
+  led: 17 L. Ed. 842
+  lexis: 1864 U.S. LEXIS 439
+dates:
+  argued: '1864-12-21'
+  decided: '1865-02-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 140040, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 123}
+opinions:
+  majority_author: JMWayne
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JCatron
+  participated: false
+- justice: SNelson
+  vote: majority
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  in_majority: false
+- justice: NClifford
+  vote: dissent
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  in_majority: true
+- justice: DDavis
+  participated: false
+- justice: SJField
+  vote: majority
+  in_majority: true

@@ -1,0 +1,89 @@
+id: 1950-051
+name: SPECTOR MOTOR SERVICE, INC. v. O'CONNOR, TAX COMMISSIONER
+term: 1950
+chief: Vinson
+natural_court: 1303
+docket: '132'
+citation:
+  us: 340 U.S. 602
+  sct: 71 S. Ct. 508
+  led: 95 L. Ed. 2d 573
+  lexis: 1951 U.S. LEXIS 2054
+dates:
+  argued: '1950-10-29'
+  reargued: '1951-01-10'
+  decided: '1951-03-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: putative-conflict
+lower_court:
+  origin: {code: 53, state: 8}
+  source: {code: 22}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 8}
+  respondent: {code: 19}
+  respondent_state: {code: 8}
+opinions:
+  majority_author: HHBurton
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HHBurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TCClark
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TCClark
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

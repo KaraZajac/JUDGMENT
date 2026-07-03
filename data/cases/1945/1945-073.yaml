@@ -1,0 +1,84 @@
+id: 1945-073
+name: UNITED STATES ex rel. TENNESSEE VALLEY AUTHORITY v. WELCH
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '528'
+citation:
+  us: 327 U.S. 546
+  sct: 66 S. Ct. 715
+  led: 90 L. Ed. 843
+  lexis: 1946 U.S. LEXIS 3002
+dates:
+  argued: '1946-03-07'
+  decided: '1946-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Tennessee Valley Authority Act 16 U.S.C.S. 831
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 195}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SFReed
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

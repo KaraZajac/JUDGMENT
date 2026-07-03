@@ -1,0 +1,80 @@
+id: 1964-048
+name: CARRINGTON v. RASH et al.
+term: 1964
+chief: Warren
+natural_court: 1408
+docket: '82'
+citation:
+  us: 380 U.S. 89
+  sct: 85 S. Ct. 775
+  led: 13 L. Ed. 2d 675
+  lexis: 1965 U.S. LEXIS 1734
+dates:
+  argued: '1965-01-28'
+  decided: '1965-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 20010, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 300, state: 51}
+  source: {code: 300, state: 51}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 186}
+  respondent: {code: 19}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: PStewart
+  majority_assigner: HLBlack
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  participated: false
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  direction: liberal
+  in_majority: true

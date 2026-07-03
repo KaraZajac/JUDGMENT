@@ -1,0 +1,81 @@
+id: 1920-043
+name: JOHNSON v. STATE OF MARYLAND
+term: 1920
+chief: White
+natural_court: 905
+docket: '289'
+citation:
+  us: 254 U.S. 51
+  sct: 41 S. Ct. 16
+  led: 65 L. Ed. 126
+  lexis: 1920 U.S. LEXIS 1236
+dates:
+  argued: '1920-10-18'
+  decided: '1920-11-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 10570, area: criminal-procedure}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 302, state: 25}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 412}
+  respondent: {code: 28}
+  respondent_state: {code: 25}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

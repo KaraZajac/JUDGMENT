@@ -1,0 +1,77 @@
+id: 1931-091
+name: COOMBES v. GETZ
+term: 1931
+chief: Hughes
+natural_court: 1103
+docket: '528'
+citation:
+  us: 285 U.S. 434
+  sct: 52 S. Ct. 435
+  led: 76 L. Ed. 866
+  lexis: 1932 U.S. LEXIS 786
+dates:
+  argued: '1932-03-21'
+  decided: '1932-04-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 140030, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: petition-denied
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 122}
+opinions:
+  majority_author: GSutherland
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  in_majority: false
+  joined:
+  - BNCardozo
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: PButler
+  vote: majority
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  in_majority: false
+  joined:
+  - BNCardozo
+- justice: OJRoberts
+  vote: majority
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: wrote
+  in_majority: false

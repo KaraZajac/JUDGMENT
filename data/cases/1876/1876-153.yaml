@@ -1,0 +1,88 @@
+id: 1876-153
+name: TOWN OF SOUTH OTTAWA v. PERKINS
+term: 1876
+chief: Waite
+natural_court: 701
+docket: '58'
+citation:
+  us: 94 U.S. 260
+  led: 24 L. Ed. 154
+  lexis: 1876 U.S. LEXIS 1860
+dates:
+  argued: '1876-10-24'
+  reargued: '1877-03-01'
+  decided: '1877-03-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 410}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 17}
+  respondent: {code: 237}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: SFMiller
+votes:
+- justice: MRWaite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: NHSwayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true

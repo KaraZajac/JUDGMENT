@@ -1,0 +1,87 @@
+id: 1954-070
+name: REGAN v. NEW YORK
+term: 1954
+chief: Warren
+natural_court: 1403
+docket: '54'
+citation:
+  us: 349 U.S. 58
+  sct: 75 S. Ct. 585
+  led: 99 L. Ed. 2d 883
+  lexis: 1955 U.S. LEXIS 908
+dates:
+  argued: '1954-11-18'
+  decided: '1955-04-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10090, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 210
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 37}
+  respondent: {code: 28}
+  respondent_state: {code: 37}
+opinions:
+  majority_author: SFReed
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  participated: false
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: EWarren
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - EWarren
+- justice: FFrankfurter
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true

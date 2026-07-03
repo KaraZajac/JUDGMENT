@@ -1,0 +1,84 @@
+id: 1922-190
+name: STATE OF MISSOURI EX REL. SOUTHWESTERN BELL TELEPHONE COMPANY v. PUBLIC SERVICE COMMISSION OF MISSOURI, et
+  al.
+term: 1922
+chief: Taft
+natural_court: 1004
+docket: '158'
+citation:
+  us: 262 U.S. 276
+  sct: 43 S. Ct. 544
+  led: 67 L. Ed. 981
+  lexis: 1923 U.S. LEXIS 2642
+dates:
+  argued: '1922-12-08'
+  decided: '1923-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 80340, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 30}
+  respondent: {code: 4}
+  respondent_state: {code: 30}
+admin_action: {agency: 117, state: 30}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - LDBrandeis
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  participated: false
+- justice: ETSanford
+  participated: false

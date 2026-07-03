@@ -1,0 +1,90 @@
+id: 2004-036
+name: CHARLES RUSSELL RHINES v. DOUGLAS WEBER, WARDEN
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 03-9046
+citation:
+  us: 544 U.S. 269
+  sct: 125 S. Ct. 1528
+  led: 161 L. Ed. 2d 440
+  lexis: 2005 U.S. LEXIS 2930
+dates:
+  argued: '2005-01-12'
+  decided: '2005-03-30'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10020, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 341
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 115}
+  source: {code: 28}
+  disposition: vacated-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 28}
+  respondent_state: {code: 49}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens
+  - DHSouter
+- justice: SGBreyer
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JPStevens
+  - DHSouter

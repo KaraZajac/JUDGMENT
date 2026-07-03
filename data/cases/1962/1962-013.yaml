@@ -1,0 +1,86 @@
+id: 1962-013
+name: PEARLMAN, TRUSTEE IN BANKRUPTCY, v. RELIANCE INSURANCE CO.
+term: 1962
+chief: Warren
+natural_court: 1408
+docket: '78'
+citation:
+  us: 371 U.S. 132
+  sct: 83 S. Ct. 232
+  led: 9 L. Ed. 2d 190
+  lexis: 1962 U.S. LEXIS 2138
+dates:
+  argued: '1962-10-09'
+  decided: '1962-12-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 353
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 97}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 114}
+  respondent: {code: 176}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - TCClark
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - TCClark
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AJGoldberg
+  vote: majority
+  direction: liberal
+  in_majority: true

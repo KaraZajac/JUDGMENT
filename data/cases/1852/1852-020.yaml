@@ -1,0 +1,79 @@
+id: 1852-020
+name: THE BOARD OF TRUSTEES FOR THE VINCENNES UNIVERSITY, PLAINTIFFS IN ERROR, v. THE STATE OF INDIANA
+term: 1852
+chief: Taney
+natural_court: 509
+citation:
+  us: 55 U.S. 268
+  led: 14 L. Ed. 416
+  lexis: 1852 U.S. LEXIS 441
+dates:
+  argued: '1853-01-06'
+  decided: '1853-01-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 40070, area: due-process}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 2 Statutes at Large 277
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 18}
+  source: {code: 300, state: 18}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 26}
+  petitioner_state: {code: 18}
+  respondent: {code: 28}
+  respondent_state: {code: 18}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: JMcLean
+votes:
+- justice: RBTaney
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: PVDaniel
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRCurtis
+  vote: majority
+  direction: liberal
+  in_majority: true

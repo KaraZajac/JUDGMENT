@@ -1,0 +1,65 @@
+id: 1881-142
+name: THE SCOTLAND
+term: 1881
+chief: Waite
+natural_court: 705
+docket: '43'
+citation:
+  us: 105 U.S. 24
+  led: 26 L. Ed. 1001
+  lexis: 1881 U.S. LEXIS 2086
+dates:
+  decided: '1882-03-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80070, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 3/3/1851
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 122}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  in_majority: true
+- justice: SJField
+  vote: majority
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  in_majority: true
+- justice: SMatthews
+  participated: false
+- justice: HGray
+  participated: false

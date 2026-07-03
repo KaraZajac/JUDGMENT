@@ -1,0 +1,77 @@
+id: 1890-262
+name: HARDIN v. JORDAN
+term: 1890
+chief: Fuller
+natural_court: 803
+docket: '161'
+citation:
+  us: 140 U.S. 371
+  sct: 11 S. Ct. 808
+  led: 35 L. Ed. 428
+  lexis: 1891 U.S. LEXIS 2472
+dates:
+  argued: '1891-01-23'
+  decided: '1891-05-11'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 140010, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 410}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+admin_action: {agency: 123}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: SJField
+  vote: majority
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: SBlatchford
+  vote: majority
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: HBBrown
+  vote: dissent
+  in_majority: false
+  joined:
+  - DJBrewer

@@ -1,0 +1,71 @@
+id: 1889-266
+name: UNITED STATES v. NORTH CAROLINA
+term: 1889
+chief: Fuller
+natural_court: 802
+docket: 3 ORIG
+citation:
+  us: 136 U.S. 211
+  sct: 10 S. Ct. 920
+  led: 34 L. Ed. 336
+  lexis: 1890 U.S. LEXIS 2207
+dates:
+  argued: '1890-04-02'
+  decided: '1890-05-19'
+decision:
+  type: opinion-of-the-court
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 100120, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 28}
+  respondent_state: {code: 38}
+opinions:
+  majority_author: HGray
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: HGray
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  in_majority: true

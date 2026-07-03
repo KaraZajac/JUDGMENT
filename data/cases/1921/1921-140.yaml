@@ -1,0 +1,86 @@
+id: 1921-140
+name: GROGAN, COLLECTOR OF INTERNAL REVENUE FOR THE FIRST DISTRICT OF MICHIGAN, et al. v. HIRAM WALKER & SONS, LTD.
+term: 1921
+chief: Taft
+natural_court: 1001
+docket: '615'
+citation:
+  us: 259 U.S. 80
+  sct: 42 S. Ct. 423
+  led: 66 L. Ed. 836
+  lexis: 1922 U.S. LEXIS 2461
+dates:
+  argued: '1922-04-19'
+  decided: '1922-05-15'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10510, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 81}
+  source: {code: 81}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 105}
+admin_action: {agency: 69}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMcKenna
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMcKenna

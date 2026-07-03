@@ -1,0 +1,89 @@
+id: 1902-046
+name: NELSON v. NORTHERN PACIFIC RAILWAY COMPANY
+term: 1902
+chief: Fuller
+natural_court: 809
+docket: '44'
+citation:
+  us: 188 U.S. 108
+  sct: 23 S. Ct. 302
+  led: 47 L. Ed. 406
+  lexis: 1903 U.S. LEXIS 1272
+dates:
+  argued: '1902-10-16'
+  decided: '1903-01-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 21 SAL 140
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+admin_action: {agency: 26}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HBBrown
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: GShiras
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true

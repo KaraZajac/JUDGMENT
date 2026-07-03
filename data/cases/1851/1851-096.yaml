@@ -1,0 +1,82 @@
+id: 1851-096
+name: THE STATE OF PENNSYLVANIA, COMPLAINANT, v. THE WHEELING AND BELMONT BRIDGE COMPANY, WILLIAM OTTERSON AND GEORGE
+  CROFT
+term: 1851
+chief: Taney
+natural_court: 509
+citation:
+  us: 54 U.S. 518
+  led: 14 L. Ed. 249
+  lexis: 1851 U.S. LEXIS 876
+dates:
+  argued: '1851-12-17'
+  reargued: '1852-05-24'
+  decided: '1852-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 45}
+  respondent: {code: 120}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: JMcLean
+votes:
+- justice: RBTaney
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - PVDaniel
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRCurtis
+  vote: majority
+  direction: liberal
+  in_majority: true

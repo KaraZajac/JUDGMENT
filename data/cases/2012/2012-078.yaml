@@ -1,0 +1,87 @@
+id: 2012-078
+name: SEKHAR v. UNITED STATES
+term: 2012
+chief: Roberts
+natural_court: 1704
+docket: 12-357
+citation:
+  us: 570 U.S. 729
+  sct: 133 S. Ct. 2720
+  led: 186 L. Ed. 2d 794
+  lexis: 2013 U.S. LEXIS 4920
+dates:
+  argued: '2013-04-23'
+  decided: '2013-06-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10470, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18-1951 (a)
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: AScalia
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

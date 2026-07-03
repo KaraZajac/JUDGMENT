@@ -1,0 +1,90 @@
+id: 2022-044
+name: ABITRON AUSTRIA GMBH v. HETRONIC INT'L
+term: 2022
+chief: Roberts
+natural_court: 1710
+docket: 21-1043
+citation:
+  us: 600 U.S. 412
+  sct: 143 S. Ct. 2522
+  led: 216 L. Ed. 2d 1013
+  lexis: 2023 U.S. LEXIS 2789
+dates:
+  argued: '2023-03-21'
+  decided: '2023-06-29'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80200, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Lanham Act, §1114(1)(a) and §1125(a)(1)
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 107}
+  source: {code: 30}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 159}
+  respondent: {code: 172}
+opinions:
+  majority_author: SAAlito
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: NMGorsuch
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: KBJackson
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,85 @@
+id: 1987-010
+name: NATIONAL LABOR RELATIONS BOARD et al. v. UNITED FOOD & COMMERCIAL WORKERS UNION, LOCAL 23, AFL-CIO
+term: 1987
+chief: Rehnquist
+natural_court: 1602
+docket: 86-594
+citation:
+  us: 484 U.S. 112
+  sct: 108 S. Ct. 413
+  led: 98 L. Ed. 2d 429
+  lexis: 1987 U.S. LEXIS 5127
+dates:
+  argued: '1987-10-05'
+  decided: '1987-12-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90120, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 23}
+  source: {code: 23}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 249}
+admin_action: {agency: 82}
+opinions:
+  majority_author: WJBrennan
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AScalia
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AScalia
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SDOConnor
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AScalia
+- justice: AScalia
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

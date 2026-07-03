@@ -1,0 +1,64 @@
+id: 1861-048
+name: SHERMAN VS. SMITH
+term: 1861
+chief: Taney
+natural_court: 512
+citation:
+  us: 66 U.S. 587
+  led: 17 L. Ed. 163
+  lexis: 1861 U.S. LEXIS 517
+dates:
+  argued: '1862-02-20'
+  decided: '1862-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 140030, area: private-action}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 114}
+opinions:
+  majority_author: SNelson
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  in_majority: true

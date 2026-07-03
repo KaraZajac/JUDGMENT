@@ -1,0 +1,81 @@
+id: 1975-052
+name: BUCOLO et al. v. ADKINS, CHIEF JUSTICE, et al.
+term: 1975
+chief: Burger
+natural_court: 1506
+docket: 75-369
+citation:
+  us: 424 U.S. 641
+  sct: 96 S. Ct. 1086
+  led: 47 L. Ed. 2d 301
+  lexis: 1976 U.S. LEXIS 20
+dates:
+  decided: '1976-03-08'
+decision:
+  type: per-curiam-no-argument
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90420, area: judicial-power}
+authority:
+- supervisory
+jurisdiction: {code: 8}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 12}
+  source: {code: 300, state: 12}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 220}
+  respondent: {code: 20}
+  respondent_state: {code: 12}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

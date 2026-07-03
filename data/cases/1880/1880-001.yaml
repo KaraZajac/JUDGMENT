@@ -1,0 +1,75 @@
+id: 1880-001
+name: SIMS v. EVERHARDT
+term: 1880
+chief: Waite
+natural_court: 702
+docket: '31'
+citation:
+  us: 102 U.S. 300
+  led: 26 L. Ed. 87
+  lexis: 1880 U.S. LEXIS 2039
+dates:
+  argued: '1880-04-20'
+  decided: '1880-10-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 20130, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 411}
+  source: {code: 411}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 233}
+  respondent: {code: 123}
+opinions:
+  majority_author: WStrong
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  participated: false
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,77 @@
+id: 1818-005
+name: THE NEW-YORK -- TROUP, CLAIMANT
+term: 1818
+chief: Marshall
+natural_court: 406
+citation:
+  us: 16 U.S. 59
+  led: 4 L. Ed. 333
+  lexis: 1818 U.S. LEXIS 347
+dates:
+  argued: '1818-02-05'
+  decided: '1818-02-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80040, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress March 1, 1809
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 173}
+  source: {code: 426}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 233}
+  respondent: {code: 27}
+admin_action: {agency: 21}
+opinions:
+  majority_author: HBLivingston
+  majority_assigner: HBLivingston
+votes:
+- justice: JMarshall
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJohnson
+- justice: BWashington
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJohnson
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HBLivingston
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true

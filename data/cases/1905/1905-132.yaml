@@ -1,0 +1,78 @@
+id: 1905-132
+name: MCDONALD, RECEIVER, v. DEWEY
+term: 1905
+chief: Fuller
+natural_court: 810
+docket: '220'
+citation:
+  us: 202 U.S. 510
+  sct: 26 S. Ct. 731
+  led: 50 L. Ed. 1128
+  lexis: 1906 U.S. LEXIS 1551
+dates:
+  argued: '1906-04-11'
+  decided: '1906-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 140080, area: private-action}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: federal laws
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 27}
+  disposition: reversed-and-remanded
+  direction: unspecifiable
+  disagreement: true
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 237}
+opinions:
+  majority_author: HBBrown
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  in_majority: true
+- justice: JMcKenna
+  vote: dissent
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: OWHolmes
+  vote: majority
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  in_majority: false
+  joined:
+  - EDEWhite

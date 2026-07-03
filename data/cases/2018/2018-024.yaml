@@ -1,0 +1,86 @@
+id: 2018-024
+name: MERCK SHARP & DOHME CORP. v. ALBRECHT
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 17-290
+citation:
+  sct: 139 S. Ct. 1688
+  led: 203 L. Ed. 2d 822
+  lexis: 2019 U.S. LEXIS 3542
+dates:
+  argued: '2019-01-07'
+  decided: '2019-05-20'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 100030, area: federalism}
+law:
+  type: federal-statute
+  supp: 332
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-and-state-confusion
+lower_court:
+  origin: {code: 92}
+  source: {code: 23}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 143}
+  respondent: {code: 208}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SAAlito

@@ -1,0 +1,85 @@
+id: 1946-050
+name: UNITED PUBLIC WORKERS OF AMERICA (C. I. O.) ET AL. v. MITCHELL ET AL.
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '20'
+citation:
+  us: 330 U.S. 75
+  sct: 67 S. Ct. 556
+  led: 91 L. Ed. 754
+  lexis: 1947 U.S. LEXIS 2960
+dates:
+  argued: '1945-12-03'
+  reargued: '1946-10-17'
+  decided: '1947-02-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 90340, area: judicial-power}
+law:
+  type: court-rules
+  supp: 403
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 55, state: 10}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 60}
+  respondent: {code: 320}
+admin_action: {agency: 20}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: SFReed
+  majority_assigner: HFStone
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WBRutledge
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  participated: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,63 @@
+id: 1836-023
+name: JOHN SMITH, T., APPELLANT v. THE UNITED STATES
+term: 1836
+chief: Marshall
+natural_court: 410
+citation:
+  us: 35 U.S. 326
+  led: 9 L. Ed. 442
+  lexis: 1836 U.S. LEXIS 442
+dates:
+  argued: '1830-02-26'
+  decided: '1836-02-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 80105, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: unidentifed act of congress, 1828
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 170}
+  source: {code: 170}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 27}
+opinions:
+  majority_author: HBaldwin
+  majority_assigner: JStory
+votes:
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true

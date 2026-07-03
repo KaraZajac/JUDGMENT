@@ -1,0 +1,72 @@
+id: 1969-106
+name: BLOSS et al. v. DYKEMA
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '1347'
+citation:
+  us: 398 U.S. 278
+  sct: 90 S. Ct. 1727
+  led: 26 L. Ed. 2d 230
+  lexis: 1970 U.S. LEXIS 34
+dates:
+  decided: '1970-06-01'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 30190, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 27}
+  source: {code: 300, state: 27}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 178}
+  respondent: {code: 28}
+  respondent_state: {code: 27}
+opinions:
+  majority_assigner: HLBlack
+votes:
+- justice: WEBurger
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: jurisdictional-dissent
+  in_majority: false
+- justice: TMarshall
+  participated: false

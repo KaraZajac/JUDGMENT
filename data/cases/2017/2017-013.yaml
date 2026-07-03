@@ -1,0 +1,90 @@
+id: 2017-013
+name: U.S. BANK NATIONAL ASSOCIATION v. VILLAGE AT LAKERIDGE
+term: 2017
+chief: Roberts
+natural_court: 1706
+docket: 15-1509
+citation:
+  sct: 138 S. Ct. 960
+  led: 200 L. Ed. 2d 218
+  lexis: 2018 U.S. LEXIS 1520
+dates:
+  argued: '2017-10-31'
+  decided: '2018-03-05'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 20}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 114}
+opinions:
+  majority_author: EKagan
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: CThomas
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: SSotomayor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SSotomayor

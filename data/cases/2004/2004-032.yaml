@@ -1,0 +1,90 @@
+id: 2004-032
+name: JILL L. BROWN, WARDEN v. WILLIAM CHARLES PAYTON
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 03-1039
+citation:
+  us: 544 U.S. 133
+  sct: 125 S. Ct. 1432
+  led: 161 L. Ed. 2d 334
+  lexis: 2005 U.S. LEXIS 2753
+dates:
+  argued: '2004-11-10'
+  decided: '2005-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 10130, area: criminal-procedure}
+law:
+  type: federal-statute
+  supp: 341
+authority:
+- federal-common-law
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 6}
+  respondent: {code: 126}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: SDOConnor
+votes:
+- justice: WHRehnquist
+  participated: false
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DHSouter
+- justice: SGBreyer
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,86 @@
+id: 1933-019
+name: SOUTHERN RAILWAY CO. v. VIRGINIA
+term: 1933
+chief: Hughes
+natural_court: 1103
+docket: '26'
+citation:
+  us: 290 U.S. 190
+  sct: 54 S. Ct. 148
+  led: 78 L. Ed. 260
+  lexis: 1933 U.S. LEXIS 455
+dates:
+  argued: '1933-10-17'
+  decided: '1933-12-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 55}
+  source: {code: 300, state: 55}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 4}
+  respondent_state: {code: 55}
+admin_action: {agency: 117, state: 55}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: WVanDevanter
+votes:
+- justice: CEHughes2
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: OJRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false

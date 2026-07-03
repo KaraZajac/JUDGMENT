@@ -1,0 +1,67 @@
+id: 1867-096
+name: GAINES v. NEW ORLEANS
+term: 1867
+chief: Chase
+natural_court: 601
+citation:
+  us: 73 U.S. 642
+  led: 18 L. Ed. 950
+  lexis: 1867 U.S. LEXIS 1015
+dates:
+  argued: '1868-01-30'
+  decided: '1868-04-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 140070, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 415}
+  source: {code: 415}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 129}
+  respondent: {code: 3}
+  respondent_state: {code: 22}
+opinions:
+  majority_author: DDavis
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  in_majority: false
+- justice: SFMiller
+  vote: dissent
+  in_majority: false
+- justice: DDavis
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: SJField
+  vote: majority
+  in_majority: true

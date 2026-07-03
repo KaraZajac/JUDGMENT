@@ -1,0 +1,97 @@
+id: 2006-030
+name: ZUNI PUBLIC SCHOOL DISTRICT NO. 89, et al. v. DEPARTMENT OF EDUCATION, et al.
+term: 2006
+chief: Roberts
+natural_court: 1702
+docket: 05-1508
+citation:
+  us: 550 U.S. 81
+  sct: 127 S. Ct. 1534
+  led: 167 L. Ed. 2d 449
+  lexis: 2007 U.S. LEXIS 4335
+dates:
+  argued: '2007-01-10'
+  decided: '2007-04-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90120, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 20 U.S.C. § 7709
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 30}
+  source: {code: 30}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 21}
+  petitioner_state: {code: 36}
+  respondent: {code: 330}
+admin_action: {agency: 30}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JPStevens
+votes:
+- justice: JPStevens
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AMKennedy
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: SAAlito
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - AMKennedy

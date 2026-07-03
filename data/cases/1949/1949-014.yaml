@@ -1,0 +1,82 @@
+id: 1949-014
+name: KINGSLAND, COMMISSIONER OF PATENTS, v. DORSEY
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '53'
+citation:
+  us: 338 U.S. 318
+  sct: 70 S. Ct. 123
+  led: 94 L. Ed. 2d 123
+  lexis: 1949 U.S. LEXIS 2977
+dates:
+  argued: '1949-10-18'
+  decided: '1949-11-21'
+decision:
+  type: per-curiam-argued
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 60030, area: attorneys}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 35 U.S.C. § 11
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 32}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 394}
+  respondent: {code: 111}
+admin_action: {agency: 94}
+opinions:
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  participated: false
+- justice: FFrankfurter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

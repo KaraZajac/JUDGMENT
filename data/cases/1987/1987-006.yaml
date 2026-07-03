@@ -1,0 +1,82 @@
+id: 1987-006
+name: GWALTNEY OF SMITHFIELD, LTD. v. CHESAPEAKE BAY FOUNDATION, INC., et al.
+term: 1987
+chief: Rehnquist
+natural_court: 1602
+docket: 86-473
+citation:
+  us: 484 U.S. 49
+  sct: 108 S. Ct. 376
+  led: 98 L. Ed. 2d 306
+  lexis: 1987 U.S. LEXIS 5030
+dates:
+  argued: '1987-10-05'
+  decided: '1987-12-01'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80130, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 338
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 126}
+  source: {code: 24}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 158}
+  respondent: {code: 150}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AScalia
+- justice: SDOConnor
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AScalia
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true

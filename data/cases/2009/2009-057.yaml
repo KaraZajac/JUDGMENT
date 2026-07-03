@@ -1,0 +1,88 @@
+id: 2009-057
+name: JOHN ROBERTSON v. UNITED STATES ex rel. WYKENNA WATSON
+term: 2009
+chief: Roberts
+natural_court: 1703
+docket: 08-6261
+citation:
+  us: 560 U.S. 272
+  sct: 130 S. Ct. 2184
+  led: 176 L. Ed. 2d 1024
+  lexis: 2010 U.S. LEXIS 4169
+dates:
+  argued: '2010-03-31'
+  decided: '2010-05-24'
+decision:
+  type: per-curiam-argued
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10080, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 207
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 10}
+  source: {code: 300, state: 10}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_assigner: JPStevens
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+- justice: AMKennedy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts
+  - SSotomayor
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - JGRoberts

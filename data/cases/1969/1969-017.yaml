@@ -1,0 +1,84 @@
+id: 1969-017
+name: NACIREMA OPERATING CO., INC., et al. v. JOHNSON et al.
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '9'
+citation:
+  us: 396 U.S. 212
+  sct: 90 S. Ct. 347
+  led: 24 L. Ed. 2d 371
+  lexis: 1969 U.S. LEXIS 3104
+dates:
+  argued: '1969-03-25'
+  reargued: '1969-10-20'
+  decided: '1969-12-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80050, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 349
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 79}
+  source: {code: 24}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 151}
+  respondent: {code: 145}
+admin_action: {agency: 71}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true

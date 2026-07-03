@@ -1,0 +1,82 @@
+id: 2014-007
+name: KANSAS v. NEBRASKA AND COLORADO
+term: 2014
+chief: Roberts
+natural_court: 1704
+docket: 126, ORIG.
+citation:
+  us: 574 U.S. 445
+  sct: 135 S. Ct. 1042
+  led: 191 L. Ed. 2d 1
+  lexis: 2015 U.S. LEXIS 1501
+dates:
+  argued: '2014-10-14'
+  decided: '2015-02-24'
+decision:
+  type: opinion-of-the-court
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 110030, area: interstate-relations}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Republican River Compact
+authority:
+- supervisory
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 20}
+  respondent: {code: 28}
+  respondent_state: {code: 32}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: EKagan
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: special-concurrence
+  opinion: wrote
+  in_majority: true
+  joined:
+  - EKagan
+  - CThomas
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+  joined:
+  - CThomas
+- justice: AMKennedy
+  vote: majority
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: RBGinsburg
+  vote: majority
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SSotomayor
+  vote: majority
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  in_majority: true

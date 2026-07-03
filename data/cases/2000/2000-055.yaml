@@ -1,0 +1,93 @@
+id: 2000-055
+name: BUCKHANNON BOARD AND CARE HOME, INC., et al. v. WEST VIRGINIA DEPARTMENT OF HEALTH AND HUMAN RESOURCES, et
+  al.
+term: 2000
+chief: Rehnquist
+natural_court: 1607
+docket: 99-1848
+citation:
+  us: 532 U.S. 598
+  sct: 121 S. Ct. 1835
+  led: 149 L. Ed. 2d 855
+  lexis: 2001 U.S. LEXIS 4117
+dates:
+  argued: '2001-02-27'
+  decided: '2001-05-29'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 60010, area: attorneys}
+law:
+  type: federal-statute
+  supp: 300
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 130}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 165}
+  respondent: {code: 7}
+  respondent_state: {code: 57}
+opinions:
+  majority_author: WHRehnquist
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: CThomas
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SGBreyer
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBGinsburg

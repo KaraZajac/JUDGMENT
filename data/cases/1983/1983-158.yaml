@@ -1,0 +1,85 @@
+id: 1983-158
+name: BROWN, DIRECTOR, DEPARTMENT OF LAW AND PUBLIC SAFETY, DIVISION OF GAMING ENFORCEMENT, STATE OF NEW JERSEY,
+  et al. v. HOTEL & RESTAURANT EMPLOYEES & BARTENDERS INTERNATIONAL UNION LOCAL 54 et al.
+term: 1983
+chief: Burger
+natural_court: 1507
+docket: 83-498
+citation:
+  us: 468 U.S. 491
+  sct: 104 S. Ct. 3179
+  led: 82 L. Ed. 2d 373
+  lexis: 1984 U.S. LEXIS 142
+dates:
+  argued: '1984-03-26'
+  decided: '1984-07-02'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 100030, area: federalism}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 92}
+  source: {code: 23}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 35}
+  respondent: {code: 249}
+admin_action: {agency: 117, state: 35}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  participated: false
+- justice: WJBrennan
+  participated: false
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

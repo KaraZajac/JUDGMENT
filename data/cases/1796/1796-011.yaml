@@ -1,0 +1,70 @@
+id: 1796-011
+name: OLNEY VERSUS ARNOLD
+term: 1796
+chief: Ellsworth
+natural_court: 301
+citation:
+  us: 3 U.S. 308
+  led: 1 L. Ed. 614
+  lexis: 1796 U.S. LEXIS 407
+dates:
+  argued: '1796-03-02'
+  reargued: '1796-08-06'
+  decided: '1796-08-11'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 90350, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Judiciary Act of 1789, sec. 25
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 47}
+  source: {code: 300, state: 47}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 47}
+  respondent: {code: 138}
+opinions:
+  majority_author: OEllsworth
+  majority_assigner: OEllsworth
+votes:
+- justice: OEllsworth
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JWilson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JIredell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WPaterson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SChase
+  vote: majority
+  direction: liberal
+  in_majority: true

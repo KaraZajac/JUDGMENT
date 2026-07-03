@@ -1,0 +1,82 @@
+id: 1874-062
+name: MURDOCK v. CITY OF MEMPHIS
+term: 1874
+chief: Waite
+natural_court: 701
+citation:
+  us: 87 U.S. 590
+  led: 22 L. Ed. 429
+  lexis: 1874 U.S. LEXIS 1451
+dates:
+  argued: '1873-01-21'
+  reargued: '1873-04-02'
+  decided: '1875-01-11'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90350, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Judiciary Act of 1867
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 3}
+  respondent_state: {code: 50}
+opinions:
+  majority_author: SFMiller
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true

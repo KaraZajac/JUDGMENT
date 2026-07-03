@@ -1,0 +1,85 @@
+id: 1957-133
+name: CITY OF TACOMA v. TAXPAYERS OF TACOMA et al.
+term: 1957
+chief: Warren
+natural_court: 1405
+docket: '509'
+citation:
+  us: 357 U.S. 320
+  sct: 78 S. Ct. 1209
+  led: 2 L. Ed. 2d 1345
+  lexis: 1958 U.S. LEXIS 1775
+dates:
+  argued: '1958-04-30'
+  decided: '1958-06-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 100100, area: federalism}
+law:
+  type: federal-statute
+  supp: 336
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 56}
+  source: {code: 300, state: 56}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 3}
+  petitioner_state: {code: 56}
+  respondent: {code: 25}
+  respondent_state: {code: 56}
+admin_action: {agency: 52}
+opinions:
+  majority_author: CEWhittaker
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CEWhittaker
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

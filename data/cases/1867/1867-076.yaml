@@ -1,0 +1,71 @@
+id: 1867-076
+name: CANAL COMPANY v. GORDO
+term: 1867
+chief: Chase
+natural_court: 601
+citation:
+  us: 73 U.S. 561
+  led: 18 L. Ed. 894
+  lexis: 1867 U.S. LEXIS 1007
+dates:
+  argued: '1868-03-10'
+  decided: '1868-03-30'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 140030, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 405}
+  source: {code: 405}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 120}
+  respondent: {code: 145}
+opinions:
+  majority_author: NHSwayne
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  in_majority: false
+  joined:
+  - SJField
+- justice: NClifford
+  vote: majority
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  in_majority: false
+  joined:
+  - SJField
+- justice: DDavis
+  vote: majority
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  in_majority: false

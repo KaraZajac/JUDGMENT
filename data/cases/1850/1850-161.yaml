@@ -1,0 +1,84 @@
+id: 1850-161
+name: GEORGE M. GILL, TRUSTEE, &C., OF LYDE GOODWIN, v. ROBERT OLIVER'S EXECUTORS, AND GLENN AND PERRINE, TRUSTEES
+term: 1850
+chief: Taney
+natural_court: 508
+citation:
+  us: 52 U.S. 529
+  led: 13 L. Ed. 799
+  lexis: 1850 U.S. LEXIS 1525
+dates:
+  argued: '1850-05-03'
+  reargued: '1851-03-03'
+  decided: '1851-03-11'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90350, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 389
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 300, state: 25}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 102}
+opinions:
+  majority_author: RCGrier
+  majority_assigner: JCatron
+votes:
+- justice: RBTaney
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMcLean
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBTaney
+- justice: JMWayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LWoodbury
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

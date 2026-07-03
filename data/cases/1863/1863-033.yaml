@@ -1,0 +1,80 @@
+id: 1863-033
+name: ex parte VALLANDIGHAM
+term: 1863
+chief: Taney
+natural_court: 515
+citation:
+  us: 68 U.S. 243
+  led: 17 L. Ed. 589
+  lexis: 1863 U.S. LEXIS 456
+dates:
+  argued: '1864-01-22'
+  decided: '1864-02-15'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 90340, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 389
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: not-cert
+lower_court:
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 16}
+  respondent_state: {code: 60}
+admin_action: {agency: 24}
+opinions:
+  majority_author: JMWayne
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  participated: false
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true

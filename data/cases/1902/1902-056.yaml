@@ -1,0 +1,81 @@
+id: 1902-056
+name: HOOKER v. LOS ANGELES
+term: 1902
+chief: Fuller
+natural_court: 809
+docket: '149'
+citation:
+  us: 188 U.S. 314
+  sct: 23 S. Ct. 395
+  led: 47 L. Ed. 487
+  lexis: 1903 U.S. LEXIS 1282
+dates:
+  argued: '1903-01-23'
+  decided: '1903-02-23'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 40070, area: due-process}
+law:
+  type: constitution
+  supp: 111
+authority:
+- statutory-construction
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 6}
+  source: {code: 300, state: 6}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 3}
+  respondent_state: {code: 6}
+opinions:
+  majority_author: MWFuller
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  participated: false
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true

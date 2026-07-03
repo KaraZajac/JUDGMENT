@@ -1,0 +1,85 @@
+id: 1945-038
+name: THOMAS PAPER STOCK CO. et al. v. PORTER, PRICE ADMINISTRATOR
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '578'
+citation:
+  us: 328 U.S. 50
+  sct: 66 S. Ct. 884
+  led: 90 L. Ed. 1078
+  lexis: 1946 U.S. LEXIS 2498
+dates:
+  argued: '1946-02-25'
+  decided: '1946-04-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80350, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Emergency Price Control Act 50 USCApp 902(j)
+authority:
+- statutory-construction
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 18}
+  source: {code: 18}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 233}
+  respondent: {code: 389}
+opinions:
+  majority_author: FFrankfurter
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FMurphy
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true

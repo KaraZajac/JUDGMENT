@@ -1,0 +1,82 @@
+id: 1842-008
+name: MERRIT MARTIN AND OTHERS, PLAINTIFFS IN ERROR, v. THE LESSEE OF WILLIAM C. H. WADDELL, DEFENDANT IN ERROR
+term: 1842
+chief: Taney
+natural_court: 505
+citation:
+  us: 41 U.S. 367
+  led: 10 L. Ed. 997
+  lexis: 1842 U.S. LEXIS 378
+dates:
+  argued: '1840-02-25'
+  reargued: '1842-01-14'
+  decided: '1842-02-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80105, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 425}
+  source: {code: 425}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBaldwin
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SThompson
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,87 @@
+id: 1865-022
+name: ROGERS v. BURLINGTON
+term: 1865
+chief: Chase
+natural_court: 601
+citation:
+  us: 70 U.S. 654
+  led: 18 L. Ed. 79
+  lexis: 1865 U.S. LEXIS 747
+dates:
+  argued: '1866-01-04'
+  decided: '1866-01-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80110, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 412}
+  source: {code: 412}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 18}
+  respondent_state: {code: 19}
+opinions:
+  majority_author: NClifford
+  majority_assigner: JMWayne
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SJField
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SJField
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - SJField
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

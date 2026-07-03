@@ -1,0 +1,73 @@
+id: 1808-001
+name: ROSE v. HIMELY
+term: 1808
+chief: Marshall
+natural_court: 403
+citation:
+  us: 8 U.S. 241
+  led: 2 L. Ed. 608
+  lexis: 1807 U.S. LEXIS 382
+dates:
+  argued: '1808-02-06'
+  decided: '1808-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 90090, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 114}
+  source: {code: 432}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 123}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WCushing
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HBLivingston
+- justice: SChase
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HBLivingston
+- justice: BWashington
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJohnson
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HBLivingston
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,85 @@
+id: 1952-006
+name: NATHANSON, TRUSTEE IN BANKRUPTCY, v. NATIONAL LABOR RELATIONS BOARD
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '33'
+citation:
+  us: 344 U.S. 25
+  sct: 73 S. Ct. 80
+  led: 97 L. Ed. 2d 23
+  lexis: 1952 U.S. LEXIS 2669
+dates:
+  argued: '1952-10-23'
+  decided: '1952-11-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120030, area: federal-taxation}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 80, state: 26}
+  source: {code: 21}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 114}
+  respondent: {code: 382}
+admin_action: {agency: 82}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: SFReed
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RHJackson
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

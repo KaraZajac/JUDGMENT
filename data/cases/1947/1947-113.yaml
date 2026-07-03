@@ -1,0 +1,88 @@
+id: 1947-113
+name: UNITED STATES v. CONGRESS OF INDUSTRIAL ORGANIZATIONS ET AL.
+term: 1947
+chief: Vinson
+natural_court: 1301
+docket: '695'
+citation:
+  us: 335 U.S. 106
+  sct: 68 S. Ct. 1349
+  led: 92 L. Ed. 2d 1849
+  lexis: 1948 U.S. LEXIS 2755
+dates:
+  argued: '1948-04-28'
+  decided: '1948-06-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80140, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 350
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 55, state: 10}
+  source: {code: 55, state: 10}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 249}
+opinions:
+  majority_author: SFReed
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WBRutledge
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WBRutledge
+- justice: WBRutledge
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WBRutledge
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

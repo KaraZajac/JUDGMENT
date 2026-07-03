@@ -1,0 +1,78 @@
+id: 1911-111
+name: TREAT, TREASURER OF COCONINO COUNTY, ARIZONA, v. GRAND CANYON RAILWAY COMPANY
+term: 1911
+chief: White
+natural_court: 901
+docket: '86'
+citation:
+  us: 222 U.S. 448
+  sct: 32 S. Ct. 125
+  led: 56 L. Ed. 265
+  lexis: 1912 U.S. LEXIS 2196
+dates:
+  argued: '1911-12-08'
+  decided: '1912-01-09'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 17, state: 4}
+  source: {code: 15, state: 4}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 4}
+  respondent: {code: 25}
+  respondent_state: {code: 4}
+admin_action: {agency: 117, state: 4}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: HHLurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: majority
+  direction: conservative
+  in_majority: true

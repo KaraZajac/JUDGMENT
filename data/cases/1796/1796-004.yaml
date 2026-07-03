@@ -1,0 +1,64 @@
+id: 1796-004
+name: HYLTON, PLAINTIFF IN ERROR, VERSUS THE UNITED STATES
+term: 1796
+chief: Ellsworth
+natural_court: 301
+citation:
+  us: 3 U.S. 171
+  led: 1 L. Ed. 556
+  lexis: 1796 U.S. LEXIS 397
+dates:
+  argued: '1796-02-23'
+  decided: '1796-03-08'
+decision:
+  type: seriatim
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 0
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: constitution
+  supp: 110
+authority:
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 436}
+  source: {code: 436}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 27}
+opinions:
+  majority_assigner: JWilson
+votes:
+- justice: OEllsworth
+  participated: false
+- justice: WCushing
+  participated: false
+- justice: JWilson
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JIredell
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WPaterson
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SChase
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

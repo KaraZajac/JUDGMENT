@@ -1,0 +1,84 @@
+id: 1951-079
+name: PENNSYLVANIA WATER & POWER CO. ET AL. v. FEDERAL POWER COMMISSION ET AL.
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '428'
+citation:
+  us: 343 U.S. 414
+  sct: 72 S. Ct. 843
+  led: 96 L. Ed. 2d 1042
+  lexis: 1952 U.S. LEXIS 2641
+dates:
+  argued: '1952-04-03'
+  decided: '1952-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80270, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 336
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 219}
+  respondent: {code: 352}
+admin_action: {agency: 52}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: FMVinson
+votes:
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FFrankfurter
+  participated: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true

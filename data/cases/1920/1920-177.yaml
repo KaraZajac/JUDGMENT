@@ -1,0 +1,81 @@
+id: 1920-177
+name: SMITH v. KANSAS CITY TITLE & TRUST COMPANY et al.
+term: 1920
+chief: White
+natural_court: 905
+docket: '199'
+citation:
+  us: 255 U.S. 180
+  sct: 41 S. Ct. 243
+  led: 65 L. Ed. 577
+  lexis: 1921 U.S. LEXIS 1811
+dates:
+  argued: '1920-01-06'
+  reargued: '1920-10-14'
+  decided: '1921-02-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80120, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 87}
+  source: {code: 87}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 113}
+opinions:
+  majority_author: WRDay
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: LDBrandeis
+  participated: false
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

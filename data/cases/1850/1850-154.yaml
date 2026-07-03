@@ -1,0 +1,83 @@
+id: 1850-154
+name: JESSE B. CLEMENTS, PLAINTIFF IN ERROR, v. DANIEL BERRY
+term: 1850
+chief: Taney
+natural_court: 508
+citation:
+  us: 52 U.S. 398
+  led: 13 L. Ed. 745
+  lexis: 1850 U.S. LEXIS 1517
+dates:
+  argued: '1851-02-24'
+  decided: '1851-03-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 100030, area: federalism}
+law:
+  type: court-rules
+  supp: 403
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 50}
+  source: {code: 300, state: 50}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 50}
+  respondent: {code: 102}
+opinions:
+  majority_author: JMcLean
+  majority_assigner: JMcLean
+votes:
+- justice: RBTaney
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JMcLean
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMcKinley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JCatron
+- justice: LWoodbury
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true

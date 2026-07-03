@@ -1,0 +1,45 @@
+slug: oj-roberts
+name: O. J. Roberts
+scdb: {name: OJRoberts, id: 76}
+record:
+  first_decision: '1930-06-02'
+  last_decision: '1945-06-18'
+  first_term: 1929
+  last_term: 1944
+  terms: 16
+  cases: 2443
+  majority_share: 0.904
+  dissents: 218
+  opinions_written: 430
+ideology:
+  career_liberal_share: 0.542
+  by_term:
+    1930: {liberal_share: 0.586, n: 152}
+    1931: {liberal_share: 0.455, n: 143}
+    1932: {liberal_share: 0.631, n: 160}
+    1933: {liberal_share: 0.593, n: 145}
+    1934: {liberal_share: 0.497, n: 155}
+    1935: {liberal_share: 0.517, n: 147}
+    1936: {liberal_share: 0.614, n: 145}
+    1937: {liberal_share: 0.602, n: 161}
+    1938: {liberal_share: 0.481, n: 129}
+    1939: {liberal_share: 0.592, n: 125}
+    1940: {liberal_share: 0.637, n: 157}
+    1941: {liberal_share: 0.496, n: 117}
+    1942: {liberal_share: 0.521, n: 165}
+    1943: {liberal_share: 0.429, n: 126}
+    1944: {liberal_share: 0.437, n: 151}
+  by_issue_area:
+    attorneys: {liberal_share: 0.474, n: 19}
+    civil-rights: {liberal_share: 0.527, n: 129}
+    criminal-procedure: {liberal_share: 0.548, n: 168}
+    due-process: {liberal_share: 0.509, n: 55}
+    economic-activity: {liberal_share: 0.588, n: 882}
+    federal-taxation: {liberal_share: 0.611, n: 388}
+    federalism: {liberal_share: 0.452, n: 84}
+    first-amendment: {liberal_share: 0.559, n: 34}
+    interstate-relations: {liberal_share: 1.0, n: 1}
+    judicial-power: {liberal_share: 0.375, n: 307}
+    miscellaneous: {liberal_share: 0.4, n: 15}
+    privacy: {liberal_share: 0.5, n: 2}
+    unions: {liberal_share: 0.5, n: 94}

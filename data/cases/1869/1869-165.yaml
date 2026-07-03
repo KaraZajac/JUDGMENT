@@ -1,0 +1,73 @@
+id: 1869-165
+name: HEPBURN v. GRISWOLD
+term: 1869
+chief: Chase
+natural_court: 601
+citation:
+  us: 75 U.S. 603
+  led: 19 L. Ed. 513
+  lexis: 1868 U.S. LEXIS 1136
+dates:
+  argued: '1868-12-08'
+  decided: '1870-02-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80350, area: economic-activity}
+law:
+  type: constitution
+  supp: 120
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 21}
+  source: {code: 300, state: 21}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 138}
+  respondent: {code: 135}
+opinions:
+  majority_author: SPChase
+  majority_assigner: SPChase
+votes:
+- justice: SPChase
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: DDavis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: SJField
+  vote: majority
+  in_majority: true

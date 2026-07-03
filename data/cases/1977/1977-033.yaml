@@ -1,0 +1,86 @@
+id: 1977-033
+name: UNITED STATES STEEL CORP. et al. v. MULTISTATE TAX COMMISSION et al.
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 76-635
+citation:
+  us: 434 U.S. 452
+  sct: 98 S. Ct. 799
+  led: 54 L. Ed. 2d 682
+  lexis: 1978 U.S. LEXIS 58
+dates:
+  argued: '1977-10-11'
+  decided: '1978-02-21'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100110, area: federalism}
+law:
+  type: constitution
+  supp: 130
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96}
+  source: {code: 96}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 15}
+admin_action: {agency: 75}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: LFPowell
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

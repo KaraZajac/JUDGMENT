@@ -1,0 +1,72 @@
+id: 1899-196
+name: ADAMS v. COWEN
+term: 1899
+chief: Fuller
+natural_court: 808
+docket: '113'
+citation:
+  us: 177 U.S. 471
+  sct: 20 S. Ct. 668
+  led: 44 L. Ed. 851
+  lexis: 1900 U.S. LEXIS 1816
+dates:
+  argued: '1900-01-10'
+  decided: '1900-04-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 140070, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 414}
+  source: {code: 26}
+  disposition: reversed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 102}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  in_majority: false
+- justice: HGray
+  vote: dissent
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  in_majority: false
+- justice: GShiras
+  vote: majority
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  in_majority: false
+- justice: RWPeckham
+  vote: majority
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 2018-025
+name: DAWSON v. STEAGER
+term: 2018
+chief: Roberts
+natural_court: 1707
+docket: 17-419
+citation:
+  sct: 139 S. Ct. 698
+  led: 203 L. Ed. 2d 29
+  lexis: 2019 U.S. LEXIS 1349
+dates:
+  argued: '2018-12-03'
+  decided: '2019-02-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 100110, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 4 U.S.C. 111
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: state-court-confusion
+lower_court:
+  origin: {code: 302, state: 57}
+  source: {code: 300, state: 57}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 240}
+  respondent: {code: 4}
+  respondent_state: {code: 57}
+opinions:
+  majority_author: NMGorsuch
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RBGinsburg
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true

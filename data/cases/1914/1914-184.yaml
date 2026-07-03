@@ -1,0 +1,82 @@
+id: 1914-184
+name: WRIGHT, COMPTROLLER GENERAL OF GEORGIA, v. LOUISVILLE AND NASHVILLE RAILROAD COMPANY
+term: 1914
+chief: White
+natural_court: 903
+docket: '162'
+citation:
+  us: 236 U.S. 687
+  sct: 35 S. Ct. 475
+  led: 59 L. Ed. 788
+  lexis: 1915 U.S. LEXIS 1710
+dates:
+  argued: '1915-01-29'
+  decided: '1915-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: constitution
+  supp: 128
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 60}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 13}
+  respondent: {code: 231}
+admin_action: {agency: 117, state: 13}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  participated: false
+- justice: MPitney
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JCMcReynolds
+  vote: dissent
+  direction: liberal
+  in_majority: false

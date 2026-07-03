@@ -1,0 +1,84 @@
+id: 1969-074
+name: AMERICAN FARM LINES v. BLACK BALL FREIGHT SERVICE et al.
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '369'
+citation:
+  us: 397 U.S. 532
+  sct: 90 S. Ct. 1288
+  led: 25 L. Ed. 2d 547
+  lexis: 1970 U.S. LEXIS 94
+dates:
+  argued: '1970-02-25'
+  decided: '1970-04-20'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80240, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 343
+authority:
+- administrative-interpretation
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 129}
+  source: {code: 129}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 245}
+  respondent: {code: 245}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: WODouglas
+  majority_assigner: WEBurger
+votes:
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true

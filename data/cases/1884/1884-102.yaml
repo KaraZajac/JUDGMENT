@@ -1,0 +1,78 @@
+id: 1884-102
+name: CLAWSON v. UNITED STATES
+term: 1884
+chief: Waite
+natural_court: 706
+docket: '1235'
+citation:
+  us: 113 U.S. 143
+  sct: 5 S. Ct. 393
+  led: 28 L. Ed. 957
+  lexis: 1885 U.S. LEXIS 1661
+dates:
+  argued: '1885-01-05'
+  decided: '1885-01-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10360, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 15, state: 52}
+  source: {code: 15, state: 52}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 27}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: JPBradley
+votes:
+- justice: MRWaite
+  participated: false
+- justice: SFMiller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: SJField
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WBWoods
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true

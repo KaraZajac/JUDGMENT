@@ -1,0 +1,78 @@
+id: 1911-185
+name: HENRY v. A.B. DICK COMPANY
+term: 1911
+chief: White
+natural_court: 901
+docket: '20'
+citation:
+  us: 224 U.S. 1
+  sct: 32 S. Ct. 364
+  led: 56 L. Ed. 645
+  lexis: 1912 U.S. LEXIS 2279
+dates:
+  argued: '1911-10-27'
+  decided: '1912-03-11'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 80180, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 22}
+  disagreement: false
+parties:
+  petitioner: {code: 172}
+  respondent: {code: 184}
+opinions:
+  majority_author: HHLurton
+  majority_assigner: JMcKenna
+votes:
+- justice: EDEWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: HHLurton
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: CEHughes1
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JRLamar
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - EDEWhite

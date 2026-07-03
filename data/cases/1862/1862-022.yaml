@@ -1,0 +1,83 @@
+id: 1862-022
+name: MISSISSIPPI AND MISSOURI RAILROAD COMPANY VS. WARD
+term: 1862
+chief: Taney
+natural_court: 514
+citation:
+  us: 67 U.S. 485
+  led: 17 L. Ed. 311
+  lexis: 1862 U.S. LEXIS 257
+dates:
+  argued: '1862-12-16'
+  decided: '1863-01-30'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90350, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 167}
+  source: {code: 167}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 116}
+opinions:
+  majority_author: JCatron
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SNelson
+- justice: JCatron
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NClifford
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SNelson
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true

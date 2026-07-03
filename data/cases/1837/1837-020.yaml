@@ -1,0 +1,63 @@
+id: 1837-020
+name: EDWARD LIVINGSTON'S EXECUTRIX, APPELLANT v. BENJAMIN STORY
+term: 1837
+chief: Taney
+natural_court: 502
+citation:
+  us: 36 U.S. 351
+  led: 9 L. Ed. 746
+  lexis: 1837 U.S. LEXIS 179
+dates:
+  argued: '1837-02-06'
+  decided: '1837-02-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 140030, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 75}
+  source: {code: 75}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 135}
+opinions:
+  majority_author: JMWayne
+  majority_assigner: JStory
+votes:
+- justice: RBTaney
+  participated: false
+- justice: JStory
+  vote: majority
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  in_majority: true
+- justice: HBaldwin
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: JMWayne
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: PPBarbour
+  vote: majority
+  in_majority: true

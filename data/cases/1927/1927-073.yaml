@@ -1,0 +1,83 @@
+id: 1927-073
+name: WILLIAMS, COMMISSIONER OF FINANCE, et al. v. STANDARD OIL COMPANY OF LOUISIANA
+term: 1927
+chief: Taft
+natural_court: 1005
+docket: '64'
+citation:
+  us: 278 U.S. 235
+  sct: 49 S. Ct. 115
+  led: 73 L. Ed. 287
+  lexis: 1928 U.S. LEXIS 323
+dates:
+  argued: '1928-11-23'
+  decided: '1929-01-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 117}
+  source: {code: 117}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 50}
+  respondent: {code: 233}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: GSutherland
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true

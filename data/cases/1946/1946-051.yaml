@@ -1,0 +1,81 @@
+id: 1946-051
+name: OKLAHOMA v. UNITED STATES CIVIL SERVICE COMMISSION
+term: 1946
+chief: Vinson
+natural_court: 1301
+docket: '84'
+citation:
+  us: 330 U.S. 127
+  sct: 67 S. Ct. 544
+  led: 91 L. Ed. 794
+  lexis: 1947 U.S. LEXIS 2860
+dates:
+  argued: '1946-10-17'
+  decided: '1947-02-10'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 30010, area: first-amendment}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U.S.C. § 12
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 106, state: 42}
+  source: {code: 30}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 42}
+  respondent: {code: 320}
+admin_action: {agency: 20}
+opinions:
+  majority_author: SFReed
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WBRutledge
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  participated: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 1967-153
+name: WATTS et al. v. SEWARD SCHOOL BOARD et al.
+term: 1967
+chief: Warren
+natural_court: 1410
+docket: '325'
+citation:
+  us: 391 U.S. 592
+  sct: 88 S. Ct. 1753
+  led: 20 L. Ed. 2d 842
+  lexis: 1968 U.S. LEXIS 1473
+dates:
+  argued: '1968-03-26'
+  decided: '1968-06-03'
+decision:
+  type: per-curiam-argued
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 30030, area: first-amendment}
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 2}
+  source: {code: 300, state: 2}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 2}
+  respondent: {code: 21}
+  respondent_state: {code: 2}
+admin_action: {agency: 117, state: 2}
+opinions:
+  majority_assigner: EWarren
+votes:
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: AFortas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true

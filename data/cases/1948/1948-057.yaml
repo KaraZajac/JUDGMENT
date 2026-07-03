@@ -1,0 +1,76 @@
+id: 1948-057
+name: UNITED STATES v. KNIGHT
+term: 1948
+chief: Vinson
+natural_court: 1301
+docket: '406'
+citation:
+  us: 336 U.S. 505
+  sct: 69 S. Ct. 704
+  led: 93 L. Ed. 2d 845
+  lexis: 1949 U.S. LEXIS 3004
+dates:
+  argued: '1949-03-04'
+  decided: '1949-04-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 110, state: 45}
+  source: {code: 23}
+  disposition: reversed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 111}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBRutledge
+  participated: false
+- justice: FMurphy
+  participated: false
+- justice: FMVinson
+  vote: majority
+  direction: liberal
+  in_majority: true

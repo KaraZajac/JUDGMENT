@@ -1,0 +1,68 @@
+id: 1823-015
+name: THE MARY ANN.  PLUMER, CLAIMANT
+term: 1823
+chief: Marshall
+natural_court: 406
+citation:
+  us: 21 U.S. 380
+  led: 5 L. Ed. 641
+  lexis: 1823 U.S. LEXIS 286
+dates:
+  argued: '1823-02-10'
+  decided: '1823-03-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 20075, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Slave Trade Act of March 2, 1807, ch. 77
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 150}
+  source: {code: 150}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: JMarshall
+  majority_assigner: JMarshall
+votes:
+- justice: JMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BWashington
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  participated: false
+- justice: TTodd
+  participated: false
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: conservative
+  in_majority: true

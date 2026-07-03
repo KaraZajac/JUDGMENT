@@ -1,0 +1,92 @@
+id: 1963-147
+name: MURPHY et al. v. WATERFRONT COMMISSION OF NEW YORK HARBOR
+term: 1963
+chief: Warren
+natural_court: 1408
+docket: '138'
+citation:
+  us: 378 U.S. 52
+  sct: 84 S. Ct. 1594
+  led: 12 L. Ed. 2d 678
+  lexis: 1964 U.S. LEXIS 2229
+dates:
+  argued: '1964-03-05'
+  decided: '1964-06-15'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10110, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 35}
+  source: {code: 300, state: 35}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 254}
+  respondent: {code: 4}
+  respondent_state: {code: 61}
+admin_action: {agency: 65}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: AJGoldberg
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JHarlan2
+- justice: AJGoldberg
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

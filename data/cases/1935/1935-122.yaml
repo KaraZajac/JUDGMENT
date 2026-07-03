@@ -1,0 +1,85 @@
+id: 1935-122
+name: GRAVES, GOVERNOR OF ALABAMA, et al. v. TEXAS COMPANY
+term: 1935
+chief: Hughes
+natural_court: 1103
+docket: '727'
+citation:
+  us: 298 U.S. 393
+  sct: 56 S. Ct. 818
+  led: 80 L. Ed. 1236
+  lexis: 1936 U.S. LEXIS 712
+dates:
+  argued: '1936-04-02'
+  decided: '1936-05-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 100060, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 41}
+  source: {code: 41}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 19}
+  petitioner_state: {code: 1}
+  respondent: {code: 198}
+admin_action: {agency: 117, state: 1}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: PButler
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BNCardozo
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  participated: false
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

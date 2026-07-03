@@ -1,0 +1,76 @@
+id: 2018-003
+name: GUNDY v. UNITED STATES
+term: 2018
+chief: Roberts
+natural_court: 1706
+docket: 17-6086
+citation:
+  sct: 139 S. Ct. 2116
+  led: 204 L. Ed. 2d 522
+  lexis: 2019 U.S. LEXIS 4183
+dates:
+  argued: '2018-10-02'
+  decided: '2019-06-20'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 130020, area: miscellaneous}
+law:
+  type: constitution
+  supp: 100
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: EKagan
+  majority_assigner: RBGinsburg
+votes:
+- justice: JGRoberts
+  vote: dissent
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: CThomas
+  vote: dissent
+  in_majority: false
+  joined:
+  - NMGorsuch
+- justice: RBGinsburg
+  vote: majority
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  in_majority: true
+- justice: SAAlito
+  vote: special-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  in_majority: true
+- justice: EKagan
+  vote: judgment-of-the-court
+  opinion: wrote
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: BMKavanaugh
+  participated: false

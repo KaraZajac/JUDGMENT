@@ -1,0 +1,83 @@
+id: 2021-015
+name: UNICOLORS, INC v. H&M HENNES & MAURITZ, LP
+term: 2021
+chief: Roberts
+natural_court: 1709
+docket: 20-915
+citation:
+  sct: 145 S. Ct. 941
+  led: 211 L. Ed. 2d 586
+  lexis: 2022 U.S. LEXIS 1226
+dates:
+  argued: '2021-11-08'
+  decided: '2022-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80190, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Copyright Act
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 48}
+  source: {code: 29}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 112}
+  respondent: {code: 238}
+opinions:
+  majority_author: SGBreyer
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: SGBreyer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: jurisdictional-dissent
+  in_majority: false
+  joined:
+  - CThomas
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: conservative
+  in_majority: true

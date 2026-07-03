@@ -1,0 +1,85 @@
+id: 1874-006
+name: INSURANCE COMPANY v. MORSE
+term: 1874
+chief: Waite
+natural_court: 701
+docket: '35'
+citation:
+  us: 87 U.S. 445
+  led: 22 L. Ed. 365
+  lexis: 1874 U.S. LEXIS 1433
+dates:
+  argued: '1874-04-17'
+  reargued: '1874-10-22'
+  decided: '1874-11-09'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 58}
+  source: {code: 300, state: 58}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 171}
+  respondent: {code: 174}
+opinions:
+  majority_author: WHunt
+  majority_assigner: NClifford
+votes:
+- justice: MRWaite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - MRWaite
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

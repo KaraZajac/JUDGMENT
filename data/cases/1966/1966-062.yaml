@@ -1,0 +1,86 @@
+id: 1966-062
+name: FEDERAL POWER COMMISSION v. UNITED GAS PIPE LINE CO. et al.
+term: 1966
+chief: Warren
+natural_court: 1409
+docket: '127'
+citation:
+  us: 386 U.S. 237
+  sct: 87 S. Ct. 1003
+  led: 18 L. Ed. 2d 18
+  lexis: 1967 U.S. LEXIS 2774
+dates:
+  argued: '1967-01-11'
+  decided: '1967-03-13'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80310, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 355
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 25}
+  source: {code: 25}
+  disposition: vacated
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 352}
+  respondent: {code: 209}
+admin_action: {agency: 52}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: PStewart
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AFortas
+  participated: false

@@ -1,0 +1,83 @@
+id: 1937-068
+name: IN THE MATTER OF THE NATIONAL LABOR RELATIONS BOARD
+term: 1937
+chief: Hughes
+natural_court: 1105
+docket: 21 ORIG
+citation:
+  us: 304 U.S. 486
+  sct: 58 S. Ct. 1001
+  led: 82 L. Ed. 1482
+  lexis: 1938 U.S. LEXIS 1098
+dates:
+  argued: '1938-05-23'
+  decided: '1938-05-31'
+decision:
+  type: opinion-of-the-court
+  disposition: granted
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90120, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+jurisdiction: {code: 8}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 23}
+  source: {code: 23}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 16}
+  respondent_state: {code: 60}
+admin_action: {agency: 82}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PButler
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BNCardozo
+  participated: false
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,79 @@
+id: 1887-284
+name: LELOUP v. PORT OF MOBILE
+term: 1887
+chief: Waite
+natural_court: 707
+docket: '274'
+citation:
+  us: 127 U.S. 640
+  sct: 8 S. Ct. 1380
+  led: 32 L. Ed. 311
+  lexis: 1888 U.S. LEXIS 2028
+dates:
+  decided: '1888-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: local-ordinance
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 100060, area: federalism}
+law:
+  type: constitution
+  supp: 111
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 1}
+  source: {code: 300, state: 1}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 205}
+  respondent: {code: 3}
+  respondent_state: {code: 1}
+admin_action: {agency: 117, state: 1}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: SFMiller
+votes:
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SMatthews
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,90 @@
+id: 1992-116
+name: RUTH O. SHAW, et al. v. JANET RENO, ATTORNEY GENERAL, et al.
+term: 1992
+chief: Rehnquist
+natural_court: 1605
+docket: 92-357
+citation:
+  us: 509 U.S. 630
+  sct: 113 S. Ct. 2816
+  led: 125 L. Ed. 2d 511
+  lexis: 1993 U.S. LEXIS 4406
+dates:
+  argued: '1993-04-20'
+  decided: '1993-06-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20090, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 98}
+  source: {code: 98}
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 251}
+  respondent: {code: 1}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WHRehnquist
+votes:
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true

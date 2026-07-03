@@ -1,0 +1,86 @@
+id: 1896-077
+name: GULF, COLORADO AND SANTA FE RAILWAY COMPANY v. ELLIS
+term: 1896
+chief: Fuller
+natural_court: 807
+docket: '133'
+citation:
+  us: 165 U.S. 150
+  sct: 17 S. Ct. 255
+  led: 41 L. Ed. 666
+  lexis: 1897 U.S. LEXIS 1957
+dates:
+  decided: '1897-01-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 60010, area: attorneys}
+law:
+  type: constitutional-amendment
+  supp: 231
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 300, state: 51}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 174}
+opinions:
+  majority_author: DJBrewer
+  majority_assigner: SJField
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HGray
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HGray
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true

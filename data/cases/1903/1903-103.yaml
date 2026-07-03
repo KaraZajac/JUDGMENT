@@ -1,0 +1,86 @@
+id: 1903-103
+name: DORR v. UNITED STATES
+term: 1903
+chief: Fuller
+natural_court: 810
+docket: '583'
+citation:
+  us: 195 U.S. 138
+  sct: 24 S. Ct. 808
+  led: 49 L. Ed. 128
+  lexis: 1904 U.S. LEXIS 821
+dates:
+  argued: '1904-04-21'
+  decided: '1904-05-31'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 10580, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 'Constitution:  Art IV, sec. 3'
+authority:
+- judicial-review-national
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 15, state: 62}
+  source: {code: 15, state: 62}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 174}
+  respondent: {code: 27}
+opinions:
+  majority_author: WRDay
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: DJBrewer
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+  joined:
+  - MWFuller
+  - DJBrewer
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,86 @@
+id: 2021-035
+name: NATIONAL FEDERATION OF INDEPENDENT BUSINESS v. DEPARTMENT OF LABOR, OCCUPATIONAL SAFETY AND HEALTH ADMINISTRATION
+term: 2021
+chief: Roberts
+natural_court: 1709
+docket: 21A244
+citation:
+  sct: 142 S. Ct. 661
+  led: 211 L. Ed. 2d 448
+  lexis: 2022 U.S. LEXIS 496
+dates:
+  argued: '2022-01-07'
+  decided: '2022-01-13'
+decision:
+  type: per-curiam-argued
+  disposition: granted
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80350, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 358
+authority:
+- statutory-construction
+jurisdiction: {code: 12}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 26}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 207}
+  respondent: {code: 371}
+opinions:
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - NMGorsuch
+- justice: SGBreyer
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: SAAlito
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - NMGorsuch
+- justice: SSotomayor
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  opinion: co-wrote
+  direction: liberal
+  in_majority: false
+- justice: NMGorsuch
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: conservative
+  in_majority: true

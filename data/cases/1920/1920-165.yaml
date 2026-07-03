@@ -1,0 +1,80 @@
+id: 1920-165
+name: C.A. WEED & COMPANY v. LOCKWOOD, AS UNITED STATES ATTORNEY FOR THE WESTERN DISTRICT OF NEW YORK
+term: 1920
+chief: White
+natural_court: 905
+docket: '407'
+citation:
+  us: 255 U.S. 104
+  sct: 41 S. Ct. 305
+  led: 65 L. Ed. 532
+  lexis: 1921 U.S. LEXIS 1799
+dates:
+  argued: '1920-10-18'
+  decided: '1921-02-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 40010, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 215
+authority:
+- judicial-review-national
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 97}
+  source: {code: 97}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 233}
+  respondent: {code: 19}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  participated: false
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

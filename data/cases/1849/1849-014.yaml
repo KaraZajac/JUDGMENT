@@ -1,0 +1,79 @@
+id: 1849-014
+name: THE UNITED STATES, COMPLAINANTS, v. THE CITY OF CHICAGO
+term: 1849
+chief: Taney
+natural_court: 508
+citation:
+  us: 48 U.S. 185
+  led: 12 L. Ed. 660
+  lexis: 1849 U.S. LEXIS 342
+dates:
+  argued: '1848-12-27'
+  decided: '1849-02-02'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 100100, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+authority:
+- statutory-construction
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 410}
+  disagreement: true
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 3}
+  respondent_state: {code: 17}
+opinions:
+  majority_author: LWoodbury
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: JMcKinley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LWoodbury
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true

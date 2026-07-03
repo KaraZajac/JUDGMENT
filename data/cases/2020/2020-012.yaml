@@ -1,0 +1,89 @@
+id: 2020-012
+name: SALINAS v. U.S. RAILROAD RETIREMENT BOARD
+term: 2020
+chief: Roberts
+natural_court: 1709
+docket: 19-199
+citation:
+  sct: 141 S. Ct. 691
+  led: 208 L. Ed. 2d 608
+  lexis: 2021 U.S. LEXIS 753
+dates:
+  argued: '2020-11-02'
+  decided: '2021-02-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70200, area: unions}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Railroad Retirement Act
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 25}
+  source: {code: 25}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 140}
+  respondent: {code: 402}
+admin_action: {agency: 102}
+opinions:
+  majority_author: SSotomayor
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SSotomayor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas

@@ -1,0 +1,98 @@
+id: 1995-038
+name: FORTIS MORSE, KENNETH CURTIS BARTHOLOMEW AND KIMBERLY J. ENDERSON v. REPUBLICAN PARTY OF VIRGINIA et al.
+term: 1995
+chief: Rehnquist
+natural_court: 1607
+docket: 94-203
+citation:
+  us: 517 U.S. 186
+  sct: 116 S. Ct. 1186
+  led: 134 L. Ed. 2d 347
+  lexis: 1996 U.S. LEXIS 2164
+dates:
+  argued: '1995-10-02'
+  decided: '1996-03-27'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20020, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 378
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 127}
+  source: {code: 127}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 251}
+  respondent: {code: 211}
+admin_action: {agency: 27}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: JPStevens
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+  - AMKennedy
+- justice: JPStevens
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: AScalia
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: AMKennedy
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: DHSouter
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - AScalia
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

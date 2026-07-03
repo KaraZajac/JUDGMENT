@@ -1,0 +1,79 @@
+id: 1952-105
+name: SECURITIES & EXCHANGE COMMISSION v. RALSTON PURINA CO.
+term: 1952
+chief: Vinson
+natural_court: 1303
+docket: '512'
+citation:
+  us: 346 U.S. 119
+  sct: 73 S. Ct. 981
+  led: 97 L. Ed. 2d 1494
+  lexis: 1953 U.S. LEXIS 2688
+dates:
+  argued: '1953-04-28'
+  decided: '1953-06-08'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 80120, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 365
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 86, state: 30}
+  source: {code: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 405}
+  respondent: {code: 185}
+opinions:
+  majority_author: TCClark
+  majority_assigner: HLBlack
+votes:
+- justice: SMinton
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMVinson
+  vote: dissent
+  direction: conservative
+  in_majority: false

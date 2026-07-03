@@ -1,0 +1,84 @@
+id: 1977-062
+name: MALONE, COMMISSIONER OF LABOR AND INDUSTRY FOR MINNESOTA v. WHITE MOTOR CORP. et al.
+term: 1977
+chief: Burger
+natural_court: 1506
+docket: 76-1184
+citation:
+  us: 435 U.S. 497
+  sct: 98 S. Ct. 1185
+  led: 55 L. Ed. 2d 443
+  lexis: 1978 U.S. LEXIS 78
+dates:
+  argued: '1978-01-10'
+  decided: '1978-04-03'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 3
+issue: {code: 100030, area: federalism}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 83}
+  source: {code: 28}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 28}
+  respondent: {code: 151}
+admin_action: {agency: 117, state: 28}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: BRWhite
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  participated: false
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - PStewart
+  - LFPowell
+- justice: HABlackmun
+  participated: false
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: conservative
+  in_majority: true

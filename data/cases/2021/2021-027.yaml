@@ -1,0 +1,88 @@
+id: 2021-027
+name: BECERRA v. EMPIRE HEALTH FOUNDATION
+term: 2021
+chief: Roberts
+natural_court: 1709
+docket: 20-1312
+citation:
+  sct: 142 S. Ct. 2354
+  led: 213 L. Ed. 2d 685
+  lexis: 2022 U.S. LEXIS 3056
+dates:
+  argued: '2021-11-29'
+  decided: '2022-06-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80350, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 309
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 128}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 363}
+  respondent: {code: 165}
+admin_action: {agency: 124}
+opinions:
+  majority_author: EKagan
+  majority_assigner: CThomas
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - BMKavanaugh
+- justice: BMKavanaugh
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: ACBarrett
+  vote: majority
+  direction: conservative
+  in_majority: true

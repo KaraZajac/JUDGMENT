@@ -1,0 +1,77 @@
+id: 1954-001
+name: in re DISBARMENT OF ISSERMAN
+term: 1954
+chief: Warren
+natural_court: 1402
+docket: 5 M
+citation:
+  us: 348 U.S. 1
+  sct: 75 S. Ct. 6
+  led: 99 L. Ed. 2d 3
+  lexis: 1954 U.S. LEXIS 1630
+dates:
+  decided: '1954-10-14'
+decision:
+  type: per-curiam-no-argument
+  disposition: granted
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 3
+  minority_votes: 3
+issue: {code: 60040, area: attorneys}
+law:
+  type: court-rules
+  supp: 403
+authority:
+- statutory-construction
+jurisdiction: {code: 6}
+cert_reason: not-cert
+lower_court:
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 111}
+  respondent: {code: 20}
+  respondent_state: {code: 60}
+admin_action: {agency: 118}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_assigner: HLBlack
+votes:
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  participated: false
+- justice: TCClark
+  participated: false
+- justice: FFrankfurter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SFReed
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - HHBurton
+- justice: SMinton
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - HHBurton

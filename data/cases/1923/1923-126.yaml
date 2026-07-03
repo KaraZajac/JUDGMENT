@@ -1,0 +1,87 @@
+id: 1923-126
+name: STATE OF MISSOURI AT THE RELATION OF THE BURNES NATIONAL BANK OF ST. JOSEPH v. DUNCAN, JUDGE OF THE PROBATE
+  COURT OF BUCHANAN COUNTY, MISSOURI
+term: 1923
+chief: Taft
+natural_court: 1004
+docket: '762'
+citation:
+  us: 265 U.S. 17
+  sct: 44 S. Ct. 427
+  led: 68 L. Ed. 881
+  lexis: 1924 U.S. LEXIS 2572
+dates:
+  argued: '1924-04-11'
+  decided: '1924-04-28'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100030, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 30}
+  respondent: {code: 16}
+  respondent_state: {code: 30}
+admin_action: {agency: 54}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - GSutherland
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: liberal
+  in_majority: true

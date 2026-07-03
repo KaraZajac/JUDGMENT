@@ -1,0 +1,79 @@
+id: 1862-024
+name: WARD et al. VS. CHAMBERLAIN et al.
+term: 1862
+chief: Taney
+natural_court: 514
+citation:
+  us: 67 U.S. 430
+  led: 17 L. Ed. 319
+  lexis: 1862 U.S. LEXIS 252
+dates:
+  argued: '1862-12-30'
+  decided: '1863-02-09'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90330, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 4 Statutes at Large 278
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 104}
+  source: {code: 428}
+  disagreement: true
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 138}
+opinions:
+  majority_author: NClifford
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  participated: false
+- justice: JCatron
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RCGrier
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: NClifford
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 1971-065
+name: SWARB et al. v. LENNOX et al.
+term: 1971
+chief: Burger
+natural_court: 1504
+docket: 70-6
+citation:
+  us: 405 U.S. 191
+  sct: 92 S. Ct. 767
+  led: 31 L. Ed. 2d 138
+  lexis: 1972 U.S. LEXIS 87
+dates:
+  argued: '1971-11-09'
+  decided: '1972-02-24'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 20100, area: civil-rights}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 109}
+  source: {code: 109}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 134}
+  respondent: {code: 19}
+  respondent_state: {code: 45}
+admin_action: {agency: 117, state: 45}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: PStewart
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  participated: false
+- justice: WHRehnquist
+  participated: false

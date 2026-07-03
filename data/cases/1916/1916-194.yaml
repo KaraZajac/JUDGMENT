@@ -1,0 +1,83 @@
+id: 1916-194
+name: CLARK DISTILLING COMPANY v. WESTERN MARYLAND RAILWAY COMPANY AND STATE OF WEST VIRGINIA
+term: 1916
+chief: White
+natural_court: 905
+docket: '75'
+citation:
+  us: 242 U.S. 311
+  sct: 37 S. Ct. 180
+  led: 61 L. Ed. 326
+  lexis: 1917 U.S. LEXIS 2189
+dates:
+  argued: '1915-05-10'
+  reargued: '1916-11-08'
+  decided: '1917-01-08'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80170, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Webb-Kenyon Act
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 79}
+  source: {code: 79}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 118}
+  respondent: {code: 28}
+  respondent_state: {code: 57}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

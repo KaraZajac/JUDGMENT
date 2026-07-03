@@ -1,0 +1,59 @@
+id: 1861-009
+name: DERMOTT VS. WALLACH
+term: 1861
+chief: Taney
+natural_court: 511
+citation:
+  us: 66 U.S. 96
+  led: 17 L. Ed. 50
+  lexis: 1861 U.S. LEXIS 457
+dates:
+  argued: '1861-12-19'
+  decided: '1862-01-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 140020, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 440}
+  source: {code: 440}
+  direction: unspecifiable
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 195}
+opinions:
+  majority_author: SNelson
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  in_majority: true
+- justice: JMWayne
+  participated: false
+- justice: JCatron
+  vote: majority
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  in_majority: true

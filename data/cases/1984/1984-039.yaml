@@ -1,0 +1,86 @@
+id: 1984-039
+name: COUNTY OF ONEIDA, NEW YORK, et al. v. ONEIDA INDIAN NATION OF NEW YORK STATE et al.
+term: 1984
+chief: Burger
+natural_court: 1507
+docket: 83-1065
+citation:
+  us: 470 U.S. 226
+  sct: 105 S. Ct. 1245
+  led: 84 L. Ed. 2d 169
+  lexis: 1985 U.S. LEXIS 58
+dates:
+  argued: '1984-10-01'
+  decided: '1985-03-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20160, area: civil-rights}
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 95}
+  source: {code: 22}
+  disposition: unusual-disposition
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 5}
+  petitioner_state: {code: 37}
+  respondent: {code: 170}
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JPStevens
+- justice: JPStevens
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true

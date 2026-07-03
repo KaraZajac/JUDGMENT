@@ -1,0 +1,84 @@
+id: 1916-186
+name: MERRICK et al. v. N.W. HALSEY & COMPANY et al., AND THE WEIS FIBRE CONTAINER CORPORATION
+term: 1916
+chief: White
+natural_court: 905
+docket: '413'
+citation:
+  us: 242 U.S. 568
+  sct: 37 S. Ct. 227
+  led: 61 L. Ed. 498
+  lexis: 1917 U.S. LEXIS 2157
+dates:
+  argued: '1916-10-16'
+  decided: '1917-01-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80120, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 14th Amendment, due process & equal protection
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 81}
+  source: {code: 81}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 27}
+  respondent: {code: 119}
+admin_action: {agency: 117, state: 27}
+opinions:
+  majority_author: JMcKenna
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,80 @@
+id: 1892-134
+name: INDIANA v. UNITED STATES
+term: 1892
+chief: Fuller
+natural_court: 805
+docket: '1162'
+citation:
+  us: 148 U.S. 148
+  sct: 13 S. Ct. 564
+  led: 37 L. Ed. 401
+  lexis: 1893 U.S. LEXIS 2216
+dates:
+  argued: '1893-01-13'
+  decided: '1893-03-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 100100, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Act of 1816
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 3}
+  source: {code: 3}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 18}
+  respondent: {code: 27}
+admin_action: {agency: 123}
+opinions:
+  majority_author: HGray
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  participated: false
+- justice: HGray
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HEJackson
+  participated: false

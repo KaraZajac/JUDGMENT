@@ -1,0 +1,86 @@
+id: 1919-057
+name: EVANS v. GORE, DEPUTY AND ACTING COLLECTOR OF INTERNAL REVENUE FOR THE WESTERN DISTRICT OF KENTUCKY
+term: 1919
+chief: White
+natural_court: 905
+docket: '654'
+citation:
+  us: 253 U.S. 245
+  sct: 40 S. Ct. 550
+  led: 64 L. Ed. 887
+  lexis: 1920 U.S. LEXIS 1419
+dates:
+  argued: '1920-03-05'
+  decided: '1920-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 120010, area: federal-taxation}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: tax law
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 74}
+  source: {code: 74}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 16}
+  petitioner_state: {code: 60}
+  respondent: {code: 369}
+admin_action: {agency: 69}
+opinions:
+  majority_author: WVanDevanter
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - OWHolmes
+- justice: JHClarke
+  vote: majority
+  direction: conservative
+  in_majority: true

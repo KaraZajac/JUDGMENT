@@ -1,0 +1,88 @@
+id: 1978-094
+name: CANNON v. UNIVERSITY OF CHICAGO et al.
+term: 1978
+chief: Burger
+natural_court: 1506
+docket: 77-926
+citation:
+  us: 441 U.S. 677
+  sct: 99 S. Ct. 1946
+  led: 60 L. Ed. 2d 560
+  lexis: 1979 U.S. LEXIS 36
+dates:
+  argued: '1979-01-09'
+  decided: '1979-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90290, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 322
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 66}
+  source: {code: 27}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 239}
+  respondent: {code: 232}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WHRehnquist
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

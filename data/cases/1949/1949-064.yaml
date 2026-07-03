@@ -1,0 +1,78 @@
+id: 1949-064
+name: SOUTH ET AL. v. PETERS, CHAIRMAN OF THE GEORGIA STATE DEMOCRATIC EXECUTIVE COMMITTEE, ET AL.
+term: 1949
+chief: Vinson
+natural_court: 1303
+docket: '724'
+citation:
+  us: 339 U.S. 276
+  sct: 70 S. Ct. 641
+  led: 94 L. Ed. 2d 834
+  lexis: 1950 U.S. LEXIS 2108
+dates:
+  decided: '1950-04-17'
+decision:
+  type: per-curiam-no-argument
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90250, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-national
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 60, state: 13}
+  source: {code: 60, state: 13}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 251}
+  respondent: {code: 211}
+votes:
+- justice: SMinton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

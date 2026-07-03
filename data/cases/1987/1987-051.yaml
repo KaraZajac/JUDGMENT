@@ -1,0 +1,89 @@
+id: 1987-051
+name: MICHAEL BOOS, J. MICHAEL WALLER AND BRIDGET BROOKER v. MARION S. BARRY, JR., MAYOR, DISTRICT OF COLUMBIA,
+  et al.
+term: 1987
+chief: Rehnquist
+natural_court: 1603
+docket: 86-803
+citation:
+  us: 485 U.S. 312
+  sct: 108 S. Ct. 1157
+  led: 99 L. Ed. 2d 333
+  lexis: 1988 U.S. LEXIS 1445
+dates:
+  argued: '1987-11-09'
+  decided: '1988-03-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 30150, area: first-amendment}
+law:
+  type: constitutional-amendment
+  supp: 200
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 218}
+  respondent: {code: 28}
+  respondent_state: {code: 10}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WJBrennan
+votes:
+- justice: TMarshall
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  participated: false

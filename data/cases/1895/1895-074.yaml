@@ -1,0 +1,83 @@
+id: 1895-074
+name: LEHIGH MINING AND MANUFACTURING COMPANY v. KELLY
+term: 1895
+chief: Fuller
+natural_court: 806
+docket: '617'
+citation:
+  us: 160 U.S. 327
+  sct: 16 S. Ct. 307
+  led: 40 L. Ed. 444
+  lexis: 1895 U.S. LEXIS 2369
+dates:
+  decided: '1895-12-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90210, area: judicial-power}
+law:
+  type: constitution
+  supp: 139
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 436}
+  source: {code: 436}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 195}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - GShiras
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HBBrown
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - GShiras
+- justice: GShiras
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - SJField
+  - HBBrown
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true

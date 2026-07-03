@@ -1,0 +1,90 @@
+id: 1976-044
+name: NATIONAL LABOR RELATIONS BOARD v. ENTERPRISE ASSOCIATION OF STEAM, HOT WATER, HYDRAULIC SPRINKLER, PNEUMATIC
+  TUBE, ICE MACHINE & GENERAL PIPEFITTERS OF NEW YORK AND VICINITY, LOCAL UNION NO. 638
+term: 1976
+chief: Burger
+natural_court: 1506
+docket: 75-777
+citation:
+  us: 429 U.S. 507
+  sct: 97 S. Ct. 891
+  led: 51 L. Ed. 2d 1
+  lexis: 1977 U.S. LEXIS 11
+dates:
+  argued: '1976-10-06'
+  decided: '1977-02-22'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 70020, area: unions}
+law:
+  type: federal-statute
+  supp: 356
+authority:
+- statutory-construction
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: vacated
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 382}
+  respondent: {code: 249}
+admin_action: {agency: 82}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: TMarshall
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

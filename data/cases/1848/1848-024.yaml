@@ -1,0 +1,76 @@
+id: 1848-024
+name: THE UNITED STATES, APPELLANTS, v. HENRY YATES AND ARCHIBALD MCINTYRE
+term: 1848
+chief: Taney
+natural_court: 508
+citation:
+  us: 47 U.S. 605
+  led: 12 L. Ed. 575
+  lexis: 1848 U.S. LEXIS 324
+dates:
+  argued: '1848-02-18'
+  decided: '1848-03-06'
+decision:
+  type: opinion-of-the-court
+  disposition: no-disposition
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90110, area: judicial-power}
+law:
+  type: court-rules
+  supp: 403
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 150}
+  source: {code: 150}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 501}
+  respondent: {code: 501}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  participated: false
+- justice: PVDaniel
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LWoodbury
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true

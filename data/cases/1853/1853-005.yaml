@@ -1,0 +1,81 @@
+id: 1853-005
+name: JAMES N. CURRAN, PLAINTIFF IN ERROR, v. THE STATE OF ARKANSAS, THE BANK OF THE STATE OF ARKANSAS, JOHN M.
+  ROSS, FINANCIAL RECEIVER, AND DAVID W. CARROL, BANK ATTORNEY
+term: 1853
+chief: Taney
+natural_court: 510
+citation:
+  us: 56 U.S. 304
+  led: 14 L. Ed. 705
+  lexis: 1853 U.S. LEXIS 286
+dates:
+  argued: '1853-02-18'
+  decided: '1853-12-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 5}
+  source: {code: 300, state: 5}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 135}
+  respondent: {code: 28}
+  respondent_state: {code: 5}
+opinions:
+  majority_author: BRCurtis
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCatron
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: PVDaniel
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: SNelson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRCurtis
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JACampbell
+  vote: majority
+  direction: conservative
+  in_majority: true

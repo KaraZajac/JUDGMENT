@@ -1,0 +1,35 @@
+slug: lq-lamar
+name: L. Q. Lamar
+scdb: {name: LQLamar, id: 50}
+record:
+  first_decision: '1888-01-23'
+  last_decision: '1893-01-23'
+  first_term: 1887
+  last_term: 1892
+  terms: 6
+  cases: 1390
+  majority_share: 0.99
+  dissents: 12
+  opinions_written: 105
+ideology:
+  career_liberal_share: 0.533
+  by_term:
+    1887: {liberal_share: 0.541, n: 98}
+    1888: {liberal_share: 0.519, n: 181}
+    1889: {liberal_share: 0.525, n: 198}
+    1890: {liberal_share: 0.545, n: 242}
+    1891: {liberal_share: 0.511, n: 188}
+    1892: {liberal_share: 0.62, n: 50}
+  by_issue_area:
+    attorneys: {liberal_share: 0.5, n: 14}
+    civil-rights: {liberal_share: 0.474, n: 78}
+    criminal-procedure: {liberal_share: 0.322, n: 59}
+    due-process: {liberal_share: 0.641, n: 39}
+    economic-activity: {liberal_share: 0.69, n: 332}
+    federal-taxation: {liberal_share: 0.534, n: 58}
+    federalism: {liberal_share: 0.56, n: 25}
+    first-amendment: {liberal_share: 0.6, n: 5}
+    judicial-power: {liberal_share: 0.42, n: 336}
+    miscellaneous: {liberal_share: 0.4, n: 5}
+    privacy: {liberal_share: 0.667, n: 3}
+    private-action: {liberal_share: 0.0, n: 2}

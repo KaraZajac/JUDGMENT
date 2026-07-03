@@ -1,0 +1,83 @@
+id: 2024-043
+name: OKLAHOMA v. ENVIRONMENTAL PROTECTION AGENCY
+term: 2024
+chief: Roberts
+natural_court: 1710
+docket: 23-1067
+citation:
+  sct: 145 S. Ct. 1720
+  led: 222 L. Ed. 2d 214
+  lexis: 2025 U.S. LEXIS 2379
+dates:
+  argued: '2025-03-25'
+  decided: '2025-06-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 90330, area: judicial-power}
+law:
+  type: federal-statute
+  supp: 304
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-conflict-and-important-question
+lower_court:
+  origin: {code: 30}
+  source: {code: 30}
+  disposition: granted
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 42}
+  respondent: {code: 333}
+admin_action: {agency: 33}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - NMGorsuch
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  participated: false
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: KBJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

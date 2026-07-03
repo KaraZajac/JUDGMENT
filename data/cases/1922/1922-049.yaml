@@ -1,0 +1,79 @@
+id: 1922-049
+name: CHAMPLAIN reALTY COMPANY v. TOWN OF BRATTLEBORO
+term: 1922
+chief: Taft
+natural_court: 1002
+docket: '128'
+citation:
+  us: 260 U.S. 366
+  sct: 43 S. Ct. 146
+  led: 67 L. Ed. 309
+  lexis: 1922 U.S. LEXIS 2378
+dates:
+  argued: '1922-11-27'
+  decided: '1922-12-11'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 53}
+  source: {code: 300, state: 53}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 53}
+  respondent: {code: 3}
+  respondent_state: {code: 53}
+opinions:
+  majority_author: WHTaft
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true

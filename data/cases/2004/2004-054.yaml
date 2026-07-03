@@ -1,0 +1,89 @@
+id: 2004-054
+name: ALBERTO R. GONZALES, ATTORNEY GENERAL, et al. v. ANGEL MCCLARY RAICH et al.
+term: 2004
+chief: Rehnquist
+natural_court: 1607
+docket: 03-1454
+citation:
+  us: 545 U.S. 1
+  sct: 125 S. Ct. 2195
+  led: 162 L. Ed. 2d 1
+  lexis: 2005 U.S. LEXIS 4656
+dates:
+  argued: '2004-11-29'
+  decided: '2005-06-06'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 100050, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 21 U.S.C. § 801
+authority:
+- judicial-review-national
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 50}
+  source: {code: 29}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 1}
+  respondent: {code: 208}
+opinions:
+  majority_author: JPStevens
+  majority_assigner: JPStevens
+votes:
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: JPStevens
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SDOConnor
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - SDOConnor
+- justice: RBGinsburg
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true

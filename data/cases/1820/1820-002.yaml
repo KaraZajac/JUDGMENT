@@ -1,0 +1,77 @@
+id: 1820-002
+name: HOUSTON v. MOORE
+term: 1820
+chief: Marshall
+natural_court: 406
+citation:
+  us: 18 U.S. 1
+  led: 5 L. Ed. 19
+  lexis: 1820 U.S. LEXIS 244
+dates:
+  argued: '1819-03-04'
+  decided: '1820-02-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 100030, area: federalism}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress February 28, 1795, ch. 277
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 45}
+  source: {code: 300, state: 45}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 186}
+  respondent: {code: 19}
+  respondent_state: {code: 45}
+opinions:
+  majority_author: BWashington
+  majority_assigner: BWashington
+votes:
+- justice: JMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JStory
+- justice: BWashington
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJohnson
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HBLivingston
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TTodd
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GDuvall
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JStory
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

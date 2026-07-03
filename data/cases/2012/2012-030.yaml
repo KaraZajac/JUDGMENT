@@ -1,0 +1,94 @@
+id: 2012-030
+name: FLORIDA, PETITIONER v. JOELIS JARDINES
+term: 2012
+chief: Roberts
+natural_court: 1704
+docket: 11-564
+citation:
+  us: 569 U.S. 1
+  sct: 133 S. Ct. 1409
+  led: 185 L. Ed. 2d 495
+  lexis: 2013 U.S. LEXIS 2542
+dates:
+  argued: '2012-10-31'
+  decided: '2013-03-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10050, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 205
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 302, state: 12}
+  source: {code: 300, state: 12}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 12}
+  respondent: {code: 137}
+opinions:
+  majority_author: AScalia
+  majority_assigner: AScalia
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - EKagan
+- justice: SGBreyer
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SSotomayor
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - EKagan
+- justice: EKagan
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,88 @@
+id: 1920-112
+name: BLOCK, TRADING UNDER THE NAME OF WHITES, v. HIRSCH
+term: 1920
+chief: White
+natural_court: 905
+docket: '640'
+citation:
+  us: 256 U.S. 135
+  sct: 41 S. Ct. 458
+  led: 65 L. Ed. 865
+  lexis: 1921 U.S. LEXIS 1660
+dates:
+  argued: '1921-03-03'
+  decided: '1921-04-18'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 40070, area: due-process}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 19}
+  source: {code: 32}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 241}
+  respondent: {code: 195}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: OWHolmes
+votes:
+- justice: EDEWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMcKenna
+- justice: JMcKenna
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMcKenna
+- justice: MPitney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JMcKenna
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

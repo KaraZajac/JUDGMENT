@@ -1,0 +1,85 @@
+id: 1975-111
+name: HANCOCK, ATTORNEY GENERAL OF KENTUCKY v. TRAIN, ADMINISTRATOR, ENVIRONMENTAL PROTECTION AGENCY, et al.
+term: 1975
+chief: Burger
+natural_court: 1506
+docket: 74-220
+citation:
+  us: 426 U.S. 167
+  sct: 96 S. Ct. 2006
+  led: 48 L. Ed. 2d 555
+  lexis: 1976 U.S. LEXIS 104
+dates:
+  argued: '1976-01-13'
+  decided: '1976-06-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 100090, area: federalism}
+law:
+  type: federal-statute
+  supp: 304
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 74}
+  source: {code: 26}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 21}
+  respondent: {code: 333}
+admin_action: {agency: 117, state: 21}
+opinions:
+  majority_author: BRWhite
+  majority_assigner: WEBurger
+votes:
+- justice: PStewart
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: co-wrote
+  direction: conservative
+  in_majority: false
+- justice: JPStevens
+  vote: majority
+  direction: liberal
+  in_majority: true

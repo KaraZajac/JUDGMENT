@@ -1,0 +1,77 @@
+id: 1852-013
+name: GEORGE RUNDLE AND WILLIAM GRIFFITHS, TRUSTEES OF THE ESTATE OF JOHN SAVAGE, DECEASED, PLAINTIFFS IN ERROR,
+  v. THE DELAWARE AND RARITAN CANAL COMPANY
+term: 1852
+chief: Taney
+natural_court: 509
+citation:
+  us: 55 U.S. 80
+  led: 14 L. Ed. 335
+  lexis: 1852 U.S. LEXIS 430
+dates:
+  argued: '1852-12-15'
+  decided: '1853-01-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- federal-common-law
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 425}
+  source: {code: 425}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 122}
+opinions:
+  majority_author: RCGrier
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: BRCurtis
+  vote: dissent
+  direction: conservative
+  in_majority: false

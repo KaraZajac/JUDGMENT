@@ -1,0 +1,77 @@
+id: 1945-090
+name: RECONSTRUCTION FINANCE CORPORATION et al. v. DENVER & RIO GRANDE WESTERN RAILROAD CO. et al.
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '278'
+citation:
+  us: 328 U.S. 495
+  sct: 66 S. Ct. 1282
+  led: 90 L. Ed. 1400
+  lexis: 1946 U.S. LEXIS 3033
+dates:
+  argued: '1946-03-05'
+  decided: '1946-06-10'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 1
+issue: {code: 80030, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 307
+authority:
+- administrative-interpretation
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 52}
+  source: {code: 30}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 421}
+  respondent: {code: 114}
+opinions:
+  majority_author: SFReed
+  majority_assigner: HLBlack
+votes:
+- justice: HLBlack
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true

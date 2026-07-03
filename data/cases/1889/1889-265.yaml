@@ -1,0 +1,84 @@
+id: 1889-265
+name: CORNELL UNIVERSITY v. FISKE
+term: 1889
+chief: Fuller
+natural_court: 802
+docket: '1224'
+citation:
+  us: 136 U.S. 152
+  sct: 10 S. Ct. 775
+  led: 34 L. Ed. 427
+  lexis: 1890 U.S. LEXIS 2206
+dates:
+  argued: '1890-04-08'
+  decided: '1890-05-19'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 90160, area: judicial-power}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- supervisory
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 302, state: 37}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 232}
+  respondent: {code: 166}
+opinions:
+  majority_author: SBlatchford
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - DJBrewer
+- justice: SBlatchford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

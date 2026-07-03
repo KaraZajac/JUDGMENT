@@ -1,0 +1,85 @@
+id: 1907-131
+name: LONDONER v. CITY AND COUNTY OF DENVER
+term: 1907
+chief: Fuller
+natural_court: 811
+docket: '157'
+citation:
+  us: 210 U.S. 373
+  sct: 28 S. Ct. 708
+  led: 52 L. Ed. 1103
+  lexis: 1908 U.S. LEXIS 1517
+dates:
+  argued: '1908-03-06'
+  decided: '1908-06-01'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: local-ordinance
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- supervisory
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 7}
+  source: {code: 300, state: 7}
+  disposition: petition-denied
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 7}
+  respondent: {code: 5}
+  respondent_state: {code: 7}
+admin_action: {agency: 117, state: 7}
+opinions:
+  majority_author: WHMoody
+  majority_assigner: JHarlan1
+votes:
+- justice: MWFuller
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RWPeckham
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHMoody
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

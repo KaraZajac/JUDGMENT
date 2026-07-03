@@ -1,0 +1,82 @@
+id: 1893-281
+name: UNITED STATES v. ILLINOIS CENTRAL RAILROAD COMPANY
+term: 1893
+chief: Fuller
+natural_court: 806
+docket: '331'
+citation:
+  us: 154 U.S. 225
+  sct: 14 S. Ct. 1015
+  led: 38 L. Ed. 971
+  lexis: 1894 U.S. LEXIS 2231
+dates:
+  argued: '1894-03-29'
+  decided: '1894-05-26'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 100080, area: federalism}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 410}
+  source: {code: 410}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 231}
+admin_action: {agency: 24}
+opinions:
+  majority_author: SJField
+  majority_assigner: SJField
+votes:
+- justice: MWFuller
+  participated: false
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DJBrewer
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - HBBrown
+- justice: HBBrown
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: GShiras
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HEJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true

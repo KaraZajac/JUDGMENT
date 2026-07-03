@@ -1,0 +1,92 @@
+id: 1986-154
+name: WELCH v. TEXAS DEPARTMENT OF HIGHWAYS AND PUBLIC TRANSPORTATION, et al.
+term: 1986
+chief: Rehnquist
+natural_court: 1601
+docket: 85-1716
+citation:
+  us: 483 U.S. 468
+  sct: 107 S. Ct. 2941
+  led: 97 L. Ed. 2d 389
+  lexis: 1987 U.S. LEXIS 2893
+dates:
+  argued: '1987-03-04'
+  decided: '1987-06-25'
+decision:
+  type: judgment-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: true
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 80060, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 224
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 121}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 51}
+  respondent: {code: 7}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: LFPowell
+  majority_assigner: WHRehnquist
+votes:
+- justice: WHRehnquist
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: BRWhite
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: LFPowell
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPStevens
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - WJBrennan
+- justice: SDOConnor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

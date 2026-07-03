@@ -1,0 +1,81 @@
+id: 2013-059
+name: REPUBLIC OF ARGENTINA v. NML CAPITAL, LTD.
+term: 2013
+chief: Roberts
+natural_court: 1704
+docket: 12-842
+citation:
+  us: 573 U.S. 134
+  sct: 134 S. Ct. 2250
+  led: 189 L. Ed. 2d 234
+  lexis: 2014 U.S. LEXIS 4167
+dates:
+  argued: '2014-04-21'
+  decided: '2014-06-16'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 50040, area: privacy}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 28-1330
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 600}
+  respondent: {code: 173}
+opinions:
+  majority_author: AScalia
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SGBreyer
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SSotomayor
+  participated: false
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true

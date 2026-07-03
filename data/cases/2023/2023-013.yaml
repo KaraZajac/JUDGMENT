@@ -1,0 +1,90 @@
+id: 2023-013
+name: RUDISILL v. MCDONOUGH
+term: 2023
+chief: Roberts
+natural_court: 1710
+docket: 22-888
+citation:
+  us: 601 U.S. 294
+  sct: 144 S. Ct. 945
+  led: 218 L. Ed. 2d 276
+  lexis: 2024 U.S. LEXIS 1813
+dates:
+  argued: '2023-11-08'
+  decided: '2024-04-16'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20250, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 38 U. S. C. 3327(d)(2)
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 6}
+  source: {code: 8}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 250}
+  respondent: {code: 414}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: KBJackson
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SAAlito
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - CThomas
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: KBJackson
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

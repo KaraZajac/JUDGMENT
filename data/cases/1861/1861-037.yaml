@@ -1,0 +1,69 @@
+id: 1861-037
+name: WOODS VS. LAWRENCE COUNTY
+term: 1861
+chief: Taney
+natural_court: 512
+citation:
+  us: 66 U.S. 386
+  led: 17 L. Ed. 122
+  lexis: 1861 U.S. LEXIS 491
+dates:
+  decided: '1862-02-17'
+decision:
+  type: opinion-of-the-court
+  disposition: certification
+  winning_party: unclear
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: act of congress, February 9, 1853
+authority:
+- statutory-construction
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 430}
+  source: {code: 430}
+  disagreement: true
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 5}
+  respondent_state: {code: 37}
+admin_action: {agency: 117, state: 45}
+opinions:
+  majority_author: JMWayne
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  participated: false
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true

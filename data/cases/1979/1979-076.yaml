@@ -1,0 +1,96 @@
+id: 1979-076
+name: BALDASAR v. ILLINOIS
+term: 1979
+chief: Burger
+natural_court: 1506
+docket: 77-6219
+citation:
+  us: 446 U.S. 222
+  sct: 100 S. Ct. 1585
+  led: 64 L. Ed. 2d 169
+  lexis: 1980 U.S. LEXIS 124
+dates:
+  argued: '1979-11-26'
+  decided: '1980-04-22'
+decision:
+  type: per-curiam-argued
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 10120, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 214
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 17}
+  source: {code: 301, state: 17}
+  disposition: affirmed
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 213}
+  respondent: {code: 28}
+  respondent_state: {code: 17}
+opinions:
+  majority_assigner: WJBrennan
+votes:
+- justice: PStewart
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - PStewart
+  - TMarshall
+- justice: BRWhite
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: HABlackmun
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: JPStevens
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - PStewart
+  - TMarshall

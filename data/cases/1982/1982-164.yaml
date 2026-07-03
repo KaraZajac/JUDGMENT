@@ -1,0 +1,99 @@
+id: 1982-164
+name: ARIZONA GOVERNING COMMITTEE FOR TAX DEFERRED ANNUITY AND DEFERRED COMPENSATION PLANS et al. v. NORRIS
+term: 1982
+chief: Burger
+natural_court: 1507
+docket: 82-52
+citation:
+  us: 463 U.S. 1073
+  sct: 103 S. Ct. 3492
+  led: 77 L. Ed. 2d 1236
+  lexis: 1983 U.S. LEXIS 8
+dates:
+  argued: '1983-03-28'
+  decided: '1983-07-06'
+decision:
+  type: per-curiam-argued
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20140, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 384
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-question-presented
+lower_court:
+  origin: {code: 45}
+  source: {code: 29}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 4}
+  respondent: {code: 9}
+  respondent_state: {code: 4}
+admin_action: {agency: 117, state: 4}
+opinions:
+  majority_assigner: WJBrennan
+votes:
+- justice: WEBurger
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: WJBrennan
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - TMarshall
+- justice: BRWhite
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - TMarshall
+- justice: TMarshall
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: LFPowell
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WHRehnquist
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - LFPowell
+- justice: JPStevens
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - TMarshall
+- justice: SDOConnor
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+  joined:
+  - TMarshall

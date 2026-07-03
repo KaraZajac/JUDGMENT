@@ -1,0 +1,76 @@
+id: 1845-027
+name: WILLIAM SEARIGHT, COMMISSIONER AND SUPERINTENDENT OF THE CUMBERLAND ROAD, WITHIN THE STATE OF PENNSYLVANIA,
+  PLAINTIFF IN ERROR, v. WILLIAM B. STOKES AND LUCIUS W. STOCKTON, WHO HAVE SURVIVED RICHARD C. STOCKTON, DEFENDANTS
+  IN ERROR
+term: 1845
+chief: Taney
+natural_court: 505
+citation:
+  us: 44 U.S. 151
+  led: 11 L. Ed. 537
+  lexis: 1845 U.S. LEXIS 428
+dates:
+  argued: '1844-03-12'
+  reargued: '1845-01-15'
+  decided: '1845-02-04'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 2
+issue: {code: 100060, area: federalism}
+law:
+  type: constitution
+  supp: 148
+authority:
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 430}
+  source: {code: 430}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 4}
+  petitioner_state: {code: 45}
+  respondent: {code: 176}
+opinions:
+  majority_author: RBTaney
+  majority_assigner: RBTaney
+votes:
+- justice: RBTaney
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCatron
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKinley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PVDaniel
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false

@@ -1,0 +1,89 @@
+id: 1958-121
+name: ATLANTIC REFINING CO. et al. v. PUBLIC SERVICE COMMISSION OF NEW YORK et al.
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '518'
+citation:
+  us: 360 U.S. 378
+  sct: 79 S. Ct. 1246
+  led: 3 L. Ed. 2d 1312
+  lexis: 1959 U.S. LEXIS 1771
+dates:
+  argued: '1959-05-20'
+  decided: '1959-06-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 80300, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 355
+authority:
+- administrative-interpretation
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 23}
+  source: {code: 23}
+  disposition: vacated-and-remanded
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 198}
+  respondent: {code: 4}
+  respondent_state: {code: 37}
+admin_action: {agency: 52}
+flags:
+  disposition_unusual: true
+opinions:
+  majority_author: TCClark
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: FFrankfurter
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - JHarlan2
+- justice: CEWhittaker
+  vote: majority
+  direction: liberal
+  in_majority: true

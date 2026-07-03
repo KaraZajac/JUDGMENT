@@ -1,0 +1,75 @@
+id: 1951-002
+name: SUTPHEN ESTATES, INC. v. UNITED STATES ET AL.
+term: 1951
+chief: Vinson
+natural_court: 1303
+docket: '25'
+citation:
+  us: 342 U.S. 19
+  sct: 72 S. Ct. 14
+  led: 96 L. Ed. 2d 19
+  lexis: 1951 U.S. LEXIS 2464
+dates:
+  argued: '1951-10-11'
+  decided: '1951-11-05'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 90110, area: judicial-power}
+law:
+  type: other
+  supp: 506
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 96, state: 37}
+  source: {code: 96, state: 37}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 27}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: FMVinson
+votes:
+- justice: SMinton
+  participated: false
+- justice: TCClark
+  participated: false
+- justice: HHBurton
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMVinson
+  vote: majority
+  direction: conservative
+  in_majority: true

@@ -1,0 +1,85 @@
+id: 1856-006
+name: WILLIAM THOMAS, SOUTHWORTH BARNES, NATHANIEL RUSSELL, AND OTHERS, OWNERS OF THE BARQUE LAURA, APPELLANTS,
+  v. JAMES W. OSBORN
+term: 1856
+chief: Taney
+natural_court: 510
+citation:
+  us: 60 U.S. 22
+  led: 15 L. Ed. 534
+  lexis: 1856 U.S. LEXIS 416
+dates:
+  argued: '1856-04-10'
+  decided: '1856-12-29'
+decision:
+  type: opinion-of-the-court
+  disposition: petition-denied
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 79}
+  source: {code: 417}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 116}
+  respondent: {code: 122}
+opinions:
+  majority_author: BRCurtis
+  majority_assigner: JCatron
+votes:
+- justice: RBTaney
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JMcLean
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBTaney
+- justice: JMWayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - RBTaney
+- justice: JCatron
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PVDaniel
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BRCurtis
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JACampbell
+  vote: majority
+  direction: conservative
+  in_majority: true

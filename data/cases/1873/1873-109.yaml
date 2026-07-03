@@ -1,0 +1,78 @@
+id: 1873-109
+name: REES v. CITY OF WATERTOWN
+term: 1873
+chief: Chase
+natural_court: 603
+citation:
+  us: 86 U.S. 107
+  led: 22 L. Ed. 72
+  lexis: 1873 U.S. LEXIS 1433
+dates:
+  argued: '1874-01-28'
+  decided: '1874-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 90340, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 438}
+  source: {code: 438}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 3}
+  respondent_state: {code: 58}
+opinions:
+  majority_author: WHunt
+  majority_assigner: SFMiller
+votes:
+- justice: NClifford
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NHSwayne
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - NClifford
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DDavis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

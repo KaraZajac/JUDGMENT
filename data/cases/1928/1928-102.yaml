@@ -1,0 +1,81 @@
+id: 1928-102
+name: DOUGLAS v. NEW YORK, NEW HAVEN & HARTFORD RAILROAD COMPANY
+term: 1928
+chief: Taft
+natural_court: 1005
+docket: '312'
+citation:
+  us: 279 U.S. 377
+  sct: 49 S. Ct. 355
+  led: 73 L. Ed. 747
+  lexis: 1929 U.S. LEXIS 52
+dates:
+  argued: '1929-01-16'
+  reargued: '1929-04-15'
+  decided: '1929-05-13'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 90080, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 302, state: 37}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 208}
+  respondent: {code: 231}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: OWHolmes
+votes:
+- justice: WHTaft
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: JCMcReynolds
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: dissent
+  direction: liberal
+  in_majority: false
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true

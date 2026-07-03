@@ -1,0 +1,78 @@
+id: 1889-278
+name: NASHUA AND LOWELL RAILROAD CORPORATION v. BOSTON AND LOWELL RAILROAD CORPORATION
+term: 1889
+chief: Fuller
+natural_court: 802
+docket: '166'
+citation:
+  us: 136 U.S. 356
+  sct: 10 S. Ct. 1004
+  led: 34 L. Ed. 363
+  lexis: 1890 U.S. LEXIS 2219
+dates:
+  argued: '1890-03-31'
+  decided: '1890-05-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90330, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 418}
+  source: {code: 418}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 231}
+opinions:
+  majority_author: SJField
+  majority_assigner: SFMiller
+votes:
+- justice: MWFuller
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: SFMiller
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HGray
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: SBlatchford
+  participated: false
+- justice: LQLamar
+  vote: jurisdictional-dissent
+  opinion: wrote
+  in_majority: false
+- justice: DJBrewer
+  vote: majority
+  direction: liberal
+  in_majority: true

@@ -1,0 +1,82 @@
+id: 1866-029
+name: ex parte GARLAND
+term: 1866
+chief: Chase
+natural_court: 601
+citation:
+  us: 71 U.S. 333
+  led: 18 L. Ed. 366
+  lexis: 1866 U.S. LEXIS 886
+dates:
+  argued: '1865-12-15'
+  reargued: '1866-03-13'
+  decided: '1867-01-14'
+decision:
+  type: opinion-of-the-court
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: federal-statute
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 30080, area: first-amendment}
+law:
+  type: constitution
+  supp: 127
+authority:
+- judicial-review-national
+jurisdiction: {code: 9, label: original}
+cert_reason: not-cert
+lower_court:
+  disagreement: false
+parties:
+  petitioner: {code: 111}
+  respondent: {code: 27}
+opinions:
+  majority_author: SJField
+  majority_assigner: JMWayne
+votes:
+- justice: SPChase
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SNelson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RCGrier
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NHSwayne
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: DDavis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SFMiller
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true

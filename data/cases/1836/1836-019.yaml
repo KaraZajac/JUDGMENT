@@ -1,0 +1,62 @@
+id: 1836-019
+name: THE UNITED STATES, APPELLANTS v. CHARLES F. SIBBALD, APPELLEE
+term: 1836
+chief: Marshall
+natural_court: 410
+citation:
+  us: 35 U.S. 313
+  led: 9 L. Ed. 437
+  lexis: 1836 U.S. LEXIS 441
+dates:
+  argued: '1836-01-20'
+  decided: '1836-02-06'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed-and-reversed-in-part-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 0
+issue: {code: 80105, area: economic-activity}
+law:
+  type: other
+  supp: 509
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 17, state: 12}
+  source: {code: 17, state: 12}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 195}
+opinions:
+  majority_author: HBaldwin
+  majority_assigner: JStory
+votes:
+- justice: JStory
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SThompson
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcLean
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HBaldwin
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMWayne
+  vote: majority
+  direction: liberal
+  in_majority: true

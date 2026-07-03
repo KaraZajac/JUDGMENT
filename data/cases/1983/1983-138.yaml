@@ -1,0 +1,87 @@
+id: 1983-138
+name: WASHINGTON METROPOLITAN AREA TRANSIT AUTHORITY v. JOHNSON et al.
+term: 1983
+chief: Burger
+natural_court: 1507
+docket: 83-747
+citation:
+  us: 467 U.S. 925
+  sct: 104 S. Ct. 2827
+  led: 81 L. Ed. 2d 768
+  lexis: 1984 U.S. LEXIS 122
+dates:
+  argued: '1984-04-24'
+  decided: '1984-06-26'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80070, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 349
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 55}
+  source: {code: 32}
+  disposition: reversed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 15}
+  respondent: {code: 145}
+admin_action: {agency: 65}
+opinions:
+  majority_author: TMarshall
+  majority_assigner: WEBurger
+votes:
+- justice: TMarshall
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WEBurger
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JPStevens
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - WHRehnquist
+- justice: SDOConnor
+  vote: majority
+  direction: conservative
+  in_majority: true

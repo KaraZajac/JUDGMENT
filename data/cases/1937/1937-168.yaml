@@ -1,0 +1,81 @@
+id: 1937-168
+name: JOHNSON v. ZERBST, WARDEN
+term: 1937
+chief: Hughes
+natural_court: 1105
+docket: '699'
+citation:
+  us: 304 U.S. 458
+  sct: 58 S. Ct. 1019
+  led: 82 L. Ed. 1461
+  lexis: 1938 U.S. LEXIS 896
+dates:
+  argued: '1938-04-04'
+  decided: '1938-05-23'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 10120, area: criminal-procedure}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- diversity-jurisdiction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: to-resolve-important-question
+lower_court:
+  origin: {code: 60}
+  source: {code: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 215}
+  respondent: {code: 8}
+  respondent_state: {code: 60}
+opinions:
+  majority_author: HLBlack
+  majority_assigner: CEHughes2
+votes:
+- justice: CEHughes2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BNCardozo
+  participated: false
+- justice: HLBlack
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true

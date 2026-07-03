@@ -1,0 +1,88 @@
+id: 1969-073
+name: DANDRIDGE, CHAIRMAN, MARYLAND BOARD OF PUBLIC WELFARE, et al. v. WILLIAMS et al.
+term: 1969
+chief: Burger
+natural_court: 1501
+docket: '131'
+citation:
+  us: 397 U.S. 471
+  sct: 90 S. Ct. 1153
+  led: 25 L. Ed. 2d 491
+  lexis: 1970 U.S. LEXIS 84
+dates:
+  argued: '1969-12-09'
+  decided: '1970-04-06'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 20180, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 303
+authority:
+- statutory-construction
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 79}
+  source: {code: 79}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 28}
+  petitioner_state: {code: 25}
+  respondent: {code: 212}
+admin_action: {agency: 117, state: 25}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: PStewart
+  majority_assigner: WEBurger
+votes:
+- justice: WEBurger
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - HLBlack
+- justice: HLBlack
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHarlan2
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WJBrennan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - TMarshall
+- justice: PStewart
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: BRWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

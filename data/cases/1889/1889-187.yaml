@@ -1,0 +1,89 @@
+id: 1889-187
+name: MINNEAPOLIS EASTERN RAILWAY COMPANY v. MINNESOTA
+term: 1889
+chief: Fuller
+natural_court: 802
+docket: '1113'
+citation:
+  us: 134 U.S. 467
+  sct: 10 S. Ct. 473
+  led: 33 L. Ed. 985
+  lexis: 1890 U.S. LEXIS 1985
+dates:
+  argued: '1890-01-13'
+  decided: '1890-03-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80110, area: economic-activity}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 28}
+  source: {code: 300, state: 28}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 28}
+  respondent_state: {code: 28}
+admin_action: {agency: 117, state: 28}
+opinions:
+  majority_author: SBlatchford
+  majority_assigner: MWFuller
+votes:
+- justice: MWFuller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: JHarlan1
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HGray
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: SBlatchford
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LQLamar
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - JPBradley
+- justice: DJBrewer
+  vote: majority
+  direction: conservative
+  in_majority: true

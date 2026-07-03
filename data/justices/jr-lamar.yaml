@@ -1,0 +1,35 @@
+slug: jr-lamar
+name: J. R. Lamar
+scdb: {name: JRLamar, id: 65}
+record:
+  first_decision: '1911-01-03'
+  last_decision: '1915-12-20'
+  first_term: 1910
+  last_term: 1915
+  terms: 6
+  cases: 1293
+  majority_share: 0.982
+  dissents: 22
+  opinions_written: 121
+ideology:
+  career_liberal_share: 0.482
+  by_term:
+    1910: {liberal_share: 0.489, n: 92}
+    1911: {liberal_share: 0.49, n: 208}
+    1912: {liberal_share: 0.456, n: 250}
+    1913: {liberal_share: 0.481, n: 258}
+    1914: {liberal_share: 0.5, n: 238}
+    1915: {liberal_share: 0.5, n: 2}
+  by_issue_area:
+    attorneys: {liberal_share: 0.3, n: 20}
+    civil-rights: {liberal_share: 0.432, n: 95}
+    criminal-procedure: {liberal_share: 0.265, n: 83}
+    due-process: {liberal_share: 0.491, n: 53}
+    economic-activity: {liberal_share: 0.613, n: 486}
+    federal-taxation: {liberal_share: 0.448, n: 29}
+    federalism: {liberal_share: 0.733, n: 30}
+    first-amendment: {liberal_share: 0.385, n: 13}
+    judicial-power: {liberal_share: 0.26, n: 219}
+    miscellaneous: {liberal_share: 1.0, n: 4}
+    privacy: {liberal_share: 0.5, n: 2}
+    unions: {liberal_share: 0.714, n: 14}

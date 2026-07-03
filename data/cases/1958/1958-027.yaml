@@ -1,0 +1,83 @@
+id: 1958-027
+name: LEE v. MADIGAN, WARDEN
+term: 1958
+chief: Warren
+natural_court: 1406
+docket: '42'
+citation:
+  us: 358 U.S. 228
+  sct: 79 S. Ct. 276
+  led: 3 L. Ed. 2d 260
+  lexis: 1959 U.S. LEXIS 1658
+dates:
+  argued: '1958-12-09'
+  decided: '1959-01-12'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 2
+issue: {code: 20240, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 10 U.S.C. § 1564
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 50}
+  source: {code: 29}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 186}
+  respondent: {code: 27}
+opinions:
+  majority_author: WODouglas
+  majority_assigner: EWarren
+votes:
+- justice: JHarlan2
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EWarren
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - JHarlan2
+- justice: FFrankfurter
+  participated: false
+- justice: CEWhittaker
+  vote: majority
+  direction: liberal
+  in_majority: true

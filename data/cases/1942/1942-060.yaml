@@ -1,0 +1,78 @@
+id: 1942-060
+name: FEDERAL COMMUNICATIONS COMMISSION v. NATIONAL BROADCASTING CO., INC. (KOA) et al.
+term: 1942
+chief: Stone
+natural_court: 1202
+docket: '585'
+citation:
+  us: 319 U.S. 239
+  sct: 63 S. Ct. 1035
+  led: 87 L. Ed. 1374
+  lexis: 1943 U.S. LEXIS 1131
+dates:
+  argued: '1943-04-08'
+  decided: '1943-05-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 4
+  minority_votes: 2
+issue: {code: 80320, area: economic-activity}
+law:
+  type: federal-statute
+  supp: 326
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 32}
+  source: {code: 32}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 338}
+  respondent: {code: 221}
+admin_action: {agency: 38}
+opinions:
+  majority_author: OJRoberts
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  participated: false
+- justice: SFReed
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: FFrankfurter
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: FMurphy
+  participated: false
+- justice: RHJackson
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WBRutledge
+  participated: false

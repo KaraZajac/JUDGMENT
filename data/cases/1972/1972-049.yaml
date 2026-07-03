@@ -1,0 +1,90 @@
+id: 1972-049
+name: DOE et al. v. BOLTON, ATTORNEY GENERAL OF GEORGIA, et al.
+term: 1972
+chief: Burger
+natural_court: 1504
+docket: 70-40
+citation:
+  us: 410 U.S. 179
+  sct: 93 S. Ct. 739
+  led: 35 L. Ed. 2d 201
+  lexis: 1973 U.S. LEXIS 112
+dates:
+  argued: '1971-12-13'
+  reargued: '1972-10-11'
+  decided: '1973-01-22'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 50020, area: privacy}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 60}
+  source: {code: 60}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 155}
+  respondent: {code: 28}
+  respondent_state: {code: 13}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: HABlackmun
+  majority_assigner: WEBurger
+votes:
+- justice: WODouglas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: PStewart
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: TMarshall
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BRWhite
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WEBurger
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HABlackmun
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: LFPowell
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHRehnquist
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - BRWhite

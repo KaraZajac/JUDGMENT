@@ -1,0 +1,79 @@
+id: 1945-082
+name: LAVENDER, ADMINISTRATOR, v. KURN et al., TRUSTEES, et al.
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '550'
+citation:
+  us: 327 U.S. 645
+  sct: 66 S. Ct. 740
+  led: 90 L. Ed. 916
+  lexis: 1946 U.S. LEXIS 3014
+dates:
+  argued: '1946-03-06'
+  decided: '1946-03-25'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80040, area: economic-activity}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: other-reason
+lower_court:
+  origin: {code: 302, state: 30}
+  source: {code: 300, state: 30}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 102}
+  respondent: {code: 231}
+opinions:
+  majority_author: FMurphy
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: HLBlack
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFReed
+  vote: dissent
+  direction: conservative
+  in_majority: false
+- justice: FFrankfurter
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: WODouglas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HHBurton
+  vote: majority
+  direction: liberal
+  in_majority: true

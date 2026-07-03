@@ -1,0 +1,91 @@
+id: 1916-022
+name: LOUISVILLE & NASHVILLE RAILROAD COMPANY et al. v. UNITED STATES OF AMERICA et al.
+term: 1916
+chief: White
+natural_court: 905
+docket: '290'
+citation:
+  us: 242 U.S. 60
+  sct: 37 S. Ct. 61
+  led: 61 L. Ed. 152
+  lexis: 1916 U.S. LEXIS 1530
+dates:
+  argued: '1916-10-13'
+  decided: '1916-12-04'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90420, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- administrative-interpretation
+- supervisory
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 117}
+  source: {code: 117}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 231}
+  respondent: {code: 366}
+admin_action: {agency: 66}
+flags:
+  three_judge_district_court: true
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MPitney
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: MPitney
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MPitney
+- justice: JHClarke
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MPitney

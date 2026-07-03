@@ -1,0 +1,88 @@
+id: 1945-045
+name: M. KRAUS & BROS., INC. v. UNITED STATES
+term: 1945
+chief: Stone
+natural_court: 1203
+docket: '198'
+citation:
+  us: 327 U.S. 614
+  sct: 66 S. Ct. 705
+  led: 90 L. Ed. 894
+  lexis: 1946 U.S. LEXIS 2613
+dates:
+  argued: '1945-12-14'
+  decided: '1946-03-25'
+decision:
+  type: judgment-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 3
+issue: {code: 90120, area: judicial-power}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Emergency Price Control Act 50 U.S.C.S. App 901
+authority:
+- administrative-interpretation
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 252}
+  respondent: {code: 27}
+opinions:
+  majority_author: FMurphy
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: SFReed
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack
+- justice: FFrankfurter
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WBRutledge
+- justice: WODouglas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: FMurphy
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: RHJackson
+  participated: false
+- justice: WBRutledge
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HHBurton
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HLBlack

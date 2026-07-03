@@ -1,0 +1,77 @@
+id: 1880-086
+name: HARTMAN v. GREENHOW
+term: 1880
+chief: Waite
+natural_court: 703
+docket: '154'
+citation:
+  us: 102 U.S. 672
+  led: 26 L. Ed. 271
+  lexis: 1880 U.S. LEXIS 2078
+dates:
+  argued: '1880-12-16'
+  decided: '1881-01-24'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 90380, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 300, state: 55}
+  source: {code: 300, state: 55}
+  direction: conservative
+  disagreement: true
+parties:
+  petitioner: {code: 25}
+  petitioner_state: {code: 55}
+  respondent: {code: 8}
+  respondent_state: {code: 55}
+admin_action: {agency: 117, state: 55}
+opinions:
+  majority_author: SJField
+  majority_assigner: MRWaite
+votes:
+- justice: MRWaite
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NClifford
+  participated: false
+- justice: NHSwayne
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: SFMiller
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SJField
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WHunt
+  participated: false
+- justice: JHarlan1
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WBWoods
+  participated: false

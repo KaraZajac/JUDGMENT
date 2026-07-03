@@ -1,0 +1,90 @@
+id: 1916-143
+name: WILSON, UNITED STATES ATTORNEY FOR THE WESTERN DISTRICT OF MISSOURI, v. NEW et al., RECEIVERS OF THE MISSOURI,
+  OKLAHOMA & GULF RAILWAY COMPANY
+term: 1916
+chief: White
+natural_court: 905
+docket: '797'
+citation:
+  us: 243 U.S. 332
+  sct: 37 S. Ct. 298
+  led: 61 L. Ed. 755
+  lexis: 1917 U.S. LEXIS 2045
+dates:
+  argued: '1917-01-08'
+  decided: '1917-03-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 70190, area: unions}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 14th Amendment, due process & equal protection;  interstate commerce clause
+authority:
+- judicial-review-state
+- judicial-review-state
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 87}
+  source: {code: 87}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 27}
+  respondent: {code: 231}
+opinions:
+  majority_author: EDEWhite
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: JMcKenna
+  vote: regular-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WRDay
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - MPitney
+  - WRDay
+- justice: MPitney
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHClarke
+  vote: majority
+  direction: liberal
+  in_majority: true

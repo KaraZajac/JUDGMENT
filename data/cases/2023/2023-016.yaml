@@ -1,0 +1,89 @@
+id: 2023-016
+name: WILKINSON v. GARLAND
+term: 2023
+chief: Roberts
+natural_court: 1710
+docket: 22-666
+citation:
+  us: 601 U.S. 209
+  sct: 144 S. Ct. 780
+  led: 218 L. Ed. 2d 140
+  lexis: 2024 U.S. LEXIS 1380
+dates:
+  argued: '2023-11-28'
+  decided: '2024-03-19'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20310, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 344
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 23}
+  source: {code: 23}
+  disposition: petition-denied
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 106}
+  respondent: {code: 327}
+admin_action: {agency: 7}
+opinions:
+  majority_author: SSotomayor
+  majority_assigner: SSotomayor
+votes:
+- justice: JGRoberts
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SSotomayor
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: KBJackson
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true

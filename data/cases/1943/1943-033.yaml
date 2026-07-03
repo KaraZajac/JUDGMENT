@@ -1,0 +1,76 @@
+id: 1943-033
+name: DEMOREST et al. v. CITY BANK FARMERS TRUST CO., TRUSTEE, et al.
+term: 1943
+chief: Stone
+natural_court: 1202
+docket: '52'
+citation:
+  us: 321 U.S. 36
+  sct: 64 S. Ct. 384
+  led: 88 L. Ed. 526
+  lexis: 1944 U.S. LEXIS 1128
+dates:
+  argued: '1943-12-10'
+  decided: '1944-01-17'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: unspecifiable
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 140070, area: private-action}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 2, label: appeal}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 37}
+  source: {code: 300, state: 37}
+  disposition: affirmed
+  direction: unspecifiable
+  disagreement: true
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 113}
+admin_action: {agency: 117, state: 37}
+opinions:
+  majority_author: RHJackson
+  majority_assigner: HFStone
+votes:
+- justice: HFStone
+  vote: majority
+  in_majority: true
+- justice: OJRoberts
+  vote: majority
+  in_majority: true
+- justice: HLBlack
+  vote: dissent
+  in_majority: false
+  joined:
+  - WODouglas
+- justice: SFReed
+  vote: majority
+  in_majority: true
+- justice: FFrankfurter
+  vote: majority
+  in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: FMurphy
+  vote: majority
+  in_majority: true
+- justice: RHJackson
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: WBRutledge
+  vote: majority
+  in_majority: true

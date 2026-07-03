@@ -1,0 +1,81 @@
+id: 1873-120
+name: BARINGS v. DABNEY
+term: 1873
+chief: Chase
+natural_court: 603
+citation:
+  us: 86 U.S. 1
+  led: 22 L. Ed. 90
+  lexis: 1873 U.S. LEXIS 1416
+dates:
+  argued: '1873-12-12'
+  decided: '1874-03-03'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+- judicial-review-state
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 48}
+  source: {code: 300, state: 48}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 237}
+  respondent: {code: 135}
+opinions:
+  majority_author: JPBradley
+  majority_assigner: NClifford
+votes:
+- justice: NClifford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NHSwayne
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SFMiller
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WStrong
+- justice: DDavis
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - WStrong
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WStrong
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: WHunt
+  vote: majority
+  direction: conservative
+  in_majority: true

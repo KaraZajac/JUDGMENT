@@ -1,0 +1,82 @@
+id: 1924-184
+name: GEORGE W. BUSH & SONS COMPANY v. MALOY et al., CONSTITUTING THE PUBLIC SERVICE COMMISSION OF MARYLAND
+term: 1924
+chief: Taft
+natural_court: 1005
+docket: '185'
+citation:
+  us: 267 U.S. 317
+  sct: 45 S. Ct. 326
+  led: 69 L. Ed. 627
+  lexis: 1925 U.S. LEXIS 757
+dates:
+  argued: '1925-01-16'
+  decided: '1925-03-02'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: state-law
+  majority_votes: 7
+  minority_votes: 1
+issue: {code: 80110, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 25}
+  source: {code: 300, state: 25}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 245}
+  respondent: {code: 4}
+  respondent_state: {code: 25}
+admin_action: {agency: 117, state: 25}
+opinions:
+  majority_author: LDBrandeis
+  majority_assigner: WHTaft
+votes:
+- justice: WHTaft
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JCMcReynolds
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: LDBrandeis
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: HFStone
+  participated: false

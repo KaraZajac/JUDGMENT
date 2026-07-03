@@ -1,0 +1,80 @@
+id: 1929-112
+name: CLARKE, COLLECTOR OF INTERNAL REVENUE, v. HABERLE CRYSTAL SPRINGS BREWING COMPANY
+term: 1929
+chief: Taft
+natural_court: 1005
+docket: '68'
+citation:
+  us: 280 U.S. 384
+  sct: 50 S. Ct. 155
+  led: 74 L. Ed. 498
+  lexis: 1930 U.S. LEXIS 756
+dates:
+  argued: '1930-01-09'
+  decided: '1930-01-27'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 0
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 95}
+  source: {code: 22}
+  disposition: reversed-and-remanded
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 369}
+  respondent: {code: 240}
+admin_action: {agency: 69}
+opinions:
+  majority_author: OWHolmes
+  majority_assigner: OWHolmes
+votes:
+- justice: WHTaft
+  participated: false
+- justice: OWHolmes
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JCMcReynolds
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: ETSanford
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: regular-concurrence
+  direction: liberal
+  in_majority: true

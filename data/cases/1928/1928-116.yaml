@@ -1,0 +1,88 @@
+id: 1928-116
+name: WHITE RIVER LUMBER COMPANY v. ARKANSAS ex rel. APPLEGATE, ATTORNEY GENERAL
+term: 1928
+chief: Taft
+natural_court: 1005
+docket: '101'
+citation:
+  us: 279 U.S. 692
+  sct: 49 S. Ct. 457
+  led: 73 L. Ed. 903
+  lexis: 1929 U.S. LEXIS 65
+dates:
+  argued: '1929-01-07'
+  decided: '1929-05-27'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80100, area: economic-activity}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 302, state: 5}
+  source: {code: 300, state: 5}
+  disposition: modified
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 28}
+  respondent_state: {code: 5}
+admin_action: {agency: 117, state: 5}
+opinions:
+  majority_author: ETSanford
+  majority_assigner: OWHolmes
+votes:
+- justice: WHTaft
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PButler
+- justice: OWHolmes
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WVanDevanter
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - PButler
+- justice: JCMcReynolds
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: LDBrandeis
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: GSutherland
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: PButler
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: ETSanford
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: HFStone
+  vote: majority
+  direction: liberal
+  in_majority: true

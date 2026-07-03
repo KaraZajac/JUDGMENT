@@ -1,0 +1,90 @@
+id: 2010-082
+name: J. MCINTYRE MACHINERY, LTD., PETITIONER v. ROBERT NICASTRO, INDIVIDUALLY AND AS ADMINISTRATOR OF THE ESTATE
+  OF ROSEANNE NICASTRO
+term: 2010
+chief: Roberts
+natural_court: 1704
+docket: 09-1343
+citation:
+  us: 564 U.S. 873
+  sct: 131 S. Ct. 2780
+  led: 180 L. Ed. 2d 765
+  lexis: 2011 U.S. LEXIS 4800
+dates:
+  argued: '2011-01-11'
+  decided: '2011-06-27'
+decision:
+  type: judgment-of-the-court
+  disposition: reversed
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 40060, area: due-process}
+law:
+  type: constitutional-amendment
+  supp: 230
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 302, state: 35}
+  source: {code: 300, state: 35}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 184}
+  respondent: {code: 208}
+opinions:
+  majority_author: AMKennedy
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: AMKennedy
+  vote: judgment-of-the-court
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: RBGinsburg
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SGBreyer
+  vote: special-concurrence
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: SAAlito
+  vote: special-concurrence
+  direction: liberal
+  in_majority: true
+  joined:
+  - SGBreyer
+- justice: SSotomayor
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RBGinsburg
+- justice: EKagan
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - RBGinsburg

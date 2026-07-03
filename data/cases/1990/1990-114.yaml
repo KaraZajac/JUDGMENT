@@ -1,0 +1,89 @@
+id: 1990-114
+name: ELLIS GREGORY, JR. AND ANTHONY P. NUGENT, JR., JUDGES v. JOHN D. ASHCROFT, GOVERNOR OF MISSOURI
+term: 1990
+chief: Rehnquist
+natural_court: 1604
+docket: 90-50
+citation:
+  us: 501 U.S. 452
+  sct: 111 S. Ct. 2395
+  led: 115 L. Ed. 2d 410
+  lexis: 1991 U.S. LEXIS 3626
+dates:
+  argued: '1991-03-18'
+  decided: '1991-06-20'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 2
+issue: {code: 20060, area: civil-rights}
+law:
+  type: federal-statute
+  supp: 302
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 86}
+  source: {code: 28}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 16}
+  petitioner_state: {code: 30}
+  respondent: {code: 19}
+  respondent_state: {code: 30}
+opinions:
+  majority_author: SDOConnor
+  majority_assigner: WHRehnquist
+votes:
+- justice: TMarshall
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - HABlackmun
+- justice: BRWhite
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: HABlackmun
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: WHRehnquist
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPStevens
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - BRWhite
+- justice: SDOConnor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: AScalia
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: AMKennedy
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: DHSouter
+  vote: majority
+  direction: conservative
+  in_majority: true

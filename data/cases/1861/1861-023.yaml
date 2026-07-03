@@ -1,0 +1,55 @@
+id: 1861-023
+name: SILLIMAN v. HUDSON RIVER BRIDGE COMPANY
+term: 1861
+chief: Taney
+natural_court: 512
+citation:
+  us: 66 U.S. 582
+  led: 17 L. Ed. 81
+  lexis: 1861 U.S. LEXIS 515
+dates:
+  argued: '1860-12-12'
+  decided: '1862-01-27'
+decision:
+  type: equally-divided
+  disposition: certification
+  winning_party: unclear
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 3
+  minority_votes: 3
+issue: {code: 90160, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+- supervisory
+jurisdiction: {code: 4, label: certification}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 426}
+  source: {code: 426}
+  disagreement: true
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 122}
+opinions:
+  majority_author: SNelson
+votes:
+- justice: RBTaney
+  vote: equally-divided
+- justice: JMWayne
+  vote: equally-divided
+- justice: JCatron
+  vote: equally-divided
+- justice: SNelson
+  vote: equally-divided
+  opinion: wrote
+- justice: RCGrier
+  vote: equally-divided
+- justice: NClifford
+  vote: equally-divided
+- justice: NHSwayne
+  participated: false

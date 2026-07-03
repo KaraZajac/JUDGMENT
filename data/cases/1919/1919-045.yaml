@@ -1,0 +1,75 @@
+id: 1919-045
+name: NADEAU et al. v. UNION PACIFIC RAILROAD COMPANY
+term: 1919
+chief: White
+natural_court: 905
+docket: '119'
+citation:
+  us: 253 U.S. 442
+  sct: 40 S. Ct. 570
+  led: 64 L. Ed. 1002
+  lexis: 1920 U.S. LEXIS 1374
+dates:
+  argued: '1920-01-09'
+  decided: '1920-06-07'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 1
+issue: {code: 20150, area: civil-rights}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- supervisory
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 72}
+  source: {code: 72}
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 195}
+  respondent: {code: 231}
+admin_action: {agency: 26}
+opinions:
+  majority_author: JCMcReynolds
+  majority_assigner: EDEWhite
+votes:
+- justice: EDEWhite
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JMcKenna
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: OWHolmes
+  participated: false
+- justice: WRDay
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: WVanDevanter
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: MPitney
+  participated: false
+- justice: JCMcReynolds
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: LDBrandeis
+  participated: false
+- justice: JHClarke
+  vote: dissent
+  direction: liberal
+  in_majority: false

@@ -1,0 +1,74 @@
+id: 1887-289
+name: SEWALL v. HAYMAKER
+term: 1887
+chief: Waite
+natural_court: 707
+docket: '244'
+citation:
+  us: 127 U.S. 719
+  sct: 8 S. Ct. 1348
+  led: 32 L. Ed. 299
+  lexis: 1888 U.S. LEXIS 2035
+dates:
+  argued: '1888-04-20'
+  decided: '1888-05-14'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 7
+  minority_votes: 0
+issue: {code: 20130, area: civil-rights}
+law:
+  type: state-or-local-law
+  supp: 800
+authority:
+- statutory-construction
+jurisdiction: {code: 13}
+cert_reason: not-cert
+lower_court:
+  origin: {code: 428}
+  source: {code: 428}
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 166}
+  respondent: {code: 195}
+opinions:
+  majority_author: JHarlan1
+  majority_assigner: SFMiller
+votes:
+- justice: SFMiller
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SJField
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JPBradley
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: JHarlan1
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SMatthews
+  participated: false
+- justice: HGray
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SBlatchford
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: LQLamar
+  vote: majority
+  direction: conservative
+  in_majority: true
