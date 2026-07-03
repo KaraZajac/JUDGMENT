@@ -1,0 +1,146 @@
+---
+import Base from "../../layouts/Base.astro";
+import { termList, caseIdsForTerm, caseById, byMnemonic } from "../../lib/data.js";
+import { caseTitle, fmtDate, label, num } from "../../lib/format.js";
+
+export function getStaticPaths() {
+  // ids only — the page body loads its own YAML so dev never parses the corpus
+  return termList().flatMap((t) =>
+    caseIdsForTerm(t).map((id) => ({ params: { id } }))
+  );
+}
+
+const id = Astro.params.id;
+const c = caseById(id);
+const justiceOf = byMnemonic();
+
+const siblings = caseIdsForTerm(c.term);
+const idx = siblings.indexOf(id);
+const prev = idx > 0 ? siblings[idx - 1] : null;
+const next = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null;
+
+const d = c.decision ?? {};
+const votes = c.votes ?? [];
+const majority = votes.filter((v) => v.in_majority === true);
+const dissent = votes.filter((v) => v.in_majority === false);
+const other = votes.filter((v) => v.in_majority == null);
+
+const jlink = (mnemonic) => {
+  const entry = typeof mnemonic === "string" ? justiceOf.get(mnemonic) : null;
+  return entry ? { href: `/justices/${entry.slug}`, name: entry.name } : { name: String(mnemonic ?? "—") };
+};
+
+const wrote = (v) =>
+  v.opinion === "wrote" ? "wrote an opinion" : v.opinion === "co-wrote" ? "co-wrote an opinion" : null;
+
+const facts = [
+  ["Citation", [c.citation?.us, c.citation?.sct].filter(Boolean).join(" · ") || null],
+  ["Docket", c.docket],
+  ["Argued", fmtDate(c.dates?.argued)],
+  ["Reargued", fmtDate(c.dates?.reargued)],
+  ["Decided", fmtDate(c.dates?.decided)],
+  ["Decision type", label(d.type)],
+  ["Disposition", label(d.disposition)],
+  ["Winning party", label(d.winning_party)],
+  ["Issue area", label(c.issue?.area)],
+  ["Issue code", c.issue?.code],
+  ["Legal provision", [label(c.law?.type), c.law?.minor].filter(Boolean).join(" · ") || null],
+  ["Jurisdiction", c.jurisdiction?.label ?? (c.jurisdiction ? `code ${c.jurisdiction.code}` : null)],
+  ["Cert reason", label(c.cert_reason)],
+  ["Lower court disposition", label(c.lower_court?.disposition)],
+  ["Lower court direction", label(c.lower_court?.direction)],
+  ["Unconstitutional", d.unconstitutional && d.unconstitutional !== "none" ? label(d.unconstitutional) : null],
+].filter(([, v]) => v != null && v !== "");
+
+function voteRow(v) {
+  const j = jlink(v.justice);
+  const joins = (v.joined ?? []).map((m) => jlink(m).name).join(", ");
+  return { ...v, j, joins, wroteText: wrote(v) };
+}
+---
+
+<Base title={caseTitle(c.name)} description={`${caseTitle(c.name)}, ${c.term} term.`}>
+  <p class="eyebrow">
+    {prev && <a href={`/cases/${prev}`}>← previous</a>}
+    <span style="margin: 0 8px"><a href={`/terms/${c.term}`}>{c.term} Term</a> · {c.chief} Court · {c.id}</span>
+    {next && <a href={`/cases/${next}`}>next →</a>}
+  </p>
+  <h1>{caseTitle(c.name)}</h1>
+  <p class="lede" style="margin-bottom: 10px">
+    {[c.citation?.us, fmtDate(c.dates?.decided)].filter(Boolean).join(" · ")}
+  </p>
+
+  <div class="chips" style="margin-bottom: 16px">
+    {d.majority_votes != null && d.minority_votes != null && (
+      <span class="chip"><b>{d.majority_votes}–{d.minority_votes}</b></span>
+    )}
+    {d.direction && d.direction !== "unspecifiable" && (
+      <span class="chip">
+        <span class={`dot ${d.direction === "liberal" ? "lib" : "con"}`}></span>
+        {d.direction}
+      </span>
+    )}
+    {d.precedent_altered && <span class="chip"><b>precedent altered</b></span>}
+    {d.unconstitutional && d.unconstitutional !== "none" && (
+      <span class="chip"><b>held unconstitutional:</b> {label(d.unconstitutional)}</span>
+    )}
+  </div>
+
+  <div class="card">
+    <div class="facts">
+      {facts.map(([k, v]) => (
+        <div class="fact">
+          <div class="k">{k}</div>
+          <div class="v">{v}</div>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <h2>The vote</h2>
+  {c.opinions?.majority_author && (
+    <p class="lede" style="margin-bottom: 12px">
+      Majority opinion by <a href={jlink(c.opinions.majority_author).href}>{jlink(c.opinions.majority_author).name}</a>
+      {c.opinions.majority_assigner &&
+        c.opinions.majority_assigner !== c.opinions.majority_author && (
+          <> · assigned by {jlink(c.opinions.majority_assigner).name}</>
+        )}
+    </p>
+  )}
+
+  <div class="votes">
+    {[
+      { title: `Majority (${majority.length})`, rows: majority },
+      { title: `Dissent (${dissent.length})`, rows: dissent },
+      { title: `No recorded side (${other.length})`, rows: other },
+    ]
+      .filter((g) => g.rows.length > 0)
+      .map((g) => (
+        <section class="card vote-group">
+          <h3>{g.title}</h3>
+          {g.rows.map((raw) => {
+            const v = voteRow(raw);
+            return (
+              <div class="vote-row">
+                <span class="who">
+                  {v.j.href ? <a href={v.j.href}>{v.j.name}</a> : v.j.name}
+                </span>
+                <span class="what">
+                  {v.participated === false ? "did not participate" : label(v.vote)}
+                  {v.wroteText ? ` · ${v.wroteText}` : ""}
+                  {v.joins ? ` · joined ${v.joins}` : ""}
+                </span>
+                {v.direction && (
+                  <span class="dirword">
+                    <span class={`dot ${v.direction === "liberal" ? "lib" : "con"}`}></span>
+                    {v.direction}
+                  </span>
+                )}
+              </div>
+            );
+          })}
+        </section>
+      ))}
+  </div>
+  {votes.length === 0 && <p class="lede">No individual vote records for this case.</p>}
+</Base>

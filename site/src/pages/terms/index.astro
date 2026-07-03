@@ -1,0 +1,57 @@
+---
+import Base from "../../layouts/Base.astro";
+import { termsAgg } from "../../lib/data.js";
+import { pct, num } from "../../lib/format.js";
+
+const terms = [...termsAgg()].sort((a, b) => b.term - a.term);
+---
+
+<Base title="Terms" description="Every Supreme Court term since 1791.">
+  <h1>Terms</h1>
+  <p class="lede">
+    One row per term of the Court, most recent first. The strip shows the direction mix of
+    that term's decisions — <span class="dot lib"></span> liberal ·
+    <span class="dot con"></span> conservative · <span class="dot mid"></span> unspecifiable.
+  </p>
+
+  <table class="data">
+    <thead>
+      <tr>
+        <th>Term</th>
+        <th class="n">Cases</th>
+        <th>Direction mix</th>
+        <th class="n">Liberal share</th>
+        <th class="n">Reversal rate</th>
+        <th class="n">Unanimous</th>
+      </tr>
+    </thead>
+    <tbody>
+      {terms.map((t) => {
+        const total = t.liberal + t.conservative + t.unspecifiable || 1;
+        return (
+          <tr>
+            <td><a href={`/terms/${t.term}`}>{t.term}</a></td>
+            <td class="n">{num(t.cases)}</td>
+            <td style="min-width: 140px">
+              <div
+                class="strip"
+                style="height: 10px; max-width: 150px"
+                role="img"
+                aria-label={`${t.liberal} liberal, ${t.conservative} conservative, ${t.unspecifiable} unspecifiable`}
+                data-tip-value={`${t.liberal} liberal · ${t.conservative} conservative`}
+                data-tip-label={`${t.term} term · ${t.unspecifiable} unspecifiable`}
+              >
+                {t.liberal > 0 && <span class="seg lib" style={`flex:${t.liberal} ${t.liberal} 0%`}></span>}
+                {t.conservative > 0 && <span class="seg con" style={`flex:${t.conservative} ${t.conservative} 0%`}></span>}
+                {t.unspecifiable > 0 && <span class="seg mid" style={`flex:${t.unspecifiable} ${t.unspecifiable} 0%`}></span>}
+              </div>
+            </td>
+            <td class="n">{pct(t.liberal_share)}</td>
+            <td class="n">{pct(t.reversal_share)}</td>
+            <td class="n">{t.cases ? pct(t.unanimous / t.cases) : "—"}</td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Base>

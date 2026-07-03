@@ -1,0 +1,51 @@
+---
+import "../styles/global.css";
+import { meta } from "../lib/data.js";
+
+const { title = "JUDGEMENT", description = "" } = Astro.props;
+const m = meta();
+const path = Astro.url.pathname;
+const current = (p) => (path === p || path.startsWith(p + "/") ? "true" : undefined);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    {description && <meta name="description" content={description} />}
+    <title>{title} · JUDGEMENT</title>
+    <script is:inline src="/tooltip.js" defer></script>
+  </head>
+  <body>
+    <header class="site-head">
+      <div class="wrap">
+        <a class="brand" href="/">JUDGEMENT</a>
+        <nav class="site-nav">
+          <a href="/justices" aria-current={current("/justices")}>Justices</a>
+          <a href="/terms" aria-current={current("/terms")}>Terms</a>
+          <a href="/courts" aria-current={current("/courts")}>Courts</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <slot />
+    </main>
+
+    <footer class="site-foot">
+      <div class="wrap">
+        <div>
+          {m.counts.cases.toLocaleString("en-US")} cases · {m.counts.vote_records.toLocaleString("en-US")}
+          justice votes · terms {m.counts.first_term}–{m.counts.last_term} · SCDB
+          {m.scdb.modern_release} + {m.scdb.legacy_release}
+        </div>
+        <div>
+          Data derived from the Supreme Court Database (Spaeth, Epstein, Martin, Segal, Ruger &
+          Benesh) — free for research use with attribution. Directional coding follows SCDB
+          conventions. Research/educational use only.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

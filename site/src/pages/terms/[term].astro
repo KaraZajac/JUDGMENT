@@ -1,0 +1,118 @@
+---
+import Base from "../../layouts/Base.astro";
+import StatTile from "../../components/StatTile.astro";
+import StackBar from "../../components/StackBar.astro";
+import SplitBars from "../../components/SplitBars.astro";
+import { termList, casesForTerm, termsAgg, byMnemonic } from "../../lib/data.js";
+import { caseTitle, pct, num, label } from "../../lib/format.js";
+
+export function getStaticPaths() {
+  return termList().map((t) => ({ params: { term: String(t) } }));
+}
+
+const term = Number(Astro.params.term);
+const cases = casesForTerm(term).sort((a, b) =>
+  String(a.dates?.decided ?? "9").localeCompare(String(b.dates?.decided ?? "9"))
+);
+const agg = termsAgg().find((t) => t.term === term) ?? {};
+const justiceOf = byMnemonic();
+
+const splitRows = Object.entries(agg.splits ?? {})
+  .map(([k, v]) => ({ label: k, value: v }))
+  .sort((a, b) => {
+    const [am, an] = a.label.split("-").map(Number);
+    const [bm, bn] = b.label.split("-").map(Number);
+    return bm - am || an - bn;
+  });
+
+const terms = termList();
+const i = terms.indexOf(term);
+const prev = i > 0 ? terms[i - 1] : null;
+const next = i >= 0 && i < terms.length - 1 ? terms[i + 1] : null;
+
+const dirWord = (d) =>
+  d === "conservative" ? "conservative" : d === "liberal" ? "liberal" : null;
+---
+
+<Base title={`${term} Term`} description={`Supreme Court decisions of the ${term} term.`}>
+  <p class="eyebrow">
+    {prev != null && <a href={`/terms/${prev}`}>← {prev}</a>}
+    <span style="margin: 0 8px">Term</span>
+    {next != null && <a href={`/terms/${next}`}>{next} →</a>}
+  </p>
+  <h1>{term} Term</h1>
+  <p class="lede">
+    {num(cases.length)} decided cases{cases[0]?.chief ? ` · ${cases[0].chief} Court` : ""}.
+  </p>
+
+  <div class="kpis">
+    <StatTile label="Cases" value={num(agg.cases ?? cases.length)} />
+    <StatTile label="Liberal share" value={pct(agg.liberal_share)} sub="of directional decisions" />
+    <StatTile label="Reversal rate" value={pct(agg.reversal_share)} sub="judgment below disturbed" />
+    <StatTile label="Unanimous" value={agg.cases ? pct((agg.unanimous ?? 0) / agg.cases) : "—"} sub={`${num(agg.unanimous)} cases`} />
+  </div>
+
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px">
+    <section class="card viz">
+      <h3>Decision direction</h3>
+      <p class="viz-sub">SCDB direction coding across the term's decisions.</p>
+      <StackBar
+        caption={`Direction mix of the ${term} term`}
+        segments={[
+          { key: "lib", label: "liberal", value: agg.liberal ?? 0 },
+          { key: "con", label: "conservative", value: agg.conservative ?? 0 },
+          { key: "mid", label: "unspecifiable", value: agg.unspecifiable ?? 0 },
+        ]}
+      />
+    </section>
+    {splitRows.length > 0 && (
+      <section class="card viz">
+        <h3>Vote splits</h3>
+        <p class="viz-sub">Majority–minority splits where both counts are recorded.</p>
+        <SplitBars rows={splitRows} caption={`Vote splits of the ${term} term`} />
+      </section>
+    )}
+  </div>
+
+  <h2>Cases</h2>
+  <table class="data">
+    <thead>
+      <tr>
+        <th>Decided</th>
+        <th>Case</th>
+        <th class="n">Vote</th>
+        <th>Disposition</th>
+        <th>Direction</th>
+        <th>Majority opinion</th>
+      </tr>
+    </thead>
+    <tbody>
+      {cases.map((c) => {
+        const d = c.decision ?? {};
+        const author = c.opinions?.majority_author;
+        const authorEntry = typeof author === "string" ? justiceOf.get(author) : null;
+        const dir = dirWord(d.direction);
+        return (
+          <tr>
+            <td class="n">{c.dates?.decided ?? "—"}</td>
+            <td><a href={`/cases/${c.id}`}>{caseTitle(c.name)}</a></td>
+            <td class="n">
+              {d.majority_votes != null && d.minority_votes != null
+                ? `${d.majority_votes}–${d.minority_votes}`
+                : "—"}
+            </td>
+            <td>{label(d.disposition) ?? "—"}</td>
+            <td>
+              {dir ? (
+                <span class="dirword"><span class={`dot ${dir === "liberal" ? "lib" : "con"}`}></span>{dir}</span>
+              ) : (
+                "—"
+              )}
+            </td>
+            <td>{authorEntry ? <a href={`/justices/${authorEntry.slug}`}>{authorEntry.name}</a> : author ?? "—"}</td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Base>

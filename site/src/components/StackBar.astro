@@ -1,0 +1,28 @@
+---
+// Part-to-whole strip with 2px surface gaps; legend (swatch + text tokens)
+// carries identity and counts, tooltips carry shares.
+const { segments = [], caption = "Composition" } = Astro.props;
+const total = segments.reduce((s, x) => s + x.value, 0) || 1;
+---
+
+<div>
+  <div class="strip" role="img" aria-label={caption}>
+    {segments.filter((s) => s.value > 0).map((s) => (
+      <span
+        class={`seg ${s.key}`}
+        style={`flex:${s.value} ${s.value} 0%`}
+        tabindex="0"
+        data-tip-value={`${Math.round((s.value / total) * 100)}% ${s.label}`}
+        data-tip-label={`${s.value.toLocaleString("en-US")} decisions`}
+      ></span>
+    ))}
+  </div>
+  <div class="viz-legend">
+    {segments.map((s) => (
+      <span class="key">
+        <span class={`swatch ${s.key === 'mid' ? 'mid' : s.key}`}></span>
+        {s.label} · {s.value.toLocaleString("en-US")}
+      </span>
+    ))}
+  </div>
+</div>

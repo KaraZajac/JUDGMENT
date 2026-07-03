@@ -1,0 +1,76 @@
+---
+import Base from "../layouts/Base.astro";
+import StatTile from "../components/StatTile.astro";
+import DivergingColumns from "../components/DivergingColumns.astro";
+import { meta, termsAgg, justiceIndex } from "../lib/data.js";
+import { num } from "../lib/format.js";
+
+const m = meta();
+const agg = termsAgg();
+const points = agg
+  .filter((t) => t.liberal_share != null)
+  .map((t) => ({ x: t.term, value: t.liberal_share, n: t.liberal + t.conservative }));
+
+const lastTerm = m.counts.last_term;
+const sitting = justiceIndex().filter((j) => j.last_term === lastTerm);
+---
+
+<Base title="Home" description="Every U.S. Supreme Court judgement, every justice, every vote — 1791 to today.">
+  <p class="eyebrow">A statistical model of the Supreme Court</p>
+  <h1>Every judgement. Every justice. Every vote.</h1>
+  <p class="lede">
+    The full voting record of the Supreme Court of the United States — {num(m.counts.cases)} cases
+    across terms {m.counts.first_term}–{m.counts.last_term}, from the Supreme Court Database —
+    as a browsable dataset headed toward a forecasting model.
+  </p>
+
+  <div class="kpis">
+    <StatTile label="Cases decided" value={num(m.counts.cases)} sub={`${num(m.counts.cases_modern)} modern · ${num(m.counts.cases_legacy)} legacy`} />
+    <StatTile label="Individual justice votes" value={num(m.counts.vote_records)} />
+    <StatTile label="Justices" value={m.counts.justices} sub="40 with curated biographies" />
+    <StatTile label="Natural courts" value={m.counts.natural_courts} sub={`${m.counts.first_term}–${m.counts.last_term}`} />
+  </div>
+
+  <section class="card viz">
+    <h3>The Court's direction, term by term</h3>
+    <p class="viz-sub">
+      Share of orally-decided cases coded liberal each term (SCDB decision direction);
+      columns above the 50% line mark majority-liberal terms. Hover any term for detail.
+    </p>
+    <DivergingColumns
+      points={points}
+      nLabel="directional decisions"
+      xLabel="term"
+      caption="Share of liberal decisions by Supreme Court term"
+    />
+  </section>
+
+  <h2>The current court</h2>
+  <div class="chips">
+    {sitting.map((j) => (
+      <a class="chip" href={`/justices/${j.slug}`}>
+        {j.party && <span class={`dot ${j.party === "Democratic" ? "lib" : "con"}`}></span>}
+        <b>{j.name}</b>
+      </a>
+    ))}
+  </div>
+
+  <h2>Explore</h2>
+  <div class="kpis">
+    <a class="card" href="/justices" style="text-decoration:none">
+      <div class="stat-label">Justices</div>
+      <div class="stat-value">Trajectories</div>
+      <div class="stat-sub">Ideology over time, records, biographies</div>
+    </a>
+    <a class="card" href={`/terms/${lastTerm}`} style="text-decoration:none">
+      <div class="stat-label">Latest term</div>
+      <div class="stat-value">{lastTerm}</div>
+      <div class="stat-sub">Dockets, splits, and outcomes</div>
+    </a>
+    <a class="card" href="/courts" style="text-decoration:none">
+      <div class="stat-label">Natural courts</div>
+      <div class="stat-value">{m.counts.natural_courts}</div>
+      <div class="stat-sub">Every stable bench since 1791</div>
+    </a>
+  </div>
+</Base>

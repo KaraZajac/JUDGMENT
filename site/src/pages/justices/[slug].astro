@@ -1,0 +1,120 @@
+---
+import Base from "../../layouts/Base.astro";
+import StatTile from "../../components/StatTile.astro";
+import DivergingColumns from "../../components/DivergingColumns.astro";
+import { justiceIndex, justice, meta } from "../../lib/data.js";
+import { pct, num, fmtDate, label } from "../../lib/format.js";
+
+export function getStaticPaths() {
+  return justiceIndex().map((j) => ({ params: { slug: j.slug } }));
+}
+
+const j = justice(Astro.params.slug);
+const m = meta();
+const svc = j.service ?? {};
+const bio = j.bio ?? {};
+const rec = j.record ?? {};
+const ideo = j.ideology ?? {};
+
+const isSitting = !svc.ended && rec.last_term === m.counts.last_term;
+const points = ideo.by_term
+  ? Object.entries(ideo.by_term).map(([t, v]) => ({ x: Number(t), value: v.liberal_share, n: v.n }))
+  : [];
+
+const areas = ideo.by_issue_area
+  ? Object.entries(ideo.by_issue_area)
+      .map(([area, v]) => ({ area, ...v }))
+      .sort((a, b) => b.n - a.n)
+  : [];
+
+const serviceBits = [
+  svc.position === "chief" ? "Chief Justice" : svc.position ? "Associate Justice" : null,
+  svc.appointed_by ? `appointed by ${svc.appointed_by}${svc.party ? ` (${svc.party})` : ""}` : null,
+  svc.oath ? `oath ${fmtDate(svc.oath)}` : null,
+  svc.ended ? `${svc.end_reason ?? "ended"} ${fmtDate(svc.ended)}` : isSitting ? "serving" : null,
+].filter(Boolean);
+
+const bioBits = [
+  bio.born ? `Born ${fmtDate(bio.born)}` : null,
+  bio.died ? `died ${fmtDate(bio.died)}` : null,
+  bio.law_school ? `${bio.law_school}` : null,
+].filter(Boolean);
+---
+
+<Base title={j.name} description={`Voting record and ideology of ${j.name}.`}>
+  <p class="eyebrow">Justice · SCDB {j.scdb.name}</p>
+  <h1>{j.name} {isSitting && <span class="badge">Active</span>}</h1>
+  {serviceBits.length > 0 && <p class="lede" style="margin-bottom:6px">{serviceBits.join(" · ")}</p>}
+  {bioBits.length > 0 && <p class="lede" style="margin-bottom:6px">{bioBits.join(" · ")}</p>}
+  {svc.elevated && (
+    <p class="lede" style="margin-bottom:6px">
+      Elevated to Chief Justice{svc.elevated.appointed_by ? ` by ${svc.elevated.appointed_by}` : ""}
+      {svc.elevated.oath ? `, oath ${fmtDate(svc.elevated.oath)}` : ""}.
+    </p>
+  )}
+  {bio.prior && (
+    <div class="chips" style="margin: 10px 0 4px">
+      {bio.prior.map((p) => <span class="chip">{p}</span>)}
+    </div>
+  )}
+
+  <div class="kpis">
+    <StatTile label="Terms served" value={rec.terms ?? "—"} sub={`${rec.first_term ?? "?"}–${rec.last_term ?? "?"}`} />
+    <StatTile label="Cases voted" value={num(rec.cases)} sub={`${fmtDate(rec.first_decision)} → ${fmtDate(rec.last_decision)}`} />
+    <StatTile label="In the majority" value={rec.majority_share != null ? pct(rec.majority_share, 1) : "—"} sub={`${num(rec.dissents)} dissents`} />
+    <StatTile label="Opinions written" value={num(rec.opinions_written)} />
+    {svc.confirmation_vote && <StatTile label="Confirmation vote" value={svc.confirmation_vote} />}
+  </div>
+
+  {points.length > 0 ? (
+    <section class="card viz">
+      <h3>Ideological trajectory</h3>
+      <p class="viz-sub">
+        Share of {j.name}'s directional votes coded liberal, per term
+        (career: {pct(ideo.career_liberal_share, 1)} liberal across all directional votes).
+      </p>
+      <DivergingColumns
+        points={points}
+        nLabel="directional votes"
+        xLabel="term"
+        caption={`Liberal vote share by term — ${j.name}`}
+      />
+    </section>
+  ) : (
+    <p class="lede">No directional vote data recorded for this justice.</p>
+  )}
+
+  {areas.length > 0 && (
+    <section class="card viz" style="margin-top: 16px">
+      <h3>Lean by issue area</h3>
+      <p class="viz-sub">Career liberal share within each SCDB issue area, largest sample first.</p>
+      <table class="data">
+        <thead>
+          <tr><th>Issue area</th><th>Lean</th><th class="n">Liberal share</th><th class="n">Votes</th></tr>
+        </thead>
+        <tbody>
+          {areas.map((a) => (
+            <tr>
+              <td style="text-transform: capitalize">{label(a.area)}</td>
+              <td>
+                <span
+                  class="dbar"
+                  role="img"
+                  aria-label={`${pct(a.liberal_share)} liberal in ${label(a.area)}`}
+                  data-tip-value={`${pct(a.liberal_share)} liberal`}
+                  data-tip-label={`${label(a.area)} · ${num(a.n)} directional votes`}
+                >
+                  {a.liberal_share >= 0.5
+                    ? <span class="fill lib" style={`width:${((a.liberal_share - 0.5) * 100).toFixed(1)}%`}></span>
+                    : <span class="fill con" style={`width:${((0.5 - a.liberal_share) * 100).toFixed(1)}%`}></span>}
+                </span>
+              </td>
+              <td class="n">{pct(a.liberal_share)}</td>
+              <td class="n">{num(a.n)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  )}
+</Base>

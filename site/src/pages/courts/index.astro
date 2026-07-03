@@ -1,0 +1,36 @@
+---
+import Base from "../../layouts/Base.astro";
+import { courts, byMnemonic } from "../../lib/data.js";
+import { fmtDate } from "../../lib/format.js";
+
+const list = [...courts()].reverse();
+const justiceOf = byMnemonic();
+---
+
+<Base title="Natural courts" description="Every stable membership period of the Supreme Court.">
+  <h1>Natural courts</h1>
+  <p class="lede">
+    A natural court is a period of stable membership. {list.length} compositions, newest
+    first, with first and last decision dates observed in the data.
+  </p>
+
+  {list.map((c) => (
+    <section class="card" style="margin-bottom: 12px">
+      <div style="display:flex; align-items:baseline; gap: 12px; flex-wrap: wrap">
+        <h2 style="margin: 0">{c.chief} Court</h2>
+        <span class="stat-sub">
+          SCDB {c.code} · {fmtDate(c.first_decision)} → {fmtDate(c.last_decision)} ·
+          {c.justices.length} justices
+        </span>
+      </div>
+      <div class="chips" style="margin-top: 10px">
+        {c.justices.map((m) => {
+          const j = justiceOf.get(m);
+          return j
+            ? <a class="chip" href={`/justices/${j.slug}`}>{j.name}</a>
+            : <span class="chip">{m}</span>;
+        })}
+      </div>
+    </section>
+  ))}
+</Base>

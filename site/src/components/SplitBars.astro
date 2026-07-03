@@ -1,0 +1,47 @@
+---
+// Horizontal single-hue bars for the vote-split histogram (magnitude compare).
+// Bars grow from a left baseline: square at base, rounded data-end; the value
+// rides the bar tip (direct label) and the tooltip carries the share.
+const { rows = [], caption = "Vote splits" } = Astro.props;
+const max = Math.max(1, ...rows.map((r) => r.value));
+const total = rows.reduce((s, r) => s + r.value, 0);
+---
+
+<div class="splitbars" role="img" aria-label={caption}>
+  {rows.map((r) => (
+    <div
+      class="sb-row"
+      tabindex="0"
+      data-tip-value={`${r.value.toLocaleString("en-US")} ${r.value === 1 ? "case" : "cases"}`}
+      data-tip-label={`${r.label} · ${total ? Math.round((r.value / total) * 100) : 0}% of recorded splits`}
+    >
+      <span class="sb-label">{r.label}</span>
+      <span class="sb-track">
+        <span class="sb-fill" style={`width:${((r.value / max) * 100).toFixed(1)}%`}></span>
+      </span>
+      <span class="sb-value">{r.value.toLocaleString("en-US")}</span>
+    </div>
+  ))}
+</div>
+
+<style>
+  .splitbars { display: grid; gap: 6px; }
+  .sb-row {
+    display: grid;
+    grid-template-columns: 52px 1fr 56px;
+    align-items: center;
+    gap: 10px;
+  }
+  .sb-row:hover .sb-fill, .sb-row:focus .sb-fill { filter: brightness(1.18); }
+  .sb-row:focus { outline: 2px solid var(--ink); outline-offset: 2px; border-radius: 4px; }
+  .sb-row:focus:not(:focus-visible) { outline: none; }
+  .sb-label { font-size: 12.5px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  .sb-track { height: 14px; }
+  .sb-fill {
+    display: block; height: 100%;
+    background: var(--accent);
+    border-radius: 0 4px 4px 0;
+    min-width: 1px;
+  }
+  .sb-value { font-size: 12.5px; font-variant-numeric: tabular-nums; }
+</style>

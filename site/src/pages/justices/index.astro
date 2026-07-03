@@ -1,0 +1,79 @@
+---
+import Base from "../../layouts/Base.astro";
+import { justiceIndex, meta } from "../../lib/data.js";
+import { pct } from "../../lib/format.js";
+
+const m = meta();
+const lastTerm = m.counts.last_term;
+const justices = justiceIndex();
+const sitting = justices.filter((j) => j.last_term === lastTerm);
+const byRecency = [...justices].sort((a, b) => (b.first_term ?? 0) - (a.first_term ?? 0));
+
+// career share comes from each justice file's ideology block, denormalized into
+// the index at build time? It isn't — so pull it lazily per justice file.
+import { justice } from "../../lib/data.js";
+const share = (slug) => justice(slug)?.ideology?.career_liberal_share ?? null;
+---
+
+<Base title="Justices" description="All 117 justices with voting records and ideology.">
+  <h1>Justices</h1>
+  <p class="lede">
+    Everyone who has cast a recorded vote on the Court — {justices.length} justices across
+    terms {m.counts.first_term}–{lastTerm}. The share bar centers on 50%: blue toward
+    liberal, red toward conservative (SCDB direction conventions).
+  </p>
+
+  <h2>The current court</h2>
+  <div class="chips" style="margin-bottom: 8px">
+    {sitting.map((j) => (
+      <a class="chip" href={`/justices/${j.slug}`}>
+        {j.party && <span class={`dot ${j.party === "Democratic" ? "lib" : "con"}`}></span>}
+        <b>{j.name}</b>
+      </a>
+    ))}
+  </div>
+
+  <h2>All justices</h2>
+  <table class="data">
+    <thead>
+      <tr>
+        <th>Justice</th>
+        <th>Served (terms)</th>
+        <th>Appointed by</th>
+        <th>Career lean</th>
+        <th class="n">Liberal share</th>
+      </tr>
+    </thead>
+    <tbody>
+      {byRecency.map((j) => {
+        const s = share(j.slug);
+        return (
+          <tr>
+            <td><a href={`/justices/${j.slug}`}>{j.name}</a>{j.position === "chief" && <span class="badge" style="margin-left:8px">Chief</span>}</td>
+            <td class="n">{j.first_term}–{j.last_term === lastTerm && !justice(j.slug)?.service?.ended ? "present" : j.last_term}</td>
+            <td>
+              {j.party && <span class={`dot ${j.party === "Democratic" ? "lib" : "con"}`} style="margin-right:6px"></span>}
+            {j.appointed_by ?? "—"}
+            </td>
+            <td>
+              {s != null && (
+                <span
+                  class="dbar"
+                  role="img"
+                  aria-label={`${pct(s)} liberal career share`}
+                  data-tip-value={`${pct(s)} liberal`}
+                  data-tip-label={`${j.name} · career share of directional votes`}
+                >
+                  {s >= 0.5
+                    ? <span class="fill lib" style={`width:${((s - 0.5) * 100).toFixed(1)}%`}></span>
+                    : <span class="fill con" style={`width:${((0.5 - s) * 100).toFixed(1)}%`}></span>}
+                </span>
+              )}
+            </td>
+            <td class="n">{pct(s)}</td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Base>

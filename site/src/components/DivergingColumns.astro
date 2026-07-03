@@ -1,0 +1,130 @@
+---
+// Diverging columns around the 50% baseline: blue above = majority-liberal,
+// red below = majority-conservative (SCDB direction conventions). Sparse
+// input is filled so the x axis stays linear; gaps render as empty slots.
+//
+// points: [{ x: int, value: 0..1 | null, n: int }]
+const {
+  points = [],
+  nLabel = "directional votes",
+  xLabel = "term",
+  height = 170,
+  caption = "Share of liberal outcomes over time",
+} = Astro.props;
+
+const xs = points.map((p) => p.x);
+const minX = Math.min(...xs);
+const maxX = Math.max(...xs);
+const byX = new Map(points.map((p) => [p.x, p]));
+const filled = [];
+for (let x = minX; x <= maxX; x++) filled.push(byX.get(x) ?? { x, value: null, n: 0 });
+
+const count = filled.length;
+const slot = count > 120 ? 4 : count > 40 ? 9 : 18;
+const barW = Math.max(2, Math.min(24, slot - 2));
+const padL = 42, padR = 10, padT = 10, padB = 26;
+const H = height;
+const w = padL + count * slot + padR;
+const h = padT + H + padB;
+const y = (v) => padT + (1 - v) * H;
+const y0 = y(0.5);
+const xTickStep = count > 120 ? 20 : count > 40 ? 10 : 5;
+const focusable = count <= 60;
+
+function barPath(i, v) {
+  const x = padL + i * slot + (slot - barW) / 2;
+  const yv = y(v);
+  const hgt = Math.abs(yv - y0);
+  if (hgt < 0.75) return null; // dead-center: rendered as a neutral tick instead
+  const r = Math.min(3, barW / 2, hgt);
+  if (v > 0.5) {
+    return `M ${x} ${y0} L ${x} ${yv + r} Q ${x} ${yv} ${x + r} ${yv} ` +
+      `L ${x + barW - r} ${yv} Q ${x + barW} ${yv} ${x + barW} ${yv + r} L ${x + barW} ${y0} Z`;
+  }
+  return `M ${x} ${y0} L ${x} ${yv - r} Q ${x} ${yv} ${x + r} ${yv} ` +
+    `L ${x + barW - r} ${yv} Q ${x + barW} ${yv} ${x + barW} ${yv - r} L ${x + barW} ${y0} Z`;
+}
+
+const slots = filled.map((p, i) => {
+  const cx = padL + i * slot;
+  let tipValue, tipLabel, cls = null, path = null, centered = false;
+  if (p.value == null) {
+    tipValue = "no directional data";
+    tipLabel = `${p.x} ${xLabel}`;
+  } else {
+    const libPct = Math.round(p.value * 100);
+    tipValue = p.value >= 0.5 ? `${libPct}% liberal` : `${100 - libPct}% conservative`;
+    tipLabel = `${p.x} ${xLabel} · ${p.n.toLocaleString("en-US")} ${nLabel}`;
+    path = barPath(i, p.value);
+    cls = p.value > 0.5 ? "bar-lib" : p.value < 0.5 ? "bar-con" : "bar-mid";
+    centered = path === null;
+  }
+  return { ...p, i, cx, tipValue, tipLabel, cls, path, centered };
+});
+
+const yTicks = [0, 0.25, 0.5, 0.75, 1];
+const xTicks = slots.filter((s) => s.x % xTickStep === 0);
+const tableId = `t${Math.abs([...caption].reduce((a, c) => a * 31 + c.charCodeAt(0), 7)) % 99999}`;
+---
+
+<figure class="viz" style="margin:0">
+  <div class="viz-scroll">
+    <svg width={w} height={h} viewBox={`0 0 ${w} ${h}`} role="img" aria-label={caption}>
+      <title>{caption}</title>
+      {yTicks.map((t) => (
+        <line
+          class={t === 0.5 ? "baseline-line" : "gridline"}
+          x1={padL} x2={w - padR} y1={y(t)} y2={y(t)}
+        />
+      ))}
+      {yTicks.map((t) => (
+        <text class="tick-text" x={padL - 7} y={y(t) + 3.5} text-anchor="end">
+          {Math.round(t * 100)}%
+        </text>
+      ))}
+      {xTicks.map((s) => (
+        <text class="tick-text" x={s.cx + slot / 2} y={padT + H + 17} text-anchor="middle">
+          {s.x}
+        </text>
+      ))}
+      {slots.map((s) => (
+        <g class="slot">
+          {s.path && <path class={`mark ${s.cls}`} d={s.path} />}
+          {s.centered && (
+            <rect class="mark bar-mid" x={s.cx + (slot - barW) / 2} y={y0 - 1} width={barW} height={2} />
+          )}
+          <rect
+            class="hit"
+            x={s.cx} y={padT} width={slot} height={H}
+            tabindex={focusable ? 0 : undefined}
+            data-tip-value={s.tipValue}
+            data-tip-label={s.tipLabel}
+            aria-label={`${s.tipValue} — ${s.tipLabel}`}
+          />
+        </g>
+      ))}
+    </svg>
+  </div>
+  <div class="viz-legend">
+    <span class="key"><span class="swatch lib"></span>majority liberal (above 50%)</span>
+    <span class="key"><span class="swatch con"></span>majority conservative (below 50%)</span>
+    <span class="key"><span class="swatch mid"></span>even / no data</span>
+  </div>
+  <details class="tableview">
+    <summary>Data table</summary>
+    <table class="data" id={tableId}>
+      <thead>
+        <tr><th>{xLabel}</th><th class="n">liberal share</th><th class="n">{nLabel}</th></tr>
+      </thead>
+      <tbody>
+        {slots.map((s) => (
+          <tr>
+            <td>{s.x}</td>
+            <td class="n">{s.value == null ? "—" : Math.round(s.value * 100) + "%"}</td>
+            <td class="n">{s.n ? s.n.toLocaleString("en-US") : "—"}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </details>
+</figure>
