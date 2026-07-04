@@ -1,0 +1,31 @@
+slug: thomas-johnson
+name: Thomas Johnson
+scdb: {name: TJohnson, id: 7}
+service:
+  position: associate
+  appointed_by: George Washington
+  oath: '1791-11-07'
+  ended: '1793-01-16'
+  end_reason: resigned
+bio:
+  born: '1732-11-04'
+  died: '1819-10-26'
+record:
+  first_decision: '1792-02-14'
+  last_decision: '1793-02-20'
+  first_term: 1792
+  last_term: 1793
+  terms: 2
+  cases: 5
+  majority_share: 0.75
+  dissents: 1
+  opinions_written: 1
+ideology:
+  career_liberal_share: 0.5
+  by_term:
+    1792: {liberal_share: 0.5, n: 4}
+  by_issue_area:
+    judicial-power: {liberal_share: 0.5, n: 4}
+  by_issue_area_term:
+    judicial-power:
+      1792: {liberal_share: 0.5, n: 4}

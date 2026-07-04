@@ -1,0 +1,44 @@
+slug: alfred-moore
+name: Alfred Moore
+scdb: {name: AMoore, id: 13}
+service:
+  position: associate
+  appointed_by: John Adams
+  party: Federalist
+  oath: '1799-12-10'
+  ended: '1804-01-26'
+  end_reason: resigned
+bio:
+  born: '1755-05-21'
+  died: '1810-10-15'
+record:
+  first_decision: '1800-08-01'
+  last_decision: '1803-03-02'
+  first_term: 1800
+  last_term: 1803
+  terms: 3
+  cases: 29
+  majority_share: 1.0
+  dissents: 0
+  opinions_written: 1
+ideology:
+  career_liberal_share: 0.316
+  by_term:
+    1800: {liberal_share: 0.667, n: 3}
+    1801: {liberal_share: 0.333, n: 3}
+    1803: {liberal_share: 0.231, n: 13}
+  by_issue_area:
+    civil-rights: {liberal_share: 1.0, n: 1}
+    economic-activity: {liberal_share: 0.667, n: 6}
+    judicial-power: {liberal_share: 0.083, n: 12}
+  by_issue_area_term:
+    civil-rights:
+      1803: {liberal_share: 1.0, n: 1}
+    economic-activity:
+      1800: {liberal_share: 1.0, n: 2}
+      1801: {liberal_share: 1.0, n: 1}
+      1803: {liberal_share: 0.333, n: 3}
+    judicial-power:
+      1800: {liberal_share: 0.0, n: 1}
+      1801: {liberal_share: 0.0, n: 2}
+      1803: {liberal_share: 0.111, n: 9}

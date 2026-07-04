@@ -594,8 +594,11 @@ def main():
     files = manifest["files"]
 
     curated = {}
+    fjc_path = CURATED_JUSTICES.parent / "justices-fjc.yaml"
+    if fjc_path.exists():  # FJC fallback first; hand-curated entries override
+        curated.update(stringify_dates(yaml.safe_load(fjc_path.read_text()) or {}))
     if CURATED_JUSTICES.exists():
-        curated = stringify_dates(yaml.safe_load(CURATED_JUSTICES.read_text()) or {})
+        curated.update(stringify_dates(yaml.safe_load(CURATED_JUSTICES.read_text()) or {}))
 
     print("pass 1/2: justice-centered vote rows")
     votes_by_case, stats, name_by_id, courts = pass_votes(

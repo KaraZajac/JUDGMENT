@@ -85,8 +85,13 @@ def prepare(df):
     return d, jt_pairs, traj, v_case, v_jt, y, theta0, dem, len(case_ids)
 
 
-def fit(df, iters=20, verbose=True):
-    d, jt_pairs, traj, v_case, v_jt, y, theta, dem, n_cases = prepare(df)
+def fit(df, iters=20, verbose=True, prepared=None, y_override=None, theta_init=None):
+    if prepared is None:
+        prepared = prepare(df)
+    d, jt_pairs, traj, v_case, v_jt, y, theta, dem, n_cases = prepared
+    if y_override is not None:
+        y = y_override
+    theta = theta.copy() if theta_init is None else theta_init.copy()
     beta = np.ones(n_cases)
     alpha = np.zeros(n_cases)
 
@@ -205,6 +210,52 @@ def face_checks(result):
                   f"{g['theta'].iloc[-1]:+.2f} (drift {drift:+.2f})")
 
 
+def bootstrap(df, B=60, refit_iters=8, seed=7):
+    """Parametric bootstrap: simulate votes from the fitted model, refit,
+    collect per-justice-term theta draws -> standard errors."""
+    prepared = prepare(df)
+    d, jt_pairs, traj, v_case, v_jt, y, theta0, dem, n_cases = prepared
+    result, beta, alpha = fit(df, iters=20, verbose=False, prepared=prepared)
+    theta_hat = result["theta"].to_numpy()
+    p_hat = sigmoid(beta[v_case] * theta_hat[v_jt] - alpha[v_case])
+
+    rng = np.random.default_rng(seed)
+    draws = np.zeros((B, len(jt_pairs)))
+    for b in range(B):
+        y_star = (rng.random(len(y)) < p_hat).astype(float)
+        res_b, _, _ = fit(df, iters=refit_iters, verbose=False,
+                          prepared=prepared, y_override=y_star,
+                          theta_init=theta_hat)
+        th = res_b["theta"].to_numpy()
+        if np.corrcoef(th, theta_hat)[0, 1] < 0:  # sign identification per draw
+            th = -th
+        draws[b] = th
+        if (b + 1) % 10 == 0:
+            print(f"  bootstrap {b + 1}/{B}", flush=True)
+
+    se = draws.std(axis=0)
+    out = jt_pairs.copy()
+    out["theta"] = theta_hat
+    out["se"] = se
+    return out
+
+
+def write_se(boot):
+    path = SCORES / "ideal-points.yaml"
+    payload = yaml.safe_load(path.read_text())
+    se_map = {}
+    for jn, g in boot.groupby("justiceName"):
+        se_map[jn] = {int(r.term): round(float(r.se), 3) for r in g.itertuples()}
+    payload["se"] = se_map
+    payload["se_method"] = (f"parametric bootstrap (B={len(se_map) and 'per-run'}, "
+                            "sign-aligned, warm-started refits); see models/ideal_points.py")
+    with open(path, "w") as f:
+        yaml.safe_dump(payload, f, sort_keys=False, width=100)
+    print(f"wrote se for {len(se_map)} justices into data/scores/ideal-points.yaml")
+    print(f"median se {boot['se'].median():.3f} | "
+          f"90th pct {boot['se'].quantile(0.9):.3f}")
+
+
 def build_filtered(df, stride=5, first_eval=1956):
     """theta_lag(j, T) from votes strictly before T, refit every `stride` terms."""
     last_term = int(df["term"].max())
@@ -233,9 +284,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--filtered", action="store_true",
                     help="also build leak-free expanding estimates for modeling")
+    ap.add_argument("--bootstrap", type=int, default=0, metavar="B",
+                    help="parametric-bootstrap standard errors (B refits)")
     args = ap.parse_args()
 
     df = load()
+    if args.bootstrap:
+        print(f"parametric bootstrap, B={args.bootstrap}")
+        boot = bootstrap(df, B=args.bootstrap)
+        write_se(boot)
+        return
+
     print("fitting full-history dynamic ideal points (modern era)")
     result, beta, alpha = fit(df)
     write_scores(result)

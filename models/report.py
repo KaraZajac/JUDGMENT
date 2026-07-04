@@ -217,9 +217,12 @@ def build_report(target):
     a("")
     a("## Limitations (read before citing)")
     a("")
-    a("1. **Vote independence** in the Poisson-binomial case aggregation ignores "
-      "coalition structure; case-level probabilities are overconfident in the "
-      "tails even after vote-level calibration.")
+    a("1. **Coalition structure**: historical case-level metrics in this report "
+      "use independence aggregation; the deployed forecaster now uses a "
+      "two-factor coalition model (valence + signed ideology; "
+      "`models/coalition.py`) that improves out-of-sample split log-loss ~45% "
+      "and roughly matches the unanimity rate. Residual: 5–4 mass is still "
+      "underpredicted (bimodality beyond two factors).")
     a("2. **SCDB conventions**: the reverse/affirm label follows the "
       "disposition-family mapping (partial affirmances count as reverse); the "
       "liberal target inherits the Spaeth direction-coding critiques.")

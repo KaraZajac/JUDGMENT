@@ -86,6 +86,20 @@ remain for richer text sources (lower-court opinions, oral argument). The deploy
 configuration is pinned in `predict.py` (`DEPLOY_CONFIG`) and changes only with
 fresh validation evidence.
 
+**Coalition-aware aggregation (adopted 2026-07).** Case-level distributions no
+longer assume the nine votes are independent: a two-factor probit coalition model
+(shared *valence* factor + *ideology* factor with signed justice loadings)
+preserves the calibrated per-justice marginals exactly and is fit on our own
+cached walk-forward predictions (fit ≤2010, evaluated 2011+): split log-loss
+improves 3.75 → 2.06 (−45%), and the predicted unanimity rate goes from an
+absurd 4% (independence) to 31.5% against an actual 34%. Residual honesty: 5–4
+frequency is still underpredicted. Parameters in `coalition-params.yaml`.
+
+**Ideal-point uncertainty.** `models/ideal_points.py --bootstrap B` attaches
+parametric-bootstrap standard errors to every justice-term estimate
+(sign-aligned, warm-started refits), stored alongside the trajectories in
+`data/scores/ideal-points.yaml`.
+
 **Deployment honesty.** The live forecaster (`predict.py`) uses only the feature
 subset that exists for a granted-but-undecided case, and that exact subset is
 walk-forward validated separately (`--pending-config`) — the full model's

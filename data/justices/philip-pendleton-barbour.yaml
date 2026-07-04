@@ -1,0 +1,73 @@
+slug: philip-pendleton-barbour
+name: Philip Pendleton Barbour
+scdb: {name: PPBarbour, id: 26}
+service:
+  position: associate
+  appointed_by: Andrew Jackson
+  party: Democratic
+  oath: '1836-03-15'
+  ended: '1841-02-25'
+  end_reason: died
+bio:
+  born: '1783-05-25'
+  died: '1841-02-25'
+record:
+  first_decision: '1837-01-14'
+  last_decision: '1841-02-23'
+  first_term: 1837
+  last_term: 1841
+  terms: 5
+  cases: 177
+  majority_share: 0.989
+  dissents: 2
+  opinions_written: 21
+ideology:
+  career_liberal_share: 0.461
+  by_term:
+    1837: {liberal_share: 0.5, n: 12}
+    1838: {liberal_share: 0.25, n: 24}
+    1839: {liberal_share: 0.556, n: 27}
+    1840: {liberal_share: 0.522, n: 23}
+    1841: {liberal_share: 0.5, n: 16}
+  by_issue_area:
+    civil-rights: {liberal_share: 0.556, n: 9}
+    criminal-procedure: {liberal_share: 0.25, n: 4}
+    due-process: {liberal_share: 0.75, n: 4}
+    economic-activity: {liberal_share: 0.5, n: 34}
+    federal-taxation: {liberal_share: 0.4, n: 5}
+    federalism: {liberal_share: 1.0, n: 3}
+    judicial-power: {liberal_share: 0.372, n: 43}
+  by_issue_area_term:
+    civil-rights:
+      1837: {liberal_share: 0.0, n: 1}
+      1838: {liberal_share: 0.0, n: 1}
+      1839: {liberal_share: 0.5, n: 2}
+      1840: {liberal_share: 1.0, n: 3}
+      1841: {liberal_share: 0.5, n: 2}
+    criminal-procedure:
+      1838: {liberal_share: 0.5, n: 2}
+      1839: {liberal_share: 0.0, n: 1}
+      1840: {liberal_share: 0.0, n: 1}
+    due-process:
+      1838: {liberal_share: 0.5, n: 2}
+      1840: {liberal_share: 1.0, n: 1}
+      1841: {liberal_share: 1.0, n: 1}
+    economic-activity:
+      1837: {liberal_share: 1.0, n: 5}
+      1838: {liberal_share: 0.2, n: 5}
+      1839: {liberal_share: 0.5, n: 10}
+      1840: {liberal_share: 0.375, n: 8}
+      1841: {liberal_share: 0.5, n: 6}
+    federal-taxation:
+      1838: {liberal_share: 0.0, n: 1}
+      1839: {liberal_share: 0.5, n: 2}
+      1841: {liberal_share: 0.5, n: 2}
+    federalism:
+      1839: {liberal_share: 1.0, n: 2}
+      1840: {liberal_share: 1.0, n: 1}
+    judicial-power:
+      1837: {liberal_share: 0.167, n: 6}
+      1838: {liberal_share: 0.231, n: 13}
+      1839: {liberal_share: 0.6, n: 10}
+      1840: {liberal_share: 0.444, n: 9}
+      1841: {liberal_share: 0.4, n: 5}

@@ -22,9 +22,12 @@ import numpy as np
 import pandas as pd
 import yaml
 
+from .coalition import quadrature, split_distribution as coalition_split
 from .features import SHRINK_CAREER, SHRINK_ISSUE, SHRINK_RECENT, eb, load
 from .report import fit_final_calibrator
 from .walkforward import PENDING_CONFIG, fit_predict, load_questions
+
+COALITION_PARAMS = Path(__file__).resolve().parent / "coalition-params.yaml"
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "models" / "output"
@@ -191,6 +194,9 @@ def main():
             calibs[target] = lambda p, xs=xs, ys=ys: np.interp(p, xs, ys)
 
         profiles = justice_profiles(train, min(c["term"] for c in pending))
+        if target == "reverse":
+            lean_of = {jn: 2.0 * (0.5 - p["prior_liberal"])
+                       for jn, p in profiles.items()}
         X_pending = pending_rows(profiles, pending, issue_map, lc_map)
         raw = fit_predict(train, X_pending, label,
                           feature_subset=PENDING_CONFIG + extra_features,
@@ -200,11 +206,27 @@ def main():
 
     merged = preds["reverse"].merge(preds["liberal"], on=["caseId", "justiceName"])
 
+    # coalition-aware aggregation (validated: split log-loss 3.75 -> 2.06 vs
+    # independence); falls back to independence if the params file is absent
+    coalition = None
+    if COALITION_PARAMS.exists():
+        cp = yaml.safe_load(COALITION_PARAMS.read_text())
+        coalition = (cp["lam0_valence"], cp["lam1_ideology"], quadrature())
+        aggregation = (f"two-factor coalition (valence {cp['lam0_valence']}, "
+                       f"ideology {cp['lam1_ideology']})")
+    else:
+        aggregation = "independence (Poisson-binomial)"
+
     generated = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for case in pending:
         g = merged[merged["caseId"] == case["id"]]
         probs = g["p_reverse"].to_numpy()
-        dist = split_distribution(probs)
+        if coalition:
+            lam0, lam1, nodes = coalition
+            s = np.array([lean_of.get(jn, 0.0) for jn in g["justiceName"]])
+            dist = coalition_split(probs, s, lam0, lam1, nodes)
+        else:
+            dist = split_distribution(probs)
         need = len(probs) // 2 + 1
         p_case = float(dist[need:].sum())
         coded = issue_map.get(case["id"], {})
@@ -236,6 +258,7 @@ def main():
             },
             "prediction": {
                 "p_reverse": round(p_case, 3),
+                "aggregation": aggregation,
                 "expected_reverse_votes": round(float(probs.sum()), 2),
                 "reverse_vote_distribution": {
                     f"{k}-{len(probs) - k}": round(float(dist[k]), 3)

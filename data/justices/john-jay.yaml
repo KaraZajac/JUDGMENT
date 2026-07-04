@@ -1,0 +1,45 @@
+slug: john-jay
+name: John Jay
+scdb: {name: JJay, id: 1}
+service:
+  position: chief
+  appointed_by: George Washington
+  oath: '1789-09-26'
+  ended: '1795-06-29'
+  end_reason: resigned
+bio:
+  born: '1745-12-12'
+  died: '1829-05-17'
+record:
+  first_decision: '1791-08-03'
+  last_decision: '1795-03-03'
+  first_term: 1791
+  last_term: 1795
+  terms: 5
+  cases: 15
+  majority_share: 1.0
+  dissents: 0
+  opinions_written: 4
+ideology:
+  career_liberal_share: 0.692
+  by_term:
+    1791: {liberal_share: 0.5, n: 2}
+    1792: {liberal_share: 0.75, n: 4}
+    1793: {liberal_share: 0.667, n: 3}
+    1794: {liberal_share: 1.0, n: 1}
+    1795: {liberal_share: 0.667, n: 3}
+  by_issue_area:
+    criminal-procedure: {liberal_share: 1.0, n: 1}
+    federalism: {liberal_share: 1.0, n: 1}
+    judicial-power: {liberal_share: 0.636, n: 11}
+  by_issue_area_term:
+    criminal-procedure:
+      1795: {liberal_share: 1.0, n: 1}
+    federalism:
+      1793: {liberal_share: 1.0, n: 1}
+    judicial-power:
+      1791: {liberal_share: 0.5, n: 2}
+      1792: {liberal_share: 0.75, n: 4}
+      1793: {liberal_share: 0.5, n: 2}
+      1794: {liberal_share: 1.0, n: 1}
+      1795: {liberal_share: 0.5, n: 2}
