@@ -1,7 +1,7 @@
 id: 2026-d25-966
 name: 'Department of Labor v. Sun Valley Orchards, LLC '
 term: 2026
-generated: '2026-07-04T05:01:18Z'
+generated: '2026-07-04T05:50:24Z'
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -19,16 +19,20 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.923
+  p_reverse: 0.738
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
   expected_reverse_votes: 6.46
   reverse_vote_distribution:
-    9-0: 0.049
-    8-1: 0.178
-    7-2: 0.282
-    6-3: 0.26
-    5-4: 0.153
-    4-5: 0.059
-    3-6: 0.015
+    9-0: 0.413
+    8-1: 0.125
+    7-2: 0.078
+    6-3: 0.061
+    5-4: 0.062
+    4-5: 0.061
+    3-6: 0.05
+    2-7: 0.042
+    1-8: 0.048
+    0-9: 0.062
 votes:
 - justice: JGRoberts
   p_reverse: 0.688

@@ -1,7 +1,7 @@
 id: 2026-d25-735
 name: Johnson v. United States Congress
 term: 2026
-generated: '2026-07-04T05:01:18Z'
+generated: '2026-07-04T05:50:24Z'
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -19,17 +19,20 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.794
+  p_reverse: 0.641
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
   expected_reverse_votes: 5.66
   reverse_vote_distribution:
-    9-0: 0.015
-    8-1: 0.08
-    7-2: 0.193
-    6-3: 0.269
-    5-4: 0.238
-    4-5: 0.138
-    3-6: 0.053
-    2-7: 0.013
+    9-0: 0.303
+    8-1: 0.112
+    7-2: 0.091
+    6-3: 0.075
+    5-4: 0.059
+    4-5: 0.061
+    3-6: 0.073
+    2-7: 0.064
+    1-8: 0.061
+    0-9: 0.1
 votes:
 - justice: JGRoberts
   p_reverse: 0.598

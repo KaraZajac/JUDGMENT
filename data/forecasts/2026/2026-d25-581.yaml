@@ -1,7 +1,7 @@
 id: 2026-d25-581
 name: St. Mary Catholic Parish v. Roy
 term: 2026
-generated: '2026-07-04T05:01:18Z'
+generated: '2026-07-04T05:50:24Z'
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -19,16 +19,20 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.923
+  p_reverse: 0.739
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
   expected_reverse_votes: 6.45
   reverse_vote_distribution:
-    9-0: 0.048
-    8-1: 0.175
-    7-2: 0.283
-    6-3: 0.263
-    5-4: 0.154
-    4-5: 0.06
-    3-6: 0.015
+    9-0: 0.402
+    8-1: 0.128
+    7-2: 0.081
+    6-3: 0.063
+    5-4: 0.064
+    4-5: 0.062
+    3-6: 0.051
+    2-7: 0.042
+    1-8: 0.047
+    0-9: 0.059
 votes:
 - justice: JGRoberts
   p_reverse: 0.701

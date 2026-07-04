@@ -1,7 +1,7 @@
 id: 2026-d25-579
 name: Department of the Air Force v. Prutehi Guahan
 term: 2026
-generated: '2026-07-04T05:01:18Z'
+generated: '2026-07-04T05:50:24Z'
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -19,17 +19,20 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.814
+  p_reverse: 0.668
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
   expected_reverse_votes: 5.75
   reverse_vote_distribution:
-    9-0: 0.016
-    8-1: 0.088
-    7-2: 0.205
-    6-3: 0.274
-    5-4: 0.231
-    4-5: 0.128
-    3-6: 0.046
-    2-7: 0.011
+    9-0: 0.293
+    8-1: 0.12
+    7-2: 0.104
+    6-3: 0.09
+    5-4: 0.06
+    4-5: 0.058
+    3-6: 0.061
+    2-7: 0.056
+    1-8: 0.057
+    0-9: 0.1
 votes:
 - justice: JGRoberts
   p_reverse: 0.737

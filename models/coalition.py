@@ -163,12 +163,29 @@ def main():
         print(f"{k:>6} {freq_coal[k]['actual']:>8.3f} "
               f"{freq_ind[k]['predicted']:>8.3f} {freq_coal[k]['predicted']:>10.3f}")
 
+    # binary case-outcome quality under each aggregation (same eval cases)
+    binary = {}
+    for l0, l1, name in ((0.0, 0.0, "independence"), (lam0, lam1, "coalition")):
+        pc, yc = [], []
+        for c in test:
+            dist = split_distribution(c["p"], c["s"], l0, l1, nodes, z=c["z"])
+            need = len(c["p"]) // 2 + 1
+            pc.append(dist[need:].sum())
+            yc.append(1.0 if c["k"] >= need else 0.0)
+        pc, yc = np.array(pc), np.array(yc)
+        binary[name] = {
+            "accuracy": float(round(((pc >= 0.5) == yc).mean(), 4)),
+            "brier": float(round(((pc - yc) ** 2).mean(), 4)),
+        }
+    print(f"binary case outcome: {binary}")
+
     payload = {
         "lam0_valence": float(round(lam0, 3)),
         "lam1_ideology": float(round(lam1, 3)),
         "fit_through_term": FIT_THROUGH,
         "eval_split_logloss": {"independence": float(round(ind_ll, 4)),
                                "coalition": float(round(coal_ll, 4))},
+        "eval_case_binary": binary,
         "eval_split_frequencies": {"independence": freq_ind, "coalition": freq_coal},
         "definition": "vote_j|(u,v) ~ Bern(Phi(mu_j + lam0*u + lam1*s_j*v)); "
                       "marginals preserved exactly; s_j = 2*(0.5 - prior_liberal_j)",

@@ -1,0 +1,78 @@
+lam0_valence: 1.85
+lam1_ideology: 2.15
+fit_through_term: 2010
+eval_split_logloss:
+  independence: 3.7523
+  coalition: 2.0644
+eval_split_frequencies:
+  independence:
+    9-0:
+      predicted: 0.0442
+      actual: 0.3403
+    8-1:
+      predicted: 0.1275
+      actual: 0.0665
+    7-2:
+      predicted: 0.2063
+      actual: 0.0756
+    6-3:
+      predicted: 0.2327
+      actual: 0.1173
+    5-4:
+      predicted: 0.1934
+      actual: 0.1278
+    4-5:
+      predicted: 0.1197
+      actual: 0.0626
+    3-6:
+      predicted: 0.0545
+      actual: 0.06
+    2-7:
+      predicted: 0.0176
+      actual: 0.0313
+    1-8:
+      predicted: 0.0037
+      actual: 0.0156
+    0-9:
+      predicted: 0.0004
+      actual: 0.103
+  coalition:
+    9-0:
+      predicted: 0.3148
+      actual: 0.3403
+    8-1:
+      predicted: 0.1202
+      actual: 0.0665
+    7-2:
+      predicted: 0.0935
+      actual: 0.0756
+    6-3:
+      predicted: 0.0835
+      actual: 0.1173
+    5-4:
+      predicted: 0.0723
+      actual: 0.1278
+    4-5:
+      predicted: 0.0643
+      actual: 0.0626
+    3-6:
+      predicted: 0.0584
+      actual: 0.06
+    2-7:
+      predicted: 0.054
+      actual: 0.0313
+    1-8:
+      predicted: 0.0546
+      actual: 0.0156
+    0-9:
+      predicted: 0.0844
+      actual: 0.103
+definition: vote_j|(u,v) ~ Bern(Phi(mu_j + lam0*u + lam1*s_j*v)); marginals preserved
+  exactly; s_j = 2*(0.5 - prior_liberal_j)
+eval_case_binary:
+  independence:
+    accuracy: 0.6902
+    brier: 0.2272
+  coalition:
+    accuracy: 0.6956
+    brier: 0.2105

@@ -1,7 +1,7 @@
 id: 2025-d24-38
 name: Little v. Hecox
 term: 2025
-generated: '2026-07-04T05:01:18Z'
+generated: '2026-07-04T05:50:24Z'
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -19,17 +19,20 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.831
+  p_reverse: 0.689
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
   expected_reverse_votes: 5.78
   reverse_vote_distribution:
-    9-0: 0.014
-    8-1: 0.082
-    7-2: 0.209
-    6-3: 0.288
-    5-4: 0.237
-    4-5: 0.122
-    3-6: 0.039
-    2-7: 0.008
+    9-0: 0.247
+    8-1: 0.121
+    7-2: 0.115
+    6-3: 0.127
+    5-4: 0.079
+    4-5: 0.069
+    3-6: 0.063
+    2-7: 0.054
+    1-8: 0.052
+    0-9: 0.072
 votes:
 - justice: JGRoberts
   p_reverse: 0.752

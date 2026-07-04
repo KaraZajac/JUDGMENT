@@ -1,7 +1,7 @@
 id: 2025-d25-498
 name: Anderson v. Intel Corporation Investment Policy Committee
 term: 2025
-generated: '2026-07-04T05:01:18Z'
+generated: '2026-07-04T05:50:24Z'
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -19,17 +19,20 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.833
+  p_reverse: 0.661
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
   expected_reverse_votes: 5.87
   reverse_vote_distribution:
-    9-0: 0.02
-    8-1: 0.1
-    7-2: 0.218
-    6-3: 0.274
-    5-4: 0.22
-    4-5: 0.116
-    3-6: 0.04
-    2-7: 0.009
+    9-0: 0.332
+    8-1: 0.116
+    7-2: 0.089
+    6-3: 0.068
+    5-4: 0.056
+    4-5: 0.063
+    3-6: 0.072
+    2-7: 0.057
+    1-8: 0.057
+    0-9: 0.09
 votes:
 - justice: JGRoberts
   p_reverse: 0.655

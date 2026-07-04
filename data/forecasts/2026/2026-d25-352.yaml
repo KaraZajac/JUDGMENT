@@ -1,7 +1,7 @@
 id: 2026-d25-352
 name: Younge v. Fulton Judicial Circuit District Attorney's Office, Georgia
 term: 2026
-generated: '2026-07-04T05:01:18Z'
+generated: '2026-07-04T05:50:24Z'
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -18,15 +18,20 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.974
+  p_reverse: 0.824
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
   expected_reverse_votes: 7.07
   reverse_vote_distribution:
-    9-0: 0.113
-    8-1: 0.279
-    7-2: 0.307
-    6-3: 0.196
-    5-4: 0.08
-    4-5: 0.022
+    9-0: 0.503
+    8-1: 0.123
+    7-2: 0.078
+    6-3: 0.069
+    5-4: 0.051
+    4-5: 0.035
+    3-6: 0.032
+    2-7: 0.035
+    1-8: 0.033
+    0-9: 0.041
 votes:
 - justice: JGRoberts
   p_reverse: 0.829

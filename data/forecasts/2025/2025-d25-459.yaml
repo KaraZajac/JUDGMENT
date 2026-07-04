@@ -1,7 +1,7 @@
 id: 2025-d25-459
 name: Salazar v. Paramount Global
 term: 2025
-generated: '2026-07-04T05:01:18Z'
+generated: '2026-07-04T05:50:24Z'
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -19,17 +19,20 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.863
+  p_reverse: 0.685
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
   expected_reverse_votes: 6.02
   reverse_vote_distribution:
-    9-0: 0.025
-    8-1: 0.117
-    7-2: 0.238
-    6-3: 0.278
-    5-4: 0.205
-    4-5: 0.099
-    3-6: 0.031
-    2-7: 0.006
+    9-0: 0.334
+    8-1: 0.127
+    7-2: 0.095
+    6-3: 0.069
+    5-4: 0.06
+    4-5: 0.068
+    3-6: 0.067
+    2-7: 0.05
+    1-8: 0.053
+    0-9: 0.078
 votes:
 - justice: JGRoberts
   p_reverse: 0.67

@@ -1,7 +1,7 @@
 id: 2026-d25-297
 name: Zorn v. Linton
 term: 2026
-generated: '2026-07-04T05:01:18Z'
+generated: '2026-07-04T05:50:24Z'
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -18,15 +18,20 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.993
+  p_reverse: 0.869
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
   expected_reverse_votes: 7.57
   reverse_vote_distribution:
-    9-0: 0.211
-    8-1: 0.359
-    7-2: 0.271
-    6-3: 0.119
-    5-4: 0.034
-    4-5: 0.006
+    9-0: 0.599
+    8-1: 0.117
+    7-2: 0.075
+    6-3: 0.048
+    5-4: 0.032
+    4-5: 0.031
+    3-6: 0.031
+    2-7: 0.024
+    1-8: 0.02
+    0-9: 0.025
 votes:
 - justice: JGRoberts
   p_reverse: 0.851

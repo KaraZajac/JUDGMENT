@@ -1,7 +1,7 @@
 id: 2026-d25-5930
 name: Maxwell v. Thomas
 term: 2026
-generated: '2026-07-04T05:01:18Z'
+generated: '2026-07-04T05:50:24Z'
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -19,17 +19,20 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.815
+  p_reverse: 0.642
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
   expected_reverse_votes: 5.72
   reverse_vote_distribution:
-    9-0: 0.013
-    8-1: 0.078
-    7-2: 0.199
-    6-3: 0.282
-    5-4: 0.242
-    4-5: 0.131
-    3-6: 0.044
-    2-7: 0.009
+    9-0: 0.271
+    8-1: 0.118
+    7-2: 0.096
+    6-3: 0.083
+    5-4: 0.074
+    4-5: 0.081
+    3-6: 0.098
+    2-7: 0.061
+    1-8: 0.053
+    0-9: 0.066
 votes:
 - justice: JGRoberts
   p_reverse: 0.598
