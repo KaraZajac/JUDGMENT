@@ -151,7 +151,7 @@ Katz, Bommarito & Blackman (2017, *PLOS ONE*) report **71.9% justice-vote / 70.2
 
 ## Limitations (read before citing)
 
-1. **Vote independence** in the Poisson-binomial case aggregation ignores coalition structure; case-level probabilities are overconfident in the tails even after vote-level calibration.
+1. **Coalition structure**: historical case-level metrics in this report use independence aggregation; the deployed forecaster now uses a two-factor coalition model (valence + signed ideology; `models/coalition.py`) that improves out-of-sample split log-loss ~45% and roughly matches the unanimity rate. Residual: 5–4 mass is still underpredicted (bimodality beyond two factors).
 2. **SCDB conventions**: the reverse/affirm label follows the disposition-family mapping (partial affirmances count as reverse); the liberal target inherits the Spaeth direction-coding critiques.
 3. **Issue area is coded post-hoc** by SCDB from the opinion. Treating it as a cert-stage feature follows the literature (KBB) but is optimistic for truly pre-decision forecasting; the pending-docket forecaster uses hand-coded provisional issue areas and documents them.
 4. **Docket selection drift**: the discretionary docket shrank ~150→60 cases/term across the window; per-decade results are the honest view.

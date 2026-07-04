@@ -178,9 +178,12 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
     from terms strictly before the prediction; nothing downstream of the vote is used).
     Validation is walk-forward by term — train on everything before term T, predict term T,
     repeat 1956–2024 — against base-rate, justice-history, and attitudinal baselines with
-    exact McNemar tests. Case probabilities aggregate the nine per-justice probabilities by
-    Poisson-binomial majority. Ideal-point trajectories (a penalized-ML Martin–Quinn
-    variant) live on each justice's page dataset and in <code>data/scores/</code>.
+    exact McNemar tests. Case probabilities aggregate the nine per-justice probabilities
+    with a two-factor coalition model (shared valence + signed-ideology factors,
+    marginals preserved exactly) — validated to cut split-distribution log-loss 45%
+    versus independence and improve binary outcomes too. Ideal-point trajectories
+    (a penalized-ML Martin–Quinn variant, with bootstrap standard errors) live on each
+    justice's page and in <code>data/scores/</code>.
   </p>
 </Base>
 

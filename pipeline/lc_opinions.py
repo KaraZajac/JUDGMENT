@@ -32,20 +32,29 @@ from .interim import docket_slug, fetch_json, scotus_docket
 # CI harvest tranches need persistence across runs.
 LC_DIR = DATA / "text" / "lc"
 
-# CourtListener free-tier limits: 5/min, 50/hr, 125/day. Space authenticated
-# calls at 13s (≈4.6/min) and retry once after a full minute on 429. Cached
-# responses cost nothing, so resumed runs skip already-fetched cases.
-CL_SPACING_S = 13.0
-_last_cl_call = [0.0]
+# CourtListener free-tier limits: 5/min, 50/hr, 125/day. A rolling-window
+# limiter keeps us at <=4/min AND <=45/hr (headroom under both caps — the
+# first tranche died on the hour cap, not the minute cap). Cached responses
+# cost nothing, so resumed runs skip already-fetched cases.
+MINUTE_MAX, HOUR_MAX = 4, 45
+_call_times = []
 cl_requests_made = [0]
 
 
 def _throttle():
     import time as _t
-    wait = CL_SPACING_S - (_t.monotonic() - _last_cl_call[0])
-    if wait > 0:
-        _t.sleep(wait)
-    _last_cl_call[0] = _t.monotonic()
+    while True:
+        now = _t.monotonic()
+        _call_times[:] = [t for t in _call_times if now - t < 3600]
+        last_min = [t for t in _call_times if now - t < 60]
+        if len(last_min) >= MINUTE_MAX:
+            _t.sleep(60 - (now - last_min[0]) + 0.5)
+            continue
+        if len(_call_times) >= HOUR_MAX:
+            _t.sleep(3600 - (now - _call_times[0]) + 1)
+            continue
+        _call_times.append(now)
+        return
 
 CIRCUITS = {
     "first circuit": "ca1", "second circuit": "ca2", "third circuit": "ca3",
@@ -73,10 +82,9 @@ def cl_get(url, cache_name, refresh=False):
     try:
         return fetch_json(url, cache_name, refresh, headers)
     except HTTPError as e:
-        if e.code == 429:  # over the per-minute window: wait it out once
+        if e.code == 429:  # residual throttle: wait a couple of minutes, retry once
             import time as _t
-            _t.sleep(65)
-            _last_cl_call[0] = _t.monotonic()
+            _t.sleep(130)
             cl_requests_made[0] += 1
             return fetch_json(url, cache_name, refresh, headers)
         raise
