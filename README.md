@@ -1,6 +1,6 @@
-# JUDGEMENT
+# JUDGMENT
 
-**A statistical model of every U.S. Supreme Court judgement — every justice, every
+**A statistical model of every U.S. Supreme Court judgment — every justice, every
 vote, every opinion — built toward forecasting how the Court will rule.**
 
 This repository contains, as browsable YAML:

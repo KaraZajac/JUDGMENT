@@ -44,7 +44,7 @@ from . import _env  # noqa: F401  (loads .env: COURTLISTENER_TOKEN etc.)
 from .build import DATA, SOURCES, dump_yaml, put
 
 CACHE = SOURCES / "interim"
-UA = "JUDGEMENT-pipeline/0.1 (academic research)"
+UA = "JUDGMENT-pipeline/0.1 (academic research)"
 BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"  # supremecourt.gov blocks bot UAs
 ET = ZoneInfo("America/New_York")
 SET_FOR_ARGUMENT_RE = re.compile(

@@ -1,4 +1,4 @@
-"""JUDGEMENT ETL pipeline: SCDB raw files -> YAML dataset under data/.
+"""JUDGMENT ETL pipeline: SCDB raw files -> YAML dataset under data/.
 
 Run from the repo root:
 

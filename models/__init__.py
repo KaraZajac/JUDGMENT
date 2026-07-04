@@ -1,4 +1,4 @@
-"""JUDGEMENT prediction engine.
+"""JUDGMENT prediction engine.
 
 Run from the repo root with the modeling venv:
 

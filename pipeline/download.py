@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "sources"
 BASE = "http://scdb.wustl.edu/_brickFiles"
 UNITS = ("caseCentered_Citation", "justiceCentered_Citation")
-UA = "JUDGEMENT-pipeline/0.1 (academic research)"
+UA = "JUDGMENT-pipeline/0.1 (academic research)"
 
 
 def _exists(url: str) -> bool:

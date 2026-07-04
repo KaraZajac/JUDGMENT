@@ -2,7 +2,7 @@
 import "../styles/global.css";
 import { meta } from "../lib/data.js";
 
-const { title = "JUDGEMENT", description = "" } = Astro.props;
+const { title = "JUDGMENT", description = "" } = Astro.props;
 const m = meta();
 const path = Astro.url.pathname;
 const current = (p) => (path === p || path.startsWith(p + "/") ? "true" : undefined);
@@ -14,13 +14,13 @@ const current = (p) => (path === p || path.startsWith(p + "/") ? "true" : undefi
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
     {description && <meta name="description" content={description} />}
-    <title>{title} · JUDGEMENT</title>
+    <title>{title} · JUDGMENT</title>
     <script is:inline src="/tooltip.js" defer></script>
   </head>
   <body>
     <header class="site-head">
       <div class="wrap">
-        <a class="brand" href="/">JUDGEMENT</a>
+        <a class="brand" href="/">JUDGMENT</a>
         <nav class="site-nav">
           <a href="/predict" aria-current={current("/predict")}>Predict</a>
           <a href="/justices" aria-current={current("/justices")}>Justices</a>
