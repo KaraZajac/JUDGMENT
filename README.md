@@ -3,7 +3,7 @@
 **A statistical model of every U.S. Supreme Court judgment — every justice, every
 vote, every opinion — built toward forecasting how the Court will rule.**
 
-**Live site: [karazajac.github.io/JUDGMENT](https://karazajac.github.io/JUDGMENT/)** —
+**Live site: [judgment.karazajac.io](https://judgment.karazajac.io/)** —
 browse every case since 1791, justice ideology trajectories, and calibrated
 forecasts for the pending docket, publicly timestamped before the Court rules.
 

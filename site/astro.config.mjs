@@ -4,8 +4,9 @@ import { defineConfig } from "astro/config";
 // Dev mode renders pages on demand, so the ~29k case routes cost nothing
 // until visited; a full `astro build` prerenders everything.
 export default defineConfig({
-  // GitHub Pages serves the project site under /JUDGMENT/ — CI sets PAGES_BASE.
-  // Local dev and preview stay at the root.
-  site: process.env.PAGES_SITE || "http://localhost:4321",
+  // Deployed at the root of judgment.karazajac.io — no base path needed.
+  // PAGES_BASE/PAGES_SITE env overrides remain for any future subpath host;
+  // internal links all go through url() in src/lib/format.js either way.
+  site: process.env.PAGES_SITE || "https://judgment.karazajac.io",
   base: process.env.PAGES_BASE || undefined,
 });
