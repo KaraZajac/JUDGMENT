@@ -1,0 +1,50 @@
+name: lc-harvest
+
+# Daily budgeted tranche of the lower-court opinion harvest (CourtListener
+# free tier: 125 requests/day; each run spends <=100, spaced 13s apart, and
+# resumes from the committed manifest). Deletes itself from the schedule by
+# simply finding nothing left to fetch once the 2017-2024 corpus is matched.
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # daily 09:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    env:
+      COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Download SCDB sources (case list for matching)
+        run: python -m pipeline.download
+
+      - name: Harvest one budgeted tranche
+        run: python -m pipeline.lc_opinions --harvest --start 2017 --budget 100
+
+      - name: Refresh pending lower-court opinions (cheap, cached)
+        run: python -m pipeline.lc_opinions --pending
+
+      - name: Commit new matches
+        run: |
+          git config user.name "judgement-lc-harvest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/text
+          if git diff --cached --quiet -I'^generated:'; then
+            echo "no new matches"
+          else
+            git commit -m "chore: lc-opinion harvest tranche (automated)"
+            git push
+          fi

@@ -28,7 +28,9 @@ from . import _env  # noqa: F401
 from .build import DATA, SOURCES, clean, read_rows, to_int
 from .interim import docket_slug, fetch_json, scotus_docket
 
-LC_DIR = SOURCES / "lc"
+# Committed with the dataset: court opinions are public-domain text, and the
+# CI harvest tranches need persistence across runs.
+LC_DIR = DATA / "text" / "lc"
 
 # CourtListener free-tier limits: 5/min, 50/hr, 125/day. Space authenticated
 # calls at 13s (≈4.6/min) and retry once after a full minute on 429. Cached
