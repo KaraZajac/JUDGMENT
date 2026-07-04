@@ -136,6 +136,7 @@ After prospective isotonic recalibration (fitted per term on strictly earlier ou
 |---|---|---|---|---|---|---|
 | cert-stage subset | 67047 | 0.6438 | 0.2242 | 0.6404 | 0.6005 | 0.0384 |
 | + lower-court direction (hand-codable) | 67047 | 0.6783 | 0.2076 | 0.6033 | 0.6863 | 0.0291 |
+| + lc + recent topic lean (deployed) | 67047 | 0.6790 | 0.2069 | 0.6017 | 0.6882 | 0.0300 |
 | + question-text LSA | 67047 | 0.6391 | 0.2275 | 0.6498 | 0.6011 | 0.0581 |
 | + lc direction + text (interaction test) | 67047 | 0.6764 | 0.2099 | 0.6110 | 0.6841 | 0.0461 |
 | full config + text (1990–2024) | 24235 | 0.6521 | 0.2203 | 0.6338 | 0.6446 | 0.0674 |

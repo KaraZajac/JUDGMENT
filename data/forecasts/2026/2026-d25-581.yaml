@@ -1,10 +1,10 @@
 id: 2026-d25-581
 name: St. Mary Catholic Parish v. Roy
 term: 2026
-generated: '2026-07-04T04:40:56Z'
+generated: '2026-07-04T05:01:18Z'
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc, walk-forward
-    validated)
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
+    walk-forward validated)
   trained_through_term: 2024
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
@@ -19,41 +19,41 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.939
-  expected_reverse_votes: 6.6
+  p_reverse: 0.923
+  expected_reverse_votes: 6.45
   reverse_vote_distribution:
-    9-0: 0.058
-    8-1: 0.199
-    7-2: 0.295
-    6-3: 0.251
-    5-4: 0.136
-    4-5: 0.048
-    3-6: 0.011
+    9-0: 0.048
+    8-1: 0.175
+    7-2: 0.283
+    6-3: 0.263
+    5-4: 0.154
+    4-5: 0.06
+    3-6: 0.015
 votes:
 - justice: JGRoberts
-  p_reverse: 0.727
-  p_liberal: 0.669
+  p_reverse: 0.701
+  p_liberal: 0.74
 - justice: CThomas
-  p_reverse: 0.613
-  p_liberal: 0.458
+  p_reverse: 0.598
+  p_liberal: 0.549
 - justice: SAAlito
-  p_reverse: 0.66
-  p_liberal: 0.554
+  p_reverse: 0.655
+  p_liberal: 0.653
 - justice: SSotomayor
-  p_reverse: 0.808
-  p_liberal: 0.782
+  p_reverse: 0.772
+  p_liberal: 0.781
 - justice: EKagan
-  p_reverse: 0.83
-  p_liberal: 0.735
+  p_reverse: 0.815
+  p_liberal: 0.812
 - justice: NMGorsuch
-  p_reverse: 0.727
-  p_liberal: 0.653
+  p_reverse: 0.693
+  p_liberal: 0.667
 - justice: BMKavanaugh
-  p_reverse: 0.741
-  p_liberal: 0.653
+  p_reverse: 0.717
+  p_liberal: 0.718
 - justice: ACBarrett
-  p_reverse: 0.68
-  p_liberal: 0.669
+  p_reverse: 0.676
+  p_liberal: 0.667
 - justice: KBJackson
-  p_reverse: 0.808
-  p_liberal: 0.811
+  p_reverse: 0.819
+  p_liberal: 0.812

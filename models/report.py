@@ -168,6 +168,7 @@ def build_report(target):
         rows = [block_row("cert-stage subset", pc["vote_level"]["model"])]
         for label_, suffix_ in (
             ("+ lower-court direction (hand-codable)", "pending-config-lc"),
+            ("+ lc + recent topic lean (deployed)", "pending-config-lc-issue3t"),
             ("+ question-text LSA", "pending-config-text"),
             ("+ lc direction + text (interaction test)", "pending-config-lc-text"),
         ):

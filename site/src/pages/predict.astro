@@ -52,12 +52,12 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
   <p class="lede">
     Calibrated probabilities for every granted-but-undecided case, from the
     walk-forward-validated engine in <code>models/</code>. The deployed configuration uses
-    cert-stage features only — justice history, hand-coded issue area and lower-court
-    direction, party flags — and is validated at <b>67.8%</b> per-vote accuracy over
-    1956–2024 (it outperforms the full-SCDB research configuration's 66.8%: the lean
-    subset plus the decision below beats the noisy codings). Question-text features were
-    tested twice and rejected. Probabilities are isotonic-calibrated — details and
-    limitations in <code>models/output/report-reverse.md</code>.
+    cert-stage features only — justice history including recent topic-level lean,
+    hand-coded issue area and lower-court direction, party flags — validated at
+    <b>67.9%</b> per-vote accuracy (Brier 0.207) over 1956–2024, outperforming the
+    full-SCDB research configuration (66.8%). Question-text features were tested twice
+    and rejected. Probabilities are isotonic-calibrated — details and limitations in
+    <code>models/output/report-reverse.md</code>.
   </p>
   <p class="notice">
     Issue areas and lower-court directions for pending cases are provisional hand-codings

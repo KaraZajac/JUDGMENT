@@ -69,6 +69,13 @@ add more variance than signal. Per-justice forecasts now carry the attitudinal
 structure (conservatives high P(reverse) on liberal rulings below, inverted on
 conservative ones).
 
+**Recent topic lean (adopted 2026-07).** The justice's last-3-terms liberal share
+within the case's issue area (`prior_issue_liberal_3t`) — the "topic trend"
+hypothesis. Marginal but consistent gain on the primary target (reverse Brier
+0.2076 → 0.2069, AUC 0.686 → 0.688, accuracy within noise; liberal target a wash);
+adopted on probability-quality grounds. Per-justice topic trajectories are also
+visualized on every justice page ("Voting by topic over time").
+
 **Text features (tested twice, not deployed).** Question-presented text —
 cert-stage by construction — was harvested for 3,418 historical cases
 (`pipeline/questions.py`) and entered as leakage-safe per-step TF-IDF/LSA

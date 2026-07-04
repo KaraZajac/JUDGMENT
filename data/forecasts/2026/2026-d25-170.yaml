@@ -1,10 +1,10 @@
 id: 2026-d25-170
 name: Suncor Energy (U.S.A.) Inc. v. County Commissioners of Boulder County
 term: 2026
-generated: '2026-07-04T04:40:56Z'
+generated: '2026-07-04T05:01:18Z'
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc, walk-forward
-    validated)
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
+    walk-forward validated)
   trained_through_term: 2024
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
@@ -19,41 +19,42 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.89
-  expected_reverse_votes: 6.2
+  p_reverse: 0.835
+  expected_reverse_votes: 5.87
   reverse_vote_distribution:
-    9-0: 0.033
-    8-1: 0.14
-    7-2: 0.259
-    6-3: 0.274
-    5-4: 0.184
-    4-5: 0.081
-    3-6: 0.024
+    9-0: 0.02
+    8-1: 0.1
+    7-2: 0.219
+    6-3: 0.276
+    5-4: 0.22
+    4-5: 0.115
+    3-6: 0.04
+    2-7: 0.009
 votes:
 - justice: JGRoberts
-  p_reverse: 0.754
-  p_liberal: 0.213
+  p_reverse: 0.693
+  p_liberal: 0.229
 - justice: CThomas
-  p_reverse: 0.741
-  p_liberal: 0.197
+  p_reverse: 0.693
+  p_liberal: 0.202
 - justice: SAAlito
-  p_reverse: 0.724
-  p_liberal: 0.197
+  p_reverse: 0.688
+  p_liberal: 0.19
 - justice: SSotomayor
-  p_reverse: 0.574
-  p_liberal: 0.323
+  p_reverse: 0.528
+  p_liberal: 0.423
 - justice: EKagan
-  p_reverse: 0.601
-  p_liberal: 0.323
+  p_reverse: 0.55
+  p_liberal: 0.387
 - justice: NMGorsuch
-  p_reverse: 0.727
-  p_liberal: 0.175
+  p_reverse: 0.693
+  p_liberal: 0.202
 - justice: BMKavanaugh
-  p_reverse: 0.748
-  p_liberal: 0.126
+  p_reverse: 0.754
+  p_liberal: 0.141
 - justice: ACBarrett
-  p_reverse: 0.741
-  p_liberal: 0.172
+  p_reverse: 0.717
+  p_liberal: 0.185
 - justice: KBJackson
-  p_reverse: 0.589
-  p_liberal: 0.361
+  p_reverse: 0.55
+  p_liberal: 0.443

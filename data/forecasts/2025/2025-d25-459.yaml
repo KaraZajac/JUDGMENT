@@ -1,10 +1,10 @@
 id: 2025-d25-459
 name: Salazar v. Paramount Global
 term: 2025
-generated: '2026-07-04T04:40:56Z'
+generated: '2026-07-04T05:01:18Z'
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc, walk-forward
-    validated)
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
+    walk-forward validated)
   trained_through_term: 2024
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
@@ -19,41 +19,42 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.934
-  expected_reverse_votes: 6.52
+  p_reverse: 0.863
+  expected_reverse_votes: 6.02
   reverse_vote_distribution:
-    9-0: 0.049
-    8-1: 0.184
-    7-2: 0.293
-    6-3: 0.262
-    5-4: 0.145
-    4-5: 0.052
-    3-6: 0.012
+    9-0: 0.025
+    8-1: 0.117
+    7-2: 0.238
+    6-3: 0.278
+    5-4: 0.205
+    4-5: 0.099
+    3-6: 0.031
+    2-7: 0.006
 votes:
 - justice: JGRoberts
-  p_reverse: 0.741
-  p_liberal: 0.529
+  p_reverse: 0.67
+  p_liberal: 0.549
 - justice: CThomas
-  p_reverse: 0.574
-  p_liberal: 0.36
+  p_reverse: 0.528
+  p_liberal: 0.356
 - justice: SAAlito
-  p_reverse: 0.527
-  p_liberal: 0.361
+  p_reverse: 0.525
+  p_liberal: 0.374
 - justice: SSotomayor
-  p_reverse: 0.79
-  p_liberal: 0.669
+  p_reverse: 0.763
+  p_liberal: 0.74
 - justice: EKagan
-  p_reverse: 0.808
-  p_liberal: 0.669
+  p_reverse: 0.763
+  p_liberal: 0.667
 - justice: NMGorsuch
-  p_reverse: 0.68
-  p_liberal: 0.417
+  p_reverse: 0.663
+  p_liberal: 0.493
 - justice: BMKavanaugh
-  p_reverse: 0.79
-  p_liberal: 0.504
+  p_reverse: 0.67
+  p_liberal: 0.549
 - justice: ACBarrett
-  p_reverse: 0.756
-  p_liberal: 0.562
+  p_reverse: 0.676
+  p_liberal: 0.549
 - justice: KBJackson
-  p_reverse: 0.849
-  p_liberal: 0.669
+  p_reverse: 0.763
+  p_liberal: 0.748

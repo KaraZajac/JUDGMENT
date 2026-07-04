@@ -38,6 +38,7 @@ CONFIGS = {
     "pending_config": ([], False),
     "pending_config_lc": (["lc_direction"], False),
     "pending_config_lc_text": (["lc_direction"], True),
+    "pending_config_lc_issue3t": (["lc_direction", "prior_issue_liberal_3t"], False),
 }
 
 # The deployed configuration is PINNED to the walk-forward winner, never
@@ -45,8 +46,10 @@ CONFIGS = {
 # (report-reverse.md § deployment configuration). History: text-only REJECTED
 # 2026-07 (reverse 64.4% -> 63.9%); lc_direction ADOPTED 2026-07 (64.4% ->
 # 67.8%, beats the full research config); lc+text interaction REJECTED
-# (67.6% < 67.8%). Pending-case lc values are hand-coded in pending_lc.yaml.
-DEPLOY_CONFIG = "pending_config_lc"
+# (67.6% < 67.8%); recent topic-lean (issue3t) ADOPTED 2026-07 on probability
+# quality (reverse Brier 0.2076 -> 0.2069, AUC 0.686 -> 0.688; accuracy within
+# noise). Pending-case lc values hand-coded in pending_lc.yaml.
+DEPLOY_CONFIG = "pending_config_lc_issue3t"
 
 SITTING = ["JGRoberts", "CThomas", "SAAlito", "SSotomayor", "EKagan",
            "NMGorsuch", "BMKavanaugh", "ACBarrett", "KBJackson"]
@@ -73,6 +76,10 @@ def justice_profiles(df, pending_term):
             r = gi["y_liberal"]
             career = eb(lib.sum(), len(lib), g_lib, SHRINK_CAREER)
             issue_rates[float(area)] = float(eb(r.sum(), len(r), career, SHRINK_ISSUE))
+        issue3_rates = {}
+        for area, gi in h3.dropna(subset=["y_liberal", "issue_area"]).groupby("issue_area"):
+            r = gi["y_liberal"]
+            issue3_rates[float(area)] = float(eb(r.sum(), len(r), g_lib, SHRINK_ISSUE))
         profiles[jn] = {
             "justice_cat": float(h["justice_cat"].iloc[-1]) if len(h) else np.nan,
             "tenure": float(pending_term - h["term"].min()) if len(h) else 0.0,
@@ -88,6 +95,7 @@ def justice_profiles(df, pending_term):
             "prior_dissent_rate": float(h["prior_dissent_rate"].iloc[-1]) if len(h) else np.nan,
             "court_prior_reverse_3t": float(court_rev_3t),
             "_issue_liberal": issue_rates,
+            "_issue_liberal_3t": issue3_rates,
             "_career_liberal": float(eb(lib.sum(), len(lib), g_lib, SHRINK_CAREER)),
         }
     return profiles
@@ -120,6 +128,9 @@ def pending_rows(profiles, pending_cases, issue_map, lc_map=None):
                 "prior_issue_liberal": p["_issue_liberal"].get(
                     float(issue_area) if issue_area else -1.0,
                     p["_career_liberal"]) if issue_area else np.nan,
+                "prior_issue_liberal_3t": p["_issue_liberal_3t"].get(
+                    float(issue_area) if issue_area else -1.0,
+                    p["prior_liberal_3t"]) if issue_area else np.nan,
             }
             for k, v in p.items():
                 if not k.startswith("_"):

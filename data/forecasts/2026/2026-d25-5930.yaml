@@ -1,10 +1,10 @@
 id: 2026-d25-5930
 name: Maxwell v. Thomas
 term: 2026
-generated: '2026-07-04T04:40:56Z'
+generated: '2026-07-04T05:01:18Z'
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc, walk-forward
-    validated)
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
+    walk-forward validated)
   trained_through_term: 2024
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
@@ -19,42 +19,42 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.843
-  expected_reverse_votes: 5.86
+  p_reverse: 0.815
+  expected_reverse_votes: 5.72
   reverse_vote_distribution:
-    9-0: 0.017
-    8-1: 0.093
-    7-2: 0.22
-    6-3: 0.286
-    5-4: 0.227
-    4-5: 0.114
-    3-6: 0.036
-    2-7: 0.007
+    9-0: 0.013
+    8-1: 0.078
+    7-2: 0.199
+    6-3: 0.282
+    5-4: 0.242
+    4-5: 0.131
+    3-6: 0.044
+    2-7: 0.009
 votes:
 - justice: JGRoberts
-  p_reverse: 0.66
-  p_liberal: 0.562
+  p_reverse: 0.598
+  p_liberal: 0.507
 - justice: CThomas
-  p_reverse: 0.439
-  p_liberal: 0.36
+  p_reverse: 0.452
+  p_liberal: 0.301
 - justice: SAAlito
-  p_reverse: 0.43
-  p_liberal: 0.361
+  p_reverse: 0.422
+  p_liberal: 0.347
 - justice: SSotomayor
-  p_reverse: 0.811
-  p_liberal: 0.828
+  p_reverse: 0.829
+  p_liberal: 0.812
 - justice: EKagan
-  p_reverse: 0.808
-  p_liberal: 0.782
+  p_reverse: 0.829
+  p_liberal: 0.786
 - justice: NMGorsuch
-  p_reverse: 0.574
-  p_liberal: 0.502
+  p_reverse: 0.598
+  p_liberal: 0.493
 - justice: BMKavanaugh
-  p_reverse: 0.66
-  p_liberal: 0.534
+  p_reverse: 0.598
+  p_liberal: 0.573
 - justice: ACBarrett
-  p_reverse: 0.648
-  p_liberal: 0.562
+  p_reverse: 0.562
+  p_liberal: 0.549
 - justice: KBJackson
-  p_reverse: 0.833
-  p_liberal: 0.828
+  p_reverse: 0.829
+  p_liberal: 0.812

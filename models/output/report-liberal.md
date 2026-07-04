@@ -117,6 +117,7 @@ After prospective isotonic recalibration (fitted per term on strictly earlier ou
 |---|---|---|---|---|---|---|
 | cert-stage subset | 69825 | 0.6420 | 0.2199 | 0.6302 | 0.6999 | 0.0293 |
 | + lower-court direction (hand-codable) | 69825 | 0.6632 | 0.2119 | 0.6127 | 0.726 | 0.0291 |
+| + lc + recent topic lean (deployed) | 69825 | 0.6614 | 0.2112 | 0.6104 | 0.7274 | 0.0296 |
 | + question-text LSA | 69825 | 0.6433 | 0.2242 | 0.6453 | 0.6968 | 0.0540 |
 
 Lower-court direction is hand-codable per pending case (petitioner lost below + SCDB issue conventions; `models/pending_lc.yaml`) and was **adopted** — the lean subset plus lc_direction outperforms even the full research configuration. Question-presented text (cert-stage by construction) was tested as leakage-safe per-step TF-IDF/LSA and **rejected twice**: it does not help without lc_direction, and the interaction hypothesis fails too — with lc_direction present, text still subtracts. Content adds nothing beyond structure here; the corpus remains for richer text sources.

@@ -1,10 +1,10 @@
 id: 2026-d25-966
 name: 'Department of Labor v. Sun Valley Orchards, LLC '
 term: 2026
-generated: '2026-07-04T04:40:56Z'
+generated: '2026-07-04T05:01:18Z'
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc, walk-forward
-    validated)
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
+    walk-forward validated)
   trained_through_term: 2024
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
@@ -19,41 +19,41 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.887
-  expected_reverse_votes: 6.19
+  p_reverse: 0.923
+  expected_reverse_votes: 6.46
   reverse_vote_distribution:
-    9-0: 0.034
-    8-1: 0.141
-    7-2: 0.256
-    6-3: 0.272
-    5-4: 0.184
-    4-5: 0.083
-    3-6: 0.025
+    9-0: 0.049
+    8-1: 0.178
+    7-2: 0.282
+    6-3: 0.26
+    5-4: 0.153
+    4-5: 0.059
+    3-6: 0.015
 votes:
 - justice: JGRoberts
-  p_reverse: 0.66
-  p_liberal: 0.562
-- justice: CThomas
-  p_reverse: 0.648
-  p_liberal: 0.529
-- justice: SAAlito
-  p_reverse: 0.648
-  p_liberal: 0.529
-- justice: SSotomayor
-  p_reverse: 0.727
-  p_liberal: 0.567
-- justice: EKagan
-  p_reverse: 0.727
-  p_liberal: 0.567
-- justice: NMGorsuch
-  p_reverse: 0.66
-  p_liberal: 0.534
-- justice: BMKavanaugh
   p_reverse: 0.688
-  p_liberal: 0.562
+  p_liberal: 0.57
+- justice: CThomas
+  p_reverse: 0.655
+  p_liberal: 0.507
+- justice: SAAlito
+  p_reverse: 0.676
+  p_liberal: 0.549
+- justice: SSotomayor
+  p_reverse: 0.772
+  p_liberal: 0.608
+- justice: EKagan
+  p_reverse: 0.773
+  p_liberal: 0.549
+- justice: NMGorsuch
+  p_reverse: 0.688
+  p_liberal: 0.519
+- justice: BMKavanaugh
+  p_reverse: 0.701
+  p_liberal: 0.653
 - justice: ACBarrett
-  p_reverse: 0.68
-  p_liberal: 0.593
+  p_reverse: 0.693
+  p_liberal: 0.653
 - justice: KBJackson
-  p_reverse: 0.756
-  p_liberal: 0.669
+  p_reverse: 0.81
+  p_liberal: 0.653
