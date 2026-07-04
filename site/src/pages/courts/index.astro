@@ -1,10 +1,21 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { courts, byMnemonic } from "../../lib/data.js";
+import { courts, byMnemonic, agreement } from "../../lib/data.js";
 import { fmtDate } from "../../lib/format.js";
 
 const list = [...courts()].reverse();
 const justiceOf = byMnemonic();
+const agr = agreement()?.courts ?? {};
+
+function rateOf(code, a, b) {
+  const pairs = agr[code]?.pairs ?? {};
+  const key = a < b ? `${a}|${b}` : `${b}|${a}`;
+  return pairs[key] ?? null;
+}
+const wash = (rate) => {
+  const t = Math.min(1, Math.max(0, (rate - 0.4) / 0.6));
+  return `background: color-mix(in srgb, var(--accent) ${Math.round(t * 58)}%, var(--surface))`;
+};
 ---
 
 <Base title="Natural courts" description="Every stable membership period of the Supreme Court.">
@@ -31,6 +42,49 @@ const justiceOf = byMnemonic();
             : <span class="chip">{m}</span>;
         })}
       </div>
+      {agr[c.code] && (
+        <details class="tableview">
+          <summary>Agreement matrix (share of co-heard cases on the same side)</summary>
+          <div class="viz-scroll">
+            <table class="data agree">
+              <thead>
+                <tr>
+                  <th></th>
+                  {agr[c.code].justices.map((m) => <th class="n">{m}</th>)}
+                </tr>
+              </thead>
+              <tbody>
+                {agr[c.code].justices.map((a) => (
+                  <tr>
+                    <th>{a}</th>
+                    {agr[c.code].justices.map((b) => {
+                      if (a === b) return <td class="n diag">—</td>;
+                      const cell = rateOf(c.code, a, b);
+                      if (!cell) return <td class="n">·</td>;
+                      return (
+                        <td
+                          class="n"
+                          style={wash(cell.rate)}
+                          data-tip-value={`${Math.round(cell.rate * 100)}% agreement`}
+                          data-tip-label={`${a} & ${b} · ${cell.n.toLocaleString("en-US")} co-heard cases`}
+                        >
+                          {Math.round(cell.rate * 100)}
+                        </td>
+                      );
+                    })}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </details>
+      )}
     </section>
   ))}
+
+  <style>
+    table.agree th { font-size: 11px; }
+    table.agree td { font-variant-numeric: tabular-nums; }
+    table.agree td.diag { color: var(--muted); }
+  </style>
 </Base>

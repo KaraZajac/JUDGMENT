@@ -123,12 +123,14 @@ def main():
 
     pending = []
     docket_root = ROOT / "data" / "docket"
-    for tdir in sorted(docket_root.iterdir()):
-        if tdir.is_dir():
-            for f in sorted(tdir.glob("*.yaml")):
-                pending.append(yaml.safe_load(f.read_text(encoding="utf-8")))
+    if docket_root.exists():
+        for tdir in sorted(docket_root.iterdir()):
+            if tdir.is_dir():
+                for f in sorted(tdir.glob("*.yaml")):
+                    pending.append(yaml.safe_load(f.read_text(encoding="utf-8")))
     if not pending:
-        raise SystemExit("no pending docket cases; run pipeline.interim first")
+        print("no pending docket cases (run pipeline.interim to refresh); nothing to forecast")
+        return
 
     last_term = int(df["term"].max())
     print(f"training final models on terms <= {last_term} "
@@ -139,17 +141,23 @@ def main():
         train = df.dropna(subset=[label]).copy()
         train[label] = train[label].astype(float)
         # deployment-matched configuration: same feature subset + a calibrator
-        # fitted on THAT configuration's own out-of-sample predictions
+        # fitted on THAT configuration's own out-of-sample predictions. Falls
+        # back to the committed step-function export (models/calibrators-pending
+        # .yaml) when the prediction cache is absent (e.g. CI).
         wf_path = CACHE / f"predictions-{target}-pending_config.pkl"
-        if not wf_path.exists():
-            raise SystemExit("run `.venv/bin/python -m models.walkforward "
-                             "--pending-config --target both` first")
-        calibs[target] = fit_final_calibrator(pd.read_pickle(wf_path))
+        if wf_path.exists():
+            calibs[target] = fit_final_calibrator(pd.read_pickle(wf_path)).predict
+        else:
+            exported = yaml.safe_load(
+                (Path(__file__).resolve().parent / "calibrators-pending.yaml")
+                .read_text())[target]
+            xs, ys = np.array(exported["x"]), np.array(exported["y"])
+            calibs[target] = lambda p, xs=xs, ys=ys: np.interp(p, xs, ys)
 
         profiles = justice_profiles(train, min(c["term"] for c in pending))
         X_pending = pending_rows(profiles, pending, issue_map)
         raw = fit_predict(train, X_pending, label, feature_subset=PENDING_CONFIG)
-        X_pending[f"p_{target}"] = calibs[target].predict(raw)
+        X_pending[f"p_{target}"] = calibs[target](raw)
         preds[target] = X_pending[["caseId", "justiceName", f"p_{target}"]]
 
     merged = preds["reverse"].merge(preds["liberal"], on=["caseId", "justiceName"])

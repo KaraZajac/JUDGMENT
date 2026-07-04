@@ -1,15 +1,32 @@
 ---
-// Diverging columns around the 50% baseline: blue above = majority-liberal,
-// red below = majority-conservative (SCDB direction conventions). Sparse
-// input is filled so the x axis stays linear; gaps render as empty slots.
+// Diverging columns around a baseline. Default configuration: share-of-liberal
+// scale (domain 0..1, baseline 0.5, blue above = liberal). A signed scale
+// (e.g. ideal points, conservative positive) passes domain/baseline/aboveClass/
+// belowClass/formatters. Sparse input is filled so the x axis stays linear;
+// gaps render as empty slots.
 //
-// points: [{ x: int, value: 0..1 | null, n: int }]
+// points: [{ x: int, value: number | null, n: int }]
 const {
   points = [],
   nLabel = "directional votes",
   xLabel = "term",
   height = 170,
   caption = "Share of liberal outcomes over time",
+  domain = [0, 1],
+  baseline = 0.5,
+  aboveClass = "bar-lib",
+  belowClass = "bar-con",
+  // (value) -> tooltip headline; (t) -> axis tick text
+  tipValueFn = null,
+  yTickFn = null,
+  yTicks: yTicksProp = null,
+  legend = [
+    { cls: "lib", label: "majority liberal (above 50%)" },
+    { cls: "con", label: "majority conservative (below 50%)" },
+    { cls: "mid", label: "even / no data" },
+  ],
+  tableValueHeader = "liberal share",
+  tableValueFn = null,
 } = Astro.props;
 
 const xs = points.map((p) => p.x);
@@ -26,10 +43,19 @@ const padL = 42, padR = 10, padT = 10, padB = 26;
 const H = height;
 const w = padL + count * slot + padR;
 const h = padT + H + padB;
-const y = (v) => padT + (1 - v) * H;
-const y0 = y(0.5);
+const [d0, d1] = domain;
+const clampV = (v) => Math.min(d1, Math.max(d0, v));
+const y = (v) => padT + (1 - (clampV(v) - d0) / (d1 - d0)) * H;
+const y0 = y(baseline);
 const xTickStep = count > 120 ? 20 : count > 40 ? 10 : 5;
 const focusable = count <= 60;
+
+const fmtTip = tipValueFn ??
+  ((v) => (v >= 0.5 ? `${Math.round(v * 100)}% liberal`
+                    : `${100 - Math.round(v * 100)}% conservative`));
+const fmtTick = yTickFn ?? ((t) => Math.round(t * 100) + "%");
+const fmtTable = tableValueFn ?? ((v) => Math.round(v * 100) + "%");
+const noDataTip = tipValueFn ? "no data" : "no directional data";
 
 function barPath(i, v) {
   const x = padL + i * slot + (slot - barW) / 2;
@@ -37,7 +63,7 @@ function barPath(i, v) {
   const hgt = Math.abs(yv - y0);
   if (hgt < 0.75) return null; // dead-center: rendered as a neutral tick instead
   const r = Math.min(3, barW / 2, hgt);
-  if (v > 0.5) {
+  if (v > baseline) {
     return `M ${x} ${y0} L ${x} ${yv + r} Q ${x} ${yv} ${x + r} ${yv} ` +
       `L ${x + barW - r} ${yv} Q ${x + barW} ${yv} ${x + barW} ${yv + r} L ${x + barW} ${y0} Z`;
   }
@@ -49,20 +75,19 @@ const slots = filled.map((p, i) => {
   const cx = padL + i * slot;
   let tipValue, tipLabel, cls = null, path = null, centered = false;
   if (p.value == null) {
-    tipValue = "no directional data";
+    tipValue = noDataTip;
     tipLabel = `${p.x} ${xLabel}`;
   } else {
-    const libPct = Math.round(p.value * 100);
-    tipValue = p.value >= 0.5 ? `${libPct}% liberal` : `${100 - libPct}% conservative`;
+    tipValue = fmtTip(p.value);
     tipLabel = `${p.x} ${xLabel} · ${p.n.toLocaleString("en-US")} ${nLabel}`;
     path = barPath(i, p.value);
-    cls = p.value > 0.5 ? "bar-lib" : p.value < 0.5 ? "bar-con" : "bar-mid";
+    cls = p.value > baseline ? aboveClass : p.value < baseline ? belowClass : "bar-mid";
     centered = path === null;
   }
   return { ...p, i, cx, tipValue, tipLabel, cls, path, centered };
 });
 
-const yTicks = [0, 0.25, 0.5, 0.75, 1];
+const yTicks = yTicksProp ?? [0, 0.25, 0.5, 0.75, 1];
 const xTicks = slots.filter((s) => s.x % xTickStep === 0);
 const tableId = `t${Math.abs([...caption].reduce((a, c) => a * 31 + c.charCodeAt(0), 7)) % 99999}`;
 ---
@@ -73,13 +98,13 @@ const tableId = `t${Math.abs([...caption].reduce((a, c) => a * 31 + c.charCodeAt
       <title>{caption}</title>
       {yTicks.map((t) => (
         <line
-          class={t === 0.5 ? "baseline-line" : "gridline"}
+          class={t === baseline ? "baseline-line" : "gridline"}
           x1={padL} x2={w - padR} y1={y(t)} y2={y(t)}
         />
       ))}
       {yTicks.map((t) => (
         <text class="tick-text" x={padL - 7} y={y(t) + 3.5} text-anchor="end">
-          {Math.round(t * 100)}%
+          {fmtTick(t)}
         </text>
       ))}
       {xTicks.map((s) => (
@@ -106,21 +131,21 @@ const tableId = `t${Math.abs([...caption].reduce((a, c) => a * 31 + c.charCodeAt
     </svg>
   </div>
   <div class="viz-legend">
-    <span class="key"><span class="swatch lib"></span>majority liberal (above 50%)</span>
-    <span class="key"><span class="swatch con"></span>majority conservative (below 50%)</span>
-    <span class="key"><span class="swatch mid"></span>even / no data</span>
+    {legend.map((k) => (
+      <span class="key"><span class={`swatch ${k.cls}`}></span>{k.label}</span>
+    ))}
   </div>
   <details class="tableview">
     <summary>Data table</summary>
     <table class="data" id={tableId}>
       <thead>
-        <tr><th>{xLabel}</th><th class="n">liberal share</th><th class="n">{nLabel}</th></tr>
+        <tr><th>{xLabel}</th><th class="n">{tableValueHeader}</th><th class="n">{nLabel}</th></tr>
       </thead>
       <tbody>
         {slots.map((s) => (
           <tr>
             <td>{s.x}</td>
-            <td class="n">{s.value == null ? "—" : Math.round(s.value * 100) + "%"}</td>
+            <td class="n">{s.value == null ? "—" : fmtTable(s.value)}</td>
             <td class="n">{s.n ? s.n.toLocaleString("en-US") : "—"}</td>
           </tr>
         ))}

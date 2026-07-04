@@ -17,8 +17,15 @@ probabilities, ablations, and a written limitations section. Results live in
 .venv/bin/python -m models.ideal_points --filtered        # dynamic ideal points (+ leak-free)
 .venv/bin/python -m models.walkforward --theta            # ideal-point contribution test
 .venv/bin/python -m models.report                         # render reports + calibration
+.venv/bin/python -m models.export_calibrators             # portable calibrators (for CI)
 .venv/bin/python -m models.predict                        # forecast the pending docket
+.venv/bin/python -m models.score                          # score decided forecasts
 ```
+
+Forecast files are immutable once issued (git history is the preregistration
+record); `models.score` writes `data/forecasts/scorecard.yaml`, surfaced as the
+Track record on the site's /predict page. A weekly GitHub Action
+(`.github/workflows/refresh.yml`) re-runs ingestion, forecasting, and scoring.
 
 ## Design, in dissertation terms
 

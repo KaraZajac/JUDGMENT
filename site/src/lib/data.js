@@ -22,6 +22,18 @@ function loadFresh(rel) {
 }
 
 export const meta = () => loadCached("meta.yaml");
+
+/** Dynamic ideal points (data/scores/ideal-points.yaml) or null if not built. */
+export function idealPoints() {
+  const p = path.join(DATA, "scores", "ideal-points.yaml");
+  return fs.existsSync(p) ? loadCached("scores/ideal-points.yaml") : null;
+}
+
+/** Per-natural-court agreement matrices, or null if not built. */
+export function agreement() {
+  const p = path.join(DATA, "aggregates", "agreement.yaml");
+  return fs.existsSync(p) ? loadCached("aggregates/agreement.yaml") : null;
+}
 export const justiceIndex = () => loadCached("justices/index.yaml");
 export const justice = (slug) => loadCached(`justices/${slug}.yaml`);
 export const courts = () => loadCached("courts/natural-courts.yaml");
@@ -57,6 +69,12 @@ export function caseById(id) {
 
 export function casesForTerm(term) {
   return caseIdsForTerm(term).map(caseById);
+}
+
+/** Forecast scorecard (data/forecasts/scorecard.yaml, written by models.score). */
+export function scorecard() {
+  const p = path.join(DATA, "forecasts", "scorecard.yaml");
+  return fs.existsSync(p) ? loadFresh("forecasts/scorecard.yaml") : null;
 }
 
 /** Model forecasts for pending cases (data/forecasts/, written by models.predict). */

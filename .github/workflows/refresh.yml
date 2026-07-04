@@ -1,0 +1,62 @@
+name: weekly-refresh
+
+# Self-updating loop: pick up new SCDB releases (annual), new decisions and
+# grants (Oyez/CourtListener), argument schedules (supremecourt.gov), then
+# regenerate forecasts and score any newly decided ones. Commits only when
+# something beyond timestamps changed.
+
+on:
+  schedule:
+    - cron: "0 13 * * 1" # Mondays 13:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install pyyaml numpy pandas scikit-learn
+
+      - name: Download SCDB (probes for new releases)
+        run: python -m pipeline.download
+
+      - name: Rebuild canonical dataset
+        run: python -m pipeline.build
+
+      - name: Interim ingest (decisions, docket, schedules)
+        run: python -m pipeline.interim
+
+      - name: Aggregates
+        run: python -m pipeline.aggregates
+
+      - name: Validate
+        run: python -m pipeline.validate
+
+      - name: Rebuild features and forecasts
+        run: |
+          python -m models.features
+          python -m models.predict
+
+      - name: Score decided forecasts
+        run: python -m models.score
+
+      - name: Commit if substantively changed
+        run: |
+          git config user.name "judgement-refresh"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data models/output
+          if git diff --cached --quiet -I'^generated:' -I'^downloaded:' -I'^  downloaded:' -I'^forecast_generated:'; then
+            echo "no substantive changes; skipping commit"
+          else
+            git commit -m "chore: weekly data refresh (automated)"
+            git push
+          fi

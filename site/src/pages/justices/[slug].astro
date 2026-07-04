@@ -2,7 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import StatTile from "../../components/StatTile.astro";
 import DivergingColumns from "../../components/DivergingColumns.astro";
-import { justiceIndex, justice, meta } from "../../lib/data.js";
+import { justiceIndex, justice, meta, idealPoints } from "../../lib/data.js";
 import { pct, num, fmtDate, label } from "../../lib/format.js";
 
 export function getStaticPaths() {
@@ -25,6 +25,15 @@ const areas = ideo.by_issue_area
   ? Object.entries(ideo.by_issue_area)
       .map(([area, v]) => ({ area, ...v }))
       .sort((a, b) => b.n - a.n)
+  : [];
+
+const thetaByTerm = idealPoints()?.justices?.[j.scdb.name] ?? null;
+const thetaPoints = thetaByTerm
+  ? Object.entries(thetaByTerm).map(([t, v]) => ({
+      x: Number(t),
+      value: v,
+      n: ideo.by_term?.[Number(t)]?.n ?? 0,
+    }))
   : [];
 
 const serviceBits = [
@@ -82,6 +91,38 @@ const bioBits = [
     </section>
   ) : (
     <p class="lede">No directional vote data recorded for this justice.</p>
+  )}
+
+  {thetaPoints.length > 1 && (
+    <section class="card viz" style="margin-top: 16px">
+      <h3>Ideal point (dynamic IRT)</h3>
+      <p class="viz-sub">
+        Martin–Quinn-style latent position per term, estimated from reverse/affirm
+        coalitions (penalized-ML MAP; conservative positive, scale sd = 1 across all
+        modern justice-terms — <code>models/ideal_points.py</code>).
+      </p>
+      <DivergingColumns
+        points={thetaPoints}
+        nLabel="directional votes"
+        xLabel="term"
+        caption={`Dynamic ideal point by term — ${j.name}`}
+        domain={[-2.6, 2.6]}
+        baseline={0}
+        aboveClass="bar-con"
+        belowClass="bar-lib"
+        yTicks={[-2, -1, 0, 1, 2]}
+        yTickFn={(t) => (t > 0 ? `+${t}` : String(t))}
+        tipValueFn={(v) =>
+          `θ ${v >= 0 ? "+" : ""}${v.toFixed(2)} · ${v > 0.05 ? "conservative side" : v < -0.05 ? "liberal side" : "near the center"}`}
+        legend={[
+          { cls: "con", label: "conservative (θ > 0)" },
+          { cls: "lib", label: "liberal (θ < 0)" },
+          { cls: "mid", label: "no estimate" },
+        ]}
+        tableValueHeader="ideal point θ"
+        tableValueFn={(v) => (v >= 0 ? "+" : "") + v.toFixed(2)}
+      />
+    </section>
   )}
 
   {areas.length > 0 && (

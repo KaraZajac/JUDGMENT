@@ -88,8 +88,14 @@ python3 -m pipeline.download   # fetch newest SCDB releases (~96 MB CSV into sou
 python3 -m pipeline.build      # regenerate data/ (~29k YAML files, ~2 minutes)
 python3 -m pipeline.interim    # provisional current-term cases (Oyez + CourtListener)
 python3 -m pipeline.aggregates # per-term rollups for the site
+python3 -m pipeline.agreement  # justice-pair agreement matrices per natural court
 python3 -m pipeline.validate   # structural + consistency checks
 ```
+
+A weekly GitHub Action (`.github/workflows/refresh.yml`) runs the whole chain —
+including new-SCDB-release pickup, forecasting, and forecast scoring — and commits
+only substantive changes; `.github/workflows/ci.yml` validates the corpus and
+builds every site page on each push.
 
 SCDB lands annually, so `interim` bridges the gap: the term in progress (and the one
 just ended) is ingested from Oyez and CourtListener as `provisional: true` records —
