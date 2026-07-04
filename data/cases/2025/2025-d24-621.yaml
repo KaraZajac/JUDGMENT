@@ -5,6 +5,7 @@ provisional: true
 sources:
 - courtlistener
 - oyez
+- supremecourt.gov
 docket: 24-621
 dates:
   granted: '2025-06-30'
@@ -18,3 +19,53 @@ parties:
 question: Do FECA limits on coordinated party expenditures in 52 U.S.C. § 30116 violate the First Amendment, either
   on their face or as applied to party spending in connection with “party coordinated communications”?
 oyez_url: https://www.oyez.org/cases/2025/24-621
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+opinions:
+  majority_author: BMKavanaugh
+decision:
+  majority_votes: 6
+  minority_votes: 3
+votes:
+- justice: BMKavanaugh
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: CThomas
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: EKagan
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: SSotomayor
+  vote: dissent
+  in_majority: false
+  joined:
+  - EKagan
+- justice: KBJackson
+  vote: dissent
+  in_majority: false
+  joined:
+  - EKagan

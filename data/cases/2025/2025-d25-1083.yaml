@@ -5,6 +5,7 @@ provisional: true
 sources:
 - courtlistener
 - oyez
+- supremecourt.gov
 docket: 25-1083
 dates:
   granted: '2026-03-16'
@@ -17,3 +18,44 @@ parties:
   respondent_name: Dahlia Doe
 question: Did the Trump administration lawfully end the Temporary Protected Status program for Syrian nationals?
 oyez_url: https://www.oyez.org/cases/2025/25-1083
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+opinions:
+  majority_author: SAAlito
+decision:
+  majority_votes: 6
+  minority_votes: 3
+votes:
+- justice: SAAlito
+  vote: judgment-of-the-court
+  opinion: wrote
+  in_majority: true
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: EKagan
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: SSotomayor
+  vote: dissent
+  in_majority: false
+  joined:
+  - EKagan
+- justice: KBJackson
+  vote: dissent
+  in_majority: false
+  joined:
+  - EKagan
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  in_majority: true

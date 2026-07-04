@@ -37,6 +37,9 @@ jobs:
       - name: Interim ingest (decisions, docket, schedules)
         run: python -m pipeline.interim
 
+      - name: Same-day votes from slip-opinion syllabi (validation-gated)
+        run: python -m pipeline.syllabus
+
       - name: Aggregates
         run: python -m pipeline.aggregates
 

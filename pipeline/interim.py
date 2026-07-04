@@ -117,10 +117,11 @@ def cl_search(term, refresh):
         "filed_after": start, "filed_before": end,
     })
     url = f"https://www.courtlistener.com/api/rest/v4/search/?{params}"
+    # Deliberately anonymous: the search endpoint serves unauthenticated
+    # traffic fine, and sending the account token here would burn its
+    # 50/hr / 125/day budget (needed for the auth-only endpoints in
+    # pipeline.lc_opinions) on fast-paginated searches.
     headers = {}
-    token = os.environ.get("COURTLISTENER_TOKEN")
-    if token:
-        headers["Authorization"] = f"Token {token}"
     results, page = [], 0
     while url and page < 12:
         try:

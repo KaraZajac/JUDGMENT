@@ -5,6 +5,7 @@ provisional: true
 sources:
 - courtlistener
 - oyez
+- supremecourt.gov
 docket: 25-365
 dates:
   granted: '2025-12-05'
@@ -19,3 +20,53 @@ question: Is a presidential executive order that denies U.S. birthright citizens
   States because their parents are unlawfully present or in the country on temporary visas consistent with the Citizenship
   Clause of the Fourteenth Amendment and 8 U.S.C. § 1401(a)?
 oyez_url: https://www.oyez.org/cases/2025/25-365
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+opinions:
+  majority_author: JGRoberts
+decision:
+  majority_votes: 6
+  minority_votes: 3
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: EKagan
+  vote: majority
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: KBJackson
+  vote: regular-concurrence
+  in_majority: true
+  joined:
+  - JGRoberts
+  opinion: wrote
+- justice: BMKavanaugh
+  vote: special-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: NMGorsuch
+  vote: dissent
+  in_majority: false
+  joined:
+  - CThomas
+  - SAAlito
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  in_majority: false

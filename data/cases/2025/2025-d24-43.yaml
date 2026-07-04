@@ -5,6 +5,7 @@ provisional: true
 sources:
 - courtlistener
 - oyez
+- supremecourt.gov
 docket: 24-43
 dates:
   granted: '2025-07-03'
@@ -18,3 +19,51 @@ parties:
 question: Does Title IX or the Equal Protection Clause prohibit a state from assigning students to girls’ and boys’
   sports teams based on their biological sex as determined at birth?
 oyez_url: https://www.oyez.org/cases/2025/24-43
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+opinions:
+  majority_author: BMKavanaugh
+decision:
+  majority_votes: 9
+  minority_votes: 0
+votes:
+- justice: BMKavanaugh
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: CThomas
+  vote: regular-concurrence
+  in_majority: true
+  joined:
+  - BMKavanaugh
+  opinion: wrote
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: SSotomayor
+  vote: special-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: KBJackson
+  vote: special-concurrence
+  opinion: wrote
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  in_majority: true

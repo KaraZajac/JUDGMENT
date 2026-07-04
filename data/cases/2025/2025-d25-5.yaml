@@ -5,6 +5,7 @@ provisional: true
 sources:
 - courtlistener
 - oyez
+- supremecourt.gov
 docket: 25-5
 dates:
   granted: '2025-11-17'
@@ -18,3 +19,55 @@ parties:
 question: Does a noncitizen who is stopped on the Mexican side of the U.S.-Mexico border “arrive[] in the United
   States” within the meaning of Immigration and Nationality Act?
 oyez_url: https://www.oyez.org/cases/2025/25-5
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+opinions:
+  majority_author: SAAlito
+decision:
+  majority_votes: 6
+  minority_votes: 3
+votes:
+- justice: SAAlito
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: CThomas
+  vote: regular-concurrence
+  in_majority: true
+  joined:
+  - SAAlito
+  opinion: wrote
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+  joined:
+  - SAAlito
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: KBJackson
+  vote: dissent
+  in_majority: false
+  joined:
+  - SSotomayor
+  opinion: wrote

@@ -5,6 +5,7 @@ provisional: true
 sources:
 - courtlistener
 - oyez
+- supremecourt.gov
 docket: 25A312
 dates:
   granted: '2026-10-18'
@@ -18,3 +19,51 @@ parties:
 question: Should the Court stay a district court injunction preventing the President from removing a member of the
   Federal Reserve Board of Governors "for cause" based on pre-appointment conduct without prior notice or a hearing?
 oyez_url: https://www.oyez.org/cases/2025/25a312
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+opinions:
+  majority_author: JGRoberts
+decision:
+  majority_votes: 6
+  minority_votes: 3
+votes:
+- justice: JGRoberts
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: EKagan
+  vote: majority
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: BMKavanaugh
+  vote: regular-concurrence
+  in_majority: true
+  joined:
+  - JGRoberts
+  opinion: wrote
+- justice: KBJackson
+  vote: majority
+  in_majority: true
+  joined:
+  - JGRoberts
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: NMGorsuch
+  vote: dissent
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: ACBarrett
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: CThomas
+  vote: majority
+  in_majority: true

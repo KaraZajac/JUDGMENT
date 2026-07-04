@@ -5,6 +5,7 @@ provisional: true
 sources:
 - courtlistener
 - oyez
+- supremecourt.gov
 docket: 24-1068
 dates:
   granted: '2026-01-16'
@@ -18,3 +19,54 @@ parties:
 question: Does the Federal Insecticide, Fungicide, and Rodenticide Act preempt a label-based failure-to-warn claim
   where EPA has not required the warning?
 oyez_url: https://www.oyez.org/cases/2025/24-1068
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+opinions:
+  majority_author: BMKavanaugh
+decision:
+  majority_votes: 7
+  minority_votes: 2
+votes:
+- justice: BMKavanaugh
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: CThomas
+  vote: regular-concurrence
+  in_majority: true
+  joined:
+  - BMKavanaugh
+  opinion: wrote
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: SSotomayor
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: EKagan
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+  joined:
+  - BMKavanaugh
+- justice: KBJackson
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: NMGorsuch
+  vote: dissent
+  in_majority: false
+  joined:
+  - KBJackson

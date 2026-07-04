@@ -5,6 +5,7 @@ provisional: true
 sources:
 - courtlistener
 - oyez
+- supremecourt.gov
 docket: 25-83
 dates:
   granted: '2025-12-05'
@@ -18,3 +19,54 @@ parties:
 question: Does a federal court that initially exercises jurisdiction and stays a case pending arbitration maintain
   jurisdiction over a post-arbitration Section 9 or 10 application where jurisdiction would otherwise be lacking?
 oyez_url: https://www.oyez.org/cases/2025/25-83
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+opinions:
+  majority_author: SSotomayor
+decision:
+  majority_votes: 9
+  minority_votes: 0
+votes:
+- justice: SSotomayor
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: CThomas
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: EKagan
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: KBJackson
+  vote: majority
+  in_majority: true
+  joined:
+  - SSotomayor

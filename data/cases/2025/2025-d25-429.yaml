@@ -5,6 +5,7 @@ provisional: true
 sources:
 - courtlistener
 - oyez
+- supremecourt.gov
 docket: 25-429
 dates:
   granted: '2026-01-09'
@@ -19,3 +20,53 @@ question: To remove a lawful permanent resident who committed an offense listed 
   paroled into the United States, must the government prove that it possessed clear and convincing evidence of the
   offense at the time of the lawful permanent resident’s last reentry into the United States?
 oyez_url: https://www.oyez.org/cases/2025/25-429
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+opinions:
+  majority_author: CThomas
+decision:
+  majority_votes: 6
+  minority_votes: 3
+votes:
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - CThomas
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+  joined:
+  - CThomas
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+  joined:
+  - CThomas
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+  joined:
+  - CThomas
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+  joined:
+  - CThomas
+- justice: KBJackson
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: SSotomayor
+  vote: dissent
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: EKagan
+  vote: dissent
+  in_majority: false
+  joined:
+  - KBJackson

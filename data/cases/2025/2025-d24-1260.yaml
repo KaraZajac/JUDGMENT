@@ -5,6 +5,7 @@ provisional: true
 sources:
 - courtlistener
 - oyez
+- supremecourt.gov
 docket: 24-1260
 dates:
   granted: '2025-11-10'
@@ -18,3 +19,53 @@ parties:
 question: Do the federal election-day statutes preempt a state law that allows ballots that are cast by federal
   election day to be received by election officials after that day?
 oyez_url: https://www.oyez.org/cases/2025/24-1260
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+opinions:
+  majority_author: ACBarrett
+decision:
+  majority_votes: 5
+  minority_votes: 4
+votes:
+- justice: ACBarrett
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: SSotomayor
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: EKagan
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: KBJackson
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+- justice: CThomas
+  vote: dissent
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: NMGorsuch
+  vote: dissent
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: BMKavanaugh
+  vote: dissent
+  in_majority: false
+  joined:
+  - SAAlito

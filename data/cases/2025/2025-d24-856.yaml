@@ -5,6 +5,7 @@ provisional: true
 sources:
 - courtlistener
 - oyez
+- supremecourt.gov
 docket: 24-856
 dates:
   granted: '2026-01-09'
@@ -18,3 +19,55 @@ parties:
 question: Does either the Alien Tort Statute or the Torture Victim Protection Act allow a judicially-implied private
   right of action for aiding and abetting?
 oyez_url: https://www.oyez.org/cases/2025/24-856
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+opinions:
+  majority_author: ACBarrett
+decision:
+  majority_votes: 6
+  minority_votes: 3
+votes:
+- justice: ACBarrett
+  vote: majority
+  opinion: wrote
+  in_majority: true
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: CThomas
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: KBJackson
+  vote: dissent
+  opinion: wrote
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: EKagan
+  vote: dissent
+  in_majority: false
+  joined:
+  - KBJackson
+  - SSotomayor
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  in_majority: false
