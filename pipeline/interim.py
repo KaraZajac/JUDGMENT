@@ -40,6 +40,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
+from . import _env  # noqa: F401  (loads .env: COURTLISTENER_TOKEN etc.)
 from .build import DATA, SOURCES, dump_yaml, put
 
 CACHE = SOURCES / "interim"
