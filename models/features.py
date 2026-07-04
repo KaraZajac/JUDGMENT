@@ -113,19 +113,20 @@ def _per_term_lagged(df, value_col, group_cols, k, prior_series_name=None):
     return per_term[[*group_cols, "term", "cn", "rate", "prior_mean"]]
 
 
-def _last3_lagged(df, value_col, k):
-    """Last-3-prior-terms EB rate per justice (rolling window over term aggregates)."""
+def _last3_lagged(df, value_col, k, group_cols=("justiceName",)):
+    """Last-3-prior-terms EB rate per group (rolling window over term aggregates)."""
+    group_cols = list(group_cols)
     d = df.dropna(subset=[value_col])
-    per_term = (d.groupby(["justiceName", "term"], sort=True)[value_col]
+    per_term = (d.groupby([*group_cols, "term"], sort=True)[value_col]
                 .agg(s="sum", n="count").reset_index().sort_values("term"))
-    grp = per_term.groupby("justiceName", sort=False)
+    grp = per_term.groupby(group_cols, sort=False)
     s3 = grp["s"].transform(lambda x: x.rolling(3, min_periods=1).sum().shift(1))
     n3 = grp["n"].transform(lambda x: x.rolling(3, min_periods=1).sum().shift(1))
     g = d.groupby("term", sort=True)[value_col].agg(gs="sum", gn="count").reset_index()
     g["global_prior"] = (g["gs"].cumsum().shift(1) / g["gn"].cumsum().shift(1)).fillna(0.5)
     per_term["prior_mean"] = per_term["term"].map(g.set_index("term")["global_prior"]).fillna(0.5)
     per_term["rate3"] = eb(s3.fillna(0), n3.fillna(0), per_term["prior_mean"], k)
-    return per_term[["justiceName", "term", "rate3"]]
+    return per_term[[*group_cols, "term", "rate3"]]
 
 
 def build(save=True):
@@ -220,6 +221,13 @@ def build(save=True):
         ["justiceName", "issue_area", "term", "prior_issue_liberal"]],
         on=["justiceName", "issue_area", "term"], how="left")
 
+    # recent topic-level lean: the justice's last-3-terms rate within this
+    # issue area (the "topic trend" feature; validated as a config variant)
+    issue3 = _last3_lagged(df.dropna(subset=["issue_area"]), "y_liberal",
+                           SHRINK_ISSUE, group_cols=("justiceName", "issue_area"))
+    df = df.merge(issue3.rename(columns={"rate3": "prior_issue_liberal_3t"}),
+                  on=["justiceName", "issue_area", "term"], how="left")
+
     df["in_majority_num"] = np.where(df["majority"].isin([1, 2]),
                                      (df["majority"] == 2).astype(float), np.nan)
     df["is_dissent"] = np.where(df["vote"].notna(), (df["vote"] == 2).astype(float), np.nan)
@@ -243,7 +251,8 @@ def build(save=True):
 
     keep = (["caseId", "term", "justice", "justiceName", "natural_court",
              "y_reverse", "y_liberal", "case_reversed"]
-            + CAT_FEATURES + [c for c in NUM_FEATURES if c not in ("term",)])
+            + CAT_FEATURES + [c for c in NUM_FEATURES if c not in ("term",)]
+            + ["prior_issue_liberal_3t"])  # variant feature, not in the base config
     keep = list(dict.fromkeys(keep))
     out = df[keep].copy()
 

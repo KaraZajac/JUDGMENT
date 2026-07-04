@@ -162,7 +162,8 @@ def new_stats(jid):
             "opinions": 0, "lib": 0, "dir_n": 0, "terms": set(),
             "first": None, "last": None,
             "dir_term": defaultdict(lambda: [0, 0]),
-            "dir_area": defaultdict(lambda: [0, 0])}
+            "dir_area": defaultdict(lambda: [0, 0]),
+            "dir_area_term": defaultdict(lambda: [0, 0])}
 
 
 def pass_votes(filenames):
@@ -228,6 +229,10 @@ def pass_votes(filenames):
                     cell = st["dir_area"][area]
                     cell[0] += lib
                     cell[1] += 1
+                    if term is not None:
+                        cell = st["dir_area_term"][(area, term)]
+                        cell[0] += lib
+                        cell[1] += 1
 
             nc = to_int(row.get("naturalCourt"))
             if nc is not None:
@@ -478,6 +483,12 @@ def build_justices(stats, curated):
             ideology["by_issue_area"] = {
                 a: Flow({"liberal_share": round(lib / n, 3), "n": n})
                 for a, (lib, n) in sorted(st["dir_area"].items()) if n}
+            by_area_term = {}
+            for (a, t), (lib, n) in sorted(st["dir_area_term"].items()):
+                if n:
+                    by_area_term.setdefault(a, {})[t] = Flow(
+                        {"liberal_share": round(lib / n, 3), "n": n})
+            put(ideology, "by_issue_area_term", by_area_term)
         put(j, "ideology", ideology)
 
         dump_yaml(j, out / f"{slug}.yaml")

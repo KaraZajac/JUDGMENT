@@ -27,6 +27,23 @@ const areas = ideo.by_issue_area
       .sort((a, b) => b.n - a.n)
   : [];
 
+const byAreaTerm = ideo.by_issue_area_term ?? {};
+const topicSeries = Object.entries(byAreaTerm)
+  .map(([area, terms]) => {
+    const career = ideo.by_issue_area?.[area];
+    return {
+      area,
+      career: career?.liberal_share,
+      n: career?.n ?? 0,
+      points: Object.entries(terms).map(([t, v]) => ({
+        x: Number(t), value: v.liberal_share, n: v.n,
+      })),
+    };
+  })
+  .filter((t) => t.n >= 60 && t.points.length >= 5)
+  .sort((a, b) => b.n - a.n)
+  .slice(0, 6);
+
 const thetaByTerm = idealPoints()?.justices?.[j.scdb.name] ?? null;
 const thetaPoints = thetaByTerm
   ? Object.entries(thetaByTerm).map(([t, v]) => ({
@@ -125,6 +142,36 @@ const bioBits = [
     </section>
   )}
 
+  {topicSeries.length > 0 && (
+    <section class="card viz" style="margin-top: 16px">
+      <h3>Voting by topic over time</h3>
+      <p class="viz-sub">
+        Per-term liberal share within each SCDB issue area (areas with the most
+        directional votes shown; small samples make single terms noisy — hover for n).
+      </p>
+      <div class="topic-grid">
+        {topicSeries.map((t) => (
+          <div>
+            <h4 style="margin: 0 0 4px; font-size: 13px; text-transform: capitalize">
+              {label(t.area)}
+              <span class="stat-sub" style="margin-left: 8px">
+                {pct(t.career)} liberal · {num(t.n)} votes
+              </span>
+            </h4>
+            <DivergingColumns
+              points={t.points}
+              nLabel="directional votes"
+              xLabel="term"
+              height={90}
+              caption={`Liberal share by term in ${label(t.area)} — ${j.name}`}
+              legend={[]}
+            />
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
   {areas.length > 0 && (
     <section class="card viz" style="margin-top: 16px">
       <h3>Lean by issue area</h3>
@@ -159,3 +206,11 @@ const bioBits = [
     </section>
   )}
 </Base>
+
+<style>
+  .topic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 18px 26px;
+  }
+</style>

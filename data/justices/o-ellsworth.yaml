@@ -26,3 +26,26 @@ ideology:
     due-process: {liberal_share: 0.75, n: 4}
     economic-activity: {liberal_share: 0.571, n: 7}
     judicial-power: {liberal_share: 0.5, n: 20}
+  by_issue_area_term:
+    attorneys:
+      1796: {liberal_share: 0.0, n: 1}
+    civil-rights:
+      1797: {liberal_share: 1.0, n: 1}
+      1799: {liberal_share: 1.0, n: 1}
+    criminal-procedure:
+      1797: {liberal_share: 0.0, n: 1}
+    due-process:
+      1796: {liberal_share: 1.0, n: 1}
+      1797: {liberal_share: 1.0, n: 1}
+      1799: {liberal_share: 1.0, n: 1}
+      1800: {liberal_share: 0.0, n: 1}
+    economic-activity:
+      1796: {liberal_share: 0.6, n: 5}
+      1797: {liberal_share: 0.0, n: 1}
+      1800: {liberal_share: 1.0, n: 1}
+    judicial-power:
+      1796: {liberal_share: 1.0, n: 4}
+      1797: {liberal_share: 0.5, n: 4}
+      1798: {liberal_share: 0.25, n: 4}
+      1799: {liberal_share: 0.333, n: 3}
+      1800: {liberal_share: 0.4, n: 5}

@@ -209,7 +209,10 @@ def baseline_probs(train, test, target):
 
 def fit_predict(train, test, target, feature_subset=None, with_text=False):
     cats = [c for c in CAT_FEATURES if feature_subset is None or c in feature_subset]
-    nums = [c for c in NUM_FEATURES if feature_subset is None or c in feature_subset]
+    # an explicit subset is trusted for numeric columns, so variant features
+    # (e.g. prior_issue_liberal_3t) can be tested without changing the base config
+    nums = (list(NUM_FEATURES) if feature_subset is None
+            else [c for c in feature_subset if c not in CAT_FEATURES])
     X_train = train[cats + nums].copy()
     X_test = test[cats + nums].copy()
     for c in cats:
@@ -351,11 +354,16 @@ def main():
     ap.add_argument("--lc", action="store_true",
                     help="add lower-court direction to the pending-config subset "
                          "(hand-coded for pending cases in models/pending_lc.yaml)")
+    ap.add_argument("--issue3t", action="store_true",
+                    help="add the recent topic-lean feature (justice x issue area, "
+                         "last 3 terms) to the pending-config subset")
     args = ap.parse_args()
 
     if args.pending_config:
-        subset = PENDING_CONFIG + (["lc_direction"] if args.lc else [])
+        subset = (PENDING_CONFIG + (["lc_direction"] if args.lc else [])
+                  + (["prior_issue_liberal_3t"] if args.issue3t else []))
         tag = ("pending_config" + ("_lc" if args.lc else "")
+               + ("_issue3t" if args.issue3t else "")
                + ("_text" if args.text else ""))
         suffix = tag.replace("_", "-")
         for target in (["reverse", "liberal"] if args.target == "both" else [args.target]):

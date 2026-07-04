@@ -21,3 +21,14 @@ ideology:
     civil-rights: {liberal_share: 1.0, n: 1}
     economic-activity: {liberal_share: 0.667, n: 6}
     judicial-power: {liberal_share: 0.083, n: 12}
+  by_issue_area_term:
+    civil-rights:
+      1803: {liberal_share: 1.0, n: 1}
+    economic-activity:
+      1800: {liberal_share: 1.0, n: 2}
+      1801: {liberal_share: 1.0, n: 1}
+      1803: {liberal_share: 0.333, n: 3}
+    judicial-power:
+      1800: {liberal_share: 0.0, n: 1}
+      1801: {liberal_share: 0.0, n: 2}
+      1803: {liberal_share: 0.111, n: 9}

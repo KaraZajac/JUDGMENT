@@ -176,6 +176,9 @@ ideology:                      # computed from SCDB vote directions
     1994: {liberal_share: 0.64, n: 82}
   by_issue_area:
     civil-rights: {liberal_share: 0.81, n: 312}
+  by_issue_area_term:            # topic × time (feeds the per-topic charts)
+    civil-rights:
+      1994: {liberal_share: 0.85, n: 21}
   # reserved: martin_quinn (dynamic ideal points — see docs/sources.md)
 ```
 
