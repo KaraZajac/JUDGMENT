@@ -59,6 +59,16 @@ location/scale/sign identified per sweep). Full-history trajectories go to
 `data/scores/ideal-points.yaml`; an expanding-refit variant provides leak-free
 lagged scores whose predictive contribution is tested as a model variant.
 
+**Text features (tested, not deployed).** Question-presented text — cert-stage by
+construction — was harvested for 3,418 historical cases (`pipeline/questions.py`)
+and entered as leakage-safe per-step TF-IDF/LSA components (`--text`). **Negative
+result:** no improvement in either configuration (deployment reverse 64.4% → 63.9%;
+research 65.2% vs 65.1%). Interpretation: topic predicts votes chiefly through its
+interaction with the lower-court direction, which is unavailable pre-decision.
+The corpus and machinery remain for interaction-aware future work; the deployed
+configuration is pinned in `predict.py` (`DEPLOY_CONFIG`) and changes only with
+fresh validation evidence.
+
 **Deployment honesty.** The live forecaster (`predict.py`) uses only the feature
 subset that exists for a granted-but-undecided case, and that exact subset is
 walk-forward validated separately (`--pending-config`) — the full model's

@@ -33,14 +33,18 @@ the 1946+ terms). Legacy-era justices currently get mechanically-derived names a
 computed voting records only; enriching them from the Epstein et al. *U.S. Supreme
 Court Justices Database* is a roadmap item.
 
-## 3. Oyez (api.oyez.org) — in use (interim current-term ingest)
+## 3. Oyez (api.oyez.org) — in use (interim current-term ingest + question text)
 
 Spine of `pipeline.interim`: decided merits cases for the term SCDB hasn't reached,
 with per-justice votes, opinion authorship and joins, party names/labels, winner,
 vote counts, and grant/argue/decide dates. Free JSON API, no key. Vote coding lags
-decisions by days-to-weeks. Also the future source for oral-argument transcripts
-(modeling phase 4). Member identifiers are mapped to SCDB mnemonics in
+decisions by days-to-weeks. Member identifiers are mapped to SCDB mnemonics in
 `pipeline/interim.py` (`OYEZ_MNEMONIC` — extend when the bench changes).
+
+Also the source of the historical **question-presented corpus**
+(`pipeline/questions.py` → `data/text/questions.yaml`), used for the text features
+in `models/` — cert-stage text only; facts/conclusion narratives excluded as
+potentially post-decision. Oral-argument transcripts remain a future source.
 
 ## 4. CourtListener / Free Law Project — in use (interim current-term ingest)
 

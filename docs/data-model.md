@@ -198,6 +198,16 @@ term, and appointment metadata when curated.
 A natural court is a period of stable membership. Computed from the data: SCDB
 `naturalCourt` code, chief, first/last decision dates observed, and member mnemonics.
 
+## Question text — `data/text/questions.yaml`
+
+Question-presented text for the historical corpus, keyed by SCDB caseId, harvested
+from Oyez by `pipeline/questions.py` (joined on term + docket; coverage strong from
+the mid-1950s). The question is fixed at cert grant, so it is a legitimately
+pre-decision feature — the models use it via leakage-safe per-step TF-IDF/LSA.
+Oyez's facts/conclusion narratives are deliberately excluded (editor-written,
+often post-decision). Re-harvest is manual (cache makes it cheap), typically after
+an SCDB release extends the corpus.
+
 ## Codebook — `data/codebook/`
 
 One YAML per fully-decoded field: `{code, token, label}` triples as emitted from

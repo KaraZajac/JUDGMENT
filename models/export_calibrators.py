@@ -20,12 +20,15 @@ CACHE = OUT / "output" / "cache"
 
 
 def main():
-    payload = {}
+    # pinned to the deployed configuration (see models/predict.py DEPLOY_CONFIG);
+    # text config exists but did not validate better, so it is not exported
+    config = "pending_config"
+    payload = {"config": config}
     for target in ("reverse", "liberal"):
-        wf = pd.read_pickle(CACHE / f"predictions-{target}-pending_config.pkl")
+        wf = pd.read_pickle(CACHE / f"predictions-{target}-{config}.pkl")
         iso = fit_final_calibrator(wf)
         payload[target] = {
-            "fitted_on": f"walk-forward pending_config predictions, "
+            "fitted_on": f"walk-forward {config} predictions, "
                          f"terms {int(wf['term'].min())}-{int(wf['term'].max())}",
             "x": [float(v) for v in iso.X_thresholds_],
             "y": [float(v) for v in iso.y_thresholds_],
@@ -33,8 +36,9 @@ def main():
     dest = OUT / "calibrators-pending.yaml"
     with open(dest, "w") as f:
         yaml.safe_dump(payload, f, sort_keys=False)
-    print(f"wrote {dest.name}: "
-          + ", ".join(f"{t} ({len(p['x'])} thresholds)" for t, p in payload.items()))
+    print(f"wrote {dest.name} (config {config}): "
+          + ", ".join(f"{t} ({len(p['x'])} thresholds)"
+                      for t, p in payload.items() if isinstance(p, dict)))
 
 
 if __name__ == "__main__":

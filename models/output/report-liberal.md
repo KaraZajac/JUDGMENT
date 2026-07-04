@@ -1,6 +1,6 @@
 # Walk-forward evaluation — target: liberal
 
-*Generated 2026-07-03 by `models/report.py`. Protocol: train on terms ≤ T−1, predict every vote of term T; eval window 1956–2024 (modern SCDB era, first ten terms reserved as burn-in). Target: justice casts an SCDB-liberal vote.*
+*Generated 2026-07-04 by `models/report.py`. Protocol: train on terms ≤ T−1, predict every vote of term T; eval window 1956–2024 (modern SCDB era, first ten terms reserved as burn-in). Target: justice casts an SCDB-liberal vote.*
 
 ## Vote-level results
 
@@ -116,6 +116,9 @@ After prospective isotonic recalibration (fitted per term on strictly earlier ou
 | variant | n | accuracy | Brier | log loss | AUC | ECE |
 |---|---|---|---|---|---|---|
 | cert-stage subset | 69825 | 0.6420 | 0.2199 | 0.6302 | 0.6999 | 0.0293 |
+| cert-stage subset + question-text LSA | 69825 | 0.6433 | 0.2242 | 0.6453 | 0.6968 | 0.0540 |
+
+Question-presented text (cert-stage by construction — fixed at grant) was tested as per-step TF-IDF + truncated-SVD components fitted on the training window only, rows without harvested text carrying missing values. **Negative result: text does not improve either configuration** — the deployed subset stays text-free. Interpretation: case topic predicts votes mainly through its interaction with the direction of the decision below, which is unavailable pre-decision; residual topic signal is already carried by the issue-area feature. The corpus and machinery remain for interaction-aware future work.
 
 The live forecaster (`models/predict.py`) is restricted to features actually available for a granted-but-undecided case (justice history, hand-coded issue area, U.S.-party flags, jurisdiction). This row is that exact configuration walk-forward validated over the same window — the honest expected performance of published forecasts. The full model's extra accuracy comes from lower-court and party codings that do not exist until SCDB codes the case.
 

@@ -165,12 +165,33 @@ def build_report(target):
     pc_path = OUT / f"metrics-{target}-pending-config.yaml"
     if pc_path.exists():
         pc = yaml.safe_load(pc_path.read_text())
-        b = pc["vote_level"]["model"]
+        rows = [block_row("cert-stage subset", pc["vote_level"]["model"])]
+        pct_path = OUT / f"metrics-{target}-pending-config-text.yaml"
+        if pct_path.exists():
+            pct = yaml.safe_load(pct_path.read_text())
+            rows.append(block_row("cert-stage subset + question-text LSA",
+                                  pct["vote_level"]["model"]))
+        ft_path = OUT / f"metrics-{target}-full-text.yaml"
+        if ft_path.exists():
+            ft = yaml.safe_load(ft_path.read_text())
+            rows.append(block_row(
+                f"full config + text ({ft['eval_terms'][0]}–{ft['eval_terms'][1]})",
+                ft["vote_level"]["model"]))
         a("## Deployment configuration (pending-docket forecaster)")
         a("")
-        a(md_table([block_row("cert-stage subset", b)],
-                   ["variant", "n", "accuracy", "Brier", "log loss", "AUC", "ECE"]))
+        a(md_table(rows, ["variant", "n", "accuracy", "Brier", "log loss", "AUC", "ECE"]))
         a("")
+        if pct_path.exists():
+            a("Question-presented text (cert-stage by construction — fixed at grant) "
+              "was tested as per-step TF-IDF + truncated-SVD components fitted on the "
+              "training window only, rows without harvested text carrying missing "
+              "values. **Negative result: text does not improve either configuration** "
+              "— the deployed subset stays text-free. Interpretation: case topic "
+              "predicts votes mainly through its interaction with the direction of "
+              "the decision below, which is unavailable pre-decision; residual topic "
+              "signal is already carried by the issue-area feature. The corpus and "
+              "machinery remain for interaction-aware future work.")
+            a("")
         a("The live forecaster (`models/predict.py`) is restricted to features "
           "actually available for a granted-but-undecided case (justice history, "
           "hand-coded issue area, U.S.-party flags, jurisdiction). This row is that "

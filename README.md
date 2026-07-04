@@ -89,6 +89,7 @@ python3 -m pipeline.build      # regenerate data/ (~29k YAML files, ~2 minutes)
 python3 -m pipeline.interim    # provisional current-term cases (Oyez + CourtListener)
 python3 -m pipeline.aggregates # per-term rollups for the site
 python3 -m pipeline.agreement  # justice-pair agreement matrices per natural court
+python3 -m pipeline.questions  # question-presented text corpus (manual; ~1h first run)
 python3 -m pipeline.validate   # structural + consistency checks
 ```
 

@@ -24,7 +24,7 @@ import yaml
 
 from .features import SHRINK_CAREER, SHRINK_ISSUE, SHRINK_RECENT, eb, load
 from .report import fit_final_calibrator
-from .walkforward import PENDING_CONFIG, fit_predict
+from .walkforward import PENDING_CONFIG, fit_predict, load_questions
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "models" / "output"
@@ -88,6 +88,7 @@ def pending_rows(profiles, pending_cases, issue_map):
             p = profiles[jn]
             row = {
                 "caseId": case["id"], "justiceName": jn, "term": float(case["term"]),
+                "question": case.get("question"),
                 "issue_area": float(issue_area) if issue_area else np.nan,
                 "law_type": np.nan, "cert_reason": np.nan, "jurisdiction": 1.0,
                 "lc_direction": np.nan,
@@ -133,18 +134,29 @@ def main():
         return
 
     last_term = int(df["term"].max())
+
+    # Deployed configuration is PINNED to the walk-forward winner, never
+    # inferred from artifact presence. Text (question-presented LSA) was
+    # validated 2026-07 and DID NOT improve this subset (reverse 64.4% -> 63.9%,
+    # Brier worse; see report-reverse.md § deployment configuration) — topic
+    # appears to matter mainly through its interaction with the unavailable
+    # lower-court direction. Re-pin here only with fresh validation evidence.
+    DEPLOY_CONFIG = "pending_config"
+    with_text = DEPLOY_CONFIG == "pending_config_text"
+    if with_text:
+        df["question"] = df["caseId"].map(load_questions())
+    config_name = DEPLOY_CONFIG
     print(f"training final models on terms <= {last_term} "
-          f"({len(df):,} rows); forecasting {len(pending)} pending cases")
+          f"({len(df):,} rows, config {config_name}); "
+          f"forecasting {len(pending)} pending cases")
 
     calibs, preds = {}, {}
     for target, label in (("reverse", "y_reverse"), ("liberal", "y_liberal")):
         train = df.dropna(subset=[label]).copy()
         train[label] = train[label].astype(float)
-        # deployment-matched configuration: same feature subset + a calibrator
-        # fitted on THAT configuration's own out-of-sample predictions. Falls
-        # back to the committed step-function export (models/calibrators-pending
-        # .yaml) when the prediction cache is absent (e.g. CI).
-        wf_path = CACHE / f"predictions-{target}-pending_config.pkl"
+        # calibrator fitted on THIS configuration's own out-of-sample
+        # predictions; committed step-function export as the cache-less fallback
+        wf_path = CACHE / f"predictions-{target}-{config_name}.pkl"
         if wf_path.exists():
             calibs[target] = fit_final_calibrator(pd.read_pickle(wf_path)).predict
         else:
@@ -156,7 +168,8 @@ def main():
 
         profiles = justice_profiles(train, min(c["term"] for c in pending))
         X_pending = pending_rows(profiles, pending, issue_map)
-        raw = fit_predict(train, X_pending, label, feature_subset=PENDING_CONFIG)
+        raw = fit_predict(train, X_pending, label, feature_subset=PENDING_CONFIG,
+                          with_text=with_text)
         X_pending[f"p_{target}"] = calibs[target](raw)
         preds[target] = X_pending[["caseId", "justiceName", f"p_{target}"]]
 
@@ -178,9 +191,9 @@ def main():
             "generated": generated,
             "model": {
                 "engine": "HistGradientBoosting, deployment-matched cert-stage "
-                          "feature subset (walk-forward validated as pending_config)",
+                          f"feature subset ({config_name}, walk-forward validated)",
                 "trained_through_term": last_term,
-                "calibration": "isotonic over the subset's own 1956-2024 "
+                "calibration": "isotonic over the configuration's own 1956-2024 "
                                "out-of-sample predictions",
                 "validated_vote_accuracy": "see models/output/report-reverse.md "
                                            "§ deployment configuration",
@@ -188,6 +201,7 @@ def main():
             "features": {
                 "issue_area": coded.get("issue_area"),
                 "issue_area_basis": coded.get("basis", "not coded (missing)"),
+                "question_text": bool(case.get("question")) and with_text,
                 "argued": (case.get("dates") or {}).get("argued"),
                 "note": "lower-court direction, parties, and law type unknown pre-SCDB "
                         "coding; model uses native missing-value handling",

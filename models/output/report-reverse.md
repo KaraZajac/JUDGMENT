@@ -1,6 +1,6 @@
 # Walk-forward evaluation — target: reverse
 
-*Generated 2026-07-03 by `models/report.py`. Protocol: train on terms ≤ T−1, predict every vote of term T; eval window 1956–2024 (modern SCDB era, first ten terms reserved as burn-in). Target: justice votes to reverse the judgment below.*
+*Generated 2026-07-04 by `models/report.py`. Protocol: train on terms ≤ T−1, predict every vote of term T; eval window 1956–2024 (modern SCDB era, first ten terms reserved as burn-in). Target: justice votes to reverse the judgment below.*
 
 ## Vote-level results
 
@@ -135,6 +135,10 @@ After prospective isotonic recalibration (fitted per term on strictly earlier ou
 | variant | n | accuracy | Brier | log loss | AUC | ECE |
 |---|---|---|---|---|---|---|
 | cert-stage subset | 67047 | 0.6438 | 0.2242 | 0.6404 | 0.6005 | 0.0384 |
+| cert-stage subset + question-text LSA | 67047 | 0.6391 | 0.2275 | 0.6498 | 0.6011 | 0.0581 |
+| full config + text (1990–2024) | 24235 | 0.6521 | 0.2203 | 0.6338 | 0.6446 | 0.0674 |
+
+Question-presented text (cert-stage by construction — fixed at grant) was tested as per-step TF-IDF + truncated-SVD components fitted on the training window only, rows without harvested text carrying missing values. **Negative result: text does not improve either configuration** — the deployed subset stays text-free. Interpretation: case topic predicts votes mainly through its interaction with the direction of the decision below, which is unavailable pre-decision; residual topic signal is already carried by the issue-area feature. The corpus and machinery remain for interaction-aware future work.
 
 The live forecaster (`models/predict.py`) is restricted to features actually available for a granted-but-undecided case (justice history, hand-coded issue area, U.S.-party flags, jurisdiction). This row is that exact configuration walk-forward validated over the same window — the honest expected performance of published forecasts. The full model's extra accuracy comes from lower-court and party codings that do not exist until SCDB codes the case.
 

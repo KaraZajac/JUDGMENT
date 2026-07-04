@@ -5,7 +5,10 @@
 > prospective isotonic calibration, feature ablations, penalized-ML dynamic ideal
 > points, and a deployment-matched pending-docket forecaster writing
 > `data/forecasts/`. Results: `models/output/report-{reverse,liberal}.md`.
-> Phase 4 (text) and full Bayesian posteriors remain open.
+> Phase 4 text was tested (question-presented corpus + leakage-safe LSA):
+> **negative result**, documented in the reports — richer text sources
+> (lower-court opinions, oral argument) and interaction-aware models remain
+> open, as do full Bayesian posteriors.
 
 Goal: forecast, for each pending or hypothetical case, (a) the outcome (affirm/reverse,
 petitioner/respondent), (b) each justice's vote and its direction, (c) the vote split

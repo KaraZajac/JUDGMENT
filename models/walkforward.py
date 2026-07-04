@@ -35,10 +35,54 @@ import numpy as np
 import pandas as pd
 import yaml
 from scipy.stats import binomtest
+from sklearn.decomposition import TruncatedSVD
 from sklearn.ensemble import HistGradientBoostingClassifier
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import roc_auc_score
 
 from .features import CAT_FEATURES, NUM_FEATURES, load
+
+TEXT_DIMS = 64
+
+
+def load_questions():
+    """caseId -> question presented (data/text/questions.yaml, cert-stage text)."""
+    path = Path(__file__).resolve().parent.parent / "data" / "text" / "questions.yaml"
+    if not path.exists():
+        raise SystemExit("data/text/questions.yaml missing — run "
+                         "`python3 -m pipeline.questions` first")
+    return yaml.safe_load(path.read_text(encoding="utf-8"))["questions"]
+
+
+def fit_text_embedder(train_questions, dims=TEXT_DIMS, seed=7):
+    """TF-IDF + LSA fit on training-window questions ONLY (leakage-safe).
+
+    Returns embed(series) -> (n, k) array, NaN rows where no question exists,
+    or None when the training window has too little text to support the basis.
+    """
+    texts = train_questions.fillna("")
+    has = texts.str.len() > 0
+    if has.sum() < 200:
+        return None
+    tf = TfidfVectorizer(max_features=20000, ngram_range=(1, 2), min_df=3,
+                         stop_words="english", sublinear_tf=True)
+    M = tf.fit_transform(texts[has])
+    k = int(min(dims, M.shape[1] - 1, M.shape[0] - 1))
+    if k < 2:
+        return None
+    svd = TruncatedSVD(n_components=k, random_state=seed)
+    svd.fit(M)
+
+    def embed(series):
+        q = series.fillna("")
+        mask = (q.str.len() > 0).to_numpy()
+        out = np.full((len(q), k), np.nan)
+        if mask.any():
+            out[mask] = svd.transform(tf.transform(q[mask]))
+        return out
+
+    embed.k = k
+    return embed
 
 OUT = Path(__file__).resolve().parent / "output"
 CACHE = OUT / "cache"
@@ -163,17 +207,23 @@ def baseline_probs(train, test, target):
 
 # ---------------------------------------------------------------- engine
 
-def fit_predict(train, test, target, feature_subset=None):
+def fit_predict(train, test, target, feature_subset=None, with_text=False):
     cats = [c for c in CAT_FEATURES if feature_subset is None or c in feature_subset]
     nums = [c for c in NUM_FEATURES if feature_subset is None or c in feature_subset]
-    cols = cats + nums
-    X_train = train[cols].copy()
-    X_test = test[cols].copy()
+    X_train = train[cats + nums].copy()
+    X_test = test[cats + nums].copy()
     for c in cats:
         joint = pd.concat([X_train[c], X_test[c]])
         categories = joint.dropna().unique()
         X_train[c] = pd.Categorical(X_train[c], categories=categories)
         X_test[c] = pd.Categorical(X_test[c], categories=categories)
+    if with_text:
+        embed = fit_text_embedder(train["question"])
+        if embed is not None:
+            E_tr, E_te = embed(train["question"]), embed(test["question"])
+            for i in range(embed.k):  # appended after cats: categorical idx unchanged
+                X_train[f"q{i}"] = E_tr[:, i]
+                X_test[f"q{i}"] = E_te[:, i]
     clf = HistGradientBoostingClassifier(
         categorical_features=[i for i in range(len(cats))], **MODEL_PARAMS)
     clf.fit(X_train, train[target])
@@ -201,11 +251,18 @@ def case_level(test_rows):
 
 # ---------------------------------------------------------------- harness
 
-def run(target, start, end, feature_subset=None, tag="full", with_theta=False):
+def run(target, start, end, feature_subset=None, tag="full", with_theta=False,
+        with_text=False):
     df = load()
     label = "y_reverse" if target == "reverse" else "y_liberal"
     df = df.dropna(subset=[label]).copy()
     df[label] = df[label].astype(float)
+
+    if with_text:
+        questions = load_questions()
+        df["question"] = df["caseId"].map(questions)
+        covered = df["question"].notna().mean()
+        print(f"  question text on {covered:.1%} of labeled rows")
 
     if with_theta:
         theta_path = CACHE / "theta_filtered.pkl"
@@ -222,7 +279,7 @@ def run(target, start, end, feature_subset=None, tag="full", with_theta=False):
         test = df[df["term"] == T]
         if len(test) == 0 or len(train) < 2000:
             continue
-        p_model = fit_predict(train, test, label, feature_subset)
+        p_model = fit_predict(train, test, label, feature_subset, with_text=with_text)
         bl = baseline_probs(train, test, label)
         chunk = test[["caseId", "term", "justiceName", label, "case_reversed"]].copy()
         chunk = chunk.rename(columns={label: "y"})
@@ -289,18 +346,36 @@ def main():
                     help="add leak-free lagged ideal points as a feature (tag: with_theta)")
     ap.add_argument("--pending-config", action="store_true",
                     help="validate the deployment feature subset used by models.predict")
+    ap.add_argument("--text", action="store_true",
+                    help="add leakage-safe LSA features from the question presented")
     args = ap.parse_args()
 
     if args.pending_config:
+        tag = "pending_config_text" if args.text else "pending_config"
+        suffix = "pending-config-text" if args.text else "pending-config"
         for target in (["reverse", "liberal"] if args.target == "both" else [args.target]):
-            print(f"=== walk-forward, pending-config subset: {target} ===")
-            res = run(target, args.start, args.end, PENDING_CONFIG, tag="pending_config")
-            summary = summarize(res, target, tag="pending_config")
-            with open(OUT / f"metrics-{target}-pending-config.yaml", "w") as f:
+            print(f"=== walk-forward, {tag} subset: {target} ===")
+            res = run(target, args.start, args.end, PENDING_CONFIG, tag=tag,
+                      with_text=args.text)
+            summary = summarize(res, target, tag=tag)
+            with open(OUT / f"metrics-{target}-{suffix}.yaml", "w") as f:
                 yaml.safe_dump(summary, f, sort_keys=False)
             vm = summary["vote_level"]["model"]
-            print(f"pending_config/{target}: acc={vm['accuracy']} "
+            print(f"{tag}/{target}: acc={vm['accuracy']} "
                   f"brier={vm['brier']} auc={vm.get('auc')}")
+        return
+
+    if args.text:
+        target = "reverse" if args.target == "both" else args.target
+        print(f"=== walk-forward, full config + text: {target} ===")
+        res = run(target, max(args.start, 1990), args.end, tag="full_text",
+                  with_text=True)
+        summary = summarize(res, target, tag="full_text")
+        with open(OUT / f"metrics-{target}-full-text.yaml", "w") as f:
+            yaml.safe_dump(summary, f, sort_keys=False)
+        vm = summary["vote_level"]["model"]
+        print(f"full_text/{target}: acc={vm['accuracy']} brier={vm['brier']} "
+              f"auc={vm.get('auc')}")
         return
 
     if args.theta:
