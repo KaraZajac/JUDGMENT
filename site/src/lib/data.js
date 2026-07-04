@@ -59,6 +59,20 @@ export function casesForTerm(term) {
   return caseIdsForTerm(term).map(caseById);
 }
 
+/** Model forecasts for pending cases (data/forecasts/, written by models.predict). */
+export function forecasts() {
+  const root = path.join(DATA, "forecasts");
+  const out = new Map();
+  if (!fs.existsSync(root)) return out;
+  for (const t of fs.readdirSync(root).filter((d) => /^\d{4}$/.test(d))) {
+    for (const f of fs.readdirSync(path.join(root, t)).filter((f) => f.endsWith(".yaml"))) {
+      const fc = loadFresh(`forecasts/${t}/${f}`);
+      out.set(fc.id, fc);
+    }
+  }
+  return out;
+}
+
 /** Granted/argued cases awaiting decision (data/docket/, written by pipeline.interim). */
 export function pendingCases() {
   const root = path.join(DATA, "docket");

@@ -1,0 +1,55 @@
+id: 2025-d25-459
+name: Salazar v. Paramount Global
+term: 2025
+generated: '2026-07-04T00:12:38Z'
+model:
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (walk-forward validated as
+    pending_config)
+  trained_through_term: 2024
+  calibration: isotonic over the subset's own 1956-2024 out-of-sample predictions
+  validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
+features:
+  issue_area: 5
+  issue_area_basis: Video Privacy Protection Act scope
+  argued: null
+  note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
+    handling
+prediction:
+  p_reverse: 0.887
+  expected_reverse_votes: 6.19
+  reverse_vote_distribution:
+    9-0: 0.034
+    8-1: 0.141
+    7-2: 0.256
+    6-3: 0.271
+    5-4: 0.184
+    4-5: 0.083
+    3-6: 0.025
+votes:
+- justice: JGRoberts
+  p_reverse: 0.759
+  p_liberal: 0.513
+- justice: CThomas
+  p_reverse: 0.688
+  p_liberal: 0.264
+- justice: SAAlito
+  p_reverse: 0.688
+  p_liberal: 0.269
+- justice: SSotomayor
+  p_reverse: 0.639
+  p_liberal: 0.646
+- justice: EKagan
+  p_reverse: 0.639
+  p_liberal: 0.626
+- justice: NMGorsuch
+  p_reverse: 0.688
+  p_liberal: 0.424
+- justice: BMKavanaugh
+  p_reverse: 0.728
+  p_liberal: 0.451
+- justice: ACBarrett
+  p_reverse: 0.7
+  p_liberal: 0.449
+- justice: KBJackson
+  p_reverse: 0.664
+  p_liberal: 0.646

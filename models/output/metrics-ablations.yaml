@@ -1,0 +1,33 @@
+eval_terms:
+- 1990
+- 2024
+target: reverse
+ablations:
+  full:
+    n: 24235
+    accuracy: 0.6505
+    brier: 0.2214
+    log_loss: 0.637
+    ece: 0.0737
+    auc: 0.6459
+  no_case:
+    n: 24235
+    accuracy: 0.6526
+    brier: 0.2271
+    log_loss: 0.6466
+    ece: 0.0202
+    auc: 0.5269
+  no_justice:
+    n: 24235
+    accuracy: 0.6222
+    brier: 0.2397
+    log_loss: 0.6829
+    ece: 0.1033
+    auc: 0.5624
+  no_ideology:
+    n: 24235
+    accuracy: 0.6455
+    brier: 0.2243
+    log_loss: 0.645
+    ece: 0.0751
+    auc: 0.6301

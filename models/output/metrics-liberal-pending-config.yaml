@@ -1,0 +1,341 @@
+target: liberal
+tag: pending_config
+eval_terms:
+- 1956
+- 2024
+vote_level:
+  model:
+    n: 69825
+    accuracy: 0.642
+    brier: 0.2199
+    log_loss: 0.6302
+    ece: 0.0293
+    auc: 0.6999
+  base_rate:
+    n: 69825
+    accuracy: 0.5224
+    brier: 0.2498
+    log_loss: 0.6928
+    ece: 0.0399
+    auc: 0.5434
+  justice:
+    n: 69825
+    accuracy: 0.6223
+    brier: 0.2285
+    log_loss: 0.6488
+    ece: 0.0026
+    auc: 0.6662
+  party:
+    n: 69825
+    accuracy: 0.5607
+    brier: 0.2449
+    log_loss: 0.683
+    ece: 0.0271
+    auc: 0.5838
+comparisons:
+  base_rate:
+    a_only_right: 21113
+    b_only_right: 12764
+    p_value: 0.0
+  justice:
+    a_only_right: 8504
+    b_only_right: 7128
+    p_value: 3.63e-28
+  party:
+    a_only_right: 16050
+    b_only_right: 10370
+    p_value: 1.61e-269
+calibration_model:
+- bin: "0.0\u20130.1"
+  n: 606
+  mean_p: 0.076
+  frac_positive: 0.155
+- bin: "0.1\u20130.2"
+  n: 2744
+  mean_p: 0.162
+  frac_positive: 0.226
+- bin: "0.2\u20130.3"
+  n: 6968
+  mean_p: 0.255
+  frac_positive: 0.291
+- bin: "0.3\u20130.4"
+  n: 10754
+  mean_p: 0.353
+  frac_positive: 0.385
+- bin: "0.4\u20130.5"
+  n: 12805
+  mean_p: 0.451
+  frac_positive: 0.459
+- bin: "0.5\u20130.6"
+  n: 11423
+  mean_p: 0.549
+  frac_positive: 0.53
+- bin: "0.6\u20130.7"
+  n: 8673
+  mean_p: 0.648
+  frac_positive: 0.621
+- bin: "0.7\u20130.8"
+  n: 7049
+  mean_p: 0.75
+  frac_positive: 0.704
+- bin: "0.8\u20130.9"
+  n: 6424
+  mean_p: 0.847
+  frac_positive: 0.808
+- bin: "0.9\u20131.0"
+  n: 2379
+  mean_p: 0.931
+  frac_positive: 0.891
+case_level_model:
+  n: 7609
+  accuracy: 0.5078
+  brier: 0.3129
+  log_loss: 0.9057
+  ece: 0.263
+  auc: 0.4848
+by_decade:
+  1950s:
+    model:
+      n: 4756
+      accuracy: 0.6709
+      brier: 0.2044
+      log_loss: 0.5934
+      ece: 0.0341
+      auc: 0.7221
+    justice_baseline:
+      n: 4756
+      accuracy: 0.6457
+      brier: 0.2134
+      log_loss: 0.616
+      ece: 0.0377
+      auc: 0.6817
+  1960s:
+    model:
+      n: 12498
+      accuracy: 0.6827
+      brier: 0.2025
+      log_loss: 0.592
+      ece: 0.0304
+      auc: 0.7139
+    justice_baseline:
+      n: 12498
+      accuracy: 0.6627
+      brier: 0.2178
+      log_loss: 0.6263
+      ece: 0.0236
+      auc: 0.6364
+  1970s:
+    model:
+      n: 14027
+      accuracy: 0.6505
+      brier: 0.2183
+      log_loss: 0.6267
+      ece: 0.0341
+      auc: 0.7068
+    justice_baseline:
+      n: 14027
+      accuracy: 0.6132
+      brier: 0.2282
+      log_loss: 0.648
+      ece: 0.0261
+      auc: 0.6664
+  1980s:
+    model:
+      n: 13553
+      accuracy: 0.6494
+      brier: 0.2159
+      log_loss: 0.6213
+      ece: 0.0191
+      auc: 0.7118
+    justice_baseline:
+      n: 13553
+      accuracy: 0.6057
+      brier: 0.2298
+      log_loss: 0.6515
+      ece: 0.0244
+      auc: 0.6558
+  1990s:
+    model:
+      n: 8872
+      accuracy: 0.6028
+      brier: 0.2336
+      log_loss: 0.6601
+      ece: 0.0386
+      auc: 0.6499
+    justice_baseline:
+      n: 8872
+      accuracy: 0.6025
+      brier: 0.238
+      log_loss: 0.6689
+      ece: 0.033
+      auc: 0.6247
+  2000s:
+    model:
+      n: 7203
+      accuracy: 0.63
+      brier: 0.2305
+      log_loss: 0.6551
+      ece: 0.0345
+      auc: 0.6682
+    justice_baseline:
+      n: 7203
+      accuracy: 0.6272
+      brier: 0.2329
+      log_loss: 0.6584
+      ece: 0.0182
+      auc: 0.6444
+  2010s:
+    model:
+      n: 6294
+      accuracy: 0.5941
+      brier: 0.24
+      log_loss: 0.6744
+      ece: 0.0299
+      auc: 0.626
+    justice_baseline:
+      n: 6294
+      accuracy: 0.6007
+      brier: 0.2392
+      log_loss: 0.6715
+      ece: 0.0259
+      auc: 0.6199
+  2020s:
+    model:
+      n: 2622
+      accuracy: 0.5927
+      brier: 0.2368
+      log_loss: 0.6672
+      ece: 0.0468
+      auc: 0.6313
+    justice_baseline:
+      n: 2622
+      accuracy: 0.6274
+      brier: 0.2326
+      log_loss: 0.6579
+      ece: 0.019
+      auc: 0.6403
+by_justice:
+- justice: WODouglas
+  n: 2746
+  accuracy: 0.8074
+  brier: 0.1313
+- justice: EWarren
+  n: 1832
+  accuracy: 0.7522
+  brier: 0.1718
+- justice: HLBlack
+  n: 2113
+  accuracy: 0.7359
+  brier: 0.1774
+- justice: TMarshall
+  n: 3537
+  accuracy: 0.7297
+  brier: 0.1858
+- justice: AFortas
+  n: 525
+  accuracy: 0.7238
+  brier: 0.187
+- justice: WJBrennan
+  n: 5087
+  accuracy: 0.7189
+  brier: 0.1929
+- justice: AJGoldberg
+  n: 440
+  accuracy: 0.7091
+  brier: 0.1859
+- justice: WHRehnquist
+  n: 4300
+  accuracy: 0.7009
+  brier: 0.2019
+- justice: CThomas
+  n: 2667
+  accuracy: 0.661
+  brier: 0.2164
+- justice: WEBurger
+  n: 2692
+  accuracy: 0.6523
+  brier: 0.2216
+- justice: TCClark
+  n: 1515
+  accuracy: 0.6482
+  brier: 0.2274
+- justice: AScalia
+  n: 2777
+  accuracy: 0.6417
+  brier: 0.2258
+- justice: SAAlito
+  n: 1361
+  accuracy: 0.6334
+  brier: 0.2263
+- justice: SSotomayor
+  n: 1091
+  accuracy: 0.6324
+  brier: 0.2273
+- justice: BRWhite
+  n: 4701
+  accuracy: 0.622
+  brier: 0.2304
+- justice: JPStevens
+  n: 4019
+  accuracy: 0.6104
+  brier: 0.2369
+- justice: FFrankfurter
+  n: 695
+  accuracy: 0.6086
+  brier: 0.2446
+- justice: EKagan
+  n: 973
+  accuracy: 0.6053
+  brier: 0.2375
+- justice: HABlackmun
+  n: 3561
+  accuracy: 0.5998
+  brier: 0.2356
+- justice: LFPowell
+  n: 2383
+  accuracy: 0.5997
+  brier: 0.2373
+- justice: SDOConnor
+  n: 2798
+  accuracy: 0.5954
+  brier: 0.2355
+- justice: RBGinsburg
+  n: 2162
+  accuracy: 0.592
+  brier: 0.2434
+- justice: JHarlan2
+  n: 2089
+  accuracy: 0.5854
+  brier: 0.2443
+- justice: AMKennedy
+  n: 2740
+  accuracy: 0.5799
+  brier: 0.2419
+- justice: JGRoberts
+  n: 1405
+  accuracy: 0.5715
+  brier: 0.2463
+- justice: PStewart
+  n: 3429
+  accuracy: 0.5672
+  brier: 0.2445
+- justice: NMGorsuch
+  n: 496
+  accuracy: 0.5585
+  brier: 0.2509
+- justice: SGBreyer
+  n: 2168
+  accuracy: 0.5581
+  brier: 0.247
+- justice: DHSouter
+  n: 1690
+  accuracy: 0.558
+  brier: 0.2468
+- justice: CEWhittaker
+  n: 641
+  accuracy: 0.5507
+  brier: 0.2515
+- justice: BMKavanaugh
+  n: 413
+  accuracy: 0.4964
+  brier: 0.2573

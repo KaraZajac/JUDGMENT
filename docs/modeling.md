@@ -1,5 +1,12 @@
 # Modeling roadmap
 
+> **Status (2026-07):** Phases 1–3 have a first implementation in `models/` —
+> leak-free features, walk-forward evaluation with baselines and McNemar tests,
+> prospective isotonic calibration, feature ablations, penalized-ML dynamic ideal
+> points, and a deployment-matched pending-docket forecaster writing
+> `data/forecasts/`. Results: `models/output/report-{reverse,liberal}.md`.
+> Phase 4 (text) and full Bayesian posteriors remain open.
+
 Goal: forecast, for each pending or hypothetical case, (a) the outcome (affirm/reverse,
 petitioner/respondent), (b) each justice's vote and its direction, (c) the vote split
 distribution, and (d) longitudinal ideology trajectories per justice — at or above the

@@ -2,7 +2,7 @@
 import Base from "../layouts/Base.astro";
 import StatTile from "../components/StatTile.astro";
 import DivergingColumns from "../components/DivergingColumns.astro";
-import { meta, termsAgg, justiceIndex, termList, casesForTerm, pendingCases, byMnemonic } from "../lib/data.js";
+import { meta, termsAgg, justiceIndex, termList, casesForTerm, pendingCases, byMnemonic, forecasts } from "../lib/data.js";
 import { num, caseTitle } from "../lib/format.js";
 
 const m = meta();
@@ -28,6 +28,8 @@ const arguedPending = pending
 const grantedPending = pending
   .filter((p) => !p.dates?.argued)
   .sort((a, b) => String(b.dates?.granted ?? "").localeCompare(String(a.dates?.granted ?? "")));
+
+const forecastOf = forecasts();
 
 const authorLink = (mnemonic) => {
   const j = typeof mnemonic === "string" ? justiceOf.get(mnemonic) : null;
@@ -109,27 +111,40 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
       <h2>Awaiting decision</h2>
       <p class="lede" style="margin-bottom:10px">
         The live docket from Oyez: {arguedPending.length} argued, {grantedPending.length} granted
-        and awaiting argument. These are the cases a forecasting model will be scored on.
+        and awaiting argument. Forecasts are calibrated reverse probabilities from the
+        walk-forward-validated engine (<code>models/predict.py</code>) using cert-stage
+        features only — see models/output/report-reverse.md.
       </p>
       <table class="data">
         <thead>
-          <tr><th>Case</th><th class="n">Status</th></tr>
+          <tr><th>Case</th><th class="n">Forecast</th><th class="n">Status</th></tr>
         </thead>
         <tbody>
-          {[...arguedPending, ...grantedPending].map((p) => (
-            <tr>
-              <td>
-                {p.oyez_url
-                  ? <a href={p.oyez_url} target="_blank" rel="noopener">{caseTitle(p.name)}</a>
-                  : caseTitle(p.name)}
-                <span class="stat-sub" style="margin-left:8px">{p.docket} · {p.term} term</span>
-                {p.question && <div class="stat-sub" style="max-width:66ch">{clip(p.question, 170)}</div>}
-              </td>
-              <td class="n" style="white-space:nowrap">
-                {p.dates?.argued ? `argued ${p.dates.argued}` : p.dates?.granted ? `granted ${p.dates.granted}` : "granted"}
-              </td>
-            </tr>
-          ))}
+          {[...arguedPending, ...grantedPending].map((p) => {
+            const fc = forecastOf.get(p.id);
+            return (
+              <tr>
+                <td>
+                  {p.oyez_url
+                    ? <a href={p.oyez_url} target="_blank" rel="noopener">{caseTitle(p.name)}</a>
+                    : caseTitle(p.name)}
+                  <span class="stat-sub" style="margin-left:8px">{p.docket} · {p.term} term</span>
+                  {p.question && <div class="stat-sub" style="max-width:66ch">{clip(p.question, 170)}</div>}
+                </td>
+                <td class="n" style="white-space:nowrap">
+                  {fc
+                    ? <span data-tip-value={`${Math.round(fc.prediction.p_reverse * 100)}% chance the Court disturbs the judgment below`}
+                        data-tip-label={`expected reverse votes ${fc.prediction.expected_reverse_votes} of 9`}>
+                        {Math.round(fc.prediction.p_reverse * 100)}% reverse
+                      </span>
+                    : "—"}
+                </td>
+                <td class="n" style="white-space:nowrap">
+                  {p.dates?.argued ? `argued ${p.dates.argued}` : p.dates?.granted ? `granted ${p.dates.granted}` : "granted"}
+                </td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </>

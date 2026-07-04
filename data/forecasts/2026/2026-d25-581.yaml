@@ -1,0 +1,56 @@
+id: 2026-d25-581
+name: St. Mary Catholic Parish v. Roy
+term: 2026
+generated: '2026-07-04T00:12:38Z'
+model:
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (walk-forward validated as
+    pending_config)
+  trained_through_term: 2024
+  calibration: isotonic over the subset's own 1956-2024 out-of-sample predictions
+  validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
+features:
+  issue_area: 3
+  issue_area_basis: Free Exercise general-applicability standard
+  argued: null
+  note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
+    handling
+prediction:
+  p_reverse: 0.872
+  expected_reverse_votes: 6.1
+  reverse_vote_distribution:
+    9-0: 0.03
+    8-1: 0.129
+    7-2: 0.246
+    6-3: 0.273
+    5-4: 0.194
+    4-5: 0.092
+    3-6: 0.029
+    2-7: 0.006
+votes:
+- justice: JGRoberts
+  p_reverse: 0.688
+  p_liberal: 0.549
+- justice: CThomas
+  p_reverse: 0.688
+  p_liberal: 0.42
+- justice: SAAlito
+  p_reverse: 0.688
+  p_liberal: 0.506
+- justice: SSotomayor
+  p_reverse: 0.62
+  p_liberal: 0.711
+- justice: EKagan
+  p_reverse: 0.688
+  p_liberal: 0.691
+- justice: NMGorsuch
+  p_reverse: 0.688
+  p_liberal: 0.518
+- justice: BMKavanaugh
+  p_reverse: 0.7
+  p_liberal: 0.549
+- justice: ACBarrett
+  p_reverse: 0.67
+  p_liberal: 0.618
+- justice: KBJackson
+  p_reverse: 0.67
+  p_liberal: 0.794
