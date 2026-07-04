@@ -112,8 +112,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
       <p class="lede" style="margin-bottom:10px">
         The live docket from Oyez: {arguedPending.length} argued, {grantedPending.length} granted
         and awaiting argument. Forecasts are calibrated reverse probabilities from the
-        walk-forward-validated engine (<code>models/predict.py</code>) using cert-stage
-        features only — see models/output/report-reverse.md.
+        walk-forward-validated engine — <a href="/predict">full per-justice predictions →</a>
       </p>
       <table class="data">
         <thead>

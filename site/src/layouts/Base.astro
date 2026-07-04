@@ -22,6 +22,7 @@ const current = (p) => (path === p || path.startsWith(p + "/") ? "true" : undefi
       <div class="wrap">
         <a class="brand" href="/">JUDGEMENT</a>
         <nav class="site-nav">
+          <a href="/predict" aria-current={current("/predict")}>Predict</a>
           <a href="/justices" aria-current={current("/justices")}>Justices</a>
           <a href="/terms" aria-current={current("/terms")}>Terms</a>
           <a href="/courts" aria-current={current("/courts")}>Courts</a>

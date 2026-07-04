@@ -1,0 +1,156 @@
+---
+import Base from "../layouts/Base.astro";
+import StatTile from "../components/StatTile.astro";
+import { pendingCases, forecasts, byMnemonic } from "../lib/data.js";
+import { caseTitle, fmtDate, pct } from "../lib/format.js";
+
+const pending = pendingCases();
+const forecastOf = forecasts();
+const justiceOf = byMnemonic();
+
+const argued = pending.filter((p) => p.dates?.argued);
+const unargued = pending.filter((p) => !p.dates?.argued);
+const scheduled = unargued.filter((p) => p.dates?.scheduled_argument);
+
+const ordered = [
+  ...argued.sort((a, b) => String(a.dates.argued).localeCompare(String(b.dates.argued))),
+  ...unargued.sort((a, b) =>
+    String(a.dates?.scheduled_argument ?? "9999").localeCompare(String(b.dates?.scheduled_argument ?? "9999")) ||
+    String(a.dates?.granted ?? "9999").localeCompare(String(b.dates?.granted ?? "9999"))),
+];
+
+const nextTermYear = Math.max(...pending.map((p) => p.term));
+function firstMonday(year) {
+  const first = new Date(Date.UTC(year, 9, 1));
+  const offset = (8 - first.getUTCDay()) % 7;
+  return new Date(Date.UTC(year, 9, 1 + offset));
+}
+const sittingStart = firstMonday(nextTermYear).toLocaleDateString("en-US", {
+  weekday: "long", year: "numeric", month: "long", day: "numeric", timeZone: "UTC",
+});
+
+const statusOf = (p) =>
+  p.dates?.argued ? `argued ${fmtDate(p.dates.argued)}`
+  : p.dates?.scheduled_argument ? `argument set for ${fmtDate(p.dates.scheduled_argument)}`
+  : p.dates?.granted ? `granted ${fmtDate(p.dates.granted)} · awaiting argument date`
+  : "granted";
+
+const topSplits = (fc, n = 3) =>
+  Object.entries(fc?.prediction?.reverse_vote_distribution ?? {})
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, n);
+
+const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s);
+---
+
+<Base title="Predict" description="Calibrated forecasts for every pending Supreme Court case.">
+  <p class="eyebrow">The model, live</p>
+  <h1>Predictions</h1>
+  <p class="lede">
+    Calibrated probabilities for every granted-but-undecided case, from the
+    walk-forward-validated engine in <code>models/</code>. The deployed configuration uses
+    only cert-stage features (justice history, provisional issue area, party flags) and is
+    itself validated at <b>64.4%</b> per-vote accuracy over 1956–2024; the research
+    configuration with full SCDB case coding reaches <b>66.8%</b> per-vote / <b>67.6%</b>
+    per-case. Probabilities are prospectively isotonic-calibrated (ECE ≈ 0.02) — details
+    and limitations in <code>models/output/report-reverse.md</code>.
+  </p>
+  <p class="notice">
+    Issue areas for pending cases are provisional hand-codings from the question presented
+    (<code>models/pending_issues.yaml</code>). Case-level probabilities assume vote
+    independence — coalition behavior makes true tails wider. Forecasts regenerate via
+    <code>models/predict.py</code> and are scored as decisions land.
+  </p>
+
+  <div class="kpis">
+    <StatTile label="Pending cases" value={pending.length} sub={`${argued.length} argued · ${unargued.length} awaiting argument`} />
+    <StatTile label="Argument dates set" value={scheduled.length} sub="from supremecourt.gov dockets" />
+    <StatTile label={`Arguments resume (OT${nextTermYear})`} value={sittingStart.split(",")[0]} sub={sittingStart} />
+  </div>
+
+  {ordered.map((p) => {
+    const fc = forecastOf.get(p.id);
+    return (
+      <section class="card fc-card">
+        <div class="fc-head">
+          <div>
+            {p.oyez_url
+              ? <a class="fc-title" href={p.oyez_url} target="_blank" rel="noopener">{caseTitle(p.name)}</a>
+              : <span class="fc-title">{caseTitle(p.name)}</span>}
+            <span class="stat-sub" style="margin-left:10px">{p.docket} · {p.term} term</span>
+          </div>
+          <span class="chip">{statusOf(p)}</span>
+        </div>
+        {p.question && <p class="fc-question">{clip(p.question, 300)}</p>}
+        {fc ? (
+          <>
+            <div class="fc-forecast">
+              <div class="fc-hero">
+                <div class="stat-label">P(reverse)</div>
+                <div class="stat-value">{Math.round(fc.prediction.p_reverse * 100)}%</div>
+              </div>
+              <div class="fc-meta">
+                <div>expected reverse votes: <b>{fc.prediction.expected_reverse_votes}</b> of {fc.votes.length}</div>
+                <div class="chips" style="margin-top:6px">
+                  {topSplits(fc).map(([split, prob]) => (
+                    <span class="chip">{split.replace("-", "–")} · {Math.round(prob * 100)}%</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+            <details class="tableview">
+              <summary>Per-justice forecast</summary>
+              <table class="data">
+                <thead>
+                  <tr><th>Justice</th><th class="n">P(reverse)</th><th>Predicted lean</th><th class="n">P(liberal)</th></tr>
+                </thead>
+                <tbody>
+                  {fc.votes.map((v) => {
+                    const j = justiceOf.get(v.justice);
+                    return (
+                      <tr>
+                        <td>{j ? <a href={`/justices/${j.slug}`}>{j.name}</a> : v.justice}</td>
+                        <td class="n">{pct(v.p_reverse)}</td>
+                        <td>
+                          <span class="dbar" role="img" aria-label={`${pct(v.p_liberal)} liberal`}>
+                            {v.p_liberal >= 0.5
+                              ? <span class="fill lib" style={`width:${((v.p_liberal - 0.5) * 100).toFixed(1)}%`}></span>
+                              : <span class="fill con" style={`width:${((0.5 - v.p_liberal) * 100).toFixed(1)}%`}></span>}
+                          </span>
+                        </td>
+                        <td class="n">{pct(v.p_liberal)}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </details>
+          </>
+        ) : (
+          <p class="stat-sub">No forecast generated for this case yet.</p>
+        )}
+      </section>
+    );
+  })}
+
+  <h2>Method, briefly</h2>
+  <p class="lede">
+    Gradient-boosted trees over leak-free features (every justice-level input is computed
+    from terms strictly before the prediction; nothing downstream of the vote is used).
+    Validation is walk-forward by term — train on everything before term T, predict term T,
+    repeat 1956–2024 — against base-rate, justice-history, and attitudinal baselines with
+    exact McNemar tests. Case probabilities aggregate the nine per-justice probabilities by
+    Poisson-binomial majority. Ideal-point trajectories (a penalized-ML Martin–Quinn
+    variant) live on each justice's page dataset and in <code>data/scores/</code>.
+  </p>
+</Base>
+
+<style>
+  .fc-card { margin-bottom: 14px; }
+  .fc-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .fc-title { font-weight: 650; font-size: 16px; }
+  .fc-question { color: var(--ink-2); font-size: 13.5px; max-width: 82ch; margin: 8px 0 10px; }
+  .fc-forecast { display: flex; gap: 26px; align-items: center; flex-wrap: wrap; }
+  .fc-hero .stat-value { font-size: 30px; }
+  .fc-meta { font-size: 13.5px; color: var(--ink-2); }
+</style>

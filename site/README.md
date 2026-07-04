@@ -19,6 +19,7 @@ A full `astro build` prerenders every page (slow, only needed for static hosting
 | route | what |
 |---|---|
 | `/` | headline stats, the Court's direction term-by-term (1791–present), latest decisions, and the pending docket |
+| `/predict` | calibrated forecasts for every pending case: P(reverse), split distributions, per-justice probabilities, argument schedule |
 | `/justices` | all 117 justices: tenure, appointer, career lean |
 | `/justices/<slug>` | bio, record, ideological trajectory, lean by issue area |
 | `/terms` | every term: direction mix, reversal rate, unanimity |

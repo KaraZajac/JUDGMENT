@@ -44,7 +44,10 @@ from .build import DATA, SOURCES, dump_yaml, put
 
 CACHE = SOURCES / "interim"
 UA = "JUDGEMENT-pipeline/0.1 (academic research)"
+BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"  # supremecourt.gov blocks bot UAs
 ET = ZoneInfo("America/New_York")
+SET_FOR_ARGUMENT_RE = re.compile(
+    r"SET FOR ARGUMENT on\s+\w+,\s+(\w+ \d{1,2}, \d{4})", re.IGNORECASE)
 
 # Oyez member identifier -> SCDB justiceName mnemonic. Extend when the bench changes;
 # unknown identifiers pass through raw and are reported.
@@ -345,6 +348,32 @@ def build_from_oyez(term, detail, cl_by_docket):
     return case
 
 
+def scotus_docket(docket, refresh):
+    """Official per-docket JSON (proceedings and orders) from supremecourt.gov."""
+    url = f"https://www.supremecourt.gov/RSS/Cases/JSON/{urllib.parse.quote(docket)}.json"
+    try:
+        return fetch_json(url, f"scotus-docket-{docket_slug(docket)}.json", refresh,
+                          headers={"User-Agent": BROWSER_UA})
+    except (HTTPError, URLError, TimeoutError, ValueError):
+        return None
+
+
+def scheduled_argument(docket_json):
+    """Latest 'SET FOR ARGUMENT on <weekday>, <Month D, YYYY>' entry, ISO date."""
+    if not docket_json:
+        return None
+    latest = None
+    for entry in docket_json.get("ProceedingsandOrder") or []:
+        m = SET_FOR_ARGUMENT_RE.search(entry.get("Text") or "")
+        if m:
+            try:
+                latest = datetime.datetime.strptime(
+                    m.group(1), "%B %d, %Y").date().isoformat()
+            except ValueError:
+                pass
+    return latest
+
+
 def strip_html(s):
     if not s:
         return None
@@ -352,7 +381,7 @@ def strip_html(s):
     return re.sub(r"\s+", " ", text).strip() or None
 
 
-def build_pending(term, detail):
+def build_pending(term, detail, refresh=False):
     """Granted/argued-but-undecided case -> data/docket/ record (a forecasting target)."""
     docket = (detail.get("docket_number") or "").strip()
     case = {
@@ -363,7 +392,13 @@ def build_pending(term, detail):
         "sources": ["oyez"],
     }
     put(case, "docket", docket)
-    put(case, "dates", timeline_dates(detail))
+    dates = timeline_dates(detail)
+    if docket and not dates.get("argued"):
+        sched = scheduled_argument(scotus_docket(docket, refresh))
+        if sched:
+            dates["scheduled_argument"] = sched
+            case["sources"].append("supremecourt.gov")
+    put(case, "dates", dates)
     lower = detail.get("lower_court") or {}
     if isinstance(lower, dict) and lower.get("name"):
         case["lower_court"] = {"name": lower["name"]}
@@ -468,7 +503,7 @@ def ingest_pending(term, refresh):
     tdir.mkdir(parents=True, exist_ok=True)
     written = argued = already_decided = 0
     for stub in stubs:
-        case = build_pending(term, oyez_detail(term, stub, refresh))
+        case = build_pending(term, oyez_detail(term, stub, refresh), refresh)
         if not case.get("docket"):
             continue
         # Oyez timelines lag decision days; if a decided record for this docket
