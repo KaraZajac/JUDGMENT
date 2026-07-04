@@ -1,7 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { justiceIndex, meta } from "../../lib/data.js";
-import { pct } from "../../lib/format.js";
+import { pct, url } from "../../lib/format.js";
 
 const m = meta();
 const lastTerm = m.counts.last_term;
@@ -26,7 +26,7 @@ const share = (slug) => justice(slug)?.ideology?.career_liberal_share ?? null;
   <h2>The current court</h2>
   <div class="chips" style="margin-bottom: 8px">
     {sitting.map((j) => (
-      <a class="chip" href={`/justices/${j.slug}`}>
+      <a class="chip" href={url(`/justices/${j.slug}`)}>
         {j.party && <span class={`dot ${j.party === "Democratic" ? "lib" : "con"}`}></span>}
         <b>{j.name}</b>
       </a>
@@ -49,7 +49,7 @@ const share = (slug) => justice(slug)?.ideology?.career_liberal_share ?? null;
         const s = share(j.slug);
         return (
           <tr>
-            <td><a href={`/justices/${j.slug}`}>{j.name}</a>{j.position === "chief" && <span class="badge" style="margin-left:8px">Chief</span>}</td>
+            <td><a href={url(`/justices/${j.slug}`)}>{j.name}</a>{j.position === "chief" && <span class="badge" style="margin-left:8px">Chief</span>}</td>
             <td class="n">{j.first_term}–{j.last_term === lastTerm && !justice(j.slug)?.service?.ended ? "present" : j.last_term}</td>
             <td>
               {j.party && <span class={`dot ${j.party === "Democratic" ? "lib" : "con"}`} style="margin-right:6px"></span>}

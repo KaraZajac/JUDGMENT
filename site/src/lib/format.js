@@ -36,3 +36,7 @@ export function fmtDate(iso) {
 }
 
 export const num = (n) => (n == null ? "—" : n.toLocaleString("en-US"));
+
+/** Base-aware internal URL (GitHub Pages serves under /JUDGMENT/). */
+export const url = (p) =>
+  import.meta.env.BASE_URL.replace(/\/$/, "") + p;

@@ -1,7 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { courts, byMnemonic, agreement } from "../../lib/data.js";
-import { fmtDate } from "../../lib/format.js";
+import { fmtDate, url } from "../../lib/format.js";
 
 const list = [...courts()].reverse();
 const justiceOf = byMnemonic();
@@ -38,7 +38,7 @@ const wash = (rate) => {
         {c.justices.map((m) => {
           const j = justiceOf.get(m);
           return j
-            ? <a class="chip" href={`/justices/${j.slug}`}>{j.name}</a>
+            ? <a class="chip" href={url(`/justices/${j.slug}`)}>{j.name}</a>
             : <span class="chip">{m}</span>;
         })}
       </div>

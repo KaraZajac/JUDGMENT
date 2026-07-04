@@ -3,7 +3,7 @@ import Base from "../layouts/Base.astro";
 import StatTile from "../components/StatTile.astro";
 import DivergingColumns from "../components/DivergingColumns.astro";
 import { meta, termsAgg, justiceIndex, termList, casesForTerm, pendingCases, byMnemonic, forecasts } from "../lib/data.js";
-import { num, caseTitle } from "../lib/format.js";
+import { num, caseTitle, url } from "../lib/format.js";
 
 const m = meta();
 const agg = termsAgg();
@@ -33,7 +33,7 @@ const forecastOf = forecasts();
 
 const authorLink = (mnemonic) => {
   const j = typeof mnemonic === "string" ? justiceOf.get(mnemonic) : null;
-  return j ? { href: `/justices/${j.slug}`, name: j.name } : null;
+  return j ? { href: url(`/justices/${j.slug}`), name: j.name } : null;
 };
 const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s);
 ---
@@ -86,7 +86,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
               <tr>
                 <td class="n">{c.dates.decided}</td>
                 <td>
-                  <a href={`/cases/${c.id}`}>{caseTitle(c.name)}</a>
+                  <a href={url(`/cases/${c.id}`)}>{caseTitle(c.name)}</a>
                   {c.question && <div class="stat-sub" style="max-width:62ch">{clip(c.question, 150)}</div>}
                 </td>
                 <td class="n">
@@ -101,7 +101,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
         </tbody>
       </table>
       <p style="font-size:13px; margin-top:8px">
-        <a href={`/terms/${latestTerm}`}>All {latestTerm} term cases →</a>
+        <a href={url(`/terms/${latestTerm}`)}>All {latestTerm} term cases →</a>
       </p>
     </>
   )}
@@ -112,7 +112,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
       <p class="lede" style="margin-bottom:10px">
         The live docket from Oyez: {arguedPending.length} argued, {grantedPending.length} granted
         and awaiting argument. Forecasts are calibrated reverse probabilities from the
-        walk-forward-validated engine — <a href="/predict">full per-justice predictions →</a>
+        walk-forward-validated engine — <a href={url("/predict")}>full per-justice predictions →</a>
       </p>
       <table class="data">
         <thead>
@@ -152,7 +152,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
   <h2>The current court</h2>
   <div class="chips">
     {sitting.map((j) => (
-      <a class="chip" href={`/justices/${j.slug}`}>
+      <a class="chip" href={url(`/justices/${j.slug}`)}>
         {j.party && <span class={`dot ${j.party === "Democratic" ? "lib" : "con"}`}></span>}
         <b>{j.name}</b>
       </a>
@@ -161,19 +161,19 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
 
   <h2>Explore</h2>
   <div class="kpis">
-    <a class="card" href="/justices" style="text-decoration:none">
+    <a class="card" href={url("/justices")} style="text-decoration:none">
       <div class="stat-label">Justices</div>
       <div class="stat-value">Trajectories</div>
       <div class="stat-sub">Ideology over time, records, biographies</div>
     </a>
-    <a class="card" href={`/terms/${latestTerm}`} style="text-decoration:none">
+    <a class="card" href={url(`/terms/${latestTerm}`)} style="text-decoration:none">
       <div class="stat-label">Latest term</div>
       <div class="stat-value">{latestTerm}</div>
       <div class="stat-sub">
         {latestTerm > lastTerm ? "Provisional — live from Oyez/CourtListener" : "Dockets, splits, and outcomes"}
       </div>
     </a>
-    <a class="card" href="/courts" style="text-decoration:none">
+    <a class="card" href={url("/courts")} style="text-decoration:none">
       <div class="stat-label">Natural courts</div>
       <div class="stat-value">{m.counts.natural_courts}</div>
       <div class="stat-sub">Every stable bench since 1791</div>

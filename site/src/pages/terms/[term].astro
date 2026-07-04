@@ -4,7 +4,7 @@ import StatTile from "../../components/StatTile.astro";
 import StackBar from "../../components/StackBar.astro";
 import SplitBars from "../../components/SplitBars.astro";
 import { termList, casesForTerm, termsAgg, byMnemonic } from "../../lib/data.js";
-import { caseTitle, pct, num, label } from "../../lib/format.js";
+import { caseTitle, pct, num, label, url } from "../../lib/format.js";
 
 export function getStaticPaths() {
   return termList().map((t) => ({ params: { term: String(t) } }));
@@ -40,9 +40,9 @@ const isProvisional = agg.provisional || cases.some((c) => c.provisional);
 
 <Base title={`${term} Term`} description={`Supreme Court decisions of the ${term} term.`}>
   <p class="eyebrow">
-    {prev != null && <a href={`/terms/${prev}`}>← {prev}</a>}
+    {prev != null && <a href={url(`/terms/${prev}`)}>← {prev}</a>}
     <span style="margin: 0 8px">Term</span>
-    {next != null && <a href={`/terms/${next}`}>{next} →</a>}
+    {next != null && <a href={url(`/terms/${next}`)}>{next} →</a>}
   </p>
   <h1>{term} Term</h1>
   <p class="lede">
@@ -109,7 +109,7 @@ const isProvisional = agg.provisional || cases.some((c) => c.provisional);
         return (
           <tr>
             <td class="n">{c.dates?.decided ?? "—"}</td>
-            <td><a href={`/cases/${c.id}`}>{caseTitle(c.name)}</a></td>
+            <td><a href={url(`/cases/${c.id}`)}>{caseTitle(c.name)}</a></td>
             <td class="n">
               {d.majority_votes != null && d.minority_votes != null
                 ? `${d.majority_votes}–${d.minority_votes}`
@@ -123,7 +123,7 @@ const isProvisional = agg.provisional || cases.some((c) => c.provisional);
                 "—"
               )}
             </td>
-            <td>{authorEntry ? <a href={`/justices/${authorEntry.slug}`}>{authorEntry.name}</a> : author ?? "—"}</td>
+            <td>{authorEntry ? <a href={url(`/justices/${authorEntry.slug}`)}>{authorEntry.name}</a> : author ?? "—"}</td>
           </tr>
         );
       })}

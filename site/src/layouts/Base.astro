@@ -1,11 +1,13 @@
 ---
 import "../styles/global.css";
 import { meta } from "../lib/data.js";
+import { url } from "../lib/format.js";
 
 const { title = "JUDGMENT", description = "" } = Astro.props;
 const m = meta();
 const path = Astro.url.pathname;
-const current = (p) => (path === p || path.startsWith(p + "/") ? "true" : undefined);
+const current = (p) =>
+  (path === url(p) || path.startsWith(url(p) + "/") ? "true" : undefined);
 ---
 
 <html lang="en">
@@ -15,17 +17,17 @@ const current = (p) => (path === p || path.startsWith(p + "/") ? "true" : undefi
     <meta name="color-scheme" content="light dark" />
     {description && <meta name="description" content={description} />}
     <title>{title} · JUDGMENT</title>
-    <script is:inline src="/tooltip.js" defer></script>
+    <script is:inline src={url("/tooltip.js")} defer></script>
   </head>
   <body>
     <header class="site-head">
       <div class="wrap">
-        <a class="brand" href="/">JUDGMENT</a>
+        <a class="brand" href={url("/")}>JUDGMENT</a>
         <nav class="site-nav">
-          <a href="/predict" aria-current={current("/predict")}>Predict</a>
-          <a href="/justices" aria-current={current("/justices")}>Justices</a>
-          <a href="/terms" aria-current={current("/terms")}>Terms</a>
-          <a href="/courts" aria-current={current("/courts")}>Courts</a>
+          <a href={url("/predict")} aria-current={current("/predict")}>Predict</a>
+          <a href={url("/justices")} aria-current={current("/justices")}>Justices</a>
+          <a href={url("/terms")} aria-current={current("/terms")}>Terms</a>
+          <a href={url("/courts")} aria-current={current("/courts")}>Courts</a>
         </nav>
       </div>
     </header>

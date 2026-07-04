@@ -1,7 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { termList, caseIdsForTerm, caseById, byMnemonic } from "../../lib/data.js";
-import { caseTitle, fmtDate, label, num } from "../../lib/format.js";
+import { caseTitle, fmtDate, label, num, url } from "../../lib/format.js";
 
 export function getStaticPaths() {
   // ids only — the page body loads its own YAML so dev never parses the corpus
@@ -27,7 +27,7 @@ const other = votes.filter((v) => v.in_majority == null);
 
 const jlink = (mnemonic) => {
   const entry = typeof mnemonic === "string" ? justiceOf.get(mnemonic) : null;
-  return entry ? { href: `/justices/${entry.slug}`, name: entry.name } : { name: String(mnemonic ?? "—") };
+  return entry ? { href: url(`/justices/${entry.slug}`), name: entry.name } : { name: String(mnemonic ?? "—") };
 };
 
 const wrote = (v) =>
@@ -66,9 +66,9 @@ function voteRow(v) {
 
 <Base title={caseTitle(c.name)} description={`${caseTitle(c.name)}, ${c.term} term.`}>
   <p class="eyebrow">
-    {prev && <a href={`/cases/${prev}`}>← previous</a>}
-    <span style="margin: 0 8px"><a href={`/terms/${c.term}`}>{c.term} Term</a> · {c.chief} Court · {c.id}</span>
-    {next && <a href={`/cases/${next}`}>next →</a>}
+    {prev && <a href={url(`/cases/${prev}`)}>← previous</a>}
+    <span style="margin: 0 8px"><a href={url(`/terms/${c.term}`)}>{c.term} Term</a> · {c.chief} Court · {c.id}</span>
+    {next && <a href={url(`/cases/${next}`)}>next →</a>}
   </p>
   <h1>{caseTitle(c.name)}</h1>
   <p class="lede" style="margin-bottom: 10px">

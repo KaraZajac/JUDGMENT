@@ -2,7 +2,7 @@
 import Base from "../layouts/Base.astro";
 import StatTile from "../components/StatTile.astro";
 import { pendingCases, forecasts, byMnemonic, scorecard } from "../lib/data.js";
-import { caseTitle, fmtDate, pct } from "../lib/format.js";
+import { caseTitle, fmtDate, pct, url } from "../lib/format.js";
 
 const card = scorecard();
 const scored = card?.scored ?? [];
@@ -90,7 +90,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
         <tbody>
           {scored.map((s) => (
             <tr>
-              <td><a href={`/cases/${s.id}`}>{caseTitle(s.name)}</a></td>
+              <td><a href={url(`/cases/${s.id}`)}>{caseTitle(s.name)}</a></td>
               <td class="n">{pct(s.p_reverse)} reverse</td>
               <td>{s.outcome}</td>
               <td>{s.hit ? "✓ hit" : "✗ miss"}</td>
@@ -148,7 +148,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
                     const j = justiceOf.get(v.justice);
                     return (
                       <tr>
-                        <td>{j ? <a href={`/justices/${j.slug}`}>{j.name}</a> : v.justice}</td>
+                        <td>{j ? <a href={url(`/justices/${j.slug}`)}>{j.name}</a> : v.justice}</td>
                         <td class="n">{pct(v.p_reverse)}</td>
                         <td>
                           <span class="dbar" role="img" aria-label={`${pct(v.p_liberal)} liberal`}>

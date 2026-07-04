@@ -1,7 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { termsAgg } from "../../lib/data.js";
-import { pct, num } from "../../lib/format.js";
+import { pct, num, url } from "../../lib/format.js";
 
 const terms = [...termsAgg()].sort((a, b) => b.term - a.term);
 ---
@@ -31,7 +31,7 @@ const terms = [...termsAgg()].sort((a, b) => b.term - a.term);
         return (
           <tr>
             <td>
-              <a href={`/terms/${t.term}`}>{t.term}</a>
+              <a href={url(`/terms/${t.term}`)}>{t.term}</a>
               {t.provisional && <span class="badge" style="margin-left:8px">provisional</span>}
             </td>
             <td class="n">{num(t.cases)}</td>
