@@ -348,14 +348,19 @@ def main():
                     help="validate the deployment feature subset used by models.predict")
     ap.add_argument("--text", action="store_true",
                     help="add leakage-safe LSA features from the question presented")
+    ap.add_argument("--lc", action="store_true",
+                    help="add lower-court direction to the pending-config subset "
+                         "(hand-coded for pending cases in models/pending_lc.yaml)")
     args = ap.parse_args()
 
     if args.pending_config:
-        tag = "pending_config_text" if args.text else "pending_config"
-        suffix = "pending-config-text" if args.text else "pending-config"
+        subset = PENDING_CONFIG + (["lc_direction"] if args.lc else [])
+        tag = ("pending_config" + ("_lc" if args.lc else "")
+               + ("_text" if args.text else ""))
+        suffix = tag.replace("_", "-")
         for target in (["reverse", "liberal"] if args.target == "both" else [args.target]):
             print(f"=== walk-forward, {tag} subset: {target} ===")
-            res = run(target, args.start, args.end, PENDING_CONFIG, tag=tag,
+            res = run(target, args.start, args.end, subset, tag=tag,
                       with_text=args.text)
             summary = summarize(res, target, tag=tag)
             with open(OUT / f"metrics-{target}-{suffix}.yaml", "w") as f:

@@ -1,56 +1,60 @@
 id: 2026-d25-5930
 name: Maxwell v. Thomas
 term: 2026
-generated: '2026-07-04T00:12:38Z'
+generated: '2026-07-04T04:40:56Z'
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (walk-forward validated as
-    pending_config)
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc, walk-forward
+    validated)
   trained_through_term: 2024
-  calibration: isotonic over the subset's own 1956-2024 out-of-sample predictions
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
   issue_area: 1
   issue_area_basis: federal habeas / First Step Act credits
+  lc_direction: conservative
+  lc_direction_basis: "federal prisoner petitioned on First Step Act habeas \u2014 decision below favored\
+    \ the government (anti-prisoner)."
+  question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.854
-  expected_reverse_votes: 5.99
+  p_reverse: 0.843
+  expected_reverse_votes: 5.86
   reverse_vote_distribution:
-    9-0: 0.026
-    8-1: 0.116
-    7-2: 0.233
-    6-3: 0.273
-    5-4: 0.206
-    4-5: 0.103
-    3-6: 0.034
+    9-0: 0.017
+    8-1: 0.093
+    7-2: 0.22
+    6-3: 0.286
+    5-4: 0.227
+    4-5: 0.114
+    3-6: 0.036
     2-7: 0.007
 votes:
 - justice: JGRoberts
-  p_reverse: 0.688
-  p_liberal: 0.455
+  p_reverse: 0.66
+  p_liberal: 0.562
 - justice: CThomas
-  p_reverse: 0.664
-  p_liberal: 0.234
+  p_reverse: 0.439
+  p_liberal: 0.36
 - justice: SAAlito
-  p_reverse: 0.639
-  p_liberal: 0.264
+  p_reverse: 0.43
+  p_liberal: 0.361
 - justice: SSotomayor
-  p_reverse: 0.664
-  p_liberal: 0.691
+  p_reverse: 0.811
+  p_liberal: 0.828
 - justice: EKagan
-  p_reverse: 0.67
-  p_liberal: 0.646
+  p_reverse: 0.808
+  p_liberal: 0.782
 - justice: NMGorsuch
-  p_reverse: 0.62
-  p_liberal: 0.42
+  p_reverse: 0.574
+  p_liberal: 0.502
 - justice: BMKavanaugh
-  p_reverse: 0.688
-  p_liberal: 0.424
+  p_reverse: 0.66
+  p_liberal: 0.534
 - justice: ACBarrett
-  p_reverse: 0.688
-  p_liberal: 0.424
+  p_reverse: 0.648
+  p_liberal: 0.562
 - justice: KBJackson
-  p_reverse: 0.67
-  p_liberal: 0.714
+  p_reverse: 0.833
+  p_liberal: 0.828

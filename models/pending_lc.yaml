@@ -1,0 +1,72 @@
+# Provisional hand-coded ideological direction of the decision below for
+# pending docket cases, following SCDB lcDispositionDirection conventions
+# (see data/codebook/decision-direction.yaml). Reasoning anchor: certiorari
+# petitioners lost below, so the decision below favored the respondent; the
+# direction is then classified by SCDB's issue conventions (pro-civil-rights-
+# claimant / pro-criminal-defendant / pro-environmental-claim / anti-business
+# = liberal; the reverse = conservative).
+#
+# Cases with no question text or genuinely ambiguous direction are left
+# uncoded (the model treats them as missing). Replaced by SCDB coding when
+# the annual release covers the case. Coded 2026-07-04.
+
+2025-d24-38:
+  lc_direction: liberal
+  basis: Ninth Circuit ruled for Hecox (transgender athlete challenging Idaho's
+    ban) — pro-civil-rights-claimant below; state officials petitioned.
+
+2025-d25-459:
+  lc_direction: conservative
+  basis: consumer VPPA plaintiff petitioned — decision below favored the media
+    company (anti-consumer-claim).
+
+2025-d25-498:
+  lc_direction: conservative
+  basis: ERISA plan-participant plaintiffs petitioned — decision below favored
+    the fiduciary (anti-benefits-claim pleading bar).
+
+2026-d25-170:
+  lc_direction: liberal
+  basis: energy companies petitioned — decision below allowed the county's
+    state-law climate claims to proceed (anti-business / pro-environmental-claim).
+
+2026-d25-183:
+  lc_direction: conservative
+  basis: employee plaintiffs petitioned — decision below rejected Title IX
+    employment discrimination suits (anti-discrimination-claimant).
+
+2026-d25-5343:
+  lc_direction: conservative
+  basis: federal criminal defendant petitioned on Guidelines-commentary
+    deference — decision below favored the government (anti-defendant).
+
+2026-d25-579:
+  lc_direction: liberal
+  basis: federal agency petitioned — decision below favored the environmental
+    challengers to hazardous-waste permitting (pro-environmental-claim).
+
+2026-d25-581:
+  lc_direction: conservative
+  basis: parish's Free Exercise claim rejected below (SCDB convention codes
+    pro-free-exercise-claimant as liberal; the rejection is conservative).
+
+2026-d25-5930:
+  lc_direction: conservative
+  basis: federal prisoner petitioned on First Step Act habeas — decision below
+    favored the government (anti-prisoner).
+
+2026-d25-735:
+  lc_direction: conservative
+  basis: veteran petitioned after jurisdiction-stripping dismissal — decision
+    below denied individual access to district courts.
+
+2026-d25-966:
+  lc_direction: conservative
+  basis: Department of Labor petitioned — decision below rejected agency
+    adjudication authority (anti-agency-power in economic regulation).
+
+# Uncoded (no question text or genuinely ambiguous direction):
+#   2025-d25-248 (D.C. v. R.W.), 2026-d25-297 (Zorn v. Linton),
+#   2026-d25-352 (Younge — pure civil-procedure question, direction ambiguous),
+#   2026-d25-580 (Whitton v. Dixon), 2026-d25-748 (McCarthy v. Hernandez),
+#   2026-d25-767 (Margolin v. NAIJ)

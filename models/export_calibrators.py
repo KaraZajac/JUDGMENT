@@ -20,9 +20,8 @@ CACHE = OUT / "output" / "cache"
 
 
 def main():
-    # pinned to the deployed configuration (see models/predict.py DEPLOY_CONFIG);
-    # text config exists but did not validate better, so it is not exported
-    config = "pending_config"
+    from .predict import DEPLOY_CONFIG  # single source of truth for the pin
+    config = DEPLOY_CONFIG
     payload = {"config": config}
     for target in ("reverse", "liberal"):
         wf = pd.read_pickle(CACHE / f"predictions-{target}-{config}.pkl")

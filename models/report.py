@@ -166,11 +166,15 @@ def build_report(target):
     if pc_path.exists():
         pc = yaml.safe_load(pc_path.read_text())
         rows = [block_row("cert-stage subset", pc["vote_level"]["model"])]
-        pct_path = OUT / f"metrics-{target}-pending-config-text.yaml"
-        if pct_path.exists():
-            pct = yaml.safe_load(pct_path.read_text())
-            rows.append(block_row("cert-stage subset + question-text LSA",
-                                  pct["vote_level"]["model"]))
+        for label_, suffix_ in (
+            ("+ lower-court direction (hand-codable)", "pending-config-lc"),
+            ("+ question-text LSA", "pending-config-text"),
+            ("+ lc direction + text (interaction test)", "pending-config-lc-text"),
+        ):
+            p_ = OUT / f"metrics-{target}-{suffix_}.yaml"
+            if p_.exists():
+                rows.append(block_row(
+                    label_, yaml.safe_load(p_.read_text())["vote_level"]["model"]))
         ft_path = OUT / f"metrics-{target}-full-text.yaml"
         if ft_path.exists():
             ft = yaml.safe_load(ft_path.read_text())
@@ -181,16 +185,16 @@ def build_report(target):
         a("")
         a(md_table(rows, ["variant", "n", "accuracy", "Brier", "log loss", "AUC", "ECE"]))
         a("")
-        if pct_path.exists():
-            a("Question-presented text (cert-stage by construction — fixed at grant) "
-              "was tested as per-step TF-IDF + truncated-SVD components fitted on the "
-              "training window only, rows without harvested text carrying missing "
-              "values. **Negative result: text does not improve either configuration** "
-              "— the deployed subset stays text-free. Interpretation: case topic "
-              "predicts votes mainly through its interaction with the direction of "
-              "the decision below, which is unavailable pre-decision; residual topic "
-              "signal is already carried by the issue-area feature. The corpus and "
-              "machinery remain for interaction-aware future work.")
+        if (OUT / f"metrics-{target}-pending-config-text.yaml").exists():
+            a("Lower-court direction is hand-codable per pending case (petitioner "
+              "lost below + SCDB issue conventions; `models/pending_lc.yaml`) and was "
+              "**adopted** — the lean subset plus lc_direction outperforms even the "
+              "full research configuration. Question-presented text (cert-stage by "
+              "construction) was tested as leakage-safe per-step TF-IDF/LSA and "
+              "**rejected twice**: it does not help without lc_direction, and the "
+              "interaction hypothesis fails too — with lc_direction present, text "
+              "still subtracts. Content adds nothing beyond structure here; the "
+              "corpus remains for richer text sources.")
             a("")
         a("The live forecaster (`models/predict.py`) is restricted to features "
           "actually available for a granted-but-undecided case (justice history, "

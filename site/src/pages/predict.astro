@@ -52,15 +52,17 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
   <p class="lede">
     Calibrated probabilities for every granted-but-undecided case, from the
     walk-forward-validated engine in <code>models/</code>. The deployed configuration uses
-    only cert-stage features (justice history, provisional issue area, party flags) and is
-    itself validated at <b>64.4%</b> per-vote accuracy over 1956–2024; the research
-    configuration with full SCDB case coding reaches <b>66.8%</b> per-vote / <b>67.6%</b>
-    per-case. Probabilities are prospectively isotonic-calibrated (ECE ≈ 0.02) — details
-    and limitations in <code>models/output/report-reverse.md</code>.
+    cert-stage features only — justice history, hand-coded issue area and lower-court
+    direction, party flags — and is validated at <b>67.8%</b> per-vote accuracy over
+    1956–2024 (it outperforms the full-SCDB research configuration's 66.8%: the lean
+    subset plus the decision below beats the noisy codings). Question-text features were
+    tested twice and rejected. Probabilities are isotonic-calibrated — details and
+    limitations in <code>models/output/report-reverse.md</code>.
   </p>
   <p class="notice">
-    Issue areas for pending cases are provisional hand-codings from the question presented
-    (<code>models/pending_issues.yaml</code>). Case-level probabilities assume vote
+    Issue areas and lower-court directions for pending cases are provisional hand-codings
+    with documented bases (<code>models/pending_issues.yaml</code>,
+    <code>models/pending_lc.yaml</code>). Case-level probabilities assume vote
     independence — coalition behavior makes true tails wider. Forecasts regenerate via
     <code>models/predict.py</code> and are scored as decisions land.
   </p>

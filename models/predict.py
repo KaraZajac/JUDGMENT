@@ -31,6 +31,22 @@ OUT = ROOT / "models" / "output"
 CACHE = OUT / "cache"
 FORECASTS = ROOT / "data" / "forecasts"
 PENDING_ISSUES = Path(__file__).resolve().parent / "pending_issues.yaml"
+PENDING_LC = Path(__file__).resolve().parent / "pending_lc.yaml"
+
+# name -> (feature subset additions, with_text); subset base is PENDING_CONFIG
+CONFIGS = {
+    "pending_config": ([], False),
+    "pending_config_lc": (["lc_direction"], False),
+    "pending_config_lc_text": (["lc_direction"], True),
+}
+
+# The deployed configuration is PINNED to the walk-forward winner, never
+# inferred from artifact presence — re-pin only with fresh validation evidence
+# (report-reverse.md § deployment configuration). History: text-only REJECTED
+# 2026-07 (reverse 64.4% -> 63.9%); lc_direction ADOPTED 2026-07 (64.4% ->
+# 67.8%, beats the full research config); lc+text interaction REJECTED
+# (67.6% < 67.8%). Pending-case lc values are hand-coded in pending_lc.yaml.
+DEPLOY_CONFIG = "pending_config_lc"
 
 SITTING = ["JGRoberts", "CThomas", "SAAlito", "SSotomayor", "EKagan",
            "NMGorsuch", "BMKavanaugh", "ACBarrett", "KBJackson"]
@@ -77,11 +93,14 @@ def justice_profiles(df, pending_term):
     return profiles
 
 
-def pending_rows(profiles, pending_cases, issue_map):
+def pending_rows(profiles, pending_cases, issue_map, lc_map=None):
+    lc_map = lc_map or {}
     rows = []
     for case in pending_cases:
         coded = issue_map.get(case["id"], {})
         issue_area = coded.get("issue_area")
+        lc_word = (lc_map.get(case["id"]) or {}).get("lc_direction")
+        lc_value = {"conservative": 1.0, "liberal": 2.0}.get(lc_word, np.nan)
         pet = (case.get("parties", {}) or {}).get("petitioner_name") or ""
         res = (case.get("parties", {}) or {}).get("respondent_name") or ""
         for jn in SITTING:
@@ -91,7 +110,7 @@ def pending_rows(profiles, pending_cases, issue_map):
                 "question": case.get("question"),
                 "issue_area": float(issue_area) if issue_area else np.nan,
                 "law_type": np.nan, "cert_reason": np.nan, "jurisdiction": 1.0,
-                "lc_direction": np.nan,
+                "lc_direction": lc_value,
                 "case_source_cat": -2.0, "case_origin_cat": -2.0,
                 "petitioner_cat": -2.0, "respondent_cat": -2.0,
                 "lc_disagreement": np.nan, "three_judge_dc": 0.0,
@@ -135,17 +154,11 @@ def main():
 
     last_term = int(df["term"].max())
 
-    # Deployed configuration is PINNED to the walk-forward winner, never
-    # inferred from artifact presence. Text (question-presented LSA) was
-    # validated 2026-07 and DID NOT improve this subset (reverse 64.4% -> 63.9%,
-    # Brier worse; see report-reverse.md § deployment configuration) — topic
-    # appears to matter mainly through its interaction with the unavailable
-    # lower-court direction. Re-pin here only with fresh validation evidence.
-    DEPLOY_CONFIG = "pending_config"
-    with_text = DEPLOY_CONFIG == "pending_config_text"
+    extra_features, with_text = CONFIGS[DEPLOY_CONFIG]
     if with_text:
         df["question"] = df["caseId"].map(load_questions())
     config_name = DEPLOY_CONFIG
+    lc_map = yaml.safe_load(PENDING_LC.read_text()) if PENDING_LC.exists() else {}
     print(f"training final models on terms <= {last_term} "
           f"({len(df):,} rows, config {config_name}); "
           f"forecasting {len(pending)} pending cases")
@@ -167,8 +180,9 @@ def main():
             calibs[target] = lambda p, xs=xs, ys=ys: np.interp(p, xs, ys)
 
         profiles = justice_profiles(train, min(c["term"] for c in pending))
-        X_pending = pending_rows(profiles, pending, issue_map)
-        raw = fit_predict(train, X_pending, label, feature_subset=PENDING_CONFIG,
+        X_pending = pending_rows(profiles, pending, issue_map, lc_map)
+        raw = fit_predict(train, X_pending, label,
+                          feature_subset=PENDING_CONFIG + extra_features,
                           with_text=with_text)
         X_pending[f"p_{target}"] = calibs[target](raw)
         preds[target] = X_pending[["caseId", "justiceName", f"p_{target}"]]
@@ -201,6 +215,9 @@ def main():
             "features": {
                 "issue_area": coded.get("issue_area"),
                 "issue_area_basis": coded.get("basis", "not coded (missing)"),
+                "lc_direction": (lc_map.get(case["id"]) or {}).get("lc_direction"),
+                "lc_direction_basis": (lc_map.get(case["id"]) or {}).get(
+                    "basis", "not coded (missing)"),
                 "question_text": bool(case.get("question")) and with_text,
                 "argued": (case.get("dates") or {}).get("argued"),
                 "note": "lower-court direction, parties, and law type unknown pre-SCDB "

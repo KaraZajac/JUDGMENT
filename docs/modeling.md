@@ -5,10 +5,12 @@
 > prospective isotonic calibration, feature ablations, penalized-ML dynamic ideal
 > points, and a deployment-matched pending-docket forecaster writing
 > `data/forecasts/`. Results: `models/output/report-{reverse,liberal}.md`.
-> Phase 4 text was tested (question-presented corpus + leakage-safe LSA):
-> **negative result**, documented in the reports — richer text sources
-> (lower-court opinions, oral argument) and interaction-aware models remain
-> open, as do full Bayesian posteriors.
+> Phase 4 text was tested twice (question-presented corpus + leakage-safe LSA,
+> alone and with lower-court direction): **negative both times** — content adds
+> nothing beyond structure here. Hand-codable lower-court direction was
+> **adopted** instead (deployed accuracy 64.4% → 67.8%, exceeding the full
+> research configuration). Richer text sources (lower-court opinions, oral
+> argument) and full Bayesian posteriors remain open.
 
 Goal: forecast, for each pending or hypothetical case, (a) the outcome (affirm/reverse,
 petitioner/respondent), (b) each justice's vote and its direction, (c) the vote split

@@ -116,9 +116,10 @@ After prospective isotonic recalibration (fitted per term on strictly earlier ou
 | variant | n | accuracy | Brier | log loss | AUC | ECE |
 |---|---|---|---|---|---|---|
 | cert-stage subset | 69825 | 0.6420 | 0.2199 | 0.6302 | 0.6999 | 0.0293 |
-| cert-stage subset + question-text LSA | 69825 | 0.6433 | 0.2242 | 0.6453 | 0.6968 | 0.0540 |
+| + lower-court direction (hand-codable) | 69825 | 0.6632 | 0.2119 | 0.6127 | 0.726 | 0.0291 |
+| + question-text LSA | 69825 | 0.6433 | 0.2242 | 0.6453 | 0.6968 | 0.0540 |
 
-Question-presented text (cert-stage by construction — fixed at grant) was tested as per-step TF-IDF + truncated-SVD components fitted on the training window only, rows without harvested text carrying missing values. **Negative result: text does not improve either configuration** — the deployed subset stays text-free. Interpretation: case topic predicts votes mainly through its interaction with the direction of the decision below, which is unavailable pre-decision; residual topic signal is already carried by the issue-area feature. The corpus and machinery remain for interaction-aware future work.
+Lower-court direction is hand-codable per pending case (petitioner lost below + SCDB issue conventions; `models/pending_lc.yaml`) and was **adopted** — the lean subset plus lc_direction outperforms even the full research configuration. Question-presented text (cert-stage by construction) was tested as leakage-safe per-step TF-IDF/LSA and **rejected twice**: it does not help without lc_direction, and the interaction hypothesis fails too — with lc_direction present, text still subtracts. Content adds nothing beyond structure here; the corpus remains for richer text sources.
 
 The live forecaster (`models/predict.py`) is restricted to features actually available for a granted-but-undecided case (justice history, hand-coded issue area, U.S.-party flags, jurisdiction). This row is that exact configuration walk-forward validated over the same window — the honest expected performance of published forecasts. The full model's extra accuracy comes from lower-court and party codings that do not exist until SCDB codes the case.
 

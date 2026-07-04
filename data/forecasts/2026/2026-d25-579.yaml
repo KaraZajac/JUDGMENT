@@ -1,56 +1,60 @@
 id: 2026-d25-579
 name: Department of the Air Force v. Prutehi Guahan
 term: 2026
-generated: '2026-07-04T00:12:38Z'
+generated: '2026-07-04T04:40:56Z'
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (walk-forward validated as
-    pending_config)
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc, walk-forward
+    validated)
   trained_through_term: 2024
-  calibration: isotonic over the subset's own 1956-2024 out-of-sample predictions
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
   issue_area: 8
   issue_area_basis: RCRA hazardous-waste permitting
+  lc_direction: liberal
+  lc_direction_basis: "federal agency petitioned \u2014 decision below favored the environmental challengers\
+    \ to hazardous-waste permitting (pro-environmental-claim)."
+  question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.853
-  expected_reverse_votes: 5.99
+  p_reverse: 0.847
+  expected_reverse_votes: 5.93
   reverse_vote_distribution:
-    9-0: 0.025
-    8-1: 0.115
-    7-2: 0.233
-    6-3: 0.273
-    5-4: 0.206
-    4-5: 0.104
-    3-6: 0.035
-    2-7: 0.007
+    9-0: 0.022
+    8-1: 0.107
+    7-2: 0.227
+    6-3: 0.277
+    5-4: 0.214
+    4-5: 0.108
+    3-6: 0.036
+    2-7: 0.008
 votes:
 - justice: JGRoberts
-  p_reverse: 0.688
-  p_liberal: 0.449
+  p_reverse: 0.727
+  p_liberal: 0.323
 - justice: CThomas
-  p_reverse: 0.639
-  p_liberal: 0.376
+  p_reverse: 0.724
+  p_liberal: 0.323
 - justice: SAAlito
-  p_reverse: 0.664
-  p_liberal: 0.376
+  p_reverse: 0.727
+  p_liberal: 0.273
 - justice: SSotomayor
-  p_reverse: 0.639
-  p_liberal: 0.549
+  p_reverse: 0.518
+  p_liberal: 0.452
 - justice: EKagan
-  p_reverse: 0.639
-  p_liberal: 0.549
+  p_reverse: 0.574
+  p_liberal: 0.446
 - justice: NMGorsuch
-  p_reverse: 0.67
-  p_liberal: 0.455
-- justice: BMKavanaugh
   p_reverse: 0.688
-  p_liberal: 0.455
+  p_liberal: 0.323
+- justice: BMKavanaugh
+  p_reverse: 0.724
+  p_liberal: 0.323
 - justice: ACBarrett
   p_reverse: 0.688
-  p_liberal: 0.455
+  p_liberal: 0.356
 - justice: KBJackson
-  p_reverse: 0.67
-  p_liberal: 0.646
+  p_reverse: 0.562
+  p_liberal: 0.529

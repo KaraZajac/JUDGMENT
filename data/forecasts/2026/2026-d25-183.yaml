@@ -1,56 +1,59 @@
 id: 2026-d25-183
 name: Crowther v. Board of Regents of the University System of Georgia
 term: 2026
-generated: '2026-07-04T00:12:38Z'
+generated: '2026-07-04T04:40:56Z'
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (walk-forward validated as
-    pending_config)
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc, walk-forward
+    validated)
   trained_through_term: 2024
-  calibration: isotonic over the subset's own 1956-2024 out-of-sample predictions
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
   issue_area: 2
   issue_area_basis: Title IX employment sex-discrimination suits
+  lc_direction: conservative
+  lc_direction_basis: "employee plaintiffs petitioned \u2014 decision below rejected Title IX employment\
+    \ discrimination suits (anti-discrimination-claimant)."
+  question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.857
-  expected_reverse_votes: 6.01
+  p_reverse: 0.896
+  expected_reverse_votes: 6.2
   reverse_vote_distribution:
-    9-0: 0.026
-    8-1: 0.118
-    7-2: 0.236
-    6-3: 0.273
-    5-4: 0.204
-    4-5: 0.101
-    3-6: 0.033
-    2-7: 0.007
+    9-0: 0.03
+    8-1: 0.135
+    7-2: 0.262
+    6-3: 0.282
+    5-4: 0.187
+    4-5: 0.079
+    3-6: 0.021
 votes:
 - justice: JGRoberts
-  p_reverse: 0.67
-  p_liberal: 0.455
+  p_reverse: 0.648
+  p_liberal: 0.593
 - justice: CThomas
-  p_reverse: 0.639
-  p_liberal: 0.282
+  p_reverse: 0.472
+  p_liberal: 0.392
 - justice: SAAlito
-  p_reverse: 0.639
-  p_liberal: 0.306
+  p_reverse: 0.518
+  p_liberal: 0.452
 - justice: SSotomayor
-  p_reverse: 0.67
-  p_liberal: 0.743
+  p_reverse: 0.833
+  p_liberal: 0.834
 - justice: EKagan
-  p_reverse: 0.664
-  p_liberal: 0.724
+  p_reverse: 0.811
+  p_liberal: 0.828
 - justice: NMGorsuch
-  p_reverse: 0.664
-  p_liberal: 0.456
+  p_reverse: 0.65
+  p_liberal: 0.612
 - justice: BMKavanaugh
-  p_reverse: 0.688
-  p_liberal: 0.48
+  p_reverse: 0.724
+  p_liberal: 0.653
 - justice: ACBarrett
-  p_reverse: 0.688
-  p_liberal: 0.455
+  p_reverse: 0.692
+  p_liberal: 0.567
 - justice: KBJackson
-  p_reverse: 0.688
-  p_liberal: 0.857
+  p_reverse: 0.849
+  p_liberal: 0.834

@@ -1,56 +1,60 @@
 id: 2026-d25-5343
 name: Beaird v. United States
 term: 2026
-generated: '2026-07-04T00:12:38Z'
+generated: '2026-07-04T04:40:56Z'
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (walk-forward validated as
-    pending_config)
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc, walk-forward
+    validated)
   trained_through_term: 2024
-  calibration: isotonic over the subset's own 1956-2024 out-of-sample predictions
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
   issue_area: 1
   issue_area_basis: deference to Sentencing Guidelines commentary
+  lc_direction: conservative
+  lc_direction_basis: "federal criminal defendant petitioned on Guidelines-commentary deference \u2014\
+    \ decision below favored the government (anti-defendant)."
+  question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.777
-  expected_reverse_votes: 5.58
+  p_reverse: 0.805
+  expected_reverse_votes: 5.68
   reverse_vote_distribution:
-    9-0: 0.012
-    8-1: 0.072
-    7-2: 0.183
-    6-3: 0.266
-    5-4: 0.244
-    4-5: 0.147
-    3-6: 0.058
-    2-7: 0.015
+    9-0: 0.013
+    8-1: 0.076
+    7-2: 0.195
+    6-3: 0.278
+    5-4: 0.243
+    4-5: 0.135
+    3-6: 0.048
+    2-7: 0.01
 votes:
 - justice: JGRoberts
-  p_reverse: 0.639
-  p_liberal: 0.518
+  p_reverse: 0.66
+  p_liberal: 0.534
 - justice: CThomas
-  p_reverse: 0.588
-  p_liberal: 0.42
+  p_reverse: 0.472
+  p_liberal: 0.363
 - justice: SAAlito
-  p_reverse: 0.438
-  p_liberal: 0.376
+  p_reverse: 0.401
+  p_liberal: 0.356
 - justice: SSotomayor
-  p_reverse: 0.7
-  p_liberal: 0.646
+  p_reverse: 0.767
+  p_liberal: 0.632
 - justice: EKagan
-  p_reverse: 0.688
-  p_liberal: 0.646
+  p_reverse: 0.741
+  p_liberal: 0.567
 - justice: NMGorsuch
-  p_reverse: 0.688
-  p_liberal: 0.506
+  p_reverse: 0.724
+  p_liberal: 0.529
 - justice: BMKavanaugh
-  p_reverse: 0.588
-  p_liberal: 0.513
+  p_reverse: 0.589
+  p_liberal: 0.452
 - justice: ACBarrett
-  p_reverse: 0.55
-  p_liberal: 0.518
+  p_reverse: 0.518
+  p_liberal: 0.502
 - justice: KBJackson
-  p_reverse: 0.7
-  p_liberal: 0.691
+  p_reverse: 0.808
+  p_liberal: 0.669

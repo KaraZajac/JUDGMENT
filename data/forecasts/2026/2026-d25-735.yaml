@@ -1,56 +1,60 @@
 id: 2026-d25-735
 name: Johnson v. United States Congress
 term: 2026
-generated: '2026-07-04T00:12:38Z'
+generated: '2026-07-04T04:40:56Z'
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (walk-forward validated as
-    pending_config)
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc, walk-forward
+    validated)
   trained_through_term: 2024
-  calibration: isotonic over the subset's own 1956-2024 out-of-sample predictions
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
   issue_area: 9
   issue_area_basis: jurisdiction-stripping under Veterans' Judicial Review Act
+  lc_direction: conservative
+  lc_direction_basis: "veteran petitioned after jurisdiction-stripping dismissal \u2014 decision below\
+    \ denied individual access to district courts."
+  question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.701
-  expected_reverse_votes: 5.26
+  p_reverse: 0.771
+  expected_reverse_votes: 5.55
   reverse_vote_distribution:
-    9-0: 0.008
-    8-1: 0.051
-    7-2: 0.145
-    6-3: 0.241
-    5-4: 0.257
-    4-5: 0.182
-    3-6: 0.086
-    2-7: 0.026
+    9-0: 0.012
+    8-1: 0.07
+    7-2: 0.179
+    6-3: 0.263
+    5-4: 0.245
+    4-5: 0.15
+    3-6: 0.061
+    2-7: 0.016
 votes:
 - justice: JGRoberts
-  p_reverse: 0.558
-  p_liberal: 0.549
+  p_reverse: 0.601
+  p_liberal: 0.567
 - justice: CThomas
-  p_reverse: 0.575
-  p_liberal: 0.554
+  p_reverse: 0.562
+  p_liberal: 0.567
 - justice: SAAlito
-  p_reverse: 0.523
-  p_liberal: 0.518
+  p_reverse: 0.472
+  p_liberal: 0.534
 - justice: SSotomayor
-  p_reverse: 0.601
-  p_liberal: 0.549
+  p_reverse: 0.68
+  p_liberal: 0.562
 - justice: EKagan
-  p_reverse: 0.601
-  p_liberal: 0.549
+  p_reverse: 0.66
+  p_liberal: 0.562
 - justice: NMGorsuch
-  p_reverse: 0.62
-  p_liberal: 0.572
+  p_reverse: 0.66
+  p_liberal: 0.593
 - justice: BMKavanaugh
-  p_reverse: 0.588
-  p_liberal: 0.618
+  p_reverse: 0.628
+  p_liberal: 0.534
 - justice: ACBarrett
-  p_reverse: 0.575
-  p_liberal: 0.603
+  p_reverse: 0.562
+  p_liberal: 0.567
 - justice: KBJackson
-  p_reverse: 0.62
-  p_liberal: 0.549
+  p_reverse: 0.727
+  p_liberal: 0.669

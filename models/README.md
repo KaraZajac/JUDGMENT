@@ -59,13 +59,23 @@ location/scale/sign identified per sweep). Full-history trajectories go to
 `data/scores/ideal-points.yaml`; an expanding-refit variant provides leak-free
 lagged scores whose predictive contribution is tested as a model variant.
 
-**Text features (tested, not deployed).** Question-presented text — cert-stage by
-construction — was harvested for 3,418 historical cases (`pipeline/questions.py`)
-and entered as leakage-safe per-step TF-IDF/LSA components (`--text`). **Negative
-result:** no improvement in either configuration (deployment reverse 64.4% → 63.9%;
-research 65.2% vs 65.1%). Interpretation: topic predicts votes chiefly through its
-interaction with the lower-court direction, which is unavailable pre-decision.
-The corpus and machinery remain for interaction-aware future work; the deployed
+**Lower-court direction (adopted 2026-07).** The single highest-value deployment
+feature: the ideological direction of the decision below, hand-codable per pending
+case from the petitioner-lost-below anchor plus SCDB issue conventions
+(`pending_lc.yaml`, with per-case bases). Walk-forward validated at **67.8%**
+reverse / 66.3% liberal — the lean cert-stage subset plus lc_direction outperforms
+the full research configuration (66.8%), whose extra court/party codings apparently
+add more variance than signal. Per-justice forecasts now carry the attitudinal
+structure (conservatives high P(reverse) on liberal rulings below, inverted on
+conservative ones).
+
+**Text features (tested twice, not deployed).** Question-presented text —
+cert-stage by construction — was harvested for 3,418 historical cases
+(`pipeline/questions.py`) and entered as leakage-safe per-step TF-IDF/LSA
+components (`--text`). **Negative both times:** without lc_direction (64.4% →
+63.9%) and, refuting the interaction hypothesis, with it (67.8% → 67.6%).
+Content adds nothing beyond structure in this framework. The corpus and machinery
+remain for richer text sources (lower-court opinions, oral argument). The deployed
 configuration is pinned in `predict.py` (`DEPLOY_CONFIG`) and changes only with
 fresh validation evidence.
 

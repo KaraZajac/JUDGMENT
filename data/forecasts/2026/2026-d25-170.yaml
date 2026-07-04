@@ -1,55 +1,59 @@
 id: 2026-d25-170
 name: Suncor Energy (U.S.A.) Inc. v. County Commissioners of Boulder County
 term: 2026
-generated: '2026-07-04T00:12:38Z'
+generated: '2026-07-04T04:40:56Z'
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (walk-forward validated as
-    pending_config)
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc, walk-forward
+    validated)
   trained_through_term: 2024
-  calibration: isotonic over the subset's own 1956-2024 out-of-sample predictions
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
   issue_area: 10
   issue_area_basis: federal preclusion of state-law climate claims
+  lc_direction: liberal
+  lc_direction_basis: "energy companies petitioned \u2014 decision below allowed the county's state-law\
+    \ climate claims to proceed (anti-business / pro-environmental-claim)."
+  question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.905
-  expected_reverse_votes: 6.32
+  p_reverse: 0.89
+  expected_reverse_votes: 6.2
   reverse_vote_distribution:
-    9-0: 0.041
-    8-1: 0.159
-    7-2: 0.269
-    6-3: 0.266
-    5-4: 0.169
-    4-5: 0.071
-    3-6: 0.02
+    9-0: 0.033
+    8-1: 0.14
+    7-2: 0.259
+    6-3: 0.274
+    5-4: 0.184
+    4-5: 0.081
+    3-6: 0.024
 votes:
 - justice: JGRoberts
-  p_reverse: 0.771
-  p_liberal: 0.424
+  p_reverse: 0.754
+  p_liberal: 0.213
 - justice: CThomas
-  p_reverse: 0.688
-  p_liberal: 0.311
+  p_reverse: 0.741
+  p_liberal: 0.197
 - justice: SAAlito
-  p_reverse: 0.67
-  p_liberal: 0.42
+  p_reverse: 0.724
+  p_liberal: 0.197
 - justice: SSotomayor
-  p_reverse: 0.688
-  p_liberal: 0.549
+  p_reverse: 0.574
+  p_liberal: 0.323
 - justice: EKagan
-  p_reverse: 0.688
-  p_liberal: 0.518
+  p_reverse: 0.601
+  p_liberal: 0.323
 - justice: NMGorsuch
-  p_reverse: 0.688
-  p_liberal: 0.39
+  p_reverse: 0.727
+  p_liberal: 0.175
 - justice: BMKavanaugh
-  p_reverse: 0.728
-  p_liberal: 0.42
+  p_reverse: 0.748
+  p_liberal: 0.126
 - justice: ACBarrett
-  p_reverse: 0.7
-  p_liberal: 0.376
+  p_reverse: 0.741
+  p_liberal: 0.172
 - justice: KBJackson
-  p_reverse: 0.7
-  p_liberal: 0.554
+  p_reverse: 0.589
+  p_liberal: 0.361

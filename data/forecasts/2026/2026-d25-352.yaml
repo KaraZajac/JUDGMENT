@@ -1,55 +1,57 @@
 id: 2026-d25-352
 name: Younge v. Fulton Judicial Circuit District Attorney's Office, Georgia
 term: 2026
-generated: '2026-07-04T00:12:38Z'
+generated: '2026-07-04T04:40:56Z'
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (walk-forward validated as
-    pending_config)
+  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc, walk-forward
+    validated)
   trained_through_term: 2024
-  calibration: isotonic over the subset's own 1956-2024 out-of-sample predictions
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
   issue_area: 9
   issue_area_basis: civil procedure - unpleaded affirmative defense
+  lc_direction: null
+  lc_direction_basis: not coded (missing)
+  question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.897
-  expected_reverse_votes: 6.27
+  p_reverse: 0.98
+  expected_reverse_votes: 7.18
   reverse_vote_distribution:
-    9-0: 0.038
-    8-1: 0.151
-    7-2: 0.264
-    6-3: 0.269
-    5-4: 0.175
-    4-5: 0.076
-    3-6: 0.022
+    9-0: 0.129
+    8-1: 0.299
+    7-2: 0.304
+    6-3: 0.18
+    5-4: 0.068
+    4-5: 0.017
 votes:
 - justice: JGRoberts
-  p_reverse: 0.7
-  p_liberal: 0.455
+  p_reverse: 0.833
+  p_liberal: 0.593
 - justice: CThomas
-  p_reverse: 0.67
-  p_liberal: 0.455
+  p_reverse: 0.789
+  p_liberal: 0.534
 - justice: SAAlito
-  p_reverse: 0.688
-  p_liberal: 0.449
+  p_reverse: 0.793
+  p_liberal: 0.534
 - justice: SSotomayor
-  p_reverse: 0.67
-  p_liberal: 0.455
+  p_reverse: 0.741
+  p_liberal: 0.567
 - justice: EKagan
-  p_reverse: 0.688
-  p_liberal: 0.456
+  p_reverse: 0.741
+  p_liberal: 0.593
 - justice: NMGorsuch
-  p_reverse: 0.67
-  p_liberal: 0.455
+  p_reverse: 0.808
+  p_liberal: 0.534
 - justice: BMKavanaugh
-  p_reverse: 0.728
-  p_liberal: 0.506
+  p_reverse: 0.833
+  p_liberal: 0.562
 - justice: ACBarrett
-  p_reverse: 0.751
-  p_liberal: 0.506
+  p_reverse: 0.849
+  p_liberal: 0.612
 - justice: KBJackson
-  p_reverse: 0.7
-  p_liberal: 0.506
+  p_reverse: 0.79
+  p_liberal: 0.567

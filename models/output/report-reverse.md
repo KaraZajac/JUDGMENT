@@ -135,10 +135,12 @@ After prospective isotonic recalibration (fitted per term on strictly earlier ou
 | variant | n | accuracy | Brier | log loss | AUC | ECE |
 |---|---|---|---|---|---|---|
 | cert-stage subset | 67047 | 0.6438 | 0.2242 | 0.6404 | 0.6005 | 0.0384 |
-| cert-stage subset + question-text LSA | 67047 | 0.6391 | 0.2275 | 0.6498 | 0.6011 | 0.0581 |
+| + lower-court direction (hand-codable) | 67047 | 0.6783 | 0.2076 | 0.6033 | 0.6863 | 0.0291 |
+| + question-text LSA | 67047 | 0.6391 | 0.2275 | 0.6498 | 0.6011 | 0.0581 |
+| + lc direction + text (interaction test) | 67047 | 0.6764 | 0.2099 | 0.6110 | 0.6841 | 0.0461 |
 | full config + text (1990–2024) | 24235 | 0.6521 | 0.2203 | 0.6338 | 0.6446 | 0.0674 |
 
-Question-presented text (cert-stage by construction — fixed at grant) was tested as per-step TF-IDF + truncated-SVD components fitted on the training window only, rows without harvested text carrying missing values. **Negative result: text does not improve either configuration** — the deployed subset stays text-free. Interpretation: case topic predicts votes mainly through its interaction with the direction of the decision below, which is unavailable pre-decision; residual topic signal is already carried by the issue-area feature. The corpus and machinery remain for interaction-aware future work.
+Lower-court direction is hand-codable per pending case (petitioner lost below + SCDB issue conventions; `models/pending_lc.yaml`) and was **adopted** — the lean subset plus lc_direction outperforms even the full research configuration. Question-presented text (cert-stage by construction) was tested as leakage-safe per-step TF-IDF/LSA and **rejected twice**: it does not help without lc_direction, and the interaction hypothesis fails too — with lc_direction present, text still subtracts. Content adds nothing beyond structure here; the corpus remains for richer text sources.
 
 The live forecaster (`models/predict.py`) is restricted to features actually available for a granted-but-undecided case (justice history, hand-coded issue area, U.S.-party flags, jurisdiction). This row is that exact configuration walk-forward validated over the same window — the honest expected performance of published forecasts. The full model's extra accuracy comes from lower-court and party codings that do not exist until SCDB codes the case.
 
