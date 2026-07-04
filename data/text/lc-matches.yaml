@@ -1,8 +1,127 @@
-generated: '2026-07-04T06:05:34Z'
+generated: '2026-07-04T12:25:01Z'
 terms:
 - 2017
 - 2024
 status_counts:
-  fetch-error: 19
-  unresolvable: 6
-matches: {}
+  ok: 19
+  unresolvable: 8
+  fetch-error: 14
+  no-text: 1
+  docket-no-cluster: 4
+  no-scotus-docket: 1
+  no-lower-court: 1
+matches:
+  2017-001:
+    cluster: 3132501
+    how: docket:ca9/11-71307
+    lower_court: United States Court of Appeals for the Ninth Circuit
+    chars: 69757
+    lc_direction_label: 2
+  2017-002:
+    cluster: 3207221
+    how: docket:ca7/15-2997
+    lower_court: United States Court of Appeals for the Seventh Circuit
+    chars: 39924
+    lc_direction_label: 2
+  2017-003:
+    cluster: 4565532
+    how: docket:ca9/13-56706
+    lower_court: United States Court of Appeals for the Ninth Circuit
+    chars: 11540
+    lc_direction_label: 2
+  2017-005:
+    cluster: 4641194
+    how: docket:cadc/15-3015
+    lower_court: United States Court of Appeals for the District of Columbia Circuit
+    chars: 30450
+    lc_direction_label: 1
+  2017-008:
+    cluster: 4522017
+    how: docket:ca7/15-3764
+    lower_court: United States Court of Appeals for the Seventh Circuit
+    chars: 18081
+    lc_direction_label: 1
+  2017-011:
+    cluster: 4644617
+    how: docket:ca5/15-70015
+    lower_court: United States Court of Appeals for the Fifth Circuit
+    chars: 34052
+    lc_direction_label: 1
+  2017-012:
+    cluster: 4525672
+    how: docket:ca11/14-10681
+    lower_court: United States Court of Appeals for the Eleventh Circuit
+    chars: 32990
+    lc_direction_label: 1
+  2017-016:
+    cluster: 4242450
+    how: docket:ca7/15-3388
+    lower_court: United States Court of Appeals for the Seventh Circuit
+    chars: 26361
+    lc_direction_label: 2
+  2017-017:
+    cluster: 4238801
+    how: docket:cadc/15-5200
+    lower_court: United States Court of Appeals for the District of Columbia Circuit
+    chars: 33931
+    lc_direction_label: 1
+  2017-018:
+    cluster: 4259355
+    how: docket:ca6/16-3746
+    lower_court: United States Court of Appeals for the Sixth Circuit
+    chars: 57770
+    lc_direction_label: 2
+  2017-021:
+    cluster: 4688791
+    how: docket:ca6/14-1572
+    lower_court: United States Court of Appeals for the Sixth Circuit
+    chars: 3375
+    lc_direction_label: 1
+  2017-022:
+    cluster: 4245872
+    how: docket:ca3/14-4546
+    lower_court: United States Court of Appeals for the Third Circuit
+    chars: 79207
+    lc_direction_label: 2
+  2017-023:
+    cluster: 4239945
+    how: docket:ca7/14-1935
+    lower_court: United States Court of Appeals for the Seventh Circuit
+    chars: 60045
+    lc_direction_label: 1
+  2017-026:
+    cluster: 4332161
+    how: docket:ca7/15-3384
+    lower_court: United States Court of Appeals for the Seventh Circuit
+    chars: 25903
+    lc_direction_label: 1
+  2017-027:
+    cluster: 8442980
+    how: docket:ca2/15-2224
+    lower_court: United States Court of Appeals for the Second Circuit
+    chars: 62728
+    lc_direction_label: 1
+  2017-028:
+    cluster: 4485770
+    how: docket:ca9/15-17352
+    lower_court: United States Court of Appeals for the Ninth Circuit
+    chars: 941
+    lc_direction_label: 2
+  2017-029:
+    cluster: 4461620
+    how: docket:ca11/16-12279
+    lower_court: United States Court of Appeals for the Eleventh Circuit
+    chars: 1395
+    lc_direction_label: 2
+  2017-030:
+    cluster: 4585194
+    how: docket:ca9/12-55911
+    lower_court: United States Court of Appeals for the Ninth Circuit
+    chars: 4451
+    lc_direction_label: 2
+  2017-033:
+    cluster: 4566786
+    how: docket:ca3/16-1509
+    lower_court: United States Court of Appeals for the Third Circuit
+    chars: 2405
+    lc_direction_label: 1
