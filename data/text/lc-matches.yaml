@@ -1,13 +1,13 @@
-generated: '2026-07-04T12:25:01Z'
+generated: '2026-07-05T13:01:23Z'
 terms:
 - 2017
 - 2024
 status_counts:
-  ok: 19
+  ok: 28
   unresolvable: 8
-  fetch-error: 14
   no-text: 1
-  docket-no-cluster: 4
+  docket-no-cluster: 5
+  fetch-error: 1
   no-scotus-docket: 1
   no-lower-court: 1
 matches:
@@ -125,3 +125,63 @@ matches:
     lower_court: United States Court of Appeals for the Third Circuit
     chars: 2405
     lc_direction_label: 1
+  2017-006:
+    cluster: 3175597
+    how: docket:cadc/12-7127
+    lower_court: United States Court of Appeals for the District of Columbia Circuit
+    chars: 60733
+    lc_direction_label: 2
+  2017-037:
+    cluster: 4537653
+    how: docket:ca3/15-1564
+    lower_court: United States Court of Appeals for the Third Circuit
+    chars: 22535
+    lc_direction_label: 1
+  2017-040:
+    cluster: 4518619
+    how: docket:ca9/13-55323
+    lower_court: United States Court of Appeals for the Ninth Circuit
+    chars: 1072
+    lc_direction_label: 2
+  2017-041:
+    cluster: 4530694
+    how: docket:ca9/16-55249
+    lower_court: United States Court of Appeals for the Ninth Circuit
+    chars: 4671
+    lc_direction_label: 2
+  2017-043:
+    cluster: 4523671
+    how: docket:ca8/15-1682
+    lower_court: United States Court of Appeals for the Eighth Circuit
+    chars: 4334
+    lc_direction_label: 1
+  2017-044:
+    cluster: 4259877
+    how: docket:ca2/15-1672
+    lower_court: United States Court of Appeals for the Second Circuit
+    chars: 104232
+    lc_direction_label: 1
+  2017-045:
+    cluster: 4377103
+    how: docket:ca7/16-3638
+    lower_court: United States Court of Appeals for the Seventh Circuit
+    chars: 7804
+    lc_direction_label: 2
+  2017-046:
+    cluster: 4335884
+    how: docket:ca10/15-3266
+    lower_court: United States Court of Appeals for the Tenth Circuit
+    chars: 56931
+    lc_direction_label: 2
+  2017-047:
+    cluster: 4525603
+    how: docket:ca5/16-50151
+    lower_court: United States Court of Appeals for the Fifth Circuit
+    chars: 2105
+    lc_direction_label: 1
+  2017-048:
+    cluster: 8443266
+    how: docket:ca2/14-2985
+    lower_court: United States Court of Appeals for the Second Circuit
+    chars: 85153
+    lc_direction_label: 2
