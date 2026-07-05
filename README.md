@@ -1,5 +1,7 @@
 # JUDGMENT
 
+[![DOI](https://zenodo.org/badge/1288707509.svg)](https://doi.org/10.5281/zenodo.21211377)
+
 **A statistical model of every U.S. Supreme Court judgment — every justice, every
 vote, every opinion — built toward forecasting how the Court will rule.**
 
@@ -142,9 +144,10 @@ Phase by phase (full detail in [docs/modeling.md](docs/modeling.md)):
 ## Paper and citation
 
 A full methods paper draft lives at [docs/paper.md](docs/paper.md). To cite this
-project, see [CITATION.cff](CITATION.cff); rights and attribution for the layered
-dataset are documented in [DATA-RIGHTS.md](DATA-RIGHTS.md). An archival DOI
-release via Zenodo is in preparation.
+project, see [CITATION.cff](CITATION.cff) or use the archival DOI
+[10.5281/zenodo.21211377](https://doi.org/10.5281/zenodo.21211377); rights and
+attribution for the layered dataset are documented in
+[DATA-RIGHTS.md](DATA-RIGHTS.md).
 
 ## Licensing
 
