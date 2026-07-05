@@ -139,6 +139,13 @@ Phase by phase (full detail in [docs/modeling.md](docs/modeling.md)):
 6. **Forecasts** — calibrated predictions for pending cases, published via the Astro
    site in `site/` and scored when decisions land
 
+## Paper and citation
+
+A full methods paper draft lives at [docs/paper.md](docs/paper.md). To cite this
+project, see [CITATION.cff](CITATION.cff); rights and attribution for the layered
+dataset are documented in [DATA-RIGHTS.md](DATA-RIGHTS.md). An archival DOI
+release via Zenodo is in preparation.
+
 ## Licensing
 
 Code and original documentation: [MIT](LICENSE). The generated dataset derives from

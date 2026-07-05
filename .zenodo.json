@@ -1,0 +1,34 @@
+{
+  "title": "JUDGMENT: A statistical model of every U.S. Supreme Court judgment",
+  "upload_type": "dataset",
+  "description": "Complete voting records of the Supreme Court of the United States (1791–present) as a browsable YAML dataset, with walk-forward-validated vote and outcome forecasting models (67.9% justice-vote / 69.6% case accuracy, calibrated), dynamic ideal points with bootstrap uncertainty, coalition-aware outcome distributions, and a live preregistered forecast registry for pending cases scored automatically as decisions land. Derived from the Supreme Court Database (Spaeth, Epstein, Martin, Segal, Ruger & Benesh — required citation), Oyez, CourtListener/Free Law Project, the Federal Judicial Center, and public-domain federal court opinions. See DATA-RIGHTS.md for layered attribution and licensing; methods paper draft in docs/paper.md.",
+  "creators": [
+    {
+      "name": "Zajac, Kara",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "license": "CC-BY-NC-4.0",
+  "access_right": "open",
+  "keywords": [
+    "Supreme Court",
+    "SCOTUS",
+    "judicial behavior",
+    "forecasting",
+    "ideal points",
+    "political science",
+    "Supreme Court Database"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "http://scdb.wustl.edu",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://judgment.karazajac.io",
+      "resource_type": "other"
+    }
+  ]
+}

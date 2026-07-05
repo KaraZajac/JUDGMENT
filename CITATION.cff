@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: >-
+  If you use JUDGMENT (the dataset, models, or forecast registry), please cite
+  it as below, and cite the Supreme Court Database as the canonical source of
+  the underlying case and vote records.
+type: dataset
+title: "JUDGMENT: A statistical model of every U.S. Supreme Court judgment"
+authors:
+  - family-names: Zajac
+    given-names: Kara
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: Kara's ORCID iD
+repository-code: "https://github.com/KaraZajac/JUDGMENT"
+url: "https://judgment.karazajac.io"
+license: CC-BY-NC-4.0
+keywords:
+  - Supreme Court
+  - SCOTUS
+  - judicial behavior
+  - forecasting
+  - ideal points
+  - political science
+  - Supreme Court Database
+abstract: >-
+  Complete voting records of the Supreme Court of the United States
+  (1791-present) as a browsable dataset, with walk-forward-validated
+  vote/outcome forecasting models, dynamic ideal points with bootstrap
+  uncertainty, coalition-aware outcome distributions, and a live preregistered
+  forecast registry for pending cases. Derived from the Supreme Court Database
+  (Spaeth, Epstein, Martin, Segal, Ruger & Benesh), Oyez, CourtListener, the
+  Federal Judicial Center, and public-domain federal court opinions; see
+  DATA-RIGHTS.md for the layered attribution and licensing.
+references:
+  - type: database
+    title: The Supreme Court Database (Version 2025 Release 1; Legacy Release 7)
+    authors:
+      - family-names: Spaeth
+        given-names: Harold J.
+      - family-names: Epstein
+        given-names: Lee
+      - family-names: Martin
+        given-names: Andrew D.
+      - family-names: Segal
+        given-names: Jeffrey A.
+      - family-names: Ruger
+        given-names: Theodore J.
+      - family-names: Benesh
+        given-names: Sara C.
+    url: "http://scdb.wustl.edu"
