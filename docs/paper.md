@@ -140,7 +140,7 @@ A Supreme Court forecaster can be simultaneously simple, honest, and strong: a l
 
 ## Data and code availability
 
-All code (MIT), the derived dataset, validation artifacts, and the forecast registry are public at https://github.com/KaraZajac/JUDGMENT; the browsable site is https://judgment.karazajac.io. The dataset derives from the Supreme Court Database (Spaeth, Epstein, Martin, Segal, Ruger & Benesh — required citation; free for research with attribution), Oyez, CourtListener/Free Law Project, the Federal Judicial Center, and public-domain federal court opinions. An archival DOI release is in preparation.
+All code (MIT), the derived dataset, validation artifacts, and the forecast registry are public at https://github.com/KaraZajac/JUDGMENT and archived at DOI [10.5281/zenodo.21211377](https://doi.org/10.5281/zenodo.21211377); the browsable site is https://judgment.karazajac.io. The dataset derives from the Supreme Court Database (Spaeth, Epstein, Martin, Segal, Ruger & Benesh — required citation; free for research with attribution), Oyez, CourtListener/Free Law Project, the Federal Judicial Center, and public-domain federal court opinions.
 
 ## References
 
