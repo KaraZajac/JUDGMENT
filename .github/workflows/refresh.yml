@@ -43,6 +43,9 @@ jobs:
       - name: Aggregates
         run: python -m pipeline.aggregates
 
+      - name: Agreement matrices
+        run: python -m pipeline.agreement
+
       - name: Validate
         run: python -m pipeline.validate
 
