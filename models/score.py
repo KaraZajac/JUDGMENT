@@ -25,6 +25,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 FORECASTS = ROOT / "data" / "forecasts"
 CASES = ROOT / "data" / "cases"
+CONSOLIDATIONS = ROOT / "data" / "consolidations.yaml"
 
 REVERSE_TOKENS = {
     "reversed", "reversed-and-remanded", "vacated-and-remanded", "vacated",
@@ -48,6 +49,17 @@ def outcome_of(case):
     if winner == "respondent":
         return False, "winning-party-proxy"
     return None, "no scoreable outcome"
+
+
+def decided_before_registration(forecast, case):
+    """Preregistration guard: a forecast file (re)written on or after the
+    decision date was not an ex-ante prediction — keep it out of the track
+    record. String compare works: both sides are ISO dates. Same-day passes
+    (the daily pipeline registers hours before the Court's 10am ET hand-down;
+    decision dates carry no time to compare against)."""
+    decided = str((case.get("dates") or {}).get("decided") or "")
+    generated = str(forecast.get("generated") or "")
+    return bool(decided) and bool(generated) and decided < generated[:10]
 
 
 def score_justices(forecast, case, case_reversed):
@@ -75,19 +87,43 @@ def score_justices(forecast, case, case_reversed):
 
 def collect():
     scored, unscoreable, pending = [], [], 0
+    consolidations = {}
+    if CONSOLIDATIONS.exists():
+        consolidations = yaml.safe_load(
+            CONSOLIDATIONS.read_text(encoding="utf-8")) or {}
     for tdir in sorted(FORECASTS.iterdir()):
         if not tdir.is_dir():
             continue
         for f in sorted(tdir.glob("*.yaml")):
             fc = yaml.safe_load(f.read_text(encoding="utf-8"))
             decided_path = CASES / str(fc["term"]) / f"{fc['id']}.yaml"
+            decided_as = None  # deciding record id when != forecast id
+            if not decided_path.exists():
+                # consolidated companion: the opinion issued under the lead docket
+                lead = (consolidations.get(fc["term"]) or {}).get(
+                    fc["id"].split("-d", 1)[-1])
+                if lead and (CASES / str(fc["term"]) / f"{lead}.yaml").exists():
+                    decided_path = CASES / str(fc["term"]) / f"{lead}.yaml"
+                    decided_as = lead
             if not decided_path.exists():
                 pending += 1
                 continue
             case = yaml.safe_load(decided_path.read_text(encoding="utf-8"))
+            if decided_before_registration(fc, case):
+                entry = {"id": fc["id"], "name": fc["name"],
+                         "reason": f"decided {(case.get('dates') or {}).get('decided')} "
+                                   f"but forecast registered "
+                                   f"{str(fc.get('generated'))[:10]} — not ex-ante"}
+                if decided_as:
+                    entry["decided_as"] = decided_as
+                unscoreable.append(entry)
+                continue
             reversed_, basis = outcome_of(case)
             if reversed_ is None:
-                unscoreable.append({"id": fc["id"], "name": fc["name"], "reason": basis})
+                entry = {"id": fc["id"], "name": fc["name"], "reason": basis}
+                if decided_as:
+                    entry["decided_as"] = decided_as
+                unscoreable.append(entry)
                 continue
             p = float(fc["prediction"]["p_reverse"])
             y = 1.0 if reversed_ else 0.0
@@ -103,6 +139,8 @@ def collect():
                 "hit": (p >= 0.5) == reversed_,
                 "brier": round((p - y) ** 2, 4),
             }
+            if decided_as:
+                entry["decided_as"] = decided_as
             js = score_justices(fc, case, reversed_)
             if js:
                 entry["justice_votes"] = js
@@ -160,7 +198,15 @@ def selftest():
     assert outcome_of(canonical2) == (True, "scdb-disposition")
     dig = {"decision": {"winning_party_name": "dismissal"}}
     assert outcome_of(dig)[0] is None
-    print("selftest: PASS (outcome resolution, proxy basis, per-justice scoring)")
+    already_decided = {"dates": {"decided": "2026-06-30"}}
+    late = {"generated": "2026-07-04T05:50:24Z"}
+    assert decided_before_registration(late, already_decided)
+    same_day = {"generated": "2026-06-30T09:00:00Z"}
+    assert not decided_before_registration(same_day, already_decided)
+    assert not decided_before_registration({"generated": None}, already_decided)
+    assert not decided_before_registration(late, {"dates": {}})
+    print("selftest: PASS (outcome resolution, proxy basis, per-justice scoring, "
+          "preregistration guard)")
 
 
 def main():

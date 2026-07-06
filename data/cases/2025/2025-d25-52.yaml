@@ -8,13 +8,6 @@ sources:
 docket: 25-52
 dates:
   decided: '2025-11-24'
-vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
-decision:
-  type: per-curiam-no-argument
-  majority_votes: 9
-  minority_votes: 0
-citation:
-  us: 607 U.S. 7
 votes:
 - justice: JGRoberts
   vote: majority
@@ -43,3 +36,10 @@ votes:
 - justice: KBJackson
   vote: majority
   in_majority: true
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+decision:
+  majority_votes: 9
+  minority_votes: 0
+  type: per-curiam-no-argument
+citation:
+  us: 607 U.S. 7

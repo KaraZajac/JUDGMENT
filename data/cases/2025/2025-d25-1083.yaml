@@ -18,12 +18,8 @@ parties:
   respondent_name: Dahlia Doe
 question: Did the Trump administration lawfully end the Temporary Protected Status program for Syrian nationals?
 oyez_url: https://www.oyez.org/cases/2025/25-1083
-vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
-opinions:
-  majority_author: SAAlito
-decision:
-  majority_votes: 6
-  minority_votes: 3
+consolidated_dockets:
+- 25-1084
 votes:
 - justice: SAAlito
   vote: judgment-of-the-court
@@ -59,3 +55,9 @@ votes:
 - justice: ACBarrett
   vote: majority
   in_majority: true
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+opinions:
+  majority_author: SAAlito
+decision:
+  majority_votes: 6
+  minority_votes: 3

@@ -502,9 +502,18 @@ def ingest_pending(term, refresh):
     if not stubs:
         print(f"term {term}: no pending cases on the Oyez docket")
         return
+    # companion dockets decided under a consolidated lead opinion: Oyez keeps
+    # them "pending" indefinitely, so pipeline.syllabus maintains the map
+    cpath = DATA / "consolidations.yaml"
+    cmap = (yaml.safe_load(cpath.read_text(encoding="utf-8")) or {}
+            if cpath.exists() else {})
+    consolidated = cmap.get(term) or {}
     tdir.mkdir(parents=True, exist_ok=True)
     written = argued = already_decided = 0
     for stub in stubs:
+        if docket_slug(stub["docket_number"].strip()) in consolidated:
+            already_decided += 1
+            continue
         case = build_pending(term, oyez_detail(term, stub, refresh), refresh)
         if not case.get("docket"):
             continue
@@ -521,7 +530,7 @@ def ingest_pending(term, refresh):
         shutil.rmtree(tdir, ignore_errors=True)
     print(f"term {term}: {written} pending docket cases "
           f"({argued} argued, awaiting decision; {already_decided} already decided "
-          f"per CourtListener) -> data/docket/{term}/")
+          f"per CourtListener or consolidation) -> data/docket/{term}/")
 
 
 def main():

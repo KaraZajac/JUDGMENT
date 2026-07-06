@@ -50,6 +50,32 @@ AUTHOR_INITIALS = {
 
 VALIDATION_GATE = 0.90  # exact-lineup agreement with Oyez required to write
 
+# consolidated decisions carry a first-page syllabus footnote — "*Together
+# with No. 24–38, Little et al. v. Hecox et al., on certiorari to ..." — one
+# "No. <docket>" (or "and <docket>") per companion resolved by the opinion
+TOGETHER_WITH_RE = re.compile(r"Together with No", re.I)
+COMPANION_DOCKET_RE = re.compile(r"(?:Nos?\.|and|&)\s*\b(\d{1,2}\s*[-–—]\s*\d{1,6})\b")
+
+
+def consolidated_companions(text, lead_docket):
+    """Companion docket numbers decided by this opinion (empty if none).
+
+    Only the slip index's lead docket gets a row; Oyez likewise keeps
+    companion dockets 'pending' indefinitely, so this footnote is the one
+    same-day source tying a companion to the deciding record."""
+    m = TOGETHER_WITH_RE.search(text)
+    if not m:
+        return []
+    window = text[m.start():m.start() + 600]
+    window = window.split("\f", 1)[0]  # footnote ends with page 1
+    lead = docket_slug(lead_docket)
+    out = []
+    for tok in COMPANION_DOCKET_RE.findall(window):
+        d = re.sub(r"\s+", "", tok).replace("–", "-").replace("—", "-")
+        if docket_slug(d) != lead and d not in out:
+            out.append(d)
+    return out
+
 
 def fetch(url, cache_name, binary=False):
     path = CACHE / cache_name
@@ -299,18 +325,30 @@ def main():
 
     # ---- fill vote-less provisional cases -----------------------------------
     filled = 0
+    term_map = {}  # companion docket slug -> deciding case id
     for row in rows:
         key = docket_slug(row["docket"])
         if key not in provisional:
             continue
         path, case = provisional[key]
+        try:
+            companions = consolidated_companions(syllabus_text(row), row["docket"])
+        except Exception:
+            companions = []
+        dirty = False
+        if companions:
+            term_map.update({docket_slug(c): case["id"] for c in companions})
+            if case.get("consolidated_dockets") != companions:
+                case["consolidated_dockets"] = companions
+                dirty = True
         own_fill = str(case.get("vote_source", "")).startswith("slip-opinion")
         if case.get("votes") and not own_fill:
             # Oyez-coded votes stay authoritative; still take the citation upgrade
             if row["us_cite"] and not (case.get("citation") or {}).get("us"):
                 case.setdefault("citation", {})["us"] = row["us_cite"]
-                if not args.dry_run:
-                    dump_yaml(case, path)
+                dirty = True
+            if dirty and not args.dry_run:
+                dump_yaml(case, path)
             continue
         if own_fill:  # re-parse: parser fixes overwrite the parser's own output
             case.pop("votes", None)
@@ -320,10 +358,14 @@ def main():
             try:
                 parsed_cache[key] = (*parse_lineup(syllabus_text(row)), row)
             except Exception:
+                if dirty and not args.dry_run:
+                    dump_yaml(case, path)
                 continue
         votes, author, pc, _ = parsed_cache[key]
         author = author or AUTHOR_INITIALS.get(row["author_initials"])
         if not votes and not pc:
+            if dirty and not args.dry_run:
+                dump_yaml(case, path)
             continue
         vote_list = list(complete_votes(votes, author, pc).values())
         maj = sum(1 for v in vote_list if v.get("in_majority") is True)
@@ -349,6 +391,27 @@ def main():
         print(f"  filled {case['id']}: {maj}-{mnr}"
               f"{' per curiam' if pc else ''} "
               f"(author {author or '—'}) {case['name'][:40]}")
+
+    # persist companion resolution: pipeline.interim prunes these dockets from
+    # the pending list; models.score resolves their forecasts to the deciding
+    # record. Lives outside data/cases/ so build/interim rebuilds keep it.
+    if term_map:
+        cpath = DATA / "consolidations.yaml"
+        cmap = (yaml.safe_load(cpath.read_text(encoding="utf-8")) or {}
+                if cpath.exists() else {})
+        merged = {**(cmap.get(args.term) or {}), **term_map}
+        if merged != cmap.get(args.term):
+            cmap[args.term] = dict(sorted(merged.items()))
+            if not args.dry_run:
+                cpath.write_text(
+                    "# Companion dockets resolved by a consolidated opinion,\n"
+                    "# per term: <companion docket slug>: <deciding case id>.\n"
+                    "# Written by pipeline.syllabus (syllabus 'Together with'\n"
+                    "# footnotes); read by pipeline.interim and models.score.\n"
+                    + yaml.safe_dump(cmap, sort_keys=True, width=100),
+                    encoding="utf-8")
+        for d, lead in sorted(term_map.items()):
+            print(f"  consolidated: {d} decided under {lead}")
 
     print(f"\n{'DRY RUN — ' if args.dry_run else ''}filled {filled} cases")
 
