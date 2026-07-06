@@ -75,12 +75,16 @@ schema. Interim substitute (already computed): per-term liberal vote share from 
 directions. Longer term we intend to re-estimate ideal points ourselves
 (docs/modeling.md, phase 2), which also removes the dependency.
 
-## 6. Segal–Cover scores — planned
+## 6. Segal–Cover scores — ingested; tested, not deployed
 
 Perceived qualifications/ideology of nominees from pre-confirmation newspaper
-editorials (Segal & Cover 1989, *APSR* 83:557–565). Useful as a cold-start prior for
-newly seated justices. Values to be ingested with verification against the published
-table (post-1937 nominees).
+editorials (Segal & Cover 1989, *APSR* 83:557–565). Ingested and hand-checked:
+`pipeline/curated/segal_cover.yaml` (41 confirmed nominees, 1937–2020; KBJackson
+unpublished). Walk-forward gate verdict: directionally positive on the first-term
+cold-start slice (+0.7–0.9pp) but underpowered and Brier-flat — NOT in the
+deployed configuration (docs/coldstart-segal-cover.md). Retained as the
+cold-start covariate of last resort for justices with no prior judicial record,
+pending the behavioral pre-SCOTUS-records tier.
 
 ## 7. Opinion texts — planned (modeling phase 4)
 
