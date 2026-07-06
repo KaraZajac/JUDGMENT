@@ -29,6 +29,8 @@ data/
 ├── cases/<term>/<caseId>.yaml   # one file per case: outcome, issue, lower court,
 │                                #   parties, opinions, and all 9 justice votes
 ├── docket/<term>/<id>.yaml      # pending cases (granted/argued, awaiting decision)
+├── oral/<term>.yaml             # per-justice oral-argument questioning counts
+│                                #   (side-attributed turns/words; 1955–present)
 ├── justices/<slug>.yaml         # bio + appointment + computed voting record and
 │                                #   term-by-term ideological trajectory
 ├── justices/index.yaml          # roster with SCDB ids and mnemonics
@@ -36,9 +38,9 @@ data/
 ├── codebook/                    # code ↔ token ↔ label tables for decoded fields
 └── meta.yaml                    # source versions and dataset counts
 pipeline/                        # download → build → validate (Python, stdlib + PyYAML)
-docs/                            # data model, source registry, modeling roadmap
-models/                          # (future) baselines, ideal points, vote prediction
-site/                            # (future) Astro visualization of the data over time
+docs/                            # data model, source registry, paper, modeling roadmap
+models/                          # walk-forward vote prediction, ideal points, forecasts
+site/                            # Astro site: browse the data, live forecasts
 ```
 
 A case file looks like this (Dobbs, abridged):
@@ -96,6 +98,7 @@ python3 -m pipeline.interim    # provisional current-term cases (Oyez + CourtLis
 python3 -m pipeline.aggregates # per-term rollups for the site
 python3 -m pipeline.agreement  # justice-pair agreement matrices per natural court
 python3 -m pipeline.questions  # question-presented text corpus (manual; ~1h first run)
+python3 -m pipeline.oral_args --terms 1955 2024  # oral-argument questioning corpus
 python3 -m pipeline.validate   # structural + consistency checks
 ```
 
@@ -124,8 +127,11 @@ Hand-maintained facts (appointments, confirmation votes, bios) live in
   justices (see docs/sources.md for conventions).
 - **Oyez + CourtListener** — interim ingest of the current term (per-justice votes,
   outcomes, dates) until SCDB's annual release catches up.
+- **Oral-argument transcripts (Oyez)** — per-justice questioning features for 7,023
+  argued cases (96% of 1955–2024), powering the post-argument forecast stage
+  (gate result: [docs/postargument-gate.md](docs/postargument-gate.md)).
 - Planned: Martin–Quinn ideal points, Segal–Cover nominee scores, opinion texts
-  (supremecourt.gov U.S. Reports, CourtListener), oral-argument transcripts (Oyez).
+  (supremecourt.gov U.S. Reports, CourtListener).
   Details and status: [docs/sources.md](docs/sources.md).
 
 ## The goal

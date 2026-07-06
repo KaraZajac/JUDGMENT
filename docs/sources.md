@@ -33,7 +33,7 @@ the 1946+ terms). Legacy-era justices currently get mechanically-derived names a
 computed voting records only; enriching them from the Epstein et al. *U.S. Supreme
 Court Justices Database* is a roadmap item.
 
-## 3. Oyez (api.oyez.org) — in use (interim current-term ingest + question text)
+## 3. Oyez (api.oyez.org) — in use (interim ingest + question text + oral-argument transcripts)
 
 Spine of `pipeline.interim`: decided merits cases for the term SCDB hasn't reached,
 with per-justice votes, opinion authorship and joins, party names/labels, winner,
@@ -44,7 +44,17 @@ decisions by days-to-weeks. Member identifiers are mapped to SCDB mnemonics in
 Also the source of the historical **question-presented corpus**
 (`pipeline/questions.py` → `data/text/questions.yaml`), used for the text features
 in `models/` — cert-stage text only; facts/conclusion narratives excluded as
-potentially post-decision. Oral-argument transcripts remain a future source.
+potentially post-decision.
+
+And of the **oral-argument questioning corpus** (`pipeline/oral_args.py` →
+`data/oral/<term>.yaml`): Oyez's structured per-speaker transcripts, 1955 term
+onward, reduced to per-justice side-attributed turn/word counts (7,023 argued
+cases, 96% of 1955–2024; raw transcript JSON gzip-cached under `sources/`,
+not committed). Side attribution uses advocate descriptions, with a
+section-order fallback for the pre-1970s metadata gap (flagged
+`side_basis: section-order`). Powers the post-argument forecast stage —
+walk-forward gate result in docs/postargument-gate.md. supremecourt.gov
+argument-transcript PDFs (1968+) are the documented fallback source.
 
 ## 4. CourtListener / Free Law Project — in use (interim current-term ingest)
 

@@ -47,7 +47,7 @@ The pending docket (granted-but-undecided cases: the forecasting targets) is mai
 
 ### 3.3 Auxiliary corpora
 
-Question-presented texts for 3,418 historical cases (Oyez; near-complete for the 2000s–2020s, sparse before the mid-1990s) support the text experiments of §5.3. Lower-court opinions matched via docket-number joins through CourtListener accumulate as training data for a direction classifier (in progress; the deployed system uses hand-coded direction with documented bases, §4.6).
+Question-presented texts for 3,418 historical cases (Oyez; near-complete for the 2000s–2020s, sparse before the mid-1990s) support the text experiments of §5.3. Lower-court opinions matched via docket-number joins through CourtListener accumulate as training data for a direction classifier (in progress; the deployed system uses hand-coded direction with documented bases, §4.6). An oral-argument questioning corpus covers 7,023 argued cases — 96% of the 1955–2024 terms, never below 94% in any decade — parsed from Oyez's structured per-speaker transcripts into per-justice, side-attributed turn and word counts; sides resolve from advocate descriptions where present and from argument order (petitioner opens and rebuts) in the pre-1970s metadata gap, with the fallback flagged per case. These features power the post-argument forecast stage (§6).
 
 ## 4. Methods
 
