@@ -8,7 +8,10 @@
 #
 # Cases with no question text or genuinely ambiguous direction are left
 # uncoded (the model treats them as missing). Replaced by SCDB coding when
-# the annual release covers the case. Coded 2026-07-04.
+# the annual release covers the case. Coded 2026-07-04; the QP-less grants
+# coded 2026-07-06 from party structure in supremecourt.gov docket JSONs
+# (counsel of record + lower court) and CourtListener lower-court records —
+# cert petitioners lost below, so direction follows from who petitioned.
 
 2025-d24-38:
   lc_direction: liberal
@@ -35,6 +38,19 @@
   basis: employee plaintiffs petitioned — decision below rejected Title IX
     employment discrimination suits (anti-discrimination-claimant).
 
+2026-d25-248:
+  lc_direction: liberal
+  basis: District of Columbia petitioned — D.C. Court of Appeals (23-FS-0589)
+    ruled for R.W., a juvenile respondent represented by the Public Defender
+    Service (pro-defendant below).
+
+2026-d25-297:
+  lc_direction: liberal
+  basis: state-official petitioner (Vermont AG defending Zorn) — Linton's
+    civil suit prevailed below (Second Circuit, Linton v. Zorn, 22-2954;
+    pro-civil-rights-claimant). Claim type awaits the QP; direction follows
+    from party structure alone.
+
 2026-d25-5343:
   lc_direction: conservative
   basis: federal criminal defendant petitioned on Guidelines-commentary
@@ -44,6 +60,11 @@
   lc_direction: liberal
   basis: federal agency petitioned — decision below favored the environmental
     challengers to hazardous-waste permitting (pro-environmental-claim).
+
+2026-d25-580:
+  lc_direction: conservative
+  basis: Florida prisoner petitioned — Eleventh Circuit (23-10786) ruled for
+    the Department of Corrections Secretary, habeas denied (anti-prisoner).
 
 2026-d25-581:
   lc_direction: conservative
@@ -60,13 +81,22 @@
   basis: veteran petitioned after jurisdiction-stripping dismissal — decision
     below denied individual access to district courts.
 
+2026-d25-748:
+  lc_direction: liberal
+  basis: Manhattan DA petitioned — Second Circuit (Hernandez v. McIntosh,
+    24-1816) granted habeas relief on the Hernandez (Etan Patz) murder
+    conviction (pro-defendant below).
+
+2026-d25-767:
+  lc_direction: liberal
+  basis: Solicitor General petitioned — Fourth Circuit (23-2235) ruled for
+    the National Association of Immigration Judges' First Amendment challenge
+    to speech restrictions (pro-speech-claimant below).
+
 2026-d25-966:
   lc_direction: conservative
   basis: Department of Labor petitioned — decision below rejected agency
     adjudication authority (anti-agency-power in economic regulation).
 
-# Uncoded (no question text or genuinely ambiguous direction):
-#   2025-d25-248 (D.C. v. R.W.), 2026-d25-297 (Zorn v. Linton),
-#   2026-d25-352 (Younge — pure civil-procedure question, direction ambiguous),
-#   2026-d25-580 (Whitton v. Dixon), 2026-d25-748 (McCarthy v. Hernandez),
-#   2026-d25-767 (Margolin v. NAIJ)
+# Uncoded (genuinely ambiguous direction):
+#   2026-d25-352 (Younge — pure civil-procedure question, direction ambiguous)

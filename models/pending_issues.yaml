@@ -3,17 +3,24 @@
 # areas). SCDB codes issue areas from the eventual opinion; these are
 # cert-stage judgments and are replaced by SCDB coding when it exists.
 # Cases with no/ambiguous question text are left uncoded (the model handles
-# missing values natively). Coded 2026-07-03.
+# missing values natively). Coded 2026-07-03; QP-less grants coded 2026-07-06
+# from supremecourt.gov docket JSONs (counsel of record + lower court) and
+# CourtListener lower-court records. 2026-d25-297 (Zorn v. Linton) stays
+# uncoded: claim type unknowable until the QP posts.
 
 2025-d24-38: {issue_area: 2, basis: Equal Protection challenge to sports-participation statute}
 2025-d25-459: {issue_area: 5, basis: Video Privacy Protection Act scope}
 2025-d25-498: {issue_area: 8, basis: ERISA fiduciary-breach pleading standard}
 2026-d25-170: {issue_area: 10, basis: federal preclusion of state-law climate claims}
 2026-d25-183: {issue_area: 2, basis: Title IX employment sex-discrimination suits}
+2026-d25-248: {issue_area: 1, basis: juvenile-delinquency prosecution (D.C. Court of Appeals; Public Defender Service respondent)}
 2026-d25-352: {issue_area: 9, basis: civil procedure - unpleaded affirmative defense}
 2026-d25-5343: {issue_area: 1, basis: deference to Sentencing Guidelines commentary}
 2026-d25-579: {issue_area: 8, basis: RCRA hazardous-waste permitting}
+2026-d25-580: {issue_area: 1, basis: state-prisoner federal habeas vs Florida Department of Corrections}
 2026-d25-581: {issue_area: 3, basis: Free Exercise general-applicability standard}
 2026-d25-5930: {issue_area: 1, basis: federal habeas / First Step Act credits}
 2026-d25-735: {issue_area: 9, basis: jurisdiction-stripping under Veterans' Judicial Review Act}
+2026-d25-748: {issue_area: 1, basis: state habeas - Second Circuit vacated the Hernandez (Etan Patz) murder conviction}
+2026-d25-767: {issue_area: 3, basis: public-employee First Amendment - immigration judges' speech restrictions}
 2026-d25-966: {issue_area: 9, basis: agency adjudication vs Article III courts}
