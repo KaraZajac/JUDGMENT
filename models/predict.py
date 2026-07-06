@@ -58,6 +58,21 @@ SITTING = ["JGRoberts", "CThomas", "SAAlito", "SSotomayor", "EKagan",
            "NMGorsuch", "BMKavanaugh", "ACBarrett", "KBJackson"]
 
 
+def frozen_at_argument(case, path, today):
+    """Cert-stage forecasts freeze on argument day.
+
+    Once a case is argued, its registered file is never regenerated — the
+    cert-stage record must not absorb argument-informed recoding or newer
+    model vintages. The post-argument stage re-registers separately
+    (data/forecasts/<term>/post-argument/) once argument-derived features
+    clear walk-forward validation; until then argued cases simply keep
+    their last pre-argument vintage. An argued case with no file at all is
+    NOT frozen (a late first registration beats none, and the scorer's
+    ex-ante guard polices it against the decision date)."""
+    argued = str((case.get("dates") or {}).get("argued") or "")
+    return bool(argued) and argued <= today and path.exists()
+
+
 def justice_profiles(df, pending_term):
     """Per-justice features from votes strictly before the pending term."""
     hist = df[df["term"] < pending_term]
@@ -166,6 +181,18 @@ def main():
         print("no pending docket cases (run pipeline.interim to refresh); nothing to forecast")
         return
 
+    today = datetime.date.today().isoformat()
+    frozen = [c for c in pending if frozen_at_argument(
+        c, FORECASTS / str(c["term"]) / f"{c['id']}.yaml", today)]
+    if frozen:
+        print(f"cert-stage frozen at argument ({len(frozen)} not regenerated): "
+              + ", ".join(c["id"] for c in frozen))
+        frozen_ids = {c["id"] for c in frozen}
+        pending = [c for c in pending if c["id"] not in frozen_ids]
+    if not pending:
+        print("all pending cases argued and frozen; nothing to forecast")
+        return
+
     last_term = int(df["term"].max())
 
     extra_features, with_text = CONFIGS[DEPLOY_CONFIG]
@@ -236,6 +263,7 @@ def main():
             "name": case["name"],
             "term": case["term"],
             "generated": generated,
+            "stage": "cert",  # freezes at argument; post-argument re-registers separately
             "model": {
                 "engine": "HistGradientBoosting, deployment-matched cert-stage "
                           f"feature subset ({config_name}, walk-forward validated)",

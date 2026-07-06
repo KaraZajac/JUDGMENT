@@ -94,6 +94,8 @@ def collect():
     for tdir in sorted(FORECASTS.iterdir()):
         if not tdir.is_dir():
             continue
+        # stage-2 (post-argument) forecasts will live in <term>/post-argument/
+        # and be scored as their own track — this glob deliberately stays flat
         for f in sorted(tdir.glob("*.yaml")):
             fc = yaml.safe_load(f.read_text(encoding="utf-8"))
             decided_path = CASES / str(fc["term"]) / f"{fc['id']}.yaml"
