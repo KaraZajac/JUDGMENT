@@ -139,7 +139,9 @@ Phase by phase (full detail in [docs/modeling.md](docs/modeling.md)):
    Katz–Bommarito–Blackman (70.2% case / 71.9% justice-vote accuracy)
 5. **Text features** — cert-stage documents, opinions, oral argument
 6. **Forecasts** — calibrated predictions for pending cases, published via the Astro
-   site in `site/` and scored when decisions land
+   site in `site/` and scored when decisions land; scoring is strictly ex-ante (a
+   forecast regenerated on or after decision day never enters the track record), and
+   consolidated decisions resolve to their lead docket via `data/consolidations.yaml`
 
 ## Paper and citation
 
