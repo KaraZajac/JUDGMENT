@@ -1,0 +1,219 @@
+# Segal-Cover scores: perceived ideology and qualifications of Supreme Court
+# nominees at nomination, content-analyzed from pre-confirmation newspaper
+# editorials. Ideology: 0 = most conservative, 1 = most liberal.
+# Source: Segal & Cover 1989 (APSR 83:557-565) and Segal's published updates,
+# via the maintained public table; values are nomination-time constants, so
+# they are cert-stage-knowable for every case the justice ever hears.
+# Conventions: one entry per PERSON at first confirmed nomination (Rehnquist
+# uses his 1972 associate nomination, not the 1986 chief renomination, since
+# the cold-start his score anchors is 1972-74; Stone's entry is his 1941
+# chief elevation - the only one the table covers - though he served from
+# 1925). Goldberg's year corrected to his actual 1962 nomination. KBJackson
+# has no published score and stays honestly absent (missing-value handling).
+# Keyed by SCDB justiceName. Hand-checked 2026-07-06.
+
+ACBarrett:
+  ideology: 0.23
+  name: Amy Coney Barrett
+  nominated: 2020
+  qualifications: 0.82
+AFortas:
+  ideology: 1.0
+  name: Abe Fortas
+  nominated: 1965
+  qualifications: 1.0
+AJGoldberg:
+  ideology: 0.75
+  name: Arthur J. Goldberg
+  nominated: 1962
+  qualifications: 0.915
+AMKennedy:
+  ideology: 0.365
+  name: Anthony M. Kennedy
+  nominated: 1988
+  qualifications: 0.89
+AScalia:
+  ideology: 0.0
+  name: Antonin Scalia
+  nominated: 1986
+  qualifications: 1.0
+BMKavanaugh:
+  ideology: 0.07
+  name: Brett M. Kavanaugh
+  nominated: 2018
+  qualifications: 0.4
+BRWhite:
+  ideology: 0.5
+  name: Byron R. White
+  nominated: 1962
+  qualifications: 0.5
+CEWhittaker:
+  ideology: 0.5
+  name: Charles E. Whittaker
+  nominated: 1957
+  qualifications: 1.0
+CThomas:
+  ideology: 0.16
+  name: Clarence Thomas
+  nominated: 1991
+  qualifications: 0.415
+DHSouter:
+  ideology: 0.325
+  name: David H. Souter
+  nominated: 1990
+  qualifications: 0.765
+EKagan:
+  ideology: 0.73
+  name: Elena Kagan
+  nominated: 2010
+  qualifications: 0.73
+EWarren:
+  ideology: 0.75
+  name: Earl Warren
+  nominated: 1953
+  qualifications: 0.855
+FFrankfurter:
+  ideology: 0.665
+  name: Felix Frankfurter
+  nominated: 1939
+  qualifications: 0.965
+FMVinson:
+  ideology: 0.75
+  name: Fred M. Vinson
+  nominated: 1946
+  qualifications: 0.785
+FMurphy:
+  ideology: 1.0
+  name: Frank Murphy
+  nominated: 1940
+  qualifications: 0.65
+HABlackmun:
+  ideology: 0.115
+  name: Harry A. Blackmun
+  nominated: 1970
+  qualifications: 0.97
+HFStone:
+  ideology: 0.3
+  name: Harlan Fiske Stone
+  nominated: 1941
+  qualifications: 1.0
+HHBurton:
+  ideology: 0.28
+  name: Harold H. Burton
+  nominated: 1945
+  qualifications: 0.93
+HLBlack:
+  ideology: 0.875
+  name: Hugo L. Black
+  nominated: 1937
+  qualifications: 0.16
+JFByrnes:
+  ideology: 0.33
+  name: James Francis Byrnes
+  nominated: 1941
+  qualifications: 0.8
+JGRoberts:
+  ideology: 0.12
+  name: John G. Roberts, Jr.
+  nominated: 2005
+  qualifications: 0.97
+JHarlan2:
+  ideology: 0.875
+  name: John Marshall Harlan II
+  nominated: 1955
+  qualifications: 0.75
+JPStevens:
+  ideology: 0.25
+  name: John Paul Stevens
+  nominated: 1975
+  qualifications: 0.96
+LFPowell:
+  ideology: 0.165
+  name: Lewis F. Powell, Jr.
+  nominated: 1972
+  qualifications: 1.0
+NMGorsuch:
+  ideology: 0.11
+  name: Neil M. Gorsuch
+  nominated: 2017
+  qualifications: 0.93
+PStewart:
+  ideology: 0.75
+  name: Potter Stewart
+  nominated: 1958
+  qualifications: 1.0
+RBGinsburg:
+  ideology: 0.68
+  name: Ruth Bader Ginsburg
+  nominated: 1993
+  qualifications: 1.0
+RHJackson:
+  ideology: 1.0
+  name: Robert H. Jackson
+  nominated: 1941
+  qualifications: 0.915
+SAAlito:
+  ideology: 0.1
+  name: Samuel A. Alito, Jr.
+  nominated: 2006
+  qualifications: 0.81
+SDOConnor:
+  ideology: 0.415
+  name: Sandra Day O'Connor
+  nominated: 1981
+  qualifications: 1.0
+SFReed:
+  ideology: 0.725
+  name: Stanley F. Reed
+  nominated: 1938
+  qualifications: 0.875
+SGBreyer:
+  ideology: 0.475
+  name: Stephen G. Breyer
+  nominated: 1994
+  qualifications: 0.545
+SMinton:
+  ideology: 0.72
+  name: Sherman Minton
+  nominated: 1949
+  qualifications: 0.355
+SSotomayor:
+  ideology: 0.78
+  name: Sonia Sotomayor
+  nominated: 2009
+  qualifications: 0.81
+TCClark:
+  ideology: 0.5
+  name: Tom C. Clark
+  nominated: 1949
+  qualifications: 0.125
+TMarshall:
+  ideology: 1.0
+  name: Thurgood Marshall
+  nominated: 1967
+  qualifications: 0.835
+WBRutledge:
+  ideology: 1.0
+  name: Wiley B. Rutledge
+  nominated: 1943
+  qualifications: 1.0
+WEBurger:
+  ideology: 0.115
+  name: Warren E. Burger
+  nominated: 1969
+  qualifications: 0.96
+WHRehnquist:
+  ideology: 0.045
+  name: William H. Rehnquist
+  nominated: 1972
+  qualifications: 0.885
+WJBrennan:
+  ideology: 1.0
+  name: William J. Brennan, Jr.
+  nominated: 1956
+  qualifications: 1.0
+WODouglas:
+  ideology: 0.73
+  name: William O. Douglas
+  nominated: 1939
+  qualifications: 0.82

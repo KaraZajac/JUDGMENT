@@ -71,6 +71,13 @@ ORAL_FEATURES = [
     "oa_case_turn_diff", "oa_case_word_share_pet",
 ]
 
+# Cold-start variant: Segal-Cover perceived ideology at nomination (a
+# constant per justice, fixed pre-confirmation — cert-stage-knowable for the
+# justice's entire tenure). The hypothesis is the FIRST-TERMS slice, where
+# n_prior ~ 0 and the behavioral priors carry no information; the tree can
+# learn to lean on it exactly there. KBJackson has no published score.
+SC_FEATURES = ["sc_ideology"]
+
 
 def load_oral():
     """data/oral/<term>.yaml -> one row per (caseId, justiceName): raw
@@ -306,11 +313,16 @@ def build(save=True):
 
     df = merge_oral(df)
 
+    sc = yaml.safe_load((ROOT / "pipeline" / "curated" / "segal_cover.yaml")
+                        .read_text(encoding="utf-8")) or {}
+    df["sc_ideology"] = df["justiceName"].map(
+        {mn: v["ideology"] for mn, v in sc.items()}).astype("float64")
+
     keep = (["caseId", "term", "justice", "justiceName", "natural_court",
              "y_reverse", "y_liberal", "case_reversed"]
             + CAT_FEATURES + [c for c in NUM_FEATURES if c not in ("term",)]
             # variant features, not in the base config
-            + ["prior_issue_liberal_3t"] + ORAL_FEATURES)
+            + ["prior_issue_liberal_3t"] + ORAL_FEATURES + SC_FEATURES)
     keep = list(dict.fromkeys(keep))
     out = df[keep].copy()
 

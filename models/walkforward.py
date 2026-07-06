@@ -40,7 +40,8 @@ from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import roc_auc_score
 
-from .features import CAT_FEATURES, NUM_FEATURES, ORAL_FEATURES, load
+from .features import (CAT_FEATURES, NUM_FEATURES, ORAL_FEATURES,
+                       SC_FEATURES, load)
 
 TEXT_DIMS = 64
 
@@ -360,15 +361,20 @@ def main():
     ap.add_argument("--oral", action="store_true",
                     help="add per-justice oral-argument questioning features "
                          "(post-argument stage; harvested by pipeline.oral_args)")
+    ap.add_argument("--sc", action="store_true",
+                    help="add the Segal-Cover nomination-ideology score "
+                         "(cold-start variant; pipeline/curated/segal_cover.yaml)")
     args = ap.parse_args()
 
     if args.pending_config:
         subset = (PENDING_CONFIG + (["lc_direction"] if args.lc else [])
                   + (["prior_issue_liberal_3t"] if args.issue3t else [])
-                  + (ORAL_FEATURES if args.oral else []))
+                  + (ORAL_FEATURES if args.oral else [])
+                  + (SC_FEATURES if args.sc else []))
         tag = ("pending_config" + ("_lc" if args.lc else "")
                + ("_issue3t" if args.issue3t else "")
                + ("_oa" if args.oral else "")
+               + ("_sc" if args.sc else "")
                + ("_text" if args.text else ""))
         suffix = tag.replace("_", "-")
         for target in (["reverse", "liberal"] if args.target == "both" else [args.target]):
