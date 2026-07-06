@@ -78,8 +78,21 @@ def fetch_json(url, cache_name, refresh=False, headers=None):
     if headers:
         req_headers.update(headers)
     req = urllib.request.Request(url, headers=req_headers)
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        payload = json.load(resp)
+    # one slow response must not kill a several-hundred-request chain (the
+    # 2026-07-06 weekly refresh died on a single Oyez read timeout): retry
+    # transient failures with backoff before letting the error propagate
+    for attempt, backoff in enumerate((2, 5, 10), start=1):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                payload = json.load(resp)
+            break
+        except (HTTPError, URLError, TimeoutError) as e:
+            if isinstance(e, HTTPError) and e.code == 404:
+                raise  # missing is a fact, not a flake
+            if attempt == 3:
+                raise
+            print(f"  retry {attempt} after {type(e).__name__}: {url[:80]}")
+            time.sleep(backoff)
     cached.write_text(json.dumps(payload), encoding="utf-8")
     time.sleep(0.2)  # be polite to free APIs
     return payload

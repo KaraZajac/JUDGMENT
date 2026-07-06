@@ -82,11 +82,19 @@ def fetch(url, cache_name, binary=False):
     if path.exists():
         return path.read_bytes() if binary else path.read_text(encoding="utf-8",
                                                                errors="replace")
-    req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        payload = resp.read()
-    path.write_bytes(payload)
     import time
+    from urllib.error import HTTPError, URLError
+    req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
+    for attempt, backoff in enumerate((2, 5, 10), start=1):  # transient-flake retry
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                payload = resp.read()
+            break
+        except (HTTPError, URLError, TimeoutError) as e:
+            if (isinstance(e, HTTPError) and e.code == 404) or attempt == 3:
+                raise
+            time.sleep(backoff)
+    path.write_bytes(payload)
     time.sleep(0.4)
     return payload if binary else payload.decode("utf-8", errors="replace")
 
