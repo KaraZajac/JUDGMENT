@@ -5,6 +5,7 @@ provisional: true
 sources:
 - courtlistener
 - oyez
+- supremecourt.gov
 docket: 25-180
 dates:
   decided: '2025-12-08'
@@ -12,3 +13,38 @@ parties:
   petitioner_name: Doe
   respondent_name: Dynamic Physical Therapy, LLC
 oyez_url: https://www.oyez.org/cases/2025/25-180
+votes:
+- justice: JGRoberts
+  vote: majority
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  in_majority: true
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  in_majority: true
+- justice: KBJackson
+  vote: majority
+  in_majority: true
+vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
+decision:
+  majority_votes: 9
+  minority_votes: 0
+  type: per-curiam-no-argument
+citation:
+  us: 607 U.S. 11

@@ -22,6 +22,7 @@ SCDB coding supersedes all of this at the annual release, as usual.
 
 import argparse
 import re
+import shutil
 import subprocess
 import urllib.request
 
@@ -272,6 +273,16 @@ def main():
                     help="defaults to the first term beyond SCDB coverage")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
+
+    # A missing binary is an environment error, not a validation disagreement.
+    # Failing here (loudly, nonzero) aborts the calling workflow BEFORE its
+    # commit step, so an upstream interim/build rebuild cannot ship voteless
+    # records. (2026-07-06: refresh ran without poppler-utils — every parse
+    # crashed FileNotFoundError, validation read 0/0, the gate refused to
+    # write, and the wipe was committed anyway.)
+    if shutil.which("pdftotext") is None:
+        raise SystemExit("pipeline.syllabus: pdftotext not found — install "
+                         "poppler-utils; refusing to run against a wiped tree")
     if args.term is None:
         meta = yaml.safe_load((DATA / "meta.yaml").read_text())
         args.term = meta["counts"]["last_term"] + 1

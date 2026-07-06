@@ -26,7 +26,9 @@ jobs:
           python-version: "3.12"
 
       - name: Install deps
-        run: pip install pyyaml numpy pandas scikit-learn
+        run: |
+          pip install pyyaml numpy pandas scikit-learn
+          sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
 
       - name: Download SCDB (probes for new releases)
         run: python -m pipeline.download
