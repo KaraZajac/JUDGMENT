@@ -1751,8 +1751,13 @@ cases:
   1985-035:
     docket: 84-1640
     sessions: 1
-    justices: {}
-    unattributed_turns: 4
+    justices:
+      WEBurger:
+        tp: 3
+        wp: 17
+        tr: 1
+        wr: 7
+    side_basis: section-order
     unsided_advocates:
     - bruce_j_rosen
     - mark_i_levy
@@ -2010,8 +2015,33 @@ cases:
   1985-070:
     docket: 84-1737
     sessions: 1
-    justices: {}
-    unattributed_turns: 35
+    justices:
+      WEBurger:
+        tp: 7
+        wp: 57
+        tr: 1
+        wr: 7
+      WHRehnquist:
+        tp: 3
+        wp: 79
+        tr: 0
+        wr: 0
+      HABlackmun:
+        tp: 8
+        wp: 216
+        tr: 2
+        wr: 33
+      SDOConnor:
+        tp: 6
+        wp: 203
+        tr: 4
+        wr: 72
+      JPStevens:
+        tp: 4
+        wp: 64
+        tr: 0
+        wr: 0
+    side_basis: section-order
     unsided_advocates:
     - albert_g_lauber_jr
     - john_b_huffaker
@@ -3292,8 +3322,33 @@ cases:
   1985-029:
     docket: 84-744
     sessions: 1
-    justices: {}
-    unattributed_turns: 62
+    justices:
+      WEBurger:
+        tp: 3
+        wp: 46
+        tr: 6
+        wr: 62
+      JPStevens:
+        tp: 28
+        wp: 726
+        tr: 1
+        wr: 74
+      SDOConnor:
+        tp: 5
+        wp: 161
+        tr: 8
+        wr: 158
+      WHRehnquist:
+        tp: 1
+        wp: 42
+        tr: 7
+        wr: 220
+      BRWhite:
+        tp: 0
+        wp: 0
+        tr: 3
+        wr: 42
+    side_basis: section-order
     unsided_advocates:
     - bruce_m_kuhlik
     - bruce_n_kuhlik

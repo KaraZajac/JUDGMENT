@@ -62,6 +62,61 @@ NUM_FEATURES = [
     "prior_majority_rate", "prior_dissent_rate", "court_prior_reverse_3t",
 ]
 
+# Post-argument stage variants (pipeline.oral_args; NOT cert-stage — known the
+# day of argument, strictly pre-decision). Per justice: turn differential and
+# word share toward the petitioner side, total engagement; per case: the
+# bench-wide asymmetry. Missing for unargued/uncovered cases by construction.
+ORAL_FEATURES = [
+    "oa_turn_diff", "oa_word_share_pet", "oa_turns_total",
+    "oa_case_turn_diff", "oa_case_word_share_pet",
+]
+
+
+def load_oral():
+    """data/oral/<term>.yaml -> one row per (caseId, justiceName): raw
+    questioning counts (tp/wp = turns/words while the petitioner side argued;
+    tr/wr respondent side)."""
+    oral_dir = ROOT / "data" / "oral"
+    rows = []
+    if oral_dir.exists():
+        for f in sorted(oral_dir.glob("*.yaml")):
+            d = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
+            for cid, c in (d.get("cases") or {}).items():
+                for mn, r in (c.get("justices") or {}).items():
+                    rows.append((cid, mn, r.get("tp", 0), r.get("wp", 0),
+                                 r.get("tr", 0), r.get("wr", 0)))
+    return pd.DataFrame(rows, columns=["caseId", "justiceName",
+                                       "tp", "wp", "tr", "wr"])
+
+
+def merge_oral(df):
+    """Attach ORAL_FEATURES; rows without transcript coverage stay NaN
+    (the model's native missing handling treats them as pre-argument)."""
+    oral = load_oral()
+    if not len(oral):
+        for c in ORAL_FEATURES:
+            df[c] = np.nan
+        return df
+    oral["oa_turn_diff"] = (oral["tp"] - oral["tr"]).astype(float)
+    tw = oral["wp"] + oral["wr"]
+    oral["oa_word_share_pet"] = np.where(tw > 0, oral["wp"] / tw, np.nan)
+    oral["oa_turns_total"] = (oral["tp"] + oral["tr"]).astype(float)
+    case_tot = oral.groupby("caseId")[["tp", "tr", "wp", "wr"]].sum().reset_index()
+    case_tot["oa_case_turn_diff"] = (case_tot["tp"] - case_tot["tr"]).astype(float)
+    ctw = case_tot["wp"] + case_tot["wr"]
+    case_tot["oa_case_word_share_pet"] = np.where(ctw > 0,
+                                                  case_tot["wp"] / ctw, np.nan)
+    df = df.merge(oral[["caseId", "justiceName", "oa_turn_diff",
+                        "oa_word_share_pet", "oa_turns_total"]],
+                  on=["caseId", "justiceName"], how="left")
+    df = df.merge(case_tot[["caseId", "oa_case_turn_diff",
+                            "oa_case_word_share_pet"]],
+                  on="caseId", how="left")
+    covered = df["oa_turns_total"].notna().sum()
+    print(f"oral-argument features: {covered:,} vote rows covered "
+          f"({covered / max(len(df), 1):.0%})")
+    return df
+
 
 def read_modern_justice_csv():
     manifest = yaml.safe_load((SOURCES / "manifest.yaml").read_text())
@@ -249,10 +304,13 @@ def build(save=True):
     ).fillna(0.5)
     df = df.merge(ct[["term", "court_prior_reverse_3t"]], on="term", how="left")
 
+    df = merge_oral(df)
+
     keep = (["caseId", "term", "justice", "justiceName", "natural_court",
              "y_reverse", "y_liberal", "case_reversed"]
             + CAT_FEATURES + [c for c in NUM_FEATURES if c not in ("term",)]
-            + ["prior_issue_liberal_3t"])  # variant feature, not in the base config
+            # variant features, not in the base config
+            + ["prior_issue_liberal_3t"] + ORAL_FEATURES)
     keep = list(dict.fromkeys(keep))
     out = df[keep].copy()
 
