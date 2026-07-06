@@ -1,0 +1,79 @@
+---
+import Base from "../layouts/Base.astro";
+import { meta } from "../lib/data.js";
+import { num, url } from "../lib/format.js";
+
+const m = meta();
+const c = m.counts ?? {};
+---
+
+<Base title="About" description="What JUDGMENT is: the dataset, the models, and the live preregistered forecast registry.">
+  <p class="eyebrow">About</p>
+  <h1>What this is</h1>
+  <p class="lede" style="max-width:76ch">
+    JUDGMENT is the complete voting record of the Supreme Court of the United
+    States — {num(c.cases)} cases and {num(c.vote_records)} individual justice
+    votes across the {c.first_term}–{c.last_term} terms, every one browsable —
+    plus a statistical engine that forecasts how the Court will rule, publishing
+    calibrated probabilities for every pending case <i>before</i> it is decided
+    and scoring itself as decisions land.
+  </p>
+
+  <h2>The data</h2>
+  <p class="lede" style="max-width:76ch">
+    The backbone is the <a href="http://scdb.wustl.edu" target="_blank" rel="noopener">Supreme
+    Court Database</a> (Spaeth, Epstein, Martin, Segal, Ruger &amp; Benesh — the
+    canonical source for case and vote records, gratefully used with attribution).
+    Because SCDB is released annually, the term in progress is filled provisionally
+    from <a href="https://www.oyez.org" target="_blank" rel="noopener">Oyez</a> and
+    <a href="https://www.courtlistener.com" target="_blank" rel="noopener">CourtListener</a>,
+    and — same-day — by parsing the Court's own slip-opinion syllabi, validation-gated
+    against independently coded lineups. Oral-argument questioning comes from Oyez's
+    structured transcripts ({num(7023)} argued cases since 1955); justice biographies
+    combine hand-curated records with the Federal Judicial Center's directory. Every
+    layer is regenerable from public sources by the pipeline in the repository, and
+    provisional records are replaced wholesale when SCDB's annual release arrives.
+  </p>
+
+  <h2>The model</h2>
+  <p class="lede" style="max-width:76ch">
+    One rule governs the modeling: <b>no feature the forecaster could not have known
+    at forecast time, and no evaluation that peeks</b>. Everything is validated
+    walk-forward — train on the past, predict the next term, repeat across seven
+    decades — with prospectively fitted isotonic calibration and a coalition model
+    that replaces the usual (and wrong) assumption that nine votes are independent.
+    Forecasts are staged: a <b>cert-stage</b> forecast from grant-time features
+    freezes on argument day, and a separately scored <b>post-argument</b> stage adds
+    per-justice questioning features from the transcripts. Features that failed the
+    gate — question text, nomination-time ideology scores — stayed out, and the
+    negative results are documented alongside the wins.
+  </p>
+
+  <h2>The registry</h2>
+  <p class="lede" style="max-width:76ch">
+    Every forecast is timestamped in the public git history — preregistration by
+    version control. The scorer admits nothing that is not strictly ex-ante: a
+    forecast written on or after decision day is excluded from the
+    <a href={url("/predict")}>track record</a>, never counted. The claims this site
+    makes will be confirmed or embarrassed in public, automatically.
+  </p>
+
+  <h2>Code, data, and citation</h2>
+  <p class="lede" style="max-width:76ch">
+    Everything lives at
+    <a href="https://github.com/KaraZajac/JUDGMENT" target="_blank" rel="noopener">github.com/KaraZajac/JUDGMENT</a> —
+    pipeline, models, this site, the methods paper draft, and every validation
+    artifact. Releases are archived on Zenodo under concept DOI
+    <a href="https://doi.org/10.5281/zenodo.21211376" target="_blank" rel="noopener">10.5281/zenodo.21211376</a>,
+    which always resolves to the latest version. Code is MIT; the derived dataset is
+    CC-BY-NC-4.0 with layered attribution documented in DATA-RIGHTS.md. Cite via
+    CITATION.cff in the repository.
+  </p>
+
+  <p class="lede" style="max-width:76ch">
+    Built and maintained by Kara Zajac
+    (<a href="https://orcid.org/0009-0001-7400-1394" target="_blank" rel="noopener">ORCID
+    0009-0001-7400-1394</a>). Sources current as of SCDB {m.scdb?.modern_release}
+    with provisional coverage through the term in progress.
+  </p>
+</Base>
