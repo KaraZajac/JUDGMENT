@@ -30,8 +30,10 @@ import argparse
 import gzip
 import json
 import re
+import threading
 import time
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from urllib.error import HTTPError, URLError
 
 import yaml
@@ -52,32 +54,35 @@ class BudgetExhausted(Exception):
 
 
 _spent = 0
+_spend_lock = threading.Lock()
 
 
 def fetch_json(url, cache_name, budget):
-    """Cached (gzipped) GET; uncached fetches count against the budget."""
+    """Cached (gzipped) GET; uncached fetches count against the budget.
+    Thread-safe: workers each sleep per request, so aggregate politeness
+    scales with --workers (4 workers ~ 3 req/s against Oyez's static CDN)."""
     global _spent
     CACHE.mkdir(parents=True, exist_ok=True)
     path = CACHE / f"{cache_name}.json.gz"
     if path.exists():
         with gzip.open(path, "rt", encoding="utf-8") as f:
             return json.load(f)
-    if _spent >= budget:
-        raise BudgetExhausted()
+    with _spend_lock:
+        if _spent >= budget:
+            raise BudgetExhausted()
+        _spent += 1
     req = urllib.request.Request(url, headers={"User-Agent": UA,
                                                "Accept": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=90) as resp:
             payload = json.load(resp)
     except (HTTPError, URLError, TimeoutError, ValueError) as e:
-        _spent += 1
-        time.sleep(0.35)
+        time.sleep(0.5)
         print(f"    fetch failed ({type(e).__name__}): {url[:90]}")
         return None
-    _spent += 1
     with gzip.open(path, "wt", encoding="utf-8") as f:
         json.dump(payload, f)
-    time.sleep(0.35)
+    time.sleep(0.5)
     return payload
 
 
@@ -260,7 +265,7 @@ def argued_cases(term):
     return out
 
 
-def harvest_term(term, budget, verbose=False):
+def harvest_term(term, budget, verbose=False, workers=4):
     out_path = ORAL / f"{term}.yaml"
     ours = argued_cases(term)
     if not ours:
@@ -273,28 +278,37 @@ def harvest_term(term, budget, verbose=False):
              for s in listing if s.get("docket_number") and s.get("href")}
     match = justice_matcher()
 
-    cases, with_transcript = {}, 0
-    for dslug, cid in sorted(ours.items()):
+    def one(item):
+        dslug, cid = item
         stub = stubs.get(dslug)
         if not stub:
-            continue
+            return None
         detail = fetch_json(stub["href"], f"case-{term}-{dslug}", budget)
         if not detail:
-            continue
+            return None
         feats = case_features(detail, term, match, budget)
         if feats is None:
-            continue
-        with_transcript += 1
-        cases[cid] = {"docket": stub["docket_number"].strip(), **feats}
-        if verbose:
-            tot = {k: sum(j[k] for j in feats["justices"].values())
-                   for k in ("tp", "tr")}
-            print(f"  {cid} ({stub['docket_number'].strip()}): "
-                  f"{feats['sessions']} session(s), "
-                  f"turns pet {tot['tp']} / resp {tot['tr']}, "
-                  f"{len(feats['justices'])} justices"
-                  + (f", unattributed {feats.get('unattributed_turns')}"
-                     if feats.get("unattributed_turns") else ""))
+            return None
+        return cid, stub["docket_number"].strip(), feats
+
+    cases, with_transcript = {}, 0
+    with ThreadPoolExecutor(max_workers=max(1, workers)) as ex:
+        results = ex.map(one, sorted(ours.items()))
+        for res in results:
+            if res is None:
+                continue
+            cid, docket, feats = res
+            with_transcript += 1
+            cases[cid] = {"docket": docket, **feats}
+            if verbose:
+                tot = {k: sum(j[k] for j in feats["justices"].values())
+                       for k in ("tp", "tr")}
+                print(f"  {cid} ({docket}): "
+                      f"{feats['sessions']} session(s), "
+                      f"turns pet {tot['tp']} / resp {tot['tr']}, "
+                      f"{len(feats['justices'])} justices"
+                      + (f", unattributed {feats.get('unattributed_turns')}"
+                         if feats.get("unattributed_turns") else ""))
 
     ORAL.mkdir(parents=True, exist_ok=True)
     dump_yaml({"term": term,
@@ -315,6 +329,8 @@ def main():
                     help="max network requests this run (cached fetches free)")
     ap.add_argument("--refresh", action="store_true",
                     help="rebuild term files that already exist")
+    ap.add_argument("--workers", type=int, default=4,
+                    help="concurrent fetch workers within a term (default 4)")
     args = ap.parse_args()
 
     if args.pilot:
@@ -329,7 +345,8 @@ def main():
         if out_path.exists() and not args.refresh and not args.pilot:
             continue  # term already harvested — resume granularity
         try:
-            harvest_term(term, args.budget, verbose=bool(args.pilot))
+            harvest_term(term, args.budget, verbose=bool(args.pilot),
+                         workers=args.workers)
         except BudgetExhausted:
             print(f"request budget ({args.budget}) exhausted at term {term} — "
                   f"resume with the same command (cache makes re-entry free)")
