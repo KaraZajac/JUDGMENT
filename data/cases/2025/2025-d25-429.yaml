@@ -1,16 +1,20 @@
 id: 2025-d25-429
-name: Blanche v. Lau
+name: 'Blanche v. Lau '
 term: 2025
 provisional: true
 sources:
-- courtlistener
 - oyez
-- supremecourt.gov
+- courtlistener
 docket: 25-429
 dates:
   granted: '2026-01-09'
   argued: '2026-04-22'
   decided: '2026-06-23'
+decision:
+  type: opinion-of-the-court
+  winning_party: petitioner
+  majority_votes: 6
+  minority_votes: 3
 lower_court:
   name: United States Court of Appeals for the Second Circuit
 parties:
@@ -20,11 +24,13 @@ question: To remove a lawful permanent resident who committed an offense listed 
   paroled into the United States, must the government prove that it possessed clear and convincing evidence of the
   offense at the time of the lawful permanent resident’s last reentry into the United States?
 oyez_url: https://www.oyez.org/cases/2025/25-429
+opinions:
+  majority_author: CThomas
 votes:
 - justice: CThomas
   vote: majority
-  opinion: wrote
   in_majority: true
+  opinion: wrote
 - justice: JGRoberts
   vote: majority
   in_majority: true
@@ -35,6 +41,20 @@ votes:
   in_majority: true
   joined:
   - CThomas
+- justice: KBJackson
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+- justice: EKagan
+  vote: dissent
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: SSotomayor
+  vote: dissent
+  in_majority: false
+  joined:
+  - KBJackson
 - justice: NMGorsuch
   vote: majority
   in_majority: true
@@ -50,23 +70,3 @@ votes:
   in_majority: true
   joined:
   - CThomas
-- justice: KBJackson
-  vote: dissent
-  opinion: wrote
-  in_majority: false
-- justice: SSotomayor
-  vote: dissent
-  in_majority: false
-  joined:
-  - KBJackson
-- justice: EKagan
-  vote: dissent
-  in_majority: false
-  joined:
-  - KBJackson
-vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
-opinions:
-  majority_author: CThomas
-decision:
-  majority_votes: 6
-  minority_votes: 3

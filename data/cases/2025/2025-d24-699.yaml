@@ -1,16 +1,20 @@
 id: 2025-d24-699
-name: Exxon Mobil Corp. v. Corporación Cimex, S. A. (Cuba)
+name: Exxon Mobil Corp. v. Corporación Cimex, S.A. (Cuba)
 term: 2025
 provisional: true
 sources:
-- courtlistener
 - oyez
-- supremecourt.gov
+- courtlistener
 docket: 24-699
 dates:
   granted: '2025-10-03'
   argued: '2026-02-23'
   decided: '2026-06-23'
+decision:
+  type: opinion-of-the-court
+  winning_party_name: Exxon Mobil Corp.
+  majority_votes: 6
+  minority_votes: 3
 lower_court:
   name: United States Court of Appeals for the District of Columbia Circuit
 parties:
@@ -19,11 +23,13 @@ parties:
 question: Does the Helms-Burton Act abrogate foreign sovereign immunity in cases against Cuban instrumentalities,
   even if the parties do not satisfy an exception under the Foreign Sovereign Immunities Act?
 oyez_url: https://www.oyez.org/cases/2025/24-699
+opinions:
+  majority_author: BMKavanaugh
 votes:
 - justice: BMKavanaugh
   vote: majority
-  opinion: wrote
   in_majority: true
+  opinion: wrote
 - justice: JGRoberts
   vote: majority
   in_majority: true
@@ -34,11 +40,20 @@ votes:
   in_majority: true
   joined:
   - BMKavanaugh
-- justice: SAAlito
-  vote: majority
-  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  in_majority: false
   joined:
-  - BMKavanaugh
+  - EKagan
+- justice: EKagan
+  vote: dissent
+  in_majority: false
+  opinion: wrote
+- justice: KBJackson
+  vote: dissent
+  in_majority: false
+  joined:
+  - EKagan
 - justice: NMGorsuch
   vote: majority
   in_majority: true
@@ -49,23 +64,8 @@ votes:
   in_majority: true
   joined:
   - BMKavanaugh
-- justice: EKagan
-  vote: dissent
-  opinion: wrote
-  in_majority: false
-- justice: SSotomayor
-  vote: dissent
-  in_majority: false
+- justice: SAAlito
+  vote: majority
+  in_majority: true
   joined:
-  - EKagan
-- justice: KBJackson
-  vote: dissent
-  in_majority: false
-  joined:
-  - EKagan
-vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
-opinions:
-  majority_author: BMKavanaugh
-decision:
-  majority_votes: 6
-  minority_votes: 3
+  - BMKavanaugh

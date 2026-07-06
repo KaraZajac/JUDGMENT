@@ -1,16 +1,20 @@
 id: 2025-d24-856
-name: Cisco Systems, Inc. v. Doe
+name: Cisco Systems, Inc. v. Doe I
 term: 2025
 provisional: true
 sources:
-- courtlistener
 - oyez
-- supremecourt.gov
+- courtlistener
 docket: 24-856
 dates:
   granted: '2026-01-09'
   argued: '2026-04-28'
   decided: '2026-06-23'
+decision:
+  type: opinion-of-the-court
+  winning_party: petitioner
+  majority_votes: 6
+  minority_votes: 3
 lower_court:
   name: United States Court of Appeals for the Ninth Circuit
 parties:
@@ -19,11 +23,13 @@ parties:
 question: Does either the Alien Tort Statute or the Torture Victim Protection Act allow a judicially-implied private
   right of action for aiding and abetting?
 oyez_url: https://www.oyez.org/cases/2025/24-856
+opinions:
+  majority_author: ACBarrett
 votes:
 - justice: ACBarrett
   vote: majority
-  opinion: wrote
   in_majority: true
+  opinion: wrote
 - justice: JGRoberts
   vote: majority
   in_majority: true
@@ -39,35 +45,29 @@ votes:
   in_majority: true
   joined:
   - ACBarrett
-- justice: NMGorsuch
-  vote: majority
-  in_majority: true
-  joined:
-  - ACBarrett
-- justice: BMKavanaugh
-  vote: majority
-  in_majority: true
-  joined:
-  - ACBarrett
-- justice: KBJackson
+- justice: SSotomayor
   vote: dissent
-  opinion: wrote
   in_majority: false
-  joined:
-  - SSotomayor
+  opinion: wrote
 - justice: EKagan
   vote: dissent
   in_majority: false
   joined:
   - KBJackson
   - SSotomayor
-- justice: SSotomayor
+- justice: KBJackson
   vote: dissent
-  opinion: wrote
   in_majority: false
-vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
-opinions:
-  majority_author: ACBarrett
-decision:
-  majority_votes: 6
-  minority_votes: 3
+  opinion: wrote
+  joined:
+  - SSotomayor
+- justice: BMKavanaugh
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
+- justice: NMGorsuch
+  vote: majority
+  in_majority: true
+  joined:
+  - ACBarrett
