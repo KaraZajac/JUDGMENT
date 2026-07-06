@@ -1,7 +1,8 @@
 id: 2026-d25-297
 name: Zorn v. Linton
 term: 2026
-generated: '2026-07-04T05:50:24Z'
+generated: '2026-07-06T20:51:33Z'
+stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -11,52 +12,54 @@ model:
 features:
   issue_area: null
   issue_area_basis: not coded (missing)
-  lc_direction: null
-  lc_direction_basis: not coded (missing)
+  lc_direction: liberal
+  lc_direction_basis: "state-official petitioner (Vermont AG defending Zorn) \u2014 Linton's civil suit\
+    \ prevailed below (Second Circuit, Linton v. Zorn, 22-2954; pro-civil-rights-claimant). Claim type\
+    \ awaits the QP; direction follows from party structure alone."
   question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.869
+  p_reverse: 0.727
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 7.57
+  expected_reverse_votes: 6.28
   reverse_vote_distribution:
-    9-0: 0.599
-    8-1: 0.117
-    7-2: 0.075
-    6-3: 0.048
-    5-4: 0.032
-    4-5: 0.031
-    3-6: 0.031
-    2-7: 0.024
-    1-8: 0.02
-    0-9: 0.025
+    9-0: 0.366
+    8-1: 0.133
+    7-2: 0.096
+    6-3: 0.07
+    5-4: 0.061
+    4-5: 0.06
+    3-6: 0.05
+    2-7: 0.042
+    1-8: 0.048
+    0-9: 0.074
 votes:
 - justice: JGRoberts
-  p_reverse: 0.851
-  p_liberal: 0.931
+  p_reverse: 0.737
+  p_liberal: 0.781
 - justice: CThomas
-  p_reverse: 0.815
-  p_liberal: 0.891
+  p_reverse: 0.693
+  p_liberal: 0.74
 - justice: SAAlito
-  p_reverse: 0.829
-  p_liberal: 0.888
+  p_reverse: 0.772
+  p_liberal: 0.734
 - justice: SSotomayor
-  p_reverse: 0.829
-  p_liberal: 0.931
+  p_reverse: 0.598
+  p_liberal: 0.812
 - justice: EKagan
-  p_reverse: 0.851
-  p_liberal: 0.931
+  p_reverse: 0.627
+  p_liberal: 0.812
 - justice: NMGorsuch
-  p_reverse: 0.845
-  p_liberal: 0.888
+  p_reverse: 0.752
+  p_liberal: 0.74
 - justice: BMKavanaugh
-  p_reverse: 0.851
-  p_liberal: 0.855
+  p_reverse: 0.737
+  p_liberal: 0.653
 - justice: ACBarrett
-  p_reverse: 0.851
-  p_liberal: 0.888
+  p_reverse: 0.763
+  p_liberal: 0.667
 - justice: KBJackson
-  p_reverse: 0.851
-  p_liberal: 0.931
+  p_reverse: 0.598
+  p_liberal: 0.812

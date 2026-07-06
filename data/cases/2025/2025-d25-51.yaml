@@ -5,7 +5,6 @@ provisional: true
 sources:
 - courtlistener
 - oyez
-- supremecourt.gov
 docket: 25-51
 dates:
   decided: '2026-01-26'
@@ -13,38 +12,3 @@ parties:
   petitioner_name: Klein
   respondent_name: Martin
 oyez_url: https://www.oyez.org/cases/2025/25-51
-votes:
-- justice: JGRoberts
-  vote: majority
-  in_majority: true
-- justice: CThomas
-  vote: majority
-  in_majority: true
-- justice: SAAlito
-  vote: majority
-  in_majority: true
-- justice: SSotomayor
-  vote: majority
-  in_majority: true
-- justice: EKagan
-  vote: majority
-  in_majority: true
-- justice: NMGorsuch
-  vote: majority
-  in_majority: true
-- justice: BMKavanaugh
-  vote: majority
-  in_majority: true
-- justice: ACBarrett
-  vote: majority
-  in_majority: true
-- justice: KBJackson
-  vote: majority
-  in_majority: true
-vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
-decision:
-  majority_votes: 9
-  minority_votes: 0
-  type: per-curiam-no-argument
-citation:
-  us: 607 U.S. 213

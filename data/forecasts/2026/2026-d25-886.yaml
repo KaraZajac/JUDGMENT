@@ -1,5 +1,5 @@
-id: 2026-d25-581
-name: St. Mary Catholic Parish v. Roy
+id: 2026-d25-886
+name: Genalo v. Black
 term: 2026
 generated: '2026-07-06T20:51:33Z'
 stage: cert
@@ -10,55 +10,55 @@ model:
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
-  issue_area: 3
-  issue_area_basis: Free Exercise general-applicability standard
-  lc_direction: conservative
-  lc_direction_basis: parish's Free Exercise claim rejected below (SCDB convention codes pro-free-exercise-claimant
-    as liberal; the rejection is conservative).
+  issue_area: 2
+  issue_area_basis: immigration - due-process bond hearings under mandatory detention 1226(c)
+  lc_direction: liberal
+  lc_direction_basis: "government (SG) petitioned \u2014 Second Circuit (20-3224) required due- process\
+    \ bond hearings for prolonged 1226(c) mandatory detention (pro-detainee below)."
   question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.739
+  p_reverse: 0.689
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 6.45
+  expected_reverse_votes: 5.78
   reverse_vote_distribution:
-    9-0: 0.402
-    8-1: 0.128
-    7-2: 0.081
-    6-3: 0.063
-    5-4: 0.064
-    4-5: 0.062
-    3-6: 0.051
-    2-7: 0.042
-    1-8: 0.047
-    0-9: 0.059
+    9-0: 0.247
+    8-1: 0.121
+    7-2: 0.115
+    6-3: 0.127
+    5-4: 0.079
+    4-5: 0.069
+    3-6: 0.063
+    2-7: 0.054
+    1-8: 0.052
+    0-9: 0.072
 votes:
 - justice: JGRoberts
-  p_reverse: 0.701
-  p_liberal: 0.74
+  p_reverse: 0.752
+  p_liberal: 0.202
 - justice: CThomas
-  p_reverse: 0.598
-  p_liberal: 0.549
+  p_reverse: 0.829
+  p_liberal: 0.132
 - justice: SAAlito
-  p_reverse: 0.655
-  p_liberal: 0.653
+  p_reverse: 0.829
+  p_liberal: 0.132
 - justice: SSotomayor
-  p_reverse: 0.772
-  p_liberal: 0.781
+  p_reverse: 0.422
+  p_liberal: 0.653
 - justice: EKagan
-  p_reverse: 0.815
-  p_liberal: 0.812
+  p_reverse: 0.432
+  p_liberal: 0.549
 - justice: NMGorsuch
-  p_reverse: 0.693
-  p_liberal: 0.667
+  p_reverse: 0.663
+  p_liberal: 0.229
 - justice: BMKavanaugh
   p_reverse: 0.717
-  p_liberal: 0.718
+  p_liberal: 0.185
 - justice: ACBarrett
-  p_reverse: 0.676
-  p_liberal: 0.667
+  p_reverse: 0.717
+  p_liberal: 0.19
 - justice: KBJackson
-  p_reverse: 0.819
-  p_liberal: 0.812
+  p_reverse: 0.422
+  p_liberal: 0.718

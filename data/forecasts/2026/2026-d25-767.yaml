@@ -1,7 +1,8 @@
 id: 2026-d25-767
 name: Margolin v. National Association of Immigration Judges
 term: 2026
-generated: '2026-07-04T05:50:24Z'
+generated: '2026-07-06T20:51:33Z'
+stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -9,54 +10,56 @@ model:
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
-  issue_area: null
-  issue_area_basis: not coded (missing)
-  lc_direction: null
-  lc_direction_basis: not coded (missing)
+  issue_area: 3
+  issue_area_basis: public-employee First Amendment - immigration judges' speech restrictions
+  lc_direction: liberal
+  lc_direction_basis: "Solicitor General petitioned \u2014 Fourth Circuit (23-2235) ruled for the National\
+    \ Association of Immigration Judges' First Amendment challenge to speech restrictions (pro-speech-claimant\
+    \ below)."
   question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.869
+  p_reverse: 0.748
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 7.57
+  expected_reverse_votes: 6.37
   reverse_vote_distribution:
-    9-0: 0.599
-    8-1: 0.117
-    7-2: 0.075
-    6-3: 0.048
-    5-4: 0.032
-    4-5: 0.031
-    3-6: 0.031
-    2-7: 0.024
-    1-8: 0.02
-    0-9: 0.025
+    9-0: 0.358
+    8-1: 0.138
+    7-2: 0.102
+    6-3: 0.083
+    5-4: 0.067
+    4-5: 0.059
+    3-6: 0.045
+    2-7: 0.039
+    1-8: 0.044
+    0-9: 0.064
 votes:
 - justice: JGRoberts
-  p_reverse: 0.851
-  p_liberal: 0.931
+  p_reverse: 0.772
+  p_liberal: 0.301
 - justice: CThomas
-  p_reverse: 0.815
-  p_liberal: 0.891
+  p_reverse: 0.786
+  p_liberal: 0.297
 - justice: SAAlito
-  p_reverse: 0.829
-  p_liberal: 0.888
+  p_reverse: 0.772
+  p_liberal: 0.297
 - justice: SSotomayor
-  p_reverse: 0.829
-  p_liberal: 0.931
+  p_reverse: 0.528
+  p_liberal: 0.594
 - justice: EKagan
-  p_reverse: 0.851
-  p_liberal: 0.931
+  p_reverse: 0.598
+  p_liberal: 0.618
 - justice: NMGorsuch
-  p_reverse: 0.845
-  p_liberal: 0.888
+  p_reverse: 0.754
+  p_liberal: 0.297
 - justice: BMKavanaugh
-  p_reverse: 0.851
-  p_liberal: 0.855
+  p_reverse: 0.81
+  p_liberal: 0.225
 - justice: ACBarrett
-  p_reverse: 0.851
-  p_liberal: 0.888
+  p_reverse: 0.754
+  p_liberal: 0.297
 - justice: KBJackson
-  p_reverse: 0.851
-  p_liberal: 0.931
+  p_reverse: 0.594
+  p_liberal: 0.667

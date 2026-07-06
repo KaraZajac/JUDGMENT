@@ -5,7 +5,6 @@ provisional: true
 sources:
 - courtlistener
 - oyez
-- supremecourt.gov
 docket: 24-983
 dates:
   granted: '2025-10-03'
@@ -19,54 +18,3 @@ parties:
 question: Is the legal right to sue under Title III of the LIBERTAD Act tied to the confiscated property claim or
   the hypothetical, unexpired duration of the original property interest?
 oyez_url: https://www.oyez.org/cases/2025/24-983
-votes:
-- justice: CThomas
-  vote: majority
-  opinion: wrote
-  in_majority: true
-- justice: JGRoberts
-  vote: majority
-  in_majority: true
-  joined:
-  - CThomas
-- justice: SAAlito
-  vote: majority
-  in_majority: true
-  joined:
-  - CThomas
-- justice: SSotomayor
-  vote: regular-concurrence
-  in_majority: true
-  joined:
-  - CThomas
-  opinion: wrote
-- justice: NMGorsuch
-  vote: majority
-  in_majority: true
-  joined:
-  - CThomas
-- justice: BMKavanaugh
-  vote: majority
-  in_majority: true
-  joined:
-  - CThomas
-- justice: ACBarrett
-  vote: majority
-  in_majority: true
-  joined:
-  - CThomas
-- justice: KBJackson
-  vote: majority
-  in_majority: true
-  joined:
-  - CThomas
-- justice: EKagan
-  vote: dissent
-  opinion: wrote
-  in_majority: false
-vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
-opinions:
-  majority_author: CThomas
-decision:
-  majority_votes: 8
-  minority_votes: 1

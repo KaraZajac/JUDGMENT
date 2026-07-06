@@ -1,5 +1,5 @@
-id: 2026-d25-966
-name: 'Department of Labor v. Sun Valley Orchards, LLC '
+id: 2026-d25-840
+name: International Partners for Ethical Care, Inc. v. Ferguson
 term: 2026
 generated: '2026-07-06T20:51:33Z'
 stage: cert
@@ -11,10 +11,11 @@ model:
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
   issue_area: 9
-  issue_area_basis: agency adjudication vs Article III courts
+  issue_area_basis: standing of parents to challenge state law (judicial power convention)
   lc_direction: conservative
-  lc_direction_basis: "Department of Labor petitioned \u2014 decision below rejected agency adjudication\
-    \ authority (anti-agency-power in economic regulation)."
+  lc_direction_basis: "parents petitioned after standing denial \u2014 Ninth Circuit (24-3661) barred\
+    \ their challenge to Washington's law. SCDB judicial-power convention codes denial of access to courts\
+    \ as conservative (the underlying politics cut opposite; the codebook rules)."
   question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value

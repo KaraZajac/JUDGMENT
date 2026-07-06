@@ -5,7 +5,6 @@ provisional: true
 sources:
 - courtlistener
 - oyez
-- supremecourt.gov
 docket: 25-112
 dates:
   granted: '2026-01-16'
@@ -18,54 +17,3 @@ parties:
   respondent_name: United States of America
 question: Did the execution of the geofence warrant violate the Fourth Amendment?
 oyez_url: https://www.oyez.org/cases/2025/25-112
-votes:
-- justice: EKagan
-  vote: majority
-  opinion: wrote
-  in_majority: true
-- justice: JGRoberts
-  vote: majority
-  in_majority: true
-  joined:
-  - EKagan
-- justice: SSotomayor
-  vote: majority
-  in_majority: true
-  joined:
-  - EKagan
-- justice: BMKavanaugh
-  vote: majority
-  in_majority: true
-  joined:
-  - EKagan
-- justice: KBJackson
-  vote: regular-concurrence
-  in_majority: true
-  joined:
-  - EKagan
-  opinion: wrote
-- justice: NMGorsuch
-  vote: special-concurrence
-  opinion: wrote
-  in_majority: true
-- justice: SAAlito
-  vote: dissent
-  opinion: wrote
-  in_majority: false
-- justice: CThomas
-  vote: dissent
-  in_majority: false
-  joined:
-  - SAAlito
-- justice: ACBarrett
-  vote: dissent
-  in_majority: false
-  joined:
-  - SAAlito
-  opinion: wrote
-vote_source: slip-opinion-syllabus (parsed; SCDB supersedes)
-opinions:
-  majority_author: EKagan
-decision:
-  majority_votes: 6
-  minority_votes: 3

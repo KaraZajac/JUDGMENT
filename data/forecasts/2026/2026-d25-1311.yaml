@@ -1,5 +1,5 @@
-id: 2026-d25-248
-name: DISTRICT OF COLUMBIA v. R.W.
+id: 2026-d25-1311
+name: Apple Inc. v. Epic Games, Inc.
 term: 2026
 generated: '2026-07-06T20:51:33Z'
 stage: cert
@@ -10,55 +10,55 @@ model:
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
-  issue_area: 1
-  issue_area_basis: juvenile-delinquency prosecution (D.C. Court of Appeals; Public Defender Service respondent)
+  issue_area: 9
+  issue_area_basis: civil-contempt standard and equitable authority (injunction scope)
   lc_direction: liberal
-  lc_direction_basis: "District of Columbia petitioned \u2014 D.C. Court of Appeals (23-FS-0589) ruled\
-    \ for R.W., a juvenile respondent represented by the Public Defender Service (pro-defendant below)."
+  lc_direction_basis: "Apple petitioned \u2014 Ninth Circuit (25-2935) upheld civil contempt for violating\
+    \ the Epic injunction (anti-business enforcement below; judicial- power QP, direction moderate-confidence)."
   question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.79
+  p_reverse: 0.817
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 6.42
+  expected_reverse_votes: 6.9
   reverse_vote_distribution:
-    9-0: 0.302
-    8-1: 0.141
-    7-2: 0.125
-    6-3: 0.14
-    5-4: 0.081
-    4-5: 0.056
-    3-6: 0.041
-    2-7: 0.036
-    1-8: 0.035
+    9-0: 0.444
+    8-1: 0.137
+    7-2: 0.09
+    6-3: 0.086
+    5-4: 0.061
+    4-5: 0.04
+    3-6: 0.033
+    2-7: 0.034
+    1-8: 0.034
     0-9: 0.043
 votes:
 - justice: JGRoberts
   p_reverse: 0.829
-  p_liberal: 0.132
+  p_liberal: 0.201
 - justice: CThomas
-  p_reverse: 0.862
-  p_liberal: 0.126
+  p_reverse: 0.81
+  p_liberal: 0.26
 - justice: SAAlito
-  p_reverse: 0.856
-  p_liberal: 0.126
+  p_reverse: 0.815
+  p_liberal: 0.202
 - justice: SSotomayor
-  p_reverse: 0.452
-  p_liberal: 0.57
+  p_reverse: 0.627
+  p_liberal: 0.368
 - justice: EKagan
-  p_reverse: 0.488
-  p_liberal: 0.507
+  p_reverse: 0.655
+  p_liberal: 0.344
 - justice: NMGorsuch
-  p_reverse: 0.772
-  p_liberal: 0.141
+  p_reverse: 0.81
+  p_liberal: 0.185
 - justice: BMKavanaugh
   p_reverse: 0.845
-  p_liberal: 0.132
+  p_liberal: 0.185
 - justice: ACBarrett
   p_reverse: 0.829
-  p_liberal: 0.132
+  p_liberal: 0.202
 - justice: KBJackson
-  p_reverse: 0.488
-  p_liberal: 0.618
+  p_reverse: 0.676
+  p_liberal: 0.374

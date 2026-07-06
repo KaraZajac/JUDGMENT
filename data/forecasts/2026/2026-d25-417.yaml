@@ -1,5 +1,5 @@
-id: 2026-d25-581
-name: St. Mary Catholic Parish v. Roy
+id: 2026-d25-417
+name: Nielsen v. Watanabe
 term: 2026
 generated: '2026-07-06T20:51:33Z'
 stage: cert
@@ -10,55 +10,56 @@ model:
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
-  issue_area: 3
-  issue_area_basis: Free Exercise general-applicability standard
-  lc_direction: conservative
-  lc_direction_basis: parish's Free Exercise claim rejected below (SCDB convention codes pro-free-exercise-claimant
-    as liberal; the rejection is conservative).
+  issue_area: 8
+  issue_area_basis: Bivens-extension liability question (Egbert 80060 convention; SCDB itself splits with
+    Ziglar=2)
+  lc_direction: liberal
+  lc_direction_basis: "federal officer petitioned \u2014 Ninth Circuit (23-15605) allowed the Bivens medical-indifference\
+    \ claim to proceed (pro-claimant below)."
   question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.739
+  p_reverse: 0.668
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 6.45
+  expected_reverse_votes: 5.75
   reverse_vote_distribution:
-    9-0: 0.402
-    8-1: 0.128
-    7-2: 0.081
-    6-3: 0.063
-    5-4: 0.064
-    4-5: 0.062
-    3-6: 0.051
-    2-7: 0.042
-    1-8: 0.047
-    0-9: 0.059
+    9-0: 0.293
+    8-1: 0.12
+    7-2: 0.104
+    6-3: 0.09
+    5-4: 0.06
+    4-5: 0.058
+    3-6: 0.061
+    2-7: 0.056
+    1-8: 0.057
+    0-9: 0.1
 votes:
 - justice: JGRoberts
-  p_reverse: 0.701
-  p_liberal: 0.74
+  p_reverse: 0.737
+  p_liberal: 0.301
 - justice: CThomas
-  p_reverse: 0.598
-  p_liberal: 0.549
+  p_reverse: 0.676
+  p_liberal: 0.301
 - justice: SAAlito
-  p_reverse: 0.655
-  p_liberal: 0.653
+  p_reverse: 0.701
+  p_liberal: 0.19
 - justice: SSotomayor
-  p_reverse: 0.772
-  p_liberal: 0.781
+  p_reverse: 0.488
+  p_liberal: 0.472
 - justice: EKagan
-  p_reverse: 0.815
-  p_liberal: 0.812
+  p_reverse: 0.55
+  p_liberal: 0.472
 - justice: NMGorsuch
   p_reverse: 0.693
-  p_liberal: 0.667
+  p_liberal: 0.297
 - justice: BMKavanaugh
   p_reverse: 0.717
-  p_liberal: 0.718
+  p_liberal: 0.301
 - justice: ACBarrett
-  p_reverse: 0.676
-  p_liberal: 0.667
+  p_reverse: 0.663
+  p_liberal: 0.347
 - justice: KBJackson
-  p_reverse: 0.819
-  p_liberal: 0.812
+  p_reverse: 0.528
+  p_liberal: 0.507

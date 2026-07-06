@@ -1,7 +1,8 @@
 id: 2026-d25-748
 name: McCarthy v. Hernandez
 term: 2026
-generated: '2026-07-04T05:50:24Z'
+generated: '2026-07-06T20:51:33Z'
+stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
     walk-forward validated)
@@ -9,54 +10,55 @@ model:
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
-  issue_area: null
-  issue_area_basis: not coded (missing)
-  lc_direction: null
-  lc_direction_basis: not coded (missing)
+  issue_area: 1
+  issue_area_basis: state habeas - Second Circuit vacated the Hernandez (Etan Patz) murder conviction
+  lc_direction: liberal
+  lc_direction_basis: "Manhattan DA petitioned \u2014 Second Circuit (Hernandez v. McIntosh, 24-1816)\
+    \ granted habeas relief on the Hernandez (Etan Patz) murder conviction (pro-defendant below)."
   question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.869
+  p_reverse: 0.79
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 7.57
+  expected_reverse_votes: 6.42
   reverse_vote_distribution:
-    9-0: 0.599
-    8-1: 0.117
-    7-2: 0.075
-    6-3: 0.048
-    5-4: 0.032
-    4-5: 0.031
-    3-6: 0.031
-    2-7: 0.024
-    1-8: 0.02
-    0-9: 0.025
+    9-0: 0.302
+    8-1: 0.141
+    7-2: 0.125
+    6-3: 0.14
+    5-4: 0.081
+    4-5: 0.056
+    3-6: 0.041
+    2-7: 0.036
+    1-8: 0.035
+    0-9: 0.043
 votes:
 - justice: JGRoberts
-  p_reverse: 0.851
-  p_liberal: 0.931
+  p_reverse: 0.829
+  p_liberal: 0.132
 - justice: CThomas
-  p_reverse: 0.815
-  p_liberal: 0.891
+  p_reverse: 0.862
+  p_liberal: 0.126
 - justice: SAAlito
-  p_reverse: 0.829
-  p_liberal: 0.888
+  p_reverse: 0.856
+  p_liberal: 0.126
 - justice: SSotomayor
-  p_reverse: 0.829
-  p_liberal: 0.931
+  p_reverse: 0.452
+  p_liberal: 0.57
 - justice: EKagan
-  p_reverse: 0.851
-  p_liberal: 0.931
+  p_reverse: 0.488
+  p_liberal: 0.507
 - justice: NMGorsuch
-  p_reverse: 0.845
-  p_liberal: 0.888
+  p_reverse: 0.772
+  p_liberal: 0.141
 - justice: BMKavanaugh
-  p_reverse: 0.851
-  p_liberal: 0.855
+  p_reverse: 0.845
+  p_liberal: 0.132
 - justice: ACBarrett
-  p_reverse: 0.851
-  p_liberal: 0.888
+  p_reverse: 0.829
+  p_liberal: 0.132
 - justice: KBJackson
-  p_reverse: 0.851
-  p_liberal: 0.931
+  p_reverse: 0.488
+  p_liberal: 0.618
