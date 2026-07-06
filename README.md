@@ -31,6 +31,7 @@ data/
 ├── docket/<term>/<id>.yaml      # pending cases (granted/argued, awaiting decision)
 ├── oral/<term>.yaml             # per-justice oral-argument questioning counts
 │                                #   (side-attributed turns/words; 1955–present)
+├── timing/<term>.yaml           # cert-grant dates (Oyez-derived; dense 2004+)
 ├── justices/<slug>.yaml         # bio + appointment + computed voting record and
 │                                #   term-by-term ideological trajectory
 ├── justices/index.yaml          # roster with SCDB ids and mnemonics

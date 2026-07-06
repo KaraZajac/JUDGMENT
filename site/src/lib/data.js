@@ -92,6 +92,18 @@ export function forecasts() {
 }
 
 /** Granted/argued cases awaiting decision (data/docket/, written by pipeline.interim). */
+/** Per-justice oral-argument questioning counts for a term (data/oral/), or null. */
+export function oralForTerm(term) {
+  const p = path.join(DATA, "oral", `${term}.yaml`);
+  return fs.existsSync(p) ? loadCached(`oral/${term}.yaml`) : null;
+}
+
+/** Oyez-derived cert-grant dates for a term (pipeline.timing sidecar), or null. */
+export function grantDatesForTerm(term) {
+  const p = path.join(DATA, "timing", `${term}.yaml`);
+  return fs.existsSync(p) ? loadCached(`timing/${term}.yaml`) : null;
+}
+
 export function pendingCases() {
   const root = path.join(DATA, "docket");
   if (!fs.existsSync(root)) return [];

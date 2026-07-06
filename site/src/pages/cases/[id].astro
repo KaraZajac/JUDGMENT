@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { termList, caseIdsForTerm, caseById, byMnemonic } from "../../lib/data.js";
+import { termList, caseIdsForTerm, caseById, byMnemonic, oralForTerm, grantDatesForTerm } from "../../lib/data.js";
 import { caseTitle, fmtDate, label, num, url } from "../../lib/format.js";
 
 export function getStaticPaths() {
@@ -62,6 +62,49 @@ function voteRow(v) {
   const joins = (v.joined ?? []).map((m) => jlink(m).name).join(", ");
   return { ...v, j, joins, wroteText: wrote(v) };
 }
+
+// ---- timeline: granted (case record, else the Oyez-derived sidecar) → decided
+const granted = c.dates?.granted ?? grantDatesForTerm(c.term)?.[id] ?? null;
+const stages = [
+  ["Granted", granted],
+  ["Argued", c.dates?.argued],
+  ["Reargued", c.dates?.reargued],
+  ["Decided", c.dates?.decided],
+].filter(([, dt]) => dt);
+const daysBetween = (a, b) => Math.round((new Date(b) - new Date(a)) / 86400000);
+const tsteps = stages.map(([name, dt], i) => ({
+  name,
+  date: dt,
+  gap: i > 0 ? daysBetween(stages[i - 1][1], dt) : null,
+}));
+
+// ---- oral-argument questioning (data/oral/<term>.yaml, when covered)
+const oa = oralForTerm(c.term)?.cases?.[id] ?? null;
+const oaRows = oa
+  ? Object.entries(oa.justices ?? {})
+      .map(([mn, r]) => ({
+        j: jlink(mn),
+        tp: r.tp ?? 0, tr: r.tr ?? 0,
+        wp: r.wp ?? 0, wr: r.wr ?? 0,
+        total: (r.tp ?? 0) + (r.tr ?? 0),
+      }))
+      .sort((a, b) => b.total - a.total)
+  : [];
+const oaTot = oaRows.reduce(
+  (s, r) => ({ tp: s.tp + r.tp, tr: s.tr + r.tr }),
+  { tp: 0, tr: 0 }
+);
+
+// ---- opinions filed, from the vote records
+const majAuthor = c.opinions?.majority_author ?? null;
+const concurrenceAuthors = votes
+  .filter((v) => v.opinion && v.in_majority === true && v.justice !== majAuthor &&
+                 String(v.vote ?? "").includes("concurrence"))
+  .map((v) => jlink(v.justice).name);
+const dissentAuthors = votes
+  .filter((v) => v.opinion && v.in_majority === false)
+  .map((v) => jlink(v.justice).name);
+const clSearch = `https://www.courtlistener.com/?q=${encodeURIComponent('"' + caseTitle(c.name) + '"')}&type=o&court=scotus`;
 ---
 
 <Base title={caseTitle(c.name)} description={`${caseTitle(c.name)}, ${c.term} term.`}>
@@ -99,6 +142,21 @@ function voteRow(v) {
     )}
   </div>
 
+  {tsteps.length >= 2 && (
+    <div class="card" style="margin-bottom:16px; padding:10px 14px">
+      <div style="display:flex; flex-wrap:wrap; gap:6px 10px; align-items:baseline; font-size:14px">
+        {tsteps.map((s, i) => (
+          <>
+            {i > 0 && s.gap != null && (
+              <span style="opacity:.55; font-size:12.5px">—&thinsp;{num(s.gap)} days&thinsp;→</span>
+            )}
+            <span><b>{s.name}</b> {fmtDate(s.date)}</span>
+          </>
+        ))}
+      </div>
+    </div>
+  )}
+
   {c.question && (
     <p class="lede" style="max-width:76ch; margin-bottom:14px">
       <strong>Question presented:</strong> {c.question}
@@ -116,10 +174,37 @@ function voteRow(v) {
     </div>
   </div>
 
-  {c.oyez_url && (
-    <p style="font-size:13px; margin-top:10px">
-      <a href={c.oyez_url} target="_blank" rel="noopener">Case page on Oyez ↗</a>
-    </p>
+  <p style="font-size:13px; margin-top:10px">
+    {c.oyez_url && (
+      <>
+        <a href={c.oyez_url} target="_blank" rel="noopener">Case page & argument audio on Oyez ↗</a>
+        {" · "}
+      </>
+    )}
+    <a href={clSearch} target="_blank" rel="noopener">Opinion text on CourtListener ↗</a>
+  </p>
+
+  {oaRows.length > 0 && (
+    <>
+      <h2>Oral argument</h2>
+      <p class="lede" style="margin-bottom:10px">
+        {oa.sessions > 1 ? `Argued over ${oa.sessions} sessions. ` : ""}
+        The bench directed <b>{num(oaTot.tp)}</b> questioning turns at the petitioner's
+        side and <b>{num(oaTot.tr)}</b> at the respondent's
+        {oa.side_basis === "section-order" ? " (sides inferred from argument order)" : ""}.
+      </p>
+      <div class="card">
+        {oaRows.map((r) => (
+          <div class="vote-row">
+            <span class="who">{r.j.href ? <a href={r.j.href}>{r.j.name}</a> : r.j.name}</span>
+            <span class="what">
+              {num(r.tp)} turn{r.tp === 1 ? "" : "s"} to petitioner · {num(r.tr)} to respondent
+              {r.wp + r.wr > 0 ? ` · ${num(r.wp + r.wr)} words` : ""}
+            </span>
+          </div>
+        ))}
+      </div>
+    </>
   )}
 
   <h2>The vote</h2>
@@ -130,6 +215,12 @@ function voteRow(v) {
         c.opinions.majority_assigner !== c.opinions.majority_author && (
           <> · assigned by {jlink(c.opinions.majority_assigner).name}</>
         )}
+      {concurrenceAuthors.length > 0 && (
+        <> · concurrence{concurrenceAuthors.length > 1 ? "s" : ""} by {concurrenceAuthors.join(", ")}</>
+      )}
+      {dissentAuthors.length > 0 && (
+        <> · dissent{dissentAuthors.length > 1 ? "s" : ""} by {dissentAuthors.join(", ")}</>
+      )}
     </p>
   )}
 

@@ -62,6 +62,20 @@ const isProvisional = agg.provisional || cases.some((c) => c.provisional);
     <StatTile label="Liberal share" value={pct(agg.liberal_share)} sub="of directional decisions" />
     <StatTile label="Reversal rate" value={pct(agg.reversal_share)} sub="judgment below disturbed" />
     <StatTile label="Unanimous" value={agg.cases ? pct((agg.unanimous ?? 0) / agg.cases) : "—"} sub={`${num(agg.unanimous)} cases`} />
+    {agg.median_days_argument_to_decision != null && (
+      <StatTile
+        label="Argument → decision"
+        value={`${num(agg.median_days_argument_to_decision)} days`}
+        sub={`median · ${num(agg.timed_cases)} cases`}
+      />
+    )}
+    {agg.median_days_grant_to_argument != null && (
+      <StatTile
+        label="Grant → argument"
+        value={`${num(agg.median_days_grant_to_argument)} days`}
+        sub={`median · ${num(agg.granted_dated_cases)} cases`}
+      />
+    )}
   </div>
 
   <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px">
