@@ -1,0 +1,44 @@
+# SCDB caseSource codes for mapping a pending case's lower_court.name (from
+# Oyez / supremecourt.gov docket JSON) into the model's case_source_cat
+# feature. The code scheme is pinned EMPIRICALLY against SCDB rows — every
+# constant below is anchored to a verified caseId, not recalled:
+#
+#   CA1=21  Carson v. Makin        2021-024      CA2=22  NYSRPA v. Bruen  2021-013
+#   CA3=23  Murphy v. NCAA         2017-022      CA5=25  Dobbs            2021-019
+#   CA6=26  Grutter                2002-078      CA9=29  Sackett          2022-001
+#   CA11=31 Bostock                2019-004      CADC=32 W.Va. v. EPA     2021-045
+#   Federal Circuit=8  Google v. Oracle 2020-006  (the specialized-federal-
+#   courts block — NOT 33; do not "fix" this)
+#   State court of last resort=300: Kelo (Conn.) 2004-069, Timbs (Ind.)
+#   2018-030, Glover (Kan.) 2019-011, Moore v. Harper (N.C.) 2022-026 —
+#   SCDB buckets all states' highest courts under one code.
+#
+# CA4/CA7/CA8/CA10 (24/27/28/30) follow from the confirmed consecutive run
+# 21..31 pinned at six points. Deliberately UNMAPPED (feature stays missing):
+# intermediate state appellate courts (code unconfirmed; e.g. Florida DCAs),
+# New York's Court of Appeals (its "Supreme Court" is the trial bench — name
+# heuristics invert there), military courts, original-jurisdiction matters.
+# The D.C. Court of Appeals maps to 300: it is the District's court of last
+# resort under 28 U.S.C. 1257.
+#
+# GATE VERDICT (2026-07-07): case_source_cat was walk-forward tested in the
+# deployed cert config and REJECTED — worse on accuracy, Brier, and AUC on
+# both targets (reverse 67.9%->67.1%). The mapping is retained so pending
+# rows carry a truthful value (and future config experiments can use it),
+# but no deployed configuration includes the column.
+
+circuits:
+  first: 21
+  second: 22
+  third: 23
+  fourth: 24
+  fifth: 25
+  sixth: 26
+  seventh: 27
+  eighth: 28
+  ninth: 29
+  tenth: 30
+  eleventh: 31
+  district of columbia: 32
+  federal: 8
+state_court_of_last_resort: 300

@@ -364,17 +364,23 @@ def main():
     ap.add_argument("--sc", action="store_true",
                     help="add the Segal-Cover nomination-ideology score "
                          "(cold-start variant; pipeline/curated/segal_cover.yaml)")
+    ap.add_argument("--source", action="store_true",
+                    help="add the originating-court categorical (case_source_cat; "
+                         "cert-stage-knowable — pending cases map lower_court.name "
+                         "to SCDB codes via pipeline/curated/lower_court_codes.yaml)")
     args = ap.parse_args()
 
     if args.pending_config:
         subset = (PENDING_CONFIG + (["lc_direction"] if args.lc else [])
                   + (["prior_issue_liberal_3t"] if args.issue3t else [])
                   + (ORAL_FEATURES if args.oral else [])
-                  + (SC_FEATURES if args.sc else []))
+                  + (SC_FEATURES if args.sc else [])
+                  + (["case_source_cat"] if args.source else []))
         tag = ("pending_config" + ("_lc" if args.lc else "")
                + ("_issue3t" if args.issue3t else "")
                + ("_oa" if args.oral else "")
                + ("_sc" if args.sc else "")
+               + ("_src" if args.source else "")
                + ("_text" if args.text else ""))
         suffix = tag.replace("_", "-")
         for target in (["reverse", "liberal"] if args.target == "both" else [args.target]):

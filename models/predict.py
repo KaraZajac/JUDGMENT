@@ -16,6 +16,7 @@ Output: data/forecasts/<term>/<caseId>.yaml + a console table.
 """
 
 import datetime
+import re
 from pathlib import Path
 
 import numpy as np
@@ -28,6 +29,8 @@ from .report import fit_final_calibrator
 from .walkforward import PENDING_CONFIG, fit_predict, load_questions
 
 COALITION_PARAMS = Path(__file__).resolve().parent / "coalition-params.yaml"
+LOWER_COURT_CODES = (Path(__file__).resolve().parent.parent
+                     / "pipeline" / "curated" / "lower_court_codes.yaml")
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "models" / "output"
@@ -51,11 +54,41 @@ CONFIGS = {
 # 67.8%, beats the full research config); lc+text interaction REJECTED
 # (67.6% < 67.8%); recent topic-lean (issue3t) ADOPTED 2026-07 on probability
 # quality (reverse Brier 0.2076 -> 0.2069, AUC 0.686 -> 0.688; accuracy within
-# noise). Pending-case lc values hand-coded in pending_lc.yaml.
+# noise). Segal-Cover REJECTED 2026-07 (flat everywhere; first-term slice
+# +0.7pp underpowered — docs/coldstart-segal-cover.md). case_source_cat
+# (originating circuit) REJECTED 2026-07: worse on every metric, both targets
+# (reverse 67.9% -> 67.1%, Brier 0.2069 -> 0.2131, AUC 0.688 -> 0.680) — the
+# lean config already prices circuit effects through lc_direction/issue/court
+# trends, and the extra cardinality is pure variance, the same failure mode
+# that sank the full research config. The lower_court->code mapper stays (rows
+# now carry a truthful case_source_cat instead of a hardcoded missing), but no
+# deployed config uses the column. Oral-argument features ADOPTED for the
+# POST-ARGUMENT stage only (docs/postargument-gate.md; wiring pending).
+# Pending-case lc values hand-coded in pending_lc.yaml.
 DEPLOY_CONFIG = "pending_config_lc_issue3t"
 
 SITTING = ["JGRoberts", "CThomas", "SAAlito", "SSotomayor", "EKagan",
            "NMGorsuch", "BMKavanaugh", "ACBarrett", "KBJackson"]
+
+
+_CIRCUIT_RE = re.compile(r"court of appeals for the ([a-z ]+?) circuit")
+
+
+def case_source_code(lower_court_name):
+    """lower_court.name -> SCDB caseSource code, or None when not confidently
+    mappable (scheme + anchors: pipeline/curated/lower_court_codes.yaml)."""
+    name = (lower_court_name or "").lower()
+    if not name:
+        return None
+    table = yaml.safe_load(LOWER_COURT_CODES.read_text(encoding="utf-8"))
+    m = _CIRCUIT_RE.search(name)
+    if m:
+        return table["circuits"].get(m.group(1).strip())
+    if "appellate division" in name or "appellate term" in name:
+        return None  # New York's trial-bench "Supreme Court" trap
+    if "supreme court" in name or "district of columbia court of appeals" in name:
+        return table["state_court_of_last_resort"]
+    return None
 
 
 def frozen_at_argument(case, path, today):
@@ -119,7 +152,7 @@ def justice_profiles(df, pending_term):
     return profiles
 
 
-def pending_rows(profiles, pending_cases, issue_map, lc_map=None):
+def pending_rows(profiles, pending_cases, issue_map, lc_map=None, source_codes=None):
     lc_map = lc_map or {}
     rows = []
     for case in pending_cases:
@@ -129,6 +162,16 @@ def pending_rows(profiles, pending_cases, issue_map, lc_map=None):
         lc_value = {"conservative": 1.0, "liberal": 2.0}.get(lc_word, np.nan)
         pet = (case.get("parties", {}) or {}).get("petitioner_name") or ""
         res = (case.get("parties", {}) or {}).get("respondent_name") or ""
+        # originating court: mapped SCDB code when it is one the model was
+        # trained on, -1.0 (the "rare" bucket) when mapped but untrained,
+        # -2.0 (missing) when unmappable — mirrors topk_cat exactly
+        src = case_source_code((case.get("lower_court") or {}).get("name"))
+        if src is None:
+            src_value = -2.0
+        elif source_codes and float(src) in source_codes:
+            src_value = float(src)
+        else:
+            src_value = -1.0
         for jn in SITTING:
             p = profiles[jn]
             row = {
@@ -137,7 +180,7 @@ def pending_rows(profiles, pending_cases, issue_map, lc_map=None):
                 "issue_area": float(issue_area) if issue_area else np.nan,
                 "law_type": np.nan, "cert_reason": np.nan, "jurisdiction": 1.0,
                 "lc_direction": lc_value,
-                "case_source_cat": -2.0, "case_origin_cat": -2.0,
+                "case_source_cat": src_value, "case_origin_cat": -2.0,
                 "petitioner_cat": -2.0, "respondent_cat": -2.0,
                 "lc_disagreement": np.nan, "three_judge_dc": 0.0,
                 "us_petitioner": float("United States" in pet),
@@ -224,7 +267,9 @@ def main():
         if target == "reverse":
             lean_of = {jn: 2.0 * (0.5 - p["prior_liberal"])
                        for jn, p in profiles.items()}
-        X_pending = pending_rows(profiles, pending, issue_map, lc_map)
+        known_sources = set(df["case_source_cat"].dropna().unique()) - {-1.0, -2.0}
+        X_pending = pending_rows(profiles, pending, issue_map, lc_map,
+                                 source_codes=known_sources)
         raw = fit_predict(train, X_pending, label,
                           feature_subset=PENDING_CONFIG + extra_features,
                           with_text=with_text)
