@@ -67,5 +67,12 @@ jobs:
             echo "no substantive changes"
           else
             git commit -m "chore: daily ingest + harvest (automated)"
-            git push
+            # main may have moved during a multi-hour run (2026-07-07: eight
+            # interactive commits landed mid-run and the push was rejected,
+            # losing the tranche) — rebase and retry; fail loudly on conflict
+            for i in 1 2 3; do
+              git push && break
+              git pull --rebase origin main || exit 1
+              [ "$i" = 3 ] && exit 1
+            done
           fi
