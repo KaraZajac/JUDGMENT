@@ -23,13 +23,22 @@ keywords:
   - Supreme Court Database
 abstract: >-
   Complete voting records of the Supreme Court of the United States
-  (1791-present) as a browsable dataset, with walk-forward-validated
-  vote/outcome forecasting models, dynamic ideal points with bootstrap
-  uncertainty, coalition-aware outcome distributions, and a live preregistered
-  forecast registry for pending cases. Derived from the Supreme Court Database
-  (Spaeth, Epstein, Martin, Segal, Ruger & Benesh), Oyez, CourtListener, the
-  Federal Judicial Center, and public-domain federal court opinions; see
-  DATA-RIGHTS.md for the layered attribution and licensing.
+  (1791-present) as a browsable dataset, with a per-justice oral-argument
+  questioning corpus (7,000+ argued cases, 1955-present, side-attributed
+  turns and words), walk-forward-validated vote/outcome forecasting models,
+  dynamic ideal points with bootstrap uncertainty, coalition-aware outcome
+  distributions, and a live two-stage preregistered forecast registry:
+  cert-stage forecasts (67.9% justice-vote / 69.6% case accuracy,
+  isotonic-calibrated) freeze on argument day, and a separately scored
+  post-argument stage (69.6% justice-vote, Brier 0.200) adds
+  transcript-derived questioning features and the Solicitor General's
+  amicus position - worth +5 accuracy points where the SG participates.
+  Every candidate feature faces the same walk-forward gate; the rejections
+  are documented alongside the adoptions. Derived from the Supreme Court
+  Database (Spaeth, Epstein, Martin, Segal, Ruger & Benesh), Oyez,
+  CourtListener, the Federal Judicial Center, and public-domain federal
+  court opinions; see DATA-RIGHTS.md for the layered attribution and
+  licensing.
 references:
   - type: database
     title: The Supreme Court Database (Version 2025 Release 1; Legacy Release 7)
