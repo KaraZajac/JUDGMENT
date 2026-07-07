@@ -294,9 +294,9 @@ justice's lagged lean, and the loadings $(\lambda_0, \lambda_1)$ are fit on
 walk-forward predictions from terms $\le 2010$ and evaluated strictly after.
 Case distributions follow from two-dimensional Gauss--Hermite quadrature; no
 Monte Carlo. Out-of-sample split-distribution log-loss improves by 45\%, and
---- non-obviously --- binary case accuracy improves as well (69.0\% $\to$
-69.4\%): it is strictly better, not a sharpness trade
-(Figure~\ref{fig:splits}).
+--- non-obviously --- binary case accuracy improves as well on the same
+post-2010 evaluation window (69.0\% $\to$ 69.6\%; Brier $0.227 \to 0.211$):
+it is strictly better, not a sharpness trade (Figure~\ref{fig:splits}).
 
 \subsection{Deployment honesty}\label{sec:deployment}
 
@@ -348,9 +348,11 @@ Post-argument stage            & .680 & .207 & .603 & .744 \\
 \bottomrule
 \end{tabular}
 \caption{Walk-forward vote-level performance, evaluation terms 1956--2024
-($n = 75{,}787$ reverse-labeled votes; 78{,}874 direction-labeled). Case-level
-accuracy of the deployed cert configuration under coalition aggregation is
-69.4\% ($n = 7{,}645$ cases). Every model row is trained, predicted, and
+($n = 67{,}047$ reverse-labeled votes; 69{,}825 direction-labeled).
+Independence-aggregated case-level accuracy of the deployed cert
+configuration is 69.4\% ($n = 7{,}645$ cases); the coalition layer of
+\S\ref{sec:coalition} improves case accuracy further on its post-2010
+evaluation (69.0\% $\to$ 69.6\%). Every model row is trained, predicted, and
 calibrated strictly out-of-time.}
 \label{tab:headline}
 \end{table}
