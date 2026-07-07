@@ -58,12 +58,13 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
     history including recent topic-level lean, hand-coded issue area and lower-court
     direction, party flags — validated at <b>67.9%</b> per-vote accuracy (Brier 0.207)
     over 1956–2024, outperforming the full-SCDB research configuration (66.8%). Each
-    freezes on argument day; a separately scored <b>post-argument</b> stage, adding
-    per-justice questioning features from the oral-argument transcripts (walk-forward
-    validated: +4 points of per-vote accuracy across the 1980s–2010s, era caveats
-    documented), re-registers argued cases when OT2026 arguments begin. Every feature
-    faces the same gate: question text was tested twice and rejected; Segal–Cover
-    nomination scores tested and not adopted. Probabilities are isotonic-calibrated —
+    freezes on argument day; a separately scored <b>post-argument</b> stage re-registers
+    argued cases with per-justice questioning features from the transcripts and the side
+    the Solicitor General supports as amicus (walk-forward validated: <b>69.6%</b>
+    per-vote, Brier 0.200 — rising to ~73% on SG-involved cases, whose supported side
+    historically reverses 75.8% vs 42.3%). Every feature faces the same gate: question
+    text was rejected twice; Segal–Cover scores, originating circuit, and
+    dissent-below were tested and not adopted. Probabilities are isotonic-calibrated —
     details and limitations in
     <code>models/output/report-reverse.md</code>.
   </p>

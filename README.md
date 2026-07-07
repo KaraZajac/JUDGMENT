@@ -139,12 +139,14 @@ Hand-maintained facts (appointments, confirmation votes, bios) live in
 
 Phase by phase (full detail in [docs/modeling.md](docs/modeling.md)):
 
-1. **Descriptive** — agreement matrices, reversal base rates, ideology trajectories ✦ *unblocked now*
-2. **Baselines** — party-of-appointer, issue-area priors, lower-court heuristics
-3. **Dynamic ideal points** — Bayesian IRT re-estimation of justice ideology over time
+1. **Descriptive** — agreement matrices, reversal base rates, ideology trajectories ✦ *done*
+2. **Baselines** — party-of-appointer, issue-area priors, lower-court heuristics ✦ *done*
+3. **Dynamic ideal points** — Bayesian IRT re-estimation of justice ideology over time ✦ *done*
 4. **Supervised vote prediction** — walk-forward validated, benchmarked against
-   Katz–Bommarito–Blackman (70.2% case / 71.9% justice-vote accuracy)
-5. **Text features** — cert-stage documents, opinions, oral argument
+   Katz–Bommarito–Blackman (70.2% case / 71.9% justice-vote accuracy) ✦ *done:
+   67.9% per-vote at cert stage; 69.6% post-argument (Brier 0.200)*
+5. **Text features** — question text rejected twice on evidence; oral-argument
+   questioning + the SG's amicus position adopted for the post-argument stage
 6. **Forecasts** — calibrated predictions for pending cases, published via the Astro
    site in `site/` and scored when decisions land; scoring is strictly ex-ante (a
    forecast regenerated on or after decision day never enters the track record), and
