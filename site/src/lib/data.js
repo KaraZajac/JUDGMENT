@@ -4,10 +4,23 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 
-const DATA = fileURLToPath(new URL("../../../data", import.meta.url));
+// Resolve the repo's data/ directory by walking up from the working
+// directory (builds run in site/). Resolving relative to import.meta.url
+// broke in Astro 7: prerender chunks are emitted deeper under dist/, so
+// module-relative paths no longer point at the repo root.
+function findData(start) {
+  let dir = path.resolve(start);
+  for (let i = 0; i < 6; i++) {
+    if (fs.existsSync(path.join(dir, "data", "meta.yaml"))) {
+      return path.join(dir, "data");
+    }
+    dir = path.dirname(dir);
+  }
+  throw new Error(`data/ directory not found walking up from ${start}`);
+}
+const DATA = findData(process.cwd());
 const cache = new Map();
 
 function loadCached(rel) {
