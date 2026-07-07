@@ -78,50 +78,74 @@ ORAL_FEATURES = [
 # learn to lean on it exactly there. KBJackson has no published score.
 SC_FEATURES = ["sc_ideology"]
 
+# Post-argument variant: which side the United States supports as amicus at
+# oral argument (1.0 = petitioner, 2.0 = respondent, NaN = no SG amicus) —
+# the SG-supported side wins disproportionately. From the same Oyez advocate
+# metadata as the questioning corpus, so it exists exactly when stage-2 runs.
+SG_FEATURES = ["sg_amicus"]
+
+# Format-robust post-argument variants: the post-2020 seriatim format (every
+# justice questions every advocate in rounds) compresses TURN-count
+# asymmetries, but word volume still flows toward the side being pressed.
+# Word-centric levels plus a leak-free within-justice baseline: this case's
+# word share toward the petitioner minus the justice's own lagged 3-term
+# mean share, so justice-level style and era-level format norms cancel.
+ORAL2_FEATURES = [
+    "oa_word_diff", "oa_case_word_diff", "oa_share_vs_base",
+    "oa_word_share_pet", "oa_turns_total",
+]
+
 
 def load_oral():
     """data/oral/<term>.yaml -> one row per (caseId, justiceName): raw
     questioning counts (tp/wp = turns/words while the petitioner side argued;
-    tr/wr respondent side)."""
+    tr/wr respondent side), plus the case-level SG-amicus side."""
     oral_dir = ROOT / "data" / "oral"
     rows = []
     if oral_dir.exists():
         for f in sorted(oral_dir.glob("*.yaml")):
             d = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
             for cid, c in (d.get("cases") or {}).items():
+                sg = {"pet": 1.0, "resp": 2.0}.get(c.get("sg_amicus"))
                 for mn, r in (c.get("justices") or {}).items():
                     rows.append((cid, mn, r.get("tp", 0), r.get("wp", 0),
-                                 r.get("tr", 0), r.get("wr", 0)))
+                                 r.get("tr", 0), r.get("wr", 0), sg))
     return pd.DataFrame(rows, columns=["caseId", "justiceName",
-                                       "tp", "wp", "tr", "wr"])
+                                       "tp", "wp", "tr", "wr", "sg"])
 
 
 def merge_oral(df):
-    """Attach ORAL_FEATURES; rows without transcript coverage stay NaN
-    (the model's native missing handling treats them as pre-argument)."""
+    """Attach ORAL_FEATURES + SG_FEATURES + the word-centric ORAL2 levels;
+    rows without transcript coverage stay NaN (native missing handling
+    treats them as pre-argument). oa_share_vs_base is finished in build()
+    where the lagged within-justice baseline machinery lives."""
     oral = load_oral()
     if not len(oral):
-        for c in ORAL_FEATURES:
+        for c in ORAL_FEATURES + SG_FEATURES + ORAL2_FEATURES:
             df[c] = np.nan
         return df
     oral["oa_turn_diff"] = (oral["tp"] - oral["tr"]).astype(float)
+    oral["oa_word_diff"] = (oral["wp"] - oral["wr"]).astype(float)
     tw = oral["wp"] + oral["wr"]
     oral["oa_word_share_pet"] = np.where(tw > 0, oral["wp"] / tw, np.nan)
     oral["oa_turns_total"] = (oral["tp"] + oral["tr"]).astype(float)
     case_tot = oral.groupby("caseId")[["tp", "tr", "wp", "wr"]].sum().reset_index()
     case_tot["oa_case_turn_diff"] = (case_tot["tp"] - case_tot["tr"]).astype(float)
+    case_tot["oa_case_word_diff"] = (case_tot["wp"] - case_tot["wr"]).astype(float)
     ctw = case_tot["wp"] + case_tot["wr"]
     case_tot["oa_case_word_share_pet"] = np.where(ctw > 0,
                                                   case_tot["wp"] / ctw, np.nan)
-    df = df.merge(oral[["caseId", "justiceName", "oa_turn_diff",
-                        "oa_word_share_pet", "oa_turns_total"]],
+    df = df.merge(oral[["caseId", "justiceName", "oa_turn_diff", "oa_word_diff",
+                        "oa_word_share_pet", "oa_turns_total", "sg"]],
                   on=["caseId", "justiceName"], how="left")
-    df = df.merge(case_tot[["caseId", "oa_case_turn_diff",
+    df = df.rename(columns={"sg": "sg_amicus"})
+    df = df.merge(case_tot[["caseId", "oa_case_turn_diff", "oa_case_word_diff",
                             "oa_case_word_share_pet"]],
                   on="caseId", how="left")
     covered = df["oa_turns_total"].notna().sum()
+    sg_n = df["sg_amicus"].notna().sum()
     print(f"oral-argument features: {covered:,} vote rows covered "
-          f"({covered / max(len(df), 1):.0%})")
+          f"({covered / max(len(df), 1):.0%}); SG-amicus on {sg_n:,} rows")
     return df
 
 
@@ -313,6 +337,14 @@ def build(save=True):
 
     df = merge_oral(df)
 
+    # format-robust oral variant: this case's word share toward the petitioner
+    # minus the justice's own lagged 3-term mean share (strictly-prior terms,
+    # EB-shrunk) — justice style and era format norms cancel, deployable live
+    share_base = _last3_lagged(df, "oa_word_share_pet", SHRINK_RECENT)
+    df = df.merge(share_base.rename(columns={"rate3": "oa_share_base"}),
+                  on=["justiceName", "term"], how="left")
+    df["oa_share_vs_base"] = df["oa_word_share_pet"] - df["oa_share_base"]
+
     sc = yaml.safe_load((ROOT / "pipeline" / "curated" / "segal_cover.yaml")
                         .read_text(encoding="utf-8")) or {}
     df["sc_ideology"] = df["justiceName"].map(
@@ -322,7 +354,8 @@ def build(save=True):
              "y_reverse", "y_liberal", "case_reversed"]
             + CAT_FEATURES + [c for c in NUM_FEATURES if c not in ("term",)]
             # variant features, not in the base config
-            + ["prior_issue_liberal_3t"] + ORAL_FEATURES + SC_FEATURES)
+            + ["prior_issue_liberal_3t"] + ORAL_FEATURES + SC_FEATURES
+            + SG_FEATURES + ORAL2_FEATURES)
     keep = list(dict.fromkeys(keep))
     out = df[keep].copy()
 

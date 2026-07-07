@@ -40,8 +40,8 @@ from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import roc_auc_score
 
-from .features import (CAT_FEATURES, NUM_FEATURES, ORAL_FEATURES,
-                       SC_FEATURES, load)
+from .features import (CAT_FEATURES, NUM_FEATURES, ORAL2_FEATURES,
+                       ORAL_FEATURES, SC_FEATURES, SG_FEATURES, load)
 
 TEXT_DIMS = 64
 
@@ -364,6 +364,12 @@ def main():
     ap.add_argument("--sc", action="store_true",
                     help="add the Segal-Cover nomination-ideology score "
                          "(cold-start variant; pipeline/curated/segal_cover.yaml)")
+    ap.add_argument("--sg", action="store_true",
+                    help="add the SG-as-amicus side (post-argument stage variant; "
+                         "from the Oyez advocate metadata)")
+    ap.add_argument("--oral2", action="store_true",
+                    help="add the format-robust word-centric questioning features "
+                         "(seriatim-era candidate; see features.ORAL2_FEATURES)")
     ap.add_argument("--lcdis", action="store_true",
                     help="add lower-court dissent (lc_disagreement) — a coded "
                          "SCDB binary; pending cases would code it from the "
@@ -380,13 +386,17 @@ def main():
                   + (ORAL_FEATURES if args.oral else [])
                   + (SC_FEATURES if args.sc else [])
                   + (["case_source_cat"] if args.source else [])
-                  + (["lc_disagreement"] if args.lcdis else []))
+                  + (["lc_disagreement"] if args.lcdis else [])
+                  + (SG_FEATURES if args.sg else [])
+                  + (ORAL2_FEATURES if args.oral2 else []))
         tag = ("pending_config" + ("_lc" if args.lc else "")
                + ("_issue3t" if args.issue3t else "")
                + ("_oa" if args.oral else "")
                + ("_sc" if args.sc else "")
                + ("_src" if args.source else "")
                + ("_lcdis" if args.lcdis else "")
+               + ("_sg" if args.sg else "")
+               + ("_oa2" if args.oral2 else "")
                + ("_text" if args.text else ""))
         suffix = tag.replace("_", "-")
         for target in (["reverse", "liberal"] if args.target == "both" else [args.target]):

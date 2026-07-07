@@ -173,6 +173,25 @@ def advocate_sides(detail):
     return sides
 
 
+def sg_amicus_side(detail):
+    """'pet' | 'resp' | None: which side the United States supports as amicus
+    at oral argument (the Solicitor General's office; e.g. 'for the United
+    States, as amicus curiae, supporting the Petitioner'). The SG-supported
+    side wins disproportionately — a classic predictor. State amici do not
+    match (requires 'united states'); the US as a PARTY does not match
+    (requires an amicus clause). Not cert-stage-knowable: merits amicus
+    participation lands months after grant, so this feeds the post-argument
+    stage, whose harvest is also its data source."""
+    for row in detail.get("advocates") or []:
+        d = (row or {}).get("advocate_description") or ""
+        low = d.lower()
+        if "united states" in low and ("amicus" in low or "amici" in low):
+            side = side_of_description(d)
+            if side:
+                return side
+    return None
+
+
 def _turn_words(turn):
     return sum(len((tb.get("text") or "").split())
                for tb in (turn.get("text_blocks") or []))
@@ -244,6 +263,9 @@ def case_features(detail, term, match, budget):
     if not sessions:
         return None
     out = {"sessions": sessions, "justices": counts}
+    sg = sg_amicus_side(detail)
+    if sg:
+        out["sg_amicus"] = sg
     if order_fallback:
         out["side_basis"] = "section-order"  # heuristic, not advocate metadata
     if unattributed:
