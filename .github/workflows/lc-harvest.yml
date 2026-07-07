@@ -49,6 +49,9 @@ jobs:
       - name: Same-day votes from slip-opinion syllabi (validation-gated)
         run: python -m pipeline.syllabus
 
+      - name: Oral-argument transcripts for just-argued cases
+        run: python -m pipeline.oral_args --current --budget 300
+
       - name: Aggregates
         run: python -m pipeline.aggregates
 

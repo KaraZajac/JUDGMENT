@@ -85,18 +85,21 @@ def score_justices(forecast, case, case_reversed):
             "brier": round(brier / len(rows), 4), "votes": rows}
 
 
-def collect():
+def collect(stage_subdir=None):
+    """Score one registration track: the flat per-term files (cert stage) or
+    a per-term subdirectory (stage_subdir='post-argument')."""
     scored, unscoreable, pending = [], [], 0
     consolidations = {}
     if CONSOLIDATIONS.exists():
         consolidations = yaml.safe_load(
             CONSOLIDATIONS.read_text(encoding="utf-8")) or {}
     for tdir in sorted(FORECASTS.iterdir()):
-        if not tdir.is_dir():
+        if not tdir.is_dir() or not tdir.name.isdigit():
             continue
-        # stage-2 (post-argument) forecasts will live in <term>/post-argument/
-        # and be scored as their own track — this glob deliberately stays flat
-        for f in sorted(tdir.glob("*.yaml")):
+        root = tdir / stage_subdir if stage_subdir else tdir
+        if not root.is_dir():
+            continue
+        for f in sorted(root.glob("*.yaml")):
             fc = yaml.safe_load(f.read_text(encoding="utf-8"))
             decided_path = CASES / str(fc["term"]) / f"{fc['id']}.yaml"
             decided_as = None  # deciding record id when != forecast id
@@ -150,30 +153,44 @@ def collect():
     return scored, unscoreable, pending
 
 
-def write_scorecard(scored, unscoreable, pending):
-    summary = None
-    if scored:
-        n = len(scored)
-        jn = sum(s["justice_votes"]["n"] for s in scored if "justice_votes" in s)
-        jh = sum(s["justice_votes"]["hits"] for s in scored if "justice_votes" in s)
-        summary = {
-            "cases_scored": n,
-            "case_accuracy": round(sum(s["hit"] for s in scored) / n, 4),
-            "case_brier": round(sum(s["brier"] for s in scored) / n, 4),
-            "mean_p_reverse": round(sum(s["p_reverse"] for s in scored) / n, 4),
-            "share_reversed": round(
-                sum(s["outcome"] == "reversed" for s in scored) / n, 4),
-            "justice_votes_scored": jn,
-            "justice_vote_accuracy": round(jh / jn, 4) if jn else None,
-        }
+def summarize_track(scored):
+    if not scored:
+        return None
+    n = len(scored)
+    jn = sum(s["justice_votes"]["n"] for s in scored if "justice_votes" in s)
+    jh = sum(s["justice_votes"]["hits"] for s in scored if "justice_votes" in s)
+    return {
+        "cases_scored": n,
+        "case_accuracy": round(sum(s["hit"] for s in scored) / n, 4),
+        "case_brier": round(sum(s["brier"] for s in scored) / n, 4),
+        "mean_p_reverse": round(sum(s["p_reverse"] for s in scored) / n, 4),
+        "share_reversed": round(
+            sum(s["outcome"] == "reversed" for s in scored) / n, 4),
+        "justice_votes_scored": jn,
+        "justice_vote_accuracy": round(jh / jn, 4) if jn else None,
+    }
+
+
+def write_scorecard(scored, unscoreable, pending, post_argument=None):
     payload = {
         "generated": datetime.datetime.now(datetime.timezone.utc)
         .strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "summary": summary,
+        "summary": summarize_track(scored),
         "scored": scored,
         "unscoreable": unscoreable,
         "awaiting_decision": pending,
     }
+    if post_argument is not None:
+        # the second registration track (paper §6): argued cases re-forecast
+        # with transcript features, scored separately so the live record
+        # measures what argument information is worth
+        pa_scored, pa_unscoreable, pa_pending = post_argument
+        payload["post_argument"] = {
+            "summary": summarize_track(pa_scored),
+            "scored": pa_scored,
+            "unscoreable": pa_unscoreable,
+            "awaiting_decision": pa_pending,
+        }
     with open(FORECASTS / "scorecard.yaml", "w", encoding="utf-8") as f:
         yaml.safe_dump(payload, f, sort_keys=False, width=100)
     return payload
@@ -219,15 +236,25 @@ def main():
         selftest()
         return
     scored, unscoreable, pending = collect()
-    payload = write_scorecard(scored, unscoreable, pending)
+    pa = collect(stage_subdir="post-argument")
+    payload = write_scorecard(scored, unscoreable, pending,
+                              post_argument=pa if any(
+                                  (pa[0], pa[1], pa[2])) else None)
     if payload["summary"]:
         s = payload["summary"]
-        print(f"scored {s['cases_scored']} cases: accuracy {s['case_accuracy']}, "
+        print(f"cert: scored {s['cases_scored']} cases: accuracy {s['case_accuracy']}, "
               f"Brier {s['case_brier']}; justice votes {s['justice_votes_scored']} "
               f"at {s['justice_vote_accuracy']}")
     else:
-        print(f"no decided forecasts yet ({pending} awaiting decision, "
+        print(f"cert: no decided forecasts yet ({pending} awaiting decision, "
               f"{len(unscoreable)} unscoreable); scorecard written")
+    if payload.get("post_argument"):
+        ps = payload["post_argument"]["summary"]
+        if ps:
+            print(f"post-argument: scored {ps['cases_scored']} cases: "
+                  f"accuracy {ps['case_accuracy']}, Brier {ps['case_brier']}")
+        else:
+            print(f"post-argument: {pa[2]} awaiting decision")
 
 
 if __name__ == "__main__":

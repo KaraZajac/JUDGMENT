@@ -1,7 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import StatTile from "../components/StatTile.astro";
-import { pendingCases, forecasts, byMnemonic, scorecard } from "../lib/data.js";
+import { pendingCases, forecasts, postArgumentForecasts, byMnemonic, scorecard } from "../lib/data.js";
 import { caseTitle, fmtDate, pct, url } from "../lib/format.js";
 
 const card = scorecard();
@@ -9,7 +9,9 @@ const scored = card?.scored ?? [];
 
 const pending = pendingCases();
 const forecastOf = forecasts();
+const stage2Of = postArgumentForecasts();
 const justiceOf = byMnemonic();
+const pa = card?.post_argument ?? null;
 
 const argued = pending.filter((p) => p.dates?.argued);
 const unargued = pending.filter((p) => !p.dates?.argued);
@@ -124,9 +126,31 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
       )}
     </p>
   )}
+  {pa && (
+    <>
+      <h2>Post-argument track</h2>
+      {pa.summary ? (
+        <div class="kpis">
+          <StatTile label="Cases scored" value={pa.summary.cases_scored} sub={`${pa.awaiting_decision} still pending`} />
+          <StatTile label="Case accuracy" value={pct(pa.summary.case_accuracy, 1)} sub={`Brier ${pa.summary.case_brier}`} />
+          {pa.summary.justice_vote_accuracy != null && (
+            <StatTile label="Justice-vote accuracy" value={pct(pa.summary.justice_vote_accuracy, 1)} sub={`${pa.summary.justice_votes_scored} votes scored`} />
+          )}
+        </div>
+      ) : (
+        <p class="lede">
+          {pa.awaiting_decision} argued case{pa.awaiting_decision === 1 ? "" : "s"} carry a
+          second, transcript-informed forecast — scored separately, so this track measures
+          what argument information is worth.
+        </p>
+      )}
+    </>
+  )}
 
   {ordered.map((p) => {
     const fc = forecastOf.get(p.id);
+    const fc2 = stage2Of.get(p.id);   // post-argument re-registration, if argued
+    const live = fc2 ?? fc;           // freshest stage drives votes/splits
     return (
       <section class="card fc-card">
         <div class="fc-head">
@@ -139,30 +163,38 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
           <span class="chip">{statusOf(p)}</span>
         </div>
         {p.question && <p class="fc-question">{clip(p.question, 300)}</p>}
-        {fc ? (
+        {live ? (
           <>
             <div class="fc-forecast">
-              <div class="fc-hero">
-                <div class="stat-label">P(reverse)</div>
-                <div class="stat-value">{Math.round(fc.prediction.p_reverse * 100)}%</div>
-              </div>
+              {fc2 && (
+                <div class="fc-hero">
+                  <div class="stat-label">P(reverse) · post-argument</div>
+                  <div class="stat-value">{Math.round(fc2.prediction.p_reverse * 100)}%</div>
+                </div>
+              )}
+              {fc && (
+                <div class="fc-hero">
+                  <div class="stat-label">{fc2 ? "at cert (frozen)" : "P(reverse)"}</div>
+                  <div class="stat-value" style={fc2 ? "opacity:.55" : ""}>{Math.round(fc.prediction.p_reverse * 100)}%</div>
+                </div>
+              )}
               <div class="fc-meta">
-                <div>expected reverse votes: <b>{fc.prediction.expected_reverse_votes}</b> of {fc.votes.length}</div>
+                <div>expected reverse votes: <b>{live.prediction.expected_reverse_votes}</b> of {live.votes.length}</div>
                 <div class="chips" style="margin-top:6px">
-                  {topSplits(fc).map(([split, prob]) => (
+                  {topSplits(live).map(([split, prob]) => (
                     <span class="chip">{split.replace("-", "–")} · {Math.round(prob * 100)}%</span>
                   ))}
                 </div>
               </div>
             </div>
             <details class="tableview">
-              <summary>Per-justice forecast</summary>
+              <summary>Per-justice forecast{fc2 ? " (post-argument)" : ""}</summary>
               <table class="data">
                 <thead>
                   <tr><th>Justice</th><th class="n">P(reverse)</th><th>Predicted lean</th><th class="n">P(liberal)</th></tr>
                 </thead>
                 <tbody>
-                  {fc.votes.map((v) => {
+                  {live.votes.map((v) => {
                     const j = justiceOf.get(v.justice);
                     return (
                       <tr>

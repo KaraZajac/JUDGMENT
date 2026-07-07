@@ -57,14 +57,18 @@ _spent = 0
 _spend_lock = threading.Lock()
 
 
-def fetch_json(url, cache_name, budget):
+def fetch_json(url, cache_name, budget, fresh=False):
     """Cached (gzipped) GET; uncached fetches count against the budget.
-    Thread-safe: workers each sleep per request, so aggregate politeness
-    scales with --workers (4 workers ~ 3 req/s against Oyez's static CDN)."""
+    fresh=True bypasses the read side of the cache (still writes it) — for
+    volatile resources like the current term's listing and case details,
+    which grow new entries as cases are argued. Transcript media is
+    immutable once posted and never needs it. Thread-safe: workers each
+    sleep per request, so aggregate politeness scales with --workers
+    (4 workers ~ 3 req/s against Oyez's static CDN)."""
     global _spent
     CACHE.mkdir(parents=True, exist_ok=True)
     path = CACHE / f"{cache_name}.json.gz"
-    if path.exists():
+    if path.exists() and not fresh:
         with gzip.open(path, "rt", encoding="utf-8") as f:
             return json.load(f)
     with _spend_lock:
@@ -252,28 +256,31 @@ def case_features(detail, term, match, budget):
 # ---------------------------------------------------------------- harvest
 
 def argued_cases(term):
-    """Our case records with an argued date, keyed by docket slug."""
-    tdir = DATA / "cases" / str(term)
+    """Argued case records for a term, keyed by docket slug — decided cases
+    (data/cases) plus argued-but-undecided ones (data/docket), so the current
+    term's pending cases get questioning features the day their transcript
+    posts (the post-argument forecast stage feeds on this)."""
     out = {}
-    if not tdir.exists():
-        return out
-    for f in sorted(tdir.glob("*.yaml")):
-        case = yaml.safe_load(f.read_text(encoding="utf-8"))
-        docket = case.get("docket")
-        if docket and (case.get("dates") or {}).get("argued"):
-            out[docket_slug(str(docket))] = case["id"]
+    for root in (DATA / "cases" / str(term), DATA / "docket" / str(term)):
+        if not root.exists():
+            continue
+        for f in sorted(root.glob("*.yaml")):
+            case = yaml.safe_load(f.read_text(encoding="utf-8"))
+            docket = case.get("docket")
+            if docket and (case.get("dates") or {}).get("argued"):
+                out.setdefault(docket_slug(str(docket)), case["id"])
     return out
 
 
-def harvest_term(term, budget, verbose=False, workers=4):
+def harvest_term(term, budget, verbose=False, workers=4, fresh=False):
     out_path = ORAL / f"{term}.yaml"
     ours = argued_cases(term)
     if not ours:
-        print(f"term {term}: no argued cases in data/cases — skipped")
+        print(f"term {term}: no argued cases in data/cases or data/docket — skipped")
         return
     listing = fetch_json(
         f"https://api.oyez.org/cases?filter=term:{term}&per_page=300",
-        f"term-{term}", budget) or []
+        f"term-{term}", budget, fresh=fresh) or []
     stubs = {docket_slug((s.get("docket_number") or "").strip()): s
              for s in listing if s.get("docket_number") and s.get("href")}
     match = justice_matcher()
@@ -283,7 +290,7 @@ def harvest_term(term, budget, verbose=False, workers=4):
         stub = stubs.get(dslug)
         if not stub:
             return None
-        detail = fetch_json(stub["href"], f"case-{term}-{dslug}", budget)
+        detail = fetch_json(stub["href"], f"case-{term}-{dslug}", budget, fresh=fresh)
         if not detail:
             return None
         feats = case_features(detail, term, match, budget)
@@ -324,6 +331,10 @@ def harvest_term(term, budget, verbose=False, workers=4):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--terms", type=int, nargs=2, metavar=("FIRST", "LAST"))
+    ap.add_argument("--current", action="store_true",
+                    help="harvest the term in progress (and the next term's early "
+                         "arguments) with --refresh, so just-argued pending cases "
+                         "gain features as Oyez posts transcripts")
     ap.add_argument("--pilot", type=int, help="single term, verbose per-case report")
     ap.add_argument("--budget", type=int, default=2000,
                     help="max network requests this run (cached fetches free)")
@@ -335,10 +346,16 @@ def main():
 
     if args.pilot:
         terms = [args.pilot]
+    elif args.current:
+        import datetime
+        today = datetime.date.today()
+        current_ot = today.year if today.month >= 10 else today.year - 1
+        terms = [current_ot, current_ot + 1]
+        args.refresh = True  # transcripts accrue as cases get argued
     elif args.terms:
         terms = list(range(args.terms[0], args.terms[1] + 1))
     else:
-        ap.error("--terms FIRST LAST or --pilot TERM required")
+        ap.error("--terms FIRST LAST, --current, or --pilot TERM required")
 
     for term in terms:
         out_path = ORAL / f"{term}.yaml"
@@ -346,7 +363,7 @@ def main():
             continue  # term already harvested — resume granularity
         try:
             harvest_term(term, args.budget, verbose=bool(args.pilot),
-                         workers=args.workers)
+                         workers=args.workers, fresh=bool(args.current))
         except BudgetExhausted:
             print(f"request budget ({args.budget}) exhausted at term {term} — "
                   f"resume with the same command (cache makes re-entry free)")

@@ -92,6 +92,22 @@ export function forecasts() {
 }
 
 /** Granted/argued cases awaiting decision (data/docket/, written by pipeline.interim). */
+/** Post-argument stage forecasts (forecasts/<term>/post-argument/), by case id. */
+export function postArgumentForecasts() {
+  const root = path.join(DATA, "forecasts");
+  const out = new Map();
+  if (!fs.existsSync(root)) return out;
+  for (const t of fs.readdirSync(root).filter((d) => /^\d{4}$/.test(d))) {
+    const dir = path.join(root, t, "post-argument");
+    if (!fs.existsSync(dir)) continue;
+    for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".yaml"))) {
+      const fc = loadFresh(`forecasts/${t}/post-argument/${f}`);
+      out.set(fc.id, fc);
+    }
+  }
+  return out;
+}
+
 /** Per-justice oral-argument questioning counts for a term (data/oral/), or null. */
 export function oralForTerm(term) {
   const p = path.join(DATA, "oral", `${term}.yaml`);

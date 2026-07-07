@@ -24,7 +24,8 @@ import pandas as pd
 import yaml
 
 from .coalition import quadrature, split_distribution as coalition_split
-from .features import SHRINK_CAREER, SHRINK_ISSUE, SHRINK_RECENT, eb, load
+from .features import (ORAL_FEATURES, SHRINK_CAREER, SHRINK_ISSUE,
+                       SHRINK_RECENT, eb, load)
 from .report import fit_final_calibrator
 from .walkforward import PENDING_CONFIG, fit_predict, load_questions
 
@@ -45,6 +46,8 @@ CONFIGS = {
     "pending_config_lc": (["lc_direction"], False),
     "pending_config_lc_text": (["lc_direction"], True),
     "pending_config_lc_issue3t": (["lc_direction", "prior_issue_liberal_3t"], False),
+    "pending_config_lc_issue3t_oa": (
+        ["lc_direction", "prior_issue_liberal_3t"] + ORAL_FEATURES, False),
 }
 
 # The deployed configuration is PINNED to the walk-forward winner, never
@@ -66,6 +69,17 @@ CONFIGS = {
 # POST-ARGUMENT stage only (docs/postargument-gate.md; wiring pending).
 # Pending-case lc values hand-coded in pending_lc.yaml.
 DEPLOY_CONFIG = "pending_config_lc_issue3t"
+
+# The POST-ARGUMENT stage config (paper §6): argued pending cases with
+# transcript features re-register under data/forecasts/<term>/post-argument/,
+# separately timestamped and separately scored. Walk-forward gate result:
+# docs/postargument-gate.md (+1.72pp covered rows, +4pp 1980s–2010s, ~0 in
+# the seriatim-format 2020s — the live stage-2 track record adjudicates).
+STAGE2_CONFIG = "pending_config_lc_issue3t_oa"
+CALIBRATOR_FILES = {
+    "cert": "calibrators-pending.yaml",
+    "post-argument": "calibrators-postargument.yaml",
+}
 
 SITTING = ["JGRoberts", "CThomas", "SAAlito", "SSotomayor", "EKagan",
            "NMGorsuch", "BMKavanaugh", "ACBarrett", "KBJackson"]
@@ -209,74 +223,88 @@ def split_distribution(probs):
     return dist  # dist[k] = P(exactly k reverse votes)
 
 
+def oral_entries(terms):
+    """case_id -> data/oral questioning entry, across the given terms."""
+    out = {}
+    for term in sorted(set(terms)):
+        p = ROOT / "data" / "oral" / f"{term}.yaml"
+        if p.exists():
+            data = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+            out.update(data.get("cases") or {})
+    return out
+
+
+def attach_oral(X, oral_map):
+    """Set the five oa_* columns, mirroring features.merge_oral exactly:
+    per-justice values only for justices who spoke; bench-wide case
+    aggregates on every row of a covered case; NaN elsewhere."""
+    for col in ORAL_FEATURES:
+        X[col] = np.nan
+    for cid, entry in oral_map.items():
+        j = entry.get("justices") or {}
+        tp = sum(r.get("tp", 0) for r in j.values())
+        tr = sum(r.get("tr", 0) for r in j.values())
+        wp = sum(r.get("wp", 0) for r in j.values())
+        wr = sum(r.get("wr", 0) for r in j.values())
+        mask = X["caseId"] == cid
+        X.loc[mask, "oa_case_turn_diff"] = float(tp - tr)
+        if wp + wr:
+            X.loc[mask, "oa_case_word_share_pet"] = wp / (wp + wr)
+        for mn, r in j.items():
+            m2 = mask & (X["justiceName"] == mn)
+            X.loc[m2, "oa_turn_diff"] = float(r.get("tp", 0) - r.get("tr", 0))
+            X.loc[m2, "oa_turns_total"] = float(r.get("tp", 0) + r.get("tr", 0))
+            jw = r.get("wp", 0) + r.get("wr", 0)
+            if jw:
+                X.loc[m2, "oa_word_share_pet"] = r.get("wp", 0) / jw
+    return X
+
+
 def main():
     df = load()
     issue_map = yaml.safe_load(PENDING_ISSUES.read_text()) or {}
+    lc_map = yaml.safe_load(PENDING_LC.read_text()) if PENDING_LC.exists() else {}
 
-    pending = []
+    all_pending = []
     docket_root = ROOT / "data" / "docket"
     if docket_root.exists():
         for tdir in sorted(docket_root.iterdir()):
             if tdir.is_dir():
                 for f in sorted(tdir.glob("*.yaml")):
-                    pending.append(yaml.safe_load(f.read_text(encoding="utf-8")))
-    if not pending:
+                    all_pending.append(yaml.safe_load(f.read_text(encoding="utf-8")))
+    if not all_pending:
         print("no pending docket cases (run pipeline.interim to refresh); nothing to forecast")
         return
 
     today = datetime.date.today().isoformat()
-    frozen = [c for c in pending if frozen_at_argument(
+
+    # ---- cert stage: everything not yet argued (frozen files stay frozen)
+    frozen = [c for c in all_pending if frozen_at_argument(
         c, FORECASTS / str(c["term"]) / f"{c['id']}.yaml", today)]
     if frozen:
         print(f"cert-stage frozen at argument ({len(frozen)} not regenerated): "
               + ", ".join(c["id"] for c in frozen))
-        frozen_ids = {c["id"] for c in frozen}
-        pending = [c for c in pending if c["id"] not in frozen_ids]
-    if not pending:
-        print("all pending cases argued and frozen; nothing to forecast")
+    frozen_ids = {c["id"] for c in frozen}
+    cert_cases = [c for c in all_pending if c["id"] not in frozen_ids]
+
+    # ---- post-argument stage: argued cases whose transcript features exist
+    argued = [c for c in all_pending
+              if str((c.get("dates") or {}).get("argued") or "")
+              and str(c["dates"]["argued"]) <= today]
+    oral_map = oral_entries([c["term"] for c in argued]) if argued else {}
+    stage2_cases = [c for c in argued if c["id"] in oral_map]
+    awaiting_transcript = [c for c in argued if c["id"] not in oral_map]
+    if awaiting_transcript:
+        print(f"argued, awaiting transcript features (stage 2 deferred): "
+              + ", ".join(c["id"] for c in awaiting_transcript)
+              + "  [run pipeline.oral_args --current]")
+
+    if not cert_cases and not stage2_cases:
+        print("nothing to forecast at either stage")
         return
 
     last_term = int(df["term"].max())
-
-    extra_features, with_text = CONFIGS[DEPLOY_CONFIG]
-    if with_text:
-        df["question"] = df["caseId"].map(load_questions())
-    config_name = DEPLOY_CONFIG
-    lc_map = yaml.safe_load(PENDING_LC.read_text()) if PENDING_LC.exists() else {}
-    print(f"training final models on terms <= {last_term} "
-          f"({len(df):,} rows, config {config_name}); "
-          f"forecasting {len(pending)} pending cases")
-
-    calibs, preds = {}, {}
-    for target, label in (("reverse", "y_reverse"), ("liberal", "y_liberal")):
-        train = df.dropna(subset=[label]).copy()
-        train[label] = train[label].astype(float)
-        # calibrator fitted on THIS configuration's own out-of-sample
-        # predictions; committed step-function export as the cache-less fallback
-        wf_path = CACHE / f"predictions-{target}-{config_name}.pkl"
-        if wf_path.exists():
-            calibs[target] = fit_final_calibrator(pd.read_pickle(wf_path)).predict
-        else:
-            exported = yaml.safe_load(
-                (Path(__file__).resolve().parent / "calibrators-pending.yaml")
-                .read_text())[target]
-            xs, ys = np.array(exported["x"]), np.array(exported["y"])
-            calibs[target] = lambda p, xs=xs, ys=ys: np.interp(p, xs, ys)
-
-        profiles = justice_profiles(train, min(c["term"] for c in pending))
-        if target == "reverse":
-            lean_of = {jn: 2.0 * (0.5 - p["prior_liberal"])
-                       for jn, p in profiles.items()}
-        known_sources = set(df["case_source_cat"].dropna().unique()) - {-1.0, -2.0}
-        X_pending = pending_rows(profiles, pending, issue_map, lc_map,
-                                 source_codes=known_sources)
-        raw = fit_predict(train, X_pending, label,
-                          feature_subset=PENDING_CONFIG + extra_features,
-                          with_text=with_text)
-        X_pending[f"p_{target}"] = calibs[target](raw)
-        preds[target] = X_pending[["caseId", "justiceName", f"p_{target}"]]
-
-    merged = preds["reverse"].merge(preds["liberal"], on=["caseId", "justiceName"])
+    known_sources = set(df["case_source_cat"].dropna().unique()) - {-1.0, -2.0}
 
     # coalition-aware aggregation (validated: split log-loss 3.75 -> 2.06 vs
     # independence); falls back to independence if the params file is absent
@@ -290,35 +318,63 @@ def main():
         aggregation = "independence (Poisson-binomial)"
 
     generated = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    for case in pending:
-        g = merged[merged["caseId"] == case["id"]]
-        probs = g["p_reverse"].to_numpy()
-        if coalition:
-            lam0, lam1, nodes = coalition
-            s = np.array([lean_of.get(jn, 0.0) for jn in g["justiceName"]])
-            dist = coalition_split(probs, s, lam0, lam1, nodes)
-        else:
-            dist = split_distribution(probs)
-        need = len(probs) // 2 + 1
-        p_case = float(dist[need:].sum())
-        coded = issue_map.get(case["id"], {})
 
-        payload = {
-            "id": case["id"],
-            "name": case["name"],
-            "term": case["term"],
-            "generated": generated,
-            "stage": "cert",  # freezes at argument; post-argument re-registers separately
-            "model": {
-                "engine": "HistGradientBoosting, deployment-matched cert-stage "
-                          f"feature subset ({config_name}, walk-forward validated)",
-                "trained_through_term": last_term,
-                "calibration": "isotonic over the configuration's own 1956-2024 "
-                               "out-of-sample predictions",
-                "validated_vote_accuracy": "see models/output/report-reverse.md "
-                                           "§ deployment configuration",
-            },
-            "features": {
+    def run_stage(cases, config_name, stage):
+        """Train both targets on config_name, forecast `cases`, write files."""
+        extra_features, with_text = CONFIGS[config_name]
+        if with_text:
+            df["question"] = df["caseId"].map(load_questions())
+        subdir = "" if stage == "cert" else stage
+        print(f"\n[{stage}] training on terms <= {last_term} "
+              f"({len(df):,} rows, config {config_name}); "
+              f"forecasting {len(cases)} case(s)")
+
+        calibs, preds, lean_of = {}, {}, {}
+        for target, label in (("reverse", "y_reverse"), ("liberal", "y_liberal")):
+            train = df.dropna(subset=[label]).copy()
+            train[label] = train[label].astype(float)
+            # calibrator fitted on THIS configuration's own out-of-sample
+            # predictions; committed step-function export as the fallback
+            wf_path = CACHE / f"predictions-{target}-{config_name}.pkl"
+            if wf_path.exists():
+                calibs[target] = fit_final_calibrator(pd.read_pickle(wf_path)).predict
+            else:
+                exported = yaml.safe_load(
+                    (Path(__file__).resolve().parent / CALIBRATOR_FILES[stage])
+                    .read_text())[target]
+                xs, ys = np.array(exported["x"]), np.array(exported["y"])
+                calibs[target] = lambda p, xs=xs, ys=ys: np.interp(p, xs, ys)
+
+            profiles = justice_profiles(train, min(c["term"] for c in cases))
+            if target == "reverse":
+                lean_of.update({jn: 2.0 * (0.5 - p["prior_liberal"])
+                                for jn, p in profiles.items()})
+            X_pending = pending_rows(profiles, cases, issue_map, lc_map,
+                                     source_codes=known_sources)
+            if stage != "cert":
+                X_pending = attach_oral(X_pending, oral_map)
+            raw = fit_predict(train, X_pending, label,
+                              feature_subset=PENDING_CONFIG + extra_features,
+                              with_text=with_text)
+            X_pending[f"p_{target}"] = calibs[target](raw)
+            preds[target] = X_pending[["caseId", "justiceName", f"p_{target}"]]
+
+        merged = preds["reverse"].merge(preds["liberal"], on=["caseId", "justiceName"])
+
+        for case in cases:
+            g = merged[merged["caseId"] == case["id"]]
+            probs = g["p_reverse"].to_numpy()
+            if coalition:
+                lam0, lam1, nodes = coalition
+                s = np.array([lean_of.get(jn, 0.0) for jn in g["justiceName"]])
+                dist = coalition_split(probs, s, lam0, lam1, nodes)
+            else:
+                dist = split_distribution(probs)
+            need = len(probs) // 2 + 1
+            p_case = float(dist[need:].sum())
+            coded = issue_map.get(case["id"], {})
+
+            features = {
                 "issue_area": coded.get("issue_area"),
                 "issue_area_basis": coded.get("basis", "not coded (missing)"),
                 "lc_direction": (lc_map.get(case["id"]) or {}).get("lc_direction"),
@@ -328,35 +384,72 @@ def main():
                 "argued": (case.get("dates") or {}).get("argued"),
                 "note": "lower-court direction, parties, and law type unknown pre-SCDB "
                         "coding; model uses native missing-value handling",
-            },
-            "prediction": {
-                "p_reverse": round(p_case, 3),
-                "aggregation": aggregation,
-                "expected_reverse_votes": round(float(probs.sum()), 2),
-                "reverse_vote_distribution": {
-                    f"{k}-{len(probs) - k}": round(float(dist[k]), 3)
-                    for k in range(len(probs), -1, -1) if dist[k] >= 0.005},
-            },
-            "votes": [
-                {"justice": r.justiceName,
-                 "p_reverse": round(float(r.p_reverse), 3),
-                 "p_liberal": round(float(r.p_liberal), 3)}
-                for r in g.itertuples()
-            ],
-        }
-        tdir = FORECASTS / str(case["term"])
-        tdir.mkdir(parents=True, exist_ok=True)
-        with open(tdir / f"{case['id']}.yaml", "w", encoding="utf-8") as f:
-            yaml.safe_dump(payload, f, sort_keys=False, width=100)
+            }
+            if stage != "cert":
+                entry = oral_map.get(case["id"]) or {}
+                j = entry.get("justices") or {}
+                features["oral_argument"] = {
+                    "sessions": entry.get("sessions"),
+                    "bench_turns_to_petitioner": sum(r.get("tp", 0) for r in j.values()),
+                    "bench_turns_to_respondent": sum(r.get("tr", 0) for r in j.values()),
+                    "justices_with_turns": len(j),
+                    **({"side_basis": entry["side_basis"]}
+                       if entry.get("side_basis") else {}),
+                }
 
-    print(f"\n{'case':<44} {'p(reverse)':>10} {'E[rev votes]':>12}")
-    for case in pending:
-        g = merged[merged["caseId"] == case["id"]]
-        probs = g["p_reverse"].to_numpy()
-        dist = split_distribution(probs)
-        p_case = float(dist[len(probs) // 2 + 1:].sum())
-        print(f"{case['name'][:43]:<44} {p_case:>10.2f} {probs.sum():>12.1f}")
-    print(f"\nwrote {len(pending)} forecasts -> data/forecasts/")
+            payload = {
+                "id": case["id"],
+                "name": case["name"],
+                "term": case["term"],
+                "generated": generated,
+                "stage": stage,
+                "model": {
+                    "engine": "HistGradientBoosting, deployment-matched "
+                              f"feature subset ({config_name}, walk-forward validated)",
+                    "trained_through_term": last_term,
+                    "calibration": "isotonic over the configuration's own 1956-2024 "
+                                   "out-of-sample predictions",
+                    "validated_vote_accuracy": "see models/output/report-reverse.md "
+                                               "§ deployment configuration"
+                                               if stage == "cert"
+                                               else "see docs/postargument-gate.md",
+                },
+                "features": features,
+                "prediction": {
+                    "p_reverse": round(p_case, 3),
+                    "aggregation": aggregation,
+                    "expected_reverse_votes": round(float(probs.sum()), 2),
+                    "reverse_vote_distribution": {
+                        f"{k}-{len(probs) - k}": round(float(dist[k]), 3)
+                        for k in range(len(probs), -1, -1) if dist[k] >= 0.005},
+                },
+                "votes": [
+                    {"justice": r.justiceName,
+                     "p_reverse": round(float(r.p_reverse), 3),
+                     "p_liberal": round(float(r.p_liberal), 3)}
+                    for r in g.itertuples()
+                ],
+            }
+            tdir = FORECASTS / str(case["term"]) / subdir if subdir \
+                else FORECASTS / str(case["term"])
+            tdir.mkdir(parents=True, exist_ok=True)
+            with open(tdir / f"{case['id']}.yaml", "w", encoding="utf-8") as f:
+                yaml.safe_dump(payload, f, sort_keys=False, width=100)
+
+        print(f"{'case':<44} {'p(reverse)':>10} {'E[rev votes]':>12}")
+        for case in cases:
+            g = merged[merged["caseId"] == case["id"]]
+            probs = g["p_reverse"].to_numpy()
+            dist = split_distribution(probs)
+            p_case = float(dist[len(probs) // 2 + 1:].sum())
+            print(f"{case['name'][:43]:<44} {p_case:>10.2f} {probs.sum():>12.1f}")
+        print(f"wrote {len(cases)} {stage} forecast(s) -> "
+              f"data/forecasts/**/{subdir or '.'}")
+
+    if cert_cases:
+        run_stage(cert_cases, DEPLOY_CONFIG, "cert")
+    if stage2_cases:
+        run_stage(stage2_cases, STAGE2_CONFIG, "post-argument")
 
 
 if __name__ == "__main__":
