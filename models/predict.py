@@ -24,8 +24,8 @@ import pandas as pd
 import yaml
 
 from .coalition import quadrature, split_distribution as coalition_split
-from .features import (ORAL_FEATURES, SHRINK_CAREER, SHRINK_ISSUE,
-                       SHRINK_RECENT, eb, load)
+from .features import (ORAL2_FEATURES, ORAL_FEATURES, SG_FEATURES,
+                       SHRINK_CAREER, SHRINK_ISSUE, SHRINK_RECENT, eb, load)
 from .report import fit_final_calibrator
 from .walkforward import PENDING_CONFIG, fit_predict, load_questions
 
@@ -48,6 +48,9 @@ CONFIGS = {
     "pending_config_lc_issue3t": (["lc_direction", "prior_issue_liberal_3t"], False),
     "pending_config_lc_issue3t_oa": (
         ["lc_direction", "prior_issue_liberal_3t"] + ORAL_FEATURES, False),
+    "pending_config_lc_issue3t_sg_oa2": (
+        ["lc_direction", "prior_issue_liberal_3t"]
+        + SG_FEATURES + ORAL2_FEATURES, False),
 }
 
 # The deployed configuration is PINNED to the walk-forward winner, never
@@ -72,10 +75,16 @@ DEPLOY_CONFIG = "pending_config_lc_issue3t"
 
 # The POST-ARGUMENT stage config (paper §6): argued pending cases with
 # transcript features re-register under data/forecasts/<term>/post-argument/,
-# separately timestamped and separately scored. Walk-forward gate result:
-# docs/postargument-gate.md (+1.72pp covered rows, +4pp 1980s–2010s, ~0 in
-# the seriatim-format 2020s — the live stage-2 track record adjudicates).
-STAGE2_CONFIG = "pending_config_lc_issue3t_oa"
+# separately timestamped and separately scored. History: turn-based oa
+# ADOPTED 2026-07-06 (+1.72pp covered; docs/postargument-gate.md), then
+# SUPERSEDED 2026-07-07 by sg_oa2 — word-centric questioning (seriatim-
+# robust) + within-justice share baseline + SG-as-amicus side: reverse
+# 69.61%/Brier 0.1997/AUC 0.7232 overall; +5.2pp on SG-covered rows
+# (McNemar p~8e-17; the SG-supported side reverses 75.8% vs 42.3%); 2020s
+# covered slice 68.6% -> 72.5%, Brier 0.2045 -> 0.1872 — the seriatim
+# format problem is solved. The turn-feature union tested and not taken
+# (liberal profile worse; parsimony).
+STAGE2_CONFIG = "pending_config_lc_issue3t_sg_oa2"
 CALIBRATOR_FILES = {
     "cert": "calibrators-pending.yaml",
     "post-argument": "calibrators-postargument.yaml",
@@ -234,12 +243,31 @@ def oral_entries(terms):
     return out
 
 
-def attach_oral(X, oral_map):
-    """Set the five oa_* columns, mirroring features.merge_oral exactly:
-    per-justice values only for justices who spoke; bench-wide case
-    aggregates on every row of a covered case; NaN elsewhere."""
-    for col in ORAL_FEATURES:
+def share_baselines(df, pending_term):
+    """Per-justice lagged mean word-share toward the petitioner (last 3 terms
+    strictly before pending_term, EB-shrunk toward the prior-history mean) —
+    the deploy-time counterpart of the oa_share_base column features.build
+    computes with _last3_lagged. All nine sitting justices have full recent
+    coverage, so the shrink barely binds."""
+    hist = df[df["term"] < pending_term]
+    covered = hist["oa_word_share_pet"].dropna()
+    g = float(covered.mean()) if len(covered) else 0.5
+    last3 = hist[hist["term"] >= hist["term"].max() - 2]
+    out = {}
+    for jn in SITTING:
+        v = last3.loc[last3["justiceName"] == jn, "oa_word_share_pet"].dropna()
+        out[jn] = float(eb(v.sum(), len(v), g, SHRINK_RECENT))
+    return out
+
+
+def attach_oral(X, oral_map, bases=None):
+    """Set the stage-2 questioning columns, mirroring features.merge_oral and
+    the oa_share_vs_base construction exactly: per-justice values only for
+    justices who spoke; case-level values (bench aggregates, SG side) on
+    every row of a covered case; NaN elsewhere."""
+    for col in set(ORAL_FEATURES + ORAL2_FEATURES + SG_FEATURES):
         X[col] = np.nan
+    bases = bases or {}
     for cid, entry in oral_map.items():
         j = entry.get("justices") or {}
         tp = sum(r.get("tp", 0) for r in j.values())
@@ -248,15 +276,23 @@ def attach_oral(X, oral_map):
         wr = sum(r.get("wr", 0) for r in j.values())
         mask = X["caseId"] == cid
         X.loc[mask, "oa_case_turn_diff"] = float(tp - tr)
+        X.loc[mask, "oa_case_word_diff"] = float(wp - wr)
         if wp + wr:
             X.loc[mask, "oa_case_word_share_pet"] = wp / (wp + wr)
+        sg = {"pet": 1.0, "resp": 2.0}.get(entry.get("sg_amicus"))
+        if sg:
+            X.loc[mask, "sg_amicus"] = sg
         for mn, r in j.items():
             m2 = mask & (X["justiceName"] == mn)
             X.loc[m2, "oa_turn_diff"] = float(r.get("tp", 0) - r.get("tr", 0))
+            X.loc[m2, "oa_word_diff"] = float(r.get("wp", 0) - r.get("wr", 0))
             X.loc[m2, "oa_turns_total"] = float(r.get("tp", 0) + r.get("tr", 0))
             jw = r.get("wp", 0) + r.get("wr", 0)
             if jw:
-                X.loc[m2, "oa_word_share_pet"] = r.get("wp", 0) / jw
+                share = r.get("wp", 0) / jw
+                X.loc[m2, "oa_word_share_pet"] = share
+                if mn in bases:
+                    X.loc[m2, "oa_share_vs_base"] = share - bases[mn]
     return X
 
 
@@ -352,7 +388,9 @@ def main():
             X_pending = pending_rows(profiles, cases, issue_map, lc_map,
                                      source_codes=known_sources)
             if stage != "cert":
-                X_pending = attach_oral(X_pending, oral_map)
+                X_pending = attach_oral(
+                    X_pending, oral_map,
+                    bases=share_baselines(df, min(c["term"] for c in cases)))
             raw = fit_predict(train, X_pending, label,
                               feature_subset=PENDING_CONFIG + extra_features,
                               with_text=with_text)
@@ -392,7 +430,11 @@ def main():
                     "sessions": entry.get("sessions"),
                     "bench_turns_to_petitioner": sum(r.get("tp", 0) for r in j.values()),
                     "bench_turns_to_respondent": sum(r.get("tr", 0) for r in j.values()),
+                    "bench_words_to_petitioner": sum(r.get("wp", 0) for r in j.values()),
+                    "bench_words_to_respondent": sum(r.get("wr", 0) for r in j.values()),
                     "justices_with_turns": len(j),
+                    **({"sg_amicus_supports": entry["sg_amicus"]}
+                       if entry.get("sg_amicus") else {}),
                     **({"side_basis": entry["side_basis"]}
                        if entry.get("side_basis") else {}),
                 }

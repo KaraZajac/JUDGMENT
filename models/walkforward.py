@@ -214,6 +214,11 @@ def fit_predict(train, test, target, feature_subset=None, with_text=False):
     # (e.g. prior_issue_liberal_3t) can be tested without changing the base config
     nums = (list(NUM_FEATURES) if feature_subset is None
             else [c for c in feature_subset if c not in CAT_FEATURES])
+    # sparse-history variants (e.g. SG-amicus starts in the 1960s) can be
+    # all-NaN in an early training window — sklearn's binner crashes on an
+    # all-NaN column, so such features simply sit out those steps
+    nums = [c for c in nums if train[c].notna().any()]
+    cats = [c for c in cats if train[c].notna().any()]
     X_train = train[cats + nums].copy()
     X_test = test[cats + nums].copy()
     for c in cats:
@@ -389,6 +394,7 @@ def main():
                   + (["lc_disagreement"] if args.lcdis else [])
                   + (SG_FEATURES if args.sg else [])
                   + (ORAL2_FEATURES if args.oral2 else []))
+        subset = list(dict.fromkeys(subset))  # oa and oa2 share two columns
         tag = ("pending_config" + ("_lc" if args.lc else "")
                + ("_issue3t" if args.issue3t else "")
                + ("_oa" if args.oral else "")
