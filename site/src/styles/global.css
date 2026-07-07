@@ -49,6 +49,11 @@ a:hover { text-decoration: underline; }
 
 .wrap { max-width: 1060px; margin: 0 auto; padding: 0 20px; }
 
+/* wide content (tables, charts) scrolls inside its own container — the page
+   itself never pans sideways on small screens */
+body { overflow-x: clip; }
+details.tableview { overflow-x: auto; }
+
 /* header / footer */
 .site-head {
   border-bottom: 1px solid var(--border);
@@ -60,9 +65,15 @@ a:hover { text-decoration: underline; }
 }
 .brand { font-weight: 750; letter-spacing: 0.04em; color: var(--ink); font-size: 16px; }
 .brand:hover { text-decoration: none; }
-.site-nav { display: flex; gap: 16px; font-size: 14px; }
+.site-nav { display: flex; gap: 16px; font-size: 14px; flex-wrap: wrap; row-gap: 4px; }
 .site-nav a { color: var(--ink-2); }
 .site-nav a[aria-current="true"] { color: var(--ink); font-weight: 600; }
+@media (max-width: 520px) {
+  .site-head .wrap { flex-wrap: wrap; row-gap: 2px; gap: 12px; }
+  .site-nav { gap: 6px 12px; }
+  h1 { font-size: 22px; }
+  .vote-row .who { min-width: 0; }
+}
 .site-foot {
   margin-top: 56px; padding: 22px 0 40px;
   border-top: 1px solid var(--border);

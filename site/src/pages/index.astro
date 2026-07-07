@@ -74,6 +74,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
       <p class="lede" style="margin-bottom:10px">
         The newest rulings in the dataset{latestTerm > lastTerm ? " — provisional records until the next SCDB release" : ""}.
       </p>
+      <div class="viz-scroll">
       <table class="data">
         <thead>
           <tr><th>Decided</th><th>Case</th><th class="n">Vote</th><th>Majority opinion</th></tr>
@@ -100,6 +101,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
           })}
         </tbody>
       </table>
+      </div>
       <p style="font-size:13px; margin-top:8px">
         <a href={url(`/terms/${latestTerm}`)}>All {latestTerm} term cases →</a>
       </p>
@@ -114,6 +116,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
         and awaiting argument. Forecasts are calibrated reverse probabilities from the
         walk-forward-validated engine — <a href={url("/predict")}>full per-justice predictions →</a>
       </p>
+      <div class="viz-scroll">
       <table class="data">
         <thead>
           <tr><th>Case</th><th class="n">Forecast</th><th class="n">Status</th></tr>
@@ -146,6 +149,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
           })}
         </tbody>
       </table>
+      </div>
     </>
   )}
 

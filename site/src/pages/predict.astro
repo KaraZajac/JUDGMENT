@@ -95,6 +95,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
           <StatTile label="Justice-vote accuracy" value={pct(card.summary.justice_vote_accuracy, 1)} sub={`${card.summary.justice_votes_scored} votes scored`} />
         )}
       </div>
+      <div class="viz-scroll">
       <table class="data">
         <thead>
           <tr><th>Case</th><th class="n">Forecast</th><th>Outcome</th><th>Scored</th><th>Basis</th></tr>
@@ -111,6 +112,7 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
           ))}
         </tbody>
       </table>
+      </div>
     </>
   ) : (
     <p class="lede">
