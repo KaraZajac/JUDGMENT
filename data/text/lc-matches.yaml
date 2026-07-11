@@ -1,14 +1,15 @@
-generated: '2026-07-10T13:44:14Z'
+generated: '2026-07-11T12:08:49Z'
 terms:
 - 2017
 - 2024
 status_counts:
-  ok: 28
+  ok: 22
   unresolvable: 8
   no-text: 1
-  docket-no-cluster: 5
+  docket-no-cluster: 3
   no-scotus-docket: 1
   no-lower-court: 1
+  fetch-error: 10
 matches:
   2017-001:
     cluster: 3132501
@@ -184,3 +185,9 @@ matches:
     lower_court: United States Court of Appeals for the Second Circuit
     chars: 85153
     lc_direction_label: 2
+  2017-049:
+    cluster: 4371552
+    how: docket:ca11/15-10550
+    lower_court: United States Court of Appeals for the Eleventh Circuit
+    chars: 25133
+    lc_direction_label: 1
