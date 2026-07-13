@@ -17,6 +17,19 @@ const current = (p) =>
     <meta name="color-scheme" content="light dark" />
     {description && <meta name="description" content={description} />}
     <title>{title} · JUDGMENT</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={`${title} · JUDGMENT`} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site ?? "https://judgment.karazajac.io")} />
+    <meta property="og:image" content={new URL("/og.png", Astro.site ?? "https://judgment.karazajac.io")} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`${title} · JUDGMENT`} />
+    {description && <meta name="twitter:description" content={description} />}
+    <meta name="twitter:image" content={new URL("/og.png", Astro.site ?? "https://judgment.karazajac.io")} />
+
     <script is:inline src={url("/tooltip.js")} defer></script>
   </head>
   <body>
