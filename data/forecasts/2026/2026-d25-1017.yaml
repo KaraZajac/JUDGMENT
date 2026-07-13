@@ -1,11 +1,11 @@
 id: 2026-d25-1017
 name: Republican National Committee v. Mi Familia Vota
 term: 2026
-generated: '2026-07-06T20:51:33Z'
+generated: '2026-07-13T15:47:52Z'
 stage: cert
 model:
-  engine: HistGradientBoosting, deployment-matched cert-stage feature subset (pending_config_lc_issue3t,
-    walk-forward validated)
+  engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t, walk-forward
+    validated)
   trained_through_term: 2024
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
