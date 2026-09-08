@@ -1,14 +1,13 @@
-generated: '2026-09-07T16:35:48Z'
+generated: '2026-09-08T14:55:09Z'
 terms:
 - 2017
 - 2024
 status_counts:
-  ok: 28
-  unresolvable: 8
-  no-text: 1
-  docket-no-cluster: 5
-  no-scotus-docket: 1
+  fetch-error: 34
+  unresolvable: 11
+  no-scotus-docket: 2
   no-lower-court: 1
+  ok: 9
 matches:
   2017-001:
     cluster: 3132501
@@ -219,4 +218,16 @@ matches:
     how: docket:ca9/14-15059
     lower_court: United States Court of Appeals for the Ninth Circuit
     chars: 1087
+    lc_direction_label: 2
+  2017-057:
+    cluster: 4389719
+    how: docket:ca7/16-3300
+    lower_court: United States Court of Appeals for the Seventh Circuit
+    chars: 22276
+    lc_direction_label: 2
+  2017-060:
+    cluster: 4348991
+    how: docket:ca11/16-11911
+    lower_court: United States Court of Appeals for the Eleventh Circuit
+    chars: 29902
     lc_direction_label: 2
