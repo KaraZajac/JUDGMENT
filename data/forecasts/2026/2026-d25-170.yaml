@@ -1,12 +1,12 @@
 id: 2026-d25-170
 name: Suncor Energy (U.S.A.) Inc. v. County Commissioners of Boulder County
 term: 2026
-generated: '2026-08-31T19:30:34Z'
+generated: '2026-09-14T18:29:37Z'
 stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t, walk-forward
     validated)
-  trained_through_term: 2024
+  trained_through_term: 2025
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
@@ -20,45 +20,45 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.679
+  p_reverse: 0.791
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 5.87
+  expected_reverse_votes: 6.72
   reverse_vote_distribution:
-    9-0: 0.31
-    8-1: 0.122
-    7-2: 0.104
-    6-3: 0.085
-    5-4: 0.058
-    4-5: 0.059
-    3-6: 0.06
-    2-7: 0.053
-    1-8: 0.055
-    0-9: 0.095
+    9-0: 0.419
+    8-1: 0.14
+    7-2: 0.089
+    6-3: 0.077
+    5-4: 0.066
+    4-5: 0.048
+    3-6: 0.036
+    2-7: 0.037
+    1-8: 0.039
+    0-9: 0.049
 votes:
 - justice: JGRoberts
-  p_reverse: 0.693
-  p_liberal: 0.229
+  p_reverse: 0.819
+  p_liberal: 0.19
 - justice: CThomas
-  p_reverse: 0.693
-  p_liberal: 0.202
+  p_reverse: 0.763
+  p_liberal: 0.198
 - justice: SAAlito
-  p_reverse: 0.688
+  p_reverse: 0.772
   p_liberal: 0.19
 - justice: SSotomayor
-  p_reverse: 0.528
-  p_liberal: 0.423
-- justice: EKagan
-  p_reverse: 0.55
-  p_liberal: 0.387
-- justice: NMGorsuch
   p_reverse: 0.693
+  p_liberal: 0.356
+- justice: EKagan
+  p_reverse: 0.676
+  p_liberal: 0.407
+- justice: NMGorsuch
+  p_reverse: 0.717
   p_liberal: 0.202
 - justice: BMKavanaugh
-  p_reverse: 0.754
-  p_liberal: 0.141
-- justice: ACBarrett
-  p_reverse: 0.717
+  p_reverse: 0.829
   p_liberal: 0.185
+- justice: ACBarrett
+  p_reverse: 0.851
+  p_liberal: 0.202
 - justice: KBJackson
-  p_reverse: 0.55
-  p_liberal: 0.443
+  p_reverse: 0.598
+  p_liberal: 0.407

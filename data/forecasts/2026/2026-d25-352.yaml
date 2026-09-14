@@ -1,12 +1,12 @@
 id: 2026-d25-352
 name: Younge v. Fulton Judicial Circuit District Attorney's Office, Georgia
 term: 2026
-generated: '2026-08-31T19:30:34Z'
+generated: '2026-09-14T18:29:37Z'
 stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t, walk-forward
     validated)
-  trained_through_term: 2024
+  trained_through_term: 2025
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
@@ -19,45 +19,45 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.824
+  p_reverse: 0.705
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 7.07
+  expected_reverse_votes: 6.14
   reverse_vote_distribution:
-    9-0: 0.503
-    8-1: 0.123
-    7-2: 0.078
-    6-3: 0.069
-    5-4: 0.051
-    4-5: 0.035
-    3-6: 0.032
-    2-7: 0.035
-    1-8: 0.033
-    0-9: 0.041
+    9-0: 0.353
+    8-1: 0.13
+    7-2: 0.097
+    6-3: 0.068
+    5-4: 0.058
+    4-5: 0.061
+    3-6: 0.055
+    2-7: 0.045
+    1-8: 0.051
+    0-9: 0.082
 votes:
 - justice: JGRoberts
-  p_reverse: 0.829
-  p_liberal: 0.58
+  p_reverse: 0.717
+  p_liberal: 0.812
 - justice: CThomas
-  p_reverse: 0.754
-  p_liberal: 0.549
+  p_reverse: 0.655
+  p_liberal: 0.718
 - justice: SAAlito
-  p_reverse: 0.772
-  p_liberal: 0.57
+  p_reverse: 0.737
+  p_liberal: 0.784
 - justice: SSotomayor
-  p_reverse: 0.754
-  p_liberal: 0.653
+  p_reverse: 0.598
+  p_liberal: 0.812
 - justice: EKagan
-  p_reverse: 0.763
-  p_liberal: 0.594
+  p_reverse: 0.655
+  p_liberal: 0.863
 - justice: NMGorsuch
-  p_reverse: 0.773
-  p_liberal: 0.549
+  p_reverse: 0.676
+  p_liberal: 0.74
 - justice: BMKavanaugh
-  p_reverse: 0.829
-  p_liberal: 0.549
+  p_reverse: 0.752
+  p_liberal: 0.748
 - justice: ACBarrett
-  p_reverse: 0.819
-  p_liberal: 0.653
+  p_reverse: 0.754
+  p_liberal: 0.812
 - justice: KBJackson
-  p_reverse: 0.772
-  p_liberal: 0.653
+  p_reverse: 0.598
+  p_liberal: 0.812

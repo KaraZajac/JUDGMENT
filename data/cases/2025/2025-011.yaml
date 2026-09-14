@@ -1,0 +1,86 @@
+id: 2025-011
+name: VILLARREAL v. TEXAS
+term: 2025
+chief: Roberts
+natural_court: 1710
+docket: 24-557
+citation:
+  us: 607 U.S. 465
+  sct: 146 S. Ct. 756
+  led: 224 L. Ed. 2d 247
+  lexis: 2026 U.S. LEXIS 1103
+dates:
+  argued: '2025-10-06'
+  decided: '2026-02-25'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 9
+  minority_votes: 0
+issue: {code: 10120, area: criminal-procedure}
+law:
+  type: constitutional-amendment
+  supp: 214
+authority:
+- judicial-review-state
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-and-state-confusion
+lower_court:
+  origin: {code: 302, state: 51}
+  source: {code: 300, state: 51}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 137}
+  respondent: {code: 28}
+  respondent_state: {code: 51}
+opinions:
+  majority_author: KBJackson
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: special-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: NMGorsuch
+  vote: special-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - CThomas
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: KBJackson
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true

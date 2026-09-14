@@ -1,0 +1,85 @@
+id: 2025-038
+name: HAVANA DOCKS CORPORATION v. ROYAL CARIBBEAN CRUISES, LTD.
+term: 2025
+chief: Roberts
+natural_court: 1710
+docket: 24-983
+citation:
+  sct: 146 S. Ct. 1233
+  led: 224 L. Ed. 2d 740
+  lexis: 2026 U.S. LEXIS 2205
+dates:
+  argued: '2026-02-23'
+  decided: '2026-05-21'
+decision:
+  type: opinion-of-the-court
+  disposition: vacated-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 8
+  minority_votes: 1
+issue: {code: 80060, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 22 U.S.C.S. § 6021
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 58}
+  source: {code: 31}
+  disposition: reversed
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 122}
+  respondent: {code: 122}
+opinions:
+  majority_author: CThomas
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: regular-concurrence
+  direction: conservative
+  in_majority: true
+  joined:
+  - SSotomayor
+- justice: ACBarrett
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: KBJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

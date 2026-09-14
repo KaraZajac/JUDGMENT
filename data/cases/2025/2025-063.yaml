@@ -1,0 +1,85 @@
+id: 2025-063
+name: ZORN v. LINTON
+term: 2025
+chief: Roberts
+natural_court: 1710
+docket: 25-297
+citation:
+  us: 607 U.S. 568
+  sct: 146 S. Ct. 926
+  led: 224 L. Ed. 2d 400
+  lexis: 2026 U.S. LEXIS 1471
+dates:
+  decided: '2026-03-23'
+decision:
+  type: per-curiam-no-argument
+  disposition: reversed
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 20400, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 42 U. S. C. §1983
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 124}
+  source: {code: 22}
+  disposition: reversed-and-remanded
+  direction: liberal
+  disagreement: true
+parties:
+  petitioner: {code: 8}
+  petitioner_state: {code: 53}
+  respondent: {code: 218}
+opinions:
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: KBJackson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor

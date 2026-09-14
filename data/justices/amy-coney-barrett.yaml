@@ -15,33 +15,34 @@ bio:
   - Notre Dame Law School professor
 record:
   first_decision: '2020-11-02'
-  last_decision: '2025-06-30'
+  last_decision: '2026-06-30'
   first_term: 2020
-  last_term: 2024
-  terms: 5
-  cases: 311
-  majority_share: 0.912
-  dissents: 26
-  opinions_written: 63
+  last_term: 2025
+  terms: 6
+  cases: 377
+  majority_share: 0.914
+  dissents: 31
+  opinions_written: 77
 ideology:
-  career_liberal_share: 0.401
+  career_liberal_share: 0.414
   by_term:
     2020: {liberal_share: 0.3, n: 50}
     2021: {liberal_share: 0.267, n: 60}
     2022: {liberal_share: 0.436, n: 55}
     2023: {liberal_share: 0.544, n: 57}
     2024: {liberal_share: 0.45, n: 60}
+    2025: {liberal_share: 0.47, n: 66}
   by_issue_area:
     attorneys: {liberal_share: 0.0, n: 1}
-    civil-rights: {liberal_share: 0.365, n: 52}
-    criminal-procedure: {liberal_share: 0.383, n: 60}
-    due-process: {liberal_share: 0.333, n: 12}
-    economic-activity: {liberal_share: 0.4, n: 70}
+    civil-rights: {liberal_share: 0.344, n: 61}
+    criminal-procedure: {liberal_share: 0.375, n: 80}
+    due-process: {liberal_share: 0.385, n: 13}
+    economic-activity: {liberal_share: 0.424, n: 85}
     federal-taxation: {liberal_share: 0.714, n: 7}
-    federalism: {liberal_share: 0.167, n: 6}
-    first-amendment: {liberal_share: 0.476, n: 21}
-    judicial-power: {liberal_share: 0.364, n: 33}
-    miscellaneous: {liberal_share: 0.667, n: 3}
+    federalism: {liberal_share: 0.222, n: 9}
+    first-amendment: {liberal_share: 0.5, n: 24}
+    judicial-power: {liberal_share: 0.435, n: 46}
+    miscellaneous: {liberal_share: 0.8, n: 5}
     privacy: {liberal_share: 0.4, n: 5}
     private-action: {liberal_share: 1.0, n: 1}
     unions: {liberal_share: 0.545, n: 11}
@@ -54,23 +55,27 @@ ideology:
       2022: {liberal_share: 0.5, n: 12}
       2023: {liberal_share: 0.6, n: 10}
       2024: {liberal_share: 0.25, n: 8}
+      2025: {liberal_share: 0.222, n: 9}
     criminal-procedure:
       2020: {liberal_share: 0.231, n: 13}
       2021: {liberal_share: 0.308, n: 13}
       2022: {liberal_share: 0.556, n: 9}
       2023: {liberal_share: 0.462, n: 13}
       2024: {liberal_share: 0.417, n: 12}
+      2025: {liberal_share: 0.35, n: 20}
     due-process:
       2020: {liberal_share: 0.25, n: 4}
       2022: {liberal_share: 0.5, n: 2}
       2023: {liberal_share: 0.0, n: 3}
       2024: {liberal_share: 0.667, n: 3}
+      2025: {liberal_share: 1.0, n: 1}
     economic-activity:
       2020: {liberal_share: 0.273, n: 11}
       2021: {liberal_share: 0.091, n: 11}
       2022: {liberal_share: 0.368, n: 19}
       2023: {liberal_share: 0.5, n: 12}
       2024: {liberal_share: 0.647, n: 17}
+      2025: {liberal_share: 0.533, n: 15}
     federal-taxation:
       2020: {liberal_share: 0.0, n: 1}
       2021: {liberal_share: 0.0, n: 1}
@@ -81,22 +86,26 @@ ideology:
       2021: {liberal_share: 0.25, n: 4}
       2022: {liberal_share: 0.0, n: 1}
       2023: {liberal_share: 0.0, n: 1}
+      2025: {liberal_share: 0.333, n: 3}
     first-amendment:
       2020: {liberal_share: 1.0, n: 2}
       2021: {liberal_share: 0.429, n: 7}
       2022: {liberal_share: 0.0, n: 2}
       2023: {liberal_share: 0.667, n: 6}
       2024: {liberal_share: 0.25, n: 4}
+      2025: {liberal_share: 0.667, n: 3}
     judicial-power:
       2020: {liberal_share: 0.375, n: 8}
       2021: {liberal_share: 0.25, n: 4}
       2022: {liberal_share: 0.25, n: 4}
       2023: {liberal_share: 0.5, n: 4}
       2024: {liberal_share: 0.385, n: 13}
+      2025: {liberal_share: 0.615, n: 13}
     miscellaneous:
       2020: {liberal_share: 1.0, n: 1}
       2022: {liberal_share: 0.0, n: 1}
       2023: {liberal_share: 1.0, n: 1}
+      2025: {liberal_share: 1.0, n: 2}
     privacy:
       2020: {liberal_share: 0.0, n: 1}
       2021: {liberal_share: 0.0, n: 2}

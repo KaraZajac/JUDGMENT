@@ -1,12 +1,12 @@
 id: 2026-d25-748
 name: McCarthy v. Hernandez
 term: 2026
-generated: '2026-08-31T19:30:34Z'
+generated: '2026-09-14T18:29:37Z'
 stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t, walk-forward
     validated)
-  trained_through_term: 2024
+  trained_through_term: 2025
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
@@ -20,45 +20,45 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.79
+  p_reverse: 0.803
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 6.42
+  expected_reverse_votes: 6.31
   reverse_vote_distribution:
-    9-0: 0.302
+    9-0: 0.238
     8-1: 0.141
-    7-2: 0.125
-    6-3: 0.14
-    5-4: 0.081
-    4-5: 0.056
-    3-6: 0.041
-    2-7: 0.036
-    1-8: 0.035
-    0-9: 0.043
+    7-2: 0.149
+    6-3: 0.19
+    5-4: 0.084
+    4-5: 0.054
+    3-6: 0.04
+    2-7: 0.034
+    1-8: 0.031
+    0-9: 0.038
 votes:
 - justice: JGRoberts
-  p_reverse: 0.829
+  p_reverse: 0.851
   p_liberal: 0.132
 - justice: CThomas
   p_reverse: 0.862
-  p_liberal: 0.126
+  p_liberal: 0.071
 - justice: SAAlito
-  p_reverse: 0.856
-  p_liberal: 0.126
+  p_reverse: 0.862
+  p_liberal: 0.071
 - justice: SSotomayor
-  p_reverse: 0.452
-  p_liberal: 0.57
+  p_reverse: 0.363
+  p_liberal: 0.507
 - justice: EKagan
   p_reverse: 0.488
   p_liberal: 0.507
 - justice: NMGorsuch
-  p_reverse: 0.772
-  p_liberal: 0.141
+  p_reverse: 0.81
+  p_liberal: 0.132
 - justice: BMKavanaugh
-  p_reverse: 0.845
+  p_reverse: 0.862
   p_liberal: 0.132
 - justice: ACBarrett
-  p_reverse: 0.829
+  p_reverse: 0.851
   p_liberal: 0.132
 - justice: KBJackson
-  p_reverse: 0.488
-  p_liberal: 0.618
+  p_reverse: 0.363
+  p_liberal: 0.653

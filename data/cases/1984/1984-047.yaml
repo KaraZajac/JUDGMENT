@@ -16,7 +16,7 @@ decision:
   type: opinion-of-the-court
   disposition: affirmed
   winning_party: respondent
-  direction: liberal
+  direction: conservative
   precedent_altered: false
   unconstitutional: federal-statute
   majority_votes: 7
@@ -44,42 +44,42 @@ opinions:
   majority_author: WHRehnquist
   majority_assigner: WEBurger
 votes:
-- justice: TMarshall
-  vote: dissent
-  opinion: wrote
+- justice: WEBurger
+  vote: majority
   direction: conservative
-  in_majority: false
+  in_majority: true
 - justice: WJBrennan
   vote: majority
-  direction: liberal
+  direction: conservative
   in_majority: true
 - justice: BRWhite
   vote: dissent
   opinion: wrote
-  direction: conservative
-  in_majority: false
-- justice: WEBurger
-  vote: majority
   direction: liberal
-  in_majority: true
+  in_majority: false
+- justice: TMarshall
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
 - justice: HABlackmun
   vote: majority
-  direction: liberal
+  direction: conservative
   in_majority: true
 - justice: LFPowell
   vote: majority
-  direction: liberal
+  direction: conservative
   in_majority: true
 - justice: WHRehnquist
   vote: majority
   opinion: wrote
-  direction: liberal
+  direction: conservative
   in_majority: true
 - justice: JPStevens
   vote: majority
-  direction: liberal
+  direction: conservative
   in_majority: true
 - justice: SDOConnor
   vote: majority
-  direction: liberal
+  direction: conservative
   in_majority: true

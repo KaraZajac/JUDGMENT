@@ -1,0 +1,87 @@
+id: 2025-030
+name: FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL MASTER FUND, LTD.
+term: 2025
+chief: Roberts
+natural_court: 1710
+docket: 24-345
+citation:
+  sct: 146 S. Ct. 1546
+  led: 225 L. Ed. 2d 184
+  lexis: 2026 U.S. LEXIS 2466
+dates:
+  argued: '2025-12-10'
+  decided: '2026-06-11'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 80120, area: economic-activity}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: Investment Company Act
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 96}
+  source: {code: 22}
+  disposition: affirmed
+  direction: liberal
+  disagreement: false
+parties:
+  petitioner: {code: 113}
+  respondent: {code: 173}
+opinions:
+  majority_author: ACBarrett
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: EKagan
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+  joined:
+  - KBJackson
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: KBJackson
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false

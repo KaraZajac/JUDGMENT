@@ -15,35 +15,36 @@ bio:
   - White House Staff Secretary
 record:
   first_decision: '2018-11-06'
-  last_decision: '2025-06-30'
+  last_decision: '2026-06-30'
   first_term: 2018
-  last_term: 2024
-  terms: 7
-  cases: 444
-  majority_share: 0.938
-  dissents: 27
-  opinions_written: 101
+  last_term: 2025
+  terms: 8
+  cases: 512
+  majority_share: 0.94
+  dissents: 30
+  opinions_written: 112
 ideology:
-  career_liberal_share: 0.407
+  career_liberal_share: 0.418
   by_term:
     2018: {liberal_share: 0.397, n: 63}
-    2019: {liberal_share: 0.436, n: 55}
+    2019: {liberal_share: 0.456, n: 57}
     2020: {liberal_share: 0.367, n: 60}
     2021: {liberal_share: 0.339, n: 62}
     2022: {liberal_share: 0.436, n: 55}
     2023: {liberal_share: 0.456, n: 57}
     2024: {liberal_share: 0.426, n: 61}
+    2025: {liberal_share: 0.47, n: 66}
   by_issue_area:
     attorneys: {liberal_share: 0.333, n: 3}
-    civil-rights: {liberal_share: 0.37, n: 73}
-    criminal-procedure: {liberal_share: 0.4, n: 85}
-    due-process: {liberal_share: 0.412, n: 17}
-    economic-activity: {liberal_share: 0.393, n: 107}
+    civil-rights: {liberal_share: 0.341, n: 82}
+    criminal-procedure: {liberal_share: 0.419, n: 105}
+    due-process: {liberal_share: 0.444, n: 18}
+    economic-activity: {liberal_share: 0.402, n: 122}
     federal-taxation: {liberal_share: 0.625, n: 8}
-    federalism: {liberal_share: 0.4, n: 15}
-    first-amendment: {liberal_share: 0.452, n: 31}
-    judicial-power: {liberal_share: 0.37, n: 46}
-    miscellaneous: {liberal_share: 0.8, n: 5}
+    federalism: {liberal_share: 0.389, n: 18}
+    first-amendment: {liberal_share: 0.471, n: 34}
+    judicial-power: {liberal_share: 0.424, n: 59}
+    miscellaneous: {liberal_share: 0.714, n: 7}
     privacy: {liberal_share: 0.25, n: 8}
     private-action: {liberal_share: 1.0, n: 2}
     unions: {liberal_share: 0.538, n: 13}
@@ -60,6 +61,7 @@ ideology:
       2022: {liberal_share: 0.583, n: 12}
       2023: {liberal_share: 0.6, n: 10}
       2024: {liberal_share: 0.25, n: 8}
+      2025: {liberal_share: 0.111, n: 9}
     criminal-procedure:
       2018: {liberal_share: 0.308, n: 13}
       2019: {liberal_share: 0.556, n: 9}
@@ -68,6 +70,7 @@ ideology:
       2022: {liberal_share: 0.556, n: 9}
       2023: {liberal_share: 0.308, n: 13}
       2024: {liberal_share: 0.5, n: 12}
+      2025: {liberal_share: 0.5, n: 20}
     due-process:
       2018: {liberal_share: 0.333, n: 3}
       2019: {liberal_share: 0.0, n: 1}
@@ -75,6 +78,7 @@ ideology:
       2022: {liberal_share: 0.5, n: 2}
       2023: {liberal_share: 0.0, n: 3}
       2024: {liberal_share: 0.667, n: 3}
+      2025: {liberal_share: 1.0, n: 1}
     economic-activity:
       2018: {liberal_share: 0.529, n: 17}
       2019: {liberal_share: 0.412, n: 17}
@@ -83,6 +87,7 @@ ideology:
       2022: {liberal_share: 0.316, n: 19}
       2023: {liberal_share: 0.25, n: 12}
       2024: {liberal_share: 0.529, n: 17}
+      2025: {liberal_share: 0.467, n: 15}
     federal-taxation:
       2018: {liberal_share: 1.0, n: 1}
       2020: {liberal_share: 0.0, n: 1}
@@ -97,6 +102,7 @@ ideology:
       2021: {liberal_share: 0.5, n: 4}
       2022: {liberal_share: 1.0, n: 1}
       2023: {liberal_share: 0.0, n: 1}
+      2025: {liberal_share: 0.333, n: 3}
     first-amendment:
       2018: {liberal_share: 0.25, n: 4}
       2019: {liberal_share: 0.4, n: 5}
@@ -105,6 +111,7 @@ ideology:
       2022: {liberal_share: 0.5, n: 2}
       2023: {liberal_share: 0.667, n: 6}
       2024: {liberal_share: 0.25, n: 4}
+      2025: {liberal_share: 0.667, n: 3}
     judicial-power:
       2018: {liberal_share: 0.556, n: 9}
       2019: {liberal_share: 0.0, n: 2}
@@ -113,11 +120,13 @@ ideology:
       2022: {liberal_share: 0.25, n: 4}
       2023: {liberal_share: 0.5, n: 4}
       2024: {liberal_share: 0.357, n: 14}
+      2025: {liberal_share: 0.615, n: 13}
     miscellaneous:
       2019: {liberal_share: 1.0, n: 2}
       2020: {liberal_share: 1.0, n: 1}
       2022: {liberal_share: 0.0, n: 1}
       2023: {liberal_share: 1.0, n: 1}
+      2025: {liberal_share: 0.5, n: 2}
     privacy:
       2018: {liberal_share: 0.0, n: 2}
       2019: {liberal_share: 0.0, n: 1}

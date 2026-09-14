@@ -1,0 +1,89 @@
+id: 2025-060
+name: WATSON v. REPUBLICAN NATIONAL COMMITTEE
+term: 2025
+chief: Roberts
+natural_court: 1710
+docket: 24-1260
+citation:
+  sct: 146 S. Ct. 2165
+  led: 225 L. Ed. 2d 841
+  lexis: 2026 U.S. LEXIS 2879
+dates:
+  argued: '2026-03-23'
+  decided: '2026-06-29'
+decision:
+  type: opinion-of-the-court
+  disposition: reversed-and-remanded
+  winning_party: petitioner
+  direction: liberal
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 20010, area: civil-rights}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 2 U. S. C. §7; 2 U. S. C. §1; 3 U. S. C. §1
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: no-reason-given
+lower_court:
+  origin: {code: 85}
+  source: {code: 25}
+  disposition: reversed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 7}
+  petitioner_state: {code: 29}
+  respondent: {code: 211}
+opinions:
+  majority_author: ACBarrett
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: CThomas
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: SAAlito
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
+- justice: SSotomayor
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: EKagan
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: NMGorsuch
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: BMKavanaugh
+  vote: dissent
+  direction: conservative
+  in_majority: false
+  joined:
+  - SAAlito
+- justice: ACBarrett
+  vote: majority
+  opinion: wrote
+  direction: liberal
+  in_majority: true
+- justice: KBJackson
+  vote: majority
+  direction: liberal
+  in_majority: true

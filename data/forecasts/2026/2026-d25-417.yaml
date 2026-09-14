@@ -1,12 +1,12 @@
 id: 2026-d25-417
 name: Nielsen v. Watanabe
 term: 2026
-generated: '2026-08-31T19:30:34Z'
+generated: '2026-09-14T18:29:37Z'
 stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t, walk-forward
     validated)
-  trained_through_term: 2024
+  trained_through_term: 2025
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
@@ -21,45 +21,45 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.668
+  p_reverse: 0.597
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 5.75
+  expected_reverse_votes: 5.09
   reverse_vote_distribution:
-    9-0: 0.293
-    8-1: 0.12
-    7-2: 0.104
-    6-3: 0.09
-    5-4: 0.06
-    4-5: 0.058
-    3-6: 0.061
-    2-7: 0.056
-    1-8: 0.057
-    0-9: 0.1
+    9-0: 0.219
+    8-1: 0.107
+    7-2: 0.088
+    6-3: 0.103
+    5-4: 0.081
+    4-5: 0.061
+    3-6: 0.059
+    2-7: 0.068
+    1-8: 0.076
+    0-9: 0.139
 votes:
 - justice: JGRoberts
-  p_reverse: 0.737
-  p_liberal: 0.301
-- justice: CThomas
-  p_reverse: 0.676
-  p_liberal: 0.301
-- justice: SAAlito
-  p_reverse: 0.701
-  p_liberal: 0.19
-- justice: SSotomayor
-  p_reverse: 0.488
-  p_liberal: 0.472
-- justice: EKagan
-  p_reverse: 0.55
-  p_liberal: 0.472
-- justice: NMGorsuch
-  p_reverse: 0.693
-  p_liberal: 0.297
-- justice: BMKavanaugh
-  p_reverse: 0.717
-  p_liberal: 0.301
-- justice: ACBarrett
   p_reverse: 0.663
-  p_liberal: 0.347
-- justice: KBJackson
-  p_reverse: 0.528
+  p_liberal: 0.443
+- justice: CThomas
+  p_reverse: 0.598
+  p_liberal: 0.503
+- justice: SAAlito
+  p_reverse: 0.627
+  p_liberal: 0.423
+- justice: SSotomayor
+  p_reverse: 0.422
+  p_liberal: 0.66
+- justice: EKagan
+  p_reverse: 0.432
+  p_liberal: 0.711
+- justice: NMGorsuch
+  p_reverse: 0.598
+  p_liberal: 0.503
+- justice: BMKavanaugh
+  p_reverse: 0.676
+  p_liberal: 0.503
+- justice: ACBarrett
+  p_reverse: 0.655
   p_liberal: 0.507
+- justice: KBJackson
+  p_reverse: 0.422
+  p_liberal: 0.667

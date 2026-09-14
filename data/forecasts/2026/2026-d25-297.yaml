@@ -1,12 +1,12 @@
 id: 2026-d25-297
 name: Zorn v. Linton
 term: 2026
-generated: '2026-08-31T19:30:34Z'
+generated: '2026-09-14T18:29:37Z'
 stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t, walk-forward
     validated)
-  trained_through_term: 2024
+  trained_through_term: 2025
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
@@ -21,45 +21,45 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.727
+  p_reverse: 0.49
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 6.28
+  expected_reverse_votes: 4.37
   reverse_vote_distribution:
-    9-0: 0.366
-    8-1: 0.133
-    7-2: 0.096
-    6-3: 0.07
-    5-4: 0.061
-    4-5: 0.06
-    3-6: 0.05
-    2-7: 0.042
-    1-8: 0.048
-    0-9: 0.074
+    9-0: 0.149
+    8-1: 0.092
+    7-2: 0.084
+    6-3: 0.082
+    5-4: 0.083
+    4-5: 0.083
+    3-6: 0.074
+    2-7: 0.076
+    1-8: 0.095
+    0-9: 0.181
 votes:
 - justice: JGRoberts
-  p_reverse: 0.737
-  p_liberal: 0.781
+  p_reverse: 0.528
+  p_liberal: 0.888
 - justice: CThomas
-  p_reverse: 0.693
-  p_liberal: 0.74
-- justice: SAAlito
-  p_reverse: 0.772
-  p_liberal: 0.734
-- justice: SSotomayor
-  p_reverse: 0.598
-  p_liberal: 0.812
-- justice: EKagan
-  p_reverse: 0.627
-  p_liberal: 0.812
-- justice: NMGorsuch
-  p_reverse: 0.752
-  p_liberal: 0.74
-- justice: BMKavanaugh
-  p_reverse: 0.737
-  p_liberal: 0.653
-- justice: ACBarrett
-  p_reverse: 0.763
+  p_reverse: 0.655
   p_liberal: 0.667
+- justice: SAAlito
+  p_reverse: 0.655
+  p_liberal: 0.729
+- justice: SSotomayor
+  p_reverse: 0.315
+  p_liberal: 0.899
+- justice: EKagan
+  p_reverse: 0.363
+  p_liberal: 0.931
+- justice: NMGorsuch
+  p_reverse: 0.528
+  p_liberal: 0.888
+- justice: BMKavanaugh
+  p_reverse: 0.452
+  p_liberal: 0.863
+- justice: ACBarrett
+  p_reverse: 0.562
+  p_liberal: 0.888
 - justice: KBJackson
-  p_reverse: 0.598
-  p_liberal: 0.812
+  p_reverse: 0.315
+  p_liberal: 0.899

@@ -1,12 +1,12 @@
 id: 2026-d25-767
 name: Margolin v. National Association of Immigration Judges
 term: 2026
-generated: '2026-08-31T19:30:34Z'
+generated: '2026-09-14T18:29:37Z'
 stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t, walk-forward
     validated)
-  trained_through_term: 2024
+  trained_through_term: 2025
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
@@ -21,45 +21,45 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.748
+  p_reverse: 0.815
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 6.37
+  expected_reverse_votes: 6.67
   reverse_vote_distribution:
-    9-0: 0.358
-    8-1: 0.138
-    7-2: 0.102
-    6-3: 0.083
-    5-4: 0.067
-    4-5: 0.059
-    3-6: 0.045
-    2-7: 0.039
-    1-8: 0.044
-    0-9: 0.064
+    9-0: 0.335
+    8-1: 0.163
+    7-2: 0.131
+    6-3: 0.116
+    5-4: 0.07
+    4-5: 0.046
+    3-6: 0.035
+    2-7: 0.033
+    1-8: 0.032
+    0-9: 0.039
 votes:
 - justice: JGRoberts
-  p_reverse: 0.772
-  p_liberal: 0.301
+  p_reverse: 0.829
+  p_liberal: 0.507
 - justice: CThomas
-  p_reverse: 0.786
-  p_liberal: 0.297
+  p_reverse: 0.845
+  p_liberal: 0.443
 - justice: SAAlito
-  p_reverse: 0.772
-  p_liberal: 0.297
+  p_reverse: 0.851
+  p_liberal: 0.503
 - justice: SSotomayor
   p_reverse: 0.528
-  p_liberal: 0.594
+  p_liberal: 0.786
 - justice: EKagan
-  p_reverse: 0.598
-  p_liberal: 0.618
+  p_reverse: 0.655
+  p_liberal: 0.784
 - justice: NMGorsuch
-  p_reverse: 0.754
-  p_liberal: 0.297
+  p_reverse: 0.829
+  p_liberal: 0.503
 - justice: BMKavanaugh
-  p_reverse: 0.81
-  p_liberal: 0.225
+  p_reverse: 0.851
+  p_liberal: 0.443
 - justice: ACBarrett
-  p_reverse: 0.754
-  p_liberal: 0.297
+  p_reverse: 0.851
+  p_liberal: 0.507
 - justice: KBJackson
-  p_reverse: 0.594
-  p_liberal: 0.667
+  p_reverse: 0.432
+  p_liberal: 0.812

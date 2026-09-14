@@ -1,12 +1,12 @@
 id: 2026-d24-1016
 name: RiseandShine Corporation v. PepsiCo, Inc.
 term: 2026
-generated: '2026-08-31T19:30:34Z'
+generated: '2026-09-14T18:29:37Z'
 stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t, walk-forward
     validated)
-  trained_through_term: 2024
+  trained_through_term: 2025
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
@@ -19,45 +19,45 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.758
+  p_reverse: 0.65
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 6.57
+  expected_reverse_votes: 5.68
   reverse_vote_distribution:
-    9-0: 0.429
-    8-1: 0.129
-    7-2: 0.077
-    6-3: 0.061
-    5-4: 0.062
+    9-0: 0.309
+    8-1: 0.114
+    7-2: 0.095
+    6-3: 0.078
+    5-4: 0.055
     4-5: 0.054
-    3-6: 0.041
-    2-7: 0.038
-    1-8: 0.046
-    0-9: 0.063
+    3-6: 0.063
+    2-7: 0.062
+    1-8: 0.061
+    0-9: 0.11
 votes:
 - justice: JGRoberts
-  p_reverse: 0.763
+  p_reverse: 0.663
   p_liberal: 0.653
 - justice: CThomas
-  p_reverse: 0.717
-  p_liberal: 0.549
+  p_reverse: 0.598
+  p_liberal: 0.618
 - justice: SAAlito
-  p_reverse: 0.737
-  p_liberal: 0.407
+  p_reverse: 0.663
+  p_liberal: 0.507
 - justice: SSotomayor
-  p_reverse: 0.693
-  p_liberal: 0.74
+  p_reverse: 0.598
+  p_liberal: 0.781
 - justice: EKagan
-  p_reverse: 0.737
-  p_liberal: 0.718
+  p_reverse: 0.598
+  p_liberal: 0.812
 - justice: NMGorsuch
-  p_reverse: 0.737
-  p_liberal: 0.549
+  p_reverse: 0.598
+  p_liberal: 0.667
 - justice: BMKavanaugh
-  p_reverse: 0.754
+  p_reverse: 0.688
   p_liberal: 0.653
 - justice: ACBarrett
-  p_reverse: 0.693
-  p_liberal: 0.711
+  p_reverse: 0.676
+  p_liberal: 0.667
 - justice: KBJackson
-  p_reverse: 0.737
-  p_liberal: 0.74
+  p_reverse: 0.598
+  p_liberal: 0.748

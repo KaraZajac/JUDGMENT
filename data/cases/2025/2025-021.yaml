@@ -1,0 +1,86 @@
+id: 2025-021
+name: RUTHERFORD v. UNITED STATES
+term: 2025
+chief: Roberts
+natural_court: 1710
+docket: 24-820
+citation:
+  sct: 146 S. Ct. 1320
+  led: 225 L. Ed. 2d 60
+  lexis: 2026 U.S. LEXIS 2294
+dates:
+  argued: '2025-11-12'
+  decided: '2026-05-28'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 6
+  minority_votes: 3
+issue: {code: 10560, area: criminal-procedure}
+law:
+  type: infrequent-federal-statute
+  supp: 600
+  minor: 18 U. S. C. §924
+authority:
+- statutory-construction
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 109}
+  source: {code: 23}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 126}
+  respondent: {code: 27}
+opinions:
+  majority_author: ACBarrett
+  majority_assigner: JGRoberts
+votes:
+- justice: JGRoberts
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: CThomas
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor
+- justice: NMGorsuch
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: KBJackson
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - SSotomayor

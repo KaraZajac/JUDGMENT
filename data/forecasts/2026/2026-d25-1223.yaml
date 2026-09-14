@@ -1,12 +1,12 @@
 id: 2026-d25-1223
 name: Montoya Palacios v. Liggins
 term: 2026
-generated: '2026-08-31T19:30:34Z'
+generated: '2026-09-14T18:29:37Z'
 stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t, walk-forward
     validated)
-  trained_through_term: 2024
+  trained_through_term: 2025
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
@@ -20,45 +20,45 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.689
+  p_reverse: 0.673
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 6.1
+  expected_reverse_votes: 5.97
   reverse_vote_distribution:
-    9-0: 0.357
-    8-1: 0.122
-    7-2: 0.087
-    6-3: 0.064
-    5-4: 0.059
-    4-5: 0.067
-    3-6: 0.067
-    2-7: 0.049
-    1-8: 0.052
-    0-9: 0.076
+    9-0: 0.343
+    8-1: 0.119
+    7-2: 0.088
+    6-3: 0.066
+    5-4: 0.057
+    4-5: 0.065
+    3-6: 0.07
+    2-7: 0.053
+    1-8: 0.054
+    0-9: 0.084
 votes:
 - justice: JGRoberts
-  p_reverse: 0.676
-  p_liberal: 0.653
+  p_reverse: 0.627
+  p_liberal: 0.667
 - justice: CThomas
-  p_reverse: 0.598
-  p_liberal: 0.423
+  p_reverse: 0.594
+  p_liberal: 0.507
 - justice: SAAlito
-  p_reverse: 0.598
-  p_liberal: 0.507
+  p_reverse: 0.594
+  p_liberal: 0.618
 - justice: SSotomayor
-  p_reverse: 0.772
-  p_liberal: 0.74
+  p_reverse: 0.754
+  p_liberal: 0.718
 - justice: EKagan
-  p_reverse: 0.772
-  p_liberal: 0.748
+  p_reverse: 0.754
+  p_liberal: 0.812
 - justice: NMGorsuch
-  p_reverse: 0.598
-  p_liberal: 0.507
+  p_reverse: 0.589
+  p_liberal: 0.653
 - justice: BMKavanaugh
   p_reverse: 0.655
-  p_liberal: 0.594
+  p_liberal: 0.653
 - justice: ACBarrett
   p_reverse: 0.655
-  p_liberal: 0.549
+  p_liberal: 0.653
 - justice: KBJackson
-  p_reverse: 0.772
+  p_reverse: 0.752
   p_liberal: 0.781

@@ -1,0 +1,87 @@
+id: 2025-058
+name: T. M. v. UNIVERSITY OF MARYLAND MEDICAL SYSTEM CORP.
+term: 2025
+chief: Roberts
+natural_court: 1710
+docket: 25-197
+citation:
+  sct: 146 S. Ct. 1739
+  lexis: 2026 U.S. LEXIS 2557
+dates:
+  argued: '2026-04-20'
+  decided: '2026-06-18'
+decision:
+  type: opinion-of-the-court
+  disposition: affirmed
+  winning_party: respondent
+  direction: conservative
+  precedent_altered: false
+  unconstitutional: none
+  majority_votes: 5
+  minority_votes: 4
+issue: {code: 90320, area: judicial-power}
+law:
+  type: no-legal-provision
+  supp: 900
+authority:
+- federal-common-law
+jurisdiction: {code: 1, label: certiorari}
+cert_reason: federal-court-conflict
+lower_court:
+  origin: {code: 79}
+  source: {code: 24}
+  disposition: affirmed
+  direction: conservative
+  disagreement: false
+parties:
+  petitioner: {code: 204}
+  respondent: {code: 167}
+opinions:
+  majority_author: SSotomayor
+  majority_assigner: CThomas
+votes:
+- justice: JGRoberts
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - ACBarrett
+- justice: CThomas
+  vote: regular-concurrence
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: SAAlito
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: SSotomayor
+  vote: majority
+  opinion: wrote
+  direction: conservative
+  in_majority: true
+- justice: EKagan
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - ACBarrett
+- justice: NMGorsuch
+  vote: dissent
+  direction: liberal
+  in_majority: false
+  joined:
+  - ACBarrett
+- justice: BMKavanaugh
+  vote: majority
+  direction: conservative
+  in_majority: true
+- justice: ACBarrett
+  vote: dissent
+  opinion: wrote
+  direction: liberal
+  in_majority: false
+- justice: KBJackson
+  vote: majority
+  direction: conservative
+  in_majority: true

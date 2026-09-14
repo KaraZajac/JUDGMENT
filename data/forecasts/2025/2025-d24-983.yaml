@@ -1,0 +1,63 @@
+id: 2025-d24-983
+name: Havana Docks Corporation v. Royal Caribbean Cruises, Ltd.
+term: 2025
+generated: '2026-09-14T18:29:37Z'
+stage: cert
+model:
+  engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t, walk-forward
+    validated)
+  trained_through_term: 2025
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
+  validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
+features:
+  issue_area: null
+  issue_area_basis: not coded (missing)
+  lc_direction: null
+  lc_direction_basis: not coded (missing)
+  question_text: false
+  argued: '2026-02-23'
+  note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
+    handling
+prediction:
+  p_reverse: 0.675
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
+  expected_reverse_votes: 5.9
+  reverse_vote_distribution:
+    9-0: 0.332
+    8-1: 0.12
+    7-2: 0.097
+    6-3: 0.072
+    5-4: 0.053
+    4-5: 0.058
+    3-6: 0.061
+    2-7: 0.054
+    1-8: 0.055
+    0-9: 0.098
+votes:
+- justice: JGRoberts
+  p_reverse: 0.676
+  p_liberal: 0.959
+- justice: CThomas
+  p_reverse: 0.688
+  p_liberal: 0.812
+- justice: SAAlito
+  p_reverse: 0.676
+  p_liberal: 0.863
+- justice: SSotomayor
+  p_reverse: 0.598
+  p_liberal: 0.97
+- justice: EKagan
+  p_reverse: 0.598
+  p_liberal: 0.97
+- justice: NMGorsuch
+  p_reverse: 0.676
+  p_liberal: 0.931
+- justice: BMKavanaugh
+  p_reverse: 0.676
+  p_liberal: 0.931
+- justice: ACBarrett
+  p_reverse: 0.717
+  p_liberal: 0.959
+- justice: KBJackson
+  p_reverse: 0.598
+  p_liberal: 0.97

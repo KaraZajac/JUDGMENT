@@ -16,7 +16,7 @@ decision:
   type: opinion-of-the-court
   disposition: vacated-and-remanded
   winning_party: petitioner
-  direction: conservative
+  direction: liberal
   precedent_altered: false
   unconstitutional: none
   majority_votes: 7
@@ -45,11 +45,11 @@ opinions:
 votes:
 - justice: EWarren
   vote: majority
-  direction: conservative
+  direction: liberal
   in_majority: true
 - justice: HLBlack
   vote: majority
-  direction: conservative
+  direction: liberal
   in_majority: true
 - justice: WODouglas
   vote: dissent
@@ -58,27 +58,27 @@ votes:
   in_majority: false
 - justice: TCClark
   vote: majority
-  direction: conservative
+  direction: liberal
   in_majority: true
 - justice: JHarlan2
   vote: special-concurrence
   opinion: wrote
-  direction: conservative
+  direction: liberal
   in_majority: true
 - justice: WJBrennan
   vote: majority
   opinion: wrote
-  direction: conservative
+  direction: liberal
   in_majority: true
 - justice: PStewart
   vote: special-concurrence
-  direction: conservative
+  direction: liberal
   in_majority: true
   joined:
   - JHarlan2
 - justice: BRWhite
   vote: majority
-  direction: conservative
+  direction: liberal
   in_majority: true
 - justice: AFortas
   vote: dissent

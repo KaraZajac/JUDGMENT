@@ -17,7 +17,7 @@ decision:
   type: opinion-of-the-court
   disposition: reversed-and-remanded
   winning_party: petitioner
-  direction: conservative
+  direction: liberal
   precedent_altered: false
   unconstitutional: none
   majority_votes: 5
@@ -45,41 +45,41 @@ opinions:
   majority_author: FFrankfurter
   majority_assigner: FFrankfurter
 votes:
-- justice: JHarlan2
-  vote: majority
-  direction: conservative
-  in_majority: true
-- justice: HLBlack
-  vote: dissent
-  direction: liberal
-  in_majority: false
-  joined:
-  - HLBlack
-- justice: WODouglas
-  vote: dissent
-  opinion: wrote
-  direction: liberal
-  in_majority: false
-- justice: WJBrennan
-  vote: majority
-  direction: conservative
-  in_majority: true
 - justice: EWarren
   vote: dissent
-  direction: liberal
+  direction: conservative
   in_majority: false
   joined:
   - HLBlack
-- justice: TCClark
-  vote: majority
+- justice: HLBlack
+  vote: dissent
   direction: conservative
-  in_majority: true
+  in_majority: false
+  joined:
+  - HLBlack
 - justice: FFrankfurter
   vote: majority
   opinion: wrote
-  direction: conservative
+  direction: liberal
   in_majority: true
+- justice: WODouglas
+  vote: dissent
+  opinion: wrote
+  direction: conservative
+  in_majority: false
 - justice: HHBurton
   vote: majority
-  direction: conservative
+  direction: liberal
+  in_majority: true
+- justice: TCClark
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: JHarlan2
+  vote: majority
+  direction: liberal
+  in_majority: true
+- justice: WJBrennan
+  vote: majority
+  direction: liberal
   in_majority: true

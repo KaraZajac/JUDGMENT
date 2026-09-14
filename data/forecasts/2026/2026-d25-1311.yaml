@@ -1,12 +1,12 @@
 id: 2026-d25-1311
 name: Apple Inc. v. Epic Games, Inc.
 term: 2026
-generated: '2026-08-31T19:30:34Z'
+generated: '2026-09-14T18:29:37Z'
 stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t, walk-forward
     validated)
-  trained_through_term: 2024
+  trained_through_term: 2025
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
@@ -20,45 +20,45 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.817
+  p_reverse: 0.652
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 6.9
+  expected_reverse_votes: 5.54
   reverse_vote_distribution:
-    9-0: 0.444
-    8-1: 0.137
-    7-2: 0.09
-    6-3: 0.086
-    5-4: 0.061
-    4-5: 0.04
-    3-6: 0.033
-    2-7: 0.034
-    1-8: 0.034
-    0-9: 0.043
+    9-0: 0.253
+    8-1: 0.115
+    7-2: 0.104
+    6-3: 0.11
+    5-4: 0.07
+    4-5: 0.059
+    3-6: 0.062
+    2-7: 0.06
+    1-8: 0.061
+    0-9: 0.105
 votes:
 - justice: JGRoberts
-  p_reverse: 0.829
-  p_liberal: 0.201
+  p_reverse: 0.717
+  p_liberal: 0.503
 - justice: CThomas
-  p_reverse: 0.81
-  p_liberal: 0.26
-- justice: SAAlito
-  p_reverse: 0.815
-  p_liberal: 0.202
-- justice: SSotomayor
-  p_reverse: 0.627
-  p_liberal: 0.368
-- justice: EKagan
   p_reverse: 0.655
-  p_liberal: 0.344
+  p_liberal: 0.443
+- justice: SAAlito
+  p_reverse: 0.717
+  p_liberal: 0.493
+- justice: SSotomayor
+  p_reverse: 0.452
+  p_liberal: 0.718
+- justice: EKagan
+  p_reverse: 0.46
+  p_liberal: 0.667
 - justice: NMGorsuch
-  p_reverse: 0.81
-  p_liberal: 0.185
+  p_reverse: 0.655
+  p_liberal: 0.369
 - justice: BMKavanaugh
-  p_reverse: 0.845
-  p_liberal: 0.185
+  p_reverse: 0.717
+  p_liberal: 0.423
 - justice: ACBarrett
-  p_reverse: 0.829
-  p_liberal: 0.202
+  p_reverse: 0.717
+  p_liberal: 0.477
 - justice: KBJackson
-  p_reverse: 0.676
-  p_liberal: 0.374
+  p_reverse: 0.452
+  p_liberal: 0.667

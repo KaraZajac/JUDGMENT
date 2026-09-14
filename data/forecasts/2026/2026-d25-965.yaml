@@ -1,12 +1,12 @@
 id: 2026-d25-965
 name: Grand v. City of University Heights, Ohio
 term: 2026
-generated: '2026-08-31T19:30:34Z'
+generated: '2026-09-14T18:29:37Z'
 stage: cert
 model:
   engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t, walk-forward
     validated)
-  trained_through_term: 2024
+  trained_through_term: 2025
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
@@ -20,45 +20,45 @@ features:
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.739
+  p_reverse: 0.806
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 6.45
+  expected_reverse_votes: 6.92
   reverse_vote_distribution:
-    9-0: 0.402
-    8-1: 0.128
-    7-2: 0.081
-    6-3: 0.063
-    5-4: 0.064
-    4-5: 0.062
-    3-6: 0.051
-    2-7: 0.042
-    1-8: 0.047
-    0-9: 0.059
+    9-0: 0.47
+    8-1: 0.13
+    7-2: 0.08
+    6-3: 0.069
+    5-4: 0.058
+    4-5: 0.042
+    3-6: 0.038
+    2-7: 0.038
+    1-8: 0.035
+    0-9: 0.041
 votes:
 - justice: JGRoberts
-  p_reverse: 0.701
-  p_liberal: 0.74
+  p_reverse: 0.786
+  p_liberal: 0.855
 - justice: CThomas
-  p_reverse: 0.598
-  p_liberal: 0.549
+  p_reverse: 0.627
+  p_liberal: 0.667
 - justice: SAAlito
-  p_reverse: 0.655
-  p_liberal: 0.653
-- justice: SSotomayor
-  p_reverse: 0.772
-  p_liberal: 0.781
-- justice: EKagan
-  p_reverse: 0.815
-  p_liberal: 0.812
-- justice: NMGorsuch
-  p_reverse: 0.693
-  p_liberal: 0.667
-- justice: BMKavanaugh
   p_reverse: 0.717
-  p_liberal: 0.718
+  p_liberal: 0.748
+- justice: SSotomayor
+  p_reverse: 0.829
+  p_liberal: 0.888
+- justice: EKagan
+  p_reverse: 0.845
+  p_liberal: 0.899
+- justice: NMGorsuch
+  p_reverse: 0.752
+  p_liberal: 0.748
+- justice: BMKavanaugh
+  p_reverse: 0.773
+  p_liberal: 0.786
 - justice: ACBarrett
-  p_reverse: 0.676
-  p_liberal: 0.667
-- justice: KBJackson
-  p_reverse: 0.819
+  p_reverse: 0.763
   p_liberal: 0.812
+- justice: KBJackson
+  p_reverse: 0.829
+  p_liberal: 0.888
