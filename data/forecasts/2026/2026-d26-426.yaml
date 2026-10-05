@@ -1,5 +1,5 @@
-id: 2026-d25-5343
-name: Beaird v. United States
+id: 2026-d26-426
+name: Department of Homeland Security v. D. V. D.
 term: 2026
 generated: '2026-10-05T21:13:59Z'
 stage: cert
@@ -10,55 +10,54 @@ model:
   calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
   validated_vote_accuracy: "see models/output/report-reverse.md \xA7 deployment configuration"
 features:
-  issue_area: 1
-  issue_area_basis: deference to Sentencing Guidelines commentary
-  lc_direction: conservative
-  lc_direction_basis: "federal criminal defendant petitioned on Guidelines-commentary deference \u2014\
-    \ decision below favored the government (anti-defendant)."
+  issue_area: null
+  issue_area_basis: not coded (missing)
+  lc_direction: null
+  lc_direction_basis: not coded (missing)
   question_text: false
   argued: null
   note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
     handling
 prediction:
-  p_reverse: 0.654
+  p_reverse: 0.675
   aggregation: two-factor coalition (valence 1.85, ideology 2.15)
-  expected_reverse_votes: 5.72
+  expected_reverse_votes: 5.9
   reverse_vote_distribution:
-    9-0: 0.28
-    8-1: 0.124
-    7-2: 0.103
-    6-3: 0.082
-    5-4: 0.065
-    4-5: 0.068
-    3-6: 0.075
-    2-7: 0.059
-    1-8: 0.057
-    0-9: 0.087
+    9-0: 0.332
+    8-1: 0.12
+    7-2: 0.097
+    6-3: 0.072
+    5-4: 0.053
+    4-5: 0.058
+    3-6: 0.061
+    2-7: 0.054
+    1-8: 0.055
+    0-9: 0.098
 votes:
 - justice: JGRoberts
-  p_reverse: 0.663
-  p_liberal: 0.667
+  p_reverse: 0.676
+  p_liberal: 0.959
 - justice: CThomas
-  p_reverse: 0.46
-  p_liberal: 0.423
+  p_reverse: 0.688
+  p_liberal: 0.812
 - justice: SAAlito
-  p_reverse: 0.432
-  p_liberal: 0.423
+  p_reverse: 0.676
+  p_liberal: 0.863
 - justice: SSotomayor
-  p_reverse: 0.737
-  p_liberal: 0.784
+  p_reverse: 0.598
+  p_liberal: 0.97
 - justice: EKagan
-  p_reverse: 0.754
-  p_liberal: 0.781
+  p_reverse: 0.598
+  p_liberal: 0.97
 - justice: NMGorsuch
-  p_reverse: 0.663
-  p_liberal: 0.653
+  p_reverse: 0.676
+  p_liberal: 0.931
 - justice: BMKavanaugh
-  p_reverse: 0.655
-  p_liberal: 0.653
+  p_reverse: 0.676
+  p_liberal: 0.931
 - justice: ACBarrett
-  p_reverse: 0.588
-  p_liberal: 0.608
+  p_reverse: 0.717
+  p_liberal: 0.959
 - justice: KBJackson
-  p_reverse: 0.772
-  p_liberal: 0.855
+  p_reverse: 0.598
+  p_liberal: 0.97
