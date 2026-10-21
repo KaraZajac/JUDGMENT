@@ -2,5 +2,102 @@ term: 2026
 coverage:
   argued: 4
   oyez_matched: 4
-  with_transcript: 0
-cases: {}
+  with_transcript: 2
+cases:
+  2026-d25-170:
+    docket: 25-170
+    sessions: 1
+    justices:
+      JGRoberts:
+        tp: 23
+        wp: 363
+        tr: 12
+        wr: 300
+      CThomas:
+        tp: 2
+        wp: 41
+        tr: 3
+        wr: 44
+      SSotomayor:
+        tp: 19
+        wp: 620
+        tr: 5
+        wr: 119
+      EKagan:
+        tp: 20
+        wp: 926
+        tr: 13
+        wr: 512
+      NMGorsuch:
+        tp: 31
+        wp: 522
+        tr: 9
+        wr: 127
+      ACBarrett:
+        tp: 17
+        wp: 956
+        tr: 6
+        wr: 153
+      BMKavanaugh:
+        tp: 30
+        wp: 841
+        tr: 18
+        wr: 817
+      KBJackson:
+        tp: 22
+        wp: 790
+        tr: 3
+        wr: 50
+    sg_amicus: pet
+  2026-d25-5343:
+    docket: 25-5343
+    sessions: 1
+    justices:
+      JGRoberts:
+        tp: 20
+        wp: 239
+        tr: 0
+        wr: 0
+      CThomas:
+        tp: 3
+        wp: 28
+        tr: 0
+        wr: 0
+      KBJackson:
+        tp: 24
+        wp: 1486
+        tr: 0
+        wr: 0
+      BMKavanaugh:
+        tp: 27
+        wp: 940
+        tr: 0
+        wr: 0
+      SSotomayor:
+        tp: 35
+        wp: 921
+        tr: 0
+        wr: 0
+      EKagan:
+        tp: 20
+        wp: 530
+        tr: 0
+        wr: 0
+      NMGorsuch:
+        tp: 45
+        wp: 1382
+        tr: 0
+        wr: 0
+      SAAlito:
+        tp: 16
+        wp: 406
+        tr: 0
+        wr: 0
+      ACBarrett:
+        tp: 14
+        wp: 557
+        tr: 0
+        wr: 0
+    unattributed_turns: 64
+    unsided_advocates:
+    - anthony_j_dick
