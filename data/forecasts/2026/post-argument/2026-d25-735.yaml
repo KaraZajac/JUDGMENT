@@ -1,0 +1,71 @@
+id: 2026-d25-735
+name: Johnson v. United States Congress
+term: 2026
+generated: '2026-11-02T22:16:54Z'
+stage: post-argument
+model:
+  engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t_sg_oa2, walk-forward
+    validated)
+  trained_through_term: 2025
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
+  validated_vote_accuracy: see docs/postargument-gate.md
+features:
+  issue_area: 9
+  issue_area_basis: jurisdiction-stripping under Veterans' Judicial Review Act
+  lc_direction: conservative
+  lc_direction_basis: "veteran petitioned after jurisdiction-stripping dismissal \u2014 decision below\
+    \ denied individual access to district courts."
+  question_text: false
+  argued: '2026-10-05'
+  note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
+    handling
+  oral_argument:
+    sessions: 1
+    bench_turns_to_petitioner: 91
+    bench_turns_to_respondent: 87
+    bench_words_to_petitioner: 2500
+    bench_words_to_respondent: 2288
+    justices_with_turns: 9
+prediction:
+  p_reverse: 0.559
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
+  expected_reverse_votes: 4.99
+  reverse_vote_distribution:
+    9-0: 0.201
+    8-1: 0.109
+    7-2: 0.082
+    6-3: 0.082
+    5-4: 0.085
+    4-5: 0.076
+    3-6: 0.082
+    2-7: 0.092
+    1-8: 0.083
+    0-9: 0.108
+votes:
+- justice: JGRoberts
+  p_reverse: 0.479
+  p_liberal: 0.865
+- justice: CThomas
+  p_reverse: 0.474
+  p_liberal: 0.79
+- justice: SAAlito
+  p_reverse: 0.41
+  p_liberal: 0.747
+- justice: SSotomayor
+  p_reverse: 0.722
+  p_liberal: 0.865
+- justice: EKagan
+  p_reverse: 0.411
+  p_liberal: 0.747
+- justice: NMGorsuch
+  p_reverse: 0.754
+  p_liberal: 0.866
+- justice: BMKavanaugh
+  p_reverse: 0.522
+  p_liberal: 0.828
+- justice: ACBarrett
+  p_reverse: 0.479
+  p_liberal: 0.837
+- justice: KBJackson
+  p_reverse: 0.735
+  p_liberal: 0.805

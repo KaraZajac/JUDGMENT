@@ -1,0 +1,72 @@
+id: 2026-d25-170
+name: Suncor Energy (U.S.A.) Inc. v. County Commissioners of Boulder County
+term: 2026
+generated: '2026-11-02T22:16:54Z'
+stage: post-argument
+model:
+  engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t_sg_oa2, walk-forward
+    validated)
+  trained_through_term: 2025
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
+  validated_vote_accuracy: see docs/postargument-gate.md
+features:
+  issue_area: 10
+  issue_area_basis: federal preclusion of state-law climate claims
+  lc_direction: liberal
+  lc_direction_basis: "energy companies petitioned \u2014 decision below allowed the county's state-law\
+    \ climate claims to proceed (anti-business / pro-environmental-claim)."
+  question_text: false
+  argued: '2026-10-05'
+  note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
+    handling
+  oral_argument:
+    sessions: 1
+    bench_turns_to_petitioner: 164
+    bench_turns_to_respondent: 69
+    bench_words_to_petitioner: 5059
+    bench_words_to_respondent: 2122
+    justices_with_turns: 8
+    sg_amicus_supports: pet
+prediction:
+  p_reverse: 0.825
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
+  expected_reverse_votes: 6.79
+  reverse_vote_distribution:
+    9-0: 0.336
+    8-1: 0.172
+    7-2: 0.121
+    6-3: 0.11
+    5-4: 0.087
+    4-5: 0.062
+    3-6: 0.041
+    2-7: 0.03
+    1-8: 0.022
+    0-9: 0.02
+votes:
+- justice: JGRoberts
+  p_reverse: 0.925
+  p_liberal: 0.237
+- justice: CThomas
+  p_reverse: 0.925
+  p_liberal: 0.174
+- justice: SAAlito
+  p_reverse: 0.895
+  p_liberal: 0.096
+- justice: SSotomayor
+  p_reverse: 0.627
+  p_liberal: 0.46
+- justice: EKagan
+  p_reverse: 0.627
+  p_liberal: 0.46
+- justice: NMGorsuch
+  p_reverse: 0.702
+  p_liberal: 0.291
+- justice: BMKavanaugh
+  p_reverse: 0.927
+  p_liberal: 0.096
+- justice: ACBarrett
+  p_reverse: 0.735
+  p_liberal: 0.191
+- justice: KBJackson
+  p_reverse: 0.422
+  p_liberal: 0.475
