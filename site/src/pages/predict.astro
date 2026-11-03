@@ -60,24 +60,20 @@ const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trimEnd() + "…" : s)
     over 1956–2024, outperforming the full-SCDB research configuration (66.8%). Each
     freezes on argument day; a separately scored <b>post-argument</b> stage re-registers
     argued cases with per-justice questioning features from the transcripts and the side
-    the Solicitor General supports as amicus (walk-forward validated: <b>69.6%</b>
-    per-vote, Brier 0.200 — rising to ~73% on SG-involved cases, whose supported side
+    the Solicitor General supports as amicus (walk-forward validated: <b>69.6%</b> per-vote, Brier 0.200 — rising to ~73% on SG-involved cases, whose supported side
     historically reverses 75.8% vs 42.3%). Every feature faces the same gate: question
     text was rejected twice; Segal–Cover scores, originating circuit, and
     dissent-below were tested and not adopted. Probabilities are isotonic-calibrated —
-    details and limitations in
-    <code>models/output/report-reverse.md</code>.
+    details and limitations in <code>models/output/report-reverse.md</code>.
   </p>
   <p class="notice">
     <b>Why does everything lean "reverse"?</b> Certiorari selection: the Court takes
     cases largely to fix them, reversing ~70% in recent terms — so calibrated
-    pre-argument forecasts start near that base rate, and the information is in the
-    <i>ordering</i> and per-justice structure. Forecasts are conditional on a merits
+    pre-argument forecasts start near that base rate, and the information is in the <i>ordering</i> and per-justice structure. Forecasts are conditional on a merits
     ruling (mootness/DIG off-ramps are outside the model). Issue areas and lower-court
     directions for pending cases are provisional hand-codings with documented bases
     (<code>models/pending_issues.yaml</code>, <code>models/pending_lc.yaml</code>);
-    split distributions use the validated coalition model. Forecasts regenerate via
-    <code>models/predict.py</code> only while a case awaits argument, then freeze; the
+    split distributions use the validated coalition model. Forecasts regenerate via <code>models/predict.py</code> only while a case awaits argument, then freeze; the
     scorer admits nothing that is not strictly ex-ante — a forecast file written on or
     after decision day is excluded from the track record, never scored.
   </p>

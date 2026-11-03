@@ -25,8 +25,7 @@ const c = m.counts ?? {};
     Court Database</a> (Spaeth, Epstein, Martin, Segal, Ruger &amp; Benesh — the
     canonical source for case and vote records, gratefully used with attribution).
     Because SCDB is released annually, the term in progress is filled provisionally
-    from <a href="https://www.oyez.org" target="_blank" rel="noopener">Oyez</a> and
-    <a href="https://www.courtlistener.com" target="_blank" rel="noopener">CourtListener</a>,
+    from <a href="https://www.oyez.org" target="_blank" rel="noopener">Oyez</a> and <a href="https://www.courtlistener.com" target="_blank" rel="noopener">CourtListener</a>,
     and — same-day — by parsing the Court's own slip-opinion syllabi, validation-gated
     against independently coded lineups. Oral-argument questioning comes from Oyez's
     structured transcripts ({num(7023)} argued cases since 1955); justice biographies
@@ -55,18 +54,15 @@ const c = m.counts ?? {};
   <p class="lede" style="max-width:76ch">
     Every forecast is timestamped in the public git history — preregistration by
     version control. The scorer admits nothing that is not strictly ex-ante: a
-    forecast written on or after decision day is excluded from the
-    <a href={url("/predict")}>track record</a>, never counted. The claims this site
+    forecast written on or after decision day is excluded from the <a href={url("/predict")}>track record</a>, never counted. The claims this site
     makes will be confirmed or embarrassed in public, automatically.
   </p>
 
   <h2>Code, data, and citation</h2>
   <p class="lede" style="max-width:76ch">
-    Everything lives at
-    <a href="https://github.com/KaraZajac/JUDGMENT" target="_blank" rel="noopener">github.com/KaraZajac/JUDGMENT</a> —
+    Everything lives at <a href="https://github.com/KaraZajac/JUDGMENT" target="_blank" rel="noopener">github.com/KaraZajac/JUDGMENT</a> —
     pipeline, models, this site, the methods paper draft, and every validation
-    artifact. Releases are archived on Zenodo under concept DOI
-    <a href="https://doi.org/10.5281/zenodo.21211376" target="_blank" rel="noopener">10.5281/zenodo.21211376</a>,
+    artifact. Releases are archived on Zenodo under concept DOI <a href="https://doi.org/10.5281/zenodo.21211376" target="_blank" rel="noopener">10.5281/zenodo.21211376</a>,
     which always resolves to the latest version. Code is MIT; the derived dataset is
     CC-BY-NC-4.0 with layered attribution documented in DATA-RIGHTS.md. Cite via
     CITATION.cff in the repository.
@@ -75,7 +71,6 @@ const c = m.counts ?? {};
   <p class="lede" style="max-width:76ch">
     Built and maintained by Kara Zajac
     (<a href="https://orcid.org/0009-0001-7400-1394" target="_blank" rel="noopener">ORCID
-    0009-0001-7400-1394</a>). Sources current as of SCDB {m.scdb?.modern_release}
-    with provisional coverage through the term in progress.
+    0009-0001-7400-1394</a>). Sources current as of SCDB {m.scdb?.modern_release} with provisional coverage through the term in progress.
   </p>
 </Base>
