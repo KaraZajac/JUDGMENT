@@ -1,0 +1,71 @@
+id: 2026-d25-5930
+name: Maxwell v. Dinis
+term: 2026
+generated: '2026-11-16T22:50:20Z'
+stage: post-argument
+model:
+  engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t_sg_oa2, walk-forward
+    validated)
+  trained_through_term: 2025
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
+  validated_vote_accuracy: see docs/postargument-gate.md
+features:
+  issue_area: 1
+  issue_area_basis: federal habeas / First Step Act credits
+  lc_direction: conservative
+  lc_direction_basis: "federal prisoner petitioned on First Step Act habeas \u2014 decision below favored\
+    \ the government (anti-prisoner)."
+  question_text: false
+  argued: '2026-11-02'
+  note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
+    handling
+  oral_argument:
+    sessions: 1
+    bench_turns_to_petitioner: 83
+    bench_turns_to_respondent: 35
+    bench_words_to_petitioner: 2225
+    bench_words_to_respondent: 1122
+    justices_with_turns: 9
+prediction:
+  p_reverse: 0.416
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
+  expected_reverse_votes: 3.99
+  reverse_vote_distribution:
+    9-0: 0.132
+    8-1: 0.081
+    7-2: 0.075
+    6-3: 0.064
+    5-4: 0.065
+    4-5: 0.084
+    3-6: 0.096
+    2-7: 0.09
+    1-8: 0.116
+    0-9: 0.197
+votes:
+- justice: JGRoberts
+  p_reverse: 0.474
+  p_liberal: 0.291
+- justice: CThomas
+  p_reverse: 0.288
+  p_liberal: 0.138
+- justice: SAAlito
+  p_reverse: 0.338
+  p_liberal: 0.096
+- justice: SSotomayor
+  p_reverse: 0.479
+  p_liberal: 0.369
+- justice: EKagan
+  p_reverse: 0.702
+  p_liberal: 0.461
+- justice: NMGorsuch
+  p_reverse: 0.338
+  p_liberal: 0.138
+- justice: BMKavanaugh
+  p_reverse: 0.422
+  p_liberal: 0.291
+- justice: ACBarrett
+  p_reverse: 0.422
+  p_liberal: 0.191
+- justice: KBJackson
+  p_reverse: 0.526
+  p_liberal: 0.579
