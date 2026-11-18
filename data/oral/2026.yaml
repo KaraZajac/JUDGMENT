@@ -2,7 +2,7 @@ term: 2026
 coverage:
   argued: 13
   oyez_matched: 13
-  with_transcript: 8
+  with_transcript: 10
 cases:
   2026-d25-1003:
     docket: 25-1003
@@ -148,6 +148,56 @@ cases:
         wp: 148
         tr: 0
         wr: 0
+  2026-d25-417:
+    docket: 25-417
+    sessions: 1
+    justices:
+      JGRoberts:
+        tp: 16
+        wp: 150
+        tr: 6
+        wr: 76
+      CThomas:
+        tp: 5
+        wp: 77
+        tr: 2
+        wr: 25
+      SSotomayor:
+        tp: 42
+        wp: 985
+        tr: 5
+        wr: 161
+      EKagan:
+        tp: 15
+        wp: 496
+        tr: 4
+        wr: 400
+      BMKavanaugh:
+        tp: 17
+        wp: 511
+        tr: 3
+        wr: 115
+      KBJackson:
+        tp: 26
+        wp: 903
+        tr: 3
+        wr: 153
+      ACBarrett:
+        tp: 13
+        wp: 240
+        tr: 2
+        wr: 141
+      NMGorsuch:
+        tp: 18
+        wp: 448
+        tr: 9
+        wr: 159
+      SAAlito:
+        tp: 1
+        wp: 32
+        tr: 6
+        wr: 241
+    sg_amicus: pet
   2026-d25-498:
     docket: 25-498
     sessions: 1
@@ -299,6 +349,56 @@ cases:
         wp: 0
         tr: 2
         wr: 69
+  2026-d25-581:
+    docket: 25-581
+    sessions: 1
+    justices:
+      JGRoberts:
+        tp: 23
+        wp: 289
+        tr: 14
+        wr: 262
+      CThomas:
+        tp: 2
+        wp: 30
+        tr: 2
+        wr: 42
+      SSotomayor:
+        tp: 42
+        wp: 993
+        tr: 2
+        wr: 6
+      KBJackson:
+        tp: 28
+        wp: 1843
+        tr: 8
+        wr: 411
+      EKagan:
+        tp: 12
+        wp: 1189
+        tr: 1
+        wr: 76
+      ACBarrett:
+        tp: 23
+        wp: 826
+        tr: 13
+        wr: 776
+      SAAlito:
+        tp: 6
+        wp: 220
+        tr: 22
+        wr: 667
+      NMGorsuch:
+        tp: 13
+        wp: 406
+        tr: 0
+        wr: 0
+      BMKavanaugh:
+        tp: 15
+        wp: 678
+        tr: 15
+        wr: 753
+    sg_amicus: pet
   2026-d25-5930:
     docket: 25-5930
     sessions: 1
