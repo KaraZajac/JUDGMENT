@@ -2,7 +2,7 @@ term: 2026
 coverage:
   argued: 13
   oyez_matched: 13
-  with_transcript: 10
+  with_transcript: 12
 cases:
   2026-d25-1003:
     docket: 25-1003
@@ -54,6 +54,56 @@ cases:
         tr: 1
         wr: 28
     sg_amicus: pet
+  2026-d25-159:
+    docket: 25-159
+    sessions: 1
+    justices:
+      JGRoberts:
+        tp: 0
+        wp: 0
+        tr: 19
+        wr: 419
+      CThomas:
+        tp: 0
+        wp: 0
+        tr: 11
+        wr: 264
+      SSotomayor:
+        tp: 0
+        wp: 0
+        tr: 10
+        wr: 316
+      BMKavanaugh:
+        tp: 0
+        wp: 0
+        tr: 16
+        wr: 332
+      KBJackson:
+        tp: 0
+        wp: 0
+        tr: 15
+        wr: 746
+      ACBarrett:
+        tp: 0
+        wp: 0
+        tr: 8
+        wr: 363
+      EKagan:
+        tp: 0
+        wp: 0
+        tr: 11
+        wr: 305
+      NMGorsuch:
+        tp: 0
+        wp: 0
+        tr: 11
+        wr: 226
+      SAAlito:
+        tp: 0
+        wp: 0
+        tr: 6
+        wr: 99
+    sg_amicus: resp
   2026-d25-170:
     docket: 25-170
     sessions: 1
@@ -497,3 +547,52 @@ cases:
         wp: 94
         tr: 4
         wr: 76
+  2026-d25-966:
+    docket: 25-966
+    sessions: 1
+    justices:
+      JGRoberts:
+        tp: 15
+        wp: 332
+        tr: 10
+        wr: 111
+      CThomas:
+        tp: 2
+        wp: 34
+        tr: 2
+        wr: 54
+      EKagan:
+        tp: 4
+        wp: 133
+        tr: 15
+        wr: 1006
+      SAAlito:
+        tp: 1
+        wp: 160
+        tr: 7
+        wr: 299
+      NMGorsuch:
+        tp: 34
+        wp: 816
+        tr: 8
+        wr: 114
+      SSotomayor:
+        tp: 15
+        wp: 447
+        tr: 20
+        wr: 703
+      ACBarrett:
+        tp: 11
+        wp: 830
+        tr: 12
+        wr: 465
+      KBJackson:
+        tp: 10
+        wp: 344
+        tr: 21
+        wr: 883
+      BMKavanaugh:
+        tp: 12
+        wp: 280
+        tr: 13
+        wr: 397
