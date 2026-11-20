@@ -211,6 +211,22 @@ Oyez's facts/conclusion narratives are deliberately excluded (editor-written,
 often post-decision). Re-harvest is manual (cache makes it cheap), typically after
 an SCDB release extends the corpus.
 
+## Lower-court opinions — `data/text/lc/`, `lc-matches.yaml`, `lc-pending.yaml`
+
+The lower-court opinion behind a Supreme Court case, from CourtListener via
+`pipeline/lc_opinions.py`: `data/text/lc/<caseId>.json` for the 2017–2024 SCDB cases
+(training pairs for `models/lc_classifier.py`) and `pending-<id>.json` for docket
+cases, each `{caseId, cluster, how, lower_court, text}`. CourtListener's request
+limits spread this work over many daily runs (docs/sources.md §4), so outcomes are
+committed for the next run to resume from:
+
+- `lc-matches.yaml`: `matches` (text on file, with SCDB's lower-court direction
+  label), `settled` (looked up, no text to get: a state court without a citation,
+  no cluster on CourtListener, and so on), `retrying` (failed fetches, tried again on
+  later runs and given up after three), and `status_counts` over all of them.
+- `lc-pending.yaml`: each docket case's last lookup. A case without text is looked
+  up again every 14 days, or on the next run after a failed fetch.
+
 ## Codebook — `data/codebook/`
 
 One YAML per fully-decoded field: `{code, token, label}` triples as emitted from

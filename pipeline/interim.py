@@ -22,7 +22,9 @@ skips it and `pipeline.build` regenerates the term canonically.
     python3 -m pipeline.interim      # provisional gap terms (cached; --refresh to refetch)
     python3 -m pipeline.aggregates   # term rollups, incl. provisional terms
 
-Set COURTLISTENER_TOKEN for authenticated CL rates (optional).
+The CourtListener search needs COURTLISTENER_TOKEN (its v4 API answers
+anonymous requests with 401); without it the supplement is skipped. Its pages
+count against the account's 125 requests a day (see pipeline/courtlistener.py).
 """
 
 import datetime
@@ -41,6 +43,7 @@ from zoneinfo import ZoneInfo
 import yaml
 
 from . import _env  # noqa: F401  (loads .env: COURTLISTENER_TOKEN etc.)
+from . import courtlistener as cl
 from .build import DATA, SOURCES, dump_yaml, put
 
 CACHE = SOURCES / "interim"
@@ -129,17 +132,15 @@ def cl_search(term, refresh):
         "type": "o", "court": "scotus", "order_by": "dateFiled desc",
         "filed_after": start, "filed_before": end,
     })
-    url = f"https://www.courtlistener.com/api/rest/v4/search/?{params}"
-    # Deliberately anonymous: the search endpoint serves unauthenticated
-    # traffic fine, and sending the account token here would burn its
-    # 50/hr / 125/day budget (needed for the auth-only endpoints in
-    # pipeline.lc_opinions) on fast-paginated searches.
-    headers = {}
+    url = f"{cl.API}/search/?{params}"
+    # Authenticated, and counted against the account's daily allowance by
+    # pipeline.courtlistener: CourtListener stopped serving these searches
+    # anonymously (HTTP 401). Each page is one request.
     results, page = [], 0
     while url and page < 12:
         try:
-            payload = fetch_json(url, f"cl-search-{term}-p{page}.json", refresh, headers)
-        except (HTTPError, URLError) as e:
+            payload = cl.get(url, f"cl-search-{term}-p{page}.json", refresh)
+        except (cl.Exhausted, OSError, ValueError) as e:
             print(f"  CL search stopped at page {page}: {e}")
             break
         results.extend(payload.get("results") or [])

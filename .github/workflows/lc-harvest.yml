@@ -1,14 +1,25 @@
 name: lc-harvest
 
-# Daily budgeted tranche of the lower-court opinion harvest (CourtListener
-# free tier: 125 requests/day; each run spends <=100, spaced 13s apart, and
-# resumes from the committed manifest). Deletes itself from the schedule by
-# simply finding nothing left to fetch once the 2017-2024 corpus is matched.
+# Daily: the decision-day pipeline (new decisions, grants, votes, transcripts,
+# scoring) plus the lower-court opinions, for the cases on the docket first and
+# then a tranche of the 2017-2024 training corpus.
+#
+# CourtListener allows 5 requests/min, 50/hour and 125/day per account, as
+# rolling windows shared by every job. pipeline/courtlistener.py asks the
+# account's usage API before spending, keeps 25 of the 125 in reserve, counts
+# retries, and stops at the first 429. Every case's outcome is committed
+# (data/text/lc-matches.yaml, lc-pending.yaml), so each run picks up where the
+# last stopped; once 2017-2024 is done the harvest has nothing left to fetch.
 
 on:
   schedule:
     - cron: "0 9 * * *" # daily 09:00 UTC
   workflow_dispatch:
+
+# one CourtListener job at a time (shared with refresh.yml): they share its limits
+concurrency:
+  group: courtlistener
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -33,18 +44,17 @@ jobs:
       - name: Download SCDB sources (case list for matching)
         run: python -m pipeline.download
 
-      - name: Harvest one budgeted tranche
-        run: python -m pipeline.lc_opinions --harvest --start 2017 --budget 100
-
-      - name: Refresh pending lower-court opinions (cheap, cached)
-        run: python -m pipeline.lc_opinions --pending
-
       # decision-day pipeline: during the term, decisions land any weekday —
       # ingest them, parse same-day votes from the syllabi, refresh rollups,
       # and score any decided forecasts within 24h instead of waiting for the
       # weekly refresh
       - name: Interim ingest (new decisions, grants, schedules)
         run: python -m pipeline.interim
+
+      # after the interim ingest, so new grants are on the docket; the
+      # docket's cases go first and the 2017-2024 backfill gets what is left
+      - name: Lower-court opinions (docket cases, then a harvest tranche)
+        run: python -m pipeline.lc_opinions --pending --harvest --start 2017 --budget 100
 
       - name: Same-day votes from slip-opinion syllabi (validation-gated)
         run: python -m pipeline.syllabus

@@ -95,8 +95,8 @@ def main():
     print(f"training pairs with text: {len(labels)} "
           f"(terms {terms.min() if len(terms) else '—'}–{terms.max() if len(terms) else '—'})")
     if len(labels) < MIN_TRAIN:
-        print(f"insufficient training data (< {MIN_TRAIN}) — keep running harvest "
-              f"tranches; the daily workflow accumulates ~30 matches/run")
+        print(f"insufficient training data (< {MIN_TRAIN}) — the daily workflow keeps "
+              f"harvesting; progress is in data/text/lc-matches.yaml (status_counts)")
         return
 
     metrics = evaluate(texts, labels, terms)

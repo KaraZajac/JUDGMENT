@@ -96,6 +96,7 @@ Requires Python ≥ 3.11 and PyYAML. From the repo root:
 python3 -m pipeline.download   # fetch newest SCDB releases (~96 MB CSV into sources/)
 python3 -m pipeline.build      # regenerate data/ (~29k YAML files, ~2 minutes)
 python3 -m pipeline.interim    # provisional current-term cases (Oyez + CourtListener)
+python3 -m pipeline.lc_opinions --pending --harvest  # lower-court opinions (CourtListener; resumable)
 python3 -m pipeline.aggregates # per-term rollups for the site
 python3 -m pipeline.agreement  # justice-pair agreement matrices per natural court
 python3 -m pipeline.questions  # question-presented text corpus (manual; ~1h first run)
@@ -106,7 +107,9 @@ python3 -m pipeline.validate   # structural + consistency checks
 A weekly GitHub Action (`.github/workflows/refresh.yml`) runs the whole chain —
 including new-SCDB-release pickup, forecasting, and forecast scoring — and commits
 only substantive changes; `.github/workflows/ci.yml` validates the corpus and
-builds every site page on each push.
+builds every site page on each push. A daily one (`.github/workflows/lc-harvest.yml`)
+runs the decision-day steps and collects lower-court opinions from CourtListener,
+inside the free tier's 125 requests a day ([docs/sources.md](docs/sources.md) §4).
 
 SCDB lands annually, so `interim` bridges the gap: the term in progress (and the one
 just ended) is ingested from Oyez and CourtListener as `provisional: true` records —

@@ -10,6 +10,11 @@ on:
     - cron: "0 13 * * 1" # Mondays 13:00 UTC
   workflow_dispatch:
 
+# one CourtListener job at a time (shared with lc-harvest.yml): they share its limits
+concurrency:
+  group: courtlistener
+  cancel-in-progress: false
+
 permissions:
   contents: write
 

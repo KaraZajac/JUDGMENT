@@ -56,14 +56,26 @@ section-order fallback for the pre-1970s metadata gap (flagged
 walk-forward gate result in docs/postargument-gate.md. supremecourt.gov
 argument-transcript PDFs (1968+) are the documented fallback source.
 
-## 4. CourtListener / Free Law Project — in use (interim current-term ingest)
+## 4. CourtListener / Free Law Project — in use (interim ingest, lower-court opinions)
 
-Supplement in `pipeline.interim`: the v4 search API (works unauthenticated; set
-`COURTLISTENER_TOKEN` for higher limits) lists published SCOTUS opinion clusters
-near-real-time, catching decisions Oyez doesn't list (e.g. signed emergency-docket
-opinions) as thin records, and supplying citations. Cluster/opinion detail endpoints
-require auth; not currently needed. Also the planned source for machine-readable
-opinion text (phase 4).
+Two uses, both through `pipeline/courtlistener.py` with the account token
+(`COURTLISTENER_TOKEN`; the v4 API answers anonymous requests with 401):
+
+- `pipeline.interim`: the v4 search API lists published SCOTUS opinion clusters
+  near-real-time, catching decisions Oyez doesn't list (e.g. signed emergency-docket
+  opinions) as thin records, and supplying citations.
+- `pipeline.lc_opinions`: the dockets, clusters and opinions endpoints (and a quoted
+  citation search for state courts) supply the lower-court opinion behind each
+  docket case and each 2017–2024 SCDB case, the training pairs for the
+  lower-court-direction classifier. See docs/data-model.md for the files.
+
+The free tier allows 5 requests a minute, 50 an hour and 125 a day per account, as
+rolling windows. The client asks the account's usage API before spending (that API
+is free), leaves 25 of the 125 for interactive use, caps a run at 100 requests
+counting retries, stops at the first 429, and spaces requests at no more than 4 a
+minute and 45 an hour. Every case's outcome is committed, so each daily run resumes
+where the last one stopped rather than fetching again. Also the planned source for
+machine-readable opinion text (phase 4).
 
 ## 5. Martin–Quinn scores — planned (source currently unreachable)
 
