@@ -1,12 +1,15 @@
-generated: '2026-11-20T20:12:40Z'
+generated: '2026-11-21T16:39:04Z'
 terms:
 - 2017
 - 2024
 status_counts:
-  matched: 43
-  unresolvable: 1
-  retrying: 0
-  untried: 478
+  matched: 46
+  docket-no-cluster: 8
+  no-lower-court: 1
+  no-text: 1
+  unresolvable: 14
+  retrying: 2
+  untried: 450
 matches:
   2017-001:
     cluster: 3132501
@@ -266,6 +269,53 @@ matches:
     lower_court: United States Court of Appeals for the Eleventh Circuit
     chars: 24454
     lc_direction_label: 1
+  2017-069:
+    cluster: 4403962
+    how: docket:cadc/15-1345
+    lower_court: United States Court of Appeals for the District of Columbia Circuit
+    chars: 1618
+    lc_direction_label: 3
+  2017-071:
+    cluster: 4383248
+    how: docket:ca10/16-2062
+    lower_court: United States Court of Appeals for the Tenth Circuit
+    chars: 21347
+    lc_direction_label: 1
+  2017-074:
+    cluster: 4525604
+    how: docket:ca9/17-17168
+    lower_court: United States Court of Appeals for the Ninth Circuit
+    chars: 1199
+    lc_direction_label: 2
 settled:
   2017-004: unresolvable:United States District Court for the Wes|(15-cv-421-bbc)
-retrying: {}
+  2017-009: no-text
+  2017-010: docket-no-cluster:ca2/13-3605
+  2017-013: docket-no-cluster:ca9/13-60038
+  2017-014: unresolvable:District of Columbia Court of Appeals|(15-CV-0243)
+  2017-019: unresolvable:Court of Appeal of California, First App|(A146891)
+  2017-020: unresolvable:Court of Appeals of Colorado|(14CA1351)
+  2017-024: unresolvable:United States Court of Appeals for the F|(2015-1855)
+  2017-025: unresolvable:United States Court of Appeals for the F|(2015-1346, 2015-1347)
+  2017-032: no-lower-court
+  2017-035: docket-no-cluster:afcca/16-0635
+  2017-036: docket-no-cluster:afcca/16-0651
+  2017-038: docket-no-cluster:afcca/16-0671
+  2017-039: unresolvable:Supreme Court of Louisiana|(2014-KA-1449)
+  2017-042: unresolvable:Supreme Court of Virginia|(160102)
+  2017-052: unresolvable:United States District Court for the Dis|(1:13-cv-03233-JKB)
+  2017-058: unresolvable:United States Court of Appeals for the F|(2013-1527, 2014-1121, 2014-1526, 2014-1
+  2017-059: unresolvable:Supreme Court of South Dakota|(28160-a-GAS)
+  2017-064: unresolvable:Supreme Court of Washington|(91622-5)
+  2017-068: docket-no-cluster:ca8/15-3794
+  2017-070: docket-no-cluster:ca1/16-1033
+  2017-072: unresolvable:United States District Court for the Wes|(SA-11-CV-360)
+  2017-073: docket-no-cluster:ca2/13-4791
+  2017-075: unresolvable:Supreme Court of Virginia|(151277)
+retrying:
+  2017-031:
+    tries: 1
+    last: no-scotus-docket
+  2017-055:
+    tries: 1
+    last: no-scotus-docket
