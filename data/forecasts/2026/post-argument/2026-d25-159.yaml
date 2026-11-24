@@ -1,0 +1,72 @@
+id: 2026-d25-159
+name: Hoffmann v. WBI Energy Transmission, Inc.
+term: 2026
+generated: '2026-11-24T00:41:31Z'
+stage: post-argument
+model:
+  engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t_sg_oa2, walk-forward
+    validated)
+  trained_through_term: 2025
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
+  validated_vote_accuracy: see docs/postargument-gate.md
+features:
+  issue_area: 8
+  issue_area_basis: Natural Gas Act just-compensation standard (state law vs federal floor)
+  lc_direction: conservative
+  lc_direction_basis: "landowners (Institute for Justice) petitioned \u2014 Eighth Circuit (24-1693) held\
+    \ the lower federal compensation floor governs NGA condemnations (pro-condemnor pipeline below)."
+  question_text: false
+  argued: '2026-11-09'
+  note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
+    handling
+  oral_argument:
+    sessions: 1
+    bench_turns_to_petitioner: 91
+    bench_turns_to_respondent: 16
+    bench_words_to_petitioner: 2563
+    bench_words_to_respondent: 507
+    justices_with_turns: 9
+    sg_amicus_supports: resp
+prediction:
+  p_reverse: 0.229
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
+  expected_reverse_votes: 2.34
+  reverse_vote_distribution:
+    9-0: 0.057
+    8-1: 0.044
+    7-2: 0.038
+    6-3: 0.039
+    5-4: 0.052
+    4-5: 0.063
+    3-6: 0.063
+    2-7: 0.076
+    1-8: 0.129
+    0-9: 0.441
+votes:
+- justice: JGRoberts
+  p_reverse: 0.263
+  p_liberal: 0.291
+- justice: CThomas
+  p_reverse: 0.288
+  p_liberal: 0.369
+- justice: SAAlito
+  p_reverse: 0.25
+  p_liberal: 0.237
+- justice: SSotomayor
+  p_reverse: 0.234
+  p_liberal: 0.475
+- justice: EKagan
+  p_reverse: 0.234
+  p_liberal: 0.461
+- justice: NMGorsuch
+  p_reverse: 0.263
+  p_liberal: 0.247
+- justice: BMKavanaugh
+  p_reverse: 0.234
+  p_liberal: 0.242
+- justice: ACBarrett
+  p_reverse: 0.288
+  p_liberal: 0.337
+- justice: KBJackson
+  p_reverse: 0.288
+  p_liberal: 0.594

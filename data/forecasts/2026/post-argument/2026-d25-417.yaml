@@ -1,0 +1,73 @@
+id: 2026-d25-417
+name: Nielsen v. Watanabe
+term: 2026
+generated: '2026-11-24T00:41:31Z'
+stage: post-argument
+model:
+  engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t_sg_oa2, walk-forward
+    validated)
+  trained_through_term: 2025
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
+  validated_vote_accuracy: see docs/postargument-gate.md
+features:
+  issue_area: 8
+  issue_area_basis: Bivens-extension liability question (Egbert 80060 convention; SCDB itself splits with
+    Ziglar=2)
+  lc_direction: liberal
+  lc_direction_basis: "federal officer petitioned \u2014 Ninth Circuit (23-15605) allowed the Bivens medical-indifference\
+    \ claim to proceed (pro-claimant below)."
+  question_text: false
+  argued: '2026-11-09'
+  note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
+    handling
+  oral_argument:
+    sessions: 1
+    bench_turns_to_petitioner: 153
+    bench_turns_to_respondent: 40
+    bench_words_to_petitioner: 3842
+    bench_words_to_respondent: 1471
+    justices_with_turns: 9
+    sg_amicus_supports: pet
+prediction:
+  p_reverse: 0.843
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
+  expected_reverse_votes: 6.77
+  reverse_vote_distribution:
+    9-0: 0.299
+    8-1: 0.168
+    7-2: 0.181
+    6-3: 0.124
+    5-4: 0.071
+    4-5: 0.045
+    3-6: 0.036
+    2-7: 0.029
+    1-8: 0.023
+    0-9: 0.024
+votes:
+- justice: JGRoberts
+  p_reverse: 0.895
+  p_liberal: 0.199
+- justice: CThomas
+  p_reverse: 0.895
+  p_liberal: 0.291
+- justice: SAAlito
+  p_reverse: 0.925
+  p_liberal: 0.093
+- justice: SSotomayor
+  p_reverse: 0.422
+  p_liberal: 0.787
+- justice: EKagan
+  p_reverse: 0.722
+  p_liberal: 0.528
+- justice: NMGorsuch
+  p_reverse: 0.784
+  p_liberal: 0.337
+- justice: BMKavanaugh
+  p_reverse: 0.818
+  p_liberal: 0.247
+- justice: ACBarrett
+  p_reverse: 0.895
+  p_liberal: 0.199
+- justice: KBJackson
+  p_reverse: 0.411
+  p_liberal: 0.696

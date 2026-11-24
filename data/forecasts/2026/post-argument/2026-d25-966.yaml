@@ -1,0 +1,71 @@
+id: 2026-d25-966
+name: 'Department of Labor v. Sun Valley Orchards, LLC '
+term: 2026
+generated: '2026-11-24T00:41:31Z'
+stage: post-argument
+model:
+  engine: HistGradientBoosting, deployment-matched feature subset (pending_config_lc_issue3t_sg_oa2, walk-forward
+    validated)
+  trained_through_term: 2025
+  calibration: isotonic over the configuration's own 1956-2024 out-of-sample predictions
+  validated_vote_accuracy: see docs/postargument-gate.md
+features:
+  issue_area: 9
+  issue_area_basis: agency adjudication vs Article III courts
+  lc_direction: conservative
+  lc_direction_basis: "Department of Labor petitioned \u2014 decision below rejected agency adjudication\
+    \ authority (anti-agency-power in economic regulation)."
+  question_text: false
+  argued: '2026-11-10'
+  note: lower-court direction, parties, and law type unknown pre-SCDB coding; model uses native missing-value
+    handling
+  oral_argument:
+    sessions: 1
+    bench_turns_to_petitioner: 104
+    bench_turns_to_respondent: 108
+    bench_words_to_petitioner: 3376
+    bench_words_to_respondent: 4032
+    justices_with_turns: 9
+prediction:
+  p_reverse: 0.852
+  aggregation: two-factor coalition (valence 1.85, ideology 2.15)
+  expected_reverse_votes: 7.2
+  reverse_vote_distribution:
+    9-0: 0.426
+    8-1: 0.196
+    7-2: 0.104
+    6-3: 0.074
+    5-4: 0.051
+    4-5: 0.044
+    3-6: 0.041
+    2-7: 0.026
+    1-8: 0.019
+    0-9: 0.018
+votes:
+- justice: JGRoberts
+  p_reverse: 0.754
+  p_liberal: 0.79
+- justice: CThomas
+  p_reverse: 0.773
+  p_liberal: 0.79
+- justice: SAAlito
+  p_reverse: 0.857
+  p_liberal: 0.833
+- justice: SSotomayor
+  p_reverse: 0.895
+  p_liberal: 0.899
+- justice: EKagan
+  p_reverse: 0.903
+  p_liberal: 0.924
+- justice: NMGorsuch
+  p_reverse: 0.474
+  p_liberal: 0.696
+- justice: BMKavanaugh
+  p_reverse: 0.868
+  p_liberal: 0.866
+- justice: ACBarrett
+  p_reverse: 0.754
+  p_liberal: 0.787
+- justice: KBJackson
+  p_reverse: 0.927
+  p_liberal: 0.931
